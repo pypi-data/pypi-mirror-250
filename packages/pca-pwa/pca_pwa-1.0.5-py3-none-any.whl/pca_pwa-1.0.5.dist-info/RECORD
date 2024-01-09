@@ -1,0 +1,9 @@
+pca_pwa/__init__.py,sha256=FTkus2-Z4Bva1_TTrwoYwwC_TCpMKwmsyzeoQ1Si7-Y,45
+pca_pwa/app.py,sha256=wOOWBb_8G4EDWXeuRiR-Fy81jap_BtAYz-aaCD6ftrk,6390
+pca_pwa/static/styles.css,sha256=HvEJ9C_HGqcnUXMqmW0HH17tPnQTRIYZMXXPpf-qRw8,1097
+pca_pwa/static/stylish.css,sha256=ZChFTeH27huKulqgZiAYXygVGkjRjWvya-N3_-k7yTU,1425
+pca_pwa/templates/index.html,sha256=ITcQBydAJEfJWf9sK-GGucqpMXBjMsKkslF6f4X3s6o,2505
+pca_pwa/templates/result.html,sha256=48BE92prPLZOdMkgY43xUFFrys3Ib0AQ14hjef3u7iE,1376
+pca_pwa-1.0.5.dist-info/METADATA,sha256=JlPKCOJeGp1W1ibUA4FGjxbiJuuGovlf2umuIUEoGYw,2825
+pca_pwa-1.0.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pca_pwa-1.0.5.dist-info/RECORD,,
