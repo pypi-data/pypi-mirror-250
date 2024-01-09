@@ -1,0 +1,13 @@
+libxmp/__init__.py,sha256=W6RoGKtBEfpNQG4fsTzPapJIoSDnvet3sHLq7DAjE9k,2325
+libxmp/consts.py,sha256=2bEndgAlCaSRNj5EwyRirGgcIgGXdNyMSPtrB0h4fG0,15894
+libxmp/core.py,sha256=Y3UaCKHd9SyPutP_QoB_pTHsvqJFRu_hf2YDIhPs8ic,37509
+libxmp/exempi.py,sha256=NAEmx_7KDXl4FMuN-hwGLETn986Ffgp5HxRTIrS6oKI,52176
+libxmp/files.py,sha256=7YvKgwo43D9AEwFv2IU33Ikxc39Y_2BsjgIGf46HeAU,7164
+libxmp/utils.py,sha256=5cb2WV6-d0C5ln5gu85GpFRvn9wUV4QX71msWJx5Bss,3282
+libxmp/version.py,sha256=vt1uHtHunwfpJcYwkKBrStk1b7ImXAlDRbb4ItE9Law,1991
+python_xmp_toolkit-2.0.1.dist-info/AUTHORS,sha256=FlFFANdNVR4YjTiICZcowZliebHxDz_eBrzXsb6QAII,210
+python_xmp_toolkit-2.0.1.dist-info/LICENSE,sha256=Hg0q1zVtrPPqLLVdaAAfJE-gN30LFeCGFN0I0qCPN9w,1676
+python_xmp_toolkit-2.0.1.dist-info/METADATA,sha256=Yt5jb9lsul9Ij1gx0ZoJkMrQFT13HFoYFSfkjTfvDOI,2665
+python_xmp_toolkit-2.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+python_xmp_toolkit-2.0.1.dist-info/top_level.txt,sha256=5a3CW_qQ57YGXq7FRZ7h7Gkw0waNUPBypMkPpibijHM,7
+python_xmp_toolkit-2.0.1.dist-info/RECORD,,
