@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+mindaugas_enhanced_print/__init__.py
+mindaugas_enhanced_print/printer.py
+mindaugas_enhanced_print.egg-info/PKG-INFO
+mindaugas_enhanced_print.egg-info/SOURCES.txt
+mindaugas_enhanced_print.egg-info/dependency_links.txt
+mindaugas_enhanced_print.egg-info/top_level.txt

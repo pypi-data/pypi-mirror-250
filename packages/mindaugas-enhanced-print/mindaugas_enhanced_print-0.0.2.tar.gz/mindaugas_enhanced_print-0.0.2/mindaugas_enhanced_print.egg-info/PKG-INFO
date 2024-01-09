@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mindaugas_enhanced_print
+Version: 0.0.2
+Summary: Some library
+Home-page: https://github.com/MindaugasBernatavicius/notes
+Author: Mindaugas Bernatavicius
+Author-email: testtest2@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# This is an awesome library
