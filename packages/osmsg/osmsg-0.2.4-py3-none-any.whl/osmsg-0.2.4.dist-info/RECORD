@@ -1,0 +1,11 @@
+osmsg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osmsg/app.py,sha256=UQcsUZxiyJvF9b1PSHgbkh94XVvpqdcnVHe5S6yIi9M,58396
+osmsg/changefiles.py,sha256=cjjDcf21o2EyA_gue1yEBSBqZ4MXCtmRvQr3qx-hi9E,7897
+osmsg/changesets.py,sha256=CsQWqfxAPFzVdrmARYzaJhzZaGjRejeQMRf1LwjMxFc,6370
+osmsg/login.py,sha256=whrEMGtcXTgqHfOM85BZdLs_b5SKULb313n_o7Anhu0,5719
+osmsg/utils.py,sha256=LL60WA0qn6sZuX9ZBsBkSuxWW91PvcCx4Vr2eQN7vuw,29060
+osmsg-0.2.4.dist-info/LICENSE,sha256=NpYrO2malWmtVX7pyK6GPZ15tcFHRl-8KzdmzqkRp_s,1075
+osmsg-0.2.4.dist-info/METADATA,sha256=aXs4oLbzahXe2zCUmazUzJzJtNkKf-IqWnYxNIoODCE,4528
+osmsg-0.2.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+osmsg-0.2.4.dist-info/entry_points.txt,sha256=89-dYziEBXqspdeA4jvH-NSh3_LSTMBX5f6KRjePIFw,40
+osmsg-0.2.4.dist-info/RECORD,,
