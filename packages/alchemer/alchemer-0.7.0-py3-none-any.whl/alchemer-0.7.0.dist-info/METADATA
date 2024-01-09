@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: alchemer
+Version: 0.7.0
+License: GPL-3.0-or-later
+Author-email: Charlie Bini <5003326+cbini@users.noreply.github.com>
+Requires-Python: >=3.8
+Requires-Dist: pendulum>=2.1.2
+Requires-Dist: requests>=2.28.2
