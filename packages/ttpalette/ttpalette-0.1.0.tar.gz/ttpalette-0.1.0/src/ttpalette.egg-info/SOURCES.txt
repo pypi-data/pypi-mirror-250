@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/ttpalette/__init__.py
+src/ttpalette/ttpalette.py
+src/ttpalette.egg-info/PKG-INFO
+src/ttpalette.egg-info/SOURCES.txt
+src/ttpalette.egg-info/dependency_links.txt
+src/ttpalette.egg-info/top_level.txt
