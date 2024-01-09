@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: LexBuilder
+Version: 0.9.0
+Summary: Library for automatic construction of lexers
+Author: Alexander554
+Author-email: gaa.28112008@gmail.com
+Keywords: python lexer
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# About LexBuilder
+#### LexBuilder is a library for automatically building a lexer in Python. In the future, the library will be able to build lexers in major programming languages such as C++, Golang, Java/Kotlin, etc.
+
+
