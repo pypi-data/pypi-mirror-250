@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aext-panels-server"
+dynamic = ["version"]
+description = 'The aext-panels-server component of anaconda-toolbox'
+readme = "README.md"
+license = "BSD-3-Clause"
+
+[tool.hatch.version]
+path = "src/aext_panels_server/__init__.py"
