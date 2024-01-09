@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: whentowork
+Version: 0.0.1
+Summary: A wrapper for the WhenToWork API
+Author-email: Patrick Brady <patrick16brady@gmail.com>
+Project-URL: Homepage, https://github.com/pfbrady/whentowork
+Project-URL: Issues, https://github.com/pfbrady/whentowork/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+whentowork.py
+==========
+
+
+An API wrapper for WhenToWork's Employee Scheduling software written in Python.
+
+
+Installation
+----------
+
+
+_To install the library_:
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U whentowork.py
+
+    # Windows
+    py -3 -m pip install -U whentowork.py
+
+
+Examples
+--------------
+
+.. code:: py
+
+    import whentowork
+
+    client = discord.Client(hostname=W2W_HOSTNAME, api_key=W2W_TOKEN)
+
+
+Links
+------
+
+- `WhenToWork API <https://when2work.com/help/mgr/api-access/>`_
