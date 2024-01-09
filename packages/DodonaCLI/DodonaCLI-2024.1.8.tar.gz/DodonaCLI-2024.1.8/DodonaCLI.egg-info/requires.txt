@@ -1,0 +1,7 @@
+rich
+markdownify
+bs4
+click
+click-default-group
+update-notipy
+tomli
