@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+keyvalue_sqlite/__init__.py
+keyvalue_sqlite/keyvalue_sqlite.py
+keyvalue_sqlite.egg-info/PKG-INFO
+keyvalue_sqlite.egg-info/SOURCES.txt
+keyvalue_sqlite.egg-info/dependency_links.txt
+keyvalue_sqlite.egg-info/top_level.txt
