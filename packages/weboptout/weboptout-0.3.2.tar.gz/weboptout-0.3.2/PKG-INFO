@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: weboptout
+Version: 0.3.2
+Summary: Checks the Copyright information of online works and their conditions of use.
+Home-page: https://github.com/alexjc/weboptout
+License: MIT and UNLICENSED
+Author: Alex J. Champandard
+Author-email: 445208+alexjc@users.noreply.github.com
+Requires-Python: >=3.9
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Provides-Extra: webdriver
+Requires-Dist: aiohttp (>=3.8)
+Requires-Dist: beautifulsoup4 (>=4.12)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: langdetect (>=1.0.9)
+Requires-Dist: selenium (==0.3.2) ; extra == "webdriver"
+Project-URL: Repository, https://github.com/alexjc/weboptout
