@@ -1,0 +1,9 @@
+LICENSE
+README.md
+danatools.py
+pyproject.toml
+danatools.egg-info/PKG-INFO
+danatools.egg-info/SOURCES.txt
+danatools.egg-info/dependency_links.txt
+danatools.egg-info/requires.txt
+danatools.egg-info/top_level.txt
