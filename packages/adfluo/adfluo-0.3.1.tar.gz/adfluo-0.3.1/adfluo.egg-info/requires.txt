@@ -1,0 +1,21 @@
+rich
+sortedcontainers>=2.3.0
+typing-extensions
+
+[:python_version < "3.7"]
+dataclasses
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[plot]
+matplotlib
+networkX
+
+[tests]
+pytest
+pandas
+h5py
+matplotlib
+networkX
