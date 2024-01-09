@@ -1,0 +1,8 @@
+pennylane>=0.33
+pennylane_lightning==0.34.0
+
+[gpu]
+pennylane-lightning-gpu
+
+[kokkos]
+pennylane-lightning-kokkos
