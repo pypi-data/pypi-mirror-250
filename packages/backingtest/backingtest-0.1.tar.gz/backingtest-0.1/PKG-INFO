@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: backingtest
+Version: 0.1
+Summary: A lib to help you backing test your results and get some insights.
+Home-page: https://github.com/peedroca/exchange_backingtest
+Author: peedroca
+Author-email: phm1080@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Exchange Backingtest
+
+A lib to help you backing test your results and get some insights.
