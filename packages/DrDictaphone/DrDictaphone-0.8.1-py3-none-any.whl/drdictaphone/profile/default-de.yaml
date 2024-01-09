@@ -1,0 +1,7 @@
+topic:
+  - Die Inhalte sind Notizen ohne spezifisches Thema.
+language: de
+output: default-de
+output_command: pbcopy
+enable_vad: true
+gpt_model: gpt_model/gpt-4-stable.yaml
