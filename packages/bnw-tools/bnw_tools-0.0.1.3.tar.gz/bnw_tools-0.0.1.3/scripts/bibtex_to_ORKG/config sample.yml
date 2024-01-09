@@ -1,0 +1,6 @@
+# Path to where your input.bib is
+path: path/to/my/sample_input.bib
+
+# OPTIONAL:
+# cutoff threshold for k_score, if you have that calculated already 
+threshold: 5

@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling"]
+# requires = ["hatchling<=1.18.0"]  
+build-backend = "hatchling.build"
+
+[project]
+name = "bnw_tools"
+version = "0.0.1.3"
+authors = [
+  { name="BorgNetzWerk", email="info@borgnetzwerk.de" },
+  { name="Tim Wittenborg", email="tim.wittenborg@l3s.uni-hannover.de" },
+]
+description = "Tools developed in the BorgNetzWerk project for the extraction, analysis and publication of knowledge."
+keywords = ["BorgNetzWerk", "ORKG", "knowledge", "literature", "media"]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "levenshtein",
+  "pyyaml",
+  "wordcloud",
+  "opencv-python",
+  "spacy>=3.0.0,<4.0.0",
+  "flair",
+  "pandas",
+  "wordfreq",
+  "termcolor",
+  "mutagen",
+  "pdfminer.six",
+  "pdfminer",
+  "pdfrw",
+  "pdfquery",
+  "PyPDF2",
+  "PyMuPDF",
+  "bibtexparser",
+  "mutagen",
+  "path",
+]
+
+[project.optional-dependencies]
+youtube = ["pytube"]
+whisper = ["openai-whisper"]
+
+
+[project.urls]
+Homepage = "https://borgnetzwerk.de/"
+Repository = "https://github.com/borgnetzwerk/tools"
+Issues = "https://github.com/borgnetzwerk/tools/issues"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.sdist.force-include]
+"bnw_tools/ORKG/ResearchFields.json" = "bnw_tools/ORKG/ResearchFields.json"
+"bnw_tools/ORKG/RF_Map.json" = "bnw_tools/ORKG/RF_Map.json"
+
+[tool.hatch.build.targets.wheel.force-include]
+"bnw_tools/ORKG/ResearchFields.json" = "bnw_tools/ORKG/ResearchFields.json"
+"bnw_tools/ORKG/RF_Map.json" = "bnw_tools/ORKG/RF_Map.json"
