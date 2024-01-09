@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+drdictaphone_shared/config_path.py
+drdictaphone_shared/rpc.py
+drdictaphone_shared/status_line.py
+drdictaphone_shared.egg-info/PKG-INFO
+drdictaphone_shared.egg-info/SOURCES.txt
+drdictaphone_shared.egg-info/dependency_links.txt
+drdictaphone_shared.egg-info/requires.txt
+drdictaphone_shared.egg-info/top_level.txt
