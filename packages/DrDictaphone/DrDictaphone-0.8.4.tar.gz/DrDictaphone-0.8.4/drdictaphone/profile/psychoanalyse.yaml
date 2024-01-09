@@ -1,0 +1,7 @@
+topic:
+  - Die Inhalte sind aus den Themenbereichen von Philosophie und Psychoanalyse
+language: de
+output: psychoanalyse
+output_command: pbcopy
+enable_vad: true
+gpt_model: gpt_model/gpt-4-stable.yaml
