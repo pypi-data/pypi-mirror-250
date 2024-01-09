@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+anitvam_fp.egg-info/PKG-INFO
+anitvam_fp.egg-info/SOURCES.txt
+anitvam_fp.egg-info/dependency_links.txt
+anitvam_fp.egg-info/top_level.txt
