@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fprlib
+Version: 1.1.0
+Summary: Knjižnica za FPR
+Home-page: https://github.com/DrKvass/fprlib
+Author: Dr.Kvass
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: statistics
+Requires-Dist: uncertainties
+
+https://github.com/DrKvass/fprlib
