@@ -1,0 +1,85 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flaxkv"
+description = "A high-performance dictionary database."
+authors = [
+    { name = "K.Y", email = "beidongjiedeguang@gmail.com" },
+]
+license-files = { paths = ["LICENSE"] }
+readme = "README.md"
+keywords = ["persistent-storage", "on-disk dict", "lmdb", "leveldb", "Machine Learning", "NLP"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3"
+]
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "loguru>=0.7.0",
+    "orjson>=3.9",
+    "rich",
+    "psutil",
+    "fire",
+    "pytz",
+    "numpy",
+    "msgspec>=0.18.4",
+    "msgpack",
+    "lmdb>=1.4.1",
+    "plyvel>=1.5.0; sys_platform == 'linux'",
+    "plyvel-ci>=1.5.0; sys_platform == 'win32'",
+    "plyvel-ci>=1.5.0; sys_platform == 'darwin'",
+    "typing-extensions>=4.7.1; python_version<'3.11'",
+]
+
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/KenyonY/flaxkv"
+Documentation = "https://github.com/KenyonY/flaxkv#flaxkv"
+Issues = "https://github.com/KenyonY/flaxkv/issues"
+Source = "https://github.com/KenyonY/flaxkv"
+
+[project.optional-dependencies]
+test = [
+    "litestar>=2.5.0",
+    "pytest",
+    "pytest-aiohttp",
+    "uvicorn",
+    "httpx",
+]
+
+
+server = [
+    "uvicorn",
+    "litestar>=2.5.0",
+    "httpx",
+]
+
+client = [
+    "httpx",
+]
+
+
+[project.scripts]
+flaxkv = "flaxkv.__main__:main"
+
+[tool.hatch.version]
+path = "flaxkv/__init__.py"
+
+[tool.isort]
+profile = "black"
+
+[tool.hatch.build]
+include = [
+    "flaxkv/**/*.py",
+]
+exclude = [
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["flaxkv"]
