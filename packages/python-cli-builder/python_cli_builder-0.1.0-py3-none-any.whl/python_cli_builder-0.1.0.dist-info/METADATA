@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-cli-builder
+Version: 0.1.0
+Summary: A simple Python package to ease the construction and execution of cli commands
+License: MIT
+Author: Barry Molina
+Author-email: bazzaboy@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# python-cli-builder
+A simple Python package to ease the construction and execution of cli commands
+
