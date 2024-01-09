@@ -1,0 +1,4 @@
+pennylane>=0.15
+numpy
+python-dateutil
+requests

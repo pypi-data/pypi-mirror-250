@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.py
+PennyLane_IonQ.egg-info/PKG-INFO
+PennyLane_IonQ.egg-info/SOURCES.txt
+PennyLane_IonQ.egg-info/dependency_links.txt
+PennyLane_IonQ.egg-info/entry_points.txt
+PennyLane_IonQ.egg-info/requires.txt
+PennyLane_IonQ.egg-info/top_level.txt
+pennylane_ionq/__init__.py
+pennylane_ionq/_version.py
+pennylane_ionq/api_client.py
+pennylane_ionq/device.py
+pennylane_ionq/ops.py
