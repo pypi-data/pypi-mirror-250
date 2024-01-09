@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "conterm"
+version = "0.1.0"
+description = "Simple library built around making terminal interaction easy."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Tired Fox", email = "zboehm104@gmail.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+tests = ["pytest", "pytest-cov"]
+dev = ["black", "ruff", "requests"]
+# This is if you want to use the run wrapper to manually run click cli with custom args
+click = ["click"]
+
+[project.urls]
+"Github" = "https://github.com/Tired-Fox/conterm"
+# "Website" = "https://tired-fox.github.io/conterm/"
+
+[project.scripts]
+conterm = "conterm.__main__:cli"
+
+[tool.ruff]
+ignore = ["ANN101", "ANN002", "ANN204", "ANN202", "ANN001"]
+extend-select = [
+    'E',
+    'F',
+    'W',
+    "C90",
+    "I",
+    "N",
+    "UP",
+    "ANN",
+    "S",
+    "A",
+    "B",
+    "COM",
+    "C4",
+    "Q",
+    "RET",
+    "SIM",
+    "TCH",
+    "PTH",
+    "PLE",
+    "RUF",
+]
