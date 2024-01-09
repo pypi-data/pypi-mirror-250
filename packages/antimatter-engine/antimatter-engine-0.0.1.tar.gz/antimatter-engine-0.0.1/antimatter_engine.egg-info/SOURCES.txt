@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+pyproject.toml
+antimatter_engine.egg-info/PKG-INFO
+antimatter_engine.egg-info/SOURCES.txt
+antimatter_engine.egg-info/dependency_links.txt
+antimatter_engine.egg-info/top_level.txt
