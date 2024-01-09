@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-cli-builder"
+version = "0.1.0"
+description = "A simple Python package to ease the construction and execution of cli commands"
+authors = ["Barry Molina <bazzaboy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
