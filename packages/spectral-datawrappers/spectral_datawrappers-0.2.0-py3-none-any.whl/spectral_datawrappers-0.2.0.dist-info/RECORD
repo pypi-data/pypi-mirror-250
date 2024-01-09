@@ -1,0 +1,10 @@
+spectral_datawrappers/__init__.py,sha256=ZsvgcU-AVfPYYya486X4OpYPHyKEsOprYHIyIeW7Juk,241
+spectral_datawrappers/config/settings.toml,sha256=mnZdwAN0JuZ0cLug8qpby_4PkFy_0Bdz9VbiQkSl-Z4,226
+spectral_datawrappers/config.py,sha256=UhOUwtZquoGc0RFvzkBRjKksrhw-qiLt-qmubHzzyis,493
+spectral_datawrappers/credit_scoring/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spectral_datawrappers/credit_scoring/credit_scoring_wrapper.py,sha256=Jpn0NBhFXKgoSOWqqL2VVik1lBnPZCkZXKEQpGsHbts,5933
+spectral_datawrappers/data_wrappers_interface.py,sha256=KIHTW0qoV4hhMyZrhGKBOaR4gNrLS5kgNup82_Ij6DE,522
+spectral_datawrappers-0.2.0.dist-info/METADATA,sha256=QBSWPVJ2dlXEORTPM9D9b3tZKvV6riSKb46M-erF6_U,662
+spectral_datawrappers-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+spectral_datawrappers-0.2.0.dist-info/LICENSE,sha256=9EVhv7qiSWwHeQ_3vyuB_W3XbL6ik0HUFutm1e-v04w,1073
+spectral_datawrappers-0.2.0.dist-info/RECORD,,
