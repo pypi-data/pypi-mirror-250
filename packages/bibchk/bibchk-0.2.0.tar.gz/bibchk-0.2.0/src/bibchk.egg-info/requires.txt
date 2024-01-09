@@ -1,0 +1,4 @@
+click
+bibtexparser
+habanero
+isbnlib
