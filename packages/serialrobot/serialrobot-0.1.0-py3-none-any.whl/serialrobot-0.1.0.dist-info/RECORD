@@ -1,0 +1,11 @@
+serialrobot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serialrobot/colconbuildws.bash,sha256=_anUOON-Vi35hSgKqED3fXzLwJaF62PTe72_rcpHiYo,119
+serialrobot/createpackage.bash,sha256=fNyXXoAi1ffNBHeYfb_r95Vfsf3Daut6HtMFS3-SwSU,423
+serialrobot/createws.bash,sha256=oEgClc3LPNC9J6lKgJ2TlG2oOuy296irth4-aLEtgsI,176
+serialrobot/destroypackage.bash,sha256=4VC9teM1vVMm56kRPNg5Cuf7RgCgqkGaPGEhHJFNLwU,277
+serialrobot/main.py,sha256=kYJlQA243wLSm_kxacMeX7MNS6Qp2z6z6vlWhvC81O4,8399
+serialrobot/urdf.py,sha256=N-Es3qwwwBcs-f5unebhZZuphyVdmCXqHSvVV53v1R0,1579
+serialrobot-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+serialrobot-0.1.0.dist-info/METADATA,sha256=HY62JdSPOpTt5MCVFp-O1r53Q3NzMccWPMzf6kWOWSQ,671
+serialrobot-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+serialrobot-0.1.0.dist-info/RECORD,,
