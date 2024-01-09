@@ -1,0 +1,3 @@
+[console_scripts]
+py-google-drive=py_google_drive.cli:main
+

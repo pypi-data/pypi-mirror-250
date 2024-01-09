@@ -1,0 +1,14 @@
+py_google_drive/__init__.py,sha256=ncvF6Jto49Nw0nKvMtGPOc1MKqeekwROhp7KPis2tgE,147
+py_google_drive/cli.py,sha256=WzN3143oRq0EZTf1gcXVwfeGChshPnwNi5rySHJALG0,322
+py_google_drive/clients.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_google_drive/exceptions.py,sha256=ZSxQ3vA9OAC1k6LZr34_T6Juufij1CsuG4kcn76b4rs,142
+py_google_drive/google_drive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_google_drive/google_drive/gdrive.py,sha256=8Hd35Wn_6oVHDn_LaBGRMiLmfvIaKNhG2iYRcxiE4Ts,6066
+py_google_drive/google_drive/gdrive_schemas.py,sha256=PulRYbz3YIpeu4BLDCn2ITKDl8g1GuDvnsDlavH9a3g,2211
+py_google_drive/py_google_drive.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+py_google_drive/schemas.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdrive_pydantic_wrapper-0.2.3.dist-info/LICENSE,sha256=aV9s4znjS4g_yCY7yGsQzmBfH27V6gQdk3K3KChppOg,1074
+gdrive_pydantic_wrapper-0.2.3.dist-info/METADATA,sha256=JfCkxaIFCJTJ03T07iKHXQ83DN0akzZ_XxUm7YV7jmE,2160
+gdrive_pydantic_wrapper-0.2.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gdrive_pydantic_wrapper-0.2.3.dist-info/entry_points.txt,sha256=EJTSKVQ2tP47uPpZgcJgd8fOZZ-kLKsBhqrmwcnnyMo,60
+gdrive_pydantic_wrapper-0.2.3.dist-info/RECORD,,
