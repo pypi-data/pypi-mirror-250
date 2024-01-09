@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+BigONavigator.egg-info/PKG-INFO
+BigONavigator.egg-info/SOURCES.txt
+BigONavigator.egg-info/dependency_links.txt
+BigONavigator.egg-info/top_level.txt
+bigonavigator/__init__.py
+bigonavigator/example.py
