@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rando_wisdom
+Version: 1.0.0
+Summary: Rando_wisdom is a versatile Python library designed to inject a dose of variety and entertainment into your projects. This all-in-one library offers functionalities to generate random content, ensuring a delightful and engaging experience for users.
+Home-page: https://github.com/Imranqsl212/rando_wisdom
+Author: Imranqsl212
+Author-email: zakirovimran333@gmail.com
+License: MIT
+Keywords: Quotes Generator,User Profile Generator,Random Jokes,Python Content Library,Test Data Generator,User Simulation Tools,Python Content Library,Advice Generator
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
