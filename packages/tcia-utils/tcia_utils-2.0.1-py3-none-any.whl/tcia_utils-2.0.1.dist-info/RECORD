@@ -1,0 +1,11 @@
+tcia_utils/__init__.py,sha256=2qxlxF4LVwY54P69S4Xsh0mAumLFVIgP30UyfWym2e0,130
+tcia_utils/curation.py,sha256=_bkKL_mgGiwm_MF8-VtyrYCdfuds3sOXKIfKRqUhxNk,9679
+tcia_utils/datacite.py,sha256=QzXZfZA2R_SbXXrjywpjNW8IqN2Owb7AQIl3xGSAl7Q,6303
+tcia_utils/nbia.py,sha256=XAOkyp6M6tDq3mdMnt58TGuYhZtD8Fa7nsWl4Naf0iE,87608
+tcia_utils/pathdb.py,sha256=NeHt-HCALuPKi3C0t2_s8jRg94FYQf-Bg1yBueE5qGQ,10726
+tcia_utils/utils.py,sha256=m_3zWumv7aeVspoXiyLHQqFPeC2swvYOTdTqvmoOT1k,686
+tcia_utils/wordpress.py,sha256=7T6eMvOWSpk_0dklgGWK3axD-uZKhKv_0mqBIgxMD1I,11717
+tcia_utils-2.0.1.dist-info/METADATA,sha256=JEBcedl-wvSUMyZjKZrKCVjAaUG15I0uFLV_5Od6j_g,2241
+tcia_utils-2.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+tcia_utils-2.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tcia_utils-2.0.1.dist-info/RECORD,,
