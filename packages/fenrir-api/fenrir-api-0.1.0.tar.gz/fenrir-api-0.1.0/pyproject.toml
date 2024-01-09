@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "fenrir_api"
+version = "0.1.0"
+description = "Fenrir Api"
+authors = ["OpenAPI Generator Community <team@openapitools.org>"]
+license = "NoLicense"
+readme = "README.md"
+repository = "https://github.com/FenrirServer/Fenrir.Api.Python"
+keywords = ["OpenAPI", "OpenAPI-Generator", "Fenrir Api"]
+include = ["fenrir_api/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+urllib3 = ">= 1.25.3"
+python-dateutil = ">=2.8.2"
+pydantic = ">=2"
+typing-extensions = ">=4.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=7.2.1"
+tox = ">=3.9.0"
+flake8 = ">=4.0.0"
+types-python-dateutil = ">=2.8.19.14"
+mypy = "1.4.1"
+
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pylint.'MESSAGES CONTROL']
+extension-pkg-whitelist = "pydantic"
+
+[tool.mypy]
+files = [
+  "fenrir_api",
+  #"test",  # auto-generated tests
+  "tests", # hand-written tests
+]
