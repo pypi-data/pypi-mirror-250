@@ -1,0 +1,8 @@
+__init__.py,sha256=z2qkcmrO80WCAOZS7QdjcMOv9VBIuKH0g9ts7aY_OPY,54
+client.py,sha256=t_VYtTa_9slQU5OH1pI4C11oYTs4cUuZGV_9R9aw7NM,10511
+scheduler.py,sha256=kRS0O6Xc70mD-lGoRInm_HPA2zwQ3qhJkyt_iUqFy0Y,14304
+worker.py,sha256=J3ypVuEw_xCdcnJGkfAWj5U0oxRwjNuwY7GpQF6cEzs,2542
+menrva-0.0.1.dist-info/METADATA,sha256=B0lE3kgq9WTytPvlYaM_WwMu3WNf1F2eShHJ7LeCeaM,1723
+menrva-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+menrva-0.0.1.dist-info/top_level.txt,sha256=be2l8WXacH4Z1D-sHZ-Jhkd5h-sTS9zsi9Y57-V22O4,33
+menrva-0.0.1.dist-info/RECORD,,
