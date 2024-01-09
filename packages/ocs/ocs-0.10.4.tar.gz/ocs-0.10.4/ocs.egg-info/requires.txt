@@ -1,0 +1,22 @@
+autobahn
+twisted
+deprecation
+PyYAML
+influxdb
+numpy
+setproctitle
+
+[:python_version < "3.10"]
+importlib_metadata
+
+[dev]
+pytest
+pytest-twisted
+pytest-docker-compose
+pytest-cov
+coverage
+docker
+so3g
+
+[so3g]
+so3g
