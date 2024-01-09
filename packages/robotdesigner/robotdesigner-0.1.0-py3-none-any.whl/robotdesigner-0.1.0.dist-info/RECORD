@@ -1,0 +1,17 @@
+robotdesigner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robotdesigner/addrviz.bash,sha256=QVtDvr2D-SIBEQ07ApPGhZ0EVAbO8pprBrLwPwmub3U,245
+robotdesigner/colconbuildws.bash,sha256=KP8XSo6zLuHCdcA8ogTeBnHUZCm-DWVOJSjPe_szdGs,233
+robotdesigner/createpackage.bash,sha256=E1zQvJunWF8MCgYRUBz9LqJJ6HohsZHr6B6isDbzYsM,454
+robotdesigner/createws.bash,sha256=oEgClc3LPNC9J6lKgJ2TlG2oOuy296irth4-aLEtgsI,176
+robotdesigner/destroypackage.bash,sha256=4VC9teM1vVMm56kRPNg5Cuf7RgCgqkGaPGEhHJFNLwU,277
+robotdesigner/main.py,sha256=zURkyEnpietELF51Wnm-w-Z9OwdVJHgpDgdCMJ_bBCA,7923
+robotdesigner/new_implement.py,sha256=WVz27xm7YPFNXQuQSWxzLDoWU8-JSGKXltoxc8-7tX8,738
+robotdesigner/new_test.py,sha256=rR6Wf80gg8Zjj_THYa8i4uKrFyHJHWvEoySMqmnwcMA,633
+robotdesigner/urdf.py,sha256=kJncJgWjKYxbZlnOAh1SfQ_l808-LwIRZSb0v-Fuf9w,1566
+robotdesigner/view.rviz,sha256=ub5gu8B8LLC5MDtUs5ekMcYy1brjNbY96NkCtBF-Kyg,6394
+robotdesigner/write_launch.py,sha256=7HXl0gqcswjR_9gU7iFQVPcbG62cIWk6ITiJZCHVYYE,3024
+robotdesigner/write_setup.py,sha256=JGugQ5P9iSoNVeQqTivPAoRQcsRxrwAG9nSpfbwNiPo,1124
+robotdesigner-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+robotdesigner-0.1.0.dist-info/METADATA,sha256=q9OeLJDWjMQPQFNLwi5IjZIA2QdMkiUZCmgZUMkk_28,673
+robotdesigner-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+robotdesigner-0.1.0.dist-info/RECORD,,
