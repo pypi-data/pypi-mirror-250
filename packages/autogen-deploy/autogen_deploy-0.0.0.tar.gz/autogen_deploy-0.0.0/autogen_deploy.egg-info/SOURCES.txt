@@ -1,0 +1,8 @@
+README.md
+setup.py
+autogen_deploy/__init__.py
+autogen_deploy/autogen_deploy.py
+autogen_deploy.egg-info/PKG-INFO
+autogen_deploy.egg-info/SOURCES.txt
+autogen_deploy.egg-info/dependency_links.txt
+autogen_deploy.egg-info/top_level.txt
