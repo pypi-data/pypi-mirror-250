@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+src/spatialsignificance.cpp
+src/spatialsignificance.egg-info/PKG-INFO
+src/spatialsignificance.egg-info/SOURCES.txt
+src/spatialsignificance.egg-info/dependency_links.txt
+src/spatialsignificance.egg-info/not-zip-safe
+src/spatialsignificance.egg-info/top_level.txt
