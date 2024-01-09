@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ppf.sample
+Version: 3.0.0
+Summary: A sample Python project
+Home-page: https://github.com/adrianschlatter/ppf.sample/tree/master
+Author: Adrian Schlatter
+License: MIT
+Project-URL: Bug Reports, https://github.com/adrianschlatter/ppf.sample/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/adrianschlatter/ppf.sample
+Keywords: sample,setuptools,development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: <4,>=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: plumbum
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: check-manifest ; extra == 'test'
+Requires-Dist: setuptools >=40.5.0 ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+# README for pypy
+
+<img alt="pypi downloads/month" src="https://img.shields.io/pypi/dm/ppf.sample.svg">
+
+Write here the (simplified) README for pypi that is unable to access any
+other files except this text files. This means you can not include, e.g.,
+image files in this README.

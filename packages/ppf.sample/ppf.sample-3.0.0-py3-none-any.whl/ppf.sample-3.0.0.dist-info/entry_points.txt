@@ -1,0 +1,2 @@
+[console_scripts]
+nameoftool = ppf.sample.cli:main
