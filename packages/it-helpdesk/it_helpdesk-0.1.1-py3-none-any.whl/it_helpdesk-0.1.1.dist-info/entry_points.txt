@@ -1,0 +1,3 @@
+[console_scripts]
+setup_helpdesk=it_helpdesk.setup:main
+
