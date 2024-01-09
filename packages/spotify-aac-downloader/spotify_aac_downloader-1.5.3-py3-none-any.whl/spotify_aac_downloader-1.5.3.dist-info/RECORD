@@ -1,0 +1,9 @@
+spotify_aac_downloader/__init__.py,sha256=Zp7MROdsvpLQ5mrGb8Sw1eImWsL_gO5A9AX2_i9Wo5E,22
+spotify_aac_downloader/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+spotify_aac_downloader/cli.py,sha256=4RZmGAnAqKBwLyz7tU323j7zM_yGWghpKHczKVBQROg,11778
+spotify_aac_downloader/constants.py,sha256=-Sm896hRXYM6RVXWoSdCyxVJFiov5d8ITFjmGH1By5A,440
+spotify_aac_downloader/downloader.py,sha256=Z5y76VSw3hDEuSCPoxl4axnUv5tlqWGJtuU95Ixlq-w,16480
+spotify_aac_downloader-1.5.3.dist-info/entry_points.txt,sha256=_WKJm3l7NxEcQQnr-u_URBiNSXXWt_6oTNtTvm51nWk,74
+spotify_aac_downloader-1.5.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+spotify_aac_downloader-1.5.3.dist-info/METADATA,sha256=jCg34lmTbK0BoquXoxl9Xztjp9hf5zD2_a6cCQ6RmyM,7830
+spotify_aac_downloader-1.5.3.dist-info/RECORD,,
