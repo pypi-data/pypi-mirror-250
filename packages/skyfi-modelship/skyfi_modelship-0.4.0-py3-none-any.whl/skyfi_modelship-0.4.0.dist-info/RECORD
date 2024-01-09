@@ -1,0 +1,17 @@
+skyfi_modelship/__init__.py,sha256=6T53kYf20tdQcomzRnvgYzMWQrdWyRhLWZgZZqwXw9E,578
+skyfi_modelship/config.py,sha256=y2gzSHxUPM03YttfWEqE8f43RKMZcGJebanLM_CxC_o,1261
+skyfi_modelship/handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skyfi_modelship/handler/args_handler.py,sha256=uroOs7AqcxnzWGFYufO_2kVWhIE6B3TKiHMIGxSHmZ0,1755
+skyfi_modelship/handler/fastapi_handler.py,sha256=RlMmmPmq7NVUbNNxw5oRvcYSC6Alwr0cBPap3ixMWYQ,1614
+skyfi_modelship/handler/rabbitmq_handler.py,sha256=3Yn570GZyGI2UV1H6k5vxJzRIUpFZhUvIJ4YTvN7xYg,3402
+skyfi_modelship/skyfi_app.py,sha256=uRZXz5F6VoCjQlcAbOxwQkgNkVdfA7xHAq_YzkDzkI4,2474
+skyfi_modelship/skyfi_types.py,sha256=Ioh2G6dgDd-P3WgU0Qxld5lnxsYYPUC22aTdKNpy_Ac,2600
+skyfi_modelship/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skyfi_modelship/util/execution.py,sha256=hToltogObpGXXCxE9Bt9P8AyyyKwxTqCClev-F1_e0c,1184
+skyfi_modelship/util/inference_request.py,sha256=V0O0Jz3DFihcDHKDJltXEEdHfYyUHH5hIuFBRHF_trE,1167
+skyfi_modelship/util/model_transformer.py,sha256=aaA24WdvMxcnoT_AM_Dg-s7cOZmI_MPq8TE_N4yabxs,2757
+skyfi_modelship/util/storage.py,sha256=by6B8zkuVN6vP_d6LcDd-VLNqfY-dSKPmDnnpxDXzto,2283
+skyfi_modelship-0.4.0.dist-info/LICENSE,sha256=pkvTvijZ761621g6jbMlyuabKGmeUZ6t1RXNAKJlXbE,1061
+skyfi_modelship-0.4.0.dist-info/METADATA,sha256=FHW90hKmV5975buOMgbfrP7HmzituMQ4E3lyQ_3zEYo,4836
+skyfi_modelship-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+skyfi_modelship-0.4.0.dist-info/RECORD,,
