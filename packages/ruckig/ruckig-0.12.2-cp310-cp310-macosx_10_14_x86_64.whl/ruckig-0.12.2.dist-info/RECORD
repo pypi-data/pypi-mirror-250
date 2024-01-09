@@ -1,0 +1,12 @@
+ruckig.cpython-310-darwin.so,sha256=cHug2Wn0W6n08ASEwoKkb0-PxmHebBFTS-Ey-jtQsTA,865624
+ruckig-0.12.2.dist-info/RECORD,,
+ruckig-0.12.2.dist-info/WHEEL,sha256=1xI646osGbBZRb34OXGnfJjp96j2wEnDmW4o-MOVkW0,115
+ruckig-0.12.2.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ruckig-0.12.2.dist-info/METADATA,sha256=HuR6nwA-EdwORhHV2EYpOZbOxPl6v7vrgXvRF8oabvc,23547
+ruckig-0.12.2.dist-info/licenses/LICENSE,sha256=8IgKxeUCbJLhLJ4oWaezOMWTqsoaQ18pSYvZbLtk19M,1071
+lib/libruckig.a,sha256=ERSbwOgpV7vJEBqp2gty29YBD-UOeIUNYA_scc3lBIE,820856
+lib/cmake/ruckig/ruckig-config.cmake,sha256=M1oJZhPeYrsZQgQecWjUTR4bvp4idhQQiYhoJIADv58,979
+lib/cmake/ruckig/ruckig-targets.cmake,sha256=6dSSCOR8HeZJQ2akspPyjPG4ciNLdkVzBxmWpSLBH-Y,4045
+lib/cmake/ruckig/ruckig-config-version.cmake,sha256=ta8PwS9k4-maaozg0goXeGN3PXY5Dld-JQH4mKZVxcc,1862
+lib/cmake/ruckig/ruckig-targets-release.cmake,sha256=Vjru664eP43TBDGl0qWtllrqxg_Od44_p-izWPciDlE,843
+share/ruckig/package.xml,sha256=ffWX9R6AlhZ0Cs5EBRzQBZVOIJsc6qS0UYApm2as8EQ,550
