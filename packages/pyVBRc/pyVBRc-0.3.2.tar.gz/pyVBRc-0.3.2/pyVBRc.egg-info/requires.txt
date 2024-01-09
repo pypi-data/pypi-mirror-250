@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+packaging
+unyt
+
+[dev]
+pytest>=3
+pytest-cov
+pre-commit
