@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+axe_selenium_python/__init__.py
+axe_selenium_python/axe.py
+axe_selenium_python/node_modules/axe-core/axe.min.js
+axe_selenium_python/tests/__init__.py
+axe_selenium_python/tests/conftest.py
+axe_selenium_python/tests/test_axe.py
+axe_selenium_python/tests/test_page.html
+axe_selenium_python_nhsuk.egg-info/PKG-INFO
+axe_selenium_python_nhsuk.egg-info/SOURCES.txt
+axe_selenium_python_nhsuk.egg-info/dependency_links.txt
+axe_selenium_python_nhsuk.egg-info/requires.txt
+axe_selenium_python_nhsuk.egg-info/top_level.txt
