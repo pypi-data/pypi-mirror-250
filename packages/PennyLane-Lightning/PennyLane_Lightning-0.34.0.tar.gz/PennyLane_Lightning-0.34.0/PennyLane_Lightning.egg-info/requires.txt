@@ -1,0 +1,7 @@
+pennylane>=0.33
+
+[gpu]
+pennylane-lightning-gpu
+
+[kokkos]
+pennylane-lightning-kokkos
