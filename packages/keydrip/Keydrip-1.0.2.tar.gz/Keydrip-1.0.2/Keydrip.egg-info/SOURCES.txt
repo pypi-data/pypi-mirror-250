@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.txt
+setup.py
+Keydrip.egg-info/PKG-INFO
+Keydrip.egg-info/SOURCES.txt
+Keydrip.egg-info/dependency_links.txt
+Keydrip.egg-info/requires.txt
+Keydrip.egg-info/top_level.txt
+keydrip/__init__.py
