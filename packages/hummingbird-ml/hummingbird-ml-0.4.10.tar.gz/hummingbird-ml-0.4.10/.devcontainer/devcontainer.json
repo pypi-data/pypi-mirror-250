@@ -1,0 +1,14 @@
+{
+    "customizations" :{
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "visualstudioexptteam.vscodeintellicode"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    },
+    "dockerFile": "Dockerfile"
+}
