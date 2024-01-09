@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+gora/__init__.py
+gora/inline.py
+gora/main-contract.json
+gora.egg-info/PKG-INFO
+gora.egg-info/SOURCES.txt
+gora.egg-info/dependency_links.txt
+gora.egg-info/requires.txt
+gora.egg-info/top_level.txt

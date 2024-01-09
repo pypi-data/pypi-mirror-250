@@ -1,0 +1,24 @@
+[project]
+name = "gora"
+version = "0.0.8"
+authors = [
+  { name="Gora", email="communications@gora.io" },
+]
+description = "Gora Decentralized Oracle utility functions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "beaker-pyteal",
+]
+keywords = [ "gora", "algorand", "blockchain oracle", "blockchain" ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+[tool.setuptools.package-data]
+gora = [ "main-contract.json" ]
+
+[project.urls]
+Homepage = "https://gora.io/"
+Gora = "https://github.com/GoraNetwork/pygora"

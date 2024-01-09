@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gora
+Version: 0.0.8
+Summary: Gora Decentralized Oracle utility functions
+Author-email: Gora <communications@gora.io>
+Project-URL: Homepage, https://gora.io/
+Project-URL: Gora, https://github.com/GoraNetwork/pygora
+Keywords: gora,algorand,blockchain oracle,blockchain
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beaker-pyteal
+
+# Gora Decentralized Oracle utility libraries
+
+Libraries to support development and debugging of Gora-enabled Algorand
+blockchain applications.
+
+For usage details, see: https://github.com/GoraNetwork/developer-quick-start
