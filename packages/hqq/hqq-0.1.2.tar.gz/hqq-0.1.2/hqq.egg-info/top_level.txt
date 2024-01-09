@@ -1,0 +1,7 @@
+hqq
+hqq/core
+hqq/engine
+hqq/models
+hqq/models/hf
+hqq/models/timm
+hqq/models/vllm
