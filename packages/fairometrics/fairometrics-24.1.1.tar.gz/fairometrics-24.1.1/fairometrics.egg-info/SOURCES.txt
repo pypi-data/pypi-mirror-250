@@ -1,0 +1,9 @@
+README.md
+setup.py
+fairometrics/__init__.py
+fairometrics/fairness_object.py
+fairometrics/metrics.py
+fairometrics.egg-info/PKG-INFO
+fairometrics.egg-info/SOURCES.txt
+fairometrics.egg-info/dependency_links.txt
+fairometrics.egg-info/top_level.txt
