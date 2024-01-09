@@ -1,0 +1,9 @@
+mutwo.core<2.0.0,>=1.4.0
+mutwo.music<1.0.0,>=0.26.0
+abjad<3.12.0,>=3.9.0
+abjad-ext-nauert<3.12.0,>=3.9.0
+python-ranges<2.0.0,>=1.2.0
+
+[testing]
+pytest>=7.1.1
+mutwo.ekmelily<1.0.0,>=0.8.0
