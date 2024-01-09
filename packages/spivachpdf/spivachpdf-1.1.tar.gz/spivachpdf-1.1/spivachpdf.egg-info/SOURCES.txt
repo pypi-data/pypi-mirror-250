@@ -1,0 +1,9 @@
+README.md
+setup.py
+spivachpdf/__init__.py
+spivachpdf/pdf2image.py
+spivachpdf/pdf2text.py
+spivachpdf.egg-info/PKG-INFO
+spivachpdf.egg-info/SOURCES.txt
+spivachpdf.egg-info/dependency_links.txt
+spivachpdf.egg-info/top_level.txt
