@@ -1,0 +1,63 @@
+# Ender's Utils
+
+## Working Versions:
+### Currently supported/working versions as of the release of this one
+- #### Current version is always a maybe
+- #### There will be bugs, but versions not mentioned are completely broken
+---
+- 0.2.2
+- 0.3.0
+- 0.3.1
+- 0.3.2
+---
+
+## How to use:
+### `from endersutils import endersutils`
+Would recommend using `as` to make it easier
+### `from endersutils import endersutils as eu`
+It will be shown as `eu` throughout the docs so that is all the explanation you're getting
+
+## `eu.fixedrange`(Depreciated):
+### Returns a range with a bias of one 
+(I.E. `range(3)` returns `(0, 1, 2)` whereas `fixedrange(3)` returns `(1, 2, 3)`)
+
+## `eu.fixedindex`(Depreciated):
+### Its like one of those python tutorials where it just adds 1 to a number 
+Only this time, I did it for some reason. No docs, just timewasting
+
+## `eu.version`:
+### Returns the version in [Semantic Versioning](https://en.wikipedia.org/wiki/Software_versioning#Semantic_versioning)
+
+## `eu.intversion`:
+### Returns the main integer version
+Used so I can exclude main versions but small bug-fixes will stay the same and I don't have to specify 1000 version rules
+
+## `eu.pair()`(Depreciated):
+### Returns a name-value pair at `obj[0]` for name and `obj[1]` for the value(assuming obj is equal to `eu.pair()`)
+
+## `eu.components()`:
+### Returns a manager class for components
+Methods:
+    - `add_component(func, params)`: Adds a function component and passes in `params`. Stores at the next available index starting at 0 of the `eu.components` class
+    - `run_component(idx)`: Runs the command stored at `idx`
+    - `del_component(idx)`: Deletes the command at the specified index and pushes the ones behind it down
+    - `list_components()`: Prints a neatly formatted version of all the components in a class. (Doesn't return the list, do `eu.components.component`)
+
+## `eu.game`:
+### Returns a game class for simple `pygame` or other game projects
+Makes an instance of the module used
+Parameters:
+    - `width`: The width of the screen
+    - `height`: The height of the screen
+    - `engine`: The game engine to be used, only pygame is currently supported, if your crazy enough to make a game engine, dm me ;)
+Methods:
+    - `initEngine()`: __REQUIRED__, should be done among the first lines of code
+    - `keyPressed(key)`: Tests if a key is pressed
+    - `runAtFps(fps)`: Used by the `run()` function, I don't know why you would use this, knock em' dead ig
+    - `getEvents()`: Get the events since the last update
+    - `run(gameFunction, fps, bgcol)`: Runs the game by executing these functions: Checking if the program was quit, and if so, quitting it, resetting the frame by setting the background color(`bgcol` is a tuple in RGB format), runs `gameFunction`, and then ticks at `fps`
+
+## `eu.getAllInDir()`:
+### Returns all single files in a directory and all sub-directories
+Parameters:
+    - `dir`: The directory to search
