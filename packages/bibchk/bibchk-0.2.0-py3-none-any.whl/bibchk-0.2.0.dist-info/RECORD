@@ -1,0 +1,12 @@
+bibchk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bibchk/bibtex.py,sha256=VQEBs6r9mmR9qCqKLNNwo9DrCkv0urnA5DzRKKx8hU4,2241
+bibchk/cli.py,sha256=nStgVi_jv7lxScTZ8ojPUm8eYX_-3ETV9_QZ4LBZosE,1482
+bibchk/document.py,sha256=BgUeht5o4ZVmYl5J7uzDp9NIVKfV4nL7ztWkV11GXSQ,3335
+bibchk/doi.py,sha256=3V1-TFoXwjF4KyqdBB34Gb805dZWHopMp_z39xqx-S4,1016
+bibchk/isbn.py,sha256=XCqQQx_3-lDihbGmjR3EU_mnDxSXida0Bl1kEpQmGYA,1741
+bibchk-0.2.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+bibchk-0.2.0.dist-info/METADATA,sha256=IxUk6lF-4gYCtVK3rpQ6wgUXHgvFPRT6-LuLG6K0r-s,2577
+bibchk-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bibchk-0.2.0.dist-info/entry_points.txt,sha256=2boOJdemC1bL4lj8gLCd0bs9BLwUpTUQn9HMqOSPB5E,45
+bibchk-0.2.0.dist-info/top_level.txt,sha256=BbK_oFBqhlDRMxB299ilX7Ftw-0V1GmyJaj1PT_ygaw,7
+bibchk-0.2.0.dist-info/RECORD,,
