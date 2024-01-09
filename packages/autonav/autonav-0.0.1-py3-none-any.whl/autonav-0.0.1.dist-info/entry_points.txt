@@ -1,0 +1,2 @@
+[console_scripts]
+autonav = autonav.cli:app
