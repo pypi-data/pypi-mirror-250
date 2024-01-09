@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+datamapplot/__init__.py
+datamapplot/medoids.py
+datamapplot/overlap_computations.py
+datamapplot/palette_handling.py
+datamapplot/plot_rendering.py
+datamapplot/text_placement.py
+datamapplot.egg-info/PKG-INFO
+datamapplot.egg-info/SOURCES.txt
+datamapplot.egg-info/dependency_links.txt
+datamapplot.egg-info/not-zip-safe
+datamapplot.egg-info/requires.txt
+datamapplot.egg-info/top_level.txt
