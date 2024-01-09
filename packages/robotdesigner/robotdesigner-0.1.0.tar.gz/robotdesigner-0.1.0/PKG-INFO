@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: robotdesigner
+Version: 0.1.0
+Summary: 
+Author: Vaish
+Author-email: vaishnavahari.seenivasan@rwth-aachen.de
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ipykernel (>=6.27.1,<7.0.0)
+Requires-Dist: pydantic (>=2.5.2,<3.0.0)
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: roboticstoolbox-python (>=1.1.0,<2.0.0)
+Requires-Dist: scipy (>=1.11.4,<2.0.0)
+Description-Content-Type: text/markdown
+
+
