@@ -1,0 +1,12 @@
+*targets*
+employee: user: default username: account:
+*selftargets*
+my me myself 'my account'
+*username*
+username  
+*password*
+password
+*permissions*
+'give access' 'remove access' allow permission permissions 'add to' 
+*information*
+details how when what

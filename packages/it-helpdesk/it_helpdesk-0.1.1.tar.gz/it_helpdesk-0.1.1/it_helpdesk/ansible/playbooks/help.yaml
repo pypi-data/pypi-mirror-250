@@ -1,0 +1,21 @@
+- name: Create and delete users in the system
+
+  hosts: jailhost
+  become: true
+  become_method: community.general.doas
+  remote_user: ansible
+  gather_facts: false
+  vars_files:
+    - ../vars/it_helpdesk_config.yaml
+  tasks:
+    - name: "Send Help Email"
+      community.general.mail:
+            host: '{{ mail_server }}'
+            port: 465
+            secure: always
+            username: '{{ helpdesk_email }}'
+            password: '{{ helpdesk_password }}'
+            to: '{{ from }}'
+            from: '{{ helpdesk_email }}'
+            subject: "Help with your {{ targets }} request"
+            body: "{{ lookup('file', '{{ helpdesk_dir }}/ansible/help_templates/{{ targets }}_help.txt') }}" 
