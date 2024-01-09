@@ -1,0 +1,11 @@
+quip/__init__.py,sha256=8Fi5ZFsn3HoD8h9ZYycSdmqYU7LCP0Kyf7o13nsOK5M,2278
+quip/external.py,sha256=vl5-s4fgI9B0ZKgBFm9aLH6PHNVzQj4svwWIgJco_qg,20123
+quip/fact.py,sha256=ECGIuklAR7TUeylNVsgHG4URX9R2oKHTB3-fM7HkKvw,5307
+quip/field_builder.py,sha256=aFIdYkb7dw32u4W2GFmI3IfrJbrO8gPXLo9Hs8UH58c,21283
+quip/quip.py,sha256=2n78GV--Y-xkYr12txU2aWVsi-t4y4rqk-WkFS86XxU,74251
+quip/version_builder.py,sha256=dY94OmUJtKbBCTudhB7TC43hlSprC0MUFcjt0tY8hwo,7104
+quip_cli-1.8.16.dist-info/METADATA,sha256=Y-znq_vG0DY2scDMqwzzuraywh79hOVD345_uQB7H-0,28180
+quip_cli-1.8.16.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+quip_cli-1.8.16.dist-info/entry_points.txt,sha256=uszhMUc-8iKUwzLMFyBpvFaKSjoGKCzukwv50oHSNrg,39
+quip_cli-1.8.16.dist-info/top_level.txt,sha256=NPhJGwuIRCKkrx648cJCXqIWzz4VUUVqslkuIKLKZd4,5
+quip_cli-1.8.16.dist-info/RECORD,,
