@@ -1,0 +1,11 @@
+MANIFEST.in
+README
+setup.cfg
+setup.py
+versioneer.py
+src/mesido/__init__.py
+src/mesido/_version.py
+src/mesido.egg-info/PKG-INFO
+src/mesido.egg-info/SOURCES.txt
+src/mesido.egg-info/dependency_links.txt
+src/mesido.egg-info/top_level.txt
