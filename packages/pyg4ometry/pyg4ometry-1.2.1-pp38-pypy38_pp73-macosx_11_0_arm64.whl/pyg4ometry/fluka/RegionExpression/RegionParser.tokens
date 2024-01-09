@@ -1,0 +1,17 @@
+Whitespace=1
+InLineComment=2
+LineComment=3
+Newline=4
+Integer=5
+RegionName=6
+BodyName=7
+Plus=8
+Minus=9
+Bar=10
+LParen=11
+RParen=12
+'+'=8
+'-'=9
+'|'=10
+'('=11
+')'=12
