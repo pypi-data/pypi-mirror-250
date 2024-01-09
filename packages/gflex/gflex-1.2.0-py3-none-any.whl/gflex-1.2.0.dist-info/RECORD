@@ -1,0 +1,14 @@
+gflex/__init__.py,sha256=v-rRiDOgZ3sQSMQKq0vgUQZvpeOkoHFXissAx6Ktg84,61
+gflex/__main__.py,sha256=RXCJ11NyIGqM_q4rJhYAbTqkNCNVPUyMLR4879cW1sM,86
+gflex/_version.py,sha256=MpAT5hgNoHnTtG1XRD_GV_A7QrHVU6vJjGSw_8qMGA4,22
+gflex/base.py,sha256=p0NRcy3HFvdc9R5QT6lQYRkQYN9opm8SjnsgY9nOL6g,60468
+gflex/f1d.py,sha256=tncMtSo_2EeAo7a85-wzvSz8ZcIaDif4q1wi6Jj9NCs,28015
+gflex/f2d.py,sha256=IhkyVIdcZA9-VK_kJpNCCeeaqch4GNLxXYa2wiZJ44Q,73454
+gflex/gflex.py,sha256=gK0v2Z0NAFXidUspGhn3MuaitxxhiWHf_rkADuFMT-s,2891
+gflex-1.2.0.dist-info/AUTHORS.md,sha256=UnKw1ICWQDbefGgXhHoA39dVba4TxGC7Xn-Lf8JpVbI,152
+gflex-1.2.0.dist-info/LICENSE.md,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+gflex-1.2.0.dist-info/METADATA,sha256=Ziu39T_S55jMJ1uC0z1Dg2hjT6NYakokvdFN0u2EspQ,22744
+gflex-1.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gflex-1.2.0.dist-info/entry_points.txt,sha256=ocUk_rAAsWfBYBtNY_a4hlzLfzNqGuiNNtXGrB381Pw,43
+gflex-1.2.0.dist-info/top_level.txt,sha256=O5dHVUPUNEmUQqvHhoEflpr0a6okJzfKULlGtEq-Qfc,6
+gflex-1.2.0.dist-info/RECORD,,
