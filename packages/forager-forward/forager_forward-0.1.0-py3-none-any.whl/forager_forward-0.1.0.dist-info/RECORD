@@ -1,0 +1,17 @@
+forager_forward/__init__.py,sha256=67l_c2OHkRSq3HP-YFUmRUFceJrG1Ks9cjWEyqUvV5s,48
+forager_forward/app_clients/__init__.py,sha256=lOyx_Ho1tIvzRld7hDRoidAgjm5blWFpr6BEUXKOWyI,43
+forager_forward/app_clients/async_client.py,sha256=JU6-rTbBEWLkkmq_ejD_9g1jk40DbeK_UZLE9zYUi24,7230
+forager_forward/app_clients/client.py,sha256=DA4rubvnYHOUOM_tirBiG5kCLQccr2CKL6VSGm4npkg,7085
+forager_forward/app_services/__init__.py,sha256=af-bH_d6e6J-TEoKg_litA2Asrxh5X-f3XSMiQkHnk4,44
+forager_forward/app_services/email_validation_service.py,sha256=kyuP8VtlbtTiZwAoDG98d9C0XE8BhRIoOkvxbKU9XTY,1497
+forager_forward/client_initializer.py,sha256=zzKOuicPDKpkpX8fXt5_jDNeqc8oaKly_foheVVK9RI,1311
+forager_forward/common/__init__.py,sha256=A-XaZXUOk293Zbe-5aVfx7p5lkMGWEui-gpzwhHEOmw,39
+forager_forward/common/common_utilities.py,sha256=-jNaePlrNZ9-BIQEZOJQ_h3ul3_dNFZJHtZIjkw_uZo,945
+forager_forward/common/exceptions.py,sha256=IJlzDbomXna6_fbc5Nm6tTnJLI1I-shoXQLqn932v0A,449
+forager_forward/common/project_types.py,sha256=r0tjogCvq0hWNtoME05-2gZ92lm747r3m48OWMMWF58,849
+forager_forward/common/storage.py,sha256=HpBxkf7hRjkYAN5PQ0CAQXmUayKe66G7Um7NflcZ0WY,1936
+forager_forward/common/validators.py,sha256=-rk87yC9TvXeuip5qBoRECuiwD4byAsIhrdX-UpzD4M,6641
+forager_forward-0.1.0.dist-info/LICENSE,sha256=dkRF5barcpM1x6eILyaTCX9aMx-xBnCxHMkZb_AoeGM,1082
+forager_forward-0.1.0.dist-info/METADATA,sha256=5NkqHsqO4BiYYHYieghmoBmP9WpHNSnvoGWz8NOIxqM,2850
+forager_forward-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+forager_forward-0.1.0.dist-info/RECORD,,
