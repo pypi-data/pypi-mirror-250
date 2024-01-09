@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: contextcrunch-langchain
+Version: 0.0.1
+Summary: LangChain Integration for ContextCrunch prompt compression.
+Project-URL: Homepage, https://github.com/contextcrunch-ai/contextcrunch-langchain-python
+Project-URL: Issues, https://github.com/contextcrunch-ai/contextcrunch-langchain-python/issues
+Author-email: Matthew Kwiatkowski <matt@mkcodes.ca>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: contextcrunch>=1.0.1
+Requires-Dist: langchain>=0.0.354
+Description-Content-Type: text/markdown
+
+# ContextCrunch-LangChain-python
+Integration for [ContextCrunch](https://contextcrunch.com) in a LangChain pipeline. 
