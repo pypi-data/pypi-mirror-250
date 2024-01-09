@@ -1,0 +1,11 @@
+sgen/__init__.py,sha256=p5nQCHvHTtpDWj-TyPiFf5eB1740h3Rx03onDe9bLzQ,266
+sgen/base.py,sha256=ZX4wPWqFFRe06ROMU_ykcYPaWPebJuRwDoCEBeQn_Zk,485
+sgen/dto.py,sha256=9kvb-fJmZoyMW4UECAhhOVKjYwlHq-ZhC-gPFBGKBO0,199
+sgen/fields.py,sha256=OT6LCtQRLYeLGqgIiIWRUCsp4TsGoMDcGsZWnb2k41Q,13603
+sgen/sgen.py,sha256=pBt6kE7o4C-TdO0ZrBUu8wnSDArarU85xICHwtPc-NU,2675
+sgen/utils.py,sha256=3pv2mGgs3ZOauycY0JhIN_ZMtuz1_sfBmBl6vgDH0sc,780
+sgen/validate.py,sha256=E-slXViVw_xskBGj87wHM0jGkbQQiMPNhM6lQ2Irasc,7971
+sgen-1.0.0.dist-info/METADATA,sha256=oy-fsMphEDCNeVKngkGwktAU8BY31lNSxLrvaSG6f0o,2347
+sgen-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+sgen-1.0.0.dist-info/top_level.txt,sha256=ofyudBgZMSWS1YI5pySuZlD1a8v4592XMCR4GXC3kww,5
+sgen-1.0.0.dist-info/RECORD,,
