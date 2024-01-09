@@ -1,0 +1,8 @@
+xmltodict
+xsdata
+xarray
+cftime
+netCDF4
+dask
+psutil
+setuptools  # explicitly required for python 3.12
