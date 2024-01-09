@@ -1,0 +1,17 @@
+anyio
+
+[full]
+jinja2
+aiofiles
+python-multipart
+itsdangerous
+markupsafe
+
+[sec]
+aiofiles
+markupsafe
+itsdangerous
+
+[template]
+jinja2
+aiofiles
