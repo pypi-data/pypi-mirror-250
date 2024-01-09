@@ -1,0 +1,2 @@
+[console_scripts]
+conterm = conterm.__main__:cli
