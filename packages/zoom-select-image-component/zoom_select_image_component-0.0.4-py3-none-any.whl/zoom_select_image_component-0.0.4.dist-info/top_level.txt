@@ -1,0 +1,1 @@
+zoom_select_image_component
