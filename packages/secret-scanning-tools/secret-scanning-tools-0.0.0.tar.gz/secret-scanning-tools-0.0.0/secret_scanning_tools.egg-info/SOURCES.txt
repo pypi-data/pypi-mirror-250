@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+secret_scanning_tools.egg-info/PKG-INFO
+secret_scanning_tools.egg-info/SOURCES.txt
+secret_scanning_tools.egg-info/dependency_links.txt
+secret_scanning_tools.egg-info/top_level.txt

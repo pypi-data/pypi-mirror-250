@@ -1,0 +1,6 @@
+[project]
+name = "secret-scanning-tools"
+version = "0.0.0"
+description = "GitHub Secret Scanning Custom Pattern Tools"
+readme = "README.md"
+requires-python = ">=3.6"
