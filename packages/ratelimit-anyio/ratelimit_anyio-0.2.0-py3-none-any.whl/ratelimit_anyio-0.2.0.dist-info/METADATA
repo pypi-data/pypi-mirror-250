@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: ratelimit-anyio
+Version: 0.2.0
+Summary: Rate limit decorator
+Home-page: https://github.com/rafalkrupinski/ratelimit-anyio.git
+License: Apache-2.0
+Author: Rafal Krupinski
+Author-email: 10319569-mattesilver@users.noreply.gitlab.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Communications
+Classifier: Topic :: Software Development
+Requires-Dist: anyio (>3,<5)
+Project-URL: Repository, https://github.com/rafalkrupinski/ratelimit-anyio.git
+Description-Content-Type: text/markdown
+
+This packages introduces a function decorator preventing a functions from being called more often than allowed.
+This should prevent API providers from banning your applications by conforming to their rate limits.
+
+It's similar to [ratelimit](https://pypi.org/project/ratelimit/) with the following differences:
+
+- also handles async functions
+- accepts multiple limits (burst mode)
+- allows applying rate limit to many functions
+- allows assigning a cost
+- sleep_and_retry utility is a function and accepts a limit of retries (1 by default)
+
+Thanks to [anyio](https://pypi.org/project/anyio/) it works under asyncio and trio event loops.
+
+## Usage
+
+```python
+from datetime import timedelta
+from ratelimit_anyio import *
+
+limiter = RateLimiter((
+    RateLimit(timedelta(seconds=10), 10),
+    RateLimit(timedelta(minutes=10), 100),
+))
+
+@limiter(cost=1)
+async def function():
+    # Simulate a remote call
+    import asyncio
+    await asyncio.sleep(3)
+```
+
+This function can be called up to 100 times within 10 minutes, and 10 times within any 10 seconds (burst mode).
+You can also declare functions cost (1 by default) which is useful when applying to more than one function, and they use the quota by different values

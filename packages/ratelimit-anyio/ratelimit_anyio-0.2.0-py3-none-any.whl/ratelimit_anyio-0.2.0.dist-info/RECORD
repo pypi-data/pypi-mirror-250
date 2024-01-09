@@ -1,0 +1,5 @@
+ratelimit_anyio/__init__.py,sha256=ftM3LWNqvQOuXI9qh_23FLOZA3LnJMGPy-daoKGgkBE,3309
+ratelimit_anyio-0.2.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+ratelimit_anyio-0.2.0.dist-info/METADATA,sha256=djSD9_U64dLXm9Ow0dQVJfyRApzKoP8CoYnxxIWa43Y,2181
+ratelimit_anyio-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ratelimit_anyio-0.2.0.dist-info/RECORD,,
