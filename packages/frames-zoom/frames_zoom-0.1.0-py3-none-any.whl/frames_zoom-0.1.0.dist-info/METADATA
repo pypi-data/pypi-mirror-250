@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: frames_zoom
+Version: 0.1.0
+Summary: 
+Author: José Beltrán
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+# streamlit frames-zoom component.
+
+Streamlit component that allows you zoom, crop and render a backgound image to be segmented inside a rectangle box.
+
+## Installation instructions
+
+```sh
+pip install frames-zoom
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from frames_zoom import frames_zoom
+
+```
