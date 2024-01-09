@@ -1,0 +1,8 @@
+numpy
+pandas
+
+[extras]
+ipykernel
+polars
+yfinance
+mplfinance
