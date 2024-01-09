@@ -1,0 +1,14 @@
+isgc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isgc/gpa_calculator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isgc/gpa_calculator/calculator.py,sha256=3I2qLktqMEm31pOvPj0rMrKAyWLlzLtd6AoPtTJbuN8,6923
+isgc/gpa_calculator/count_plot_remarks.py,sha256=k9UzqdE7a13mgO0ucmLSjWY3Rtpy6km01Ixns_K5iJw,322
+isgc/gpa_calculator/custom_round.py,sha256=rPq7-LzWUHBtPwc3zv1K-H7ftANEs6D1Q4ShoXu6mfE,158
+isgc/gpa_calculator/display_name.py,sha256=39SNq1Tj4wFMmJOeqLlXs5b-kc2Nya1YVn0mMhba2Fo,141
+isgc/gpa_calculator/semester_wise_sgpa_cgpa.py,sha256=M6vAgU_anoJsDuiRIVphMjaz4_p10Mrc9M0Z74lKTfQ,456
+tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/test_calculator.py,sha256=wdradKgkARlLQGRvjpkU4nivL1TsWZ_n0XAjaylOaB0,260
+isgc-1.0.1.dist-info/METADATA,sha256=_8n6BEsSrBj_jOwTmuG_0yA6aob788c0xISJw0g87t8,9572
+isgc-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+isgc-1.0.1.dist-info/entry_points.txt,sha256=anZl3cg3pkeXDk7tMG5dYFU7RR9uuHd_B7YYNSSvgYw,80
+isgc-1.0.1.dist-info/top_level.txt,sha256=5igGVaAq9FUmnnUbJMzRTiC62WPu5JpPAES8NHl5JFI,11
+isgc-1.0.1.dist-info/RECORD,,
