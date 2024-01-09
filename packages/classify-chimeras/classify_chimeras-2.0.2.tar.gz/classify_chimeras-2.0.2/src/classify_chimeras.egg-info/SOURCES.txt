@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/classify_chimeras/__init__.py
+src/classify_chimeras/example.py
+src/classify_chimeras/stencil_1d.py
+src/classify_chimeras/stencil_2d.py
+src/classify_chimeras/utils.py
+src/classify_chimeras.egg-info/PKG-INFO
+src/classify_chimeras.egg-info/SOURCES.txt
+src/classify_chimeras.egg-info/dependency_links.txt
+src/classify_chimeras.egg-info/top_level.txt
+tests/test_main.py
+tests/test_utils.py
