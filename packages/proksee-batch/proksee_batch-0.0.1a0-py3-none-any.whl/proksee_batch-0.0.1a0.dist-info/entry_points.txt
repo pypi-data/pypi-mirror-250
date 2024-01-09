@@ -1,0 +1,3 @@
+[console_scripts]
+proksee-batch=proksee-batch.__main__:main
+
