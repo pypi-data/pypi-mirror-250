@@ -1,0 +1,12 @@
+lib/cmake/ruckig/ruckig-config-version.cmake,sha256=4YlSSqos_ZYF2M-7nChBjSMPRMuX0AYO-mYrV0kg9Hg,1905
+lib/cmake/ruckig/ruckig-config.cmake,sha256=vemq1zsx8MUhYv_HVSPpK4ab5pqW9zm3OaTmmVI7uw8,1008
+lib/cmake/ruckig/ruckig-targets-release.cmake,sha256=9Epr36ieC8bIul9r0KfKz31YaYW9ZGyXSoJ3EOwojkI,860
+lib/cmake/ruckig/ruckig-targets.cmake,sha256=ecCNogSr_55e-bj56JkNborFN30MmKKmKaz_DwUTrqs,4167
+lib/ruckig.lib,sha256=SpOo2wrGProeahF4EA6YEt0pOeLcSywOGmmPmIqNKOs,2734584
+ruckig.cp39-win_amd64.pyd,sha256=U7mFmzUCM43ERr8gh5xaEzvnwQ3MPZhjzQ6GgL3USEI,690688
+share/ruckig/package.xml,sha256=Z_iXSR4cWu2uihjldk_Rbnl7IhZ9OSvixhYwFKL5ZS4,566
+ruckig-0.12.2.dist-info/METADATA,sha256=HuR6nwA-EdwORhHV2EYpOZbOxPl6v7vrgXvRF8oabvc,23547
+ruckig-0.12.2.dist-info/WHEEL,sha256=tkyI5bZC6_lCZuroAGdZE8Te8pe9T3dqKefPWtAjhic,103
+ruckig-0.12.2.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ruckig-0.12.2.dist-info/licenses/LICENSE,sha256=XvCC_avBMgiJ3swqwjgttiD4OSPWy5wQEbTMOkvY2so,1092
+ruckig-0.12.2.dist-info/RECORD,,
