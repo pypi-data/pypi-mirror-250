@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+meu_primeiro_pacote/__init__.py
+meu_primeiro_pacote/apresentacao_app.py
+meu_primeiro_pacote/boas_vindas.py
+meu_primeiro_pacote.egg-info/PKG-INFO
+meu_primeiro_pacote.egg-info/SOURCES.txt
+meu_primeiro_pacote.egg-info/dependency_links.txt
+meu_primeiro_pacote.egg-info/top_level.txt

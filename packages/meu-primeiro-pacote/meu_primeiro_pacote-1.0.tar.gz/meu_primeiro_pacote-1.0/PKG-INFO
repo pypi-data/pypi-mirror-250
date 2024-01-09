@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: meu_primeiro_pacote
+Version: 1.0
+Summary: Este pacote foi criado como exemplo na aula
+Author: Saulo Gil
+Author-email: saulosgil@hotmail.com
+Keywords: primeiro,pacote,criar
+License-File: license.txt
+
+# CriaÃ§Ã£o de Pacote Python - exemplo
+
+DescriÃ§Ã£o de como o pacote funciona...
+
+- Passos para instalaÃ§Ã£o
+- Outras informaÃ§Ãµes importantes (autores, empresa, contato)
