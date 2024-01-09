@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+plasmidin/__init__.py
+plasmidin/plasmid_diagrams.py
+plasmidin/plasmidin.py
+plasmidin/plasmidin_exceptions.py
+plasmidin.egg-info/PKG-INFO
+plasmidin.egg-info/SOURCES.txt
+plasmidin.egg-info/dependency_links.txt
+plasmidin.egg-info/requires.txt
+plasmidin.egg-info/top_level.txt
