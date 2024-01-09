@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rando_wisdom/__init__.py
+rando_wisdom/get_random_advice.py
+rando_wisdom/get_random_joke.py
+rando_wisdom/get_random_quote.py
+rando_wisdom/get_random_useless_fact.py
+rando_wisdom/get_random_user_info.py
+rando_wisdom.egg-info/PKG-INFO
+rando_wisdom.egg-info/SOURCES.txt
+rando_wisdom.egg-info/dependency_links.txt
+rando_wisdom.egg-info/requires.txt
+rando_wisdom.egg-info/top_level.txt
