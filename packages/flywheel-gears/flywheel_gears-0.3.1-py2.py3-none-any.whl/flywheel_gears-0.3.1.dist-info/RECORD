@@ -1,0 +1,9 @@
+gears/__init__.py,sha256=HISVcB4rdQDfosxwfrhf74wO6b3wzWB88SJFz_2R2ic,25
+gears/__main__.py,sha256=Duu02H1kHzOLOsSI1jEyHikGsyII9nBRo_q5O52PnaY,511
+gears/generator.py,sha256=wWm6Zg43oBcbEJlnaOvggE8CIFOaLQ5kckcISrx61xg,5603
+spec/manifest.schema.json,sha256=MkdcY6Rtqs8PCPBoyKlyTXld6JMpQjF4BebJEdzU_UU,7034
+flywheel_gears-0.3.1.dist-info/LICENSE,sha256=JMc6_EOE7KrgQJ4LyAfJ5nBBkC3sCaEKZz7Ldjm-JlQ,1088
+flywheel_gears-0.3.1.dist-info/METADATA,sha256=e2tVTENLhWLbW0ErL-qYmmw0ibxmYNfnBTK40IVKhqY,339
+flywheel_gears-0.3.1.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+flywheel_gears-0.3.1.dist-info/top_level.txt,sha256=DG6WIKoqFgaZcLuB_6v9qbLm4ieEhQzSXQsa3-_tzhg,6
+flywheel_gears-0.3.1.dist-info/RECORD,,
