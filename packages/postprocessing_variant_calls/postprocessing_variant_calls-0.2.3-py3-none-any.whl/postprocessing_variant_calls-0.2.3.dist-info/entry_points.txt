@@ -1,0 +1,3 @@
+[console_scripts]
+pv=postprocessing_variant_calls.main:app
+
