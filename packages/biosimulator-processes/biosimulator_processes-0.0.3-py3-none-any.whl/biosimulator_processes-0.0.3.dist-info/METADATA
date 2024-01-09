@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: biosimulator-processes
+Version: 0.0.3
+Home-page: https://github.com/vivarium-collective/process-bigraph
+Author: Ryan Spangler, Eran Agmon, Alex Patrie
+Author-email: ryan.spangler@gmail.com, agmon.eran@gmail.com, alexanderpatrie@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: bigraph-schema
+Requires-Dist: process-bigraph
+Requires-Dist: numpy
+Requires-Dist: pytest >=6.2.5
+Requires-Dist: tellurium
+Requires-Dist: copasi-basico
+Requires-Dist: cobra
+Provides-Extra: smoldyn
+Requires-Dist: smoldyn ; extra == 'smoldyn'
+Requires-Dist: simulariumio ; extra == 'smoldyn'
+
+# biosimulator-processes 
+
+
+Core implementations of `process-bigraph.composite.Process()` aligning with BioSimulators simulator
+tools.
+
+
+## Getting Started (PyPI)
+
+The easiest way to download this tool is via the Python Package Index. You may download
+core-processes with: 
+
+    pip install biosimulator-processes
+
+We recommend using an environment/package manager [like Conda](https://conda.io/projects/conda/en/latest/index.html) to 
+install the dependencies required for your use.
+
+ Most of the direct UI content for this tooling will be in the form of a jupyter notebook.
+
+### Using `biosimulator_processes.smoldyn_process.SmoldynProcess()`: 
+
+#### PLEASE NOTE: 
+Due to the multi-lingual nature of Smoldyn, which is primarily 
+developed in C++, the installation process for utilizing 
+the `SmoldynProcess` process implementation requires separate handling. This is particularly 
+relevant for macOS and Windows users, where setting up the Python bindings can be more complex.
+
+Please follow the detailed installation instructions provided below to ensure proper setup 
+of Smoldyn for your system.
+
+To download Smoldyn, please follow these steps:
+
+1. Visit the [Smoldyn Download Page](https://www.smoldyn.org/download.html).
+2. Choose the version appropriate for your operating system.
+3. Follow the instructions or links provided on the page to complete the download.
+
+For more detailed instructions and information, refer to the official Smoldyn documentation.
+
+
+### Quick Start Example:
+#### TODO: Add quickstart example of instance declarations.
+
+
+## TODO: Add DatabaseEmitter to this README
+
+
