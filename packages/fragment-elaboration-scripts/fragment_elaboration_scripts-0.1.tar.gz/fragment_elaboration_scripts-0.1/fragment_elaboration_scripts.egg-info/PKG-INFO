@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fragment-elaboration-scripts
+Version: 0.1
+Home-page: https://github.com/matteoferla/Fragment-hit-follow-up-chemistry
+Author: Matteo Ferla
+Author-email: matteo.ferla@stats.ox.ac.uk
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE

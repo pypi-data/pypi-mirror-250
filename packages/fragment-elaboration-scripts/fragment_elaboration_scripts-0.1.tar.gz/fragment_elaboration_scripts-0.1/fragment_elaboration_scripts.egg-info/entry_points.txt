@@ -1,0 +1,8 @@
+[console_scripts]
+enamine-catalog-download = fragment_elaboration_scripts.enamine_catalog_download:main
+enamine-store = fragment_elaboration_scripts.enamine_store:main
+fragment = fragment_elaboration_scripts.fragment:main
+oeb_to_sdf = fragment_elaboration_scripts.oe_conformer_gen:oeb_to_sdf
+pyrosetta-minimize = fragment_elaboration_scripts.pyrosetta_min:main
+retrieve-PDB-ligands = fragment_elaboration_scripts.retrieve_PDB_ligands:main
+zinc-data = fragment_elaboration_scripts.zinc_data:main
