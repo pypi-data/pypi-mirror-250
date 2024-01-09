@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: autonav
+Version: 0.0.1
+Summary: Research software for navigating a UAV in indoor environments
+Author-email: "Ricardo S. Santos" <p6221@ulusofona.pt>
+License: MIT
+Keywords: UAV,Navigation,Indoor
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.20
+Requires-Dist: matplotlib>=3.7.0
+Requires-Dist: scipy>=1.10
+Requires-Dist: typer>=0.1.0
+Provides-Extra: devel
+Requires-Dist: isort; extra == "devel"
+Requires-Dist: black; extra == "devel"
+Requires-Dist: flake8; extra == "devel"
+Requires-Dist: flake8-isort; extra == "devel"
+Requires-Dist: flake8-black; extra == "devel"
+Requires-Dist: flake8-bugbear; extra == "devel"
+Requires-Dist: pre-commit; extra == "devel"
+Requires-Dist: pytest>=7.0; extra == "devel"
+Requires-Dist: pytest-cov; extra == "devel"
+Requires-Dist: coverage; extra == "devel"
+Requires-Dist: mkdocs-material>=7.1.11; extra == "devel"
+Requires-Dist: mkdocstrings[python]>=0.19.0; extra == "devel"
+
+![example workflow](https://github.com/Ricardo-Santos-21904332/AutoNAV/actions/workflows/test.yml/badge.svg)
+[![codecov](https://codecov.io/gh/Ricardo-Santos-21904332/AutoNAV/graph/badge.svg?token=LCR7KDRK3E)](https://codecov.io/gh/Ricardo-Santos-21904332/AutoNAV)
+
+# AutoNAV
+
+## A Python package for simulating UAV Navigation in Satellite-Less Environments
+
+# Run using the cli interface (Easier)
+
+# Run as a library (Advanced)

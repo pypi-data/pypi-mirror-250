@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autonav"
+version = "0.0.1"
+description = "Research software for navigating a UAV in indoor environments"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["UAV", "Navigation", "Indoor"]
+license = { text = "MIT" }
+authors = [{ name = "Ricardo S. Santos", email = "p6221@ulusofona.pt" }]
+dependencies = [
+    "numpy >= 1.20",
+    "matplotlib >= 3.7.0",
+    "scipy >= 1.10",
+    "typer>= 0.1.0",
+]
+
+[project.scripts]
+autonav = "autonav.cli:app"
+
+[project.optional-dependencies]
+devel = [
+    "isort",
+    "black",
+    "flake8",
+    "flake8-isort",
+    "flake8-black",
+    "flake8-bugbear",
+    "pre-commit",
+    "pytest >= 7.0",
+    "pytest-cov",
+    "coverage",
+    "mkdocs-material>=7.1.11",
+    "mkdocstrings[python]>=0.19.0",
+]
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+src_paths = ["txtstats", "tests"]
+line_length = 120
+skip_gitignore = "True"
+
+[tool.flake8]
+max-line-length = 120
+max-doc-length = 150
+ignore = [
+    "E203", # "whitespace before ’:’"", but that’s how black likes it
+    "W503", # "line break before binary operator", conflicts with black
+    "A004",
+] # print from Rich conflicts]
+exclude = [
+    ".git",
+    "__pycache__",
+    ".*cache",
+    "build",
+    "dist",
+    "env",
+    "venv",
+    ".eggs",
+    "*.egg",
+    "docs",
+]
+docstring-convention = "google" # flake8-docstrings
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-v --tb=short --strict-markers"
+testpaths = ["tests"]
+xfail_strict = "true"
+markers = ["critical: The most critical tests"]
