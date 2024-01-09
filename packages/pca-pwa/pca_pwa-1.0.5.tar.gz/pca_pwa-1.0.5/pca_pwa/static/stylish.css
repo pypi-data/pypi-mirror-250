@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+/* Documentation Section Styles */
+section {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: 'Garamond';
+}
+
+h2 {
+    text-align: center;
+    color: #007BFF;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ol {
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #007BFF;
+}
+
+input[type="file"],
+select,
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Fade in/out custom value input based on the selected imputation method */
+input[name="custom_value"] {
+    display: none;
+    animation: fadeInOut 0.5s ease-out;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
