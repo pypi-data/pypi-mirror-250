@@ -1,0 +1,7 @@
+commit 0f6c6e86b1cda58d11068513a28af9ca7122e40a
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2024-01-08 09:04:52 -0800
+
+    Merge pull request #10 from moshez/initialize
+    
+    Add bash initialization/setup
