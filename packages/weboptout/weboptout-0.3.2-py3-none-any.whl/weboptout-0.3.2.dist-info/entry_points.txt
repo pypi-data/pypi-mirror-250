@@ -1,0 +1,3 @@
+[console_scripts]
+weboptout=weboptout.__main__:main
+
