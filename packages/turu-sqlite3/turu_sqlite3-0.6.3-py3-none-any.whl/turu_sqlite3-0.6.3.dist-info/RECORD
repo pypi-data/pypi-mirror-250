@@ -1,0 +1,8 @@
+turu/sqlite3/__init__.py,sha256=WOvWz0s_ay8A2R5q6matNXB_ey3ldoZWRDfSpGnxx3I,537
+turu/sqlite3/async_connection.py,sha256=4Qq-XikverEJMd3QcQH9rX49a371C5Z6XrivYQ6Q8gk,1903
+turu/sqlite3/async_cursor.py,sha256=irvnhJR02diEWpTyA-d9X8YkfmXYwY-hdKtlopzMefw,4295
+turu/sqlite3/connection.py,sha256=TwnI45IgYPG0OMwFKy3mZevohlVgTxm-8J1dG3OIyOc,1511
+turu/sqlite3/cursor.py,sha256=b_VXEPcb64FpwTq43CBwP6pXWWlRq9UkU-PnDMhw9Xw,3707
+turu_sqlite3-0.6.3.dist-info/METADATA,sha256=gfLHe09nGShSQf25FpfPCDpk_AQMeBY_RZrzzYAda2g,1434
+turu_sqlite3-0.6.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+turu_sqlite3-0.6.3.dist-info/RECORD,,
