@@ -1,0 +1,11 @@
+splatbot-1.0.2.dist-info/METADATA,sha256=OCEgT84tZTshZY7INI8BKlqICU995XJRkc-0jgSG864,6051
+splatbot-1.0.2.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+splatbot-1.0.2.dist-info/entry_points.txt,sha256=TZVvMib3J59_ZYopwQkWNisNTVIuHbnfWwETZtSAfDI,48
+splatbot-1.0.2.dist-info/licenses/LICENSE,sha256=NjBjyQq8WDzl-dxG0DSveeDnhQGeXLKLK5LRo9NqBG8,1064
+splatbot/__init__.py,sha256=zyD6hunY3Qz2m6ygzzx6WlW5ZNX5txNtkRpIt5juNKY,53
+splatbot/cli.py,sha256=a5MT7qb1nZX20KYJUDWuAo9LvRBKRBf0S0GF9bdeOmY,902
+splatbot/controller.py,sha256=6NsQ1T_ZmOZZLA6t7GzQ9vinW9lT6Gv4GzXux2OQIYM,1267
+splatbot/macro.py,sha256=bEbkD_7bOzNm2oSdoqJdi_1A__-hMBFLhhjzx-D7qao,3112
+splatbot/simulation.py,sha256=vSjkJ-kE7UEGk8HzEI-QFIdfKXQHF7rtCMji5HKmYUg,1230
+splatbot/start.py,sha256=tuag4PVJ6iOxP_eJSQG5OCAaLBoe9QNg8b3AHCGvcyE,1015
+splatbot-1.0.2.dist-info/RECORD,,
