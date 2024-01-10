@@ -1,0 +1,16 @@
+pydoca/__init__.py,sha256=eHw9W-10I5_U9TX_IItbA_AoFNkEkmgLvxWYHgELmJA,1508
+pydoca/aggregate_root.py,sha256=O01uWeKLTODaqQi3_NmPUmoV5rYpzVBHVaZFuZTF4Ac,1833
+pydoca/bootstrap.py,sha256=1HXdNZYz5xigy91qJ-9Jbq5HKNVrzlKqn-bS82laeS8,217
+pydoca/entity.py,sha256=27An2viKRJBEcAhOTgiAgJipUpeFnm7ELb1FgX0O-KU,3236
+pydoca/event.py,sha256=qeSh0wua1Bug3OBcMtuN-lTDOdduxdiasHmDOis7hls,825
+pydoca/port_adapter.py,sha256=gUFEDlln3ai7SM6I_PRGdHt9ibQd7z4-yuAakoVvy00,3486
+pydoca/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydoca/repository.py,sha256=1hGtvvSMi-WW5CeGPumVIGBW5lN5tOu1QRKYfhufzKQ,2966
+pydoca/unit_of_work.py,sha256=M47tYODHnmGEhqxDyyz01BPh60NNpHr08QBm6lVm2iU,3573
+pydoca/use_case.py,sha256=_mJIbDIyPX72HvGllDUfnncASpUiqtLI_HCMAMVVtAg,1960
+pydoca/utils.py,sha256=ArBmvqoy-aOUcGz53KSOFRzlqL3CBCqVLISLDhLJ5e8,161
+pydoca/value_object.py,sha256=7Jr6OcYuyos3hERhkzuqSYtD09ZndSvnHbSNF4dYyPk,861
+pydoca-1.0.0a0.dist-info/METADATA,sha256=6KIezLceCymqioHWSC8vPba1uxDo63g-kj5N_dJdfQw,9217
+pydoca-1.0.0a0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pydoca-1.0.0a0.dist-info/licenses/LICENSE,sha256=jcg3enbrfAB-Smswho9O2D1tIOychQBsAqWjPSIN7n4,1089
+pydoca-1.0.0a0.dist-info/RECORD,,
