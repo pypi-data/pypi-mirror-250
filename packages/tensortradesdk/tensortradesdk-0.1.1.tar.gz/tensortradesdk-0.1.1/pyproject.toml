@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "tensortradesdk"
+version = "0.1.1"
+description = "The Tensor.trade Python SDK is a Python toolkit for interfacing with the Tensor.trade API, offering easy access to trading and financial data through GraphQL queries for developers."
+authors = ["Damjan Kuznar <damjan.kuznar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+solana = "^0.30.0"
+tenacity = "^8.2"
+graphql-core = ">=3.2.0,<3.3"
+httpx = ">=0.23,<1.0"
+pydantic = ">=2.0.0,<3.0.0"
+websockets = ">=11.0,<12.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ariadne-codegen = {extras = ["subscriptions"], version = "^0.11.0"}
+pytest = "^7.4.3"
+base58 = "^2.1.1"
+pytest-mock = "^3.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+generate_gql_clients = "scripts.generate_gql_clients:run"
+update_gql_schema = "scripts.update_gql_schema:run"
