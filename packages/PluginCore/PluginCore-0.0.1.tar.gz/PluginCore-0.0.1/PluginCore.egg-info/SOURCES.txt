@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PluginCore/__init__.py
+PluginCore.egg-info/PKG-INFO
+PluginCore.egg-info/SOURCES.txt
+PluginCore.egg-info/dependency_links.txt
+PluginCore.egg-info/top_level.txt
