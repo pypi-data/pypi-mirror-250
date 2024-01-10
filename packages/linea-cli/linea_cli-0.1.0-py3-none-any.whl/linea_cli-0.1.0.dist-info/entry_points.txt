@@ -1,0 +1,2 @@
+[console_scripts]
+linea_cli = linea_cli:run
