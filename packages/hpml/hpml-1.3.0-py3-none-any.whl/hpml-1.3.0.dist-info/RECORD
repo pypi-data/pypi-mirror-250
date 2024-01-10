@@ -1,0 +1,11 @@
+hpml/__init__.py,sha256=BcXnYY5I8kxbOATKrkhoWsdqDLh4-rltgl4_wtn4E3E,138
+hpml/centerer.py,sha256=fTxui07DUo2RDxV1_BzqLmzLNdtP5xCmdof_fezQiFo,2642
+hpml/hpml_compiler.py,sha256=_bk5rVbHOuPvYAf6MExw0ogmhvlE5AsyQ-L57H_m5X0,9338
+hpml/preprocessor.py,sha256=S59hKyK6kLlOe8mBAu3ebLyrdxvr1AsmnOcSmDbaFvA,2432
+hpml/utils.py,sha256=-Wblk4pUAgqBN4ZwijZvMFmgDFvtsZd7X-0z8hJKxvE,2734
+hpml/data/hpml.lang,sha256=PNLMbZReb1_j6Lq6siWqKl7jvfYjg76AxroO_YchTo0,1660
+hpml/data/lexicon.json,sha256=bhYLP44c6rDmh6DVXQLlq8-lE1VsiHUMcSILT-NxeYw,2070
+hpml-1.3.0.dist-info/METADATA,sha256=gFdV4rg_K6Cujs5naLKQKgJb5YYzoUfaxE0MbIX3BTY,261
+hpml-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hpml-1.3.0.dist-info/top_level.txt,sha256=sfzTe0d5AbBUlAjKfeYK5y-1xkM83ITBnsV8REO-7Vk,5
+hpml-1.3.0.dist-info/RECORD,,
