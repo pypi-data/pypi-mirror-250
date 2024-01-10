@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "dq-gpu",
+  "description": "dq-gpu settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
