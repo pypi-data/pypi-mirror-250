@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: microns-utils
+Version: 0.1.10
+Summary: utilities for MICrONS
+Author: Stelios Papadopoulos, Christos Papadopoulos
+Author-email: spapadop@bcm.edu, cpapadop@bcm.edu
+License-File: LICENSE
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: ipyvolume
+Requires-Dist: decorator
+Requires-Dist: h5py
+Requires-Dist: cloud-volume
+Requires-Dist: caveclient
+Requires-Dist: nglui
+Requires-Dist: slackclient
+Requires-Dist: datajoint-plus
+Requires-Dist: wridgets
