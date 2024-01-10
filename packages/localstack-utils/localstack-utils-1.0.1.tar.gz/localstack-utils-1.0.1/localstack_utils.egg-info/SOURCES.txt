@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+localstack_utils/__init__.py
+localstack_utils/container.py
+localstack_utils/localstack.py
+localstack_utils/localstack_docker_configuration.py
+localstack_utils/localstack_logger.py
+localstack_utils.egg-info/PKG-INFO
+localstack_utils.egg-info/SOURCES.txt
+localstack_utils.egg-info/dependency_links.txt
+localstack_utils.egg-info/not-zip-safe
+localstack_utils.egg-info/requires.txt
+localstack_utils.egg-info/top_level.txt
+tests/test_kinesis.py
