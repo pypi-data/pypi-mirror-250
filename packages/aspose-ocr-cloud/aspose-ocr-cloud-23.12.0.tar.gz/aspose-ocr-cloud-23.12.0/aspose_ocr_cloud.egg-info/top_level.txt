@@ -1,0 +1,3 @@
+aspose_ocr_cloud
+example
+test
