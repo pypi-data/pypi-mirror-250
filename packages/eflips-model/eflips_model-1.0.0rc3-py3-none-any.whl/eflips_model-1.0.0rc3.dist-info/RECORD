@@ -1,0 +1,10 @@
+LICENSE.md,sha256=ADUqsZhl4juwq34PRTMiBqumpm11s_PMli_dZQjWPqQ,34260
+eflips/model/__init__.py,sha256=ODNS_nDmI4iah4UfsjFqe1U4b0uci5QR73LI5aJYj0o,1437
+eflips/model/depot.py,sha256=djI1TWq7vp43YyLFPdn9FVsW0EoM-GZZLbB1LtDo5sg,9866
+eflips/model/general.py,sha256=hasIO_9ldtfI1ciqx3Ulz53L4ELZGPtB_fNbUmAXQZY,33074
+eflips/model/network.py,sha256=hOiTEmmFG2B_jCeEFbAFLRmXlHgAiG0-2U7zdL8-k2Q,15156
+eflips/model/schedule.py,sha256=czakbrpvnmDYjtUkXC0jQ4tPQ1J87EQaJgklQt1aRcc,12741
+eflips_model-1.0.0rc3.dist-info/LICENSE.md,sha256=ADUqsZhl4juwq34PRTMiBqumpm11s_PMli_dZQjWPqQ,34260
+eflips_model-1.0.0rc3.dist-info/METADATA,sha256=8oEn0D80b8rs5-Ch7M05GAGGRCAl1l5Y8XaBqoh3toM,5682
+eflips_model-1.0.0rc3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+eflips_model-1.0.0rc3.dist-info/RECORD,,
