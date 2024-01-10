@@ -1,0 +1,8 @@
+prefref/__init__.py,sha256=t8PDOjWRj1RNDpcplAVyQKWWwnmYseYNomGRh9ZRuNs,168
+prefref/examples.py,sha256=JqUTHlPkKbqOOmoRcwKCBHw7TVPW0QBeQmYRjn6vbbQ,1080
+prefref/exceptions.py,sha256=eXgMOIekmucUDk4R3u5cgGnoBXOFkPI5WoSf0GMN_DA,676
+prefref/prefref.py,sha256=eUTIx1tGXWYlhIGbt9YymtTXvYqke2r6s6M_HuGwynM,14889
+prefref-24.1.900.dist-info/METADATA,sha256=X0tn4d4Dgg9YBpPtzsp-TzF3ieGJ6RpE3HxglMcqXUA,709
+prefref-24.1.900.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+prefref-24.1.900.dist-info/licenses/LICENSE,sha256=OQkjEwfsz2-L-Qkzir95peK9vryT0YY9ED4rE5DDlLQ,1462
+prefref-24.1.900.dist-info/RECORD,,
