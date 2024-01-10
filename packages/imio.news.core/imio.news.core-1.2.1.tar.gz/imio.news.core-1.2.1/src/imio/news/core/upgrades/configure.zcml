@@ -1,0 +1,73 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="imio.smartweb">
+
+  <genericsetup:registerProfile
+      name="upgrade_1003_to_1004"
+      title="Upgrade core from 1003 to 1004"
+      directory="profiles/1003_to_1004"
+      description="Add more missing translations indexes / metadata"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:upgradeStep
+      title="Refresh faceted"
+      description="Refresh faceted configurations on all entities / news folders"
+      source="1000"
+      destination="1001"
+      handler=".upgrades.refresh_objects_faceted"
+      profile="imio.news.core:default"
+      />
+
+  <genericsetup:upgradeStep
+      title="Reindex SearchableText index to add Subjects"
+      description="Reindex SearchableText index to add Subjects"
+      source="1001"
+      destination="1002"
+      handler=".upgrades.reindex_searchable_text"
+      profile="imio.news.core:default"
+      />
+
+  <genericsetup:upgradeStep
+      title="Add translations related indexes"
+      description=""
+      source="1002"
+      destination="1003"
+      handler=".upgrades.add_translations_indexes"
+      profile="imio.news.core:default"
+      />
+
+  <genericsetup:upgradeSteps
+      source="1003"
+      destination="1004"
+      profile="imio.news.core:default">
+    <genericsetup:upgradeDepends
+        title="Add more missing translations indexes / metadata"
+        import_profile="imio.news.core.upgrades:upgrade_1003_to_1004"
+        />
+    <genericsetup:upgradeStep
+        title="Reindex catalog"
+        handler=".upgrades.reindex_catalog"
+        />
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeStep
+      title="Remove SearchableText_fr (Solr will use SearchableText for FR)"
+      description=""
+      source="1004"
+      destination="1005"
+      handler=".upgrades.remove_searchabletext_fr"
+      profile="imio.news.core:default"
+      />
+
+  <genericsetup:upgradeStep
+      title="Remove unused title_fr and description_fr metadatas"
+      description=""
+      source="1005"
+      destination="1006"
+      handler=".upgrades.remove_title_description_fr"
+      profile="imio.news.core:default"
+      />
+
+</configure>
