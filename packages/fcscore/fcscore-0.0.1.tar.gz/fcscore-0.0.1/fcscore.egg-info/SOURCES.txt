@@ -1,0 +1,11 @@
+readme.md
+setup.cfg
+setup.py
+app/__init__.py
+app/app.py
+app/funcs.py
+app/pyodide.py
+fcscore.egg-info/PKG-INFO
+fcscore.egg-info/SOURCES.txt
+fcscore.egg-info/dependency_links.txt
+fcscore.egg-info/top_level.txt
