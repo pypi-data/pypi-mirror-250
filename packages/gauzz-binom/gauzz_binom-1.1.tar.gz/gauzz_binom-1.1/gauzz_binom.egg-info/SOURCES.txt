@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+gauzz_binom/Binomialdistribution.py
+gauzz_binom/Gaussiandistribution.py
+gauzz_binom/Generaldistribution.py
+gauzz_binom/__init__.py
+gauzz_binom.egg-info/PKG-INFO
+gauzz_binom.egg-info/SOURCES.txt
+gauzz_binom.egg-info/dependency_links.txt
+gauzz_binom.egg-info/not-zip-safe
+gauzz_binom.egg-info/top_level.txt
