@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+point-of-sale-system/__init__.py
+point_of_sale_system.egg-info/PKG-INFO
+point_of_sale_system.egg-info/SOURCES.txt
+point_of_sale_system.egg-info/dependency_links.txt
+point_of_sale_system.egg-info/top_level.txt
