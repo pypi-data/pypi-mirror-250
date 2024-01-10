@@ -1,0 +1,2 @@
+[console_scripts]
+viewererer = viewererer.cli:main
