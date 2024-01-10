@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: simple_spaced_repetition
+Version: 0.1.0
+Summary: Simple spaced repetition library
+Home-page: https://github.com/vlopezferrando/simple-spaced-repetition
+Author: Víctor López Ferrando
+Author-email: victor@thediligentdeveloper.com
+Project-URL: Bug Reports, https://github.com/vlopezferrando/simple-spaced-repetition/issues
+Project-URL: Source, https://github.com/vlopezferrando/simple-spaced-repetition
+Project-URL: Used at, https://python.cards
+Keywords: spaced repetition,anki
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Education :: Computer Aided Instruction (CAI)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simple-spaced-repetition

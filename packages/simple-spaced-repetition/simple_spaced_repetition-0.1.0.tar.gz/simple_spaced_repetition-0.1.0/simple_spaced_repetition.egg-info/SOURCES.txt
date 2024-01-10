@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+simple_spaced_repetition.py
+simple_spaced_repetition.egg-info/PKG-INFO
+simple_spaced_repetition.egg-info/SOURCES.txt
+simple_spaced_repetition.egg-info/dependency_links.txt
+simple_spaced_repetition.egg-info/top_level.txt
