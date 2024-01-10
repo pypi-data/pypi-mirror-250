@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: haitch
+Version: 0.2.0
+Summary: A lazy HTML element builder.
+Project-URL: Homepage, https://sr.ht/~loges/haitch
+Project-URL: Source, https://git.sr.ht/~loges/haitch
+Project-URL: Issues, https://todo.sr.ht/~loges/haitch
+Author-email: Logan Connolly <me@loganconnolly.com>
+License-Expression: BSD-3-Clause
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# haitch
+
+---
+
+[![builds.sr.ht status](https://builds.sr.ht/~loges/haitch.svg)](https://builds.sr.ht/~loges/haitch?)
+[![PyPI - Version](https://img.shields.io/pypi/v/haitch.svg)](https://pypi.org/project/haitch)
+
+> _haitch_, an alternative pronunciation for the letter "H".
+
+The `haitch` package provides a builder for composing HTML elements in a Document Object Model (DOM) tree. The element nodes will only be rendered when the `__str__` method is invoked.
+
+Why write your HTML in templates when you can do it in Python?
+
+**Core features:**
+
+- Compose HTML elements.
+- Lazily evaluate DOM tree.
+- 100% test coverage.
+- 100% type annotated codebase.
+- Zero dependencies.
+
+**Upcoming features:**
+
+- Explicit attribute annotations for known elements like `a`, `img`, etc.
+- Document elements based on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
+- Extra Annotations for common third-party plugins like [htmx](https://htmx.org/) and [alpine](https://alpinejs.dev/).
+
+## Requirements
+
+Python 3.8+
+
+## Quickstart
+
+Install `haitch` using pip:
+
+```console
+$ pip install haitch
+```
+
+Import the library like so:
+
+```python
+import haitch as H
+```
+
+By importing the root module, you now have access to any element you want:
+
+```python
+# Render known `h1` tag.
+h1 = H.h1("Hello, world")
+str(h1) # <h1>Hello, world</h1>
+
+# Render custom `foo` tag (useful for web components).
+foo = H.foo("Hello, world")
+str(foo) # <foo>Hello, world!</foo>
+```
+
+Here is a simple, real-world example that showcases the advantage of writing HTML in Python. Let's say we want a list of customer emails based on some business logic:
+
+```python
+# Fetch customers from a data store.
+customers = [
+    ("jane@aol.com", False, True),
+    ("bob@example.com", True, False),
+    ("mark@mail.org", True, False),
+    ("karen@hr.org", False, False),
+]
+
+# Build the DOM tree with attributes and children.
+dom = H.div(class_="container")(
+    H.h1("Customers to contact:"),
+    H.ul()(
+        *(
+            H.li(
+                H.a(href=f"mailto:{email}")(email),
+            )
+            for email, is_premium, is_new in customers
+            if is_premium or is_new
+        ),
+    ),
+)
+
+print(dom)
+# <div class="container">
+#   <h1>Customers to contact:</h1>
+#   <ul>
+#     <li><a href="mailto:jane@aol.com">jane@aol.com</a></li>
+#     <li><a href="mailto:bob@example.com">bob@example.com</a></li>
+#     <li><a href="mailto:mark@mail.org">mark@mail.org</a></li>
+#   </ul>
+# </div>
+```
+
+FYI: The example output is prettified for better readability. The actual output is a minified string with no formatting.
+
+## Motivation
+
+I was inspired by the fantastic [htbuilder](https://github.com/tvst/htbuilder) library as an alternative to template engines. The library met most of my needs, but I really wanted to expand its functionality by leveraging modern Python features like type annotations. This coincided with my excitement for [Hypermedia-Driven Applications (HDAs)](https://htmx.org/essays/hypermedia-driven-applications/) with tools like `htmx` and `alpine`.
+
+While writing HDAs has simplified my application logic, the lack of autocompletion and diagnostics in templates are quite annoying. Therefore, my goal with this package is to make writing HTML as simple and fun as writing normal Python code _by writing normal Python code_.
+
+## License
+
+`haitch` is distributed under the terms of the [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause.html) license.
