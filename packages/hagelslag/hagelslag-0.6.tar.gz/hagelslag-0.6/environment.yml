@@ -1,0 +1,33 @@
+name: hagelslag
+channels:
+  - conda-forge
+dependencies:
+  - python<=3.10
+  - numpy
+  - scipy
+  - s3fs
+  - matplotlib
+  - xarray
+  - netcdf4
+  - pandas
+  - scikit-learn
+  - pytest
+  - h5py
+  - pip
+  - pyproj
+  - pygrib
+  - scikit-image
+  - jupyter
+  - jupyterlab
+  - arrow
+  - cython
+  - sphinx
+  - mock
+  - dask
+  - numba
+  - jasper
+  - flake8
+  - zarr
+  - pyarrow
+  - pip:
+      - .

@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+xarray
+pandas
+scikit-image
+scikit-learn
+dask
+zarr
+numba
+pygrib
+pyproj
+pyarrow
+pyshp
