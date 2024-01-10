@@ -1,0 +1,3 @@
+[console_scripts]
+flow-cli = convect_flow_sdk.cli:run_command
+
