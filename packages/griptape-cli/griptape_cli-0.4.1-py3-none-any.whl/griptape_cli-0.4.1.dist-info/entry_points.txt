@@ -1,0 +1,3 @@
+[console_scripts]
+gt=griptape.cli.main:cli
+
