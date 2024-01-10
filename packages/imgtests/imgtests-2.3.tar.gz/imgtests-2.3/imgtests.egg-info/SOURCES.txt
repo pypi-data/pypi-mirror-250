@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+imgtests/__init__.py
+imgtests.egg-info/PKG-INFO
+imgtests.egg-info/SOURCES.txt
+imgtests.egg-info/dependency_links.txt
+imgtests.egg-info/not-zip-safe
+imgtests.egg-info/top_level.txt
