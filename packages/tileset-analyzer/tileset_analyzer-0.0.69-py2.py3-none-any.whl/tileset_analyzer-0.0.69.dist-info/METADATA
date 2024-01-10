@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tileset_analyzer
+Version: 0.0.69
+Summary: Analyze vector Tileset
+Home-page: https://github.com/geoyogesh/tileset_analyzer
+Author: Yogesh Dhanapal
+Author-email: geoyogesh@gmail.com
+License: MIT
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pandas
+Requires-Dist: protobuf <=3.20.3
+Requires-Dist: parse
+
+
+
+Tile Size
+- Aggregate Operation Sum, Min, Max, 99th percentile, 95th Percentile 
+- Split based on zoom level 
+
+- Compare different tilesets 
+
+
