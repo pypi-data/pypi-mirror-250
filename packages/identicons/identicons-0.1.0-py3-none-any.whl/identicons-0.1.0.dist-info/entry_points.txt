@@ -1,0 +1,2 @@
+[console_scripts]
+identicons = identicons.cli:main
