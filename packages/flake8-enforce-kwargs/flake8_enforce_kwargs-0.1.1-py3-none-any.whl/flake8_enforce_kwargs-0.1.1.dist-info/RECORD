@@ -1,0 +1,8 @@
+enforce_kwargs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+enforce_kwargs/checker.py,sha256=f3u_oIhZEEtU2qFpEgklWDRsuD-aywiUhzpJ3C_V7Vk,3423
+flake8_enforce_kwargs-0.1.1.dist-info/LICENSE,sha256=_OcAxQDwx2t2II4wn0n7ZLhInda--qAJEMSclLAkSO4,1082
+flake8_enforce_kwargs-0.1.1.dist-info/METADATA,sha256=iFfuThMlkF5CmekRPBijbjpitEsXj6C0_F4P0KpnnFw,2669
+flake8_enforce_kwargs-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+flake8_enforce_kwargs-0.1.1.dist-info/entry_points.txt,sha256=_Ctrb-CG3uJSaGglrTl3X-EzNJe9vpRTKgEX4TcOAE0,55
+flake8_enforce_kwargs-0.1.1.dist-info/top_level.txt,sha256=eLs_tVwlI4lFI0thtXDAtU6kEe8M_M4JVCbiiQ7bbl0,15
+flake8_enforce_kwargs-0.1.1.dist-info/RECORD,,

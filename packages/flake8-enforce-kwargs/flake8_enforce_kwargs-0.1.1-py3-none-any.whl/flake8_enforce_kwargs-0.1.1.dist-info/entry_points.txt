@@ -1,0 +1,2 @@
+[flake8.extension]
+EKW = enforce_kwargs.checker:Plugin
