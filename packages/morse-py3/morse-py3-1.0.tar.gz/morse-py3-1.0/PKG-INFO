@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: morse-py3
+Version: 1.0
+Summary: A simple CLI tool to take any text and convert it into morse code.
+Author: Benjamin Nicholls
+Author-email: benn.andrews2022@gmail.com
+License-File: LICENSE.txt
