@@ -1,0 +1,1 @@
+This is a simple Textual CLI Tetris Game designed for the command-line interface, featuring good 'ol Tetris gameplay mechanics using ASCII-based graphics. If it returns a EERerror increase your cmd width to at least 256.
