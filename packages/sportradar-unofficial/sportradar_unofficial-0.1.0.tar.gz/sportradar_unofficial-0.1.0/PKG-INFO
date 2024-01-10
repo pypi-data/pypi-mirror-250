@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sportradar_unofficial
+Version: 0.1.0
+Summary: An unofficial python package to access sportradar NFL APIs.
+Home-page: http://github.com/ggurjar333/sportradar-unofficial
+Author: Gaurav Gurjar, John Bassie, John Bonnett
+Author-email: ggurjar333@gmail.com
+License: MIT
+Keywords: sport analysis,sport statistics,sport data analysis,scraping,data collection,data processing,MongoDB
+License-File: LICENSE.txt
+Requires-Dist: urllib3
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: pymongo
+Requires-Dist: setuptools<59.0.0,>=58.1.0
+Requires-Dist: coloredlogs<16.0.0,>=15.0.1
