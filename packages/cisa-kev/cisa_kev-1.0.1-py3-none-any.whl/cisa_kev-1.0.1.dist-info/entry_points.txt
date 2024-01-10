@@ -1,0 +1,3 @@
+[console_scripts]
+kev=cisa_kev.kev:_cli
+
