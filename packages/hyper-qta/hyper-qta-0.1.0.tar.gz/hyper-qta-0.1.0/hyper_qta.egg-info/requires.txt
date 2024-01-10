@@ -1,0 +1,26 @@
+rfc3986<2.0,>=1.1.0
+brotlipy<1.0,>=0.7.0
+six
+
+[:platform_python_implementation == "PyPy" and python_full_version < "2.7.9"]
+cryptography<1.0
+
+[:python_full_version < "2.7.9"]
+pyOpenSSL>=0.15
+service_identity>=14.0.0
+
+[:python_version < "3.10"]
+cffi==1.12.3
+h2!=2.5.0,<3.0,>=2.4
+hyperframe<4.0,>=3.2
+
+[:python_version == "2.7" or python_version == "3.3"]
+enum34<2,>=1.0.4
+
+[:python_version >= "3.10"]
+cffi==1.16.0
+h2==3.2.0
+hyperframe<6,>=5.2.0
+
+[fast]
+pycohttpparser
