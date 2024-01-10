@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: dMO
+Version: 0.0.1
+Summary: A package for learning cutting planes for mixed-integer optimization problems.
+Author-email: Gabriele Dragotto <gdragotto@princeton.edu>, Jaime Fernandez Fisac <jfisac@princeton.edu>, Bartolomeo Stellato <bstellato@princeton.edu>
+License: Commons Clause License Condition v1.0
+License-File: LICENSE
+Requires-Dist: clarabel
+Requires-Dist: cvxpy>=1.4.1
+Requires-Dist: cvxpylayers
+Requires-Dist: diffcp
+Requires-Dist: flax
+Requires-Dist: gurobipy
+Requires-Dist: hydra-core
+Requires-Dist: hydra-joblib-launcher
+Requires-Dist: hydra-optuna-sweeper
+Requires-Dist: jax-dataclasses
+Requires-Dist: jax>=0.4.4
+Requires-Dist: jaxlib
+Requires-Dist: jaxopt>=0.5.5
+Requires-Dist: mlflow
+Requires-Dist: networkx
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: optax
+Requires-Dist: optuna
+Requires-Dist: tensorflow-io
+Provides-Extra: dev
+Requires-Dist: furo; extra == 'dev'
+Requires-Dist: imageio; extra == 'dev'
+Requires-Dist: intvalpy>=1.6.0; extra == 'dev'
+Requires-Dist: ipdb; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: matplotlib; extra == 'dev'
+Requires-Dist: mpmath; extra == 'dev'
+Requires-Dist: nbsphinx; extra == 'dev'
+Requires-Dist: pandas; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Requires-Dist: ruff-lsp; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Description-Content-Type: text/markdown
+
+
+# dMO
+dMO is a JAX-powered differentiable cutting-plane algorithm for mixed-integer linear optimization
+<p align="center">
+  <img src="arch.jpg"/><br>
+  <img src="cover.gif" width="25%"/>
+</p>
+
+## Citing
+Please cite this paper if you work with dMO
+
+  ```
+  @article{differentiablecp_2023,
+    title        = {Differentiable Cutting-plane Layers for Mixed-integer Linear Optimization},
+    author       = {Dragotto, Gabriele and Clarke, Stefan and Fernández Fisac, Jaime and Stellato, Bartolomeo},
+    year         = 2023,
+    journal      = {arXiv},
+    volume       = {2311.03350},
+    url          = {https://arxiv.org/abs/2311.03350}
+  }
+  ```

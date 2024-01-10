@@ -1,0 +1,77 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = [
+    "dmo"
+]
+exclude = ["dmo/examples", "dmo/instances"]
+
+[tool.hatch.build.targets.sdist]
+include = ["..."]
+
+
+[project]
+name = "dMO"
+description = "A package for learning cutting planes for mixed-integer optimization problems."
+readme = "README.md"
+version = "0.0.1"
+license = { text = "Commons Clause License Condition v1.0" }
+authors = [
+    { name = "Gabriele Dragotto", email = "gdragotto@princeton.edu" },
+    { name = "Jaime Fernandez Fisac", email = "jfisac@princeton.edu" },
+    { name = "Bartolomeo Stellato", email = "bstellato@princeton.edu" }
+]
+dependencies = [
+    "cvxpy>=1.4.1",
+    "clarabel",
+    "flax",
+    "gurobipy",
+    "jax>=0.4.4",
+    "jaxlib",
+    "jaxopt>=0.5.5",
+    "numpy>=1.22.0",
+    "optax",
+    "cvxpylayers",
+    "diffcp",
+    "networkx",
+    "mlflow",
+    "hydra-core",
+    "hydra-joblib-launcher",
+    "hydra-optuna-sweeper",
+    "optuna",
+    "jax_dataclasses",
+    "tensorflow-io"
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ipdb",
+    "pre-commit",
+    "ruff",
+    "ruff-lsp",
+    "furo",
+    "sphinx",
+    "nbsphinx",
+    "ipython",
+    "pandas",
+    "matplotlib",
+    "mpmath",
+    "imageio",
+    "intvalpy>=1.6.0"
+]
+
+[tool.ruff]
+select = ["E", "F", "I"]
+line-length = 100
+exclude = ["build", "examples", "instances", "docs", "*__init__.py"]
+target-version = "py310"
+
+[tool.isort]
+skip = ["__init__.py"]
