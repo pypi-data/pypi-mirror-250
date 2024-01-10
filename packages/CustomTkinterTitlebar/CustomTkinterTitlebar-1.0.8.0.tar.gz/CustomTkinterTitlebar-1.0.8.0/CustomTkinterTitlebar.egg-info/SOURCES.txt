@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+CustomTkinterTitlebar.egg-info/PKG-INFO
+CustomTkinterTitlebar.egg-info/SOURCES.txt
+CustomTkinterTitlebar.egg-info/dependency_links.txt
+CustomTkinterTitlebar.egg-info/requires.txt
+CustomTkinterTitlebar.egg-info/top_level.txt
+customtitlebar/__init__.py
+customtitlebar/data.py
+customtitlebar/titlebar.py
