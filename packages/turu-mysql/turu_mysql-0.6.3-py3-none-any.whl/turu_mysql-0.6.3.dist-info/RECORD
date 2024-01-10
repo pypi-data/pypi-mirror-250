@@ -1,0 +1,8 @@
+turu/mysql/__init__.py,sha256=EZvhVQO0hEtQLJSekzheZ0np7_J0Bk9ms6YtP6iqiTI,673
+turu/mysql/async_connection.py,sha256=b4bsOicOeUpMb1PmWoMJJNLahAvUyKCEDuRSi7PD_ls,3129
+turu/mysql/async_cursor.py,sha256=b6OxRnobpuK8l6zJhWRPV2ofBh9fXuG8-nLllrd1ULs,4200
+turu/mysql/connection.py,sha256=RjPNmbE0Y4kwiVMzB_5-hXIGQYDSd6ZnJVznJ9GvkRA,3000
+turu/mysql/cursor.py,sha256=Ar3TbodfMD_ciJYv093Isx-thHHiM8YuBRQglw_eVpw,4132
+turu_mysql-0.6.3.dist-info/METADATA,sha256=Gk_cC11q02Bh-BAiubtdrmvx3Wnn528mT28l6QbbR_c,1470
+turu_mysql-0.6.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+turu_mysql-0.6.3.dist-info/RECORD,,
