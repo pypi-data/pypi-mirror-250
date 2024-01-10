@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: git-helper-utils
+Version: 0.3.0
+Summary: Collection of Python utility scripts to facilitate git related tasks.
+Home-page: https://github.com/jai-python3/git-helper-utils
+Author: Jaideep Sundaram
+Author-email: jai.python3@gmail.com
+Keywords: git-helper-utils
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click>=7.0
+Requires-Dist: Rich
+
+=========
+Git Utils
+=========
+
+
+
+
+
+
+Collection of Python utility scripts to facilitate git related tasks.
+
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2023-12-30)
+------------------
+
+* First release on PyPI.
