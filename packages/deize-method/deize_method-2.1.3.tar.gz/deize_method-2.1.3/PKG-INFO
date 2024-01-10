@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: deize-method
+Version: 2.1.3
+Summary: deizeが使用するメソッド
+License: MIT
+Author: Deize
+Author-email: ddeize.git@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Deize メソッド
+
+## 説明
+
+Deize が使いそうなメソッドをまとめたよ
+
+## directory_listing
+
+指定したディレクトリ内のファイルの一覧を出力するよ  
+すべて、ディレクトリのみ、ファイルのみの三つがあるよ
+
+## version_check
+
+gitに登録しているtagを取得してバージョンを返すよ
+
