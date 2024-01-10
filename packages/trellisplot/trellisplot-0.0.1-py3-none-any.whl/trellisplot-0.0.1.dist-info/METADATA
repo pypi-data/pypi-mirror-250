@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: trellisplot
+Version: 0.0.1
+Summary: Trellis plot tool
+Home-page: UNKNOWN
+Author: Ethan S. Lee
+Author-email: <sukraelee@gmail.com>
+License: UNKNOWN
+Keywords: python,trellisplot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+Package to plot trellis functionality
+
+
