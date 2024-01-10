@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+bdchecker/__init__.py
+bdchecker/__version__.py
+bdchecker/checker.py
+bdchecker/main.py
+bdchecker.egg-info/PKG-INFO
+bdchecker.egg-info/SOURCES.txt
+bdchecker.egg-info/dependency_links.txt
+bdchecker.egg-info/entry_points.txt
+bdchecker.egg-info/top_level.txt
