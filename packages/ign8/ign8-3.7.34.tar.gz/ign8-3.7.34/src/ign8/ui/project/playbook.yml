@@ -1,0 +1,33 @@
+- hosts: 127.0.0.1
+  connection: local
+  tasks:
+  
+  - name: Get Python Venv Path
+    set_fact:
+      virtual_environment: "{{ lookup('env', 'VIRTUAL_ENV', default='Not in a virtual environment') }}"
+
+  - name: "Create the file when in a virtual environment"
+    template: src={{ virtual_environment }}/lib/python3.9/site-packages/ign8/ui/project/ignite/nginx.conf.j2 dest=/etc/nginx/nginx.conf
+    delegate_to: localhost
+    become: yes
+    when: virtual_environment != "Not in a virtual environment"
+
+  - name: Get Directory of ign8 Executable
+    shell: "which ign8"
+    register: ign8_dir_result
+
+    - name: Set Ignite Path Fact
+      set_fact:
+        ignite_path: "{{ ign8_dir_result.stdout.replace("/bin/ign8", "/") }}/lib/python3.10/site-packages/ign8/ui/project/ignite"
+
+    - name: Display Ignite Path Fact
+      debug:
+        var: ignite_path
+
+  - name: "create some file in a non virtual environment"
+    template: src=src/ign8/ui/project/nginx.conf.j2 dest=/etc/nginx/nginx.conf
+    delegate_to: localhost
+    become: yes
+    when: virtual_environment == "Not in a virtual environment"
+
+# Path: src/ign8/ui/project/nginx.conf.j2
