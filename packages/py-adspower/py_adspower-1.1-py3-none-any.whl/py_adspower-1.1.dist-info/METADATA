@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: py-adspower
+Version: 1.1
+Summary: This library implements AdsPower API specification
+Home-page: https://github.com/x2ice/py-adspower
+Author: x2ice
+Author-email: q3fjq4u5@duck.com
+Keywords: adspower api
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: requests (>=2.25.1)
+
