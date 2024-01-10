@@ -1,0 +1,2 @@
+[console_scripts]
+bad = app.__main__:main
