@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.py
+batch_prediction.egg-info/PKG-INFO
+batch_prediction.egg-info/SOURCES.txt
+batch_prediction.egg-info/dependency_links.txt
+batch_prediction.egg-info/top_level.txt
+refract_serving/README.md
+refract_serving/__init__.py
+refract_serving/app.py
+refract_serving/app2.py
+refract_serving/constants.py
+refract_serving/init_script.sh
+refract_serving/requirements.txt
+refract_serving/utils.py
