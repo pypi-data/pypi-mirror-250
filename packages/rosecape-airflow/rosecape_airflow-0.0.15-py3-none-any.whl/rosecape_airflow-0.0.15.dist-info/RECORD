@@ -1,0 +1,12 @@
+rosecape_airflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rosecape_airflow/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rosecape_airflow/aws/ec2.py,sha256=bjjCHFPbzCXdQXRf4l27hLqJLiXF2JkpjVo-X6o5Y2Y,1801
+rosecape_airflow/aws/ecs.py,sha256=qzqSLi75Fi3HoEF2s53HY8l4xLLTSadrkR_ecePO0E0,4159
+rosecape_airflow/aws/efs.py,sha256=9BozjlCD3tl15fFVVJDN5esFdd2MYkKUXt8n-5qXZUg,10137
+rosecape_airflow/slack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rosecape_airflow/slack/messages.py,sha256=NPRMy9ED-K5trfcrjb7PufCmfhM-XOYV2cRt6HmB2Ng,4753
+rosecape_airflow/slack/task_failed_slack_alert.py,sha256=9nVbEZDljyUHs1vSRprpBLXybtd6jrPpS3797UA73N0,1555
+rosecape_airflow-0.0.15.dist-info/METADATA,sha256=3gc4pN8I-Vb4oQ3tBzBLng1zO7XweVMI5rb8Z1T2t4w,487
+rosecape_airflow-0.0.15.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rosecape_airflow-0.0.15.dist-info/top_level.txt,sha256=9CZE_ikTrt73JKaoh26awGuqELC73KLUjvGOeimVMRc,17
+rosecape_airflow-0.0.15.dist-info/RECORD,,
