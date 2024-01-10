@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+fasctreat/__init__.py
+fasctreat/main.py
+fasctreat.egg-info/PKG-INFO
+fasctreat.egg-info/SOURCES.txt
+fasctreat.egg-info/dependency_links.txt
+fasctreat.egg-info/requires.txt
+fasctreat.egg-info/top_level.txt
