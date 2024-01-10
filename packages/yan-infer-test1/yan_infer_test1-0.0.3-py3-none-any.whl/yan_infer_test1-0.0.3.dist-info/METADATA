@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: yan-infer-test1
+Version: 0.0.3
+Summary: RockAI Yan模型推理SDK
+Author-email: zhangjl <zhangjl@stonehill-tech.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: stf-test1 ==0.0.3
+
+### RockAI Yan模型推理SDK
