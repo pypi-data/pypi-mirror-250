@@ -1,0 +1,12 @@
+fpm/fpm,sha256=kJLCa9JXQkSIyaBASR8U-G9LJM2cXQFN-jk3s403bAg,1805152
+fpm/__init__.py,sha256=uyPlVMTO58_zYCDp00QdObySKZreHoEJQHgGRDUvCYc,290
+fpm/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+fpm/.dylibs/libgfortran.5.dylib,sha256=GKyrwaizUoZKGo3E0An98tqukYn0EF-QDufNEhuXMx4,3303824
+fpm/.dylibs/libquadmath.0.dylib,sha256=20wxISj-zYTzNeXQqsPKZEIRXuJzjN8HV_yU0TXKqi8,403280
+fpm/.dylibs/libgcc_s.1.1.dylib,sha256=3Jrr1iw94p5PCXDciy5ZHZED8Mv1Nz-tVqbuXWXbM-k,147456
+fpm/.dylibs/libgomp.1.dylib,sha256=wEAgj7GW7ptzlbICz5tZnFgH8RlWaDZHXngwVtY1NsA,416976
+fpm-0.10.0.dist-info/LICENSE,sha256=t-M2AcATDRpnT8x3Ltm3gERg0YlkaaWyGbpAYu_Nn7k,1073
+fpm-0.10.0.dist-info/WHEEL,sha256=dsbzRwIaEczKE9vLsa3y483IoyI_FVFyo3QPBa0zbnM,102
+fpm-0.10.0.dist-info/top_level.txt,sha256=4c-IiwH4WR5QmxJBtrUGGZYEmJtUaL4_mkgjmp6MT4Y,4
+fpm-0.10.0.dist-info/METADATA,sha256=22sWE9hNeFll2Xsx8vcKptSOwjCFzchLxneJxYJITPk,7883
+fpm-0.10.0.dist-info/RECORD,,
