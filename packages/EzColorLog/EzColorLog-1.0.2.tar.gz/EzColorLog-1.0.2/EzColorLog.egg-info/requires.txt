@@ -1,0 +1,7 @@
+coloredlogs
+colorama
+pyyaml
+IPython
+
+[tqdm]
+tqdm
