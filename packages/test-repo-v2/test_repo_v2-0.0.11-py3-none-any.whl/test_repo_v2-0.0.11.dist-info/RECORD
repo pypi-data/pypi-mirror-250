@@ -1,0 +1,5 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/hello.py,sha256=lcaOW_yQ4sRrRXn0yCgpGDJX_QJV9_GeOXZ3KDWuDAk,72
+test_repo_v2-0.0.11.dist-info/METADATA,sha256=qV7XxOvgAVg9qjksO2ruIQ-V59eEbJfhNn4uzPdLhsA,1037
+test_repo_v2-0.0.11.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+test_repo_v2-0.0.11.dist-info/RECORD,,
