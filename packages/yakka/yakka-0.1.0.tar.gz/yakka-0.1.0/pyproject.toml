@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "yakka"
+version = "0.1.0"
+description = "Infrastructure for AI applications and machine learning pipelines"
+authors = ["sam <sam@eventual.ai>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+botocore = ">=1.33.2,<1.33.14"
+aiobotocore = "^2.9.0"
+pydantic = "^2.5.3"
+
+[tool.poetry.dev-dependencies]
+types-aiobotocore = { extras = ["essential"], version = "^2.9.0" }
+pandas = "^2.1.4"
+requests = "^2.31.0"
+aws-cdk-lib = "^2.118.0"
+constructs = "^10.3.0"
+aws-cdk-aws-lambda-python-alpha = "^2.118.0a0"
+matplotlib = "^3.8.2"
+ruff = "^0.1.11"
+pylint = "^3.0.3"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.345"
+aws-lambda-typing = "^2.18.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
