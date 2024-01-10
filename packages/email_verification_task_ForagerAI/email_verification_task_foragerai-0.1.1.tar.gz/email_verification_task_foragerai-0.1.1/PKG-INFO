@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: email_verification_task_ForagerAI
+Version: 0.1.1
+Summary: A FastAPI project for email verification.
+License: MIT
+Author: Oleksii R
+Author-email: 88157588+alexsproject@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.108.0,<0.109.0)
+Requires-Dist: httpx (>=0.26.0,<0.27.0)
+Requires-Dist: pydantic-settings (>=2.1.0,<3.0.0)
+Requires-Dist: pydantic[email] (>=2.5.3,<3.0.0)
+Requires-Dist: uvicorn (>=0.25.0,<0.26.0)
+Description-Content-Type: text/markdown
+
+# Email Verification
+## Description
+This project is a FastAPI application designed to interact with the Hunter.io API. It provides functionality to verify email addresses and search emails by domain, with CRUD operations for managing the results. The application stores results in a local variable and is structured to demonstrate basic API interaction and data handling in FastAPI.
+
+## Features
+ - Email verification using Hunter.io API
+ - Search for emails associated with a domain
+ - CRUD operations for managing email verification results
+ - Local storage of verification results
+ - Asynchronous request handling
+
+## Installation
+Install this package using `pip`:
+
+```bash
+pip install email_verification_task_ForagerAI
+```
+Or install using poetry:
+```bash
+poetry add email_verification_task_ForagerAI
+```
+## Usage
+After installation, you can use it like this:
+```bash
+import email_verification_task_ForagerAI
+```
+
+## API Endpoints
+ - POST /verify-email: Verifies the email address.
+ - POST /search-email: Search for email addresses by domain.
+ - POST /email-results/: Create a result entry for an email address or domain.
+ - GET /email-results/{identifier}: Retrieve a specific verification result by email or domain.
+ - PUT /email-results/{identifier}: Update a specific verification result.
+ - DELETE /email-results/{identifier}: Delete a specific verification result.
+
+## Configuration
+The application can be configured through environment variables. Here are the available configurations:
+
+ - API_KEY: Your Hunter.io API key.
+
+## Contributing
+Contributions to this project are welcome. Please ensure to follow the code of conduct and coding standards of the project.

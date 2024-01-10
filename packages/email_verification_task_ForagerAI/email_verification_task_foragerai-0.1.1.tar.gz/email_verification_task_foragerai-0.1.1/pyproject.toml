@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "email_verification_task_ForagerAI"
+version = "0.1.1"
+description = "A FastAPI project for email verification."
+authors = ["Oleksii R <88157588+alexsproject@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+httpx = "^0.26.0"
+pydantic-settings = "^2.1.0"
+pydantic = {extras = ["email"], version = "^2.5.3"}
+
+
+[tool.poetry.group.dev.dependencies]
+wemake-python-styleguide = "^0.18.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
