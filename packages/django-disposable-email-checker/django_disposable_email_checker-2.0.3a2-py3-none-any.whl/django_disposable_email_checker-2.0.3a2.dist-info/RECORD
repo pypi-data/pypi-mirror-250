@@ -1,0 +1,12 @@
+disposable_email_checker/__init__.py,sha256=n13C9i6T1Sv0ayuCOdgVl40P0m-B0uT9KNlWrXAF-VU,24
+disposable_email_checker/emails.py,sha256=cF0Bdkoe_SvIV5s2wcdlD-FwHy9rg8OK5u7iMPjJPPw,31109
+disposable_email_checker/fields.py,sha256=lbAYL2xxFTVhsZUtp81eSwLqPdsdxdjmFWL1j21ufgU,763
+disposable_email_checker/forms.py,sha256=ALsaZEOEqjdy4ySKSvySB-0_5pUDhqgxpeO08A2FSls,263
+disposable_email_checker/models.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+disposable_email_checker/validators.py,sha256=24HM7z7MgZMnY_GNhSSMRwbh67RwyFWAP4QL1Zm035c,2701
+django_disposable_email_checker-2.0.3a2.dist-info/AUTHORS.md,sha256=sWQqn5wqXSqGpaJFSlbTKdJH9sIZhGjIk3uznOe8Fmc,492
+django_disposable_email_checker-2.0.3a2.dist-info/LICENSE,sha256=n4463K3LJhcXIP_0bbspLcqEhklHLtWAwoV6KMMR63o,1491
+django_disposable_email_checker-2.0.3a2.dist-info/METADATA,sha256=4ruUU5t7kg7Hk2Xiw9Ab75YO2BWZytUD-GYSEsWvktY,4365
+django_disposable_email_checker-2.0.3a2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_disposable_email_checker-2.0.3a2.dist-info/top_level.txt,sha256=azbPa1FEC2tax4myYecNJ0oE63RQSPvHsiGPn-U_k4w,25
+django_disposable_email_checker-2.0.3a2.dist-info/RECORD,,
