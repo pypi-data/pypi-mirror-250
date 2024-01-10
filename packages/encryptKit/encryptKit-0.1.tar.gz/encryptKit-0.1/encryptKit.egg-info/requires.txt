@@ -1,0 +1,4 @@
+pydantic
+pycryptodome
+M2Crypto
+Cython
