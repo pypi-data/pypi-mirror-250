@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+planetaryai.egg-info/PKG-INFO
+planetaryai.egg-info/SOURCES.txt
+planetaryai.egg-info/dependency_links.txt
+planetaryai.egg-info/requires.txt
+planetaryai.egg-info/top_level.txt

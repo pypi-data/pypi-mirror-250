@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: planetaryai
+Version: 0.0.1
+Summary: AI tools for Planetary Science
+Author: Michael-Holland-Dev (Michael Holland)
+Author-email: <michael.w.holland@gmail.com>
+Keywords: planetary science,artificial intellgience,machine learning,computer vision,deep learning
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Planetary AI
+Open source planetary science tool
