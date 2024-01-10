@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/mp42frame.py
+src/mp42frame.egg-info/PKG-INFO
+src/mp42frame.egg-info/SOURCES.txt
+src/mp42frame.egg-info/dependency_links.txt
+src/mp42frame.egg-info/entry_points.txt
+src/mp42frame.egg-info/top_level.txt
