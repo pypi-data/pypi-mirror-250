@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: syso_andybonnetto
+Version: 0.0.1
+Summary: A package to keep track of experiments by managing pandas tables
+Author-email: Andy Bonnetto <andy.bonnetto@epfl.ch>
+License-File: LICENCE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# SYSO
+This is a simple package to keep track of experiments
