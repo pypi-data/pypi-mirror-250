@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+kotokenizer/__init__.py
+kotokenizer.egg-info/PKG-INFO
+kotokenizer.egg-info/SOURCES.txt
+kotokenizer.egg-info/dependency_links.txt
+kotokenizer.egg-info/top_level.txt
