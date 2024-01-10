@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: airflow-supervisor
+Version: 0.1.0
+Summary: Airflow utilities for running long-running or always-on jobs with supervisord
+Author-email: Tim Paine <t.paine154@gmail.com>
+License: Apache-2.0
+Project-URL: Repository, https://github.com/timkpaine/airflow-supervisor
+Project-URL: Homepage, https://github.com/timkpaine/airflow-supervisor
+Keywords: airflow,scheduler,supervisor,supervisord,process,manager
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: apache-airflow
+Requires-Dist: supervisor
+Provides-Extra: develop
+Requires-Dist: bump2version ; extra == 'develop'
+Requires-Dist: check-manifest ; extra == 'develop'
+Requires-Dist: isort ; extra == 'develop'
+Requires-Dist: pytest ; extra == 'develop'
+Requires-Dist: pytest-cov ; extra == 'develop'
+Requires-Dist: ruff ; extra == 'develop'
+Requires-Dist: twine ; extra == 'develop'
+Requires-Dist: wheel ; extra == 'develop'
+
+# airflow-supervisor
+
+[Apache Airflow](https://airflow.apache.org) utilities for running long-running or always-on jobs with [supervisord](http://supervisord.org)
+
+[![Build Status](https://github.com/timkpaine/airflow-supervisor/actions/workflows/build.yml/badge.svg)](https://github.com/timkpaine/airflow-supervisor/actions?query=workflow%3A%22Build+Status%22)
+[![codecov](https://codecov.io/gh/timkpaine/airflow-supervisor/branch/main/graph/badge.svg)](https://codecov.io/gh/timkpaine/airflow-supervisor)
+[![License](https://img.shields.io/github/license/timkpaine/airflow-supervisor)](https://github.com/timkpaine/airflow-supervisor)
+[![PyPI](https://img.shields.io/pypi/v/airflow-supervisor.svg)](https://pypi.python.org/pypi/airflow-supervisor)

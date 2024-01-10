@@ -1,0 +1,7 @@
+airflow_supervisor/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+airflow_supervisor/tests/test_all.py,sha256=GN2lkv4GoW2UHpgRXzGl6S3HU13J_AlaiIhhGMs2ftw,100
+airflow_supervisor-0.1.0.dist-info/LICENSE,sha256=lsyhds5hnHtKjC1jiM9Sl-psXllchmlBhswIjuFGJjE,11360
+airflow_supervisor-0.1.0.dist-info/METADATA,sha256=5FyNk9SG12HzNr-yr5dnoF-pbh4LFJZutrxF8lgp1Sk,2186
+airflow_supervisor-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+airflow_supervisor-0.1.0.dist-info/top_level.txt,sha256=yW6jAd-vtJ8AjNXqF5en6jr9xgHK9QO3dqjn3rKzC18,19
+airflow_supervisor-0.1.0.dist-info/RECORD,,
