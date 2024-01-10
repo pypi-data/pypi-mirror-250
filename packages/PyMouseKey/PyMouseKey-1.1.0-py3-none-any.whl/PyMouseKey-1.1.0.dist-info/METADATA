@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PyMouseKey
+Version: 1.1.0
+Summary: A python package for handling keyboard and mouse inputs
+Author: Chasss
+Description-Content-Type: text/markdown
+
+
+pymousekey is made for halding keyboard and mouse inputs simular to how pyautogui does but instead using ctypes for almost everything.
+
+Keep in mind their is no failsafe wrapper for any function so use with caution.
+
+No extra dependencies are needed on windows to use this package
