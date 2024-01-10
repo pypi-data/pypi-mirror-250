@@ -1,0 +1,1 @@
+napari_bee_annotator

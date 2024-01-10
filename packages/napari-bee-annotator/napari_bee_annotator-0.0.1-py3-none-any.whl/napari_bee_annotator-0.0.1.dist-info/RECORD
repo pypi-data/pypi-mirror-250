@@ -1,0 +1,15 @@
+napari_bee_annotator/__init__.py,sha256=bJhsQ-yqLm_37S8Sy3KLlZuQSTJvYJ-_GxgwofvsBLU,295
+napari_bee_annotator/_reader.py,sha256=2EP0yLTJ-avo1psb-Utch826uQXPM1mIwmJ8ysOE2f8,2876
+napari_bee_annotator/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+napari_bee_annotator/_widget.py,sha256=6kBlPCq_dTzNTrKKPm2fwQBm-Q6P4T9Ye6GIAYs2Er4,4441
+napari_bee_annotator/_writer.py,sha256=WjKQHp-V0GNoc7nPunnnB09TXgF94GcRRUSTl6r1rFs,1278
+napari_bee_annotator/napari.yaml,sha256=Q3asLYfj26dFnriq9J1KmjBGxE-EGbJSWYaCT2841YE,1122
+napari_bee_annotator/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_bee_annotator/_tests/test_reader_writer.py,sha256=-8Vpm216MHRDnImBoheS5eVXVEtR5Q0-KOkE43O4tLE,3919
+napari_bee_annotator/_tests/test_widget.py,sha256=Yk0g_-f1-fKwDESKbki74FPcdLxbelzazjU8gR1W06M,3251
+napari_bee_annotator-0.0.1.dist-info/LICENSE,sha256=_1zKIADNMVQQIIuiCVKryxPyWonAYo6gF8BEBz9911I,1490
+napari_bee_annotator-0.0.1.dist-info/METADATA,sha256=ZGUuY0J7k1bHr4ZRMI4VtOYqHQrW7VzJwwXEbAerOwo,6159
+napari_bee_annotator-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+napari_bee_annotator-0.0.1.dist-info/entry_points.txt,sha256=UOyzJ_j5GjMN79AdP0kVzXhhgGClnSGvZkDshQY4AFk,74
+napari_bee_annotator-0.0.1.dist-info/top_level.txt,sha256=XhHH86IBXBndjWFjALw7iAXgQH3iUZB4J2CKmCRUiMo,21
+napari_bee_annotator-0.0.1.dist-info/RECORD,,
