@@ -1,0 +1,8 @@
+champ_dataset/__init__.py,sha256=fpnYlRB09_6lWhVLnhyAHdZFpXs10_kAFbveLKj3gZg,13928
+champ_dataset/prompt.py,sha256=wuLr8lSvEDyDqr9kGG-SIYKFFW2xe9Jf3_z0-AHUm5U,12206
+champ_dataset/dataset_files/v0.json,sha256=cvp3J8jD1Dd9KXss0XHcNa2G4s_p3yBDExuopTieWnE,72586598
+champ_dataset-1.0.0.dist-info/LICENSE,sha256=WHdpItCRH7_DlY5OjQWYtKsbA-12xsCa8LJgVfBmxgA,1078
+champ_dataset-1.0.0.dist-info/METADATA,sha256=Q62aWiLvSC-Z7A8P4E6nnIYtmhpsD7RE6TlWxZpkEAM,868
+champ_dataset-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+champ_dataset-1.0.0.dist-info/top_level.txt,sha256=Opri4RKxWK34ftv4Is8q3vfNFwMOWiC_sv7esqn9owQ,14
+champ_dataset-1.0.0.dist-info/RECORD,,
