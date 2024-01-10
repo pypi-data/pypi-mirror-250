@@ -1,0 +1,14 @@
+audioanalyser/__init__.py,sha256=u6dQVrKNIdjyx3ZtaXGRF98bEcsxEbQsT-pfxumyou0,653
+audioanalyser/__main__.py,sha256=A9tI-1os9J1u4jzfwSqw4K397XKhlAOy8x2l-IswoHs,3138
+audioanalyser/modules/__init__.py,sha256=voBkanDqEHwljHdM7pynTEnnCAIK8kYWZly1XNWnMFc,590
+audioanalyser/modules/audio_analyser_server.py,sha256=cbdXxyYO81I5ZP4eRYcK36KMrQ9xuPF7_fl6pcRNck0,7078
+audioanalyser/modules/azure_recommendation.py,sha256=gf-FLgzDOgDNJZv4ugwVraXSI5c6Pisyo_VoxKITe0I,4282
+audioanalyser/modules/azure_speech_to_text.py,sha256=LWGoRdUdgn2vuXm-2QoEkEdcG-PyDfyizcQ3FP9KTxM,7237
+audioanalyser/modules/azure_text_analysis.py,sha256=TqWs9ugzI1BsYipNxAVLxyiRakIKUHMH-9vPeVg2GaQ,11546
+audioanalyser-0.0.2.dist-info/LICENSE-APACHE,sha256=VFJxxGa54FQ4msMalcLlKhNy0NJizHCKRy-StBA-l3k,10867
+audioanalyser-0.0.2.dist-info/LICENSE-MIT,sha256=s3JALHNUT8GfYxc55b_O3IZJxL0VpEYeeKzMzLs_eGw,1079
+audioanalyser-0.0.2.dist-info/METADATA,sha256=ROngPR1euLO47pREZ1vcvUSad6CPv9TC-iobUKfV3SA,7805
+audioanalyser-0.0.2.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+audioanalyser-0.0.2.dist-info/entry_points.txt,sha256=fVj8dkVzMY3ycIEVgaolQMhf6xuje-02SH0gsbxc3Fs,71
+audioanalyser-0.0.2.dist-info/top_level.txt,sha256=RdKqVFfskiNEQ-HLRcna5IAwBZeS9FWFhNJuhErqMrs,14
+audioanalyser-0.0.2.dist-info/RECORD,,
