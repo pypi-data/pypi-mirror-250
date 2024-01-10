@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: arcGisFeatureCash
+Version: 0.0.3.dev1
+Summary: Package to cash a arcgis feature service
+Author-email: Hzd <Hazedd@users.noreply.github.com>
+Requires-Python: >3.10
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: httpx
+Requires-Dist: loguru
+Requires-Dist: shapely
+Requires-Dist: bumpversion ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-asyncio ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: pytest-mock ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: ruff ; extra == "dev"
+Provides-Extra: dev
+
+
+# ArcGisProxyLayer
+
+A proxy layer to a arcgis feature service.
+
+
+
+## Features
+
+- 1
+- 2
+- 3
+- 4
+
+
+## Installation
+
+```pip install xxx```
+
+    
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `CONTRIBUTING.md` for ways to get started.
+Please adhere to this project's `code of conduct`.
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
