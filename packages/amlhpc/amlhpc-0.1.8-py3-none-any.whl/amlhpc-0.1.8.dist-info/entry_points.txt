@@ -1,0 +1,5 @@
+[console_scripts]
+sbatch=amlhpc.slurm.sbatch:sbatch
+sinfo=amlhpc.slurm.sinfo:sinfo
+squeue=amlhpc.slurm.squeue:squeue
+
