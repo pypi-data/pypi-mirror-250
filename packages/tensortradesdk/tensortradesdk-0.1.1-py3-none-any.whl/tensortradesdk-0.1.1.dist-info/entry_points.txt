@@ -1,0 +1,4 @@
+[console_scripts]
+generate_gql_clients=scripts.generate_gql_clients:run
+update_gql_schema=scripts.update_gql_schema:run
+
