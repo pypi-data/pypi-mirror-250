@@ -1,0 +1,6 @@
+README.md
+setup.py
+llama_memory.egg-info/PKG-INFO
+llama_memory.egg-info/SOURCES.txt
+llama_memory.egg-info/dependency_links.txt
+llama_memory.egg-info/top_level.txt
