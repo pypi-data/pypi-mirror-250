@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: opal-fetcher-cosmos
+Version: 0.0.4
+Summary: An OPAL fetch provider to bring authorization state from CosmosDB.
+Author: Avo Sepp
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/avo-sepp/opal-fetcher-cosmos
+Project-URL: Source, https://github.com/avo-sepp/opal-fetcher-cosmos
+Project-URL: Bug Tracker, https://github.com/avo-sepp/opal-fetcher-cosmos/issues
+Keywords: Open Policy Agent,OPA,OPAL,Open Policy Administration Layer,Permit.io
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools-scm
+Requires-Dist: opal-common>=0.7.4
+Requires-Dist: azure-cosmos
+Requires-Dist: azure-identity
+Requires-Dist: jq
+Requires-Dist: wait-for-it
+Requires-Dist: pydantic
+Requires-Dist: tenacity
+Requires-Dist: click
+
+<p  align="center">
+ <img src="https://i.ibb.co/BGVBmMK/opal.png" height=170 alt="opal" border="0" />
+</p>
+<h2 align="center">
+OPAL Fetcher for CosmosDB
+</h2>
+
+[Check out OPAL main repo here.](https://github.com/permitio/opal)
+
+## Quickstart
+
+Fetcher requires URL and Read key for CosmosDB endpoint.
+
+## Roadmap
+
+1. Implement azure-identity for automatic integration with Azure RBAC.

@@ -1,0 +1,13 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+pyproject.toml
+setup.py
+opal_fetcher_cosmos/__init__.py
+opal_fetcher_cosmos/provider.py
+opal_fetcher_cosmos.egg-info/PKG-INFO
+opal_fetcher_cosmos.egg-info/SOURCES.txt
+opal_fetcher_cosmos.egg-info/dependency_links.txt
+opal_fetcher_cosmos.egg-info/requires.txt
+opal_fetcher_cosmos.egg-info/top_level.txt

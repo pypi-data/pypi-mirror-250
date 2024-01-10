@@ -1,0 +1,9 @@
+setuptools-scm
+opal-common>=0.7.4
+azure-cosmos
+azure-identity
+jq
+wait-for-it
+pydantic
+tenacity
+click
