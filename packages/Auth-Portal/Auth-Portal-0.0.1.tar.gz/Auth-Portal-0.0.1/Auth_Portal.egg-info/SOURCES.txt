@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Auth-Portal/__init__.py
+Auth_Portal.egg-info/PKG-INFO
+Auth_Portal.egg-info/SOURCES.txt
+Auth_Portal.egg-info/dependency_links.txt
+Auth_Portal.egg-info/top_level.txt
