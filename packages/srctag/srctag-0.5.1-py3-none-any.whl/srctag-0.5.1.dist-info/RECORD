@@ -1,0 +1,11 @@
+srctag/__init__.py,sha256=iKMzmmddNTdj_EESfWrS0wn1UXt4ksLMUz-7HvFJFyw,597
+srctag/cli.py,sha256=vt75EFk7iIfr4zM0gcLQ2S4wSzEuZo7-R1jJWUOmYFY,7285
+srctag/collector.py,sha256=5tsy9zTi4HY4cpnnutZnP3xlwTHX3TopBy9Xa3qswyE,7406
+srctag/model.py,sha256=O40heuYd8yWW34yohhywiHqvdWSTfV5MRRn4IXUHWuI,444
+srctag/storage.py,sha256=PLBGTtROqTuq1hMAJdhMDpPFfFTUPEmkmjjXTYbQ36U,6038
+srctag/tagger.py,sha256=nzrRyetp1sg1AMjIln4kfd9wX1NixU6iHcS-vuJ4Gpo,9466
+srctag-0.5.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+srctag-0.5.1.dist-info/METADATA,sha256=wQxb5DhHYqb3ZEznvASRhiGn-t29O_mZH-TuDgYjOcw,12545
+srctag-0.5.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+srctag-0.5.1.dist-info/entry_points.txt,sha256=jwou8S9oDHZT8DRS8nudeDs6RCwzlvr1qrv74Wc0RWA,41
+srctag-0.5.1.dist-info/RECORD,,
