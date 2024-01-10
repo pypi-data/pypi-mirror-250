@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: zzk
+Version: 0.0.4
+Summary: zzk tools
+Home-page: https://github.com/damugongzai/zzk.git
+Author: zhengzekang
+Author-email: 1471616950@qq.com
+License: MIT
+Classifier: Topic :: Games/Entertainment 
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+zzk's tools
