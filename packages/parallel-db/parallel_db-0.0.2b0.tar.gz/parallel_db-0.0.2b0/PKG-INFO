@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: parallel_db
+Version: 0.0.2b0
+Summary: Package for high level database parallel  automatization
+Project-URL: Homepage, https://github.com/Zkh-dot/parallel-db
+Project-URL: Issues, https://github.com/Zkh-dot/parallel-db/issues
+Author-email: zkh-dot <kernzahar@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+## Parallel-db
+
+[![codecov](https://codecov.io/gh/Zkh-dot/parallel-db/graph/badge.svg?token=FXXCH3MW90)](https://codecov.io/gh/Zkh-dot/parallel-db)
+[![CI - Test](https://github.com/Zkh-dot/parallel-db/actions/workflows/python-package.yml/badge.svg)](https://github.com/Zkh-dot/parallel-db/actions/workflows/python-package.yml)
+
+Neet framework for managing database connections in python.
+Can be usefull for basicly any database and can parallel your queries with ease.
+
+There are represented 2 main classes: Table and Scenario. Scenario is a class that represents a set of queries that should be executed. Table is a class that represents a table in database and can be used to execute queries on it.
+
+[Github page](https://github.com/Zkh-dot/parallel-db)
