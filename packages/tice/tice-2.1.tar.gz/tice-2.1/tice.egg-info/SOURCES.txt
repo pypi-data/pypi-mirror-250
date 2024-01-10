@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+tice/__init__.py
+tice.egg-info/PKG-INFO
+tice.egg-info/SOURCES.txt
+tice.egg-info/dependency_links.txt
+tice.egg-info/top_level.txt
