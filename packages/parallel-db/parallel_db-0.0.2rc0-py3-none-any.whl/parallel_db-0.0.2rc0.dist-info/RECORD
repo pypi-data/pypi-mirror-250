@@ -1,0 +1,9 @@
+tests/connection_test.py,sha256=mJrR8kxbrVpu8u7UJN6QWMzhYct9QEDsv2OssWUiSu0,4282
+tests/logger_test.py,sha256=TcehWMeymTohIVco7HjVkMER3ZH1VFd0POfbHcNsulg,1218
+tests/scenario_test.py,sha256=P-uAZR8gfB7g7MwlYqF-3sOBiVOQZsFALFJA9AeOgXY,985
+tests/table_test.py,sha256=ABgRSKB_KP5Gxc5M1sW14ZWBF6BpekE5Q9qbxqYgbzM,7950
+tests/sql_scripts/insert_4.sql,sha256=pEWQIRyBg6dW8y4XHATsF6OHJ3sm8YX8iS0dY48nkeU,36
+parallel_db-0.0.2rc0.dist-info/METADATA,sha256=IRV2foDuhGaepwobJwGqpl1NaT5E71YrkW1FeeUZkG0,1285
+parallel_db-0.0.2rc0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+parallel_db-0.0.2rc0.dist-info/licenses/LICENSE,sha256=YgyGsDnz9E0qK26Qvd7idLJhKjL-cuywX4xilVKQWms,1085
+parallel_db-0.0.2rc0.dist-info/RECORD,,
