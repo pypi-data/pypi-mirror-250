@@ -1,0 +1,10 @@
+mgcomtools/__init__.py,sha256=ghp4A1nlXuiXEjgfjXtm3VRW51zQddZdrzshinVGr8s,52
+mgcomtools/gcp.py,sha256=6x4ozn2pkt9qMZSA5iDatK1VXn1QuKeMg6K5tKJFtD8,1781
+mgcomtools/postgres.py,sha256=VEdXdqSujlrqizZhzWtIa6ZxxnchlcDJ9xhx1lmgk4Q,4473
+mgcomtools/schema.py,sha256=Dfbhkv2xwwRHJZ4ZE7w4xD8tYXeb9VYwSf8pi3N8qQY,2876
+mgcomtools/tables.py,sha256=evp-aRaiQjUM-xJXVIfMtejIJsX4b_Zb_-DHyqFA9VI,2757
+mgcomtools/telegram.py,sha256=yU_ajKh1syq14slTjfkxgtQ3c1_WIhoUHNL01xjw3Qw,254
+mgcomtools-0.0.988.dist-info/METADATA,sha256=A3g583wzO8l24hwN_xxgetG_qz489ovHiyItst3cJkA,569
+mgcomtools-0.0.988.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mgcomtools-0.0.988.dist-info/top_level.txt,sha256=bzbjaTi_bQM2puYPFzIIPDVOHceWr1mXBWO2Dj4Syyg,11
+mgcomtools-0.0.988.dist-info/RECORD,,
