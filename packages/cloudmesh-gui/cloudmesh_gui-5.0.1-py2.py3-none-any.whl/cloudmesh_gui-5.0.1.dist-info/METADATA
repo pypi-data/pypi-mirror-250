@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: cloudmesh-gui
+Version: 5.0.1
+Summary: An example cloudmesh command
+Author-email: Gregor von Laszewski <laszewski@gmail.com>
+Maintainer-email: Gregor von Laszewski <laszewski@gmail.com>
+License: Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           Copyright 2017-2021 Gregor von Laszewski, Indiana University
+           Copyright 2021,2022 Gregor von Laszewski, University of Virginia
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+        
+Project-URL: Homepage, https://github.com/cloudmesh/cloudmesh-gui
+Project-URL: Documentation, https://github.com/cloudmesh/cloudmesh-gui/blob/main/README.md
+Project-URL: Repository, https://github.com/cloudmesh/cloudmesh-gui.git
+Project-URL: Issues, https://github.com/cloudmesh/cloudmesh-gui/issues
+Project-URL: Changelog, https://github.com/cloudmesh/cloudmesh-gui/blob/main/CHANGELOG.md
+Keywords: helper library,cloudmesh
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: System
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cloudmesh-cmd5
+Requires-Dist: pysimplegui
+
+# Cloudmesh Configuration with a GUI 
+
+
+[![image](https://img.shields.io/travis/TankerHQ/cloudmesh-gui.svg?branch=main)](https://travis-ci.org/TankerHQ/cloudmesn-gui)
+
+[![image](https://img.shields.io/pypi/pyversions/cloudmesh-gui.svg)](https://pypi.org/project/cloudmesh-gui)
+
+[![image](https://img.shields.io/pypi/v/cloudmesh-gui.svg)](https://pypi.org/project/cloudmesh-gui/)
+
+[![image](https://img.shields.io/github/license/TankerHQ/python-cloudmesh-gui.svg)](https://github.com/TankerHQ/python-cloudmesh-gui/blob/main/LICENSE)
+
+see cloudmesh.cmd5
+
+* https://github.com/cloudmesh/cloudmesh.cmd5
+
+
+This component allows you to edit the cloudmesh.yaml file via a simple 
+GUI form.
+
+The manual page is
+
+      gui activate
+      gui profile
+      gui cloud CLOUD [--show]
+      gui edit KEY [--show]
+
+If you use --show the passwords are shown in the form otherwise they are
+blended out with a * 
+
+For cloudmesh to work you need to edit
+
+* the profile
+* activate the cloud you like to use
+* and add things such as usernames, passwords and other parameters
+
+Next we provide some examples to achive these tasks and include a
+screenshot:
+
+    
+```bash    
+cms gui profile
+```    
+    
+![Profile](images/profile.png)    
+
+    
+```bash
+cms gui activate
+```
+
+![Activate](images/activate.png)    
+
+
+```bash
+cms gui edit cloud.chameleon.credentials
+```
+
+or
+
+```bash
+cms gui cloud chameleon
+```
+
+![Credentials](images/credentials.png)
+    
+In case you like to edit all parameters for a compute cloud you can use
+
+
+```bash
+cms gui edit cloud.chameleon
+```
