@@ -1,0 +1,10 @@
+_bo4e_generator_version.py,sha256=bhi15cb3KVl9tPnATerbyVFoGUNgqJ4lEa48yJbRVCY,18
+bo4e_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bo4e_generator/__main__.py,sha256=A3MKpmV1fut2BZba9Vgi2sY4VvvVyM3BJ5iNKraaVBI,3077
+bo4e_generator/parser.py,sha256=ow8xf8NPqlhEMd8m3iVKB2YuRypthZV1bfmintUKwcI,9271
+bo4e_generator/py.typed,sha256=ZvYa-_QF7Xg7F6Dow8m1zHvSP6kNHuhh3BEBVxjAdUQ,168
+bo4e_generator/schema.py,sha256=W9penmHARxOA4Az_rFfPUJlYPnrNCKlEIB5jWqAU2k8,2364
+bo4e_python_generator-0.0.4.dist-info/METADATA,sha256=LgoQH3-uIMiiQ0Sn6dUjYH2vWLC3y_8Cba4IYGlIjco,7838
+bo4e_python_generator-0.0.4.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+bo4e_python_generator-0.0.4.dist-info/entry_points.txt,sha256=C6YNypORabidzbRw4nrvBMlSVVfKHzQvZFXzm4s_vdE,64
+bo4e_python_generator-0.0.4.dist-info/RECORD,,
