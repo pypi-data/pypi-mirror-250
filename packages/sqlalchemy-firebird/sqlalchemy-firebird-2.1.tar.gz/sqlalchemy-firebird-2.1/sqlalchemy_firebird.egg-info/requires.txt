@@ -1,0 +1,19 @@
+packaging
+
+[:python_version < "3.8"]
+SQLAlchemy<2.0,>=1.4
+fdb
+
+[:python_version >= "3.8"]
+SQLAlchemy>=2.0
+firebird-driver
+
+[dev]
+pytest
+black
+flake8
+build
+twine
+
+[test]
+pytest
