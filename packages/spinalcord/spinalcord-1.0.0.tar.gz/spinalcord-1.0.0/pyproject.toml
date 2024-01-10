@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spinalcord"
+description = "SpinalCord SDK for Python"
+version = "1.0.0"
+readme = "README.md"
+authors = []
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.11"
+]
+keywords = ["python", "spinalcord", "lepta-technologies"]
+dependencies = []
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/Lepta-Technologies/spinalcord-py"
