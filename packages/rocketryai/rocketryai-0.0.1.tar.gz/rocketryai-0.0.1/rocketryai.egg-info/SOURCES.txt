@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rocketryai.egg-info/PKG-INFO
+rocketryai.egg-info/SOURCES.txt
+rocketryai.egg-info/dependency_links.txt
+rocketryai.egg-info/requires.txt
+rocketryai.egg-info/top_level.txt
