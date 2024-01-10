@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pyqtchat8741"
+version = "0.1.8"
+description = ""
+authors = ["Viktor Simon <V-U-Simon@yandex.ru>"]
+readme = "README.md"
+
+packages = [{ include = "pyqtchat8741" }]
+
+include = ["./db"]
+
+[tool.poetry.scripts]
+server = 'server.server:main'
+client = 'client.client:main'
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyqt5 = "^5.15.10"
+sqlalchemy = "^2.0.23"
+pycryptodome = "^3.19.0"
+pycryptodomex = "^3.19.0"
+pytest = "^7.4.3"
+sphinx = "^7.2.6"
+sphinx-book-theme = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
