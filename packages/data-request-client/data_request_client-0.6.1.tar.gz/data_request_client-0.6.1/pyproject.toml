@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "data-request-client"
+version = "0.6.1"
+description = ""
+authors = ["Michael Statt <michael.statt@modelyst.io>"]
+readme = "README.md"
+packages = [{ include = "data_request_client", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pydantic-settings = "^2.0.3"
+boto3 = "^1.28.52"
+httpx = "^0.25.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+ruff = "^0.0.290"
+s3pypi = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
