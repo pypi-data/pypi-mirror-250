@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+hookdemo/__init__.py
+hookdemo.egg-info/PKG-INFO
+hookdemo.egg-info/SOURCES.txt
+hookdemo.egg-info/dependency_links.txt
+hookdemo.egg-info/top_level.txt
