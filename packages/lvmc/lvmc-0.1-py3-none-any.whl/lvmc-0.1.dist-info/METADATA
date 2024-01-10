@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lvmc
+Version: 0.1
+Summary: A package for simulating Vicsek-like particles on a 2D lattice with magnetic fields
+Author: EL KHIYATI Zakarya
+Author-email: zakaryaelkhiyati@gmail.com
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: torch
+

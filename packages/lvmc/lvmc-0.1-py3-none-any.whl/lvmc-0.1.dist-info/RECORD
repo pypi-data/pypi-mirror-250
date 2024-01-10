@@ -1,0 +1,15 @@
+lvmc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lvmc/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lvmc/core/magnetic_field.py,sha256=d0euhQt6iU0A6scyp3pz_vh2-KLbVDJI64qOf3rY-EM,1731
+lvmc/core/particle_lattice.py,sha256=v8hseVTD4XocsnNS4zLGZI0Zk2jknPs230Akp9d8Kq0,19481
+lvmc/core/simulation.py,sha256=XCKMofj_kGky3_5K6CO7AqD4aPBSM9sEP0TIC1YQv6Y,5733
+lvmc/data_handling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lvmc/data_handling/data_collector.py,sha256=5r8U2ruVDkwTs4EfKcFIGXyVC2yccpqo6T28rUyRdyo,1912
+lvmc/data_handling/data_exporter.py,sha256=YdHHkcwNOSYMl7IE7nBe0mOp341CJY3YjT5ZhSv6Za0,2412
+lvmc/data_handling/visualization.py,sha256=vZYHLR4Hmh_p9-gWpevUIC7o4QQwUSJ43ZHZH3ML_7Q,2756
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lvmc-0.1.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+lvmc-0.1.dist-info/METADATA,sha256=EiUgG6E2NbBguuntv5fPwr9Gw-4Mt8GjUwRrAOxqnh4,318
+lvmc-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+lvmc-0.1.dist-info/top_level.txt,sha256=4ZuUo5849j7_OHb-6Nk54lGTYy5hjTF_GuzriM4EaCk,11
+lvmc-0.1.dist-info/RECORD,,
