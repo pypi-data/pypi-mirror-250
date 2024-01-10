@@ -1,0 +1,2 @@
+[console_scripts]
+muxtools-styx = muxtools_styx:main
