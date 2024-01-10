@@ -1,0 +1,11 @@
+sgtl/__init__.py,sha256=fZUngnqvQoxqem-OB3y5sDICN9Q6P-8k4cSkDobfSLg,134
+sgtl/algorithms.py,sha256=LAroWR0sV17HE2tOLuiT2Es_JQ0rtTBhWfXCecX5g8Y,3223
+sgtl/clustering.py,sha256=90XdZFhjkiwtEZMfiWCE8wSlOIwfFfGVadnEfYauhsY,2129
+sgtl/graph.py,sha256=brNLsW4pVo_yCdzaJd4Mtu4Hpd_Srk-NgqClqU5i-k8,27277
+sgtl/random.py,sha256=Wvqz4bSl8VPbVXlUEUXQPkOc4wu0fEQqDrID551lqwY,11943
+sgtl/spectrum.py,sha256=0l5RgrKzK1aA3gN4UMFWKGXuSd1GCPzs3FH4XXA6Bis,6688
+sgtl-0.5.0.dist-info/LICENSE,sha256=Pq66oq_JyIytYKeffi6aJV0S9yucYGiQ-YZX8CcsU9A,1072
+sgtl-0.5.0.dist-info/METADATA,sha256=f8GIuHqe3lggS7OWYrMe_KR0uufvaqjl3L7m0u72T3g,944
+sgtl-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sgtl-0.5.0.dist-info/top_level.txt,sha256=RGp-pI0-8AL1XNlZckJ5CQ1MFbNXypl5cRY-PNRF4jU,5
+sgtl-0.5.0.dist-info/RECORD,,
