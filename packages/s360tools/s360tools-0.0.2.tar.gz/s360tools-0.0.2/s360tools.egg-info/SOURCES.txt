@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+sheethandler.py
+s360tools.egg-info/PKG-INFO
+s360tools.egg-info/SOURCES.txt
+s360tools.egg-info/dependency_links.txt
+s360tools.egg-info/requires.txt
+s360tools.egg-info/top_level.txt
