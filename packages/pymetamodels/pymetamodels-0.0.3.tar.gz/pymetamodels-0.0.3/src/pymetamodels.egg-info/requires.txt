@@ -1,0 +1,17 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+SALib
+Pillow
+xlrd
+xlwt
+xlutils
+myst-parser
+sphinxcontrib-bibtex
+pybtex
+
+[docs]
+sphinx
+myst-parser
+sphinxcontrib-bibtex
