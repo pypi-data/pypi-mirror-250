@@ -1,0 +1,12 @@
+pyproject.toml
+setup.cfg
+entext/__init__.py
+entext/entext.py
+entext/open_ai.py
+entext/ror.py
+entext/settings.py
+entext.egg-info/PKG-INFO
+entext.egg-info/SOURCES.txt
+entext.egg-info/dependency_links.txt
+entext.egg-info/requires.txt
+entext.egg-info/top_level.txt

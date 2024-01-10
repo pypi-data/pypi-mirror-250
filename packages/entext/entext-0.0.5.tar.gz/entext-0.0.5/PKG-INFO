@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: entext
+Version: 0.0.5
+Summary: A tool to extract entities from an affiliation string
+Home-page: https://gitlab.com/crossref/labs/entext
+Author: Martin Paul Eve
+Author-email: meve@crossref.org
+Maintainer-email: Martin Paul Eve <meve@crossref.org>
+Project-URL: homepage, https://labs.crossref.org
+Project-URL: repository, https://gitlab.com/crossref/labs/entext
+Keywords: named-entity recognition
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: openai
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: typer
