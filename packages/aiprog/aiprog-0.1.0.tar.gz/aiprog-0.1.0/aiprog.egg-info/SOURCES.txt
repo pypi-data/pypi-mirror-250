@@ -1,0 +1,8 @@
+setup.py
+aiprog/__init__.py
+aiprog/prg.py
+aiprog.egg-info/PKG-INFO
+aiprog.egg-info/SOURCES.txt
+aiprog.egg-info/dependency_links.txt
+aiprog.egg-info/requires.txt
+aiprog.egg-info/top_level.txt
