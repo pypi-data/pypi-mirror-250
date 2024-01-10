@@ -1,0 +1,3 @@
+[console_scripts]
+ogre=ogre_cli.app:ogre_main
+
