@@ -1,0 +1,2 @@
+[console_scripts]
+libre-chat = libre_chat.__main__:cli
