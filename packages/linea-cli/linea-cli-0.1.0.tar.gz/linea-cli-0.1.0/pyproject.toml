@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linea-cli"
+description = "The Linea Software Command Line is a lightweight interface to interact with the Linea Platform"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+  "typer[all]==0.9.0",
+  "requests==2.31.0"
+]
+authors = [
+  {name = "Linea Labs", email = "dev@linea.ai"}
+]
+maintainers = [
+  {name = "Linea Labs", email = "dev@linea.ai"}
+]
+license = {file = "LICENSE"}
+requires-python = ">= 3.9"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python :: 3.9",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Debuggers",
+]
+
+[project.urls]
+Homepage = "https://linea.ai"
+Repository = "https://github.com/LineaLabs/gentoo/cli"
+
+[tool.setuptools.dynamic]
+version = {attr = "linea_cli.__version__"}
+
+[project.scripts]
+linea_cli = "linea_cli:run"
