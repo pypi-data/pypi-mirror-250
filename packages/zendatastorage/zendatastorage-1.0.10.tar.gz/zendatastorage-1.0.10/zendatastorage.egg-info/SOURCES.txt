@@ -1,0 +1,8 @@
+setup.py
+zendatastorage/ZenDataStorage.py
+zendatastorage/__init__.py
+zendatastorage.egg-info/PKG-INFO
+zendatastorage.egg-info/SOURCES.txt
+zendatastorage.egg-info/dependency_links.txt
+zendatastorage.egg-info/requires.txt
+zendatastorage.egg-info/top_level.txt
