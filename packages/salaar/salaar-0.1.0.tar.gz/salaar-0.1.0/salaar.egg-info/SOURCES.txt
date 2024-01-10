@@ -1,0 +1,11 @@
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+salaar/README.txt
+salaar/__init__.py
+salaar/setup.py
+salaar.egg-info/PKG-INFO
+salaar.egg-info/SOURCES.txt
+salaar.egg-info/dependency_links.txt
+salaar.egg-info/top_level.txt
