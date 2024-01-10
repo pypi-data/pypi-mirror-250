@@ -1,0 +1,22 @@
+[project]
+name = "terminalcolor"
+version = "1.0.3"
+authors = [
+  { name="Matt Wilder", email="me@partcyb.org" },
+]
+description = "Change the Python terminal text color."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/partcyborg/TerminalColor"
+Issues = "https://github.com/partcyborg/TerminalColor/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

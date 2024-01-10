@@ -1,0 +1,11 @@
+LICENSE
+README.md
+README.rst
+pyproject.toml
+setup.py
+terminalcolor/TerminalColor.py
+terminalcolor/__init__.py
+terminalcolor.egg-info/PKG-INFO
+terminalcolor.egg-info/SOURCES.txt
+terminalcolor.egg-info/dependency_links.txt
+terminalcolor.egg-info/top_level.txt
