@@ -1,0 +1,12 @@
+quillsql/__init__.py,sha256=IgJnPRLx5GcenVt82mMQo0ydvXYB_-39Ft4Of5sEEGA,39
+quillsql/core.py,sha256=dl6ry6_C6NUZKlU4gVaneD8zwEvdndcYLTEn_XgaDQk,12129
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/cache_test.py,sha256=5MvAAyGF37wiRejOwG8m4uG9jxnEOseV5GtXTtjAk-8,11092
+tests/external_test.py,sha256=pTHIiWMA0JFTapdHzoNR7ud1uCXw1r8P0kBbVLWxaXk,7466
+tests/simple_test.py,sha256=DTGOFHvljEJs6akVIrDwLr9shYIP68t7-JrF_d17O2Y,7378
+tests/staging_test.py,sha256=zdDV6BvJRyNKCy80bxDNfK1F1oqM6oIv7ul7JPKi51Q,4962
+quillsql-2.0.dist-info/LICENSE,sha256=f2-T2fNvArbqfNW8RwsOu2IWEwpsaRX6G-AJvLJKuzg,1068
+quillsql-2.0.dist-info/METADATA,sha256=Atl3xFsavnxO6DWo4BaeJTLo37rtHffvC4csuVldGFA,570
+quillsql-2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+quillsql-2.0.dist-info/top_level.txt,sha256=DCsUgdO5twxI1s5sw-euqMt1NDDtIGMR-t9A68P3gZs,15
+quillsql-2.0.dist-info/RECORD,,
