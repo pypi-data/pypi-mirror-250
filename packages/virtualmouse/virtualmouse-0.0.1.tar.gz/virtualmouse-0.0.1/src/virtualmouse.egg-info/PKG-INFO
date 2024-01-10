@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: virtualmouse
+Version: 0.0.1
+Summary: virtualmouse is a virtual mouse using a finger with a camera. (This is a re-released version of virtumouse)
+Home-page: https://github.com/kumanekosub/virtualmouse
+Author: KO KUMADA
+Author-email: s2122023@stu.musashino-u.ac.jp
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kumanekosub/virtualmouse
+Description: # virtualmouse : with mediapipe
+        
+        (This is a re-released version of virtumouse)
+        
+        virtualmouse is a virtual mouse using a finger with a camera. When the index finger and thumb are placed close to each other, the left mouse button is clicked, and when the middle finger and thumb are placed close to each other, the right mouse button is clicked. 
+        
+        
+        ## instllation 
+        
+        Python: 3.8(recommended)
+        ```
+        ## instllation
+        pip install mediapipe pyautogui
+        
+        pip install virtualmouse
+        
+        ## launch virtualmouse
+        virtualmouse
+        ```
+        
+        ## usage
+        
+        * Mouth cursor controll : Your thumb tip position
+        * Left click : Index finger and thumb finger close to each other
+        * Right click : Middle finger and thumb finger close to each other
+        
+        ## updates
+        
+        ##### 2024.01.10
+        * release
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
