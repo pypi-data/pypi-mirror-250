@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tedfulk_kb_pycrawler"
+version = "0.1.4"
+description = ""
+authors = ["Ted Fulk <teddyfulk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+playwright = "^1.40.0"
+asyncio = "^3.4.3"
+pydantic = "^2.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
