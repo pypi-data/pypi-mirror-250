@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Human-Resources-information-system/__init__.py
+Human_Resources_information_system.egg-info/PKG-INFO
+Human_Resources_information_system.egg-info/SOURCES.txt
+Human_Resources_information_system.egg-info/dependency_links.txt
+Human_Resources_information_system.egg-info/top_level.txt
