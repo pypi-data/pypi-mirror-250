@@ -1,0 +1,14 @@
+xcolumns/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+xcolumns/block_coordinate.py,sha256=60CrSM3oVd1-QbPct15tq2ni9Hl4at72csD7KTAub3c,23303
+xcolumns/default_types.py,sha256=3OC0pPiUUtqS3pngv4500-tOi2wjQFtBn11XRgMCWaY,73
+xcolumns/find_classifier_frank_wolfe.py,sha256=kX0TrvBC4yMVdH5x_hKZWkHV9E7X2TdZtPI9UEmdRfQ,11702
+xcolumns/metrics.py,sha256=ktlbfaklveDG6pDeSPHGqT0WORNCgB4bCroLcyJTk5s,4768
+xcolumns/numba_csr_methods.py,sha256=ZZVBwJZsPTka9Z-w3WhjNgBKx61Z0e4Kw8_ihNwHykI,9075
+xcolumns/online_block_coordinate.py,sha256=-ukIsclbcIkkr0VnL9xsGZl-4Z4wOnK3ANmBjb1YFEs,4632
+xcolumns/utils.py,sha256=VSzTAoyuvnbwnevcqdiasPCcYH_qPROipFOC9Om2jXY,4940
+xcolumns/weighted_prediction.py,sha256=8ins5idbMEKcfwImRGeix8gGoNRJiRWtBR6NfVs2a7s,5743
+xcolumns-0.0.1.dist-info/LICENSE,sha256=XDj9H2wqcuL_yhEg-JcA8TUD0DfvuMjU2WdARP00-lQ,1150
+xcolumns-0.0.1.dist-info/METADATA,sha256=Ouxm3XJuXlSURY8lKD3M5UpNRipzAoka3fgJf-3Pu20,3060
+xcolumns-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xcolumns-0.0.1.dist-info/top_level.txt,sha256=2E2pO5uPogfaNEvJ806fMDEKYaWo3hsjOIURv70wLtc,9
+xcolumns-0.0.1.dist-info/RECORD,,
