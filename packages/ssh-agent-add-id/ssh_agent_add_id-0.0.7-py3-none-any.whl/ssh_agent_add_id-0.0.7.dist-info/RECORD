@@ -1,0 +1,13 @@
+ssh_agent_add_id-0.0.7.dist-info/METADATA,sha256=jVlJYy_H2UQub9v8qoc-Vdp6XC_YLeYBy9YSa37Xozk,6323
+ssh_agent_add_id-0.0.7.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+ssh_agent_add_id-0.0.7.dist-info/entry_points.txt,sha256=bvld9RyHxj2ieVzsr6uC65pJnt6Y9pB5jZPwO4TqKZQ,64
+ssh_agent_add_id-0.0.7.dist-info/licenses/LICENSE.txt,sha256=3Tx09A35sgv41hNmKyJY8NCQ02TzP2vPIPdAaH1_Gzk,1070
+ssh_agent_add_id/__init__.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+ssh_agent_add_id/__main__.py,sha256=dputroQ1sLl0pCatMwbrcE-iDWiMhv39qz9NRwb7rwU,78
+ssh_agent_add_id/cli.py,sha256=MynDTLXYi_sYgTM1OYF3xuQH4w_En6tuh4R9sgspP-Y,1165
+ssh_agent_add_id/cli_arguments.py,sha256=ga2Xn0tydnrozSlS-KKwcR0fAbA6qpWGNqICK0USobM,3084
+ssh_agent_add_id/constants.py,sha256=TxgWdyuX-zzqWVji1ZPGW75-v9C6yNZKoqgBqJ67doU,240
+ssh_agent_add_id/errors.py,sha256=JdDq9s7Vm1QCpUjmHd13nUgyAt6FrspbvTFFwCgbhGw,1923
+ssh_agent_add_id/signal_handler.py,sha256=afime7TxneY3tJYHKe3Z0s3j8SEavZtXv3y_Z0MYlgs,992
+ssh_agent_add_id/ssh_agent.py,sha256=PWHyaaXXlesrBiMsSaZ-jr1p244vUdYrnOQq4yOlPqs,8038
+ssh_agent_add_id-0.0.7.dist-info/RECORD,,
