@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tidb_vector
+Version: 0.0.0
+Summary: Vector store using TiDB!
+Author-email: DJagger <634750802@qq.com>
+Maintainer-email: DJagger <634750802@qq.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: mysql-connector-python<8.1,>=8.0
