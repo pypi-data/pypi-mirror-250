@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: futuresio
+Version: 0.0.0
+Home-page: http://github.com/al8n/pyo3-io
+Author: Al Liu
+Author-email: scygliu1@gmail.com
+License: MIT/Apache-2.0
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT

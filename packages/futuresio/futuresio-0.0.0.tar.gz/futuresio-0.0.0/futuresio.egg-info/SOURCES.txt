@@ -1,0 +1,10 @@
+LICENSE-APACHE
+LICENSE-MIT
+README.md
+setup.py
+futuresio/__init__.py
+futuresio/futures.py
+futuresio.egg-info/PKG-INFO
+futuresio.egg-info/SOURCES.txt
+futuresio.egg-info/dependency_links.txt
+futuresio.egg-info/top_level.txt
