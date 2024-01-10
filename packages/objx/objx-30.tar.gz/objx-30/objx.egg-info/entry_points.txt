@@ -1,0 +1,3 @@
+[console_scripts]
+objd = objx.__main__:daemoned
+objx = objx.__main__:wrapped
