@@ -1,0 +1,6 @@
+gspread>=5.12.0
+gspread-formatting>=1.1.2
+openpyxl
+pandas
+numpy
+google-auth
