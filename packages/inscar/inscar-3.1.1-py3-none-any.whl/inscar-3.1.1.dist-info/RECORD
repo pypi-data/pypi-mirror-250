@@ -1,0 +1,11 @@
+inscar/__init__.py,sha256=MJkYAHCrGtjY1esKcAgkf-4ue_s5h_0xNPBt4MavIVo,347
+inscar/config.py,sha256=ZOGMRxBv1CS_l1GR0mee-lgQIZxMVKG6YjszaMKW88w,6865
+inscar/experimental/extra_vdfs.py,sha256=C1lyMt1zcMR0O9KxcIqRWV_zdVHuRBAZSkREQLaoGuE,3841
+inscar/integrand_functions.py,sha256=naJpWzTWbFfips2WrxXSkFw38Qw2oFbHN4g-ZXhQZ4c,9416
+inscar/numba_integration.py,sha256=ZXPdzmYCBey3j5mAFbRKikVPGPZ6EjSsLiPsr2KyHJU,5225
+inscar/spectrum_calculation.py,sha256=AJsck9HahqZo2U8uYmAiZXv26jOcO6MH56ddrOHSAtA,9154
+inscar/vdfs.py,sha256=RnI3RbCpSdcjZ18aqqTuiIcLnspCr0IyJYqhA1Ftz6A,3522
+inscar-3.1.1.dist-info/LICENSE.rst,sha256=KtmDn0ytcvu1uNlL7Ijc_YbwqAdZmtGawc8aVu2dBco,1088
+inscar-3.1.1.dist-info/METADATA,sha256=0WZA9FWnXjA16dSUxtb5UsRzCBaJevk1JX8fbompRuU,6603
+inscar-3.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+inscar-3.1.1.dist-info/RECORD,,
