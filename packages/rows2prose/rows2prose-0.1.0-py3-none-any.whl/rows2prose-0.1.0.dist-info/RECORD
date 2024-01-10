@@ -1,0 +1,12 @@
+rows2prose/__init__.py,sha256=ItbZYkZ0Cc346WLIcvgMy17SDw6Lu1POfo-z-ujFPzc,296
+rows2prose/notebook.py,sha256=jKEvr4Ga49AHb75PB2jYORACegYqgnyvwQ4AZK6ITg0,2534
+rows2prose/web.py,sha256=HMatMq6LHEHwputJ7S0WzEXERnu9IiUADkRpWReaCDE,23613
+rows2prose/package_data/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+rows2prose/package_data/d3.min.js,sha256=1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw,279633
+rows2prose/package_data/rows2prose.browser.js,sha256=BDLj0iixLqEakIYTEMc_Z52-p6TCAKX-vw_sG_5HFKA,143728
+rows2prose/package_data/rows2prose.browser.js.map,sha256=Q7Fh6CsM1is7zdXZMTdTaACSmw5uy4h3dH-Bj1QDdqU,341460
+rows2prose-0.1.0.dist-info/LICENSE,sha256=5jXHv3GzjN1PXerGV7DduEUk8lX217AoMTlHzmgQJBA,1470
+rows2prose-0.1.0.dist-info/METADATA,sha256=gfchtmRLYYpH_GTxKPdo9vsgMwY7J_oMkSYKg8lYnLQ,193
+rows2prose-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rows2prose-0.1.0.dist-info/top_level.txt,sha256=0GeGoOY2T7EwDhCjRZ4rMfvsleqtgm-qYXvi-2LG1iU,11
+rows2prose-0.1.0.dist-info/RECORD,,
