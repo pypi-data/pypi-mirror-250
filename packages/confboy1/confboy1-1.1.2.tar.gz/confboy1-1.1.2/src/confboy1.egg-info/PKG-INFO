@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: confboy1
+Version: 1.1.2
+Summary: Better configs with TOML support
+Author-email: Euromancer <info@realpython.com>
+License: MIT License
+        
+        Copyright (c) 2024 Gleb Stiblo
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/UlfR/confboy
+Keywords: toml,config,confboy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: toml==0.10.2
+
+# Confboy
+
+Better configs with TOML support.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install confboy.
+
+```bash
+pip install confboy
+```
+
+## Usage
+
+```python
+import confboy
+
+
+base_config = {
+    'nested': {
+        'one': 1,
+        'two': 2,
+    },
+    'three': 3,
+}
+
+config = confboy.Config(base_config)
+
+config.nested.one  # Returns `1`
+config.three       # Returns `3`
+```
+
+Although it is advised not to change the config
+during runtime, it is also possible:
+
+```python
+config.nested.one = 10
+config.nested.one  # Returns `10`
+
+config.new_nested = {'one': 1}
+config.new_nested.one  # Returns `10`
+```
+
+Confboy also supports dynamic values
+that can use other values from the same config.
+You can use it to build connection URLs or whatever.
+Shines with changing config during runtime:
+change `config.postgres.user` and `config.postgres.url`
+will be rebuilt on every query if it's a callable.
+You can do various things with it including mapping
+and filtering values the app got from the TOML config,
+cast types, whatever comes to your mind.
+Callables work on any nested level.
+
+```python
+config = confboy.Config({
+    'a': {'a': 1},
+    'b': 2,
+    'a_plus_b': 'callable:add',  # Tell confboy to call `add` from provided callables
+})
+
+
+def add():
+    return config.a.a + config.b
+
+
+config.register_callable(add)
+config.a_plus_b  # Returns 3
+```
+
+Confboy can take values from TOML files as well.
+Provided config will be merged over base config.
+
+```toml
+# config.toml
+
+[nested]
+one = 1
+two = 2
+
+not = "nested"
+```
+
+```python
+config = confboy.Config(toml_config_path='config.toml')
+config.nested.one  # Returns 1
+config.not         # Returns 'nested'
+```
+
+Confboy's merges are __soft__: if the value
+is present in the config but not in patch,
+it won't be deleted from the config.
+It supports value deletion and everything.
+Just try it out or check the source code!
+
+
+## Async functions as callables
+
+Currently `confboy` does not support asynchronous functions
+as callables. That would bring interface inconsistency
+like `await config.foo` vs `config.foo`. You can wrap
+your asynchronous function like that:
+
+```python
+config.register_callable(
+    functools.partial(asyncio.run, async_func()))
+```
+
+Although that'd block the event loop.
+
+
