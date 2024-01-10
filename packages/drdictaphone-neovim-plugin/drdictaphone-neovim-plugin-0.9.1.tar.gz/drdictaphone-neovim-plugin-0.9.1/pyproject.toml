@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drdictaphone-neovim-plugin"
+version = "0.9.1"
+authors = [
+    { name = "Ole Kliemann", email = "mail@olekliemann.de" }
+]
+description = "DrDictaphone plugin for Neovim"
+dependencies = [
+  "MrEventLoop>=0.6.2",
+  "drdictaphone-shared>=0.9.1",
+  "pynvim>=0.5.0",
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Development Status :: 4 - Beta",
+  "Topic :: Text Processing",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+]
+
+[project.urls]
+homepage = "https://github.com/olekli/DrDictaphone"
