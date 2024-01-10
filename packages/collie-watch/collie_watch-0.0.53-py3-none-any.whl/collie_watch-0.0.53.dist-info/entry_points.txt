@@ -1,0 +1,3 @@
+[console_scripts]
+collie-cli=collie_watch.collie_cli:main
+
