@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sf_git
+Version: 1.0
+Summary:  Python package to manipulate Snowsight worksheets  and easily apply Git versioning on it. 
+Home-page: UNKNOWN
+Author: Thomas Dambrin
+Author-email: thomas.dambrin@gmail.com
+License: UNKNOWN
+Keywords: python,snowflake,git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+
