@@ -1,0 +1,9 @@
+pysphalt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysphalt/models.py,sha256=2JHrtdXHAt7AkVz_PrSzOyCZslN7AhEVXbep_z5NDMA,3070
+pysphalt/multiplication.py,sha256=gzAViWhPg1xYvynOR78aA0J6bfGjIrZHaUafSh3Ztsg,576
+pysphalt/schemas.py,sha256=BGjpFmkutj5AkY8BvI2qMTrA2D5Jjv4UdBBwItfjvp0,1626
+pysphalt-0.1.16.dist-info/LICENSE,sha256=Y5uXhU9COa3FyG75pgDM5vHwfLr5A83GSPrh2mi9Keo,1065
+pysphalt-0.1.16.dist-info/METADATA,sha256=ui5NPa_nvH6rf3gHyLHu7VVBSfvxjE0cp8_D4CUZjEc,3701
+pysphalt-0.1.16.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pysphalt-0.1.16.dist-info/top_level.txt,sha256=ZS_meFHL40pjUmmQE1UYoweMsf-kJ92cmStJG19TG4Y,9
+pysphalt-0.1.16.dist-info/RECORD,,
