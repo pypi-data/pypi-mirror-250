@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+astroai.egg-info/PKG-INFO
+astroai.egg-info/SOURCES.txt
+astroai.egg-info/dependency_links.txt
+astroai.egg-info/requires.txt
+astroai.egg-info/top_level.txt
