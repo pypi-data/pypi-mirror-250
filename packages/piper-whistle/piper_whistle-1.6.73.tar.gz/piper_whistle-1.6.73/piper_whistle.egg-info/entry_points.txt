@@ -1,0 +1,2 @@
+[console_scripts]
+piper_whistle = piper_whistle.cli:main
