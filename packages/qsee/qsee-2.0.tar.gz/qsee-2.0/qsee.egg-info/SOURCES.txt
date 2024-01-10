@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+qsee/__init__.py
+qsee/main.py
+qsee.egg-info/PKG-INFO
+qsee.egg-info/SOURCES.txt
+qsee.egg-info/dependency_links.txt
+qsee.egg-info/entry_points.txt
+qsee.egg-info/requires.txt
+qsee.egg-info/top_level.txt
