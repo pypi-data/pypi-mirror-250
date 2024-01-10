@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+roverai.egg-info/PKG-INFO
+roverai.egg-info/SOURCES.txt
+roverai.egg-info/dependency_links.txt
+roverai.egg-info/requires.txt
+roverai.egg-info/top_level.txt
