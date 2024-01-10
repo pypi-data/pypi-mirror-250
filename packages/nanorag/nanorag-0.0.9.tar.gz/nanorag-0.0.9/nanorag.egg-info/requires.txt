@@ -1,0 +1,9 @@
+PyPDF2
+accelerate
+pillow
+psycopg2-binary
+sentence_transformers
+torch
+transformers
+
+[dev]
