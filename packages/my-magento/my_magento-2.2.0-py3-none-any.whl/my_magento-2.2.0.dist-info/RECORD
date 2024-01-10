@@ -1,0 +1,17 @@
+magento/__init__.py,sha256=Wyc5ZVoe-owgUHKfARDKGZdPh0bP3NBxDtawVzqmkGk,1364
+magento/clients.py,sha256=s_OIVBPUasxK6akPyKe4uEtljWkswFvCVLO4Wc7INxI,18961
+magento/exceptions.py,sha256=1J3eC5cuFHpOhM2dPxCC7QKHVhO5XNowz-Vu5d5XV5A,3092
+magento/search.py,sha256=pY0wxwOA9qOLP3t_RCsb_8HWJvh9IQUXHVwkTNUQs1I,38329
+magento/utils.py,sha256=su_23HnsQXz0X-UUoNDufOIVgE4X894NS07vUwj0r4A,15562
+magento/models/__init__.py,sha256=JO7qdtfMVnAxcdR1zoGRXMK3OkcUoUCRfnQSYP0y898,243
+magento/models/category.py,sha256=EQnLk7dWRti0xfc-XbWiRBG4KKjw84loUv1JtY0vny8,8002
+magento/models/customer.py,sha256=Q6xVQ1nGBbJ8Y3oQyYg0KbUyNJlQRT0nR2yjFk5jZw8,4314
+magento/models/invoice.py,sha256=gu2qLHG9KxEXkMfWikC58aomXIuMnBocq-NATP3t3rU,3921
+magento/models/model.py,sha256=IQOjcf9iofnv57iLM_SZn0gET_WdmljMd_5MLxjpewE,11733
+magento/models/order.py,sha256=Pr0dYFe6ztMQNwLv4iHyCNPeNN_Bj_r1D8Q4IWKuqKg,11649
+magento/models/product.py,sha256=SYEO5PCQ1aM5sw7cTsYoanqG2jxpq_mUGIwpNszzbUI,25126
+my_magento-2.2.0.dist-info/LICENSE,sha256=NQ_nx-nOPqzyXfsNUcoMkPAvgc2yWW4Kq5SVrJg02Q0,1084
+my_magento-2.2.0.dist-info/METADATA,sha256=Q2xEO_PLKH0tFoa3CUjkX0HU39i7c3TymV9P1HvT_Bg,21464
+my_magento-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+my_magento-2.2.0.dist-info/top_level.txt,sha256=aH2oFPeA-RVYRFj_qp0HZpKdtujJLkz1ZFzK99H39ZA,8
+my_magento-2.2.0.dist-info/RECORD,,
