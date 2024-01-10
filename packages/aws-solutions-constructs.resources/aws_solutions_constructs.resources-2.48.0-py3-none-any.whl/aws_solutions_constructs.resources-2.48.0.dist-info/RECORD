@@ -1,0 +1,9 @@
+aws_solutions_constructs/resources/__init__.py,sha256=CyDAdTTVp3roRxK67WM9EGbpUMok9GWfyiIL45s3Pk0,19103
+aws_solutions_constructs/resources/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/resources/_jsii/__init__.py,sha256=9XiG61QFG5isRSSTeKXQgx5-bLXLyng3IaWtjnuOTZY,469
+aws_solutions_constructs/resources/_jsii/resources@2.48.0.jsii.tgz,sha256=X8mOnNm7ZQfI2Wzirl_XkQOBMwAl_zfjaqQ-EP-sJB0,1052915
+aws_solutions_constructs.resources-2.48.0.dist-info/LICENSE,sha256=wnT4A3LZDAEpNzcPDh8VCH0i4wjvmLJ86l3A0tCINmw,10279
+aws_solutions_constructs.resources-2.48.0.dist-info/METADATA,sha256=_2-yikZx9HE_tq5NlKFhMwGDAt5YU_9n0frLy9GWQgk,2671
+aws_solutions_constructs.resources-2.48.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+aws_solutions_constructs.resources-2.48.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.resources-2.48.0.dist-info/RECORD,,
