@@ -1,0 +1,43 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="ducktools-scriptmetadata"
+description="Parser for Python inline script metadata as defined in PEP723."
+authors = [
+  { name="David C Ellis" },
+]
+readme="README.md"
+requires-python = ">=3.8"
+dependencies = []
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+dynamic = ['version']
+license = {file = "LICENSE.md"}
+
+[project.optional-dependencies]
+testing = ["pytest", "pytest-cov"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ducktools.scriptmetadata.__version__"}
+
+[tool.pytest.ini_options]
+addopts= "--cov=src/ --cov-report=term-missing"
+testpaths = [
+    "tests",
+]
