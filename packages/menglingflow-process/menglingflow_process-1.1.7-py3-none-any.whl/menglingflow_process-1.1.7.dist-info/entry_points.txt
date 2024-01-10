@@ -1,0 +1,3 @@
+[console_scripts]
+mlweek=menglingflow_process.week_schedule.main:transfer
+mlnode=menglingflow_process.node_crawler.main:transfer
