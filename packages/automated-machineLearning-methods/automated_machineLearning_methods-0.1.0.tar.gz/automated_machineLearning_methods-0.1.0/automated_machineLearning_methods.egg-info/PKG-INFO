@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: automated-machineLearning-methods
+Version: 0.1.0
+Summary: A small example package for machine learning operations
+Author: Sepehr Goodarzi
+Author-email: sepehrgoodarzi6@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: tensorflow
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+Requires-Dist: seaborn
+Requires-Dist: statsmodels
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: keras

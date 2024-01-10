@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+automated_machineLearning_methods/__init__.py
+automated_machineLearning_methods/automated_machineLearning_methods.py
+automated_machineLearning_methods.egg-info/PKG-INFO
+automated_machineLearning_methods.egg-info/SOURCES.txt
+automated_machineLearning_methods.egg-info/dependency_links.txt
+automated_machineLearning_methods.egg-info/requires.txt
+automated_machineLearning_methods.egg-info/top_level.txt
+tests/__init__.py
+tests/test_operations.py
