@@ -1,0 +1,4 @@
+IPython
+google-cloud-bigquery
+pandas
+traitlets
