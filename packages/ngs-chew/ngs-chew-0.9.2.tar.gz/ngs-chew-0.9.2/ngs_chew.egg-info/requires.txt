@@ -1,0 +1,16 @@
+logzero
+tqdm
+numpy
+vcfpy
+pysam
+pandas
+plotly
+scipy
+click
+attrs
+cattrs
+
+[serve]
+dash
+plotly
+dash-bootstrap-components

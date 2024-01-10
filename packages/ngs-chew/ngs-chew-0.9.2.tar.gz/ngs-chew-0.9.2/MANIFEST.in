@@ -1,0 +1,6 @@
+include chew/data/*.bed.gz
+include *.rst
+include *.md
+include *.txt requirements/*.txt
+
+recursive-include chew *.py *.yml
