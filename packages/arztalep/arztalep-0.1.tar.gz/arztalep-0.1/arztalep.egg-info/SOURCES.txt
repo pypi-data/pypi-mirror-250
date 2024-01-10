@@ -1,0 +1,8 @@
+setup.py
+arztalep/__init__.py
+arztalep/arztalep.py
+arztalep.egg-info/PKG-INFO
+arztalep.egg-info/SOURCES.txt
+arztalep.egg-info/dependency_links.txt
+arztalep.egg-info/requires.txt
+arztalep.egg-info/top_level.txt
