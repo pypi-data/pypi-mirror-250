@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dpg11-pylib
+Version: 0.1.0
+Summary: Python library for the DPG11 data generator
+Home-page: https://github.com/ethan-r-hansen/dpg11_pylib
+Author: Ethan R. Hansen
+Author-email: hansen.ethan@gmail.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: numpy>=1.23.0
+Requires-Dist: matplotlib>=3.7.4

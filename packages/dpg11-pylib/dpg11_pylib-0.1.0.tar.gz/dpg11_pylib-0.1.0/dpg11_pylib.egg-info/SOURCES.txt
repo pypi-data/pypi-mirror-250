@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dpg11_pylib/__init__.py
+dpg11_pylib.egg-info/PKG-INFO
+dpg11_pylib.egg-info/SOURCES.txt
+dpg11_pylib.egg-info/dependency_links.txt
+dpg11_pylib.egg-info/requires.txt
+dpg11_pylib.egg-info/top_level.txt
