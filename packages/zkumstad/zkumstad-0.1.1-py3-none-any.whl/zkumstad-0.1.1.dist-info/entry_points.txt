@@ -1,0 +1,3 @@
+[console_scripts]
+zkumstad-create = create_zk_project:main
+zkumstad-start = zkappumstad:main
