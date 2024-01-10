@@ -1,0 +1,31 @@
+#TODO:ShivamPR21 Update mamba build system according to new pyproject.toml setup
+package:
+  name: mzt
+  version: 1.2.0
+
+source:
+  path: ./
+
+requirements:
+  host:
+    - python
+    - setuptools
+  build:
+    - python
+  run:
+    - python
+    - numpy
+    - pytorch
+    - typing
+    - typing-extensions
+
+about:
+  home: https://github.com/ShivamPR21/MZT
+  license: Apache-2.0
+  license_familY: Apache
+  license_file: LICENSE
+  summary: Package to host DeepLearning modules for pytorch ecosystem, to ease out model implementations and iterations.
+
+extra:
+  recipe-maintainers:
+    - ShivamPR21

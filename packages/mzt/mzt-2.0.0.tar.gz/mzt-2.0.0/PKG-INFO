@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: mzt
+Version: 2.0.0
+Summary: Package to host DeepLearning modules for pytorch ecosystem, to ease out model implementations.
+Author-Email: Shivam Pandey <pandeyshivam2023robotics+clort@gmail.com>
+License: AGPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Project-URL: Bug tracker, https://github.com/ShivamPR21/MZT/issues
+Project-URL: Chat, https://github.com/ShivamPR21/MZT/discussions
+Project-URL: Discussions, https://github.com/ShivamPR21/MZT/discussions
+Project-URL: Documentation, https://awkward-array.org
+Project-URL: Homepage, https://github.com/ShivamPR21/MZT
+Project-URL: Releases, https://github.com/ShivamPR21/MZT/releases
+Project-URL: Source code, https://github.com/ShivamPR21/MZT
+Requires-Python: >=3.11
+Requires-Dist: torch
+Requires-Dist: numpy>=1.25.0
+Requires-Dist: packaging
+Requires-Dist: typing_extensions>=4.7.0
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: myst-parser>=0.13; extra == "docs"
+Requires-Dist: pathspec>=0.10.1; extra == "docs"
+Requires-Dist: pyproject-metadata>=0.5; extra == "docs"
+Requires-Dist: sphinx<=7.1.2,>=7.0; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Requires-Dist: sphinx-inline-tabs; extra == "docs"
+Requires-Dist: sphinx-jsonschema; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints; extra == "docs"
+Provides-Extra: docs
+Description-Content-Type: text/markdown
+
+# ModuleZooTorch
+
+Collection of neural-net modules including both general blocks, and those introduced in latest research
+
+> The library is still under development, if you have some cool NN blocks in mind that deserves to be implemented in MZT please don't hesitate to open an issue with feature request, I'll try my best to implement those ASAP.
+
+## Installation
+
+```shell
+pip install mzt
+```
+
+## Available Modules
+
+- Convolution Blocks:
+  - ConvNormActivation1d
+  - ConvNormActivation2d
+  - ConvInvertedBlock1d
+  - ConvInvertedBlock2d
+- Residual Blocks:
+  - ConvResidualBlock1d
+  - ConvResidualBlock2d
+  - ConvBottleNeckResidualBlock1d
+  - ConvBottleNeckResidualBlock2d
+  - ConvInvertedResidualBlock1d
+  - ConvInvertedResidualBlock2d
+- Attention Blocks:
+  - SelfAttention1d
+  - SelfAttention2d
+  - MultiHeadSelfAttention1d
+  - MultiHeadSelfAttention2d
+  - MultiHeadAttention1d
+  - MultiHeadAttention2d
+  - MultiHeadAttentionLinear
+- Graphical/Geometric Blocks:
+  - GraphConv2d
