@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="hr_leave_allocation_view_tree" model="ir.ui.view">
+    <field name="name">hr.leave_allocation tree</field>
+    <field name="model">hr.leave_allocation</field>
+    <field name="mode">primary</field>
+    <field name="inherit_id" ref="ssi_transaction_mixin.mixin_transaction_view_tree" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="date_start" />
+                <field name="date_end" />
+                <field name="date_extended" />
+                <field name="employee_id" widget="many2one_avatar_employee" />
+                <field name="department_id" optional="hide" />
+                <field
+                        name="manager_id"
+                        widget="many2one_avatar_employee"
+                        optional="hide"
+                    />
+                <field name="job_id" optional="hide" />
+                <field name="type_id" string="Type" />
+                <field name="number_of_days" sum="Total Number of Days" />
+                <field name="num_of_days_used" sum="Total Used Days" />
+                <field name="num_of_days_planned" sum="Total Plannned Days" />
+                <field name="num_of_days_available" sum="Total Available Days" />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="hr_leave_allocation_view_search" model="ir.ui.view">
+    <field name="name">hr.leave_allocation search</field>
+    <field name="model">hr.leave_allocation</field>
+    <field name="mode">primary</field>
+    <field
+            name="inherit_id"
+            ref="ssi_transaction_mixin.mixin_transaction_view_search"
+        />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//group[@name='group_by']" position="inside">
+                <filter
+                        name="grp_date_start"
+                        string="Date Start"
+                        context="{'group_by':'date_start'}"
+                    />
+                <filter
+                        name="grp_date_end"
+                        string="Date End"
+                        context="{'group_by':'date_end'}"
+                    />
+                <filter
+                        name="grp_date_extended"
+                        string="Date Extended"
+                        context="{'group_by':'date_extended'}"
+                    />
+                <filter
+                        name="grp_type_id"
+                        string="Leave Type"
+                        context="{'group_by':'type_id'}"
+                    />
+                <filter
+                        name="grp_employee_id"
+                        string="Employee"
+                        context="{'group_by':'employee_id'}"
+                    />
+                <filter
+                        name="grp_department_id"
+                        string="Department"
+                        context="{'group_by':'department_id'}"
+                    />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="hr_leave_allocation_view_form" model="ir.ui.view">
+    <field name="name">hr.leave_allocation form</field>
+    <field name="model">hr.leave_allocation</field>
+    <field name="mode">primary</field>
+    <field name="inherit_id" ref="ssi_transaction_mixin.mixin_transaction_view_form" />
+    <field name="arch" type="xml">
+        <data>
+          <xpath expr="//field[@name='user_id']" position="after">
+              <field name="type_id" domain="[('need_allocation', '=', True)]" />
+              <field name="employee_id" widget="many2one_avatar_employee" />
+              <field name="department_id" readonly="1" force_save="1" />
+              <field
+                        name="manager_id"
+                        widget="many2one_avatar_employee"
+                        readonly="1"
+                        force_save="1"
+                    />
+              <field name="job_id" readonly="1" force_save="1" />
+          </xpath>
+          <xpath expr="//group[@name='header_right']" position="inside">
+              <field name="date_start" />
+              <field name="date_end" />
+              <field name="can_be_extended" />
+              <field name="date_extended" />
+              <field name="number_of_days" />
+              <field name="num_of_days_used" />
+              <field name="num_of_days_planned" />
+              <field name="num_of_days_available" />
+          </xpath>
+          <xpath expr="//page[@name='note']" position="before">
+                <page name="leave" string="Leaves">
+                    <group name="leave_1" colspan="4" col="2">
+                        <field name="leave_ids" nolabel="1" />
+                    </group>
+                </page>
+            </xpath>
+
+        </data>
+    </field>
+</record>
+
+<record id="hr_leave_allocation_action" model="ir.actions.act_window">
+    <field name="name">Leave Allocations</field>
+    <field name="res_model">hr.leave_allocation</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<menuitem
+        id="menu_hr_leave_allocation"
+        name="Leave Allocations"
+        parent="ssi_timesheet.timesheet_menu"
+        groups="hr_leave_allocation_viewer_group"
+        action="hr_leave_allocation_action"
+        sequence="1"
+    />
+
+</odoo>
