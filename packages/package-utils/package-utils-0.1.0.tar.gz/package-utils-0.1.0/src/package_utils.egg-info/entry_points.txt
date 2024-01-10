@@ -1,0 +1,2 @@
+[console_scripts]
+package_utils = package_utils.cli:entry_point
