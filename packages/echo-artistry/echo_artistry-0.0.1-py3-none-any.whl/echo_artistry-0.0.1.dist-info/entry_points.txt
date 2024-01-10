@@ -1,0 +1,3 @@
+[console_scripts]
+echo-artistry=echo_artistry.main:args_call
+
