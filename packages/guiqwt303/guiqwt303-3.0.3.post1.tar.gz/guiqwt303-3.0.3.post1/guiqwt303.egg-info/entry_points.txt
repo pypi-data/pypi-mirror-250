@@ -1,0 +1,3 @@
+[gui_scripts]
+guiqwt303-tests-py3 = guiqwt303.tests:run
+sift-py3 = guiqwt303.tests.sift:run

@@ -1,0 +1,2 @@
+[build-system]
+requires = ["setuptools", "cython", "wheel", "numpy", "guidata==1.7.7","PyQt5==5.15.10", "pyqt5-sip"]
