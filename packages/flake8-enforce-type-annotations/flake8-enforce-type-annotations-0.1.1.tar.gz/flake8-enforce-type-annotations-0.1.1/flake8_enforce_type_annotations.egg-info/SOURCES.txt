@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+enforce_type_annotations/__init__.py
+enforce_type_annotations/checker.py
+flake8_enforce_type_annotations.egg-info/PKG-INFO
+flake8_enforce_type_annotations.egg-info/SOURCES.txt
+flake8_enforce_type_annotations.egg-info/dependency_links.txt
+flake8_enforce_type_annotations.egg-info/entry_points.txt
+flake8_enforce_type_annotations.egg-info/requires.txt
+flake8_enforce_type_annotations.egg-info/top_level.txt
+tests/test_plugin.py
