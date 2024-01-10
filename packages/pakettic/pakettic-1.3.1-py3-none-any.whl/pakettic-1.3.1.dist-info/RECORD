@@ -1,0 +1,14 @@
+LICENSE,sha256=GkRuxFV-Izrt8_i2wk_BWSgk3PcUTTlWurfMmEv8qLo,1092
+pakettic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pakettic/__main__.py,sha256=dTle6OUcbd0910K5HD8xn3sbwsDmiOvNNVpFk5b0hEs,42
+pakettic/ast.py,sha256=b5WcpQBT54bxkMRT8aoZK5q2rf-EfDxF9qBL-TRbLOw,7096
+pakettic/main.py,sha256=j9M-XFhXlMgK96SAZr4at91HBY8gFaGE1nIsu_cD3zg,13264
+pakettic/optimize.py,sha256=DO2ZiLTH5QJ-BxBzmG6Y6BFsQATzTya2Nsx5WDMjtMM,25002
+pakettic/parser.py,sha256=F_w85oV8rCI_q2zFuE3yFHLrAtkzzL198uGCIOWDh0U,13231
+pakettic/printer.py,sha256=i0mHoJLqhyil5DzTAsggsJ5-Ni17Nh5t36-_lNLpGDs,14125
+pakettic/ticfile.py,sha256=JwI5CEOA3s4DtOjywMp8h9X5o3DYD8gOtajJULvvqiQ,11248
+pakettic-1.3.1.dist-info/entry_points.txt,sha256=KTzXh6qx3vrH-Xp0pz9KWpqHK93R98byGLqrJ7fEmyY,47
+pakettic-1.3.1.dist-info/LICENSE,sha256=GkRuxFV-Izrt8_i2wk_BWSgk3PcUTTlWurfMmEv8qLo,1092
+pakettic-1.3.1.dist-info/METADATA,sha256=mN8-27zmFE9CcKgs4PqXRr-KwjpHvVZAqNwKtEH4yO8,10170
+pakettic-1.3.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pakettic-1.3.1.dist-info/RECORD,,
