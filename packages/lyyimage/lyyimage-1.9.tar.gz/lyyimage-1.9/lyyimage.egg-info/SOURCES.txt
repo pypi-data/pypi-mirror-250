@@ -1,0 +1,8 @@
+LICENSE
+README.md
+lyyimage.py
+setup.py
+lyyimage.egg-info/PKG-INFO
+lyyimage.egg-info/SOURCES.txt
+lyyimage.egg-info/dependency_links.txt
+lyyimage.egg-info/top_level.txt
