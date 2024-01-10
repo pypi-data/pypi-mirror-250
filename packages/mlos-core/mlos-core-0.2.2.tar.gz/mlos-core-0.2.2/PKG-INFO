@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: mlos-core
+Version: 0.2.2
+Summary: MLOS Core Python interface for parameter optimization.
+Home-page: https://github.com/microsoft/MLOS
+Author: Microsoft
+Author-email: mlos-maintainers@service.microsoft.com
+License: MIT
+Project-URL: docs, https://microsoft.github.io/MLOS
+Project-URL: package_source, https://github.com/microsoft/MLOS/tree/main/mlos_core/
+Keywords: autotuning,optimization
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn>=1.2
+Requires-Dist: joblib>=1.1.1
+Requires-Dist: scipy>=1.3.2
+Requires-Dist: numpy>=1.24
+Requires-Dist: pandas>=1.0.3
+Requires-Dist: ConfigSpace>=0.7.1
+Provides-Extra: flaml
+Requires-Dist: flaml[blendsearch]; extra == "flaml"
+Provides-Extra: smac
+Requires-Dist: smac>=2.0.0; extra == "smac"
+Provides-Extra: full
+Requires-Dist: flaml[blendsearch]; extra == "full"
+Requires-Dist: smac>=2.0.0; extra == "full"
+Provides-Extra: full-tests
+Requires-Dist: flaml[blendsearch]; extra == "full-tests"
+Requires-Dist: smac>=2.0.0; extra == "full-tests"
+Requires-Dist: pytest; extra == "full-tests"
+Requires-Dist: pytest-forked; extra == "full-tests"
+Requires-Dist: pytest-xdist; extra == "full-tests"
+Requires-Dist: pytest-cov; extra == "full-tests"
+Requires-Dist: pytest-local-badge; extra == "full-tests"
+
+# mlos-core
+
+This [directory](https://github.com/microsoft/MLOS/tree/main/mlos_core/./) contains the code for the `mlos-core` optimizer package.
+
+## Description
+
+`mlos-core` is an optimizer package, using Bayesian optimization to identify & sample tunable configuration parameters and propose optimal parameter values.
+These are evaluated by `mlos-bench`, generating and tracking experiment results (proposed parameters, benchmark results & telemetry) to update the optimization loop.
+
+## Features
+
+Since the tunable OS kernel parameter search space is extremely large, `mlos-core` automates the following steps to efficiently generate optimal task-specific kernel configurations.
+
+1. Reduce the search space by identifying a promising set of tunable parameters
+    - Map out the configuration search space: Automatically track and manage the discovery of new Linux kernel parameters and their default values across versions. Filter out non-tunable parameters (e.g., not writable) and track which kernel parameters exist for a given kernel version.
+    - Leverage parameter knowledge for optimization: Information on ranges, sampling intervals, parameter correlations, workload type sensitivities for tunable parameters are tracked and currently manually curated. In the future, this can be automatically maintained by scraping documentation pages on kernel parameters.
+    - Tailored to application: Consider prior knowledge of the parameter's impact & an application's workload profile (e.g. network heavy, disk heavy, CPU bound, multi-threaded, latency sensitive, throughput oriented, etc.) to identify likely impactful candidates of tunable parameters, specific to a particular application.
+2. Sampling to warm-start optimization in a high dimensional search space
+3. Produce optimal configurations through Bayesian optimization
+    - Support for various optimizer algorithms (default Bayesian optimizer, Flaml, SMAC, and random for baseline comparison), that handle multiple types of constraints. This includes cost-aware optimization, that considers experiment costs given current tunable parameters.
+    - Integrated with `mlos-bench`, proposed configurations are logged and evaluated.
