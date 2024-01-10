@@ -1,0 +1,17 @@
+benqprojector/__init__.py,sha256=oGeOEmseRoWQ9zjlXWak-naZR8XpUW8NzEgKOW7xB-E,313
+benqprojector/__main__.py,sha256=3XRDBf34rrAiESVSSiDBdLJoOkAcEaJG9uXgbHIlHdw,4554
+benqprojector/benqconnection.py,sha256=w3rqRTHMZfOd5vFuWa9wFimHGPALKH3T21rL7qHCa7I,6577
+benqprojector/benqprojector.py,sha256=sk_nzq7NPUUrdD13s2IJgXAkDLvn2mrQU6xUy4XZkgg,40507
+benqprojector/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+benqprojector/configs/all.json,sha256=D6FoaZL0RXO1FViD5Q4t-74ppFGKMCQ-YkaHdwts4qo,2155
+benqprojector/configs/minimal.json,sha256=zk5tXh_s5oQBj0Sz1TyIRma7bMGgC9kvKq0dsGMpolE,270
+benqprojector/configs/mw519.json,sha256=tAH4Wz_Nmwp0LGkMpaH3GJhvCd691Ls7HIAgQSn6zvE,900
+benqprojector/configs/th585.json,sha256=QM2wb02PpHpQlhbUNmaO6KQWFHBeI3NBCkk2FtOgWEk,1080
+benqprojector/configs/w1100.json,sha256=rJVbL10x-GwSYWfVWXPXY83Y3UySjpd3cDa0cR8ZShE,613
+benqprojector/configs/w1110.json,sha256=JcrP5jEY7SAnSfik3UrQHK7BerYWUyrYmcbBbjfI7hs,943
+benqprojector/configs/x3000i.json,sha256=cmnFLWiDVRx0g1Eb7udJAtu6KyuZyXSJhp-cOMLHpS0,919
+benqprojector-0.0.13.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+benqprojector-0.0.13.7.dist-info/METADATA,sha256=n_-WxRdbuij2iYrax7Joi3B2gWky7bCtq6kRqEv6sxA,4732
+benqprojector-0.0.13.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+benqprojector-0.0.13.7.dist-info/top_level.txt,sha256=9JwQ2c6zH-ZYbbka7vORdamcW90JJJP1ymGwyfC6eTg,14
+benqprojector-0.0.13.7.dist-info/RECORD,,
