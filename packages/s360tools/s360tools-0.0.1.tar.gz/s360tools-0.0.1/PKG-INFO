@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: s360tools
+Version: 0.0.1
+Summary: A collection of handy tools for s360
+Author-email: Mikkel Almind <mje@s360digital.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.12
+License-File: LICENSE.txt
