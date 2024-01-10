@@ -1,0 +1,16 @@
+flare_protobuf_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flare_protobuf_plugin/additional_fields.py,sha256=J90fjzbxOxvSBPY-Cu4ZWYwBFNtqdTwrXUUMJKwMRlA,2049
+flare_protobuf_plugin/grpc_python_plugin.py,sha256=ngK86N9FaRIlONuH8B_X-pQLpiRdIx1tuRtHkym6Tq4,1204
+flare_protobuf_plugin/grpclib.lock,sha256=jbEX569cSgemE-QgMReiLCUBVg3WSuwxcZ7PU9OMWwY,11128
+flare_protobuf_plugin/mypy_protobuf.lock,sha256=2LDqlYQ99KyaK_saBlmleRqySG00VNtPWrQgyzkt0bE,4740
+flare_protobuf_plugin/protoc_plugins.py,sha256=4XIgERSkzO4hmxRCkD_cM_FpXQ8ZrCFfQjlpYyNoeLY,277
+flare_protobuf_plugin/python_protobuf_module_mapper.py,sha256=8QL0_vKjREBpcVEEaSXqM9PyEQJvhxltcPdrXMQACQ0,3344
+flare_protobuf_plugin/python_protobuf_subsystem.py,sha256=2BlVdp9FmUhFc6uGFfXMH7WJiam7iz-NFfyuDZ8T8_Q,6454
+flare_protobuf_plugin/register.py,sha256=ektQVwk76D3AZIzvELy9SilzCNj6DAUf5lheyf4Txm0,1373
+flare_protobuf_plugin/rules.py,sha256=agKBSDVnjnYczdFV2UguOqErusTniqO1BMqY6rYm7mc,9644
+flare_protobuf_plugin-0.1.0.dist-info/LICENSE-MIT.txt,sha256=_dHgE1UuyeVZlRsBMjhuJ4b6clb2seecf7AJ0m8d7r4,1071
+flare_protobuf_plugin-0.1.0.dist-info/METADATA,sha256=Ne8QcM5fM9zbOzJCGo90J9JkTksqvBmoP0TmYp1kaL4,1709
+flare_protobuf_plugin-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flare_protobuf_plugin-0.1.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+flare_protobuf_plugin-0.1.0.dist-info/top_level.txt,sha256=-BcngDIJt6IlDz6E11D0gpd6SCAUlAtmApbJz4khGw0,22
+flare_protobuf_plugin-0.1.0.dist-info/RECORD,,
