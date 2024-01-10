@@ -1,0 +1,13 @@
+README.rst
+pyproject.toml
+src/lxd_dyndns/__init__.py
+src/lxd_dyndns/client.py
+src/lxd_dyndns/config.py
+src/lxd_dyndns/dyndns_client.py
+src/lxd_dyndns/run.py
+src/lxd_dyndns.egg-info/PKG-INFO
+src/lxd_dyndns.egg-info/SOURCES.txt
+src/lxd_dyndns.egg-info/dependency_links.txt
+src/lxd_dyndns.egg-info/entry_points.txt
+src/lxd_dyndns.egg-info/requires.txt
+src/lxd_dyndns.egg-info/top_level.txt
