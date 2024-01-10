@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/pywarp/__init__.py
+src/pywarp/exec.py
+src/pywarp/fetch.py
+src/pywarp/fusefetch.py
+src/pywarp/spark.py
+src/pywarp/splitfetch.py
+src/warp10_pywarp.egg-info/PKG-INFO
+src/warp10_pywarp.egg-info/SOURCES.txt
+src/warp10_pywarp.egg-info/dependency_links.txt
+src/warp10_pywarp.egg-info/requires.txt
+src/warp10_pywarp.egg-info/top_level.txt

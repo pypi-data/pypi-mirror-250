@@ -1,0 +1,5 @@
+cbor2>=5.1.0
+pandas>=1.4.2
+pyspark>=3.2.0
+requests>=2.25.1
+urllib3>=1.26.6
