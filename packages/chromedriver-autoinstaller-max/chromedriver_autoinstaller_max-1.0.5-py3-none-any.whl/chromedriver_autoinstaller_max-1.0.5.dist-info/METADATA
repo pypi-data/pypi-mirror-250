@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: chromedriver-autoinstaller-max
+Version: 1.0.5
+Summary: Automatically install chromedriver that supports the currently installed version of chrome.
+Home-page: https://github.com/max32002/chromedriver-autoinstaller-max
+Author: Max Yao
+Author-email: weng.32002@gmail.com
+License: MIT
+Keywords: chromedriver chrome chromium selenium
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: packaging
+
+# chromedriver-autoinstaller-max
+
+chromedriver-autoinstaller-max was forked from the original [python-chromedriver-autoinstaller](https://github.com/yeongbin-jo/python-chromedriver-autoinstaller) repository. 
+
+
+## Installation
+
+```bash
+pip install chromedriver-autoinstaller-max
+```
+
+## Usage
+Just type `import chromedriver_autoinstaller_max` in the module you want to use chromedriver.
+
+## Example
+```
+from selenium import webdriver
+import chromedriver_autoinstaller_max
+
+
+chromedriver_autoinstaller_max.install()  # Check if the current version of chromedriver exists
+                                      # and if it doesn't exist, download it automatically,
+                                      # then add chromedriver to path
+
+driver = webdriver.Chrome()
+driver.get("http://www.python.org")
+assert "Python" in driver.title
+```
+
+## Authors & Contributors
+
+- CHIDA <[iam.yeongbin.jo@gmail.com](mailto:iam.yeongbin.jo@gmail.com)>
