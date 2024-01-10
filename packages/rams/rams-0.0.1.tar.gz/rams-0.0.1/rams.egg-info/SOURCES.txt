@@ -1,0 +1,13 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+rams/CHANGELOG.txt
+rams/README.txt
+rams/__init__.py
+rams/setup.py
+rams.egg-info/PKG-INFO
+rams.egg-info/SOURCES.txt
+rams.egg-info/dependency_links.txt
+rams.egg-info/top_level.txt
