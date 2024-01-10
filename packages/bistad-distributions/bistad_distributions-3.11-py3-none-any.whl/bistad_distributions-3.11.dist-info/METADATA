@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: bistad-distributions
+Version: 3.11
+Summary: Gaussian
+Home-page: UNKNOWN
+Author: Dinesh Bista
+Author-email: bistad57@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: numpy
+
+# Sample Project
+
+This is a simple project.
+
