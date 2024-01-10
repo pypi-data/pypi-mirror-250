@@ -1,0 +1,186 @@
+Metadata-Version: 2.1
+Name: kayalab
+Version: 0.3.1
+Summary: Create VMs on ProxmoxVE and Vmware and install HPE Ezmeral
+Author: Erdinc Kaya
+Author-email: erdincka@msn.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bcrypt (==4.0.1)
+Requires-Dist: cachetools (==5.3.2)
+Requires-Dist: certifi (==2023.11.17)
+Requires-Dist: cffi (==1.16.0)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: cryptography (==41.0.6)
+Requires-Dist: docker (==7.0.0)
+Requires-Dist: google-auth (==2.25.2)
+Requires-Dist: humanize (==4.9.0)
+Requires-Dist: idna (==3.6)
+Requires-Dist: kubernetes (==28.1.0)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: oauthlib (==3.2.2)
+Requires-Dist: packaging (==23.2)
+Requires-Dist: paramiko (==3.3.1)
+Requires-Dist: paramiko-expect (==0.3.5)
+Requires-Dist: prompt-toolkit (==3.0.36)
+Requires-Dist: proxmoxer (==2.0.1)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pyasn1 (==0.5.1)
+Requires-Dist: pyasn1-modules (==0.3.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pygments (==2.17.2)
+Requires-Dist: pynacl (==1.5.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pyvmomi (==8.0.2.0.1)
+Requires-Dist: pyyaml (==6.0.1)
+Requires-Dist: questionary (==2.0.1)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: requests-oauthlib (==1.3.1)
+Requires-Dist: rich (==13.7.0)
+Requires-Dist: rsa (==4.9)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: strenum (==0.4.15)
+Requires-Dist: tdnss (==0.2.1)
+Requires-Dist: typer (==0.9.0)
+Requires-Dist: typing-extensions (==4.8.0)
+Requires-Dist: urllib3 (==1.26.18)
+Requires-Dist: wcwidth (==0.2.12)
+Requires-Dist: websocket-client (==1.6.4)
+Description-Content-Type: text/markdown
+
+# Kayalab python module
+
+CLI utility to create virtual machines and install HPE Ezmeral products.
+
+## Usage
+
+It supports install/delete operations for Virtual Machines on Proxmox VE and Vmware vSphere.
+
+### Prepare
+
+Download base cloud images for template creation.
+
+Tested images can be found at:
+Rocky8:
+`https://download.rockylinux.org/pub/rocky/8/images/x86_64/Rocky-8-GenericCloud.latest.x86_64.qcow2`
+
+RHEL8 (login required):
+`https://access.cdn.redhat.com/content/origin/files/sha256/5f/5f9cd94d9a9a44ac448b434f3e28d24465deef089bbd452392b3f10e96cb8eaa/rhel-8.8-x86_64-kvm.qcow2`
+
+#### Vmware
+
+Convert qcow2 image to vmdk
+
+`qemu-img convert -f qcow2 -O vmdk -o subformat=streamOptimized Rocky-8-GenericCloud.latest.x86_64.qcow2 Rocky-8-GenericCloud.latest.x86_64.vmdk`
+
+(Enable and) SSH into the esx host (change your host name)
+`ssh root@<esx.host>`
+
+Copy vmdk to a datastore (change your host name and datastore path)
+`scp Rocky-8-GenericCloud.latest.x86_64.vmdk root@<esx.host>:/vmfs/volumes/<datastore>`
+
+Convert image to disk
+`vmkfstools -i Rocky-8-GenericCloud.latest.x86_64.vmdk rocky-template.vmdk -W file -d thin -N`
+
+#### Proxmox
+
+Copy qcow2 base image file(s) into /var/lib/vz/template/qemu folder (create the qemu folder first)
+
+### Configure Utility
+
+`kayalab config set`
+
+To enable proxy (no_proxy will be generated and added to environment automatically):
+
+```ini
+proxy = http://proxy.company.com:80
+```
+
+To use local yum/dnf repository:
+
+Using Nexus OSS, you can add a yum-proxy repository with this:
+Remote Storage: `https://download.rockylinux.org/pub/rocky/`
+
+```ini
+yum_proxy = http://10.1.1.10:8081/repository/yum-proxy
+```
+
+To use local mapr repository:
+
+Using Nexus OSS, you can add a yum-proxy repository with this:
+Remote Storage: `https://package.ezmeral.hpe.com/releases/`
+Authentication: Checked
+Authentication Type: Username
+Username: `<HPE passport email>`
+Password: `<Repository Token>`
+
+```ini
+mapr_proxy = http://10.1.1.10:8081/repository/mapr-proxy
+```
+
+Copy UA airgap files (optional):
+
+`ezua-airgap-util --release v1.2.0 --copy --dest_url http://<local-registry>:5000/ --dest_creds user:pass`
+
+### Create template VM
+
+`kayalab create template -t pve|vmw --host <host>`
+
+### Create VMs
+
+`kayalab create vm -t pve|vmw --host <host>`
+
+### Ezmeral Data Fabric
+
+#### Install Ezmeral Data Fabric
+
+Version 7.5 with EEP 9.2.0 will be installed on as many hosts provided. Installer will be installed on the first node and system will automatically distribute services across other nodes. Single node installation is also possible. Core components (fileserver, DB, Kafka/Streams, s3server, Drill, HBase, Hive) and monitoring tools (Grafana, OpenTSDB...) will be installed.
+
+`kayalab install ezdf -h 10.1.1.21 -h 10.1.1.22 -h 10.1.1.23 -h 10.1.1.24 -h 10.1.1.25`
+
+#### Configure Ezmeral Data Fabric Client
+
+Will download secure files from the server and install/configure the client for the cluster.
+
+`kayalab install dfclient --server 10.1.1.21 --client 10.1.1.30`
+
+### Ezmeral Unified Analytics
+
+You need to get UA installer docker image and then extract ezfabricctl and ezfab-release.tgz files from it.
+
+```bash
+docker cp hpe-ezua-installer-ui:/root/ezua-installer-ui/ezfab-release.tgz .
+docker cp hpe-ezua-installer-ui:/root/ezua-installer-ui/ezfabricctl_darwin_amd64 .
+docker cp hpe-ezua-installer-ui:/root/ezua-installer-ui/ezfabricctl_linux_amd64 .
+```
+
+TODO: can provide direct links if/when they are publicly available.
+
+Install container in first node:
+
+Assuming vm1 and vm2 created for control-plane (4 cores & 32GB memory), and vm3, vm4, vm5 as worker nodes (32 cores & 128GB memory). Requirements might change with future releases (available at `https://docs.ezmeral.hpe.com/`)
+
+`kayalab install ezua orch -h <vm1-ip-or-fqdn>`
+
+Add other hosts to the pool:
+
+`kayalab install ezua pool -w <vm2-ip-or-fqdn> -w <vm3-ip-or-fqdn> -w <vm4-ip-or-fqdn> -w <vm5-ip-or-fqdn>`
+
+Create workload cluster:
+
+`kayalab install ezua workload -o <vm1-ip-or-fqdn> -c ezfab-orchestrator-kubeconfig`
+
+## TODO
+
+[ ] Proper documentation and code clean up
+
+[ ] Test on standalone ESX host
+
+[ ] Test airgap for UA
+
