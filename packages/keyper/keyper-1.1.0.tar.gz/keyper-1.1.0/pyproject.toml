@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "keyper"
+version = "1.1.0"
+description = "A utility for dealing with the macOS keychain."
+
+license = "MIT"
+
+authors = [
+    "Dale Myers <dalemy@microsoft.com>"
+]
+
+readme = 'README.md'
+
+repository = "https://github.com/Microsoft/keyper"
+homepage = "https://github.com/Microsoft/keyper"
+
+keywords = ['apple', 'macOS', 'keychain', 'certificates', 'passwords']
+
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Environment :: Console',
+    'Environment :: MacOS X',
+    'Intended Audience :: Developers',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Topic :: Software Development',
+    'Topic :: Utilities'
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "=23.12.1"
+mypy = "=1.8.0"
+pylint = "=3.0.3"
+pytest = "=7.4.4"
+pytest-cov = "=4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
