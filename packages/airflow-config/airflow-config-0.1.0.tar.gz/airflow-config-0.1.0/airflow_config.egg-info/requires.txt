@@ -1,0 +1,12 @@
+apache-airflow
+omegaconf
+
+[develop]
+bump2version
+check-manifest
+isort
+pytest
+pytest-cov
+ruff
+twine
+wheel
