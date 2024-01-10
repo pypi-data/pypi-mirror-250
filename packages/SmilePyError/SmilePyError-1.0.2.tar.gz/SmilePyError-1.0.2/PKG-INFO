@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: SmilePyError
+Version: 1.0.2
+Summary: python error class is, to make it simple structure
+Home-page: https://github.com/sitthykun/smilepyerror
+Author: Sitthykun LY
+Author-email: ly.sitthykun@gmail.com
+License: MIT License
+Keywords: python error base class,errorbase,error
+Platform: All
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# smilepyerror
+python error class is, to make it simple structure
+
+```
+# external library
+from smilepyerror.ErrorBase import ErrorBase
+# or pypi
+# from ErrorBase import ErrorBase
+
+
+class TestClass:
+	"""
+ 	"""
+	def __init__(self):
+ 		"""
+   		"""
+	 	# private
+	 	self.error	= ErrorBase()
+
+   	def divideByZero(self, inputData: int) -> float:
+   		"""
+	 	"""
+   		self.error.setFalse()
+
+   		try:
+	 		return inputData / 0
+	
+		exception Exception as e:
+  			self.error.setTrue(message= str(e))
+  			return -1
+
+
+# render code
+test	= TestClass()
+result	= test.divideByZero(22)
+
+if test.error.isTrue():
+	print(f'Show the messag error please {test.error.getMessage()}')
+```
+
