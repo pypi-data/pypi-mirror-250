@@ -1,0 +1,1 @@
+recursive-include yan/pyarmor_runtime_000000 *.so
