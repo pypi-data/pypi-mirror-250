@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lxd-dyndns"
+version = "1.1.0"
+description = "Monitor LXD and perform DNS changes"
+readme = "README.rst"
+license = {text = "ISC"}
+keywords = ["lxd", "dyndns"]
+requires-python = ">= 3.11"
+authors = [
+  {name = "Aisha Tammy", email = "aisha@bsd.ac"},
+]
+classifiers = [
+  "Programming Language :: Python"
+]
+dependencies = [
+  "dnspython",
+  "pylxd",
+  "uvloop",
+  "websockets",
+]
+
+[project.scripts]
+lxd-dyndns = "lxd_dyndns.run:run"
+
+[project.urls]
+Repository = "https://github.com/bsd-ac/lxd-dyndns"
+License = "https://github.com/bsd-ac/lxd-dyndns/blob/main/LICENSE"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.isort]
+profile = "black"
