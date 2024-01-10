@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+flask_restful_api/__init__.py
+flask_restful_api/main.py
+flask_restful_api.egg-info/PKG-INFO
+flask_restful_api.egg-info/SOURCES.txt
+flask_restful_api.egg-info/dependency_links.txt
+flask_restful_api.egg-info/not-zip-safe
+flask_restful_api.egg-info/top_level.txt
