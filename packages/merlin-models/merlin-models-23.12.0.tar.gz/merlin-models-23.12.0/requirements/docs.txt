@@ -1,0 +1,13 @@
+attrs==21.4.0
+Jinja2<3.1
+linkify-it-py==1.0.3
+myst-nb==0.17.2
+nbformat==5.9.2
+jsonschema==4.17.3
+natsort==8.1.0
+recommonmark==0.7.1
+sphinx_book_theme~=1.0.1
+sphinx-external-toc==0.2.4
+sphinx-multiversion@git+https://github.com/mikemckiernan/sphinx-multiversion.git
+sphinxcontrib-copydirs@git+https://github.com/mikemckiernan/sphinxcontrib-copydirs.git
+ipython==8.2.0
