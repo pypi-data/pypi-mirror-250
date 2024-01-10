@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/attributes_doc/__init__.py
+src/attributes_doc/_base.py
+src/attributes_doc/py.typed
+src/attributes_doc.egg-info/PKG-INFO
+src/attributes_doc.egg-info/SOURCES.txt
+src/attributes_doc.egg-info/dependency_links.txt
+src/attributes_doc.egg-info/top_level.txt
+tests/test_attributes_doc.py
+tests/test_both_decorators.py
+tests/test_enum_doc.py
+tests/test_get_attributes_doc.py
