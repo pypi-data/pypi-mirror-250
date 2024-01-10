@@ -1,0 +1,23 @@
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: pipx install build
+      - run: pipx install twine
+      - run: pyproject-build
+      - run: twine upload dist/* --disable-progress-bar
+        env:
+          TWINE_USERNAME: "__token__"
+          TWINE_PASSWORD: ${{ secrets.TWINE_PASSWORD }}
+      - uses: softprops/action-gh-release@v1
+        with:
+          files: dist/*

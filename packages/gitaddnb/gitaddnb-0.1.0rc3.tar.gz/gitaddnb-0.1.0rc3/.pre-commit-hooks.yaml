@@ -1,0 +1,6 @@
+- id: gitaddnb
+  name: Add Jupyter Notebook to git stage
+  description: Add Jupyter Notebook to git stage without outputs and execution order. Fail if Execution order not consecutive.
+  entry: gitaddnb
+  language: python
+  stages: [commit, push, manual]
