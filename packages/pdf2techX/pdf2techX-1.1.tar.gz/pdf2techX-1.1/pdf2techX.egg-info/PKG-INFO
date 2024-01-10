@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pdf2techX
+Version: 1.1
+Summary: PDF2TEXT LIBRARY
+Author: TETE
+License: MIT
+Keywords: PDF,TEXT,PDF2TEXT,PDF2TechX
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+Requires-Dist: PyPDF2
+Requires-Dist: PyMuPDF
+Requires-Dist: pythainlp
+Requires-Dist: bs4
+Requires-Dist: langchain==0.0.208
+Requires-Dist: langchainplus-sdk
+Requires-Dist: openapi-schema-pydantic

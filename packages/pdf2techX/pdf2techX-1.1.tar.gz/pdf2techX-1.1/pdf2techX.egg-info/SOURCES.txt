@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pdf2techX/Pdf2Text.py
+pdf2techX/__init__.py
+pdf2techX/get_link.py
+pdf2techX/text_clean.py
+pdf2techX/utils.py
+pdf2techX.egg-info/PKG-INFO
+pdf2techX.egg-info/SOURCES.txt
+pdf2techX.egg-info/dependency_links.txt
+pdf2techX.egg-info/requires.txt
+pdf2techX.egg-info/top_level.txt
