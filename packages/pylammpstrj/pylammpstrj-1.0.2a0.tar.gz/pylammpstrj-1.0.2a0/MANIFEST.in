@@ -1,0 +1,3 @@
+include pylammpstrj/include/*.h
+include pylammpstrj/*.c
+include pylammpstrj/lammpstrj/*.c
