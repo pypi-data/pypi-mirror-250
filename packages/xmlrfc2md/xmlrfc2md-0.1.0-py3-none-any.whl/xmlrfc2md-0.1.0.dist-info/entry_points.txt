@@ -1,0 +1,2 @@
+[console_scripts]
+xmlrfc2md = xmlrfc2md.xmlrfc2md:main

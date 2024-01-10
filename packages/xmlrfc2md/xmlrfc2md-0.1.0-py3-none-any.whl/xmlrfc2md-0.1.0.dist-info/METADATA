@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xmlrfc2md
+Version: 0.1.0
+Summary: Convert a published RFC from XML to Markdown
+Author-email: Yaron Sheffer <yaronf.ietf@gmail.com>
+Project-URL: Repository, https://github.com/yaronf/xmlrfc2md
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: pyyaml
+
