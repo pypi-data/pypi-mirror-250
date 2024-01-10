@@ -1,0 +1,13 @@
+setup.py
+rosecape_airflow/__init__.py
+rosecape_airflow.egg-info/PKG-INFO
+rosecape_airflow.egg-info/SOURCES.txt
+rosecape_airflow.egg-info/dependency_links.txt
+rosecape_airflow.egg-info/requires.txt
+rosecape_airflow.egg-info/top_level.txt
+rosecape_airflow/aws/__init__.py
+rosecape_airflow/aws/ec2.py
+rosecape_airflow/aws/ecs.py
+rosecape_airflow/aws/efs.py
+rosecape_airflow/slack/__init__.py
+rosecape_airflow/slack/messages.py
