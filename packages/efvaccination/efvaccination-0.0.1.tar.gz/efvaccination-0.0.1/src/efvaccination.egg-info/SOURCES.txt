@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/efvaccination.py
+src/efvaccination.egg-info/PKG-INFO
+src/efvaccination.egg-info/SOURCES.txt
+src/efvaccination.egg-info/dependency_links.txt
+src/efvaccination.egg-info/entry_points.txt
+src/efvaccination.egg-info/top_level.txt
