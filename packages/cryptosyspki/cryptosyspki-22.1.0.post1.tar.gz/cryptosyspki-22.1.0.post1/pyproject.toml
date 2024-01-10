@@ -1,0 +1,22 @@
+[project]
+name = "cryptosyspki"
+version = "22.1.0.post1"
+description = "Python interface to CryptoSys PKI"
+authors = [{ name="David Ireland, DI Management Services Pty Ltd" }]
+readme = "README.rst"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+## packages = ["cryptosyspki"]
+py-modules = ["cryptosyspki"]
+
+[project.urls]
+Homepage = "https://www.cryptosys.net/pki/"
+Issues = "https://www.cryptosys.net/contact/"
