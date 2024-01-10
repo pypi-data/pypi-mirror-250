@@ -1,0 +1,7 @@
+numpy==1.26.3
+jsonschema==4.20.0
+cryptography
+sortedcontainers
+requests
+psutil==5.9.7
+aiosqlite==0.17.0
