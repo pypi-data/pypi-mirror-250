@@ -1,0 +1,7 @@
+numpy
+configparse
+struct
+os
+sys
+time
+netCDF4
