@@ -1,0 +1,11 @@
+package_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_utils/py.typed,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+package_utils/cli/__init__.py,sha256=qkxQx5XGAlt6f5JSe8NOMwlgeaVAO03EsL-Oiqo4uVc,327
+package_utils/cli/entry_point.py,sha256=DsSXRCrnZU4O_m6dR6r0N05oRFaEAsrtxzgRGJXphrE,1294
+package_utils/cli/runner.py,sha256=Y-_OyzyZTO1AMeXA9Pa14vu02SFhngG-B86y6pjYSNk,2483
+package_utils-0.1.1.dist-info/LICENSE,sha256=ENpNaBSvIV7ifD7iNz_-lBhImbiYowqPzBc5V5R8IhM,1070
+package_utils-0.1.1.dist-info/METADATA,sha256=pphbACldg05My4s6DyF0ulcwFXr8Wx71C2GWbttKKSk,1065
+package_utils-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+package_utils-0.1.1.dist-info/entry_points.txt,sha256=Y750SLOPYHBN2ufZF8QoP1Ycto2M_WYkxmLGvTnUU2o,64
+package_utils-0.1.1.dist-info/top_level.txt,sha256=V-HT_QovXZ3CNj1RYtRflIOeXlGqQ7q9gtxSEbkA5vg,14
+package_utils-0.1.1.dist-info/RECORD,,
