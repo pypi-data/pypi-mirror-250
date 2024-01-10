@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mysql_editor_python"
+version = "2024.01.09.1"
+description = "A MySQL Editor"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "pyside6>=6.5.3",
+    "mysql-connector-python>=8.0.31"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.gui-scripts]
+mysql-editor = "mysql_editor:__main__"
+
+[project.urls]
+Homepage = "https://github.com/PandaRules/MySQL-Editor-Python"
+Issues = "https://github.com/PandaRules/MySQL-Editor-Python/issues"
+Changelog = "https://github.com/PandaRules/MySQL-Editor-Python/blob/main/CHANGELOG.md"

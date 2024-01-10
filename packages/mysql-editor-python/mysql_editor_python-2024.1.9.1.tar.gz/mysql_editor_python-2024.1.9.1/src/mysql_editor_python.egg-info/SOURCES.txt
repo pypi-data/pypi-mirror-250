@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/mysql_editor/__main__.py
+src/mysql_editor/add_database.py
+src/mysql_editor/files.py
+src/mysql_editor/query.py
+src/mysql_editor/session.py
+src/mysql_editor/table_data_view.py
+src/mysql_editor/table_structure_view.py
+src/mysql_editor/window.py
+src/mysql_editor_python.egg-info/PKG-INFO
+src/mysql_editor_python.egg-info/SOURCES.txt
+src/mysql_editor_python.egg-info/dependency_links.txt
+src/mysql_editor_python.egg-info/entry_points.txt
+src/mysql_editor_python.egg-info/requires.txt
+src/mysql_editor_python.egg-info/top_level.txt
