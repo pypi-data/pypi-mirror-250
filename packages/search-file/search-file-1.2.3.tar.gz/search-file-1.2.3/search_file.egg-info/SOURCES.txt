@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+search_file/__init__.py
+search_file.egg-info/PKG-INFO
+search_file.egg-info/SOURCES.txt
+search_file.egg-info/dependency_links.txt
+search_file.egg-info/top_level.txt
+search_file/test/clean.py
+search_file/test/更新文件工具.py
