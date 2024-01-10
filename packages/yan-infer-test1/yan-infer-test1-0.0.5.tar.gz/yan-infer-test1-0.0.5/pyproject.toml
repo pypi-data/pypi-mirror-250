@@ -1,0 +1,33 @@
+[build-system]
+    requires = [
+        "setuptools>=66.1.1",
+        "wheel"
+    ]
+    build-backend = "setuptools.build_meta"
+
+[project]
+name = "yan-infer-test1"
+version = "0.0.5"
+authors = [
+  { name="zhangjl", email="zhangjl@stonehill-tech.com" },
+]
+description = "RockAI Yan模型推理SDK"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "stf-test1==0.0.3",
+  ]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+# include = ["yan_model.yan*"]
+include = ["yan*"]
+exclude = ["test*"]
