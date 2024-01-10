@@ -1,0 +1,6 @@
+setup.py
+starlink_pyndf.egg-info/PKG-INFO
+starlink_pyndf.egg-info/SOURCES.txt
+starlink_pyndf.egg-info/dependency_links.txt
+starlink_pyndf.egg-info/not-zip-safe
+starlink_pyndf.egg-info/top_level.txt
