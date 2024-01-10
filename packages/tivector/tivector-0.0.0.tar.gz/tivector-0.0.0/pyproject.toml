@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tivector"
+version = "0.0.0"
+dependencies = [
+    "python-dotenv==1.0.0",
+    "mysql-connector-python>=8.0,<8.1"
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "DJagger", email = "634750802@qq.com"},
+]
+maintainers = [
+  {name = "DJagger", email = "634750802@qq.com"},
+]
+description = "Vector store using TiDB!"
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["./src"]
+include = ["tidb_vector"]

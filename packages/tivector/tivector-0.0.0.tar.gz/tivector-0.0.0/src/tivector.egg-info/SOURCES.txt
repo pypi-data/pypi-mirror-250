@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+./src/tidb_vector/__init__.py
+./src/tidb_vector/collection.py
+./src/tidb_vector/document.py
+./src/tidb_vector/store.py
+./src/tivector.egg-info/PKG-INFO
+./src/tivector.egg-info/SOURCES.txt
+./src/tivector.egg-info/dependency_links.txt
+./src/tivector.egg-info/requires.txt
+./src/tivector.egg-info/top_level.txt
