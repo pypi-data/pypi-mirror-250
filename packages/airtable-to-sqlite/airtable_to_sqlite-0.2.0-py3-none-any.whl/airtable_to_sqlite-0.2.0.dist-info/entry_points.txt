@@ -1,0 +1,2 @@
+[console_scripts]
+airtable-to-sqlite = airtable_to_sqlite.cli:airtable_to_sqlite
