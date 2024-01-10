@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: zoom-select-image-component
+Version: 0.0.7
+Summary: Streamlit component that allows you to zoom and select parts of an image for further analysis.
+Home-page: UNKNOWN
+Author: Alexander Christiansson
+Author-email: alexander.christiansson@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit >=0.63
+Requires-Dist: pillow >=9.4.0
+Provides-Extra: devel
+Requires-Dist: wheel ; extra == 'devel'
+Requires-Dist: pytest ==7.4.0 ; extra == 'devel'
+Requires-Dist: playwright ==1.39.0 ; extra == 'devel'
+Requires-Dist: requests ==2.31.0 ; extra == 'devel'
+Requires-Dist: pytest-playwright-snapshot ==1.0 ; extra == 'devel'
+Requires-Dist: pytest-rerunfailures ==12.0 ; extra == 'devel'
+
+# zoom-select-image-component
+
+Streamlit component that allows you to select parts of an image by panning and zooming.
+
+## Installation instructions
+
+```sh
+pip install zoom-select-image-component
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from PIL import Image
+from zoom_select_image_component import zoom_select_image_component
+
+@st.cache_resource
+def load_image_as_pil(image_path: str):
+    return Image.open(image_path)
+
+image = load_image_as_pil('image.png')
+rectangles = zoom_select_image_component(image, 'A')
+```
+
+The component takes the following arguments:
+```
+image: PIL.Image
+    The image to display in the component.
+    This should be referentially stable, otherwise there will be an noticeable delay each time your app runs.
+    One way to achieve this is by loading it through a function decorated with @st.cache_resource.
+key: str
+    A key that identifies this instance of the component.
+    Can be set to any value, as long as it's unique throughout the app.
+    Changing this value on an existing instance will rerender the whole component and reset state.
+rectangle_width: number
+    The width of the zoom rectangle in image pixels.
+rectangle_height: number
+    The height of the zoom rectangle in image pixels.
+```
+It returns an array of selected rectangles.
+Each rectangle is a dictionary with the following keys:
+```
+left: int
+    number of horizontal pixels from top left corner of image to top left corner of rectangle
+top: int
+    number of vertical pixels from top left corner of image to top left corner of rectangle
+width: int
+    width of rectangle in pixels
+height: int
+    height of rectangle in pixels
+is_enabled: bool
+    whether the checkbox in the rectangle is checked or not
+cropped_image: PIL.Image
+    the part of the image covered by this rectangle
+```
+
+Look at the files `zoom_select_image_component/example.py` and `zoom_select_image_component/example_sa.py` for complete
+usage examples.
+The latter file runs the segment anything model on the selected parts of the image.
+
+## Development instructions
+
+Set `_RELEASE = False` in `__init__.py`.
+Enter `zoom_select_image_component/frontend` and run `npm update` followed by `npm run start`.
+In another terminal window, create a virtual environment by running `python -m venv venv`.
+Run `. venv/bin/activate` and run `pip install -e .` to install this component as a local package.
+Run `streamlit run zoom_select_image_component/example.py`.
+
+## Deployment instructions
+
+Set `_RELEASE = True` in `__init__.py`.
+Run `npm run build` in `zoom_select_image_component/frontend`.
+Create a Python wheel by running `pip wheel --no-deps -w dist .` in the root directory.
+Upload to pypi using `python -m twine upload --repository pypi dist/*`.
+
+

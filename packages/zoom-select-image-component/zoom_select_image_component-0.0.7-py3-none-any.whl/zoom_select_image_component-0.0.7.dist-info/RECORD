@@ -1,0 +1,17 @@
+zoom_select_image_component/__init__.py,sha256=Xelo-Yf9BTsda1OOOAtM4e7SV_udjHg97EUoPkRfKxo,4689
+zoom_select_image_component/example.py,sha256=P6CQ6SmgClktD6W-WbQOTN3ZAGqSC2Bz74rw99lllqU,620
+zoom_select_image_component/example_sa.py,sha256=zFDMgGK3Bq3fIYX7BdeJllW0uF8mwu6sNIfV3W0kPag,2560
+zoom_select_image_component/frontend/build/asset-manifest.json,sha256=zRoQipOwJMi3piHmbUXn-5e9BCNj2cH1TjHhR7j3Z54,221
+zoom_select_image_component/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+zoom_select_image_component/frontend/build/index.html,sha256=fiBMEY2hQXFZYCpjaRqoLiRBXwJu1w2KEX389HbW6vY,492
+zoom_select_image_component/frontend/build/static/js/main.33ddc49b.js,sha256=VdcAeVr8aXEOQTTGUXTXjJIkgVs0XmtBSyGFPMqzMcI,338661
+zoom_select_image_component/frontend/build/static/js/main.33ddc49b.js.LICENSE.txt,sha256=BPbCZITzGALY9iYhI40O6qpneJKw2CdM7mGhDk6ejfI,1514
+zoom_select_image_component/frontend/build/static/js/main.33ddc49b.js.map,sha256=nn6CEUep4oY0w_eP_pDyD7aYbbc2hWjejLY_EnEjS-k,1317234
+zoom_select_image_component/frontend/build/static/js/main.f32751a7.js,sha256=ZxFq9YAC3TMbpmOdqmzbIhNqJEMO6ncDMh7Omwe-NKA,338621
+zoom_select_image_component/frontend/build/static/js/main.f32751a7.js.LICENSE.txt,sha256=BPbCZITzGALY9iYhI40O6qpneJKw2CdM7mGhDk6ejfI,1514
+zoom_select_image_component/frontend/build/static/js/main.f32751a7.js.map,sha256=EBqnMXSRDCj-wardZgoOR4sLrmsDlx33Bk3M5MDojJs,1316724
+zoom_select_image_component-0.0.7.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+zoom_select_image_component-0.0.7.dist-info/METADATA,sha256=vnoIB18TR4wb1Nfgm7fLIEoVPRv8djQz-WVBXBPkD4k,3547
+zoom_select_image_component-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+zoom_select_image_component-0.0.7.dist-info/top_level.txt,sha256=RJYgLDlnsXyDnav1ehwPgs6_x49MO9I61ecCXTUsTSs,28
+zoom_select_image_component-0.0.7.dist-info/RECORD,,
