@@ -1,0 +1,17 @@
+discid~=1.0
+Markdown~=3.2
+mutagen~=1.37
+PyJWT~=2.0
+PyQt6~=6.5
+PyQt6-Qt6~=6.5
+python-dateutil~=2.7
+PyYAML<7,>=5.1
+
+[:sys_platform == "darwin"]
+pyobjc-core<11,>=6.2
+pyobjc-framework-Cocoa<11,>=6.2
+PyQt6==6.5.3
+PyQt6-Qt6~=6.5.3
+
+[:sys_platform == "win32"]
+pywin32
