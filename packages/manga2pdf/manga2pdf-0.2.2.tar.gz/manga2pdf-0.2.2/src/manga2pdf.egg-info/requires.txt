@@ -1,0 +1,6 @@
+lxml
+numpy
+img2pdf
+Pillow
+pikepdf
+rarfile
