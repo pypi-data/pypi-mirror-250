@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ZenDataStorage
+Version: 1.0.1
+Summary: A Python package for processing data from .zenf files.
+Home-page: UNKNOWN
+Author: SpiralCreationsPyPi
+Author-email: SpiralCreationsPyPi@proton.me
+License: UNKNOWN
+Keywords: Data Storage,Storage,Data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+A Python package providing useful and important features to process data from .zenf files and to parse them to local python types.
+
