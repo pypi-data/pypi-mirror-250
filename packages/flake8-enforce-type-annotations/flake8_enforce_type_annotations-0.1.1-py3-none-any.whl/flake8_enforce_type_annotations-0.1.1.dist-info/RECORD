@@ -1,0 +1,8 @@
+enforce_type_annotations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+enforce_type_annotations/checker.py,sha256=TLOGZSA4vOp7-lelcvW5JP1ozfC39Pc3vr71i8QgWeY,2497
+flake8_enforce_type_annotations-0.1.1.dist-info/LICENSE,sha256=_OcAxQDwx2t2II4wn0n7ZLhInda--qAJEMSclLAkSO4,1082
+flake8_enforce_type_annotations-0.1.1.dist-info/METADATA,sha256=NLP71_Edy8dDKUvtZ8fODOiGe3saMz248hf_d8d2xAU,2413
+flake8_enforce_type_annotations-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+flake8_enforce_type_annotations-0.1.1.dist-info/entry_points.txt,sha256=-b54dtUBSRpEWHQScMeDb1rKHDI7HJaYkHqz6UFm4-E,65
+flake8_enforce_type_annotations-0.1.1.dist-info/top_level.txt,sha256=MYNG-Xn6alekqhlP2CeLYl0c4FPLzLxS_vaHcW5jmAw,25
+flake8_enforce_type_annotations-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[flake8.extension]
+ETA = enforce_type_annotations.checker:Plugin
