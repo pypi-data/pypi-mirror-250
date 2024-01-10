@@ -1,0 +1,9 @@
+README.md
+setup.py
+evilurl/__init__.py
+evilurl/evilurl.py
+evilurl.egg-info/PKG-INFO
+evilurl.egg-info/SOURCES.txt
+evilurl.egg-info/dependency_links.txt
+evilurl.egg-info/entry_points.txt
+evilurl.egg-info/top_level.txt
