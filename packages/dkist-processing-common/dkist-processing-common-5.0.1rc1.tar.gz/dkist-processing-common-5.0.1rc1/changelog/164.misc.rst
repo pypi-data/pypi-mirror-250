@@ -1,0 +1,1 @@
+Update `dkist-fits-specifications` and associated (validator, simulator) to use new conditional requiredness framework.

@@ -1,0 +1,2 @@
+Add "STOKES" key to all L1 headers. Non-polarimetric data will always have a value of "I". This matches how data are
+treated in inventory.
