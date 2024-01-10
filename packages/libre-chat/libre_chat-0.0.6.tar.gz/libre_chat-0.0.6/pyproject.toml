@@ -1,0 +1,277 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+requires-python = ">=3.8"
+name = "libre-chat"
+description = "Free and Open Source Large Language Model (LLM) chatbot web UI and API. Self-hosted, offline capable and easy to setup. Powered by LangChain and Llama 2."
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+authors = [
+    { name = "Vincent Emonet", email = "vincent.emonet@gmail.com" },
+]
+maintainers = [
+    { name = "Vincent Emonet", email = "vincent.emonet@gmail.com" },
+]
+keywords = [
+    "Python",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dynamic = ["version"]
+
+dependencies = [
+    "gradio >=4.0.0",
+    "langchain",
+    "langchain-community",
+    "llama-cpp-python",      # To perform LLM inference
+    "faiss-cpu >=1.7.4",     # To generate the vectorstore
+    "sentence_transformers", # To produce the embeddings
+    # TODO: replace with fastembed?
+    "pypdf",                 # For PDFloader, or use PDFMiner?
+    "unstructured",          # For the email loader
+    "typer >=0.6.0",
+    "fastapi",
+    "pydantic >=2.0.0",
+    "pydantic-settings",
+    "pydantic-yaml",
+    "requests",
+    "tqdm",
+    "jinja2",
+    "uvicorn",
+    "gunicorn",
+    # "redis",               # To add a shared store for all workers
+]
+
+
+[project.scripts]
+libre-chat = "libre_chat.__main__:cli"
+
+
+[project.optional-dependencies]
+test = [
+    "pytest >=7.4.0",
+    "pytest-cov >=3.0.0",
+    "pytest-asyncio",
+    "pre-commit",
+    "mypy >=1.4.1",
+    "httpx",
+    "pip-tools",
+    "types-requests",
+    "types-setuptools",
+    # "types-redis",
+]
+doc = [
+    "mkdocs >=1.4.2",
+    "mkdocs-material >=8.2.7",
+    "mkdocstrings[python] >=0.19.1",
+    "mdx-include >=1.4.1",
+    "mkdocs-markdownextradata-plugin >=0.2.5", # ,<0.3.0
+    "mkdocs-open-in-new-tab",
+]
+windows = [
+    "python-magic-bin" # Required by magic, used by unstructured for the EmailLoader https://pydigger.com/pypi/python-magic
+]
+gpu = [
+    "faiss-gpu",
+    # "ctransformers[cuda]",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/vemonet/libre-chat"
+Documentation = "https://github.com/vemonet/libre-chat"
+History = "https://github.com/vemonet/libre-chat/releases"
+Tracker = "https://github.com/vemonet/libre-chat/issues"
+Source = "https://github.com/vemonet/libre-chat"
+
+
+# ENVIRONMENTS AND SCRIPTS
+[tool.hatch.envs.default]
+features = [
+    "test",
+    "doc",
+]
+post-install-commands = [
+    "pre-commit install",
+]
+
+[tool.hatch.envs.default.scripts]
+dev = "uvicorn scripts.main:app --reload {args}"
+vector = [
+    "libre-chat start config/chat-vectorstore-qa.yml",
+]
+vector-build = [
+    "rm -rf vectorstore/db_faiss",
+    "vector",
+]
+fmt = [
+    "pre-commit run --all --all-files",
+    "mypy",
+]
+test = [
+    "fmt",
+    "pytest {args}",
+]
+cov = [
+    "fmt",
+    "pytest --cov-report html {args}",
+    "cov-start",
+]
+cov-start = "python -m http.server 3000 --directory ./htmlcov"
+docs = "mkdocs serve -a localhost:8001 -f docs/mkdocs.yml"
+requirements = "pip-compile -o scripts/requirements.txt pyproject.toml"
+release = [
+    "hatch build",
+    "hatch publish",
+    "gh release create",
+]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11"]
+
+
+
+## TOOLS
+[tool.hatch.build.targets.wheel]
+packages = ["src/libre_chat"]
+
+[tool.hatch.version]
+path = "src/libre_chat/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "/.github",
+    "/documents",
+]
+
+
+# https://coverage.readthedocs.io/en/7.2.2/config.html
+[tool.coverage.run]
+branch = true
+parallel = true # Append process id to the data file name
+source = [ "src/libre_chat" ]
+
+[tool.coverage.paths]
+libre_chat = ["src/libre_chat", "*/src/libre_chat", "*\\src\\libre_chat"]
+
+[tool.coverage.report]
+omit = ["tests/*", "src/libre_chat/ui.py"]
+exclude_lines = [
+    "no cov",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+show_missing = true
+# fail_under = 85 skip_covered = true
+
+
+[tool.mypy]
+files = ["src/"]
+strict = true
+implicit_reexport = true
+follow_imports = "normal"
+ignore_missing_imports = true
+pretty = true
+show_column_numbers = true
+warn_no_return = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_any_generics = true
+no_implicit_optional = true
+
+
+[tool.pytest.ini_options]
+addopts = [
+    "-vvv",           # Verbose level 3
+    "--durations=10", # Show 10 slowest tests durations
+    "--cov=src",
+    "--color=yes",
+    "--cov-report=term-missing",
+    "--cov-fail-under=85",
+    # "-n", "4", # should run in parallel on 4 processes, requires pytest-xdist
+]
+filterwarnings = [
+    # "ignore::DeprecationWarning", # Ignore all deprecation warnings
+    "ignore::DeprecationWarning:httpx.*:",
+    "ignore::DeprecationWarning:setuptools.*:",
+    "ignore::DeprecationWarning:gradio.*:",
+    "ignore::DeprecationWarning:distutils.*",
+    "ignore::DeprecationWarning:pkg_resources.*",
+    "ignore::DeprecationWarning:faiss.*:",
+    "ignore::DeprecationWarning:altair.*:",
+]
+
+
+[tool.black]
+color = true
+line-length = 100
+target-version = ['py38']
+skip-string-normalization = false
+
+
+# https://github.com/charliermarsh/ruff#supported-rules
+[tool.ruff]
+src = ["src", "tests", "scripts"]
+target-version = "py38"
+line-length = 120
+select = [
+    "I",     # isort
+    "N",     # pep8-naming
+    "S",     # bandit
+    "A",     # flake8-builtins
+    "YTT",   # flake8-2020
+    "B",     # flake8-bugbear
+    "C",     # flake8-comprehensions
+    "ICN",   # flake8-import-conventions
+    "SIM",   # flake8-simplify
+    "TID",   # flake8-tidy-imports
+    "Q",     # flake8-quotes
+    # "FBT",   # flake8-boolean-trap
+    "F",     # pyflakes
+    "UP",    # pyupgrade
+    "E",     # pycodestyle errors
+    "W",     # pycodestyle warnings
+    "PLC",   # pylint convention
+    "PLE",   # pylint error
+    # "PLR",   # pylint refactor Magic value used in comparison, consider replacing 400 with a constant variable
+    "PLW",   # pylint warning
+    "RUF",   # ruff specific
+    "T",
+]
+ignore = [
+    "B007",   # Loop control variable `x` not used within loop body
+    "E501",   # line too long
+    "C901",   # too complex
+    "RUF012", # Mutable class attributes should be annotated with `typing.ClassVar`
+    "T201",   # do not use print
+    "B008",   # do not perform function calls in argument defaults
+]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["I", "F401"] # module imported but unused
+# Tests can use magic values, assertions, and relative imports
+"tests/**/*" = ["PLR2004", "S101", "S105", "TID252"]
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.ruff.isort]
+known-third-party = ["langchain"]
+
+
+# If you need to import packages from git URLs
+# [tool.hatch.metadata]
+# allow-direct-references = true
+# [tool.hatch.build]
+# sources = ["src/libre_chat"]

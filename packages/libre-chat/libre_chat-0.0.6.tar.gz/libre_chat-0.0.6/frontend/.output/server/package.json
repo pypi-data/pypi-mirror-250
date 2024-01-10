@@ -1,0 +1,13 @@
+{
+  "name": "frontend-prod",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "marked": "11.1.1",
+    "pathe": "1.1.1",
+    "seroval": "1.0.3",
+    "solid-js": "1.8.8",
+    "vinxi": "0.1.1"
+  }
+}
