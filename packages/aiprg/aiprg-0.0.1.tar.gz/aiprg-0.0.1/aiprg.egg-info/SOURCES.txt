@@ -1,0 +1,8 @@
+setup.py
+aiprg/__init__.py
+aiprg/prg.py
+aiprg.egg-info/PKG-INFO
+aiprg.egg-info/SOURCES.txt
+aiprg.egg-info/dependency_links.txt
+aiprg.egg-info/requires.txt
+aiprg.egg-info/top_level.txt
