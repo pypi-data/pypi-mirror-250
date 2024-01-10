@@ -1,0 +1,12 @@
+flickr_photos_api/__init__.py,sha256=_NJWK6omKqV8RTcpSFhwK6S0yErJrvNTVDn1h48P0KA,972
+flickr_photos_api/api.py,sha256=V_a4E6j7r1gGPL5T6yAG0Oc9exfzhYEuvCSf25db_Gw,29807
+flickr_photos_api/exceptions.py,sha256=AbyRhVFcWS2nHzTlBkheE6F2ByYR9fxhiFMSHCt0_wQ,1632
+flickr_photos_api/py.typed,sha256=UaCuPFa3H8UAakbt-5G8SPacldTOGvJv18pPjUJ5gDY,93
+flickr_photos_api/types.py,sha256=4cE5znfIdyhMUyANdJCuX60C17WTYuVeWKdR3cZuFJs,2017
+flickr_photos_api/utils.py,sha256=MBzBZkWYnI_rNJ2bGIaFkrX8xzJz3MixfWSK-xXAo_8,5368
+flickr_photos_api-1.8.0.dist-info/LICENSE-APACHE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+flickr_photos_api-1.8.0.dist-info/LICENSE-MIT,sha256=0lTh9BLH_hA5eNVmfptbjPAyjq9hl24MH98-h0mI22s,1074
+flickr_photos_api-1.8.0.dist-info/METADATA,sha256=Q_O_hCGnGJTuCmUqXDGtaDzMkHXHBRgkiD_rNr2h68Q,3348
+flickr_photos_api-1.8.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+flickr_photos_api-1.8.0.dist-info/top_level.txt,sha256=Jf9oj2JYGJ-b-1P4qTkH12fPzmGWk357_f3KV4bX8Gw,18
+flickr_photos_api-1.8.0.dist-info/RECORD,,
