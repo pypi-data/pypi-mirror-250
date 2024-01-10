@@ -1,0 +1,11 @@
+fpm.libs/libgfortran-040039e1.so.5.0.0,sha256=FK-zEpsai1C8QKOwggx_EVLqm8EBIaqxUpQ_cFdHKIY,2686065
+fpm.libs/libquadmath-96973f99.so.0.0.0,sha256=k0wi3tDn0WnE1GeIdslgUa3z2UVF2pYvYLQWWbB12js,247609
+fpm.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+fpm-0.10.0.dist-info/WHEEL,sha256=tSTRSHev23stfjCdZqtj7GcrV2z2CY97UR0J0z88I5I,140
+fpm-0.10.0.dist-info/top_level.txt,sha256=4c-IiwH4WR5QmxJBtrUGGZYEmJtUaL4_mkgjmp6MT4Y,4
+fpm-0.10.0.dist-info/LICENSE,sha256=t-M2AcATDRpnT8x3Ltm3gERg0YlkaaWyGbpAYu_Nn7k,1073
+fpm-0.10.0.dist-info/METADATA,sha256=22sWE9hNeFll2Xsx8vcKptSOwjCFzchLxneJxYJITPk,7883
+fpm/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+fpm/__init__.py,sha256=uyPlVMTO58_zYCDp00QdObySKZreHoEJQHgGRDUvCYc,290
+fpm/fpm,sha256=FGQn4covfb8QYYSEajP0OrcKh1BAC7WtV_Gm8k_fAiY,1658872
+fpm-0.10.0.dist-info/RECORD,,
