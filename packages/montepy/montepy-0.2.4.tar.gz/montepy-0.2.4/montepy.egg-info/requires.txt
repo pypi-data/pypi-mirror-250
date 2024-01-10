@@ -1,0 +1,11 @@
+numpy
+sly==0.5
+
+[doc]
+sphinx
+sphinxcontrib-apidoc
+sphinx_rtd_theme
+
+[test]
+coverage
+pytest
