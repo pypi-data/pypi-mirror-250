@@ -1,0 +1,12 @@
+airtable_to_sqlite/__about__.py,sha256=vNYpnRW3dfybTkOzertcuXb4wwhn81fTMeLeoTgN93M,127
+airtable_to_sqlite/__init__.py,sha256=3TjMG6H1MozBQ_xdb6g9LTvyANYEs4M7_86rsOjhpS0,104
+airtable_to_sqlite/__main__.py,sha256=hp470BGScTGPPjhCYUs9TAZ0Rfl8Li_17g5d4tKBvXI,323
+airtable_to_sqlite/constants.py,sha256=Y7ZHaik-TRpJiFzYtX9Gu6EDLRE_NOJDXlep5bfl-JY,2186
+airtable_to_sqlite/main.py,sha256=VCrtcUFsEzoEORhNMKRFTNGxUN1UVYq9syok6sRhsjk,9149
+airtable_to_sqlite/schema.py,sha256=qUytJ0Se_i-WQnLQYPypq6TlJ-1_DvgU3Lv4mAeU2hg,3483
+airtable_to_sqlite/cli/__init__.py,sha256=_3ACeF20jZoLEdvGvSa6B0I_7p5AlqFqhq4SqmiHYN8,1929
+airtable_to_sqlite-0.2.1.dist-info/METADATA,sha256=KWEDgiYAKwxiYeiwvulnux_Rc44i-67aYxut6joQA7o,7371
+airtable_to_sqlite-0.2.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+airtable_to_sqlite-0.2.1.dist-info/entry_points.txt,sha256=tuKItB92jpv5CzYqZoB71zLIp861ZXLQqzB1hzg2soE,81
+airtable_to_sqlite-0.2.1.dist-info/licenses/LICENSE.txt,sha256=Kjr3nbU9lLPEHLhDo7gpbd83T4mcrBAj227wOLZR-fs,1102
+airtable_to_sqlite-0.2.1.dist-info/RECORD,,
