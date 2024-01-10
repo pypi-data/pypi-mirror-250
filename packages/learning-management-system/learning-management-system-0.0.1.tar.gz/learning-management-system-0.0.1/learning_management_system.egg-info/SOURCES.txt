@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+learning-management-system/__init__.py
+learning_management_system.egg-info/PKG-INFO
+learning_management_system.egg-info/SOURCES.txt
+learning_management_system.egg-info/dependency_links.txt
+learning_management_system.egg-info/top_level.txt
