@@ -1,0 +1,8 @@
+pypox/__init__.py,sha256=IxXBsoiMYa6Tlb1d1fJzsQLkaLLhB1AFk86KX1icokY,186
+pypox/compiler.py,sha256=Db9j2NlXbQRTIudalih4wNpT4w5EHP9OkQ6CfWECejc,10409
+pypox/database.py,sha256=B9EN9OYtN4lRNl8T82ZRHk0dkbqCQotP_zlWH35lGJI,7924
+pypox/middleware.py,sha256=ECZbTrderAv937GrYerF9-rHigTD5xhsNMaewKFo12A,9195
+pypox-1.5.2.dist-info/LICENSE.md,sha256=JCD9bN_SloUcuavYHAVdcDJxg-5bKdIxW3BA-wjmtu4,1069
+pypox-1.5.2.dist-info/METADATA,sha256=OYCeqSJvswEt4IchyJEor5GPioockl21ZiBAvyYRSvg,1600
+pypox-1.5.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pypox-1.5.2.dist-info/RECORD,,
