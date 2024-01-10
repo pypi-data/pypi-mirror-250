@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-bee-annotator = napari_bee_annotator:napari.yaml
