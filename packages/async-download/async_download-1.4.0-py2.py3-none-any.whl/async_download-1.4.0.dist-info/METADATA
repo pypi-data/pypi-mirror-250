@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: async_download
+Version: 1.4.0
+Summary: Uses coroutines to download files
+Home-page: https://github.com/danwald/async_download
+Author: danny crasto
+Author-email: danwald79@gmail.com
+License: MIT license
+Keywords: async_download
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click >=8.1.7
+Requires-Dist: aiohttp >=3.8.6
+Requires-Dist: more-itertools >=10.1.0
+Requires-Dist: pip >=22
+Requires-Dist: tqdm >=4.66.1
+Provides-Extra: dev
+Requires-Dist: Sphinx >=1.8.5 ; extra == 'dev'
+Requires-Dist: black >=23.9.1 ; extra == 'dev'
+Requires-Dist: bump2version >=1.0.1 ; extra == 'dev'
+Requires-Dist: coverage >=7.3.2 ; extra == 'dev'
+Requires-Dist: flake8 >=6.1.0 ; extra == 'dev'
+Requires-Dist: pip >=22.3.1 ; extra == 'dev'
+Requires-Dist: tox >=4.11.3 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+Requires-Dist: watchdog >=3.0.0 ; extra == 'dev'
+Requires-Dist: wheel >=0.33.6 ; extra == 'dev'
+Provides-Extra: testing
+Requires-Dist: isort >=5.12.0 ; extra == 'testing'
+Requires-Dist: pre-commit >=3.4.0 ; extra == 'testing'
+Requires-Dist: pytest >=7.4.2 ; extra == 'testing'
+
+Async download
+--------------
+
+![download](https://img.shields.io/pypi/v/async_download.svg "download") ![travis](https://img.shields.io/travis/danwald/async_download.svg) ![documentation status](https://readthedocs.org/projects/async-download/badge/?version=latest)
+
+
+Uses coroutines to download urls
+
+Note: Greedy and built for speed. [10K cdn hosted urls; 0.5GB Total data; <5 minutes; M1 laptop]
+
+Usage
+-----
+
+```
+Usage: async_download [COMMAND] <OPTIONS>
+Commands:
+    headers - hit urls with the head request
+    download - download urls
+
+`headers` Options:
+  --header TEXT         Headers to extract (default: Content-Length, Server)
+  --batch-size INTEGER  number of concurrent requests (default: 1000)
+  --help                Show this message and exit.
+
+`download` Options:
+  --batch-size INTEGER  number of concurrent requests (default: 1000)
+  --execute             required to do something
+  --help                Show this message and exit.
+```
+
+* Free software: MIT license
+* Documentation: https://async-download.readthedocs.io.
+
+
+Install & Run
+-------------
+```bash
+pipx install async-download
+async_download --help
+```
+
+Development
+-----------
+```bash
+python -mvenv .venv --prompt .
+. ./.venv/bin/activate
+pip install --editable .[testing]
+make test
+```
+
+Credits
+-------
+
+This package was created with Cookiecutter and the `audreyr/cookiecutter-pypackage` project template.
+
+- [Cookiecutter](https://github.com/audreyr/cookiecutter)
+- [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
+
+The main loop was taken from
+- [A Twilio tuitorial](https://www.twilio.com/blog/asynchronous-http-requests-in-python-with-aiohttp)
+
+
+### History
+
+#### 1.2.0 (2022-08-29)
+* better progress bars.
+#### 1.1.0 (2022-08-29)
+* add a validate option.
+#### 1.0.0 (2022-08-29)
+* First release on PyPI.
