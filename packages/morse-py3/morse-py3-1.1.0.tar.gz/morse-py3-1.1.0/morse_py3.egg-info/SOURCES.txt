@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+morse_py3.egg-info/PKG-INFO
+morse_py3.egg-info/SOURCES.txt
+morse_py3.egg-info/dependency_links.txt
+morse_py3.egg-info/entry_points.txt
+morse_py3.egg-info/requires.txt
+morse_py3.egg-info/top_level.txt
