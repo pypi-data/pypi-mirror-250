@@ -1,0 +1,123 @@
+# Changelog
+
+All important changes will be described in this file. Or rather I will
+try to document them here.
+
+## [0.3.6] - 2024-01-09
+
+Bugfixes and performance improvements.
+
+### Changed
+
+- Improve the performance up to 50%
+
+### Fixed
+
+- Remove the false syntax error caused by two comments separated with a blank line
+
+## [0.3.5] - 2023-12-12
+
+### Fixed
+
+- Fix the issue with increasing indentation in expressions that are wrapped multiple times
+- Remove unnecessary whitespaces inserted before matrices in function arguments
+- Correct indentation in if-expressions
+
+## [0.3.4] - 2023-12-06
+
+### Added
+
+- Add CLI options to print help message and `mofmt` version number
+
+### Fixed
+
+- Remove the parsing error when parsing function calls with mixed
+  positional and named arguments
+
+## [0.3.3] - 2023-11-30
+
+### Fixed
+
+- Fix increased indentation and empty lines in wrapped matrices
+- Fix additional spaces placed in lines before type specifiers that use
+  global paths
+
+## [0.3.2] - 2023-11-23
+
+### Fixed
+
+- Fix line wrapping at inheritance modifiers (`break` statements inside `extends` clauses)
+- Fix missing whitespaces before type specifiers that use global paths (starts with a dot)
+- Fix errors caused by quoted identifiers containing spaces and double quotes
+
+## [0.3.1] - 2023-10-13
+
+### Fixed
+
+- Fix line wrapping inside external function calls and matrix rows
+
+## [0.3.0] - 2023-09-23
+
+### Added
+
+- Add info about formatted file path to error messages
+
+### Changed
+
+- Prevent formatter from formatting files that contain syntax errors
+
+## [0.2.3] - 2023-09-12
+
+### Fixed
+
+- Fix increased indentation inside wrapped expressions
+- Fix unwanted line breaks inside matrices
+- Fix additional space inserted before the array argument that was
+  broken by the user
+
+## [0.2.2] - 2023-08-04
+
+### Fixed
+
+- Fix issue with incorrect indentation when function call is broken
+  inside wrapped expression
+
+## [0.2.1] - 2023-07-06
+
+### Fixed
+
+- Fix issue with additional blank lines when handling line comments
+  between elements
+
+## [0.2.0] - 2023-06-21
+
+This release introduces changes to *mofmt* formatting style that makes
+it more similar to Dymola's.
+
+### Changed
+
+#### Style
+
+- Reduce indentation in class sections
+- Add space between `annotation` keyword and class modification
+
+### Removed
+
+- Remove string token splitting and indentation
+
+## [0.1.2] - 2023-06-06
+
+### Fixed
+
+- Fix issue with pre-commit hook running on multiple files
+
+## [0.1.1] - 2023-05-28
+
+### Fixed
+
+- Fix recursive directory walking
+- Fix grammar in some error messages
+
+## [0.1.0] - 2023-05-27
+
+_Initial version._
