@@ -1,0 +1,6 @@
+pyproject.toml
+pxweb/__init__.py
+pxweb.egg-info/PKG-INFO
+pxweb.egg-info/SOURCES.txt
+pxweb.egg-info/dependency_links.txt
+pxweb.egg-info/top_level.txt
