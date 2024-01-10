@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/sgia/__init__.py
+src/sgia/sgia.py
+src/sgia.egg-info/PKG-INFO
+src/sgia.egg-info/SOURCES.txt
+src/sgia.egg-info/dependency_links.txt
+src/sgia.egg-info/top_level.txt
