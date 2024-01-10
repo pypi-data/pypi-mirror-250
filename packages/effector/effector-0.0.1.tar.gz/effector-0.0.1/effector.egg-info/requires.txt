@@ -1,0 +1,6 @@
+matplotlib
+numdifftools
+numpy
+scipy
+pandas
+tqdm
