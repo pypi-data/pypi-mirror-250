@@ -1,0 +1,2 @@
+[gymnasium.envs]
+__root__ = circuit_designer.__init__:register_envs
