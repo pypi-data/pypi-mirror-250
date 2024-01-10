@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+linked_list/ost.hh
+linked_list/pythonbind.cc
+linklist.egg-info/PKG-INFO
+linklist.egg-info/SOURCES.txt
+linklist.egg-info/dependency_links.txt
+linklist.egg-info/top_level.txt
