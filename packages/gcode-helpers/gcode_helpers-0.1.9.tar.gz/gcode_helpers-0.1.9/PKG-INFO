@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: gcode_helpers
+Version: 0.1.9
+Summary: `gcode_helpers`-- collection of helper functions for parsing raw gcode
+Home-page: https://github.com/rtellez700/gcode_helpers
+Author: Rodrigo Telles
+Author-email: rtelles@g.harvard.edu
+License: MIT
