@@ -1,0 +1,18 @@
+{
+  "VIEWERERER__PROJECT__NAME": "viewererer",
+  "VIEWERERER__ENV": "DEV",
+  "VIEWERERER__TYPE": "package",
+  "VIEWERERER__VERSION": "0.1.0",
+  "VIEWERERER__SERVICES": [
+    {
+      "name": "redis",
+      "type": "redis",
+      "info":
+      {
+        "host":"192.168.1.104",
+        "port": 6379,
+        "db": 0
+      }
+    }
+  ]
+}
