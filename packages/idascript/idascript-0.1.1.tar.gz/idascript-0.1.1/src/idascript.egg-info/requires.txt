@@ -1,0 +1,8 @@
+click
+progressbar2
+
+[:os_name != "nt"]
+python-magic
+
+[:os_name == "nt"]
+python-magic-bin
