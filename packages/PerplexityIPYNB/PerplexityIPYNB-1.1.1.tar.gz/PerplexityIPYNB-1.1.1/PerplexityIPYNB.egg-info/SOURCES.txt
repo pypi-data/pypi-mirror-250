@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+PerplexityIPYNB/__init__.py
+PerplexityIPYNB.egg-info/PKG-INFO
+PerplexityIPYNB.egg-info/SOURCES.txt
+PerplexityIPYNB.egg-info/dependency_links.txt
+PerplexityIPYNB.egg-info/requires.txt
+PerplexityIPYNB.egg-info/top_level.txt

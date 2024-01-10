@@ -1,0 +1,2 @@
+requests
+websocket-client==1.6.2
