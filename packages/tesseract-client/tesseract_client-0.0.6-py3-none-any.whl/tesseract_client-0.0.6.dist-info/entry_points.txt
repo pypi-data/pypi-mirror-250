@@ -1,0 +1,2 @@
+[console_scripts]
+tesseract = tesseract_client.main:main
