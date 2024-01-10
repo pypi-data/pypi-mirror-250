@@ -1,0 +1,11 @@
+tidb_vector/__init__.py,sha256=AqHo61pEPnkK1sxwPkyNKXP--HA2Z68eZocKoHqpICQ,90
+tidb_vector/collection.py,sha256=3-BpbeCsITV_vhlJqErR7LH6-GUuJfEbnRjDjGL6_lY,3631
+tidb_vector/config.py,sha256=K6Hd7E2fqQm4bWf9hQw6WrkjHcIQnjRrnVmC6oREjhQ,462
+tidb_vector/document.py,sha256=hL276uEIGA79bNfov62VyxpSqv2Nx7zS0qTmHZR3ZdA,1051
+tidb_vector/exceptions.py,sha256=OopqpLs98C0JhYNKlWZJjqwYc6msUL4ZP9fd-nVGJoM,157
+tidb_vector/store.py,sha256=9S79PJShIDkfbxQCUPduJLtHK0N2nmdA1i5SEi8T7Ps,4667
+tidb_vector/utils.py,sha256=q1oLJ4yPORgZikIuWnbnpPuBRMJFPXdJvZY_6F_afS8,195
+tidb_vector-0.0.2.dist-info/METADATA,sha256=Ox2-ATwKw0CoZV36redNImRi4_JZCO7E2sjHJecdFQE,325
+tidb_vector-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tidb_vector-0.0.2.dist-info/top_level.txt,sha256=3BMzg-EI4FPdXlwloNB3Yr_evJe7WhmtEPBWbl2BEh4,12
+tidb_vector-0.0.2.dist-info/RECORD,,
