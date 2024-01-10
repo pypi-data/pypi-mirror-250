@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mifra
+Version: 0.2
+Summary: Un package hacer migraciones
+Home-page: https://github.com/felipeals256/mifra
+Author: Felipe Leiva
+Author-email: anexatec@gmail.com
+License: MIT
+Description: 
+        Ejecute:
+        python3 setup.py sdist
+        
+        Para crear el instalador de MIFRA, luego instalelo en su entorno virtual
+        el archivo se creará en la carpeta ./dist
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
