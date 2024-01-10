@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: localstack-utils
+Version: 1.0.1
+Summary: Utils for testing with LocalStack
+Home-page: https://github.com/localstack/localstack-python-utils
+Author: Cristopher Pinzon
+Author-email: cristopher.pinzon@localstack.cloud
+License: Apache License 2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: docker >=6.1.1
+Requires-Dist: nose >=1.3.7
+Requires-Dist: nose-timer >=0.7.5
+Provides-Extra: dev
+Requires-Dist: boto3 >=1.26.121 ; extra == 'dev'
+Requires-Dist: pytest >=7.4.0 ; extra == 'dev'
+Requires-Dist: black ==23.10.0 ; extra == 'dev'
+Requires-Dist: ruff ==0.1.0 ; extra == 'dev'
+
+# LocalStack Utils
+This Python utility streamlines the integration of Localstack, a local AWS cloud services mock, with unit tests. Seamlessly incorporate Localstack into your Python projects to facilitate efficient and reliable testing of AWS interactions within a controlled local environment. Enhance the development process by utilizing this utility to simulate AWS services during unit testing, ensuring robust and dependable code before deployment.
+
+### Prerequisites
+- Docker
+- Localstack
+
+
+### Instalation
+``` bash
+pip install localstack-utils
+```
+
+### Usage example
+
+``` python
+import time
+import boto3
+import unittest
+from localstack_utils.localstack import startup_localstack, stop_localstack
+
+class TestKinesis(unittest.TestCase):
+    def setUp(self):
+        startup_localstack()
+
+    def tearDown(self):
+        stop_localstack()
+        return super().tearDown()
+
+    def test_create_stream(self):
+        kinesis = boto3.client(
+            service_name="kinesis",
+            aws_access_key_id="test",
+            aws_secret_access_key="test",
+            endpoint_url="http://localhost:4566",
+        )
+
+        kinesis.create_stream(StreamName="test", ShardCount=1)
+        time.sleep(1)
+
+        response = kinesis.list_streams()
+        self.assertGreater(len(response.get("StreamNames", [])), 0)
+```
+
+## Change Log
+* 1.0.0: Repository URL fixed
+* 1.0.0: Initial version
