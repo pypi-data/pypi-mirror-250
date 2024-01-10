@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: encryptKit
+Version: 0.2
+Summary: python project encryption
+Home-page: https://github.com/fushengwuyu/pyencryption
+Author: sunshine
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: pycryptodome
+Requires-Dist: M2Crypto
+Requires-Dist: Cython
+
+python项目的加解密及license授权
+
+1. 项目加密  
+   使用Cython将python脚本加密为so文件  
+   
+2. license授权  
+    RSA加密  
+
