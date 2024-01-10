@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+football_players.egg-info/PKG-INFO
+football_players.egg-info/SOURCES.txt
+football_players.egg-info/dependency_links.txt
+football_players.egg-info/top_level.txt
