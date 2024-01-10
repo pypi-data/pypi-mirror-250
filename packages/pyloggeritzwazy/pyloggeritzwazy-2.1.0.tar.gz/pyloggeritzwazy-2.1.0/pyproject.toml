@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "colorama"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "pyloggeritzwazy"
+version = "2.1.0"
+authors = [
+  { name="ItzWazy", email="edugabri1217@gmail.com" },
+  { name="Vincenzo Di Maro", email="vicenzo.dimaro@gmail.com" }
+]
+description = "A simple logging library made in python on 11/21/21"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Legohead69420/pylogger"
+Issues = "https://github.com/Legohead69420/pylogger/issues"

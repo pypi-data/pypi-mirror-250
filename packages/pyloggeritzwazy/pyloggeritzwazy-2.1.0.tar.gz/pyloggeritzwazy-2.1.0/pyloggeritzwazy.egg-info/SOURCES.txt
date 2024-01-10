@@ -1,0 +1,8 @@
+LICENSE
+README.md
+operators.py
+pyproject.toml
+pyloggeritzwazy.egg-info/PKG-INFO
+pyloggeritzwazy.egg-info/SOURCES.txt
+pyloggeritzwazy.egg-info/dependency_links.txt
+pyloggeritzwazy.egg-info/top_level.txt
