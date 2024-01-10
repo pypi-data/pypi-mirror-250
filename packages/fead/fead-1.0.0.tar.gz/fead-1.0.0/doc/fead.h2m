@@ -1,0 +1,34 @@
+[template]
+The template is used by Python str.format to generate each advert.
+It can contain the following fields, delimited by braces ('{' and '}').
+
+  source_title   title of the web feed
+  source_link    URL to the feed's website
+  title          title of the feed item
+  link           URL to the item
+  time           publication time
+  summary        truncated content or description
+
+The publication time is a Python datetime.datetime object,
+which supports at least C89 format codes, e.g. {time:%Y-%m-%d}.
+
+[examples]
+Given the these URLs in a feeds file:
+
+  https://adol.pw/index.xml
+  https://cnx.gdn/feed.xml
+  https://xrvs.net/index.xml
+
+Advertisement of the two latest blogs among them, along with articles
+by Drew DeVault, can be generated via the following command.
+
+  echo "<article>
+    <h3><a href='{link}'>{title}</a></h3>
+    {summary}&mdash;<a href='{source_link}'>{source_title}</a>, {time:%F}
+  </article>" | fead -F feeds -f https://drewdevault.com/blog/index.xml -n 2
+
+[reporting bugs]
+Issues should be reported to <~cnx/misc@lists.sr.ht>.
+
+[see also]
+python(1), strftime(3)

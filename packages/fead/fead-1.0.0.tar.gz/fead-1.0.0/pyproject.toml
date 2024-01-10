@@ -1,0 +1,25 @@
+[build-system]
+requires = [ "flit_core >=3.2,<4" ]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "fead"
+description = "Advert generator from web feeds"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "COPYING" }
+authors = [ { name = "Nguyễn Gia Phong", email = "cnx@loang.net" },
+            { name = "Ngô Ngọc Đức Huy", email = "huyngo@disroot.org" } ]
+maintainers = [ { name = "Nguyễn Gia Phong", email = "~cnx/misc@lists.sr.ht" } ]
+keywords = [ "rss", "atom" ]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Framework :: AsyncIO",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Utilities" ]
+dynamic = [ "version" ]
+urls = { Source = "https://trong.loang.net/~cnx/fead" }
+scripts = { fead = "fead:main" }

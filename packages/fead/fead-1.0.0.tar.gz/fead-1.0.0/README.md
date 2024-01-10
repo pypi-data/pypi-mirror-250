@@ -1,0 +1,108 @@
+# fead
+
+This is a tool for advertising other blogs you like on your own
+by embedding the summary of their latest post(s) extracted from their web feed.
+It is a rewrite of [openring] with ([rejected]) concurrency support
+in Python without any third-party library.
+
+## Installation
+
+On POSIX systems, run the usual `make install` with configurable `PREFIX`.
+The following programs are needed for building and installation:
+
+- make
+- help2man
+- install
+
+Python 3.11+ is also required, both for generating the manual and at runtime.
+
+On other systems, a [package installer specific for Python][pip]
+might be preferred.
+
+## Usage
+
+```console
+$ fead --help
+Usage: fead [OPTION]...
+
+Generate adverts from web feeds.
+
+Options:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+  -F PATH, --feeds PATH
+                        file containing newline-separated web feed URLs
+  -f URL, --feed URL    addtional web feed URL (multiple use)
+  -s, --strict          abort when fail to fetch or parse a web feed
+  -n N, --count N       maximum number of ads in total (default to 3)
+  -p N, --per-feed N    maximum number of ads per feed (default to 1)
+  -l N, --length N      maximum summary length (default to 256)
+  -t PATH, --template PATH
+                        template file (default to stdin)
+  -o PATH, --output PATH
+                        output file (default to stdout)
+
+Any use of -f before -F is ignored.
+```
+
+## Template
+
+The template is used by Python [`str.format`][format] to generate each advert.
+It can contain the following fields, delimited by braces (`{` and `}`).
+
+* `source_title`: title of the web feed
+* `source_link`: URL to the feed's website
+* `title`: title of the feed item
+* `link`: URL to the item
+* `time`: publication time
+* `summary`: truncated content or description
+
+The publication time is a Python [`datetime.datetime`][datetime] object,
+which supports at least C89 format codes, e.g. `{time:%Y-%m-%d}`.
+
+## Examples
+
+Given the these URLs in a `feeds` file:
+
+    https://adol.pw/index.xml
+    https://cnx.gdn/feed.xml
+    https://xrvs.net/index.xml
+
+Advertisement of the two latest blogs among them, along with articles
+by Drew DeVault, can be generated via the following command.
+
+```sh
+echo "<article>
+  <h3><a href='{link}'>{title}</a></h3>
+  {summary}&mdash;<a href='{source_link}'>{source_title}</a>, {time:%F}
+</article>" | fead -F feeds -f https://drewdevault.com/blog/index.xml -n 2
+```
+
+## Contributing
+
+Patches should be sent to [~cnx/misc@lists.sr.ht]
+using [git send-email] with the following configurations:
+
+    git config sendemail.to '~cnx/misc@lists.sr.ht'
+    git config format.subjectPrefix 'PATCH fead'
+
+Bug reports and feedbacks should be sent to the same list,
+with the program's name mention in the subject.
+
+## Copying
+
+![AGPLv3](https://www.gnu.org/graphics/agplv3-155x51.png)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either [version 3 of the License][agplv3],
+or (at your option) any later version.
+
+[openring]: https://sr.ht/~sircmpwn/openring
+[rejected]: https://lists.sr.ht/~sircmpwn/public-inbox/patches/27621
+[pip]: https://pip.pypa.io
+[format]: https://docs.python.org/3/library/string.html#formatstrings
+[datetime]: https://docs.python.org/3/library/datetime.html#datetime-objects
+[~cnx/misc@lists.sr.ht]: https://lists.sr.ht/~cnx/misc
+[git send-email]: https://git-send-email.io
+[agplv3]: https://www.gnu.org/licenses/agpl-3.0.html
