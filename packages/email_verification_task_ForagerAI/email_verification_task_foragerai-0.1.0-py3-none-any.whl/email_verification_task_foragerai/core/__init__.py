@@ -1,0 +1,1 @@
+from email_verification_task_ForagerAI.core.config import app_settings, hunter_settings

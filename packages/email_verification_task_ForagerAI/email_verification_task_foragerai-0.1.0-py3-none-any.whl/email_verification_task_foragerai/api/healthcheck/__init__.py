@@ -1,0 +1,1 @@
+from email_verification_task_ForagerAI.api.healthcheck.routes import router
