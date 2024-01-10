@@ -1,0 +1,8 @@
+ai4flwr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai4flwr/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai4flwr/auth/client.py,sha256=WJrwR-jbin37hRse0m2jCTLlw3JRpJlea0c5rmPhkzs,1060
+ai4flwr/auth/server.py,sha256=h4uQCIzP78Eh0Ntxz5hhYiOpejpPURSAzPNLypXxnN4,1859
+ai4flwr-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ai4flwr-0.1.0.dist-info/METADATA,sha256=RAQLxMf6QEvhTd-Xe5CGlaIqcRSAfV976nKxAQFFjjU,714
+ai4flwr-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ai4flwr-0.1.0.dist-info/RECORD,,
