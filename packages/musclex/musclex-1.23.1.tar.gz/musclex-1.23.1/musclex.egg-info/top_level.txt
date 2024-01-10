@@ -1,0 +1,10 @@
+AppImageBuilder
+Data
+build
+conda_package
+dev_docs
+dist
+docs
+docs_archive
+hooks
+musclex

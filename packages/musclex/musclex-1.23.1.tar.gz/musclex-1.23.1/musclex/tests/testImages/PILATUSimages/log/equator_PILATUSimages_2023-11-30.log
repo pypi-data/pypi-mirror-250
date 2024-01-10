@@ -1,0 +1,4 @@
+Thu Nov 30 16:58:14 2023 [PILATUSimages/P1_F1_tet_1_100_005_0001.tif] rotationAngleChanged: -3 -> 1
+Thu Nov 30 16:58:45 2023 [PILATUSimages/P1_F1_tet_1_100_005_0001.tif] centerChanged: (445, 537) -> (422, 521)
+Thu Nov 30 16:58:53 2023 [PILATUSimages/P1_F1_tet_1_100_005_0001.tif] maskThresChanged: -0.01 -> 2.0
+Thu Nov 30 16:58:56 2023 [PILATUSimages/P1_F1_tet_1_100_005_0001.tif] maskThresChanged: 2.0 -> -0.01

@@ -1,0 +1,31 @@
+
+--------------------------------------------------------------------------------
+Beginning test at 2023-11-30 20:33:40
+Testing MuscleX version: 1.22.0
+
+Summary of Test Results
+Python Version Test: warning, check terminal for more detail
+scikit-image Test: warning, check terminal for more detail
+tifffile Test: warning, check terminal for more detail
+numpy Test: pass
+pandas Test: pass
+scikit-learn Test: warning, check terminal for more detail
+lmfit Test: pass
+fabio Test: pass
+h5py Test: pass
+scipy Test: warning, check terminal for more detail
+matplotlib Test: pass
+opencv-python-headless Test: pass
+pyFAI Test: warning, check terminal for more detail
+distro Test: pass
+hdf5plugin Test: pass
+PyMca5 Test: warning, check terminal for more detail
+numba Test: warning, check terminal for more detail
+fisx Test: warning, check terminal for more detail
+future Test: warning, check terminal for more detail
+openpyxl Test: pass
+pip Test: warning, check terminal for more detail
+wheel Test: warning, check terminal for more detail
+Ending test at 2023-11-30 20:33:41
+
+--------------------------------------------------------------------------------
