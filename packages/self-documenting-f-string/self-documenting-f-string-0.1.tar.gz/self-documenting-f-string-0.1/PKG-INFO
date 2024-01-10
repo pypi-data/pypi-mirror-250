@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: self-documenting-f-string
+Version: 0.1
+Summary: flake8 plugin to run pycodecheck but ignore their incorrect self-documenting f-string errors in Python 3.12
+Home-page: https://github.com/brentwilkins/self-documenting-f-string
+Author: Brent Wilkins
+Author-email: brent@wilkins.in
