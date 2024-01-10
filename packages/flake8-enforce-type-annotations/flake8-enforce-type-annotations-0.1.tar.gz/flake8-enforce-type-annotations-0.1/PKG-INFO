@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flake8-enforce-type-annotations
+Version: 0.1
+Summary: Flake8 plugin for enforcing type annotations.
+Home-page: https://github.com/fylein/flake8-kwargs-enforcer
+Author: Siva Narayanan
+Author-email: siva@fylehq.com
+License: MIT
+Keywords: flake8,type,python,enforce,annotations
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flake8==7.0.0
