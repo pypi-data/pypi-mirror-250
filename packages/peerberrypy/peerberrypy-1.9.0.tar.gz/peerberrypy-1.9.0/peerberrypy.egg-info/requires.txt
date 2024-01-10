@@ -1,0 +1,8 @@
+cloudscraper>=1.2
+
+[otp]
+pyotp<3,>=2.7.0
+
+[pandas]
+pandas<2
+openpyxl<4,>=3.0
