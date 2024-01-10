@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Dear ImGui Bundle documentation</title>
+<date>2023-11-30</date>
+</info>
+<simpara><emphasis>Note: You can find a more complete version of this document in the <link xl:href="https://pthom.github.io/imgui_bundle">official documentation site</link> for Dear ImGui Bundle.</emphasis></simpara>
+<sidebar>
+<simpara><link xl:href="https://traineq.org/ImGuiBundle/emscripten/bin/demo_imgui_bundle.html"><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/demos_assets/images/logo_imgui_bundle_512.png" contentwidth="150"/>
+</imageobject>
+<textobject><phrase>abc</phrase></textobject>
+</inlinemediaobject></link></simpara>
+<simpara>Dear ImGui Bundle: easily create ImGui applications in Python and C&#43;&#43;. Batteries included!</simpara>
+<tip>
+<simpara>Click on the logo for a complete interactive demonstration!</simpara>
+</tip>
+<simpara><link xl:href="https://github.com/pthom/imgui_bundle/"><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://github.com/pthom/imgui_bundle/raw/main/bindings/imgui_bundle/doc/doc_images/badge_view_sources.png" contentwidth="100"/>
+</imageobject>
+<textobject><phrase>sources</phrase></textobject>
+</inlinemediaobject></link> <link xl:href="https://pthom.github.io/imgui_bundle"><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://github.com/pthom/imgui_bundle/raw/main/bindings/imgui_bundle/doc/doc_images/badge_view_docs.png" contentwidth="81"/>
+</imageobject>
+<textobject><phrase>doc</phrase></textobject>
+</inlinemediaobject></link> <link xl:href="https://traineq.org/ImGuiBundle/emscripten/bin/demo_imgui_bundle.html"><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://github.com/pthom/imgui_bundle/raw/main/bindings/imgui_bundle/doc/doc_images/badge_interactive_manual.png" contentwidth="137"/>
+</imageobject>
+<textobject><phrase>manual</phrase></textobject>
+</inlinemediaobject></link></simpara>
+</sidebar>
+<section xml:id="introduction">
+<title>Introduction</title>
+<section xml:id="_about_dear_imgui_bundle">
+<title>About Dear ImGui Bundle</title>
+<simpara><link xl:href="https://github.com/pthom/imgui_bundle">Dear ImGui Bundle</link> is a bundle for <link xl:href="https://github.com/ocornut/imgui">Dear ImGui</link>, including various powerful libraries from its ecosystem. It enables to easily create ImGui applications in C&#43;&#43; and Python, under Windows, macOS, and Linux. It is aimed at application developers, researchers, and beginner developers who want to quickly get started.</simpara>
+</section>
+<section xml:id="_interactive_manual_demo_in_one_click">
+<title>Interactive manual &amp; demo in one click!</title>
+<simpara>Click on the animated demonstration below to launch the fully interactive demonstration.</simpara>
+<figure xml:id="truc">
+<title>Dear ImGui Bundle interactive demo</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="https://traineq.org/imgui_bundle_doc/demo_bundle8.gif" contentwidth="700"/>
+</imageobject>
+<textobject><phrase>Demo</phrase></textobject>
+</mediaobject>
+</figure>
+<tip>
+<simpara>This demonstration is also an interactive manual, similar to the online <link xl:href="https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html">ImGui Manual</link></simpara>
+</tip>
+</section>
+<section xml:id="_batteries_included">
+<title>Batteries included</title>
+<simpara>Dear ImGui Bundle includes the following libraries, which are available in C&#43;&#43; <emphasis>and</emphasis> in Python:</simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/ocornut/imgui.git">Dear ImGui</link> : Bloat-free Graphical User interface for C&#43;&#43; with minimal dependencies</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_imgui.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets imgui</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/ocornut/imgui_test_engine">ImGui Test Engine</link>: Dear ImGui Tests &amp; Automation Engine</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_testengine.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo testengine</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/pthom/hello_imgui.git">Hello ImGui</link>: cross-platform Gui apps with the simplicity of a "Hello World" app</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_docking.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo docking</phrase></textobject>
+</inlinemediaobject> <inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_custom_background.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo custom background</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/epezent/implot">ImPlot</link>: Immediate Mode Plotting</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/battery_implot.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>battery implot</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/CedricGuillemet/ImGuizmo.git">ImGuizmo</link>: Immediate mode 3D gizmo for scene editing and other controls based on Dear ImGui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_gizmo.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo gizmo</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/BalazsJako/ImGuiColorTextEdit">ImGuiColorTextEdit</link>: Colorizing text editor for ImGui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_editor.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets editor</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/thedmd/imgui-node-editor">imgui-node-editor</link>: Node Editor built using Dear ImGui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_node_editor.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo node editor</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/mekhontsev/imgui_md.git">imgui_md</link>: Markdown renderer for Dear ImGui using MD4C parser</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_md.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets md</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/pthom/immvision.git">ImmVision</link>: Immediate image debugger and insights</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_immvision_process_1.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo immvision process 1</phrase></textobject>
+</inlinemediaobject>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_immvision_process_2.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo immvision process 2</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/andyborrell/imgui_tex_inspect">imgui_tex_inspect</link>: A texture inspector tool for Dear ImGui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_imgui_tex_inspector.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo imgui tex inspector</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/pthom/ImFileDialog.git">ImFileDialog</link>: A file dialog library for Dear ImGui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_imfiledialog.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets imfiledialog</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/samhocevar/portable-file-dialogs">portable-file-dialogs</link>  <emphasis>OS native</emphasis> file dialogs library (C&#43;&#43;11, single-header)</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_portablefiledialogs.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets portablefiledialogs</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/altschuler/imgui-knobs">imgui-knobs</link>: Knobs widgets for ImGui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_knobs.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets knobs</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/dalerank/imspinner">imspinner</link>: Set of nice spinners for imgui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_spinners.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets spinners</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/cmdwtf/imgui_toggle">imgui_toggle</link>: A toggle switch widget for Dear ImGui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_toggle.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets toggle</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/aiekick/ImCoolBar">ImCoolBar</link>: A Cool bar for Dear ImGui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_coolbar.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets coolbar</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><link xl:href="https://github.com/hnOsmium0001/imgui-command-palette.git">imgui-command-palette</link>: A Sublime Text or VSCode style command palette in ImGui</simpara></entry>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://raw.githubusercontent.com/pthom/imgui_bundle/main/bindings/imgui_bundle/doc/doc_images/demo_widgets_command_palette.jpg" contentwidth="200"/>
+</imageobject>
+<textobject><phrase>demo widgets command palette</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara>A big thank you to their authors for their awesome work!</simpara>
+</section>
+<section xml:id="_easily_port_your_code_between_python_and_c">
+<title>Easily port your code between python and C&#43;&#43;</title>
+<simpara>The python bindings are autogenerated via an advanced generator (so that keeping them up to date is easy), and closely mirror the original C&#43;&#43; API, with fully typed bindings.</simpara>
+<simpara>The original code documentation is meticulously kept inside the python stubs. See for example the documentation for <link xl:href="https://github.com/pthom/imgui_bundle/blob/main/bindings/imgui_bundle/imgui/__init__.pyi">imgui</link>
+, <link xl:href="https://github.com/pthom/imgui_bundle/blob/main/bindings/imgui_bundle/implot.pyi">implot</link>, and <link xl:href="https://github.com/pthom/imgui_bundle/blob/main/bindings/imgui_bundle/hello_imgui.pyi">hello imgui</link></simpara>
+<simpara>Thanks to this, code completion in your favorite python IDE works like a charm, and porting code between Python and C&#43;&#43; becomes easy.</simpara>
+<tip>
+<simpara>GPT can help you translate between C++ and Python: see <link xl:href="https://chat.openai.com/share/1e61dfec-c2de-4c2a-8149-24926276bbd5">this conversation</link> where GPT4 was used to translate code and summarize the differences between the C&#43;&#43; and Python APIs.</simpara>
+</tip>
+</section>
+</section>
+<section xml:id="install-instructions">
+<title>Build and install instructions</title>
+<section xml:id="_install_for_python">
+<title>Install for Python</title>
+<section xml:id="_install_from_pypi">
+<title>Install from pypi</title>
+<programlisting language="bash" linenumbering="unnumbered">pip install imgui-bundle
+pip install opencv-contrib-python <co xml:id="CO1-1"/></programlisting>
+<calloutlist>
+<callout arearefs="CO1-1">
+<para>in order to run the immvision module, install opencv-python or opencv-contrib-python</para>
+</callout>
+</calloutlist>
+<simpara>Note: under windows, you might need to install <link xl:href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022">msvc redist</link>.</simpara>
+</section>
+<section xml:id="_install_from_source">
+<title>Install from source:</title>
+<programlisting language="bash" linenumbering="unnumbered">git clone https://github.com/pthom/imgui_bundle.git
+cd imgui_bundle
+git submodule update --init --recursive <co xml:id="CO2-1"/>
+pip install -v . <co xml:id="CO2-2"/>
+pip install opencv-contrib-python</programlisting>
+<calloutlist>
+<callout arearefs="CO2-1">
+<para>Since there are lots of submodules, this might take a few minutes</para>
+</callout>
+<callout arearefs="CO2-2">
+<para>The build process might take up to 5 minutes</para>
+</callout>
+</calloutlist>
+</section>
+<section xml:id="_run_the_python_demo">
+<title>Run the python demo</title>
+<simpara>Simply run <literal>demo_imgui_bundle</literal>.</simpara>
+<simpara>The source for the demos can be found inside <link xl:href="https://github.com/pthom/imgui_bundle/tree/main/bindings/imgui_bundle/demos_python">bindings/imgui_bundle/demos_python</link>.</simpara>
+<tip>
+<simpara>Consider <literal>demo_imgui_bundle</literal> as an always available manual for Dear ImGui Bundle with lots of examples and related code source.</simpara>
+</tip>
+</section>
+</section>
+<section xml:id="_install_for_c">
+<title>Install for C&#43;&#43;</title>
+<section xml:id="_integrate_dear_imgui_bundle_in_your_own_project_in_5_minutes">
+<title>Integrate Dear ImGui Bundle in your own project in 5 minutes</title>
+<simpara>The easiest way to use Dear ImGui Bundle in an external project is to use the template available at <link xl:href="https://github.com/pthom/imgui_bundle_template">https://github.com/pthom/imgui_bundle_template</link>.</simpara>
+<simpara>This template includes everything you need to set up your own project.</simpara>
+</section>
+<section xml:id="_build_from_source">
+<title>Build from source</title>
+<simpara>If you choose to clone this repo, follow these instructions:</simpara>
+<programlisting language="bash" linenumbering="unnumbered">git clone https://github.com/pthom/imgui_bundle.git
+cd imgui_bundle
+git submodule update --init --recursive <co xml:id="CO3-1"/>
+mkdir build
+cd build
+cmake .. -DIMMVISION_FETCH_OPENCV=ON <co xml:id="CO3-2"/>
+make -j</programlisting>
+<calloutlist>
+<callout arearefs="CO3-1">
+<para>Since there are lots of submodules, this might take a few minutes</para>
+</callout>
+<callout arearefs="CO3-2">
+<para>The flag <literal>-DIMMVISION_FETCH_OPENCV=ON</literal> is optional. If set, a minimal version of OpenCV will be downloaded a compiled at this stage (this might require a few minutes)</para>
+</callout>
+</calloutlist>
+<sidebar>
+<simpara>The <literal>immvision</literal> module will only be built if OpenCV can be found. Otherwise, it will be ignored, and no error will be emitted.</simpara>
+<simpara>If you have an existing OpenCV install, set its path via:</simpara>
+<programlisting language="bash" linenumbering="unnumbered">cmake .. -DOpenCV_DIR=/.../path/to/OpenCVConfig.cmake</programlisting>
+</sidebar>
+</section>
+<section xml:id="_run_the_c_demo">
+<title>Run the C&#43;&#43; demo</title>
+<simpara>If you built ImGuiBundle from source, Simply run <literal>build/bin/demo_imgui_bundle</literal>.</simpara>
+<simpara>The source for the demos can be found inside <link xl:href="https://github.com/pthom/imgui_bundle/tree/main/bindings/imgui_bundle/demos_cpp/">bindings/imgui_bundle/demos_cpp</link>.</simpara>
+<tip>
+<simpara>Consider <literal>demo_imgui_bundle</literal> as a manual with lots of examples and related code source. It is always <link xl:href="https://traineq.org/ImGuiBundle/emscripten/bin/demo_imgui_bundle.html">available online</link></simpara>
+</tip>
+</section>
+</section>
+</section>
+<section xml:id="words_author">
+<title>Closing words</title>
+<section xml:id="_who_is_this_project_for">
+<title>Who is this project for</title>
+<simpara>As mentioned in the intro,</simpara>
+<sidebar>
+<simpara><link xl:href="https://github.com/pthom/imgui_bundle">Dear ImGui Bundle</link> is a bundle for <link xl:href="https://github.com/ocornut/imgui">Dear ImGui</link>, including various powerful libraries from its ecosystem. It enables to easily create ImGui applications in C&#43;&#43; and Python, under Windows, macOS, and Linux. It is aimed at application developers, researchers, and beginner developers who want to quickly get started.</simpara>
+</sidebar>
+<simpara>Dear ImGui Bundle aims to make applications prototyping fast and easy, in a multiplatform / multi-tooling context. The intent is to reduce the time between an idea and a first GUI prototype down to almost zero.</simpara>
+<simpara>It is well adapted for</simpara>
+<itemizedlist>
+<listitem>
+<simpara>developers and researchers who want to switch easily between and research and development environment by facilitating the port of research artifacts</simpara>
+</listitem>
+<listitem>
+<simpara>beginners and developers who want to quickly develop an application without learning a GUI framework</simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="_who_is_this_project_not_for">
+<title>Who is this project <emphasis role="strong">not</emphasis> for</title>
+<simpara>You should prefer a more complete framework (such as Qt for example) if your intent is to build a fully fledged application, with support for internationalization, advanced styling, etc.</simpara>
+<simpara>Also, the library makes no guarantee of ABI stability, and its API is opened to slight adaptations and breaking changes if they are found to make the overall usage better and/or safer.</simpara>
+</section>
+</section>
+<section xml:id="_acknowledgments">
+<title>Acknowledgments</title>
+<simpara>Dear ImGui Bundle would not be possible without the work of the authors of "Dear ImGui", and especially <link xl:href="https://www.miracleworld.net/">Omar Cornut</link>.</simpara>
+<simpara>It also includes a lot of other projects, and I&#8217;d like to thank their authors for their awesome work!</simpara>
+<simpara>A particular mention for <link xl:href="https://evanpezent.com/">Evan Pezent</link> (author of ImPlot), <link xl:href="https://github.com/CedricGuillemet">Cédric Guillemet</link> (author of ImGuizmo), <link xl:href="https://merlin3d.wordpress.com/about/">Balázs Jákó</link> (author of ImGuiColorTextEdit), and <link xl:href="https://github.com/thedmd">Michał Cichoń</link> (author of imgui-node-editor), and <link xl:href="https://github.com/mekhontsev">Dmitry Mekhontsev</link> (author of imgui-md), <link xl:href="https://github.com/andyborrell">Andy Borrel</link> (author of imgui-tex-inspect, another image debugging tool, which I discovered long after having developed immvision).</simpara>
+<simpara>This doc was built using <link xl:href="https://asciidoc.org/">Asciidoc</link>.</simpara>
+<simpara>Immvision was inspired by <link xl:href="https://billbaxter.com/projects/imdebug/">The Image Debugger</link>, by Bill Baxter.</simpara>
+</section>
+<section xml:id="_license">
+<title>License</title>
+<sidebar>
+<simpara>The MIT License (MIT)</simpara>
+<simpara>Copyright (c) 2021-2024 Pascal Thomet</simpara>
+<simpara>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</simpara>
+<simpara>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</simpara>
+<simpara>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</simpara>
+</sidebar>
+</section>
+<section xml:id="_alternatives">
+<title>Alternatives</title>
+<simpara><link xl:href="https://pyimgui.readthedocs.io/en/latest/">pyimgui</link> provides battle-tested comprehensive python bindings for ImGui. I worked with this project a lot, and contributed a bit to it. In the end, I had to develop a separate project, in order to be able to add auto-generated and auto-documented python modules.</simpara>
+<simpara><link xl:href="https://dearpygui.readthedocs.io/en/latest/">Dear PyGui</link>  (<link xl:href="https://github.com/hoffstadt/DearPyGui">repository</link>) provides python bindings for ImGui with a lot of addons, and a more pythonesque API, which makes it perhaps more suited for Python only projects.</simpara>
+</section>
+<section xml:id="_about_the_author">
+<title>About the author</title>
+<simpara>Dear ImGui Bundle is developed by Pascal Thomet. I am reachable on my <link xl:href="https://github.com/pthom">Github page</link>. I sometimes <link xl:href="http://code-ballads.net/">blog</link>. There is a <link xl:href="https://www.youtube.com/playlist?list=PLaJx_KrDECZPzttQ77Gv8DD7OAUwmtWUc">playlist</link> related to ImGui Bundle on YouTube.</simpara>
+<simpara>I have a past in computer vision, and a lot of experience in the trenches between development and research teams; and I found ImGui to be a nice way to reduce the delay between a research prototype and its use in production code.</simpara>
+<simpara>I also have an inclination for self documenting code, and the doc you are reading was a way to explore new ways to document projects.</simpara>
+</section>
+<section xml:id="_how_is_dear_imgui_bundle_developed">
+<title>How is Dear ImGui Bundle developed</title>
+<simpara>The development of the initial version of Dear ImGui Bundle took about one year at full time.</simpara>
+<simpara>The bindings are auto-generated thanks to an advanced parser, so that they are easy to keep up to date.</simpara>
+<simpara>Please be tolerant if you find issues! Dear ImGui Bundle is developed for free, under a very permissive license, by one main author (and most of its API comes from external libraries).</simpara>
+<simpara>If you need consulting about this library or about the bindings generator in the context of a commercial project, please contact me by email.</simpara>
+<simpara>Contributions are welcome!</simpara>
+<section xml:id="_history">
+<title>History</title>
+<simpara>Three of my past projects gave me the idea to develop this library.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html">ImGui Manual</link>, an interactive manual for Dear ImGui, which I developed in June 2020</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://traineq.org/implot_demo/src/implot_demo.html">implot demo</link> which I developed in 2020.</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://github.com/pthom/imgui_datascience">imgui_datascience</link>, a python package I developed in 2018 for image analysis and debugging. Its successor is immvision.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Developments for Dear ImGui Bundle and its related automatic binding generator began in january 2022.</simpara>
+</section>
+</section>
+</section>
+</article>
