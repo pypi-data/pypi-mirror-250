@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "alpha3"
+version = "0.1.2"
+description = ""
+authors = ["Sahil Rohilla <imsahilrl@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "2.31.0"
+structlog = "23.3.0"
+
+[tool.poetry.scripts]
+alpha3 = "alpha3.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
