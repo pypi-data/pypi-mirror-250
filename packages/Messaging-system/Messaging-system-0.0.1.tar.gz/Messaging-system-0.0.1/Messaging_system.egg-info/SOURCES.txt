@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Messaging-system/__init__.py
+Messaging_system.egg-info/PKG-INFO
+Messaging_system.egg-info/SOURCES.txt
+Messaging_system.egg-info/dependency_links.txt
+Messaging_system.egg-info/top_level.txt
