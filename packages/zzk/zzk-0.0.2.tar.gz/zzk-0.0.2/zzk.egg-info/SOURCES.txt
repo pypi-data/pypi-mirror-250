@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+zzk.py
+zzk.egg-info/PKG-INFO
+zzk.egg-info/SOURCES.txt
+zzk.egg-info/dependency_links.txt
+zzk.egg-info/top_level.txt
