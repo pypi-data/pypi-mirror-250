@@ -1,0 +1,10 @@
+data_request_client/__init__.py,sha256=isJrmDBLRag7Zc2UK9ZovWGOv7ji1Oh-zJtJMNJFkXw,22
+data_request_client/_exceptions.py,sha256=p9ZKwMQcIRJgwDo03sMeL4A8h4trju3JfNHoIXo7vZQ,228
+data_request_client/auth.py,sha256=BqhT3ShGsMAsduJi79kopljZ7akWW8GnIpUo1KohOwM,4145
+data_request_client/client.py,sha256=jvcwFzj0TDaFtg0JEC_kbg1d1c5oI_WgHpF3WpwZJE0,9124
+data_request_client/logging.py,sha256=NnXTuLIr0e6oXeaxHy29n1Ct7wcqbtAyVdDkP-WN46k,420
+data_request_client/models.py,sha256=hOLKhSOZbOFcxZzFfeffFnlwg_lLtt1naqMngPE7maQ,2074
+data_request_client/settings.py,sha256=bpJxRdBcXIceNO6ZjkW3Trq_Qkufug64mlx99PLHdto,386
+data_request_client-0.6.0.dist-info/METADATA,sha256=yEOubRQTYRbAOKXuvkDiXmHgTh-Xxj3u4XTw6KVqCVA,871
+data_request_client-0.6.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+data_request_client-0.6.0.dist-info/RECORD,,
