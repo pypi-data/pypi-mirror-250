@@ -1,0 +1,8 @@
+fastapi_extend/__init__.py,sha256=ZCqxfv1GSAiLuhMp7_RgDdLVP8KQfFS4UCMPAE6kRyw,558
+fastapi_extend/jwt.py,sha256=s2wrARFHWjc_W0abhnEW7OrlbgBmfZ-Gr47Ro9rNTmQ,2517
+fastapi_extend/pagenator.py,sha256=jp2VjlOumPafJ3MWT3sMsfO3xtWWFHon1a8C1zHDdTw,4125
+fastapi_extend/serializer.py,sha256=LXEpIwKggHfVgQmxMDtTuszlB7aXfGHD3QFCJrvO8uQ,2747
+fastapi_extend-0.0.8.dist-info/METADATA,sha256=0cAy8p_jU8tydDm5vQ23IA1ZgpAHf-2WnarxF6o_JgE,2792
+fastapi_extend-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fastapi_extend-0.0.8.dist-info/top_level.txt,sha256=c9ODi9KL1GfCE8APUvzeH5UNlQczsSzUPaMZMvdsn5U,15
+fastapi_extend-0.0.8.dist-info/RECORD,,
