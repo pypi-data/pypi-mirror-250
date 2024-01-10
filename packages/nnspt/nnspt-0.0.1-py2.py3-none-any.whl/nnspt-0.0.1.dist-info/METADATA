@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: nnspt
+Version: 0.0.1
+Home-page: https://github.com/rostepifanov/nnspt
+Author: Rostislav Epifanov
+Author-email: rostepifanov@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch >=1.7
+Requires-Dist: timm ==0.9.2
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# Neural Network Signal Processing on Torch
+
+![Python version support](https://img.shields.io/pypi/pyversions/nnspt)
+[![PyPI version](https://badge.fury.io/py/nnspt.svg)](https://badge.fury.io/py/nnspt)
+[![Downloads](https://pepy.tech/badge/nnspt/month)](https://pepy.tech/project/nnspt?versions=0.0.*)
+
+NNSPT is a Python library for neural network signal processing on PyTorch.
+
+## Table of contents
+- [Authors](#authors)
+- [Installation](#installation)
+- [A simple example](#a-simple-example)
+- [Available components](#available-components)
+- [Citing](#citing)
+
+## Authors
+[**Rostislav Epifanov** — Researcher in Novosibirsk]()
+
+## Installation
+Installation from PyPI:
+
+```
+pip install nnspt
+```
+
+Installation from GitHub:
+
+```
+pip install git+https://github.com/rostepifanov/nnspt
+```
+
+## A simple example
+```python
+from nnspt.segmentation.unet import Unet
+
+model = Unet(encoder='tv-resnet34')
+```
+
+## Available components
+#### Encoders
+
+  * <details> <summary>ResNet</summary>
+
+      - tv-resnet18
+      - tv-resnet34
+      - tv-resnet50
+      - tv-resnet101
+      - tv-resnet152
+  </details>
+
+  * <details> <summary>ResNeXt</summary>
+
+      - tv-resnext50_32x4d
+      - tv-resnext101_32x4d
+      - tv-resnext101_32x8d
+      - tv-resnext101_32x16d
+      - tv-resnext101_32x32d
+      - tv-resnext101_32x48d
+  </details>
+
+  * <details> <summary>DenseNet</summary>
+
+      - tv-densenet121
+      - tv-densenet169
+      - tv-densenet201
+      - tv-densenet161
+
+  </details>
+
+  * <details> <summary>EfficientNetV1</summary>
+
+      - timm-efficientnet-b0
+      - timm-efficientnet-b1
+      - timm-efficientnet-b2
+      - timm-efficientnet-b3
+      - timm-efficientnet-b4
+      - timm-efficientnet-b5
+      - timm-efficientnet-b6
+      - timm-efficientnet-b7
+
+  </details>
+
+  * <details> <summary>EfficientNetLite</summary>
+
+      - timm-efficientnet-lite0
+      - timm-efficientnet-lite1
+      - timm-efficientnet-lite2
+      - timm-efficientnet-lite3
+      - timm-efficientnet-lite4
+
+  </details>
+
+#### Pretraining
+
+  * Autoencoder
+
+#### Segmentation
+
+  * Unet [[paper](https://arxiv.org/abs/1505.04597)]
+
+## Citing
+
+If you find this library useful for your research, please consider citing:
+
+```
+@misc{epifanov2023ecgmentations,
+  Author = {Rostislav Epifanov},
+  Title = {NNSTP},
+  Year = {2023},
+  Publisher = {GitHub},
+  Journal = {GitHub repository},
+  Howpublished = {\url{https://github.com/rostepifanov/nnspt}}
+}
+```
