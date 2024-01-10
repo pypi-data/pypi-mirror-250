@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: poetry-t
+Version: 0.1.3
+Summary: wavファイルのチャンネルを組み合わせる
+Author: ymorishima030
+Author-email: ymorishima030@hochiki.co.jp
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# poetry_test
