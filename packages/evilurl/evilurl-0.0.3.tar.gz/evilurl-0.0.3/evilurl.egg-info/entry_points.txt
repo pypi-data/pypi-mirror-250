@@ -1,0 +1,2 @@
+[console_scripts]
+evilurl = evilurl.evilurl:main
