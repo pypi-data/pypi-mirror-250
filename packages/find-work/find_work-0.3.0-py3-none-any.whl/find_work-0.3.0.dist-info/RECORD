@@ -1,0 +1,15 @@
+find_work/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+find_work/__main__.py,sha256=spjjLrD2fforVkA96wRzOElFotm2VY7tvBs42n5Us_Q,3101
+find_work/constants.py,sha256=QYywoJXnbM_tY8YVT-kfz0mh73s35HkUzS1bYrV9XSc,638
+find_work/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+find_work/types.py,sha256=LYXEUmbcfHuHGJu6LP7Wg9kjlyYg3wJjW55StBEuyHE,2078
+find_work/utils.py,sha256=Srw6-fY35OcW-HoUFEyzdGHpXrxdcEEyLnHJWjrftA8,2479
+find_work/cli/__init__.py,sha256=Lf6JnZ_y83jBPU4YM3mHqMtj1EYWW_pATaz4fwEaNw8,3942
+find_work/cli/bugzilla.py,sha256=BO21ZbujlG6zr75bY8GrBP4Tvk1ktDcrhUMlYLTzTPc,5630
+find_work/cli/pgo.py,sha256=PrsS4LZ_YRZwCPxIKUJIuBFghZknEraJ78_agnx7oTM,5602
+find_work/cli/repology.py,sha256=mT8-ikF7eYd8Pwm7UXucFpH0p91UssucY_DrkDursXQ,4377
+find_work-0.3.0.dist-info/METADATA,sha256=790xb45xkscJo62ybqLw2MXElpUbd37iSQjxYr0jOIk,3292
+find_work-0.3.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+find_work-0.3.0.dist-info/entry_points.txt,sha256=NNum-KsU4jGVi7bclZ5K-9nt0PYWy6QPObyWu_KiZPQ,53
+find_work-0.3.0.dist-info/licenses/LICENSE,sha256=E9iCWlnl5UbUHocRQF0PM1qZNDYqR8BKO0KA-nky3Eo,432
+find_work-0.3.0.dist-info/RECORD,,
