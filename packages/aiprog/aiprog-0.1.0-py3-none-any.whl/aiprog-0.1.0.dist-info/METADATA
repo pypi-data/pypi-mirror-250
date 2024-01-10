@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: aiprog
+Version: 0.1.0
+Summary: AI progs.
+Author: None
+Author-email: mohits.reddy@gmail.com
+Requires-Dist: pyperclip
+
