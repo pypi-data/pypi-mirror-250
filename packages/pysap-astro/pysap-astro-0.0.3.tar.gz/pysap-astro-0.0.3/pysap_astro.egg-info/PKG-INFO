@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pysap-astro
+Version: 0.0.3
+Summary: Python Sparse data Analysis Package external ASTRO plugin.
+Home-page: https://github.com/CEA-COSMIC/pysap-astro
+Author: 
+Antoine Grigis <antoine.grigis@cea.fr>
+Samuel Farrens <samuel.farrens@cea.fr>
+Jean-Luc Starck <jl.stark@cea.fr>
+Philippe Ciuciu <philippe.ciuciu@cea.fr>
+
+Author-email: samuel.farrens@cea.fr
+License: CeCILL-B
+Platform: OS Independent
+Classifier: C
+Classifier: L
+Classifier: A
+Classifier: S
+Classifier: S
+Classifier: I
+Classifier: F
+Classifier: I
+Classifier: E
+Classifier: R
+Classifier: S
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: sf_tools>=2.0.4
+
+
+PySAP-Astro
+===============
+
+|CI| |codecov| |pypi|
+
+.. |CI| image:: https://github.com/CEA-COSMIC/pysap-astro/workflows/CI/badge.svg
+  :target: https://github.com/CEA-COSMIC/pysap-astro/actions?query=workflow%3ACI
+
+.. |codecov| image:: https://codecov.io/gh/CEA-COSMIC/pysap-astro/branch/master/graph/badge.svg?token=XHJIQXV7AX
+  :target: https://codecov.io/gh/CEA-COSMIC/pysap-astro
+
+.. |pypi| image:: https://img.shields.io/pypi/v/pysap-astro
+  :target: https://pypi.org/project/pysap-astro/
+
+Python Sparse data Analysis Package external ASTRO plugin.
+
+  This package is part of the PySAP plug-in framework and is not intended to
+  work as a stand-alone package.
+
+This work is made available by a community of people, among which the
+CEA Neurospin UNATI and CEA CosmoStat laboratories, in particular A. Grigis,
+J.-L. Starck, P. Ciuciu, and S. Farrens.
+
+
+Important links
+===============
+
+- Official PySAP source code repo: https://github.com/CEA-COSMIC/pysap
+- PySAP HTML documentation (last stable release): https://cea-cosmic.github.io/pysap
