@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gensyn
+Version: 0.1.0
+Summary: SDK for interacting with the Gensyn machine learning compute protocol.
+Home-page: https://www.gensyn.ai/
+Author-Email: Gensyn <developers@gensyn.ai>
+Project-URL: Homepage, https://www.gensyn.ai/
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+The Gensyn network is the Machine Learning Compute Protocol that unites all of the world’s compute into a global supercluster, accessible by anyone at any time.
+
+Coming soon.

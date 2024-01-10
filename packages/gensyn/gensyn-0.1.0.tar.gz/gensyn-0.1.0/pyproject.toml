@@ -1,0 +1,22 @@
+[project]
+name = "gensyn"
+version = "0.1.0"
+description = "SDK for interacting with the Gensyn machine learning compute protocol."
+authors = [
+    { name = "Gensyn", email = "developers@gensyn.ai" },
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.urls]
+homepage = "https://www.gensyn.ai/"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+package-type = "library"
