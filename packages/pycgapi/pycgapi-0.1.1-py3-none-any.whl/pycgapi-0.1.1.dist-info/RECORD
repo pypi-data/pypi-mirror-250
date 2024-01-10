@@ -1,0 +1,9 @@
+pycgapi/__init__.py,sha256=H9e5DN9k_lvUyAkB3UmtcU208u0ne8btOEuPAqt3_c4,58
+pycgapi/__version__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+pycgapi/api.py,sha256=rS4ooOl95hPyx2S6Rin91GtXAxdFiRrCF_gh0oduuWw,88035
+pycgapi/utils.py,sha256=uqI6dWti6Hlh5dnPnd1_N1x7OJZ6yH9kbHkJHLY85Rs,765
+pycgapi-0.1.1.dist-info/LICENSE,sha256=_D7gnt6WXG6E3dMVdzWGp-JzWWPJD4um_Hj36BTYZv8,1069
+pycgapi-0.1.1.dist-info/METADATA,sha256=7-ftDGdcSPhy9gijhx1gg-rsD4Z1SNJpeNDrn1iRxV4,22667
+pycgapi-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pycgapi-0.1.1.dist-info/top_level.txt,sha256=xdgCYRQjIgBU3uOL_rRY0lwP_XpelDZW8Tx2Q7hdoPM,8
+pycgapi-0.1.1.dist-info/RECORD,,
