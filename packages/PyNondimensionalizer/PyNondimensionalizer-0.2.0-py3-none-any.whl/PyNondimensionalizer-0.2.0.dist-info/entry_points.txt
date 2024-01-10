@@ -1,0 +1,2 @@
+[console_scripts]
+pynondim = pynondimensionalizer.pynondimensionalizer:pynondim
