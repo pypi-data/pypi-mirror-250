@@ -1,0 +1,14 @@
+cgapi/__init__.py,sha256=60dnEymC_HNDq0NbwHpYEk-xTMzUB_8lbNuXYxIVrfQ,61
+cgapi/api.py,sha256=RNl9xdpI54nd4FcjlPpZMVikIxdpCkbNOT8h0urdB9M,89993
+cgapi/utils.py,sha256=8jQwGp7tlXmEQBPruRdb6lJrqtaaPMenBALHhrwGXME,792
+coingeckoapi/__init__.py,sha256=60dnEymC_HNDq0NbwHpYEk-xTMzUB_8lbNuXYxIVrfQ,61
+coingeckoapi/api.py,sha256=RNl9xdpI54nd4FcjlPpZMVikIxdpCkbNOT8h0urdB9M,89993
+coingeckoapi/utils.py,sha256=8jQwGp7tlXmEQBPruRdb6lJrqtaaPMenBALHhrwGXME,792
+pycgapi/__init__.py,sha256=60dnEymC_HNDq0NbwHpYEk-xTMzUB_8lbNuXYxIVrfQ,61
+pycgapi/api.py,sha256=RNl9xdpI54nd4FcjlPpZMVikIxdpCkbNOT8h0urdB9M,89993
+pycgapi/utils.py,sha256=8jQwGp7tlXmEQBPruRdb6lJrqtaaPMenBALHhrwGXME,792
+pycgapi-0.1.0.dist-info/LICENSE,sha256=iXbOJJWpDxYwMQXGKs9jN2nJ-rqP5RVVEHL91o91Gzs,1090
+pycgapi-0.1.0.dist-info/METADATA,sha256=Ma8mIFoV692vvUrhIR5qEyUYsZr4SZx_gsvoTTpKUhE,22992
+pycgapi-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pycgapi-0.1.0.dist-info/top_level.txt,sha256=xdgCYRQjIgBU3uOL_rRY0lwP_XpelDZW8Tx2Q7hdoPM,8
+pycgapi-0.1.0.dist-info/RECORD,,
