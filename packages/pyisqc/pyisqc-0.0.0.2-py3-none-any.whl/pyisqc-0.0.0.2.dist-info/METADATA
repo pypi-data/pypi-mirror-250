@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyisqc
+Version: 0.0.0.2
+Summary: python caller on isqc
+Home-page: https://www.arclightquantum.com/
+License: LICENSE.md
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
