@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+plottergeist/__init__.py
+plottergeist/fig_creator.py
+plottergeist/histogram.py
+plottergeist/residuals.py
+plottergeist/style.py
+plottergeist.egg-info/PKG-INFO
+plottergeist.egg-info/SOURCES.txt
+plottergeist.egg-info/dependency_links.txt
+plottergeist.egg-info/requires.txt
+plottergeist.egg-info/top_level.txt
+test/test_colors.py
+test/test_histogram.py
+test/test_plot_1D.py
+test/test_plot_3D.py
