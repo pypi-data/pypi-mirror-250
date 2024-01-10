@@ -1,0 +1,7 @@
+numpy
+
+[extras]
+cdms2
+cdutil
+iris
+xarray
