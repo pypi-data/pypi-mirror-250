@@ -1,0 +1,15 @@
+v3io_frames/__init__.py,sha256=rEEh4h6X2uR13f3lhlsCMCMuNYHsAlD-0JAZ8E_iQRU,5703
+v3io_frames/client.py,sha256=C1A2yWLILeDiN1iYUA7JMN34wtzE45f4PPNf9q5-IaI,19618
+v3io_frames/dtypes.py,sha256=oNs2RuD8YTuXk6-IOW94N-xeFvueFdDhCy2ylv0QOF0,1804
+v3io_frames/errors.py,sha256=XbB5XJ1r4-EqxZJetqvAu6WvzV-2MZ-IPiygW9mYnE8,1367
+v3io_frames/frames_pb2.py,sha256=needvRceTC4dum-8iC5iEH1fr5moi4R68_VOFQASSpM,81779
+v3io_frames/frames_pb2_grpc.py,sha256=jLv8VHTibesUOZWJG_L0Hpfri9SY1VRLRr4G5iCGeEI,5668
+v3io_frames/grpc.py,sha256=7ACgZy43WGICZ8IpOsu4myiFovF2hnmOhvJRrxhNyN8,12166
+v3io_frames/http.py,sha256=7sFz254BlAOkye7wzVc6oRe--G0jlrVwecIY2K7EAIc,10892
+v3io_frames/pbutils.py,sha256=AESuxqTmkWRD4bQdqWTkZ_lptCQhwxgEgkVMW-OK-VE,13432
+v3io_frames/pdutils.py,sha256=Iab7UaBOMEikYb6Fm-P_j-9fadWvn6_qKga6sCkfgeE,3414
+v3io_frames-0.10.10.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+v3io_frames-0.10.10.dist-info/METADATA,sha256=zc6IYvDIWdA44ExvvTFJgkwx-9er44Zq9RyScGak8OU,2159
+v3io_frames-0.10.10.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+v3io_frames-0.10.10.dist-info/top_level.txt,sha256=jBR_kmHau0HzQycIU6LEcimgzUhGXqw0EApM2ayJEkw,12
+v3io_frames-0.10.10.dist-info/RECORD,,
