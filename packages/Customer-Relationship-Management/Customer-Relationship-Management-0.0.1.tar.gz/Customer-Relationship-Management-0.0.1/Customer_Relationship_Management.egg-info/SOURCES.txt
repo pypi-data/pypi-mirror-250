@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Customer-Relationship-Management/__init__.py
+Customer_Relationship_Management.egg-info/PKG-INFO
+Customer_Relationship_Management.egg-info/SOURCES.txt
+Customer_Relationship_Management.egg-info/dependency_links.txt
+Customer_Relationship_Management.egg-info/top_level.txt
