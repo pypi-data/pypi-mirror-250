@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: videojitter
+Version: 1.0.1
+Summary: Tools for physical measurement of video frame presentation timing
+Author-email: Etienne Dechamps <etienne@edechamps.fr>
+Project-URL: Homepage, https://github.com/dechamps/videojitter
+Project-URL: Issues, https://github.com/dechamps/videojitter/issues
+Keywords: video
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: altair==5.1.2
+Requires-Dist: attrs==23.1.0
+Requires-Dist: cffi==1.16.0
+Requires-Dist: ffmpeg-python==0.2.0
+Requires-Dist: future==0.18.3
+Requires-Dist: jinja2==3.1.2
+Requires-Dist: jsonschema==4.19.2
+Requires-Dist: jsonschema-specifications==2023.7.1
+Requires-Dist: markupsafe==2.1.3
+Requires-Dist: numpy==1.26.2
+Requires-Dist: packaging==23.2
+Requires-Dist: pandas==2.1.3
+Requires-Dist: pycparser==2.21
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: pytz==2023.3.post1
+Requires-Dist: referencing==0.30.2
+Requires-Dist: rpds-py==0.12.0
+Requires-Dist: scipy==1.11.3
+Requires-Dist: six==1.16.0
+Requires-Dist: soundfile==0.12.1
+Requires-Dist: toolz==0.12.0
+Requires-Dist: tzdata==2023.3
+
+# videojitter - the video cadence measurement toolbox
+
+_"You don't have to trust your eyes anymore"_
+
+videojitter is a set of command line tools for **accurate measurement of frame
+presentation timing in a video playback system**. It can be used to detect and
+quantify issues such as:
+
+- **Frames being displayed too early or too late**
+- **Dropped frames**
+- **Repeated frames**
+- **Periodic patterns** such as 3:2 "24p@60Hz"
+- **Sudden changes** in presentation cadence
+- Video **clock jitter**
+- Video **clock skew**
+- etc.
+
+For more information and detailed documentation, see the [project homepage][].
+
+[project homepage]: https://github.com/dechamps/videojitter

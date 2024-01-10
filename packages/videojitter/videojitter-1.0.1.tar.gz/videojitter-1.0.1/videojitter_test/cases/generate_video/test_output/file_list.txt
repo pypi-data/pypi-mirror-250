@@ -1,0 +1,6 @@
+spec.json
+video.mp4
+videojitter-generate-spec.stderr
+videojitter-generate-spec.stdout
+videojitter-generate-video.stderr
+videojitter-generate-video.stdout

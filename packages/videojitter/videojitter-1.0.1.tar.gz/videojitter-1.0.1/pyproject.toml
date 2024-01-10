@@ -1,0 +1,68 @@
+[project]
+name = "videojitter"
+authors = [{name = "Etienne Dechamps", email = "etienne@edechamps.fr"}]
+description = "Tools for physical measurement of video frame presentation timing"
+readme = "pyproject-readme.md"
+keywords = ["video"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Video",
+]
+dynamic = ["dependencies", "version"]
+# scipy 1.11.3 requires at least Python 3.9
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/dechamps/videojitter"
+Issues = "https://github.com/dechamps/videojitter/issues"
+
+[build-system]
+requires = [
+    "packaging==23.2",
+    "setuptools==68.2.2",
+    "setuptools-scm==8.0.4",
+    "typing_extensions==4.8.0",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+# Use pinned dependencies for the package itself as the package is intended to be used
+# as an application in a dedicated venv. This ensures users end up running the package
+# with the exact same set of dependencies the code was developed and tested with.
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools_scm]
+version_file = "src/videojitter/_version_generated.py"
+
+[project.scripts]
+videojitter-analyze-recording = "videojitter.analyze_recording:main"
+videojitter-generate-fake-recording = "videojitter.generate_fake_recording:main"
+videojitter-generate-report = "videojitter.generate_report:main"
+videojitter-generate-spec = "videojitter.generate_spec:main"
+videojitter-generate-video = "videojitter.generate_video:main"
+
+[tool.pip-tools]
+# We could use generate-hashes here, but sadly we can't, because that would make the
+# resulting requirements.txt non-compliant with PEP 508, making it unusable for use in
+# dynamic `dependencies`. See also:
+#  https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#dynamic-metadata
+strip-extras = true
+
+[tool.black]
+force-exclude = 'src/si_prefix/|.+\.ipynb'
+preview = true  # For long string line breaks
+
+[tool.pylint.main]
+ignore-paths = ["src/si_prefix", "src/videojitter/_version_generated.py"]
+disable = [
+    "duplicate-code",
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "fixme",
+    "too-many-arguments",
+    "too-many-locals",
+    "too-few-public-methods",
+]
