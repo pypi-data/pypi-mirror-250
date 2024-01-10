@@ -1,0 +1,16 @@
+demommath/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demommath/addsub/__init__.py,sha256=R6tTlK8p9APWQvrZqqYcBpG7nGdPrto3oUKavkSwooE,51
+demommath/addsub/addas.py,sha256=zM70WZ4MmDJZF5q6TQP8V7jmgebgRF85HaFmRA8p1UM,101
+demommath/factorials/__init__.py,sha256=bkx183R03gB7lehwu-qKl1GpNTv2v5dX4QYuMIjF9EM,28
+demommath/factorials/fact.py,sha256=4EDTej8SHO2O1Nxmcq_0wk5mcDtQ6CrpzbEKL-C5524,236
+demommath/multidiv/__init__.py,sha256=4w1Y9ME2F7Ejki3FFIjijxQzijz0FjGbDX_ATkzMZnk,47
+demommath/multidiv/md.py,sha256=6NlwRUEkwrBnP5uIiyAtNAf_GBcgukZheR0j5j0BELQ,137
+demommath/odd_even/__init__.py,sha256=a5j7iXLlnf316tlq5dNt-d2aUnSBQkLgZg9SWGP1eaI,32
+demommath/odd_even/evod.py,sha256=HZB_vwC-nRC23Ktt93n5h6NTvAicdJHmlthWqhYeoHU,105
+demommath/prime_num/__init__.py,sha256=6MtBEqsU0yZxyFUBc4VkCacOQhcRtUu55nsY2-ntg_w,30
+demommath/prime_num/prime_no.py,sha256=obd2lgW8FZ3yf1Ot84v9qxLA2FZcYSZJHaci3ZUcFKw,341
+demommath-0.1.2.dist-info/METADATA,sha256=IbEvoPsar3iOdPvZ1KXl9PLPval4LtQ0t6uIpb-O4TI,314
+demommath-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+demommath-0.1.2.dist-info/entry_points.txt,sha256=Lg7YOTVLoYVKfLUcu6j-dX6tiGrIrCsMoLvaUs8OIn8,73
+demommath-0.1.2.dist-info/top_level.txt,sha256=gqKEGmAu7aCtOolngELGU4EQhiC3-QlqJxtzphmsLL0,10
+demommath-0.1.2.dist-info/RECORD,,

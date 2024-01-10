@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: demommath
+Version: 0.1.2
+Summary: This package is for testing And How to create a package
+Author: Gangesh
+Author-email: gvelip@nio.org
+Requires-Dist: numpy
+Requires-Dist: configparse
+Requires-Dist: struct
+Requires-Dist: os
+Requires-Dist: sys
+Requires-Dist: time
+Requires-Dist: netCDF4
+
