@@ -1,0 +1,11 @@
+borasem_waste/__init__.py,sha256=4w927VcakqGIv8Xe9KaeHE3ASNCgByjxr5uOSh_7uOg,584
+borasem_waste/auth.py,sha256=_Y4kwy_TKlx1fa_u1xT_P4QcK7o_mZvHH2Mua1Euuhs,665
+borasem_waste/borasem.py,sha256=-sk4mwmYnPCc3cHYdqV79Kn40RKQYYEICBKqTOUvjuY,1564
+borasem_waste/borasem_const.py,sha256=fWBCYUzkOqSr7bKlynDH-Y6LT-SRBTP-Q1_dS_bmaAc,274
+borasem_waste/pyproject.toml,sha256=aA4AX7eKH8DdEzKAqyuWlaF-h2jxaAJjpgZUbUYYSY0,6358
+borasem_waste/wastepickup.py,sha256=y2w121U8YdwzZO8ZcTtT08qkzNnIdzNfiiqdCcd-Gcs,1431
+borasem_waste-0.0.15.dist-info/LICENSE.txt,sha256=7aPP7VvNlsxY7hPslQtpDz7I0lyU4ciYLzK7UuwR0aI,1081
+borasem_waste-0.0.15.dist-info/METADATA,sha256=4dL5wHn8eMhHRCcXbzoSscBUNJBCP7117P_HY73jdaU,3519
+borasem_waste-0.0.15.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+borasem_waste-0.0.15.dist-info/top_level.txt,sha256=lMv_WibnBJPmKgLr3oO2fNYmsymLSKZvpm_2Fb5U-GY,14
+borasem_waste-0.0.15.dist-info/RECORD,,
