@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+gatewayd/__init__.py
+gatewayd.egg-info/PKG-INFO
+gatewayd.egg-info/SOURCES.txt
+gatewayd.egg-info/dependency_links.txt
+gatewayd.egg-info/top_level.txt
