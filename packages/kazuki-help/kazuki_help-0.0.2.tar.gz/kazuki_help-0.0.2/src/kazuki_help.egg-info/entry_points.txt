@@ -1,0 +1,2 @@
+[console_scripts]
+kazuki_help = kazuki:main
