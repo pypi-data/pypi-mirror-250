@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: qastutil
+Version: 0.32
+Summary: Some quick astronomical utility functions.
+Home-page: https://gitee.com/drjiezheng/qastutil
+Author: Dr Jie Zheng
+Author-email: jiezheng@nao.cas.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires: numpy
+Requires: datetime
+Description-Content-Type: text/markdown
+
+# qastutil
+
+> Author: Dr Jie Zheng
+> v1.0 2023R
+
+## Introduction
+
+Some quick astronomical functions.
+
+## Functions
+
+- `dec2dms`: transfer decimal to sexagesimal deg-min-sec, for Dec
+- `dec2hms`: transfer decimal to sexagesimal hour-min-sec, for RA
+- `dms2dec`: transfer sexagesimal deg-min-sec to decimal, for Dec
+- `hms2dec`: transfer sexagesimal hour-min-sec to decimal, for RA
+- `coorddec2dms`: transfer astropy.coord.dec to deg-min-sec
+- `coordra2hms`: transfer astropy.coord.ra to hour-min-sec
+- `hour2str`: transfer decimal hour to hour-min-sec
+- `hourangle`: computer hour angle between lst and ra
+- `angle_dis`: distance between two angles, result between -180 and +180
+- `distance`: distance between two sphere points
+- `azalt`: az & alt for object (ra, dec) at lat, lst
+- `mjd`: from y, m, d, h, s, s, tz to mjd
+- `day_of_year`: day serial number in given year
+- `fmst`: fast midnight sidereal time
+- `mjd2`: from y, m, d, h, s, s, tz to mjd
+- `night_len`: n of hours from sunset to sunrise
+- `night_time`: sunset and sunrise for given yr, mn, dy, lon, lat, tz
+- `mjd_of_night`: get 4-digit mjd code for the site, using local 18:00
+- `mjd2hour`: Extract hour part from mjd
+- `sun_action`: Get time of sun pass specified altitude, in this night
+- `airmass`: airmass from lat, lst, ra, dec
+- `lst`: get local sidereal time for longitude at mjd, no astropy
+- `sun_pos`: sun position of given mjd
+- `moon_pos`: moon position of given mjd
+- `moon_phase`: moon phase of given mjd, by sun-earth-moon angle
+- `moon_phase2`: moon phase by moon cycle
+
+
