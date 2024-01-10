@@ -1,0 +1,6 @@
+lxml
+GitPython
+
+[test]
+pytest
+requests
