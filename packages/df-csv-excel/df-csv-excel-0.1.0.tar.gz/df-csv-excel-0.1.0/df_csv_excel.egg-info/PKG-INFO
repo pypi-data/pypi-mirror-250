@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: df-csv-excel
+Version: 0.1.0
+Summary: Commonly used functions for Data Scientists
+Home-page: https://github.com/cheerzhang/read_csv_excel
+Author: ZhangLe
+Author-email: zhangle@gmail.com
+Project-URL: Bug Tracker, https://github.com/cheerzhang/read_csv_excel/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=0.25.1
+Requires-Dist: numpy>=1.21.5
+
+# read_csv_excel
+pypi project to process data
