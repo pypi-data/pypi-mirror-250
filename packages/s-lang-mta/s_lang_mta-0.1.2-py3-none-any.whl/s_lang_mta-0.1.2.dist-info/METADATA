@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: s-lang-mta
+Version: 0.1.2
+Summary: S lang interpreter
+Author: Tal Alon
+Author-email: talalon369@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# s-lang
+s-lang interpreter
+
+Basic usage:
+```python
+from s_lang import run
+
+
+def main() -> None:
+    inputs = [5]
+    code = """
+Z <- Z + 1
+[A] IF X != 0 GOTO B
+IF Z != 0 GOTO E
+[B] Y <- Y + 1
+X <- X - 1
+IF Z != 0 GOTO A
+"""
+
+    result: int = run(code, inputs)
+    print(result) 
+
+
+if __name__ == "__main__":
+    main()
+
+```
+
