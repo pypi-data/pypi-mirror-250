@@ -1,0 +1,7 @@
+README.md
+setup.py
+qmi_configs/__init__.py
+qmi_configs.egg-info/PKG-INFO
+qmi_configs.egg-info/SOURCES.txt
+qmi_configs.egg-info/dependency_links.txt
+qmi_configs.egg-info/top_level.txt
