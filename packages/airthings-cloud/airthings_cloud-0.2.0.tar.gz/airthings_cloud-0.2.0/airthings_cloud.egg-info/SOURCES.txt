@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+airthings/__init__.py
+airthings_cloud.egg-info/PKG-INFO
+airthings_cloud.egg-info/SOURCES.txt
+airthings_cloud.egg-info/dependency_links.txt
+airthings_cloud.egg-info/requires.txt
+airthings_cloud.egg-info/top_level.txt
