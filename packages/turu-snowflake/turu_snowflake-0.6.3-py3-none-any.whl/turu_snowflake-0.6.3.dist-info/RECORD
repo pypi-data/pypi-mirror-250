@@ -1,0 +1,8 @@
+turu/snowflake/__init__.py,sha256=lYnJZzmywTesn2MCdjq9gGHbsM2vAXcnk6b_IaefrCU,655
+turu/snowflake/async_connection.py,sha256=eKnxloKWwnNv2-dQM9Spk7WRiYrSsvbY2ZbSwQZNNWQ,3917
+turu/snowflake/async_cursor.py,sha256=4vxeU6a_-_QTwSQutMbGG1fm0zpros15iDd8ro458SY,7343
+turu/snowflake/connection.py,sha256=mkxS9fWNNWyCN1I25zihZFVQn_JNb2QTww-D93bTudM,4040
+turu/snowflake/cursor.py,sha256=ET3XIwPirONIffq4y8_gnZSJMvdp_8xokNqJ08KlmLM,6833
+turu_snowflake-0.6.3.dist-info/METADATA,sha256=eZkqXthMG07MiP4mLC9BeYx106hEgyImb5m1L3x4gB0,1457
+turu_snowflake-0.6.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+turu_snowflake-0.6.3.dist-info/RECORD,,
