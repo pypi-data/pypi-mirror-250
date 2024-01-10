@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "AsyncPayments"
+version = "1.3.0"
+dependencies = [
+    "aiohttp"
+]
+requires-python = ">= 3.9"
+authors = [
+  { name = "ToSa" },
+]
+maintainers = [
+  { name = "ToSa" }
+]
+description = "Add payment acceptance to your projects."
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = [
+    "async",
+    "payments",
+    "aaio",
+    "crypto bot",
+    "crystal pay",
+    "async payments",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Natural Language :: Russian",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Utilities"
+]
+[project.urls]
+Homepage = "https://github.com/I-ToSa-I/AsyncPayments"
+Repository = "https://github.com/I-ToSa-I/AsyncPayments"
+Issues = "https://github.com/I-ToSa-I/AsyncPayments/issues"
