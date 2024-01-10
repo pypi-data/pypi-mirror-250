@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: package-utils
+Version: 0.1.1
+Summary: Template for Python package published on PyPI
+Author-email: Quinten Roets <qdr2104@columbia.edu>
+License: MIT
+Project-URL: Source Code, https://github.com/quintenroets/package-utils
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer>=0.9
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: hypothesis; extra == "dev"
+Requires-Dist: package-dev-tools>=0.2; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-mypy-plugins; extra == "dev"
+
+# Package Utils
+[![PyPI version](https://badge.fury.io/py/package-utils.svg)](https://badge.fury.io/py/package-utils)
+![Coverage](https://img.shields.io/badge/Coverage-100%25-brightgreen)
+
+## Usage
+see examples in [tests](https://github.com/quintenroets/package-utils/tree/main/tests)
+
+## Installation
+```shell
+pip install package-utils
+```
+make sure to use Python 3.10+
