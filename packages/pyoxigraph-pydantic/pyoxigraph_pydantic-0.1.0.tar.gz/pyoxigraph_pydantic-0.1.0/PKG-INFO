@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyoxigraph-pydantic
+Version: 0.1.0
+Summary: ORM data models, schemas, and vocabularies for pyoxigraph
+Home-page: https://github.com/p2p-ld/pyoxigraph-pydantic
+License: GPL-3.0
+Author: sneakers-the-rat
+Author-email: sneakers-the-rat@protonmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.5.3,<3.0.0)
+Requires-Dist: pyoxigraph (>=0.3.22,<0.4.0)
+Project-URL: Repository, https://github.com/p2p-ld/pyoxigraph-pydantic
+Description-Content-Type: text/markdown
+
+# pyoxigraph-pydantic
+ORM data models, schemas, and vocabularies for pyoxigraph
+
