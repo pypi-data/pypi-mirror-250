@@ -1,0 +1,16 @@
+pylammpstrj.cpython-310-x86_64-linux-gnu.so,sha256=jA1NMpul2qo4V7tP7SB0r4iE5fOCCFV2kDfH5T5jDGg,143624
+pylammpstrj-1.0.2a0.dist-info/RECORD,,
+pylammpstrj-1.0.2a0.dist-info/top_level.txt,sha256=w2TkFWKrtqJQEnHSv0273PO7M-4v6vlvDE3MNHHuuh4,12
+pylammpstrj-1.0.2a0.dist-info/WHEEL,sha256=1FEjxEYgybphwh9S0FO9IcZ0B-NIeM2ko8OzhFZeOeQ,152
+pylammpstrj-1.0.2a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pylammpstrj-1.0.2a0.dist-info/METADATA,sha256=IvaiX4nhmPbUiL9eN5T6tPeP7bTIRRUQTpf8S-0W1Ik,42810
+pylammpstrj/pylammpstrjmodule.c,sha256=Ajln0Ia52nbTigdmEczsyn4qpJ7S0SPDUk2WDNqTmS0,21004
+pylammpstrj/include/pylammpstrjmodule.h,sha256=XDTSAI2VNbfeDNQDokujyQ29dTvG0qSoP9HnCRb8mOM,422
+pylammpstrj/include/utils.h,sha256=Z_-biJ9SyuQkfr9TB3KNtl5B6VlTk2ofsaF0JBdqeeQ,5160
+pylammpstrj/lammpstrj/read.c,sha256=3Rvsn18lKSJFRaXr4PlEHLGrLGr0GR5Yl3KaEWrmXpk,11379
+pylammpstrj/lammpstrj/box.c,sha256=AQyEXgAotwl7J9c_of3W53fnESSEucErNmaWASX4jh0,567
+pylammpstrj/lammpstrj/atom.c,sha256=NnYPFyK0148TjhjuTFiclu-W0NwOTo5Ye1RsdsCxgMo,11644
+pylammpstrj/lammpstrj/skip.c,sha256=YwwMejcGBLKe89lYHWc3izaGPM4Jp0oyHxY9eM7Tgq4,1655
+pylammpstrj/lammpstrj/select.c,sha256=DLqy5Jt3frEgTjG1-9KXoTGZ5dD-6nuzSLXfv8__lTs,10580
+pylammpstrj/lammpstrj/trajectory.c,sha256=H09UPh4xxuWFwoIh5r7TRW4TTYWgZ3cRWZqTYTcHe5M,1445
+pylammpstrj/lammpstrj/average.c,sha256=m-zxexWYIhJuxcc2VjqZ76l8aBVNNKnwTpfXM6MySk8,2470
