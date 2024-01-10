@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "momotor-engine-options"
+authors = [
+    { name = "Erik Scheffers", email = "e.t.j.scheffers@tue.nl" }
+]
+description = "Momotor Engine Options Library"
+requires-python = ">=3.9"
+dynamic = ["version", "readme"]
+license = { text="GNU Lesser General Public License v3 (LGPLv3)" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only"
+]
+dependencies = [
+    'momotor-bundles~=8.0rc',
+    "typing-extensions; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+test = [
+    'pytest~=7.4',
+    'pytest-cov',
+    'pytest-doctestplus'
+]
+docs = [
+    'docutils',
+    'Sphinx',
+    'sphinx-autodoc-typehints!=1.14.0',
+    'furo',
+]
+dev = [
+    'setuptools',
+    'build[virtualenv]',
+    'docutils-stubs',
+    'python-semantic-release~=8.0',
+    'twine'
+]
+
+[project.urls]
+Homepage = "https://momotor.org"
+Documentation = "https://momotor.org/doc/engine/momotor-engine-options/"
+Repository = "https://gitlab.tue.nl/momotor/engine-py3/momotor-engine-options/"
+Tracker = 'https://gitlab.tue.nl/momotor/engine-py3/momotor-engine-options/issues'
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["momotor.*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "momotor.options.version.__VERSION__" }
+readme = { file = ["README.md"], content-type = "text/markdown" }
+
+[tool.pytest.ini_options]
+required_plugins = ["pytest-doctestplus"]
+norecursedirs = [".git", "files"]
+pythonpath = "src"
+addopts = "--cov=src --doctest-plus --doctest-rst --doctest-modules -p no:django"
+xfail_strict = true
+
+[tool.semantic_release]
+version_variables = ["src/momotor/options/version.py:__VERSION__"]
+commit_message = 'chore: bump version number'
+build_command = "python -m build --outdir ."
+
+[tool.semantic_release.release]
+upload_to_vcs_release = false
+
+[tool.semantic_release.remote]
+type = "gitlab"
+token = { env = "GL_TOKEN" }
+
+[tool.semantic_release.branches.master]
+match = "master"
+prerelease = false
+
+[tool.semantic_release.branches.other]
+match = ".*"
+prerelease = true
+prerelease-token = "rc"
