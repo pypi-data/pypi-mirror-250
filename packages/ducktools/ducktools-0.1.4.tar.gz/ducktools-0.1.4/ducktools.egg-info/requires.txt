@@ -1,0 +1,3 @@
+ducktools-lazyimporter
+ducktools-jsonkit
+ducktools-scriptmetadata
