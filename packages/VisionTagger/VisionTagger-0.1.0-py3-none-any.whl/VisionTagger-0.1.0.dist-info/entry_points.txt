@@ -1,0 +1,2 @@
+[console_scripts]
+visiontagger = vision_tagger.main:main
