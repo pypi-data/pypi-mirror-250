@@ -1,0 +1,2 @@
+[console_scripts]
+ssl-tunnel = ssl_tunnel.main:main
