@@ -1,0 +1,11 @@
+numpy
+scipy
+scikit-learn>=1.1
+pandas
+seaborn
+
+[:python_version < "3.9"]
+matplotlib<3.8
+
+[:python_version >= "3.9"]
+matplotlib>=3.8
