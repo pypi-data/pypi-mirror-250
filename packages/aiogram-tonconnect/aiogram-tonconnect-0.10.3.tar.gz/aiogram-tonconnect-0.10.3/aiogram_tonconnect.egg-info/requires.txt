@@ -1,0 +1,8 @@
+aiofiles
+aiogram
+aiohttp
+cachetools
+pydantic
+pytonconnect
+pytoniq-core
+redis
