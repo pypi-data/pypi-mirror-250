@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fopl
+Version: 0.0.2
+Summary: Application example showing Internazionale football players using tkinter and cURL
+Author: Martina Baiardi
+Author-email: m.baiardi@unibo.it
+License: Apache 2.0 License
+Platform: Independant
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+
