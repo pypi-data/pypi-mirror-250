@@ -1,0 +1,13 @@
+propertime/__init__.py,sha256=bRUaXbLMfds9H-rtSdvj8_0pHPWGYZFTkDdb9UGuyjI,32
+propertime/exceptions.py,sha256=L3_DEyzpv8Y0OZhdfQDMq3aaAOVc65BdgLaAUAKjvkY,155
+propertime/logger.py,sha256=Xe8S8ZVLnoeLmztRkLt1QGX4-3LpJEwPOjQPMyAXQPU,1934
+propertime/time.py,sha256=Y2-exJpHzsa-s1fsst1yBNQHKPDfBuRtDBBH525fZoE,35920
+propertime/utilities.py,sha256=uSka-PuldtPeZ0n0BtNA9sfiMPHpZjQEf7IPXD4cnWg,10844
+propertime/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+propertime/tests/test_time.py,sha256=3Z0NuVlpXgjDsgcVZzJ5MFowhhKhxc8TCCJwU9H2Ojc,34575
+propertime/tests/test_utilities.py,sha256=j4UsvTuaWnXiWMqE9kssQqzKzkeKpj3Bpw8e_zSZSLw,9205
+propertime-0.2.2.dist-info/LICENSE,sha256=xllut76FgcGL5zbIRvuRc7aezPbvlMUTWJPsVr2Sugg,11358
+propertime-0.2.2.dist-info/METADATA,sha256=C0QB1K7nQbw9pyGBzKkg3wQmvBzBL-HkxvpaTaxS1Nk,1272
+propertime-0.2.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+propertime-0.2.2.dist-info/top_level.txt,sha256=g_-aHlT2_dfovj_ZdqzG-QXm6yvXjEZgzbFfVGsrgWE,11
+propertime-0.2.2.dist-info/RECORD,,
