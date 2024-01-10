@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+genebe/__init__.py
+genebe/client.py
+genebe/entrypoint.py
+genebe/gbid.py
+genebe/json_simple_annotator.py
+genebe/vcf_simple_annotator.py
+genebe/version.py
+genebe.egg-info/PKG-INFO
+genebe.egg-info/SOURCES.txt
+genebe.egg-info/dependency_links.txt
+genebe.egg-info/entry_points.txt
+genebe.egg-info/requires.txt
+genebe.egg-info/top_level.txt
