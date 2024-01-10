@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cacheline"
+version = "0.0.2.dev9"
+description = ""
+authors = ["cache-missing <cache@cache-miss.tech>"]
+readme = "README.md"
+packages = [{ include = "cacheline", from = "src" }]
+include = ["src/cacheline/*.so"]
+build = "build.py"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+colorlog = "6.7.0"
+better-exceptions = "^0.3.3"
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint]
+max-line-length = 120
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+
+[build-system]
+requires = ["poetry-core", "pybind11", "cmake", "pytest", "toml"]
+build-backend = "poetry.core.masonry.api"
