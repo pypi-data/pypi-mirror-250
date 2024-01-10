@@ -1,0 +1,2 @@
+[console_scripts]
+cleanbug = src.main:main
