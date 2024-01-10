@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyalb"
+dynamic = ["version"]
+description = "A simple application load balancer"
+authors = [{ name = "Aryan Sharma", email = "aryansharma.work101@gmail.com" }]
+dependencies = ["importlib_metadata", "Flask==3.0.0", "requests==2.31.0"]
+requires-python = ">=3.8"
+keywords = [
+	"python", "load balancer", "flask", "round robbin", "random selection", "strategy", "pyalb", "load balancer cli", "circleci"
+]
+classifiers = [
+	"Development Status :: 2 - Pre-Alpha",
+	"License :: OSI Approved :: MIT License",
+	"Framework :: Flask",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3.10",
+	"Intended Audience :: Developers",
+	"Topic :: Software Development",
+	"Topic :: Software Development :: Libraries",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.license]
+file = "LICENSE"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.scripts]
+pyalb = "pyalb.main:main"
+
+[project.urls]
+Homepage = "https://github.com/AryanSharma5/pyalb"
+Issues = "https://github.com/AryanSharma5/pyalb/issues"
+
+[tool.setuptools]
+zip-safe = false
+include-package-data = true
+license-files = ["LICENSE"]
+
+[tool.setuptools.packages]
+find = {namespaces = false}
+
+[tool.setuptools.dynamic]
+version = {attr = "pyalb.__version__"}
