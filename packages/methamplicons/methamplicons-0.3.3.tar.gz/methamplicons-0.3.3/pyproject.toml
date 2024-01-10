@@ -1,0 +1,26 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "methamplicons"
+author = "Brett Liddell, Olga Kondrashova"
+author-email = "brett.liddell@qimrberghofer.edu.au, olga.kondrashova@qimrberghofer.edu.au"
+home-page = "https://github.com/molonc-lab/MethAmplicons2" 
+description-file = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "License :: OSI Approved :: MIT License"
+]
+requires = [
+    "pandas ==1.1.5",
+    "numpy",
+    "pillow >=8.3.2",
+    "matplotlib >=3.3.1",
+    "seaborn >=0.11.1"
+]
+requires-python = ">=3.6"
+
+[tool.flit.scripts]
+methamplicons = "methamplicons.main:main"
+
