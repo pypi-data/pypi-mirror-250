@@ -1,0 +1,12 @@
+methamplicons/__init__.py,sha256=qnQ7gEIGHzM5Yru6RegT4zuMN2Ba6CWGsi9GrFaVMbE,97
+methamplicons/extract_data.py,sha256=ngi20mvdsXXerCxeLn8rC_lWS3-dgvUzpE1Byh13pCk,11332
+methamplicons/extract_meth.py,sha256=ukBzKYKx4AlkxduMhX_U35G1Us67CPFRJDdi-EoJQQQ,12591
+methamplicons/flash,sha256=-Mc-vMu1ARt_p2D0U9Ph6Y0gAHV1s2Aqeon_rmaqmXc,222022
+methamplicons/linux_flash,sha256=QsDkyaFUHbq9G39Ln0-voycx5yP3D_pGdBoqM06hekI,71276
+methamplicons/main.py,sha256=IjK_e0H-RJW4GzSX2eUWMOUz2YvLeXNvEd2-XsfuElc,25669
+methamplicons/plotter.py,sha256=7oNcKw1TyOcF7mV08L7wfENWyZ-oQm-wLqjOOuMp4iI,14970
+methamplicons-0.3.3.dist-info/entry_points.txt,sha256=fBgva_QBP4gsdAS5GXu1riCu1OOxmoWbILcdT9dv_sQ,57
+methamplicons-0.3.3.dist-info/LICENSE,sha256=V-fd3uv6_yjepgWjkTVPunDnfTL9KfY0Gt-ZFeTSOvs,1098
+methamplicons-0.3.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+methamplicons-0.3.3.dist-info/METADATA,sha256=DTd6X2Ql9zB9mev1ensLsXbfoCeasjr4HWLGGmxj2Q4,10383
+methamplicons-0.3.3.dist-info/RECORD,,
