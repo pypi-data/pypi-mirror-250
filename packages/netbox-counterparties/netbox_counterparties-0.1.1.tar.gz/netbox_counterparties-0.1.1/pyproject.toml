@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "netbox-counterparties"
+version = "0.1.1"
+description = ""
+authors = ["izakharov <ilya.zakharov@domrf.ru>"]
+readme = "README.md"
+packages = [{include = "netbox_counterparties"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
