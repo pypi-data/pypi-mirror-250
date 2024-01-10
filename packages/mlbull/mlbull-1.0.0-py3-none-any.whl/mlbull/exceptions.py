@@ -1,0 +1,2 @@
+class NotValidPackageException(Exception):
+    pass
