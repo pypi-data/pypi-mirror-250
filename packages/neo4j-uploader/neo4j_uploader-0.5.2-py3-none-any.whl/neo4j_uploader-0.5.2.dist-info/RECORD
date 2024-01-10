@@ -1,0 +1,12 @@
+neo4j_uploader/__init__.py,sha256=PCR9H7mbjq9XlMVvwhcgJPR9SzTYKJjX2pO-Eqd07WM,9030
+neo4j_uploader/_conversions.py,sha256=21kuLGNpoOP97O4CBzvyBu_ZNFjUz2dI2ErAKHBUv-k,1873
+neo4j_uploader/_logger.py,sha256=RoRpgbZc12-JTP2inwPM6Hcc4ifXgeQQYz6XirV7KA4,2017
+neo4j_uploader/_n4j.py,sha256=xK4hkjgDwdxkJI06uXaAkY61u9iSj14U_docdOrKqlk,2507
+neo4j_uploader/_queries.py,sha256=Na_S3DfPVsnKkcXKJXRC5_7-X0opiL24yJzDrAq5Tvg,12364
+neo4j_uploader/_upload_utils.py,sha256=W9y5_ScLVJlyRnW2iZlPcvbdBOwoHZAaB-9HN5Dtsf8,17709
+neo4j_uploader/errors.py,sha256=JAJdbIhXTpZ5r2u57toDFtnaSDI3JsixISVvcRkG2fQ,202
+neo4j_uploader/models.py,sha256=9qSdegVkS0QWwQnhBbNQD9-KC2pBnrDPbtD7aEoNS7A,4240
+neo4j_uploader-0.5.2.dist-info/LICENSE.txt,sha256=FeXSZ3DJKEUQDAhZfrbwh53JND35tBl2hfvFC8nCHkQ,1065
+neo4j_uploader-0.5.2.dist-info/METADATA,sha256=wRV-B4L8vNGRJK3ne83lky5eAPOhMg9b33_3pct2_tQ,2583
+neo4j_uploader-0.5.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+neo4j_uploader-0.5.2.dist-info/RECORD,,
