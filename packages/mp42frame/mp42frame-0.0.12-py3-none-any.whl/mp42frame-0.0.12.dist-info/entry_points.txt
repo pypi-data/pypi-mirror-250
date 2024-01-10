@@ -1,0 +1,3 @@
+[console_scripts]
+mp42frame = mp42frame:main
+
