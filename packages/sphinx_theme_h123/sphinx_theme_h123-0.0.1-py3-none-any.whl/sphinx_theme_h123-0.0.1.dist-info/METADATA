@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sphinx_theme_h123
+Version: 0.0.1
+Summary: a sphinx theme 
+Author: horyama
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Topic :: Software Development :: Documentation
+Requires-Dist: sphinx >= 4.2
+Requires-Dist: beautifulsoup4
+
+# sphinx-theme-h123
+
+sphinx-theme-h123 is a simple sphinx theme for general use.
+
+
