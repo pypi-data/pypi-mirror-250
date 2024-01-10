@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: mlbull
+Version: 1.0.0
+Summary: 
+License: GPL
+Author: Grzegorz Koperwas
+Author-email: admin@grzegorzkoperwas.site
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.100.0,<0.101.0)
+Requires-Dist: ipython (>=8.14.0,<9.0.0)
+Requires-Dist: nbconvert (>=7.7.2,<8.0.0)
+Requires-Dist: nbformat (>=5.9.1,<6.0.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: python-multipart (>=0.0.6,<0.0.7)
+Requires-Dist: scikit-learn (>=1.3.2,<2.0.0)
+Requires-Dist: streamlit (>=1.29.0,<2.0.0)
+Requires-Dist: uvicorn (>=0.23.1,<0.24.0)
+Description-Content-Type: text/markdown
+
+# MLbull
+
+How to run with makefile:
+
+first install poetry
+
+then run
+```
+make install
+```
+to install all dependencies
+
+then run
+```
+make dev
+```
+to run the server
+
+if the make dave fails because of a missing package, run
+```
+make update-deps
+```
+to install the missing package
+
+
