@@ -1,0 +1,6272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-08 09:44-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\accounts\models.py:50 .\build\lib\accounts\models.py:50
+#, fuzzy
+#| msgid "Enter a valid email address."
+msgid "You must provide an email address."
+msgstr "Introduzca una dirección de correo electrónico válida."
+
+#: .\accounts\models.py:60 .\accounts\models.py:61
+#: .\build\lib\accounts\models.py:60 .\build\lib\accounts\models.py:61
+msgid "email"
+msgstr "email"
+
+#: .\accounts\models.py:62 .\build\lib\accounts\models.py:62
+#, fuzzy
+#| msgid "Username"
+msgid "username"
+msgstr "Usuario"
+
+#: .\accounts\models.py:63 .\build\lib\accounts\models.py:63
+msgid "Full Name"
+msgstr "Nombre"
+
+#: .\accounts\models.py:65 .\build\lib\accounts\models.py:65
+msgid "about"
+msgstr "acerca"
+
+#: .\accounts\models.py:68 .\build\lib\accounts\models.py:68
+msgid "Avatar"
+msgstr ""
+
+#: .\accounts\models.py:71 .\build\lib\accounts\models.py:71
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:92
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:106
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:131
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:146
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:187
+msgid "Country"
+msgstr "Pais"
+
+#: .\accounts\models.py:72 .\build\lib\accounts\models.py:72
+#: .\siteapp\templates\linkzone\cloud\invoice.html:56
+#: .\siteapp\templates\linkzone\costumer\invoice.html:51
+#: .\siteapp\templates\nexus\profile\profile.html:54
+msgid "Address"
+msgstr "Dirección"
+
+#: .\accounts\models.py:73 .\build\lib\accounts\models.py:73
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:91
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:105
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:130
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:145
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:186
+msgid "City"
+msgstr "Cuidad"
+
+#: .\accounts\models.py:78 .\build\lib\accounts\models.py:78
+msgid "Activation"
+msgstr "Activacion"
+
+#: .\accounts\models.py:78 .\build\lib\accounts\models.py:78
+msgid "Control of user status"
+msgstr "Control del estado del usuario"
+
+#: .\accounts\models.py:88 .\build\lib\accounts\models.py:88
+msgid ""
+"If you accept, we will keep you informed of all our promotions and offers."
+msgstr ""
+"Si acepta, le mantendremos informado de todas nuestras promociones y ofertas."
+
+#: .\accounts\views.py:52 .\build\lib\accounts\views.py:52
+msgid "Activate your account"
+msgstr "Activa tu cuenta."
+
+#: .\accounts\views.py:70 .\build\lib\accounts\views.py:70
+#, fuzzy
+#| msgid "Docs Site"
+msgid "New User On Your Site"
+msgstr "Información"
+
+#: .\accounts\views.py:102 .\build\lib\accounts\views.py:102
+msgid "email not available"
+msgstr "¡Correo no disponible!"
+
+#: .\accounts\views.py:104 .\build\lib\accounts\views.py:104
+#, fuzzy
+#| msgid "Please enter a valid email"
+msgid "Invalid email"
+msgstr "Por favor introduzca una dirección de correo electrónico válida"
+
+#: .\accounts\views.py:106 .\build\lib\accounts\views.py:106
+msgid "email available"
+msgstr "Correo disponible"
+
+#: .\accounts\views.py:112 .\build\lib\accounts\views.py:112
+msgid "username not available"
+msgstr "¡Usuario no disponible!"
+
+#: .\accounts\views.py:115 .\build\lib\accounts\views.py:115
+msgid "invalid username only lower case, numbers and (_) accepted"
+msgstr ""
+"Nombre de usuario inválido, solo se aceptan letras minúsculas, números y (_)"
+
+#: .\accounts\views.py:118 .\build\lib\accounts\views.py:118
+msgid "username available"
+msgstr "Usuario disponible"
+
+#: .\accounts\views.py:126 .\build\lib\accounts\views.py:126
+msgid "Password must be at least 8 characters long"
+msgstr "La contraseña debe tener al menos 8 caracteres de longitud."
+
+#: .\accounts\views.py:129 .\build\lib\accounts\views.py:129
+msgid ""
+"Password must contain only alphanumeric and special characters (a-zA-Z0-9*"
+"$_.)"
+msgstr ""
+"La contraseña debe contener solo caracteres alfanuméricos y especiales (a-zA-"
+"Z0-9*$_.)"
+
+#: .\accounts\views.py:132 .\build\lib\accounts\views.py:132
+msgid "Password must contain at least one number"
+msgstr "La contraseña debe contener al menos un número."
+
+#: .\accounts\views.py:135 .\build\lib\accounts\views.py:135
+#, fuzzy
+#| msgid "Password Reset"
+msgid "Password is valid"
+msgstr "Recuperacion de Contraseña"
+
+#: .\accounts\views.py:144 .\build\lib\accounts\views.py:144
+#, fuzzy
+#| msgid "Password Reset"
+msgid "Password dismatch."
+msgstr "Recuperacion de Contraseña"
+
+#: .\accounts\views.py:146 .\build\lib\accounts\views.py:146
+#, fuzzy
+#| msgid "Password"
+msgid "Password match"
+msgstr "Contraseña"
+
+#: .\accounts\views.py:187 .\build\lib\accounts\views.py:187
+msgid "Password Reset"
+msgstr "Recuperacion de Contraseña"
+
+#: .\accounts\views.py:206 .\build\lib\accounts\views.py:206
+msgid "We have sent recovery link."
+msgstr "Hemos enviado un enlace de recuperación."
+
+#: .\accounts\views.py:226 .\build\lib\accounts\views.py:226
+msgid "Your new password has been set."
+msgstr "Su nueva contraseña ha sido establecida."
+
+#: .\accounts\views.py:238 .\build\lib\accounts\views.py:238
+msgid "Link is expired"
+msgstr "El enlace ha caducado"
+
+#: .\accounts\views.py:240 .\build\lib\accounts\views.py:240
+msgid "Something went wrong, redirecting back to account login"
+msgstr "Algo salió mal, redireccionando al inicio"
+
+#: .\build\lib\cloud\models.py:11 .\cloud\models.py:11
+msgid "Price USD"
+msgstr "Precio USD"
+
+#: .\build\lib\cloud\models.py:11 .\cloud\models.py:11
+#, fuzzy
+#| msgid "Maximun 999.99"
+msgid "Maximun 9999.99"
+msgstr "Máximo 999.99"
+
+#: .\build\lib\cloud\models.py:13 .\cloud\models.py:13
+msgid "The price must be between 0 and 9999.99"
+msgstr "El precio debe oscilar entre 0 y 9999.99"
+
+#: .\build\lib\cloud\models.py:19 .\build\lib\cloud\models.py:29
+#: .\build\lib\cloud\models.py:36 .\build\lib\cloud\models.py:43
+#: .\build\lib\cloud\models.py:50 .\build\lib\cloud\models.py:59
+#: .\cloud\models.py:19 .\cloud\models.py:29 .\cloud\models.py:36
+#: .\cloud\models.py:43 .\cloud\models.py:50 .\cloud\models.py:59
+#: .\siteapp\templates\linkzone\cloud\invoice.html:55
+#: .\siteapp\templates\linkzone\costumer\invoice.html:44
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:12
+#: .\siteapp\templates\nexus\user\issue_center\update_support.html:13
+msgid "Created"
+msgstr "Creado"
+
+#: .\core\settings\base.py:133
+msgid "English"
+msgstr "Inglés"
+
+#: .\linkzone\forms.py:12 .\linkzone\forms.py:51
+msgid "Your Name is?"
+msgstr "¿Tu nombre es?"
+
+#: .\linkzone\forms.py:14
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:51
+#: .\siteapp\templates\nexus\user\issue_center\support.html:25
+msgid "Subject"
+msgstr "Asunto"
+
+#: .\linkzone\forms.py:16 .\linkzone\forms.py:53
+msgid "Place Email"
+msgstr "Coloca Email"
+
+#: .\linkzone\forms.py:18 .\linkzone\forms.py:55
+msgid "Your Message"
+msgstr "Tu Mensaje"
+
+#: .\linkzone\views.py:133 .\linkzone\views.py:1734
+msgid "Your message has been sent"
+msgstr "Tu mensaje ha sido enviado"
+
+#: .\linkzone\views.py:139 .\linkzone\views.py:1740
+msgid "This email is already registered"
+msgstr "No hay correos"
+
+#: .\linkzone\views.py:145 .\linkzone\views.py:1746
+msgid "Now you are subscribed"
+msgstr "Ahora estas suscrito"
+
+#: .\linkzone\views.py:529 .\linkzone\views.py:850 .\linkzone\views.py:1080
+#: .\linkzone\views.py:1409
+#, fuzzy
+#| msgid "Stela Website"
+msgid "Final Stela Websites"
+msgstr "Stela Sitio Web"
+
+#: .\linkzone\views.py:552 .\linkzone\views.py:635 .\linkzone\views.py:887
+#: .\linkzone\views.py:1092 .\linkzone\views.py:1179
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:408
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:810
+#: .\siteapp\templates\linkzone\costumer\payments\order-placed.html:16
+msgid "Payment Complete Successfully"
+msgstr "Pago efectuado exitosamente"
+
+#: .\linkzone\views.py:568 .\linkzone\views.py:651 .\linkzone\views.py:903
+#, fuzzy
+#| msgid "Billing Payments"
+msgid "Billing Payment Made"
+msgstr "Pagos de Recibos"
+
+#: .\linkzone\views.py:577 .\linkzone\views.py:1117
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:287
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:689
+msgid "Thanks for your purchase"
+msgstr "Gracias por su compra"
+
+#: .\linkzone\views.py:581 .\linkzone\views.py:1133
+#, fuzzy
+#| msgid "Payment Fee"
+msgid "Payment Failed"
+msgstr "Comision TDD"
+
+#: .\linkzone\views.py:592 .\linkzone\views.py:1129
+msgid "Amount Verification Failed"
+msgstr "La verificación del monto ha fallado."
+
+#: .\linkzone\views.py:612 .\linkzone\views.py:1168
+msgid "Stela Business App"
+msgstr "Aplicación de negocios Stela"
+
+#: .\linkzone\views.py:1108 .\linkzone\views.py:1195 .\linkzone\views.py:1452
+msgid "Billing Notification"
+msgstr "Notificación de cobro"
+
+#: .\linkzone\views.py:1629
+#, fuzzy
+#| msgid "Your account has been activated."
+msgid "An account has been deactivated"
+msgstr "Tu cuenta ha sido activada."
+
+#: .\linkzone\views.py:1634
+#, fuzzy
+#| msgid "Your account has been activated."
+msgid "Your account has been deactivated"
+msgstr "Tu cuenta ha sido activada."
+
+#: .\linkzone\views.py:1641
+#, fuzzy
+#| msgid "Your account has been activated."
+msgid "An account has been activated"
+msgstr "Tu cuenta ha sido activada."
+
+#: .\linkzone\views.py:1646
+#, fuzzy
+#| msgid "Your account has been activated."
+msgid "Your account has been activated"
+msgstr "Tu cuenta ha sido activada."
+
+#: .\linkzone\views.py:1814
+#, fuzzy
+#| msgid "is register your wallet"
+msgid "We have registered your case"
+msgstr "es registrar su monedero"
+
+#: .\linkzone\views.py:1947
+msgid "User has answered his case"
+msgstr "El usuario ha respondido su caso."
+
+#: .\linkzone\views.py:1956
+msgid "Changes made successfully"
+msgstr "Cambios realizados con éxito"
+
+#: .\linkzone\views.py:2100
+msgid "Data email with this Email already exists."
+msgstr "El correo electrónico de datos con este correo electrónico ya existe."
+
+#: .\linkzone\views.py:2101
+msgid "Enter a valid email address."
+msgstr "Introduzca una dirección de correo electrónico válida."
+
+#: .\linkzone\views.py:2505 .\linkzone\views.py:2759 .\linkzone\views.py:2957
+msgid "You Have a New Project"
+msgstr "Tienes un nuevo proyecto"
+
+#: .\linkzone\views.py:2506 .\linkzone\views.py:2760 .\linkzone\views.py:2958
+msgid "We start jobs for "
+msgstr "Comenzamos trabajos para"
+
+#: .\linkzone\views.py:2513 .\linkzone\views.py:2767 .\linkzone\views.py:2965
+#, fuzzy
+#| msgid "New password request"
+msgid "New Project Request"
+msgstr "Nueva solicitud de contraseña"
+
+#: .\linkzone\views.py:2514 .\linkzone\views.py:2768 .\linkzone\views.py:2966
+#, fuzzy
+#| msgid "Customer"
+msgid "CustomerID "
+msgstr "Cliente"
+
+#: .\linkzone\views.py:2578 .\linkzone\views.py:2801 .\linkzone\views.py:3013
+msgid "You Have a Sale"
+msgstr "Tienes una venta"
+
+#: .\linkzone\views.py:2786 .\linkzone\views.py:2998
+#, fuzzy
+#| msgid "Payment Complete Successfully"
+msgid "Your purchase was processed successfully"
+msgstr "Pago efectuado exitosamente"
+
+#: .\siteapp\templates\accounts\registration\register.html:11
+msgid "Sign Up and Go to appointment"
+msgstr ""
+
+#: .\siteapp\templates\accounts\registration\register.html:12
+msgid "Fill all form field to go to next step"
+msgstr ""
+
+#: .\siteapp\templates\accounts\registration\register.html:17
+#: .\siteapp\templates\accounts\registration\register.html:29
+msgid "Basic Info"
+msgstr ""
+
+#: .\siteapp\templates\accounts\registration\register.html:18
+#: .\siteapp\templates\accounts\registration\register.html:49
+#, fuzzy
+#| msgid "Client Data"
+msgid "Pet Data"
+msgstr "Datos de Cliente"
+
+#: .\siteapp\templates\accounts\registration\register.html:19
+#, fuzzy
+#| msgid "Add account"
+msgid "Account"
+msgstr "Añadir cuenta"
+
+#: .\siteapp\templates\accounts\registration\register.html:20
+#: .\siteapp\templates\accounts\registration\register.html:127
+#: .\siteapp\templates\nexus\index.html:98
+msgid "Finish"
+msgstr ""
+
+#: .\siteapp\templates\accounts\registration\register.html:32
+#: .\siteapp\templates\accounts\registration\register.html:52
+#: .\siteapp\templates\accounts\registration\register.html:90
+#: .\siteapp\templates\accounts\registration\register.html:130
+msgid "Step"
+msgstr ""
+
+#: .\siteapp\templates\accounts\registration\register.html:43
+#: .\siteapp\templates\accounts\registration\register.html:81
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:109
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:111
+#: .\siteapp\templates\linkzone\costumer\update-address.html:13
+#: .\siteapp\templates\linkzone\stela\base_list.html:114
+#: .\siteapp\templates\linkzone\stela\base_list.html:116
+msgid "Next"
+msgstr "Siguiente"
+
+#: .\siteapp\templates\accounts\registration\register.html:77
+#, fuzzy
+#| msgid "Add Project"
+msgid "Add Pet"
+msgstr "Añadir Proyecto"
+
+#: .\siteapp\templates\accounts\registration\register.html:78
+#, fuzzy
+#| msgid "Remove"
+msgid "Remove Pet"
+msgstr "Eliminar"
+
+#: .\siteapp\templates\accounts\registration\register.html:81
+#: .\siteapp\templates\accounts\registration\register.html:121
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:77
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:79
+msgid "Previous"
+msgstr "Antes"
+
+#: .\siteapp\templates\accounts\registration\register.html:87
+#, fuzzy
+#| msgid "Close Account"
+msgid "Create Account"
+msgstr "Cerrar cuenta"
+
+#: .\siteapp\templates\accounts\registration\register.html:94
+msgid "Please correct the errors"
+msgstr "Por favor corrija los errores"
+
+#: .\siteapp\templates\accounts\registration\register.html:110
+msgid "At least 8 alphanumeric characters and one special"
+msgstr "Al menos 8 caracteres alfanuméricos y uno especial"
+
+#: .\siteapp\templates\accounts\registration\register.html:117
+#, fuzzy
+#| msgid ""
+#| "register to receive all the content of interest, news and updates of our "
+#| "site"
+msgid ""
+"register to receive all the content of interest, news and updates of our site"
+msgstr ""
+"regístrese para recibir todo el contenido de interés, noticias y "
+"actualizaciones de nuestro sitio"
+
+#: .\siteapp\templates\accounts\registration\register.html:121
+#: .\siteapp\templates\blog\single-blog.html:125
+msgid "Submit"
+msgstr "Envíar"
+
+#: .\siteapp\templates\accounts\registration\register.html:133
+msgid "SUCCESS"
+msgstr ""
+
+#: .\siteapp\templates\accounts\registration\register.html:139
+msgid "You Have Successfully Signed Up, Check your email"
+msgstr ""
+
+#: .\siteapp\templates\accounts\user\clean_user.html:6
+msgid "Complete Info"
+msgstr "Completar Info"
+
+#: .\siteapp\templates\accounts\user\clean_user.html:13
+msgid "Congratulations you are about to complete the purchase."
+msgstr "Enhorabuena, estás a punto de completar la compra."
+
+#: .\siteapp\templates\accounts\user\clean_user.html:14
+msgid ""
+"There are only a few steps left to finish please complete your profile to be "
+"able to make payments."
+msgstr ""
+"Solo quedan unos pocos pasos para terminar, por favor complete su perfil "
+"para sercapaz de hacer pagos."
+
+#: .\siteapp\templates\accounts\user\clean_user.html:24
+#: .\siteapp\templates\accounts\user\password_reset_done.html:44
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:229
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:252
+#: .\siteapp\templates\linkzone\costumer\update-address.html:14
+#: .\siteapp\templates\linkzone\costumer\update_profile.html:14
+#: .\siteapp\templates\site\index.html:1849
+msgid "Save"
+msgstr "Guardar"
+
+#: .\siteapp\templates\accounts\user\clean_user.html:38
+msgid ""
+"You need to be logged in Emmerut Linkzone to be able to use Stela's products."
+msgstr ""
+"Debe iniciar sesión en Emmerut Linkzone para poder utilizar los productos de "
+"Stela."
+
+#: .\siteapp\templates\accounts\user\clean_user.html:39
+msgid "All Stela Control Dynamic services and products belong"
+msgstr "Todos los servicios y productos Stela Control Dynamic pertenecen"
+
+#: .\siteapp\templates\accounts\user\clean_user.html:39
+msgid "to Emmerut Group and are in charge of managing all operations."
+msgstr "al Grupo Emmerut y están a cargo de administrar todas las operaciones."
+
+#: .\siteapp\templates\accounts\user\clean_user.html:50
+msgid "Error: You are not authorized to login."
+msgstr "Error: No está autorizado para iniciar sesión"
+
+#: .\siteapp\templates\accounts\user\clean_user.html:56
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:380
+#: .\siteapp\templates\linkzone\stela\websites.html:39
+msgid "Password"
+msgstr "Contraseña"
+
+#: .\siteapp\templates\accounts\user\clean_user.html:58
+#: .\siteapp\templates\accounts\user\password_reset_done.html:5
+#: .\siteapp\templates\accounts\user\password_reset_form.html:5
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:382
+msgid "Reset Password"
+msgstr "Restablecer la contraseña"
+
+#: .\siteapp\templates\accounts\user\clean_user.html:61
+#: .\siteapp\templates\accounts\user\password_reset_form.html:42
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:386
+msgid "Log In"
+msgstr "Ingresar"
+
+#: .\siteapp\templates\accounts\user\clean_user.html:62
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:387
+msgid "You don't have an account yet?"
+msgstr "¿Aun no tienes cuenta?"
+
+#: .\siteapp\templates\accounts\user\clean_user.html:62
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:387
+msgid "Sign up."
+msgstr "Registrate"
+
+#: .\siteapp\templates\accounts\user\login.html:4
+#: .\siteapp\templates\accounts\user\password_reset_confirm.html:4
+msgid "Sign In"
+msgstr "Iniciar Sesion"
+
+#: .\siteapp\templates\accounts\user\login.html:36
+#, fuzzy
+#| msgid "Error! Invalid username or password"
+msgid "Error: Wrong username or password"
+msgstr "Error, nombre de usuario o contraseña incorrecta"
+
+#: .\siteapp\templates\accounts\user\login.html:44
+#: .\siteapp\templates\accounts\user\password_reset_form.html:32
+#, fuzzy
+#| msgid "You lost your password?"
+msgid "Forgot your password?"
+msgstr "¿Perdiste tu contraseña?"
+
+#: .\siteapp\templates\accounts\user\login.html:47
+msgid "Log in"
+msgstr "Ingresar"
+
+#: .\siteapp\templates\accounts\user\login.html:50
+#, fuzzy
+#| msgid "You don't have an account yet?"
+msgid "You do not have an account?"
+msgstr "¿Aun no tienes cuenta?"
+
+#: .\siteapp\templates\accounts\user\login.html:51
+msgid "Sign Up"
+msgstr "Registrate"
+
+#: .\siteapp\templates\accounts\user\password_reset_confirm.html:35
+msgid "Please enter your new password twice."
+msgstr ""
+
+#: .\siteapp\templates\accounts\user\password_reset_confirm.html:36
+msgid "So we can verify you typed it in correctly."
+msgstr ""
+
+#: .\siteapp\templates\accounts\user\password_reset_confirm.html:44
+#, fuzzy
+#| msgid "New Password"
+msgid "New password:"
+msgstr "Nueva Contraseña"
+
+#: .\siteapp\templates\accounts\user\password_reset_confirm.html:49
+#, fuzzy
+#| msgid "Confirm Password"
+msgid "Confirm password:"
+msgstr "Confirmar Contraseña"
+
+#: .\siteapp\templates\accounts\user\password_reset_confirm.html:59
+#, fuzzy
+#| msgid "Payment Complete Successfully"
+msgid "Password reset unsuccessful"
+msgstr "Pago efectuado exitosamente"
+
+#: .\siteapp\templates\accounts\user\password_reset_confirm.html:60
+#, fuzzy
+#| msgid "Password reset email was sended."
+msgid "The password reset link was invalid,"
+msgstr "Restablecimiento de contraseña fue enviado al email"
+
+#: .\siteapp\templates\accounts\user\password_reset_confirm.html:61
+msgid "possibly because it has already been used."
+msgstr ""
+
+#: .\siteapp\templates\accounts\user\password_reset_confirm.html:62
+msgid "Please request a new password reset."
+msgstr ""
+
+#: .\siteapp\templates\accounts\user\password_reset_done.html:28
+msgid "New password request"
+msgstr "Nueva solicitud de contraseña"
+
+#: .\siteapp\templates\accounts\user\password_reset_done.html:29
+#, fuzzy
+#| msgid "Check your email for instructions"
+msgid "Check your email for instructions."
+msgstr "Revisa tu correo para instrucciones"
+
+#: .\siteapp\templates\accounts\user\password_reset_done.html:39
+msgid "Your password cannot be allusive to personal information"
+msgstr "Su contraseña no puede ser alusiva a información personal"
+
+#: .\siteapp\templates\accounts\user\password_reset_done.html:40
+#, fuzzy
+#| msgid "It must contain at least 8 characters (alphanumeric and special)"
+msgid "least 8 characters (alphanumeric and special)"
+msgstr "Debe contener al menos 8 caracteres (alfanuméricos y especiales)"
+
+#: .\siteapp\templates\accounts\user\password_reset_done.html:41
+msgid "It cannot be the same as the previous ones"
+msgstr "No puede ser lo mismo que los anteriores."
+
+#: .\siteapp\templates\accounts\user\password_reset_done.html:48
+#, fuzzy
+#| msgid "Page removed successfully"
+msgid "Password reset successfull"
+msgstr "Página eliminada con éxito."
+
+#: .\siteapp\templates\accounts\user\password_reset_done.html:49
+msgid "Login"
+msgstr "Iniciar sesion"
+
+#: .\siteapp\templates\accounts\user\password_reset_form.html:33
+msgid "Enter your email to recover the password."
+msgstr "Introduce tu email para recuperar la contraseña."
+
+#: .\siteapp\templates\accounts\user\password_reset_form.html:36
+#, fuzzy
+#| msgid "Error: This email address is not registered"
+msgid "Error: This email address is not registered."
+msgstr "Error: esta dirección de correo electrónico no está registrada"
+
+#: .\siteapp\templates\accounts\user\password_reset_form.html:41
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:34
+#: .\siteapp\templates\nexus\profile\profile.html:131
+#: .\siteapp\templates\nexus\profile\profile.html:161
+msgid "Send"
+msgstr "Envíar"
+
+#: .\siteapp\templates\blog\single-blog.html:91
+msgid "No comments so far"
+msgstr "No hay comentarios hasta ahora"
+
+#: .\siteapp\templates\blog\single-blog.html:103
+msgid "Leave a reply"
+msgstr "Deja una respuesta"
+
+#: .\siteapp\templates\blog\single-blog.html:174
+#: .\siteapp\templates\site\index.html:1815
+msgid "Newsletter"
+msgstr "Boletín"
+
+#: .\siteapp\templates\blog\single-blog.html:180
+#, fuzzy
+#| msgid ""
+#| "For more information regarding various situations, we invite you to review"
+msgid "For more information regarding this content"
+msgstr ""
+"Para obtener más información sobre diversas situaciones, lo invitamos a "
+"revisar"
+
+#: .\siteapp\templates\blog\single-blog.html:182
+#, fuzzy
+#| msgid "I'm Subscriber"
+msgid "Subscribe"
+msgstr "Soy Subscriptor"
+
+#: .\siteapp\templates\emails\registration\password_reset_email.html:2
+#, fuzzy, python-format
+#| msgid ""
+#| "You're receiving this email because you requested a password reset for "
+#| "your user account at."
+msgid ""
+"Hey, You're receiving this email because you requested a password reset for "
+"your user account at %(site_name)s."
+msgstr ""
+"Estás recibiendo este correo electrónico porque solicitaste un "
+"restablecimiento de contraseña para tucuenta de usuario"
+
+#: .\siteapp\templates\emails\registration\password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "Vaya a la siguiente página y elija una nueva contraseña:"
+
+#: .\siteapp\templates\emails\registration\password_reset_email.html:8
+#, fuzzy
+#| msgid "Your username, in case you’ve forgotten:"
+msgid "Your username, in case you've forgotten:"
+msgstr "Su nombre de usuario, en caso de que lo haya olvidado:"
+
+#: .\siteapp\templates\emails\registration\password_reset_email.html:10
+msgid "Thanks for using our site!"
+msgstr "Gracias por usar nuestro sitio"
+
+#: .\siteapp\templates\emails\registration\password_reset_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "El %(site_name)s equipo"
+
+#: .\siteapp\templates\emails\transactionals\support_response.html:259
+msgid "GO LINKZONE"
+msgstr "IR A LINKZONE"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:6
+#: .\siteapp\templates\linkzone\cloud\invoice.html:6
+msgid "Your Cloud Services"
+msgstr "Tus Servicios Cloud"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:10
+#: .\siteapp\templates\linkzone\cloud\invoice.html:10
+msgid "Secure storage and access from anywhere."
+msgstr "Almacenamiento seguro y acceso desde cualquier lugar."
+
+#: .\siteapp\templates\linkzone\cloud\index.html:23
+msgid "Projects Active"
+msgstr "Proyectos Activos"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:27
+#, fuzzy
+#| msgid "Edit Menu"
+msgid "Menu"
+msgstr "Editar Menú"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:28
+#, fuzzy
+#| msgid "Maintance"
+msgid "Instance ID"
+msgstr "Mantenimiento"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:29
+#: .\siteapp\templates\linkzone\cloud\index.html:150
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:52
+#: .\siteapp\templates\linkzone\stela\websites.html:16
+#: .\siteapp\templates\nexus\booking\appointments.html:131
+#: .\siteapp\templates\nexus\booking\appointments.html:133
+#: .\siteapp\templates\nexus\user\issue_center\support.html:26
+msgid "Status"
+msgstr "Estado"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:30
+msgid "Zone"
+msgstr "Zona"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:31
+msgid "System"
+msgstr "Sistema"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:32
+msgid "vCPU"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\cloud\index.html:33
+msgid "RAM"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\cloud\index.html:46
+msgid "No Account Started"
+msgstr "No tienes cuenta"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:50
+msgid "Active"
+msgstr "Activo"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:52
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:87
+msgid "Control Usage"
+msgstr "Control de uso"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:96
+msgid "Virtual Cloud Usage (Hours)"
+msgstr "Uso del servidor de nube virtual (horas)"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:102
+msgid "Quick access"
+msgstr "Acceso rápido"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:110
+msgid "EC2 System"
+msgstr "Sistema EC2"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:122
+msgid "Orbit DNS"
+msgstr "Órbita DNS"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:134
+msgid "Storage Buckets"
+msgstr "Buckets de almacenamiento"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:145
+msgid "Cloud Billing Information"
+msgstr "Información de cobranza de la nube"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:149
+msgid "Billing ID"
+msgstr "ID de cobranza"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:151
+msgid "Amount"
+msgstr "Monto"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:152
+#: .\siteapp\templates\linkzone\stela\websites.html:13
+#: .\siteapp\templates\linkzone\stela\websites.html:34
+#: .\siteapp\templates\nexus\user\issue_center\support.html:22
+msgid "Date"
+msgstr "Fecha"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:153
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:53
+#: .\siteapp\templates\nexus\user\issue_center\support.html:27
+msgid "View"
+msgstr "Vista"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:161
+msgid "Payeed"
+msgstr "Pagado"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:163
+#, fuzzy
+#| msgid "Canceled"
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:165
+#: .\siteapp\templates\linkzone\stela\websites.html:18
+#: .\siteapp\templates\nexus\booking\appointments.html:133
+msgid "Pending"
+msgstr "Pendiente"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:179
+#, fuzzy
+#| msgid "Domains"
+msgid "Your Domains"
+msgstr "Dominios"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:187
+#, fuzzy
+#| msgid "You don't have sales yet"
+msgid "You don't have domains yet"
+msgstr "Aun no tienes ventas"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:197
+msgid "You do not have cloud infrastructure activated"
+msgstr "No tienes la infraestructura en la nube activada."
+
+#: .\siteapp\templates\linkzone\cloud\index.html:211
+#, fuzzy
+#| msgid "No data "
+msgid "No data"
+msgstr "No hay datos"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:212
+#: .\siteapp\templates\nexus\index.html:144
+msgid "Loading"
+msgstr "Cargando"
+
+#: .\siteapp\templates\linkzone\cloud\index.html:213
+#: .\siteapp\templates\nexus\index.html:145
+msgid "Processing"
+msgstr "Procesando"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:19
+msgid "Billing Recipt Details"
+msgstr "Detalles del recibo de facturación"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:22
+#: .\siteapp\templates\linkzone\costumer\invoice.html:9
+#: .\siteapp\templates\nexus\booking\order_detail.html:55
+msgid "Get Invoice"
+msgstr "Obtener Factura"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:61
+#: .\siteapp\templates\linkzone\costumer\invoice.html:50
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:425
+msgid "Client"
+msgstr "Cliente"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:68
+#: .\siteapp\templates\linkzone\costumer\invoice.html:57
+msgid "Cost items"
+msgstr "Elementos de costo"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:84
+#: .\siteapp\templates\linkzone\cloud\invoice.html:94
+#: .\siteapp\templates\linkzone\cloud\invoice.html:104
+#: .\siteapp\templates\linkzone\cloud\invoice.html:109
+#: .\siteapp\templates\linkzone\cloud\invoice.html:128
+msgid "units"
+msgstr "unidades"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:89
+#: .\siteapp\templates\linkzone\cloud\invoice.html:114
+msgid "per 20000 units"
+msgstr "por 20000 unidades"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:99
+#: .\siteapp\templates\linkzone\cloud\invoice.html:119
+#, fuzzy
+#| msgid "Domain"
+msgid "domain"
+msgstr "Dominio"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:145
+#: .\siteapp\templates\linkzone\cloud\invoice.html:169
+#: .\siteapp\templates\linkzone\cloud\invoice.html:207
+#: .\siteapp\templates\linkzone\cloud\invoice.html:212
+#: .\siteapp\templates\linkzone\cloud\invoice.html:217
+#: .\siteapp\templates\linkzone\costumer\invoice.html:103
+#: .\siteapp\templates\linkzone\costumer\invoice.html:127
+#: .\siteapp\templates\linkzone\costumer\invoice.html:166
+#: .\siteapp\templates\linkzone\costumer\invoice.html:183
+#: .\siteapp\templates\linkzone\costumer\invoice.html:200
+#: .\siteapp\templates\linkzone\costumer\invoice.html:219
+#: .\siteapp\templates\linkzone\costumer\invoice.html:232
+#: .\siteapp\templates\linkzone\costumer\invoice.html:245
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:197
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:218
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:599
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:620
+msgid "Discounts"
+msgstr "Descuentos"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:202
+#: .\siteapp\templates\linkzone\costumer\invoice.html:162
+#: .\siteapp\templates\linkzone\costumer\invoice.html:179
+#: .\siteapp\templates\linkzone\costumer\invoice.html:196
+#: .\siteapp\templates\linkzone\costumer\invoice.html:215
+#: .\siteapp\templates\linkzone\costumer\invoice.html:228
+#: .\siteapp\templates\linkzone\costumer\invoice.html:241
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:193
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:214
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:323
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:595
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:616
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:725
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:259
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:278
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:306
+#: .\siteapp\templates\nexus\booking\order_detail.html:34
+msgid "Subtotal"
+msgstr "Base imponible"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:224
+#: .\siteapp\templates\linkzone\costumer\invoice.html:170
+#: .\siteapp\templates\linkzone\costumer\invoice.html:187
+#: .\siteapp\templates\linkzone\costumer\invoice.html:204
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:205
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:226
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:607
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:628
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:267
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:286
+#: .\siteapp\templates\nexus\booking\order_detail.html:38
+msgid "Tax"
+msgstr "Impuestos"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:229
+#: .\siteapp\templates\linkzone\costumer\invoice.html:174
+#: .\siteapp\templates\linkzone\costumer\invoice.html:191
+#: .\siteapp\templates\linkzone\costumer\invoice.html:208
+#: .\siteapp\templates\linkzone\costumer\invoice.html:223
+#: .\siteapp\templates\linkzone\costumer\invoice.html:236
+#: .\siteapp\templates\linkzone\costumer\invoice.html:249
+#: .\siteapp\templates\linkzone\stela\websites.html:112
+msgid "Total Amount"
+msgstr "Monto"
+
+#: .\siteapp\templates\linkzone\cloud\invoice.html:237
+#: .\siteapp\templates\linkzone\costumer\invoice.html:259
+msgid "Service Report"
+msgstr "Reporte de servicio"
+
+#: .\siteapp\templates\linkzone\costumer\billing\payment-loader.html:52
+#: .\siteapp\templates\linkzone\costumer\payments\payment-loader.html:9
+msgid "payment in process"
+msgstr "Pago en proceso"
+
+#: .\siteapp\templates\linkzone\costumer\billing\payment-loader.html:58
+#: .\siteapp\templates\linkzone\costumer\payments\payment-loader.html:15
+msgid "Stela Payments"
+msgstr "Stela Transacciones"
+
+#: .\siteapp\templates\linkzone\costumer\billing\payment-loader.html:59
+#: .\siteapp\templates\linkzone\costumer\payments\payment-loader.html:16
+msgid "do not interrupt this process"
+msgstr "no interrumpa este proceso"
+
+#: .\siteapp\templates\linkzone\costumer\billing\payment-loader.html:62
+#: .\siteapp\templates\linkzone\costumer\payments\payment-loader.html:19
+msgid "safe redirect"
+msgstr "redirección segura"
+
+#: .\siteapp\templates\linkzone\costumer\billing\payment-loader.html:67
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:286
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:688
+msgid "Successful Payment!."
+msgstr "¡Pago Exitoso!"
+
+#: .\siteapp\templates\linkzone\costumer\billing\payment-loader.html:68
+#, fuzzy
+#| msgid "Thanks for your purchase"
+msgid "Thank you for your purchase."
+msgstr "Gracias por su compra"
+
+#: .\siteapp\templates\linkzone\costumer\billing\payment-loader.html:69
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:288
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:690
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:83
+#: .\siteapp\templates\nexus\booking\appointments.html:113
+msgid "Continue"
+msgstr "Continuar"
+
+#: .\siteapp\templates\linkzone\costumer\billing\payment-loader.html:71
+msgid "Payment Failed!."
+msgstr "Pago fallido"
+
+#: .\siteapp\templates\linkzone\costumer\billing\payment-loader.html:72
+msgid "Warning, we have detected suspicious activity"
+msgstr "Advertencia, hemos detectado actividad sospechosa."
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:26
+#: .\siteapp\templates\site\index.html:1803
+msgid "About Us"
+msgstr "Sobre Nosotros"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:40
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:83
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:113
+msgid "Title"
+msgstr "Titulo"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:40
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:83
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:113
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:442
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:444
+msgid "Content"
+msgstr "Contenido"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:45
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:88
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:118
+msgid "Subtitle"
+msgstr "Subtitulo"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:53
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:351
+msgid "Our Business Solutions"
+msgstr "Nuestras Soluciones Comercles"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:60
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:364
+msgid "Marketing"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:67
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:455
+msgid "Ecommerce"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:74
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:746
+#, fuzzy
+#| msgid "Development Path"
+msgid "Development"
+msgstr "Paso a paso"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:129
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1113
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1144
+#: .\siteapp\templates\site\index.html:1230
+#: .\siteapp\templates\site\index.html:1259
+#, fuzzy
+#| msgid "Shipping Policy"
+msgid "Shipping and Logistics"
+msgstr "Políticas de Envío"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:131
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1115
+#: .\siteapp\templates\site\index.html:1232
+msgid "Marketplace Program"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:133
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1117
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1188
+#: .\siteapp\templates\site\index.html:1234
+#: .\siteapp\templates\site\index.html:1303
+#, fuzzy
+#| msgid "About Services"
+msgid "Product/Service"
+msgstr "Sobre Servicios"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:135
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1119
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1210
+#: .\siteapp\templates\site\index.html:1236
+#: .\siteapp\templates\site\index.html:1325
+msgid "Technical Support"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:137
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1121
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1232
+#: .\siteapp\templates\site\index.html:1238
+#: .\siteapp\templates\site\index.html:1347
+#, fuzzy
+#| msgid "Purchases"
+msgid "Purchasing Process"
+msgstr "Compras"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:139
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1123
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1254
+#: .\siteapp\templates\site\index.html:1240
+#: .\siteapp\templates\site\index.html:1369
+msgid "General Inquiries"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:155
+msgid "Load Legal"
+msgstr "Cargar Documento Legal"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:160
+msgid "Load FAQ"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:168
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:366
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:465
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:567
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:664
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:704
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:748
+#: .\templates\stela_editor\docs.html:14 .\templates\stela_editor\docs.html:40
+#: .\templates\stela_editor\docs.html:79
+#: .\templates\stela_editor\docs.html:100
+#: .\templates\stela_editor\docs.html:116
+#: .\templates\stela_editor\docs.html:229
+#: .\templates\stela_editor\main.html:69
+#: .\templates\stela_editor\main.html:3912
+#, fuzzy
+#| msgid "Media Content"
+msgid "Edit Content"
+msgstr "Contenido Media"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:191
+msgid "Vision"
+msgstr "Visión"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:204
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:279
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:291
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:335
+msgid "Mission"
+msgstr "Misión"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:249
+msgid "Values"
+msgstr "Valores"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:280
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:292
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:336
+#, fuzzy
+#| msgid "Mission"
+msgid "Title Mission"
+msgstr "Misión"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:350
+#, fuzzy
+#| msgid "Learn More"
+msgid "Learn more about us"
+msgstr "Saber más"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:560
+#, fuzzy
+#| msgid "Add Modules"
+msgid "Add More"
+msgstr "Agregar modulos"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1064
+#: .\siteapp\templates\linkzone\costumer\docs\policy-detail.html:40
+#, fuzzy
+#| msgid "Legal Provisions"
+msgid "Legal Provitions"
+msgstr "Disposiciones legales"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1100
+#: .\siteapp\templates\site\index.html:1218
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1101
+#: .\siteapp\templates\site\index.html:1219
+msgid "Questions"
+msgstr "Pregunta"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1101
+#: .\siteapp\templates\site\index.html:1219
+#, fuzzy
+#| msgid "Our Response"
+msgid "& Quick Responses"
+msgstr "Nuestra Respuesta"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1166
+#: .\siteapp\templates\site\index.html:1281
+msgid "Marketplace"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1615
+msgid "Proccess data, please wait"
+msgstr "Procesando, por favor espere"
+
+#: .\siteapp\templates\linkzone\costumer\docs\index.html:1618
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:119
+msgid "Confirm?"
+msgstr "¿Confirmas?"
+
+#: .\siteapp\templates\linkzone\costumer\invoice.html:11
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:140
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:542
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:187
+msgid "Make Payment"
+msgstr "Hacer el pago"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\create_case.html:8
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:13
+msgid "New Case"
+msgstr "Nuevo caso"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\create_case.html:9
+msgid "Tell us your case we are here to help you."
+msgstr "Cuéntanos tu caso estamos para ayudarte."
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\create_case.html:18
+#: .\siteapp\templates\nexus\user\issue_center\create_case.html:18
+msgid "Send Case"
+msgstr "Envía el caso"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:9
+#: .\siteapp\templates\nexus\user\issue_center\support.html:15
+msgid "Support Control Center"
+msgstr "Centro de control de soporte"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:10
+#: .\siteapp\templates\nexus\user\issue_center\support.html:16
+msgid "Here you will track all cases."
+msgstr "Aquí harás un seguimiento de todos los casos."
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:21
+msgid "Filter List"
+msgstr "Filtro"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:23
+#: .\siteapp\templates\linkzone\stela\websites.html:9
+msgid "Select an option"
+msgstr "Selecciona una opción"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:24
+msgid "Now"
+msgstr "Ahora"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:25
+msgid "Older"
+msgstr "Más antiguo"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:26
+msgid "Week Ago"
+msgstr "Hace una semana"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:27
+msgid "Month Ago"
+msgstr "Hace un mes"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:32
+msgid "Search Case"
+msgstr "Buscar caso"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:36
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:49
+#: .\siteapp\templates\nexus\user\issue_center\support.html:23
+msgid "ID Case"
+msgstr "ID Caso"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:48
+msgid "Create"
+msgstr "Crear"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:50
+#: .\siteapp\templates\nexus\user\issue_center\support.html:24
+msgid "User"
+msgstr "Usuario"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:64
+msgid "Open"
+msgstr "Abierto"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:66
+msgid "Close"
+msgstr "Cerrado"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\support_list.html:90
+#: .\siteapp\templates\linkzone\stela\base_list.html:95
+msgid "(current)"
+msgstr "Actual"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:9
+#: .\siteapp\templates\nexus\user\issue_center\update_support.html:10
+msgid "Case"
+msgstr "Caso"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:17
+#: .\siteapp\templates\nexus\user\issue_center\update_support.html:18
+msgid "Here you can evaluate the detail of your requirement"
+msgstr "Aquí puede evaluar el detalle de su requerimiento"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:55
+#: .\siteapp\templates\nexus\user\issue_center\update_support.html:50
+msgid "Thanks!"
+msgstr "¡Gracias!"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:57
+msgid "We have also sent a copy of this link to your email."
+msgstr ""
+"También hemos enviado una copia de este enlace a su correo electrónico."
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:58
+msgid ""
+"For more information regarding various situations, we invite you to review"
+msgstr ""
+"Para obtener más información sobre diversas situaciones, lo invitamos a "
+"revisar"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:59
+msgid " our sections "
+msgstr "Nuestras secciones"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:62
+msgid "You are welcome to contact us for any"
+msgstr "Le invitamos a ponerse en contacto con nosotros para cualquier"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:63
+msgid "of the means of communication available, the objective is the"
+msgstr "de los medios de comunicación disponibles, el objetivo es la"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:64
+msgid "satisfaction and enjoyment of the products and services of this site."
+msgstr "satisfacción y disfrute de los productos y servicios de este sitio."
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:67
+#: .\siteapp\templates\nexus\user\issue_center\update_support.html:62
+msgid "Support Team"
+msgstr "Equipo de soporte"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:85
+#: .\siteapp\templates\nexus\user\issue_center\update_support.html:80
+msgid "Respond"
+msgstr "Responder"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:93
+#: .\siteapp\templates\nexus\user\issue_center\update_support.html:88
+msgid "We are currently evaluating your request."
+msgstr "Actualmente estamos evaluando su solicitud."
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:94
+msgid "In the next few hours we will be giving you an answer"
+msgstr "En las próximas horas les estaremos dando respuesta"
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:94
+msgid "we appreciate all your patience and trust."
+msgstr "agradecemos toda su paciencia y confianza."
+
+#: .\siteapp\templates\linkzone\costumer\issue_center\update_support.html:101
+#: .\siteapp\templates\nexus\user\issue_center\update_support.html:96
+msgid "case close"
+msgstr "Caso cerrado"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:8
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:171
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:8
+msgid "Checkout"
+msgstr "Pasarela de pago"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:16
+msgid "Owner"
+msgstr "Propietario"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:17
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:13
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:31
+#: .\siteapp\templates\linkzone\stela\websites.html:84
+msgid "Integration"
+msgstr "Integración"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:18
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:426
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:109
+msgid "Billing"
+msgstr "Cobro"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:18
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:137
+#: .\siteapp\templates\linkzone\index.html:394
+#, fuzzy
+#| msgid "Stela Payments"
+msgid "Final Payment"
+msgstr "Stela Transacciones"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:22
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:15
+#: .\siteapp\templates\linkzone\stela\websites.html:90
+msgid "Modules"
+msgstr "Modulos"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:28
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:430
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:21
+#, fuzzy
+#| msgid "Your Suscriptions"
+msgid "Cloud Suscriptions"
+msgstr "Tus suscripciones"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:28
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:430
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:21
+#, fuzzy
+#| msgid "Months"
+msgid "Monthy Costs"
+msgstr "Meses"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:31
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:24
+#, fuzzy
+#| msgid " per hour"
+msgid " per Hour"
+msgstr "por hora"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:34
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:27
+#, fuzzy
+#| msgid "Month"
+msgid " per Month"
+msgstr "Mes"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:37
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:30
+#, fuzzy
+#| msgid " per hour"
+msgid " per GB"
+msgstr "por hora"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:40
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:33
+#, fuzzy
+#| msgid "Withdraw Request"
+msgid " per Request"
+msgstr "Petición de retiro"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:44
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:15
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:66
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:36
+#: .\siteapp\templates\linkzone\stela\websites.html:93
+msgid "Template"
+msgstr "Plantillas"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:53
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:455
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:45
+msgid "Cost"
+msgstr "Costo"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:155
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:557
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:202
+msgid "Secure Payments"
+msgstr "Pago seguro"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:162
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:564
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:229
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:231
+msgid "Purchase amount"
+msgstr "Monto del pago"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:176
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:578
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:241
+msgid "Pay now"
+msgstr "Pagar"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:189
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:591
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:255
+#, fuzzy
+#| msgid "Payment Import"
+msgid "Payment amount"
+msgstr "Importe del pago"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:201
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:222
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:603
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:624
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:263
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:282
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:310
+msgid "Payment Fee"
+msgstr "Comision TDD"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:236
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:638
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:297
+#: .\siteapp\templates\linkzone\stela\websites.html:35
+msgid "Payment Method"
+msgstr "Metodo de pago"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:237
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:639
+msgid "Billing Recipt"
+msgstr "Recibo de cobro"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:298
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:700
+msgid "Failed Payment!."
+msgstr "¡Pago fallido!."
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:409
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:811
+#: .\siteapp\templates\linkzone\costumer\payments\order-placed.html:17
+#, fuzzy
+#| msgid ""
+#| "Congratulations, you have completed your payment, now it will be "
+#| "reflected in your"
+msgid ""
+"Congratulations, you have completed your purchase, now it will be reflected "
+"in your"
+msgstr "Felicitaciones, ha completado su pago, ahora se verá reflejado en su"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:409
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:811
+#, fuzzy
+#| msgid "To see progress and all the details of the order."
+msgid "To see progress and all the details go to."
+msgstr "Para ver el progreso y todos los detalles del pedido."
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:411
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:813
+msgid "Linkzone Purchases"
+msgstr "Compras Linkzone"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:434
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:436
+msgid "Hours"
+msgstr "Horas"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:438
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:440
+msgid "GB Data"
+msgstr "Datos en GB"
+
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:446
+#: .\siteapp\templates\linkzone\costumer\payments\billing-checkout.html:448
+msgid "DNS Usage"
+msgstr "Uso DNS"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:8
+msgid "Confirm selection to purchase"
+msgstr "Confirmar selección para comprar"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:14
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:47
+msgid "Resources"
+msgstr "Recursos"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:16
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:81
+msgid "Domain"
+msgstr "Dominio"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:17
+msgid "Check"
+msgstr "Chequear"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:27
+msgid "Check your selection"
+msgstr "Revisa tu selección"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:74
+msgid "Included"
+msgstr "Incluido"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:90
+msgid "Free Registration"
+msgstr "Registro Gratis"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:114
+#, fuzzy
+#| msgid "Total Amount"
+msgid "Total Amount Project"
+msgstr "Monto"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:128
+#, fuzzy, python-format
+#| msgid ""
+#| "To start the development of this project, it is required to pay 50% and "
+#| "the remaining 50% is paid in production."
+msgid ""
+"To start the development of this project, it is required to pay 50%% and the "
+"remaining 50%% is paid in production."
+msgstr ""
+"ara iniciar el desarrollo de este proyecto, se requiere pagar el 50% y el50% "
+"restante en pase a producción"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:132
+msgid "Initial Payment"
+msgstr "Pago Inicial"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:143
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:160
+msgid "congratulations you have managed to customize your site"
+msgstr "Felicidades has logrado personalizar tu sitio."
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:161
+msgid "Website Added."
+msgstr "Servicio añadido"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:162
+msgid "Go Checkout"
+msgstr "Ir al Checkout"
+
+#: .\siteapp\templates\linkzone\costumer\payments\check.html:163
+msgid "Order Another"
+msgstr "Pide otro"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:50
+msgid "Domain Name"
+msgstr "Nombre Dominio"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:55
+#: .\siteapp\templates\nexus\base_formset.html:20
+#: .\siteapp\templates\nexus\profile\profile.html:105
+#: .\siteapp\templates\nexus\profile\profile.html:189
+msgid "Remove"
+msgstr "Eliminar"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:60
+msgid "Remove selection"
+msgstr "Elimina tu selección"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:61
+msgid "This option cannot be reversed!"
+msgstr "¡Esta opción no se puede revertir!"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:66
+msgid "Yes, remove!"
+msgstr "Si, Eliminalo"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:67
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:81
+#, fuzzy
+#| msgid "Request date"
+msgid "Request Complete."
+msgstr "Solicita fecha"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:82
+msgid "were successfully removed."
+msgstr "fueron eliminados con éxito."
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:101
+msgid "no items in checkout"
+msgstr "No hay artículos"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:271
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:290
+msgid "Total"
+msgstr "Total"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:298
+msgid "List of Products"
+msgstr "Lista de productos"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:364
+msgid "Please enter"
+msgstr "Por favor ingrese"
+
+#: .\siteapp\templates\linkzone\costumer\payments\checkout.html:364
+msgid "to continue."
+msgstr "para continuar"
+
+#: .\siteapp\templates\linkzone\costumer\payments\order-placed.html:19
+msgid "Linkzone Websites"
+msgstr "Sitios Web Linkzone"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:8
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:51
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:166
+msgid "Profile Center"
+msgstr "Centro de perfiles"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:9
+#, fuzzy
+#| msgid "In this section you can manage all your services to your pets."
+msgid ""
+"In this section you can customize your addresses and your personal data."
+msgstr ""
+"En esta sección puedes personalizar tus direcciones y tus datos personales."
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:17
+msgid "Complete Profile"
+msgstr "Completar Perfíl"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:39
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:163
+msgid "Create New Address"
+msgstr "Crear nueva dirección"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:63
+msgid "Payments Preference"
+msgstr "Referencias de pago"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:75
+msgid "Close Account"
+msgstr "Cerrar cuenta"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:85
+msgid "Main Address"
+msgstr "Dirección Principal"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:90
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:104
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:129
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:144
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:185
+msgid "Address Line"
+msgstr "Dirección"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:93
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:107
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:132
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:147
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:188
+#: .\siteapp\templates\nexus\profile\profile.html:44
+msgid "Phone"
+msgstr "Teléfono"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:96
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:136
+msgid "Default"
+msgstr "establecer predeterminado"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:111
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:156
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:215
+msgid "No address registered"
+msgstr "No hay direcciones registradas"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:116
+#: .\siteapp\templates\linkzone\index.html:231
+#: .\siteapp\templates\linkzone\stela\base_list.html:27
+msgid "Wish List"
+msgstr "Ver lista"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:117
+msgid "No products registered"
+msgstr "No hay productos registrados"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:151
+msgid "Set Default"
+msgstr "establecer predeterminado"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:169
+msgid "Delete Address"
+msgstr "Borrar Dirección"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:191
+#: .\siteapp\templates\nexus\index.html:147
+#: .\siteapp\templates\nexus\profile\profile.html:106
+msgid "Edit"
+msgstr "Editar máscota"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:192
+msgid "Select Default"
+msgstr "establecer predeterminado"
+
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:228
+#: .\siteapp\templates\linkzone\costumer\profile-center.html:251
+#: .\siteapp\templates\linkzone\costumer\update_profile.html:13
+#: .\siteapp\templates\nexus\booking\appointments.html:23
+#: .\siteapp\templates\nexus\profile\profile.html:13
+#: .\siteapp\templates\nexus\user\issue_center\support.html:12
+msgid "Back"
+msgstr "Atrás"
+
+#: .\siteapp\templates\linkzone\index.html:11
+#: .\siteapp\templates\site\base.html:32
+msgid "Language"
+msgstr "Idioma"
+
+#: .\siteapp\templates\linkzone\index.html:91
+#: .\siteapp\templates\linkzone\index.html:428
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: .\siteapp\templates\linkzone\index.html:91
+msgid "clean"
+msgstr "limpiar"
+
+#: .\siteapp\templates\linkzone\index.html:153
+#: .\siteapp\templates\linkzone\index.html:514
+msgid "You have no notifications"
+msgstr "No tienes notificaciones"
+
+#: .\siteapp\templates\linkzone\index.html:169
+#: .\siteapp\templates\nexus\index.html:65
+msgid "Settings"
+msgstr "Opciones"
+
+#: .\siteapp\templates\linkzone\index.html:173
+msgid "Logout"
+msgstr "Salir"
+
+#: .\siteapp\templates\linkzone\index.html:190
+msgid "SIDEBAR SKINS"
+msgstr "TEMAS DE SIDEBAR"
+
+#: .\siteapp\templates\linkzone\index.html:193
+msgid "HEADER SKINS"
+msgstr "TEMAS DE HEADER"
+
+#: .\siteapp\templates\linkzone\index.html:211
+#: .\siteapp\templates\linkzone\stela\base_list.html:7
+msgid "Purchases"
+msgstr "Compras"
+
+#: .\siteapp\templates\linkzone\index.html:219
+#: .\siteapp\templates\linkzone\stela\base_list.html:15
+msgid "Cloud Services"
+msgstr "Servicios Cloud"
+
+#: .\siteapp\templates\linkzone\index.html:225
+#: .\siteapp\templates\linkzone\stela\base_list.html:21
+#, fuzzy
+#| msgid "Projects"
+msgid "Stela Projects"
+msgstr "Proyectos"
+
+#: .\siteapp\templates\linkzone\index.html:237
+#: .\siteapp\templates\linkzone\stela\base_list.html:33
+#: .\siteapp\templates\nexus\booking\order_detail.html:52
+#: .\siteapp\templates\nexus\index.html:53
+msgid "Support"
+msgstr "Soporte"
+
+#: .\siteapp\templates\linkzone\index.html:257
+#: .\siteapp\templates\nexus\index.html:16
+msgid "Hello"
+msgstr "Hola"
+
+#: .\siteapp\templates\linkzone\index.html:258
+msgid "This is your center panel"
+msgstr "Este es tu panel central"
+
+#: .\siteapp\templates\linkzone\index.html:347
+msgid "Purchase Pending"
+msgstr "Compra pendiente"
+
+#: .\siteapp\templates\linkzone\index.html:361
+#: .\siteapp\templates\linkzone\index.html:403
+#: .\siteapp\templates\linkzone\index.html:405
+msgid "Pay"
+msgstr "Pagos"
+
+#: .\siteapp\templates\linkzone\index.html:370
+msgid "There is no pending purchase"
+msgstr "No hay ninguna compra pendiente"
+
+#: .\siteapp\templates\linkzone\index.html:383
+msgid "Billings"
+msgstr "Cobros"
+
+#: .\siteapp\templates\linkzone\index.html:395
+msgid "Stela Websites"
+msgstr ""
+
+#: .\siteapp\templates\linkzone\index.html:397
+#, fuzzy
+#| msgid "Billing"
+msgid "Cloud Billing"
+msgstr "Cobro"
+
+#: .\siteapp\templates\linkzone\index.html:398
+#, fuzzy
+#| msgid "Monthy Charge"
+msgid "Monthy Charges"
+msgstr "Cargos Mensuales"
+
+#: .\siteapp\templates\linkzone\index.html:415
+#, fuzzy
+#| msgid "There is no pending purchase"
+msgid "There is no pending charges"
+msgstr "No hay ninguna compra pendiente"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:3
+#, fuzzy
+#| msgid "Websites"
+msgid "Your Websites"
+msgstr "Sitios Web"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:5
+msgid "You can see all the information and progress of each of your projects."
+msgstr "Podrás ver toda la información y avances de cada uno de tus proyectos."
+
+#: .\siteapp\templates\linkzone\stela\websites.html:10
+msgid "Price"
+msgstr "Precio"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:11
+msgid "High Price"
+msgstr "Mayor precio"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:12
+msgid "Low Price"
+msgstr "Menor precio"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:14
+msgid "New"
+msgstr "Nuevo"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:15
+msgid "Latest"
+msgstr "Último"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:17
+#: .\siteapp\templates\nexus\booking\appointments.html:131
+msgid "Success"
+msgstr "Exitoso"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:24
+#: .\siteapp\templates\linkzone\stela\websites.html:33
+#: .\siteapp\templates\nexus\booking\order_detail.html:11
+msgid "Order ID"
+msgstr "ID Pedido"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:38
+msgid "Superuser"
+msgstr "Superusuario"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:40
+msgid "Access"
+msgstr "Acceso"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:47
+msgid "Project Progress"
+msgstr "Progreso del proyecto"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:55
+#: .\siteapp\templates\linkzone\stela\websites.html:61
+#: .\siteapp\templates\linkzone\stela\websites.html:67
+#: .\siteapp\templates\linkzone\stela\websites.html:73
+#: .\siteapp\templates\linkzone\stela\websites.html:80
+msgid "Credentials"
+msgstr "Credenciales"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:56
+#: .\siteapp\templates\linkzone\stela\websites.html:62
+#: .\siteapp\templates\linkzone\stela\websites.html:68
+#: .\siteapp\templates\linkzone\stela\websites.html:74
+#: .\siteapp\templates\linkzone\stela\websites.html:81
+msgid "Deploy"
+msgstr "Despliege"
+
+#: .\siteapp\templates\linkzone\stela\websites.html:120
+#, fuzzy
+#| msgid "You have no projects"
+msgid "You have no active projects"
+msgstr "No tienes proyectos"
+
+#: .\siteapp\templates\nexus\base_form.html:5
+#: .\siteapp\templates\nexus\booking\appointments.html:4
+#: .\siteapp\templates\nexus\booking\order_detail.html:3
+#: .\siteapp\templates\nexus\booking\review.html:5
+#: .\siteapp\templates\nexus\index.html:6
+#: .\siteapp\templates\nexus\profile\profile.html:5
+msgid "Club."
+msgstr ""
+
+#: .\siteapp\templates\nexus\base_form.html:5
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "Edit Profile."
+msgstr "Editar perfil"
+
+#: .\siteapp\templates\nexus\base_form.html:11
+#, fuzzy
+#| msgid "Modify Content"
+msgid "Modify your info"
+msgstr "Modifica Contenido"
+
+#: .\siteapp\templates\nexus\base_formset.html:19
+#: .\siteapp\templates\nexus\profile\profile.html:66
+msgid "Add"
+msgstr "Agregar"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:4
+#: .\siteapp\templates\nexus\index.html:29
+msgid "Appointments."
+msgstr ""
+
+#: .\siteapp\templates\nexus\booking\appointments.html:26
+#, fuzzy
+#| msgid "Lobby Content List"
+msgid "Appointment List"
+msgstr "Lista contenido de Lobby"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:27
+msgid "Menu Service Control."
+msgstr ""
+
+#: .\siteapp\templates\nexus\booking\appointments.html:43
+#, fuzzy
+#| msgid "Orders"
+msgid "Order"
+msgstr "Pedidos"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:48
+#, fuzzy
+#| msgid "Orders"
+msgid "Reorder"
+msgstr "Pedidos"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:51
+msgid "Paid"
+msgstr ""
+
+#: .\siteapp\templates\nexus\booking\appointments.html:112
+#, fuzzy
+#| msgid "Website Added."
+msgid "Service Added."
+msgstr "Servicio añadido"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:127
+#: .\siteapp\templates\nexus\booking\order_detail.html:30
+#, fuzzy
+#| msgid "Content Engage"
+msgid "Appointment Date"
+msgstr "Contenido captado"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:142
+#, fuzzy
+#| msgid "Detail"
+msgid "Details"
+msgstr "Detalles"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:147
+#, fuzzy
+#| msgid "Change header"
+msgid "Change Date"
+msgstr "Cambiar Header"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:149
+#, fuzzy
+#| msgid "Update Review"
+msgid "Make Review"
+msgstr "Actualizar reseña"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:163
+#, fuzzy
+#| msgid "Search Case"
+msgid "Search your date"
+msgstr "Buscar caso"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:173
+#, fuzzy
+#| msgid "Checkout"
+msgid "Check Date"
+msgstr "Pasarela de pago"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:193
+#, fuzzy
+#| msgid "Domain Available"
+msgid "No Appointments Available"
+msgstr "Dominio disponible"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:202
+msgid "No Date Selected!"
+msgstr ""
+
+#: .\siteapp\templates\nexus\booking\appointments.html:211
+#, fuzzy
+#| msgid "Domain Available"
+msgid "Date Available"
+msgstr "Dominio disponible"
+
+#: .\siteapp\templates\nexus\booking\appointments.html:243
+#, fuzzy
+#| msgid "You have no scheduled posts"
+msgid "You don't have any scheduled appointment"
+msgstr "No tienes publicaciones programadas"
+
+#: .\siteapp\templates\nexus\booking\order_detail.html:3
+#, fuzzy
+#| msgid "Detail"
+msgid "Details."
+msgstr "Detalles"
+
+#: .\siteapp\templates\nexus\booking\order_detail.html:8
+#, fuzzy
+#| msgid "Our Services"
+msgid "Order Service"
+msgstr "Nuestros Servicios"
+
+#: .\siteapp\templates\nexus\booking\order_detail.html:19
+msgid "Recipt"
+msgstr "Recibo"
+
+#: .\siteapp\templates\nexus\booking\order_detail.html:22
+#, fuzzy
+#| msgid "Payeer"
+msgid "Payeer Name"
+msgstr "Pagador"
+
+#: .\siteapp\templates\nexus\booking\order_detail.html:26
+#, fuzzy
+#| msgid "Payment Import"
+msgid "Payment Option"
+msgstr "Importe del pago"
+
+#: .\siteapp\templates\nexus\booking\order_detail.html:42
+#, fuzzy
+#| msgid "Transaction ID"
+msgid "Transaction Fee"
+msgstr "ID de transacción"
+
+#: .\siteapp\templates\nexus\booking\order_detail.html:46
+#, fuzzy
+#| msgid "Total Pay"
+msgid "Total Paid"
+msgstr "Total Pagado"
+
+#: .\siteapp\templates\nexus\booking\order_detail.html:70
+#, fuzzy
+#| msgid "Pet Breed"
+msgid "Pet Card"
+msgstr "Raza de la mascota"
+
+#: .\siteapp\templates\nexus\booking\review.html:5
+msgid "Reviews."
+msgstr "Reseñas"
+
+#: .\siteapp\templates\nexus\booking\review.html:10
+msgid "Give us your opinion, for us it is very important"
+msgstr ""
+
+#: .\siteapp\templates\nexus\booking\review.html:13
+#, fuzzy
+#| msgid "Service Report"
+msgid "Service to rate"
+msgstr "Reporte de servicio"
+
+#: .\siteapp\templates\nexus\booking\review.html:17
+#: .\siteapp\templates\nexus\index.html:83
+msgid "Service"
+msgstr "Servicio"
+
+#: .\siteapp\templates\nexus\booking\review.html:21
+msgid "Description"
+msgstr "Descripción"
+
+#: .\siteapp\templates\nexus\booking\review.html:29
+msgid "You can also give us your review on"
+msgstr ""
+
+#: .\siteapp\templates\nexus\booking\review.html:32
+msgid "Yelp"
+msgstr ""
+
+#: .\siteapp\templates\nexus\booking\review.html:48
+#, fuzzy
+#| msgid "Your Name is?"
+msgid "Your rate?"
+msgstr "¿Tu nombre es?"
+
+#: .\siteapp\templates\nexus\booking\review.html:60
+#, fuzzy
+#| msgid "Update Review"
+msgid "Send Review"
+msgstr "Actualizar reseña"
+
+#: .\siteapp\templates\nexus\index.html:6
+msgid "Enjoy."
+msgstr ""
+
+#: .\siteapp\templates\nexus\index.html:16
+msgid "welcome to the Mimopaws Club."
+msgstr ""
+
+#: .\siteapp\templates\nexus\index.html:18
+#, fuzzy
+#| msgid "In this section you can manage all your services to your pets."
+msgid "In this section you can manage all your services to your pets."
+msgstr ""
+"En esta sección puedes personalizar tus direcciones y tus datos personales."
+
+#: .\siteapp\templates\nexus\index.html:41
+msgid "Club Points."
+msgstr ""
+
+#: .\siteapp\templates\nexus\index.html:75
+#, fuzzy
+#| msgid "Edit Recipt"
+msgid "Pending Checkout"
+msgstr "Editar Recibo"
+
+#: .\siteapp\templates\nexus\index.html:84
+#, fuzzy
+#| msgid "Parent"
+msgid "Pet"
+msgstr "Principal"
+
+#: .\siteapp\templates\nexus\index.html:85
+#, fuzzy
+#| msgid "Billing Date"
+msgid "Booking Date"
+msgstr "Fecha de Cobro"
+
+#: .\siteapp\templates\nexus\index.html:86
+#, fuzzy
+#| msgid "Section"
+msgid "Action"
+msgstr "Seccion"
+
+#: .\siteapp\templates\nexus\index.html:96
+msgid "No date selected"
+msgstr ""
+
+#: .\siteapp\templates\nexus\index.html:111
+#, fuzzy
+#| msgid "Site Charges"
+msgid "Site News"
+msgstr "Por pagar"
+
+#: .\siteapp\templates\nexus\index.html:120
+msgid "Sections of interest"
+msgstr ""
+
+#: .\siteapp\templates\nexus\index.html:143
+#, fuzzy
+#| msgid "Customer Data"
+msgid "No Data"
+msgstr "Datos del Cliente"
+
+#: .\siteapp\templates\nexus\index.html:149
+#, fuzzy
+#| msgid "Update Path"
+msgid "Update Pet"
+msgstr "Actualizar Integración"
+
+#: .\siteapp\templates\nexus\index.html:150
+#: .\siteapp\templates\nexus\profile\profile.html:29
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "Update Profile"
+msgstr "Editar perfil"
+
+#: .\siteapp\templates\nexus\index.html:153
+#, fuzzy
+#| msgid "Payment Complete Successfully"
+msgid "Remove completed successfully"
+msgstr "Pago efectuado exitosamente"
+
+#: .\siteapp\templates\nexus\profile\profile.html:5
+#, fuzzy
+#| msgid "Profile Pic"
+msgid "Profile."
+msgstr "Foto de perfíl"
+
+#: .\siteapp\templates\nexus\profile\profile.html:16
+#, fuzzy
+#| msgid "Profile Pic"
+msgid "Profile"
+msgstr "Foto de perfíl"
+
+#: .\siteapp\templates\nexus\profile\profile.html:36
+msgid "Name"
+msgstr "Nombre"
+
+#: .\siteapp\templates\nexus\profile\profile.html:40
+msgid "Email"
+msgstr ""
+
+#: .\siteapp\templates\nexus\profile\profile.html:65
+msgid "My Pets"
+msgstr ""
+
+#: .\siteapp\templates\nexus\profile\profile.html:77
+#, fuzzy
+#| msgid "You have no posts made"
+msgid "You have no pets added"
+msgstr "No tienes publicaciones"
+
+#: .\siteapp\templates\nexus\profile\profile.html:91
+#, fuzzy
+#| msgid "Name"
+msgid "Pet Name"
+msgstr "Nombre"
+
+#: .\siteapp\templates\nexus\profile\profile.html:95
+msgid "Weight"
+msgstr ""
+
+#: .\siteapp\templates\nexus\profile\profile.html:99
+#, fuzzy
+#| msgid "Pet Breed"
+msgid "Breed"
+msgstr "Raza de la mascota"
+
+#: .\siteapp\templates\nexus\profile\profile.html:121
+#, fuzzy
+#| msgid "New Post"
+msgid "New Pet"
+msgstr "Nueva publicación"
+
+#: .\siteapp\templates\nexus\profile\profile.html:143
+msgid "Update Catalog Form"
+msgstr "Actualizar formulario de catálogo"
+
+#: .\siteapp\templates\nexus\profile\profile.html:179
+msgid "Are you sure?"
+msgstr "¿Estas seguro?"
+
+#: .\siteapp\templates\nexus\profile\profile.html:186
+#, fuzzy
+#| msgid "This option cannot be reversed!"
+msgid "This option cannot be reversed"
+msgstr "¡Esta opción no se puede revertir!"
+
+#: .\siteapp\templates\nexus\user\issue_center\create_case.html:9
+#, fuzzy
+#| msgid "Support Case"
+msgid "Support New Case"
+msgstr "Caso de Soporte"
+
+#: .\siteapp\templates\nexus\user\issue_center\create_case.html:10
+msgid "You are issues with order No."
+msgstr ""
+
+#: .\siteapp\templates\nexus\user\issue_center\create_case.html:10
+msgid "A new case will be generated."
+msgstr ""
+
+#: .\siteapp\templates\nexus\user\issue_center\support.html:48
+#, fuzzy
+#| msgid "Support"
+msgid "Tech Support."
+msgstr "Soporte"
+
+#: .\siteapp\templates\nexus\user\issue_center\update_support.html:89
+#, fuzzy
+#| msgid "In the next few hours we will be giving you an answer"
+msgid ""
+"In the next few hours we will be giving you an answer, we appreciate all "
+"your patience and trust."
+msgstr "En las próximas horas les estaremos dando respuesta"
+
+#: .\siteapp\templates\site\index.html:120
+msgid "Home"
+msgstr "Inicio"
+
+#: .\siteapp\templates\site\index.html:121
+msgid "About"
+msgstr "Nosotros"
+
+#: .\siteapp\templates\site\index.html:122
+msgid "Services"
+msgstr "Servicios"
+
+#: .\siteapp\templates\site\index.html:123
+#: .\siteapp\templates\site\index.html:982
+#: .\siteapp\templates\site\index.html:984
+msgid "Projects"
+msgstr "Proyectos"
+
+#: .\siteapp\templates\site\index.html:124
+msgid "Blog"
+msgstr "Blog"
+
+#: .\siteapp\templates\site\index.html:944
+#, fuzzy
+#| msgid "Complete Info"
+msgid "More Info"
+msgstr "Completar Info"
+
+#: .\siteapp\templates\site\index.html:980
+msgid "Our Portofolio"
+msgstr "Nuestro portafolio"
+
+#: .\siteapp\templates\site\index.html:984
+msgid "See Our Recent"
+msgstr "Vea nuestro reciente"
+
+#: .\siteapp\templates\site\index.html:1017
+#: .\siteapp\templates\site\index.html:1030
+#: .\siteapp\templates\site\index.html:1043
+#: .\siteapp\templates\site\index.html:1056
+msgid "Website"
+msgstr "Sitio web"
+
+#: .\siteapp\templates\site\index.html:1018
+#: .\siteapp\templates\site\index.html:1031
+#: .\siteapp\templates\site\index.html:1044
+#: .\siteapp\templates\site\index.html:1057
+msgid "Content Tag"
+msgstr "Contenido"
+
+#: .\siteapp\templates\site\index.html:1093
+msgid "Recent News"
+msgstr "Noticias del sitio"
+
+#: .\siteapp\templates\site\index.html:1094
+msgid "Check Our"
+msgstr "Revisa nuestras"
+
+#: .\siteapp\templates\site\index.html:1094
+msgid "Posts"
+msgstr "Publicaciones"
+
+#: .\siteapp\templates\site\index.html:1110
+#: .\siteapp\templates\site\index.html:1112
+msgid "By"
+msgstr "Por"
+
+#: .\siteapp\templates\site\index.html:1114
+#: .\siteapp\templates\site\index.html:1129
+#: .\siteapp\templates\site\index.html:1148
+msgid "Discover More"
+msgstr "Descubrir más"
+
+#: .\siteapp\templates\site\index.html:1123
+msgid "New Post Created"
+msgstr "Nueva publicación"
+
+#: .\siteapp\templates\site\index.html:1128
+msgid "By: Andrea Mentuzi"
+msgstr "Por: Andrea Mentuzi"
+
+#: .\siteapp\templates\site\index.html:1159
+#: .\siteapp\templates\site\index.html:1172
+#: .\siteapp\templates\site\index.html:1185
+msgid "Main Post"
+msgstr "Titular de la publicación"
+
+#: .\siteapp\templates\site\index.html:1160
+#: .\siteapp\templates\site\index.html:1173
+#: .\siteapp\templates\site\index.html:1186
+msgid "a ten minutes ago"
+msgstr "hace diez minutos"
+
+#: .\siteapp\templates\site\index.html:1162
+#: .\siteapp\templates\site\index.html:1175
+#: .\siteapp\templates\site\index.html:1188
+msgid "Discover more"
+msgstr "Descubrir más"
+
+#: .\siteapp\templates\site\index.html:1747
+msgid "A division of"
+msgstr "Una división de"
+
+#: .\siteapp\templates\site\index.html:1747
+msgid "we invite you to discover more"
+msgstr "te invitamos a descubrir más"
+
+#: .\siteapp\templates\site\index.html:1800
+msgid "Site Sections"
+msgstr "Secciones del sitio"
+
+#: .\siteapp\templates\site\index.html:1804
+msgid "Our Services"
+msgstr "Nuestros Servicios"
+
+#: .\siteapp\templates\site\index.html:1805
+msgid "Projects portfolio"
+msgstr "Portafolio de proyectos"
+
+#: .\siteapp\templates\site\index.html:1808
+msgid "Terms & Conditions"
+msgstr "Términos"
+
+#: .\siteapp\templates\site\index.html:1809
+msgid "Privacy Policies"
+msgstr "Políticas de Privacidad"
+
+#: .\siteapp\templates\site\index.html:1810
+msgid "Last Blogs"
+msgstr "Últimos Post"
+
+#: .\siteapp\templates\site\index.html:1813
+msgid "Emmerut F.A.Q."
+msgstr "Emmerut P.F.C"
+
+#: .\siteapp\templates\site\index.html:1820
+msgid "Locations"
+msgstr "Ubicaciones"
+
+#: .\siteapp\templates\site\index.html:1836
+msgid "All Rights Reserved"
+msgstr "Todos los derechos reservados"
+
+#: .\siteapp\templates\site\index.html:1848
+msgid "Sending..."
+msgstr "Envíando..."
+
+#: .\siteapp\templates\site\index.html:1850
+#, fuzzy
+#| msgid "Write here..."
+msgid "Answer text here..."
+msgstr "Escribe Aqui..."
+
+#: .\templates\stela_editor\main.html:3778
+#, fuzzy
+#| msgid "Billing Date"
+msgid "Booking date"
+msgstr "Fecha de Cobro"
+
+#: .\templates\stela_editor\main.html:4440
+msgid "All Rights Reserved."
+msgstr "Todos los derechos reservados"
+
+#, fuzzy
+#~| msgid "Username Already Exists."
+#~ msgid "This username already exists"
+#~ msgstr "Nombre de usuario ya existe."
+
+#~ msgid "special characters not accepted"
+#~ msgstr "No se aceptan caracteres especiales."
+
+#, fuzzy
+#~| msgid "Username Already Exists."
+#~ msgid "This phone number already exists"
+#~ msgstr "Nombre de usuario ya existe."
+
+#~ msgid "The phone number must be in format eg: +1654123456."
+#~ msgstr ""
+#~ "El número de teléfono debe estar en formato, por ejemplo: +1654123456."
+
+#, fuzzy
+#~| msgid "At least 8 alphanumeric characters and one special"
+#~ msgid ""
+#~ "Password must contain only alphanumeric characters and some special "
+#~ "characters"
+#~ msgstr "Al menos 8 caracteres alfanuméricos y uno especial"
+
+#~ msgid "Password must contain at least one letter"
+#~ msgstr "La contraseña debe contener al menos una letra."
+
+#, fuzzy
+#~| msgid "Password Reset"
+#~ msgid "Password_mismatch."
+#~ msgstr "Recuperacion de Contraseña"
+
+#, fuzzy
+#~| msgid "Please enter a valid email"
+#~ msgid "Please enter a valid email."
+#~ msgstr "Por favor introduzca una dirección de correo electrónico válida"
+
+#~ msgid "Only this format is allowed (+123456789)"
+#~ msgstr "Solo se permite este formato (+123456789)"
+
+#~ msgid "This phonenumber is not valid"
+#~ msgstr "Este número de teléfono no es válido"
+
+#~ msgid "Special characters are not allowed."
+#~ msgstr "No se permiten caracteres especiales."
+
+#, fuzzy
+#~| msgid "No Emails registered"
+#~ msgid "Email is required."
+#~ msgstr "No hay correos"
+
+#, fuzzy
+#~| msgid "This email is already registered"
+#~ msgid "This email is already subscribed."
+#~ msgstr "No hay correos"
+
+#~ msgid "To Email"
+#~ msgstr "Email"
+
+#~ msgid "Client or Brand"
+#~ msgstr "Cliente o Marca"
+
+#~ msgid "Report"
+#~ msgstr "Informe"
+
+#~ msgid "woman"
+#~ msgstr "mujer"
+
+#~ msgid "male"
+#~ msgstr "masculino"
+
+#~ msgid "curvy"
+#~ msgstr "curvilínea"
+
+#~ msgid "kids"
+#~ msgstr "niños"
+
+#~ msgid "furniture"
+#~ msgstr "muebles"
+
+#~ msgid "Select Type"
+#~ msgstr "Seleccionar tipo"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Required"
+#~ msgstr "Requerido"
+
+#~ msgid "Product"
+#~ msgstr "Productos"
+
+#~ msgid "No Required"
+#~ msgstr "No Requerido"
+
+#~ msgid "Image"
+#~ msgstr "Imagen"
+
+#~ msgid "Quantity"
+#~ msgstr "Cantidad"
+
+#~ msgid "Updated"
+#~ msgstr "Actualizado"
+
+#~ msgid "Bulletpoint"
+#~ msgstr "Punto de interes"
+
+#~ msgid "size"
+#~ msgstr "tamaño"
+
+#~ msgid "Catalogue Title"
+#~ msgstr "Titulo Catálogo"
+
+#~ msgid "Product Detail"
+#~ msgstr "Detalle de producto"
+
+#~ msgid "Product Description"
+#~ msgstr "Descripción de producto"
+
+#~ msgid "Draft"
+#~ msgstr "Borrador"
+
+#~ msgid "Publish"
+#~ msgstr "Publicar"
+
+#~ msgid "Message"
+#~ msgstr "Mensaje"
+
+#~ msgid "Costumer ID"
+#~ msgstr "ID de Cliente"
+
+#~ msgid "phone_number"
+#~ msgstr "Numero de Teléfono"
+
+#, fuzzy
+#~| msgid "Budget"
+#~ msgid "Budget Design"
+#~ msgstr "Presupuesto"
+
+#, fuzzy
+#~| msgid "Budget amount"
+#~ msgid "Budget Marketing"
+#~ msgstr "Monto del saldo"
+
+#, fuzzy
+#~| msgid "Development Path"
+#~ msgid "Budget Development"
+#~ msgstr "Paso a paso"
+
+#~ msgid "Billing receipt"
+#~ msgstr "Recibo de cobro"
+
+#~ msgid "Monthly charge"
+#~ msgstr "Cobro Mensual"
+
+#~ msgid "Others"
+#~ msgstr "otros"
+
+#~ msgid "Qty"
+#~ msgstr "Cantidad"
+
+#~ msgid "Restaurants and Food Services"
+#~ msgstr "Restaurantes y Servicios de Alimentos"
+
+#~ msgid "Consulting"
+#~ msgstr "Consultoría"
+
+#~ msgid "Health and Wellness"
+#~ msgstr "Salud y Bienestar"
+
+#~ msgid "IT Development Services"
+#~ msgstr "Servicios de Desarrollo de Tecnología de la Información"
+
+#~ msgid "Education and Training"
+#~ msgstr "Educación y Formación"
+
+#~ msgid "Marketing and Advertising Services"
+#~ msgstr "Servicios de Marketing y Publicidad"
+
+#~ msgid "Beauty and Personal Care Services"
+#~ msgstr "Servicios de Belleza y Cuidado Personal"
+
+#~ msgid "Repair and Maintenance Services"
+#~ msgstr "Servicios de Reparación y Mantenimiento"
+
+#~ msgid "Logistics and Transportation Services"
+#~ msgstr "Servicios de Logística y Transporte"
+
+#~ msgid "Media Creators"
+#~ msgstr "Creador de Contenido"
+
+#~ msgid "Startup Name"
+#~ msgstr "Nombre del Negocio"
+
+#~ msgid "Business Type"
+#~ msgstr "Tipo de Negocio"
+
+#~ msgid "Brand Logo"
+#~ msgstr "Logotipo"
+
+#, fuzzy
+#~| msgid "Contact"
+#~ msgid "Contact email"
+#~ msgstr "Contacto"
+
+#~ msgid "Communications"
+#~ msgstr "Comunicaciones"
+
+#~ msgid "Sweet Content"
+#~ msgstr "Contenido"
+
+#~ msgid "Users Control"
+#~ msgstr "Control de Usuario"
+
+#~ msgid "Inventory"
+#~ msgstr "Inventario"
+
+#~ msgid "Operations"
+#~ msgstr "Operaciones"
+
+#~ msgid "Maintance"
+#~ msgstr "Mantenimiento"
+
+#~ msgid "Speed"
+#~ msgstr "Velocidad"
+
+#~ msgid "Workflow"
+#~ msgstr "Flujo de trabajo"
+
+#~ msgid "card-tale"
+#~ msgstr "tarjeta-Turquesa"
+
+#~ msgid "card-dark-blue"
+#~ msgstr "tarjeta-azul-obscuro"
+
+#~ msgid "card-light-blue"
+#~ msgstr "tarjeta-azul-celeste"
+
+#~ msgid "card-light-danger"
+#~ msgstr "tarjeta-rojo-suave"
+
+#~ msgid "Color Card"
+#~ msgstr "Color Tarjeta"
+
+#~ msgid "Path Title"
+#~ msgstr "Titulo de Integración"
+
+#~ msgid "App Title"
+#~ msgstr "Titulo App"
+
+#~ msgid "Tag"
+#~ msgstr "Etiqueta"
+
+#~ msgid "Side tag"
+#~ msgstr "Etiqueta"
+
+#~ msgid "Engage"
+#~ msgstr "Enganche"
+
+#~ msgid "Bullet"
+#~ msgstr "Puntos de interés"
+
+#~ msgid "Content Bullet"
+#~ msgstr "Contenido de Puntos"
+
+#~ msgid "Awnser 1"
+#~ msgstr "Respuesta 1"
+
+#~ msgid "Awnser 2"
+#~ msgstr "Respuesta 2"
+
+#~ msgid "Awnser 3"
+#~ msgstr "Respuesta 3"
+
+#~ msgid "Awnser 4"
+#~ msgstr "Respuesta 4"
+
+#~ msgid "Awnser 5"
+#~ msgstr "Respuesta 5"
+
+#~ msgid "Style Template 1"
+#~ msgstr "Estilo de plantilla 1"
+
+#~ msgid "Style Template 2"
+#~ msgstr "Estilo de plantilla 2"
+
+#~ msgid "Style Template 3"
+#~ msgstr "Estilo de plantilla 3"
+
+#~ msgid "Style Template 4"
+#~ msgstr "Estilo de plantilla 4"
+
+#~ msgid "Style"
+#~ msgstr "Estilo"
+
+#, fuzzy
+#~| msgid "Full Name"
+#~ msgid "Staff Full Name"
+#~ msgstr "Nombre"
+
+#~ msgid "Staff"
+#~ msgstr "Personal"
+
+#, fuzzy
+#~| msgid "Type of Post"
+#~ msgid "Type of Wallet"
+#~ msgstr "Tipo de publicación"
+
+#~ msgid "Completed"
+#~ msgstr "Completado"
+
+#, fuzzy
+#~| msgid "Site Media"
+#~ msgid "Site Legal"
+#~ msgstr "Multimedia"
+
+#, fuzzy
+#~| msgid "Load Legal"
+#~ msgid "App Legal"
+#~ msgstr "Cargar Documento Legal"
+
+#, fuzzy
+#~| msgid "Privacy Policies"
+#~ msgid "Privacy Policy"
+#~ msgstr "Políticas de Privacidad"
+
+#~ msgid "Cookie Policy"
+#~ msgstr "Políticas de Cookies"
+
+#~ msgid "Terms and Conditions"
+#~ msgstr "Términos"
+
+#~ msgid "Return Policy"
+#~ msgstr "Políticas de retornos"
+
+#~ msgid "Disclaimer"
+#~ msgstr "Reclamos"
+
+#, fuzzy
+#~| msgid "Billings"
+#~ msgid "Billing Terms"
+#~ msgstr "Cobros"
+
+#~ msgid "Monthly Billing Terms"
+#~ msgstr "Términos de Facturación Mensual"
+
+#~ msgid "Budget Design Terms"
+#~ msgstr "Términos de Diseño de Presupuesto"
+
+#~ msgid "Budget Marketing Terms"
+#~ msgstr "Términos de Presupuesto de Marketing"
+
+#~ msgid "Budget Development Terms"
+#~ msgstr "Términos de Presupuesto de Desarrollo"
+
+#~ msgid "Clause"
+#~ msgstr "Cláusula"
+
+#, fuzzy
+#~| msgid "I have a problem with my subscription"
+#~ msgid "I have a problem with my project"
+#~ msgstr "Tengo un problema con mi subscripcion"
+
+#~ msgid "My delivery has been delayed"
+#~ msgstr "Mi entrega esta retrasada"
+
+#~ msgid "I have a problem with my subscription"
+#~ msgstr "Tengo un problema con mi subscripcion"
+
+#~ msgid "My account has an error"
+#~ msgstr "Mi cuenta tiene un error"
+
+#~ msgid "Payments Issue"
+#~ msgstr "Problema con los pagos"
+
+#~ msgid "Responsibility commitment"
+#~ msgstr "Compromiso de responsabilidad"
+
+#~ msgid "Brief description"
+#~ msgstr "Descripción"
+
+#~ msgid "Image (optional)"
+#~ msgstr "Imagen"
+
+#~ msgid "Answer"
+#~ msgstr "Responder"
+
+#~ msgid "Answered"
+#~ msgstr "Respondido"
+
+#~ msgid "No Answered"
+#~ msgstr "No Respondido"
+
+#, fuzzy
+#~| msgid "Respond"
+#~ msgid "Response"
+#~ msgstr "Responder"
+
+#~ msgid "Dog"
+#~ msgstr "Perro"
+
+#~ msgid "Short Coat Breeds"
+#~ msgstr "Razas de pelo corto"
+
+#~ msgid "Wire Coat Breeds"
+#~ msgstr "Razas de pelo alambre"
+
+#~ msgid "Soft Coat Breeds"
+#~ msgstr "Razas de pelo suave"
+
+#~ msgid "Double Coat Breeds"
+#~ msgstr "Razas de doble capa de pelo"
+
+#~ msgid "Doodles Breeds"
+#~ msgstr "Razas de Doodles"
+
+#~ msgid "Pet's name"
+#~ msgstr "Nombre de la mascota"
+
+#~ msgid "Pet Family"
+#~ msgstr "Familia de la mascota"
+
+#~ msgid "Choose Please"
+#~ msgstr "Por Favor Elige"
+
+#~ msgid "It's Allergic?"
+#~ msgstr "¿Es Alérgico?"
+
+#~ msgid "Product React"
+#~ msgstr "Producto que causa la alergia"
+
+#~ msgid "Weght LBS"
+#~ msgstr "Peso en libras"
+
+#, fuzzy
+#~| msgid "Price USD"
+#~ msgid "Regular price USD"
+#~ msgstr "Precio USD"
+
+#, fuzzy
+#~| msgid "Maximun 999.99"
+#~ msgid "Maximun 999.99"
+#~ msgstr "Máximo 999.99"
+
+#, fuzzy
+#~| msgid "The price must be between 0 and 9999.99"
+#~ msgid "The price must be between 0 and 999.99"
+#~ msgstr "El precio debe oscilar entre 0 y 9999.99"
+
+#~ msgid "Created at"
+#~ msgstr "Creado"
+
+#~ msgid "Facebook Post"
+#~ msgstr "Publicación de Facebook"
+
+#~ msgid "Private"
+#~ msgstr "Privado"
+
+#~ msgid "Public"
+#~ msgstr "Publicar"
+
+#~ msgid "Group"
+#~ msgstr "Grupo"
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "Community"
+#~ msgstr "Comentarios"
+
+#~ msgid "Friends"
+#~ msgstr "Amigos"
+
+#~ msgid "Work Company"
+#~ msgstr "Compañía de Trabajo"
+
+#~ msgid "Scheduled"
+#~ msgstr "Programado"
+
+#~ msgid "Cancel Event"
+#~ msgstr "Cancelar Evento"
+
+#~ msgid "Online"
+#~ msgstr "En Linea"
+
+#~ msgid "Select Category"
+#~ msgstr "Seleccionar Categoría"
+
+#~ msgid "Classic Literature"
+#~ msgstr "Literatura Clásica"
+
+#~ msgid "Comedy"
+#~ msgstr "Comedia"
+
+#~ msgid "Crafts"
+#~ msgstr "Artesanías"
+
+#~ msgid "Dance"
+#~ msgstr "Danza"
+
+#~ msgid "Drinks"
+#~ msgstr "Bebidas"
+
+#~ msgid "Fitness & Workouts"
+#~ msgstr "Fitness & Entrenamientos"
+
+#~ msgid "Foods"
+#~ msgstr "Comidas"
+
+#~ msgid "Games"
+#~ msgstr "Juegos"
+
+#~ msgid "Gardening"
+#~ msgstr "Jardinería"
+
+#~ msgid "Health & Medical"
+#~ msgstr "Salud y Medicina"
+
+#~ msgid "Healthy Living & Self Care"
+#~ msgstr "Vida Saludable y Autocuidado"
+
+#~ msgid "Home & Garden"
+#~ msgstr "Hogar y Jardín"
+
+#~ msgid "Music & Audio"
+#~ msgstr "Musica y Audío"
+
+#~ msgid "Parties"
+#~ msgstr "Fiestas"
+
+#~ msgid "Professional Networking"
+#~ msgstr "Redes Profesionales"
+
+#~ msgid "Religions"
+#~ msgstr "Religiones"
+
+#~ msgid "Shopping Event"
+#~ msgstr "Evento de Compras"
+
+#~ msgid "Social Issues"
+#~ msgstr "Asuntos sociales"
+
+#~ msgid "Sports"
+#~ msgstr "Deportes"
+
+#~ msgid "Theater"
+#~ msgstr "Teatro"
+
+#~ msgid "Tv & Movies"
+#~ msgstr "Televisión y Peliculas"
+
+#~ msgid "Visual Arts"
+#~ msgstr "Artes Visuales"
+
+#~ msgid "Page Share"
+#~ msgstr "Compartido"
+
+#~ msgid "Page Likes"
+#~ msgstr "Me gusta"
+
+#~ msgid "POST"
+#~ msgstr "Publicación"
+
+#~ msgid "Carousel"
+#~ msgstr "Carrusel"
+
+#, fuzzy
+#~ msgid "Stories"
+#~ msgstr "Historias"
+
+#, fuzzy
+#~| msgid "Draft"
+#~ msgid "draft"
+#~ msgstr "Borrador"
+
+#~ msgid "Post"
+#~ msgstr "Publicaciones"
+
+#~ msgid "These characters are not allowed (<, >, /, \\, &=)"
+#~ msgstr "Estos caracteres no están permitidos (<, >, /, \\, &=)"
+
+#, fuzzy
+#~| msgid "Changes made successfully"
+#~ msgid "Page added successfully"
+#~ msgstr "Cambios realizados con éxito"
+
+#~ msgid "only letters allowed (upper and lower case)"
+#~ msgstr "Solo se permiten letras (mayúsculas y minúsculas)"
+
+#~ msgid "Register validated, Welcome."
+#~ msgstr "Registro validado, bienvenido."
+
+#~ msgid "Legal provision"
+#~ msgstr "Disposiciones legales"
+
+#~ msgid "Post cannot be processed due to invalid user tagging"
+#~ msgstr ""
+#~ "La publicación no puede ser procesada debido a un etiquetado de usuario "
+#~ "inválido."
+
+#~ msgid "Your post will be active check here in a minute"
+#~ msgstr "Tu publicación estará activa, revisa aquí en un minuto."
+
+#~ msgid "Your post will be archived in draft"
+#~ msgstr "Tu publicación será archivada en borradores."
+
+#~ msgid "Your content grid was sent successfully"
+#~ msgstr "Tu grid de contenido fue enviada con éxito."
+
+#~ msgid "Male"
+#~ msgstr "Masculino"
+
+#~ msgid "Female"
+#~ msgstr "Femenino"
+
+#~ msgid "Reach"
+#~ msgstr "Alcance"
+
+#~ msgid "New followers"
+#~ msgstr "Nuevos seguidores"
+
+#~ msgid "Link Click"
+#~ msgstr "Clic en el enlace"
+
+#~ msgid "Profile visits"
+#~ msgstr "Visitas al perfil"
+
+#~ msgid "Impressions (Content Views)"
+#~ msgstr "Impresiones (Vistas de contenido)"
+
+#~ msgid "Instagram upload successfull"
+#~ msgstr "Carga exitosa en Instagram"
+
+#~ msgid "Your IG Analyzer was sent successfully"
+#~ msgstr "Tu analizador de IG fue enviado exitosamente"
+
+#~ msgid "Cloud Init Complete"
+#~ msgstr "Instalación de nube completada"
+
+#~ msgid "Finished cloud architecture"
+#~ msgstr "Arquitectura de nube finalizada"
+
+#~ msgid "Path Project"
+#~ msgstr "Ruta del Proyecto"
+
+#~ msgid "Your Zone DNS is ready"
+#~ msgstr "Tu Zona DNS está lista"
+
+#~ msgid "Host Active"
+#~ msgstr "Host Activo"
+
+#~ msgid "Your credentials are set"
+#~ msgstr "Tus credenciales están establecidas"
+
+#~ msgid "Stela account are created"
+#~ msgstr "Su cuenta de Stela ha sido creada."
+
+#~ msgid "Project Ready"
+#~ msgstr "Proyecto Listo"
+
+#~ msgid "Deploy complete"
+#~ msgstr "Despliegue completado"
+
+#~ msgid "Your case has been answered"
+#~ msgstr "Tu caso ha sido respondido"
+
+#~ msgid "Support Case Reply"
+#~ msgstr "Respuesta al Caso de Soporte"
+
+#~ msgid "Cancellation request successful"
+#~ msgstr "Factura pagada exitosamente"
+
+#~ msgid "The client is not in your records."
+#~ msgstr "El cliente no está en sus registros."
+
+#~ msgid "Please, fill at least one RECIPT CHARGES to continue"
+#~ msgstr "Por favor, complete al menos un RECIBO DE CARGO para continuar"
+
+#~ msgid "Please, Fill all CUSTOMER DATA fields to continue"
+#~ msgstr ""
+#~ "Por favor, Rellene todos los campos de DATOS DEL CLIENTE para continuar"
+
+#~ msgid "This budget is registered"
+#~ msgstr "Este presupuesto está registrado"
+
+#~ msgid "Budget Generated Successfully"
+#~ msgstr "Presupuesto generado con éxito"
+
+#~ msgid "This invoice is registered"
+#~ msgstr "Esta factura está registrada"
+
+#~ msgid "invoice Generated Successfully"
+#~ msgstr "Factura generada con exito"
+
+#~ msgid "Recipt sent successfully"
+#~ msgstr "Recibo generado con éxito"
+
+#~ msgid "Sorry, you have some errors, please correct them."
+#~ msgstr "Lo siento, tienes algunos errores, por favor corrígelos"
+
+#~ msgid "Username"
+#~ msgstr "Usuario"
+
+#~ msgid "(Required)"
+#~ msgstr "(Requerido)"
+
+#~ msgid "Register"
+#~ msgstr "Registro"
+
+#, fuzzy
+#~| msgid "You do not have an account?"
+#~ msgid " Already have an account?"
+#~ msgstr "¿Aun no tienes cuenta?"
+
+#~ msgid "Log in."
+#~ msgstr "Ingresar"
+
+#~ msgid "Error: invalid password"
+#~ msgstr "Error, contraseña incorrecta"
+
+#~ msgid "It must contain at least 8 characters (alphanumeric and special)"
+#~ msgstr "Debe contener al menos 8 caracteres (alfanuméricos y especiales)"
+
+#~ msgid "Log-In"
+#~ msgstr "Ingresar"
+
+#~ msgid ""
+#~ "The password reset link was invalid, possibly because it has already been "
+#~ "used.  Please request a new password reset."
+#~ msgstr ""
+#~ "El enlace de restablecimiento de contraseña no era válido, posiblemente "
+#~ "porque ya se hausado. Solicite un nuevo restablecimiento de contraseña."
+
+#~ msgid "Sorry, you have some errors in your request, please correct them."
+#~ msgstr "Lo siento, tienes algunos errores, por favor corrígelos"
+
+#~ msgid "Our Website is now "
+#~ msgstr "Nuestro sitio web ya está"
+
+#~ msgid "under"
+#~ msgstr "bajo"
+
+#~ msgid "construction."
+#~ msgstr "construcción."
+
+#~ msgid "Stay Tuned For Something "
+#~ msgstr "Estén atentos para algo"
+
+#~ msgid "Amazing"
+#~ msgstr "Asombroso"
+
+#~ msgid "Get on board. Join Us."
+#~ msgstr "Suban a bordo. Únete a nosotros."
+
+#~ msgid "Years"
+#~ msgstr "Años"
+
+#~ msgid "Months"
+#~ msgstr "Meses"
+
+#~ msgid "Weeks"
+#~ msgstr "Semanas"
+
+#~ msgid "Days"
+#~ msgstr "Días"
+
+#~ msgid "Minutes"
+#~ msgstr "Minutos"
+
+#~ msgid "Seconds"
+#~ msgstr "Segundos"
+
+#~ msgid "Year"
+#~ msgstr "Año"
+
+#~ msgid "Month"
+#~ msgstr "Mes"
+
+#~ msgid "Week"
+#~ msgstr "Semana"
+
+#~ msgid "Day"
+#~ msgstr "Día"
+
+#~ msgid "Hour"
+#~ msgstr "Hora"
+
+#~ msgid "Minute"
+#~ msgstr "Minuto"
+
+#~ msgid "Second"
+#~ msgstr "Segundo"
+
+#~ msgid "Please enter a valid email"
+#~ msgstr "Por favor introduzca una dirección de correo electrónico válida"
+
+#~ msgid "Something went wrong please try again"
+#~ msgstr "Algo salió mal. Por favor, vuelva a intentarlo"
+
+#~ msgid "You have successfully subscribed"
+#~ msgstr "Te has suscrito satisfactoriamente"
+
+#~ msgid "CONTROL EASE AND EFFICIENCY"
+#~ msgstr "CONTROL FACIL Y EFICIENTE"
+
+#~ msgid "A new user has registered"
+#~ msgstr "Un nuevo usuario se ha registrado."
+
+#~ msgid "Congratulations a new user has registered on your site"
+#~ msgstr "Felicidades, un nuevo usuario se ha registrado en tu sitio."
+
+#~ msgid "CONSOLE"
+#~ msgstr "CONSOLA"
+
+#~ msgid ""
+#~ "Stela Control Dynamic is the business solution that allows you to have "
+#~ "full control of your business"
+#~ msgstr ""
+#~ "Stela Control Dynamic es la solución empresarial que te permite tener "
+#~ "control totalde tu negocio"
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Verifica Tu Cuenta"
+
+#~ msgid ""
+#~ "Welcome please verify your account at the following link to access all "
+#~ "Linkzone features"
+#~ msgstr ""
+#~ "Bienvenido, por favor verifica tu cuenta en el siguiente enlace para "
+#~ "acceder a todas las funciones de Linkzone"
+
+#~ msgid "Forgot Password"
+#~ msgstr "Olvidaste la contraseña"
+
+#~ msgid ""
+#~ "In order not to forget your password, we recommend updating it every 130 "
+#~ "days."
+#~ msgstr ""
+#~ "Para no olvidar tu contraseña, recomendamos actualizarla cada 130días"
+
+#~ msgid ""
+#~ "Your case has been successfully registered. At this moment our team is "
+#~ "reviewing your request in the next few hours we will be giving you an "
+#~ "answer"
+#~ msgstr ""
+#~ "Tu caso ha sido registrado con éxito. En este momento nuestro equipo "
+#~ "estárevisando tu solicitud, en las próximas horas estaremos dándote una "
+#~ "respuesta."
+
+#~ msgid "Contact"
+#~ msgstr "Contacto"
+
+#~ msgid "Digital Business Solutions"
+#~ msgstr "Soluciones comerciales digitales"
+
+#~ msgid "Web Services"
+#~ msgstr "Servicios Web"
+
+#~ msgid "Click in Box"
+#~ msgstr "cliquear en la caja"
+
+#, fuzzy
+#~| msgid "Discover More"
+#~ msgid "And Discover"
+#~ msgstr "Descubrir más"
+
+#~ msgid " Control Dynamic"
+#~ msgstr "Control Dinámico"
+
+#~ msgid "Free Suscription"
+#~ msgstr "Suscripcion gratuita"
+
+#~ msgid "Get the best offers"
+#~ msgstr "Obtén las mejores ofertas"
+
+#~ msgid "Suscribe now"
+#~ msgstr "Suscríbase ahora"
+
+#~ msgid "You are not authorized to login."
+#~ msgstr " Error: No está autorizado para iniciar sesión"
+
+#~ msgid "Control Dynamic"
+#~ msgstr "Control Dinámico"
+
+#~ msgid "The Power is Yours"
+#~ msgstr "El poder es tuyo"
+
+#~ msgid "Hello! How I can help? Ask me and I will answer you..."
+#~ msgstr "¡Hola! ¿Como puedo ayudar? Pregúntame y te responderé..."
+
+#~ msgid "Give me an overview of string theory."
+#~ msgstr "Dame una visión general de la teoría de cuerdas."
+
+#~ msgid "Send Query"
+#~ msgstr "Consultar"
+
+#~ msgid "Saved Messages"
+#~ msgstr "Mensajes Guardados"
+
+#~ msgid "New Chat"
+#~ msgstr "Nuevo Chat"
+
+#~ msgid "CONTROL DYNAMIC"
+#~ msgstr "CONTROL DYNAMIC"
+
+#~ msgid "finances"
+#~ msgstr "Finanzas"
+
+#~ msgid "Billing Total Pending"
+#~ msgstr "Total de facturación pendiente"
+
+#~ msgid "You have no pending charges"
+#~ msgstr "No tienes cargos pendientes"
+
+#, fuzzy
+#~| msgid "Budget"
+#~ msgid "Budgets"
+#~ msgstr "Presupuesto"
+
+#, fuzzy
+#~| msgid "Dynamic Billing"
+#~ msgid "Create Dynamic Billing"
+#~ msgstr "Cobros Dinámicos"
+
+#~ msgid "Canceled"
+#~ msgstr "Cancelado"
+
+#~ msgid "Dynamic Billing"
+#~ msgstr "Cobros Dinámicos"
+
+#~ msgid "Client ID"
+#~ msgstr "ID de Cliente"
+
+#~ msgid "Search ID"
+#~ msgstr "Buscar ID"
+
+#, fuzzy
+#~| msgid "Locations"
+#~ msgid "Location"
+#~ msgstr "Ubicaciones"
+
+#~ msgid "Recipt Charges"
+#~ msgstr "Cargos de recibo"
+
+#~ msgid "Recipt Discounts"
+#~ msgstr "Descuento del recibo"
+
+#~ msgid "Get Preview"
+#~ msgstr "Vista Previa"
+
+#~ msgid "Payment System"
+#~ msgstr "Sistema de pago"
+
+#~ msgid "Search Customer"
+#~ msgstr "Buscar Cliente"
+
+#~ msgid "Customer Data"
+#~ msgstr "Datos del Cliente"
+
+#~ msgid "ID or EIN"
+#~ msgstr "ID o EIN"
+
+#~ msgid "System Error"
+#~ msgstr "Error del sistema"
+
+#~ msgid "Customer"
+#~ msgstr "Cliente"
+
+#~ msgid "List Items"
+#~ msgstr "Items de la Lista"
+
+#~ msgid "List Discounts"
+#~ msgstr "Lista de descuentos"
+
+#~ msgid "Edit Recipt"
+#~ msgstr "Editar Recibo"
+
+#~ msgid "Proccess Purchase"
+#~ msgstr "Proceso de pago"
+
+#, fuzzy
+#~| msgid "Stela Payments"
+#~ msgid "Digital Payment"
+#~ msgstr "Stela Transacciones"
+
+#~ msgid "Yes, delete it!"
+#~ msgstr "¡Sí, elimínalo!"
+
+#~ msgid "Selection removed."
+#~ msgstr "Selección Eliminada"
+
+#~ msgid "The records were erased."
+#~ msgstr "Los registros fueron borrados."
+
+#, fuzzy
+#~| msgid "Payment Complete"
+#~ msgid "Purchase Completed"
+#~ msgstr "Pago completo"
+
+#~ msgid "Edit Billing"
+#~ msgstr "Editar Cobro"
+
+#~ msgid "Edit Charges"
+#~ msgstr "Editar Cargos"
+
+#~ msgid "Congratulations, you have completed your purchase"
+#~ msgstr "Enhorabuena, has completado la compra."
+
+#~ msgid "Budget Recipt Details"
+#~ msgstr "Detalles del recibo de presupuesto"
+
+#~ msgid "Approved"
+#~ msgstr "Aprobado"
+
+#, fuzzy
+#~| msgid "Selected"
+#~ msgid "Rejected"
+#~ msgstr "Seleccionado"
+
+#, fuzzy
+#~| msgid "Budget"
+#~ msgid "Get Budget"
+#~ msgstr "Presupuesto"
+
+#~ msgid "Recipt Payeed"
+#~ msgstr "Recibo Pagado"
+
+#~ msgid "Cancel Recipt"
+#~ msgstr "Anular Recibo"
+
+#~ msgid "Send Email"
+#~ msgstr "Envíar correo"
+
+#~ msgid "Confirm"
+#~ msgstr "¿Confirmas?"
+
+#~ msgid "You want to send the receipt?"
+#~ msgstr "¿Quieres enviar el recibo?"
+
+#~ msgid "Yes, send it!"
+#~ msgstr "¡Sí, envíalo!"
+
+#~ msgid "Recipt Send."
+#~ msgstr "Recibo Envíado"
+
+#~ msgid "Your client will receive shortly."
+#~ msgstr "Su cliente recibirá en breve."
+
+#~ msgid "BUDGET"
+#~ msgstr "PRESUPUESTO"
+
+#~ msgid "INVOICE"
+#~ msgstr "FACTURA"
+
+#~ msgid "Write your report here..."
+#~ msgstr "Escribe tu reporte aqui..."
+
+#~ msgid "Something Wrong."
+#~ msgstr "Ocurre algo."
+
+#~ msgid "Billing Cancelled"
+#~ msgstr "Recibo Anulado"
+
+#~ msgid "Billing Payeed"
+#~ msgstr "Recibo Pagado"
+
+#~ msgid "Business Name"
+#~ msgstr "Razón Social"
+
+#, fuzzy
+#~| msgid "Brief description"
+#~ msgid "Service Description"
+#~ msgstr "Descripción"
+
+#~ msgid "Payment Import"
+#~ msgstr "Importe del pago"
+
+#, fuzzy
+#~| msgid "Billing Payeed"
+#~ msgid "Billing Summary"
+#~ msgstr "Recibo Pagado"
+
+#, fuzzy
+#~| msgid "Price"
+#~ msgid "Price/ea."
+#~ msgstr "Precio"
+
+#, fuzzy
+#~| msgid ""
+#~| "Congratulations, you have completed your purchase, now it will be "
+#~| "reflected in your"
+#~ msgid ""
+#~ "Congratulations, you have completed your purchase, we will send the "
+#~ "receipt to your email"
+#~ msgstr ""
+#~ "Felicitaciones, ha completado su compra, ahora se verá reflejado en su"
+
+#~ msgid "Billing Recipt Preview"
+#~ msgstr "Vista de recibo de cobro"
+
+#~ msgid "Generate"
+#~ msgstr "Generar"
+
+#~ msgid "Not asigned"
+#~ msgstr "No asignada"
+
+#~ msgid "Change Social Footer"
+#~ msgstr "Cambiar pie de página social"
+
+#~ msgid "Social Data"
+#~ msgstr "Datos sociales"
+
+#~ msgid "Company"
+#~ msgstr "Compañía"
+
+#~ msgid "Your Site Url (Optional)"
+#~ msgstr "URL de su sitio (opcional)"
+
+#~ msgid " Add"
+#~ msgstr "Agregar"
+
+#~ msgid "Request denied"
+#~ msgstr "Solicitud denegada"
+
+#~ msgid "Invoice Header Updated"
+#~ msgstr "Encabezado de factura actualizado"
+
+#~ msgid "Generate Number? Cannot be reversed."
+#~ msgstr "¿Generar número? No se puede revertir."
+
+#~ msgid "Yes, asign it!"
+#~ msgstr "Si, asignalo"
+
+#~ msgid "Reference"
+#~ msgstr "Referencia"
+
+#~ msgid "Buyer"
+#~ msgstr "Comprador"
+
+#~ msgid "List of purchased items"
+#~ msgstr "Lista de compras"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Payment method"
+#~ msgstr "Metodo de pago"
+
+#~ msgid "Seller"
+#~ msgstr "Vendedor"
+
+#~ msgid "Payment processed by"
+#~ msgstr "Pago en procesado por"
+
+#~ msgid "Any irregularity presented with your purchase can notify it through"
+#~ msgstr ""
+#~ "Cualquier irregularidad que presente con su compra puede notificarlo a "
+#~ "través de"
+
+#~ msgid "PRO-Stela Inbox"
+#~ msgstr "PRO-Stela Chats"
+
+#~ msgid "You still have no questions"
+#~ msgstr "No tienes consultas"
+
+#~ msgid "Please select a chat from the list"
+#~ msgstr "Seleccione un chat de la lista"
+
+#~ msgid "Or send new query message"
+#~ msgstr "O envía un nuevo mensaje de consulta."
+
+#~ msgid "You have exceeded the complexity of the queries, make a new query"
+#~ msgstr ""
+#~ "Has superado la complejidad de las consultas, realiza una nueva consulta."
+
+#~ msgid "System overloaded. Waiting before trying again."
+#~ msgstr "Sistema sobrecargado. Esperando antes de intentar de nuevo."
+
+#~ msgid "Comments"
+#~ msgstr "Comentarios"
+
+#~ msgid "Host"
+#~ msgstr "Host"
+
+#~ msgid "Update Item Form"
+#~ msgstr "Actualizar Formulario"
+
+#, fuzzy
+#~| msgid "clean"
+#~ msgid "Clear"
+#~ msgstr "limpiar"
+
+#~ msgid "Update Content"
+#~ msgstr "Actualizar Contenido"
+
+#~ msgid "Load Content"
+#~ msgstr "Cargar Contenido"
+
+#~ msgid "New Doc Form"
+#~ msgstr "Nuevo documento"
+
+#~ msgid "Add Clause"
+#~ msgstr "Agregar cláusula"
+
+#~ msgid "Update Docs Form"
+#~ msgstr "Actualizar Documento"
+
+#~ msgid "New About Form"
+#~ msgstr "Nuevo formulario Sobre Nosotros"
+
+#~ msgid "Add Content"
+#~ msgstr "Agregar Contenido"
+
+#~ msgid "Update About Form"
+#~ msgstr "Actualizar formulario Sobre Nosotros"
+
+#~ msgid "Suscriptions"
+#~ msgstr "Suscripciones"
+
+#~ msgid "Cloud Servers"
+#~ msgstr "Servidores de la Nube"
+
+#~ msgid "Domains"
+#~ msgstr "Dominios"
+
+#~ msgid "Websites"
+#~ msgstr "Sitios Web"
+
+#~ msgid "Update image"
+#~ msgstr "Actualizar Imagen"
+
+#~ msgid "Load image"
+#~ msgstr "Cargar Imagen"
+
+#~ msgid " Edit"
+#~ msgstr "Editar"
+
+#, fuzzy
+#~| msgid "clean"
+#~ msgid "Clean"
+#~ msgstr "limpiar"
+
+#~ msgid "Docs"
+#~ msgstr "Información"
+
+#~ msgid "All you need to know"
+#~ msgstr "Todo lo que necesitas saber"
+
+#~ msgid "See More"
+#~ msgstr "Ver Más"
+
+#~ msgid "New Content"
+#~ msgstr "Nuevo Contenido"
+
+#~ msgid "No billing recieved."
+#~ msgstr "No se recibió facturación."
+
+#~ msgid "Special Promo"
+#~ msgstr "Promoción especial"
+
+#~ msgid "Free Tier"
+#~ msgstr "Prueba Gratis"
+
+#~ msgid "free tier for the first month of using cloud services."
+#~ msgstr ""
+#~ "nivel gratuito durante el primer mes de uso de servicios en la nube."
+
+#~ msgid "New Image"
+#~ msgstr "Nueva Imagen"
+
+#~ msgid "Update Content Form"
+#~ msgstr "Actualizar contenido"
+
+#~ msgid "New Content Form"
+#~ msgstr "Nuevo Contenido Media"
+
+#~ msgid "Add Update"
+#~ msgstr "Añadir Actualización"
+
+#~ msgid "What Our Company"
+#~ msgstr "Lo que nuestra empresa"
+
+#~ msgid "Provides"
+#~ msgstr "Proporciona"
+
+#~ msgid "Email Address..."
+#~ msgstr "Correo electrónico..."
+
+#~ msgid "Contact Us"
+#~ msgstr "Contacto"
+
+#~ msgid "Get In Touch With Us"
+#~ msgstr "Póngase en contacto con nosotros"
+
+#~ msgid "Your Email"
+#~ msgstr "Tu Email"
+
+#~ msgid "Send Message Now"
+#~ msgstr "Envíar mensaje"
+
+#, fuzzy
+#~| msgid "Service Report"
+#~ msgid "Service Percentage"
+#~ msgstr "Reporte de servicio"
+
+#, fuzzy
+#~| msgid "Bulletpoint"
+#~ msgid "Bulletpoints"
+#~ msgstr "Punto de interes"
+
+#~ msgid "New Footer Form"
+#~ msgstr "Nuevo formulario de pie de página"
+
+#~ msgid "Description Company"
+#~ msgstr "Descripción Compañia"
+
+#~ msgid "Add Contact Info"
+#~ msgstr "añadir info de Contacto"
+
+#~ msgid "Add Social Links"
+#~ msgstr "Agregar redes sociales"
+
+#~ msgid "Update Footer Form"
+#~ msgstr "Actualizar formulario de pie de página"
+
+#~ msgid "Custom your website"
+#~ msgstr "Customize su sitio web"
+
+#~ msgid "Main"
+#~ msgstr "Pricipal"
+
+#~ msgid "Products"
+#~ msgstr "Productos"
+
+#~ msgid "Pricing"
+#~ msgstr "Precios"
+
+#~ msgid "Media"
+#~ msgstr "Medios de comunicación"
+
+#~ msgid "Edit Menu"
+#~ msgstr "Editar Menú"
+
+#~ msgid "We connect all resources for you."
+#~ msgstr "Conectamos todos los recursos para ti."
+
+#~ msgid "Start Project Now"
+#~ msgstr "Iniciar proyecto"
+
+#~ msgid "title"
+#~ msgstr "Titulo"
+
+#~ msgid "All in one"
+#~ msgstr "Todo en uno"
+
+#~ msgid "We introduce all our tools developed to manage your business"
+#~ msgstr ""
+#~ "Te presentamos todas nuestras herramientas desarrolladas para gestionar "
+#~ "tu negocio"
+
+#~ msgid "Features"
+#~ msgstr "Características"
+
+#~ msgid "for you"
+#~ msgstr "para ti"
+
+#~ msgid ""
+#~ "If you need the greatest collection of HTML templates for your business, "
+#~ "please visit"
+#~ msgstr ""
+#~ "Si necesita la mayor colección de plantillas HTML para su negocio, por "
+#~ "favor visita"
+
+#~ msgid "App Maintenance"
+#~ msgstr "Mantenimiento"
+
+#~ msgid "Rocket Speed of App"
+#~ msgstr "Velocidad"
+
+#~ msgid "Multi Workflow Cloud"
+#~ msgstr "Flujo de la Nube"
+
+#~ msgid "24/7 Help &amp; Support"
+#~ msgstr "Soporte 24/7"
+
+#~ msgid "Choose your integration"
+#~ msgstr "Elige tu integración"
+
+#~ msgid "Discover everything we have for you."
+#~ msgstr "Descubre todo lo que tenemos para ti."
+
+#~ msgid "Get your website"
+#~ msgstr "Obtenga su sitio web"
+
+#~ msgid "Stela Website"
+#~ msgstr "Stela Sitio Web"
+
+#~ msgid "Get Free Trial"
+#~ msgstr "Conseguir prueba gratuita"
+
+#~ msgid "Get your Free Trial"
+#~ msgstr "Obtenga su prueba gratuita"
+
+#~ msgid "Site Media"
+#~ msgstr "Multimedia"
+
+#~ msgid "Keep in touch with all our updates."
+#~ msgstr "Manténgase en contacto con todas nuestras actualizaciones."
+
+#~ msgid "Update Media"
+#~ msgstr "Actualizar Media"
+
+#~ msgid "Costs and description for all integrations."
+#~ msgstr "Costos y descripción para todas las integraciones."
+
+#~ msgid "Stela Landing Page"
+#~ msgstr "Página de destino de Stela"
+
+#~ msgid "Service Inventory"
+#~ msgstr "Inventario de servicios"
+
+#~ msgid "Tiktok integration"
+#~ msgstr "Integracion Tiktok"
+
+#~ msgid "Costumer Inbox"
+#~ msgstr "Buzón de sujerencias"
+
+#~ msgid "Whatsapp Button"
+#~ msgstr "Botón de Whatsapp"
+
+#~ msgid "Stela Blogs"
+#~ msgstr "Blogs de Stela"
+
+#~ msgid "Dynamic Content"
+#~ msgstr "Contenido dinámico"
+
+#~ msgid "Comunicaciones"
+#~ msgstr "Comunicaciones"
+
+#~ msgid "Dev Express Feedback"
+#~ msgstr "Comentarios express"
+
+#~ msgid "Stela Business Ecommerce"
+#~ msgstr "Stela Negocios"
+
+#~ msgid "Stela Cloud Services"
+#~ msgstr "Stela Servicios Cloud"
+
+#~ msgid "Cloud Service"
+#~ msgstr "Servicios Cloud"
+
+#~ msgid "Update Footer"
+#~ msgstr "Actualizar Footer"
+
+#~ msgid "Site sections"
+#~ msgstr "Secciones del sitio"
+
+#~ msgid "Comunications"
+#~ msgstr "Comunicaciones"
+
+#~ msgid "Legal Provisions"
+#~ msgstr "Disposiciones legales"
+
+#~ msgid "F.A.Q."
+#~ msgstr "P.F.C."
+
+#~ msgid "This app has been developed by"
+#~ msgstr "Esta aplicación ha sido desarrollada por"
+
+#~ msgid "Add New Content"
+#~ msgstr "Añadir Nuevo Contenido"
+
+#~ msgid "New App Form"
+#~ msgstr "Nuevo formulario de App"
+
+#~ msgid "Add Bullet"
+#~ msgstr "Añadir Puntos de interés"
+
+#~ msgid "Update Apps Form"
+#~ msgstr "Actualizar formulario de App"
+
+#~ msgid "New Path Form"
+#~ msgstr "Nuevo formulario de integración"
+
+#~ msgid "Update Path Form"
+#~ msgstr "Actualizar formulario de integración"
+
+#~ msgid "New Media Form"
+#~ msgstr "Nuevo formulario de medios"
+
+#~ msgid "Add Media"
+#~ msgstr "Añadir Multimedia"
+
+#~ msgid "Update Media Form"
+#~ msgstr "Actualizar formulario media"
+
+#~ msgid "Stela Docs Content"
+#~ msgstr "Contenido Documentación"
+
+#~ msgid "System Apps"
+#~ msgstr "Aplicaciones del sistema"
+
+#~ msgid "System Integrations"
+#~ msgstr "Integraciónes de Sistema"
+
+#, fuzzy
+#~| msgid "Legal Provisions"
+#~ msgid "Legal Provition"
+#~ msgstr "Disposiciones legales"
+
+#~ msgid "Send "
+#~ msgstr "Envíar"
+
+#~ msgid "Developer"
+#~ msgstr "Desarrollador"
+
+#, fuzzy
+#~| msgid "Site Sections"
+#~ msgid "Template Sections"
+#~ msgstr "Secciones del sitio"
+
+#~ msgid "Objects List"
+#~ msgstr "Lista"
+
+#~ msgid "Create New"
+#~ msgstr "Crear Nuevo"
+
+#~ msgid "Event System"
+#~ msgstr "Sistema de eventos"
+
+#~ msgid "see full list"
+#~ msgstr "ver lista completa"
+
+#, fuzzy
+#~| msgid "Latest"
+#~ msgid "testApp"
+#~ msgstr "Último"
+
+#~ msgid "Style Type"
+#~ msgstr "Tipo de estilo"
+
+#~ msgid "Date search"
+#~ msgstr "Buscar por fecha"
+
+#~ msgid "Today (Until now)"
+#~ msgstr "Hoy (Hasta ahora)"
+
+#~ msgid "Last day"
+#~ msgstr "Ayer"
+
+#~ msgid "Last 7 days"
+#~ msgstr "Últimos 7 días"
+
+#~ msgid "Last 30 days"
+#~ msgstr "Últimos 30 días"
+
+#, fuzzy
+#~| msgid "Templates List Forms"
+#~ msgid "Template Section Form"
+#~ msgstr "Formulario de plantillas"
+
+#~ msgid "Site Style Form"
+#~ msgstr "Formulario de estilo del sitio"
+
+#~ msgid "New Category Form"
+#~ msgstr "Formulario de nueva categoría"
+
+#~ msgid "(COPY)"
+#~ msgstr "(COPIA)"
+
+#~ msgid "Pay Billing"
+#~ msgstr "Pagar Facturación"
+
+#~ msgid "Event Notification"
+#~ msgstr "Notificación de eventos"
+
+#~ msgid "You can see the list of notifications on the main page of Stela"
+#~ msgstr ""
+#~ "Puedes ver la lista de notificaciones en la página principal de Stela."
+
+#~ msgid "Your message has been replied"
+#~ msgstr "Tu mensaje ha sido respondido"
+
+#~ msgid "Thank you very much write to our mailbox"
+#~ msgstr "Gracias por escribir a nuestro sitio"
+
+#, fuzzy
+#~| msgid "Thanks!"
+#~ msgid "Thank you"
+#~ msgstr "¡Gracias!"
+
+#~ msgid "YOU ARE LINKED TO YOUR COSTUMERS"
+#~ msgstr "ESTÁS VINCULADO A TUS CLIENTES"
+
+#~ msgid "Support Notifications"
+#~ msgstr "Notificaciones Soporte"
+
+#, fuzzy
+#~| msgid "Case details"
+#~ msgid "Case Details"
+#~ msgstr "Detalles del Caso"
+
+#~ msgid "SUPPORT"
+#~ msgstr "SOPORTE"
+
+#~ msgid ""
+#~ "Your case has been updated. We invite you to enter and check your status"
+#~ msgstr ""
+#~ "Su caso ha sido actualizado. Te invitamos a ingresar y consultar tu estado"
+
+#~ msgid "YOUR CASE"
+#~ msgstr "TU CASO"
+
+#~ msgid "VIEW CASE"
+#~ msgstr "VER CASO"
+
+#~ msgid "Let's connect"
+#~ msgstr "Vamos a conectarnos"
+
+#~ msgid "Go to Grid Content"
+#~ msgstr "Ir a la grilla de contenido"
+
+#~ msgid "Grid Media - Content Planner"
+#~ msgstr "Contenido Media - Planificación de Contenido"
+
+#~ msgid ""
+#~ "Stela Control Dynamic is a product of Emmerut LLC, an application "
+#~ "development, cloud services, and e-commerce company."
+#~ msgstr ""
+#~ "Stela Control Dynamic es un producto de Emmerut LLC, una empresa de "
+#~ "desarrollo de aplicaciones, servicios de la nube y comercio electrónico."
+
+#~ msgid "ALL INTEGRATED RELEASE FOR YOU"
+#~ msgstr "LIBERACIÓN INTEGRADA PARA USTED"
+
+#~ msgid "Project Credentials"
+#~ msgstr "Credenciales del proyecto"
+
+#~ msgid "Development Report"
+#~ msgstr "Informe de desarrollo"
+
+#~ msgid "Stela Access Credentials"
+#~ msgstr "Credenciales de acceso a Stela"
+
+#~ msgid "THANKS FOR USE OUR SERVICES"
+#~ msgstr "GRACIAS POR UTILIZAR NUESTROS SERVICIOS"
+
+#~ msgid "Payment Confirmation"
+#~ msgstr "Confirmación de pago"
+
+#~ msgid "Order Control"
+#~ msgstr "Control de Ordenes"
+
+#~ msgid "Linkzone Suscriptions"
+#~ msgstr "Suscripciones Linkzone"
+
+#~ msgid "Invoice View"
+#~ msgstr "Vista de Recibo"
+
+#~ msgid "Purchase details"
+#~ msgstr "Detalles de pago"
+
+#~ msgid ""
+#~ "We have started preparing your integration in a few hours we will send "
+#~ "the access credentials."
+#~ msgstr ""
+#~ "Hemos empezado a preparar tu integración en unas horas te enviaremos las "
+#~ "credenciales de acceso."
+
+#, fuzzy
+#~| msgid "Thanks for your purchase"
+#~ msgid "Thank you for purchase"
+#~ msgstr "Gracias por su compra"
+
+#~ msgid ""
+#~ "Your payment has been confirmed. Now our team is organizing operations to "
+#~ "deliver your purchase"
+#~ msgstr ""
+#~ "Su pago ha sido confirmado. Ahora nuestro equipo está organizando las "
+#~ "operaciones paraentregar su pedido"
+
+#~ msgid "Fee"
+#~ msgstr "Comisión"
+
+#~ msgid "SHIPPING ADDRESS"
+#~ msgstr "DIRECCIÓN DE ENVÍO"
+
+#~ msgid ""
+#~ "Please note that the payment is non-refundable in the case of cancellation"
+#~ msgstr ""
+#~ "Por favor, tenga en cuenta que el pago no es reembolsable en caso de "
+#~ "cancelación."
+
+#~ msgid ""
+#~ "With this payment you have completed the total cost of the project. Thank "
+#~ "you very much for choosing us. You can access your credentials at the "
+#~ "following link"
+#~ msgstr ""
+#~ "Con este pago, ha completado el costo total del proyecto. Gracias.por "
+#~ "elegirnos. Puede acceder a sus credenciales enel siguiente link"
+
+#~ msgid "CREDENTIALS"
+#~ msgstr "CREDENCIALES"
+
+#~ msgid ""
+#~ "Your invoice payment has been successfully processed. Thank you for using "
+#~ "our services"
+#~ msgstr ""
+#~ "El pago de su factura ha sido procesado exitosamente. Gracias por "
+#~ "usarnuestros servicios"
+
+#~ msgid "PURCHASES"
+#~ msgstr "COMPRAS"
+
+#~ msgid "Billing details"
+#~ msgstr "Detalles de cobro"
+
+#~ msgid "This process will be effective within the next 24 hours."
+#~ msgstr "Este proceso será efectivo dentro de las próximas 24 horas."
+
+#~ msgid "get all info in"
+#~ msgstr "obtener toda la información en"
+
+#~ msgid "Payment Received"
+#~ msgstr "Pago recibido"
+
+#~ msgid ""
+#~ "He has done very well and it has translated into sales. We invite you to "
+#~ "review your control of income and operations"
+#~ msgstr ""
+#~ "Ha hecho un trabajo excelente y se ha traducido en ventas. Le invitamos "
+#~ "arevisar su control de ingresos y operaciones"
+
+#~ msgid "Withdrawal Complete"
+#~ msgstr "Retiro Completado"
+
+#, fuzzy
+#~| msgid "withdrawal details"
+#~ msgid "withdrawal details"
+#~ msgstr "Detalle de Retiro"
+
+#~ msgid "Bank"
+#~ msgstr "Banco"
+
+#~ msgid "Account number"
+#~ msgstr "Numero de Cuenta"
+
+#~ msgid "Request date"
+#~ msgstr "Solicita fecha"
+
+#~ msgid "Thank you very much for using our services."
+#~ msgstr "Gracias por usar nuestro sitio"
+
+#~ msgid "get more info in"
+#~ msgstr "obtener más información en"
+
+#~ msgid "Withdrawal in process"
+#~ msgstr "Retiro en progreso"
+
+#~ msgid "get all"
+#~ msgstr "obtener toda"
+
+#, fuzzy
+#~| msgid "Support Control Center"
+#~ msgid "Customer Support Event"
+#~ msgstr "Centro de Control de Soporte"
+
+#~ msgid "Try to reply as soon as possible"
+#~ msgstr "Intenta responder lo más pronto posible."
+
+#~ msgid "Inbox"
+#~ msgstr "Bandeja de entrada"
+
+#~ msgid "Website Required"
+#~ msgstr "Sitio Web Requerido"
+
+#~ msgid "Busines Email"
+#~ msgstr "Correo Corporativo"
+
+#, fuzzy
+#~| msgid "Support Control Center"
+#~ msgid "Support Center"
+#~ msgstr "Centro de Control de Soporte"
+
+#~ msgid "Blog Comments"
+#~ msgstr "Comentarios del Blog"
+
+#, fuzzy
+#~| msgid "Stela Business Ecommerce"
+#~ msgid "Meta Business Services"
+#~ msgstr "Stela Negocios"
+
+#, fuzzy
+#~| msgid "Yes, go Business!"
+#~ msgid "Google Business"
+#~ msgstr "¡Sí, vamos Business!"
+
+#~ msgid "Templates"
+#~ msgstr "Plantillas"
+
+#~ msgid "Finances"
+#~ msgstr "Finanzas"
+
+#~ msgid "Payments"
+#~ msgstr "Transacciones"
+
+#~ msgid "Users"
+#~ msgstr "Usuarios"
+
+#, fuzzy
+#~| msgid "Linkzone Orders"
+#~ msgid "Linkzone Users"
+#~ msgstr "Ordenes Linkzone"
+
+#, fuzzy
+#~| msgid "I'm Subscriber"
+#~ msgid "Subscribers"
+#~ msgstr "Soy Subscriptor"
+
+#, fuzzy
+#~| msgid "Log In"
+#~ msgid "Log Out"
+#~ msgstr "Ingresar"
+
+#~ msgid "Stela Menu"
+#~ msgstr "Menú de Stela"
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenido"
+
+#~ msgid "Traffic Site"
+#~ msgstr "Trafico del Sitio"
+
+#~ msgid "Today"
+#~ msgstr "Hoy"
+
+#~ msgid "Last 15 Days"
+#~ msgstr "Últimos 15 días"
+
+#~ msgid "Last Month"
+#~ msgstr "Último mes"
+
+#~ msgid "Views"
+#~ msgstr "VistaS"
+
+#~ msgid "No Views"
+#~ msgstr "No hay vistas"
+
+#~ msgid "Sales"
+#~ msgstr "Ventas"
+
+#~ msgid "You don't have sales yet"
+#~ msgstr "Aun no tienes ventas"
+
+#~ msgid "STELA TUTORIALS"
+#~ msgstr "STELA TUTORIALES"
+
+#~ msgid "Linkzone Events"
+#~ msgstr "Eventos de Linkzone"
+
+#~ msgid "Refresh"
+#~ msgstr "Actualizar"
+
+#~ msgid "No Events"
+#~ msgstr "Sin Eventos"
+
+#~ msgid "Pending Billing"
+#~ msgstr "Cobro Pendiente"
+
+#~ msgid "No Billing"
+#~ msgstr "Sin Cobro"
+
+#~ msgid " New Subscriptors"
+#~ msgstr "Nuevos Suscriptores"
+
+#~ msgid "No Subscriptors"
+#~ msgstr "Sin Suscriptores"
+
+#~ msgid "Support Control"
+#~ msgstr "Centro de Control de Soporte"
+
+#~ msgid "Add Stock"
+#~ msgstr "Añada Inventario"
+
+#~ msgid "Closed"
+#~ msgstr "Cerrado"
+
+#~ msgid "No Support"
+#~ msgstr "No hay casos"
+
+#~ msgid "Variants List"
+#~ msgstr "Lista de Variantes"
+
+#~ msgid "Categories"
+#~ msgstr "Categorías"
+
+#~ msgid "Colors"
+#~ msgstr "Colores"
+
+#~ msgid "Catalogue"
+#~ msgstr "Catálogo"
+
+#~ msgid "Sizes"
+#~ msgstr "Tamaños"
+
+#~ msgid "New Variant"
+#~ msgstr "Nueva Variante"
+
+#~ msgid "New Size"
+#~ msgstr "Nuevo Tamaño"
+
+#, fuzzy
+#~| msgid "New Category Form"
+#~ msgid "New category"
+#~ msgstr "Formulario de nueva categoría"
+
+#~ msgid "New color"
+#~ msgstr "Nuevo Color"
+
+#~ msgid "New Catalogue"
+#~ msgstr "Nuevo Catálogo"
+
+#~ msgid "New Product"
+#~ msgstr "Nuevo Producto"
+
+#~ msgid "Products List"
+#~ msgstr "Lista de Productos"
+
+#~ msgid "SKU Print Page"
+#~ msgstr "SKU página de impresión"
+
+#~ msgid "No Stock"
+#~ msgstr "No hay Stock"
+
+#~ msgid "Low Stock"
+#~ msgstr "Stock Bajo"
+
+#~ msgid "Errors"
+#~ msgstr "Errores"
+
+#~ msgid "Gallery"
+#~ msgstr "Galería"
+
+#~ msgid "Variants"
+#~ msgstr "Variantes"
+
+#~ msgid "Size List"
+#~ msgstr "Lista de Tamaño"
+
+#~ msgid "Size"
+#~ msgstr "Tamaño"
+
+#~ msgid "Catalog List"
+#~ msgstr "Lista de Catálogo"
+
+#~ msgid "Variant"
+#~ msgstr "Variante"
+
+#~ msgid "Category List"
+#~ msgstr "Filtro de categoría"
+
+#~ msgid "Colors Presets"
+#~ msgstr "Presets de Colors"
+
+#~ msgid "Color Name"
+#~ msgstr "Nombre del Color"
+
+#~ msgid "Code"
+#~ msgstr "Código"
+
+#~ msgid "Preset"
+#~ msgstr "Preestablecido"
+
+#~ msgid "Color Preset Form"
+#~ msgstr "Formulario de preajuste de color"
+
+#~ msgid "New Product Form"
+#~ msgstr "Nuevo Formulario de Producto"
+
+#~ msgid "Add Bulletpoints"
+#~ msgstr "Añadir Punto de interes"
+
+#~ msgid "New Size Form"
+#~ msgstr "Nuevo formulario de tamaño"
+
+#~ msgid "New Variant Form"
+#~ msgstr "Nueva variante de formulario"
+
+#~ msgid "New Catalogue Form"
+#~ msgstr "Nuevo formulario de Catálogo"
+
+#~ msgid "add Image"
+#~ msgstr "Añadir Imagen"
+
+#~ msgid "Update Variant Form"
+#~ msgstr "Actualizar formulario de Variante"
+
+#~ msgid "Update Size Form"
+#~ msgstr "Actualizar Formulario de Tamaños"
+
+#~ msgid "Update Product Form"
+#~ msgstr "Actualizar formulario de producto"
+
+#~ msgid "Print SKU"
+#~ msgstr "Imprimir SKU"
+
+#~ msgid "Edit Product"
+#~ msgstr "Editar Producto"
+
+#~ msgid "Print Product"
+#~ msgstr "Imprimir Catálogo"
+
+#~ msgid "Available Colors"
+#~ msgstr "Colores Disponibles"
+
+#~ msgid "No Variants Loaded"
+#~ msgstr "No hay variantes cargadas"
+
+#~ msgid "New Service"
+#~ msgstr "Nuevo Servicio"
+
+#, fuzzy
+#~| msgid "Service List"
+#~ msgid "Services List"
+#~ msgstr "Lista de Servicios"
+
+#~ msgid "New Form Item"
+#~ msgstr "Nuevo elemento de formulario"
+
+#~ msgid "Stela Templates"
+#~ msgstr "Plantillas Stela"
+
+#~ msgid "New Template"
+#~ msgstr "Nueva Plantilla"
+
+#~ msgid "Template List"
+#~ msgstr "Lista de Plantilla"
+
+#~ msgid "New Template Form"
+#~ msgstr "Nuevo Formulario de plantillas"
+
+#~ msgid "Update Template Form"
+#~ msgstr "Actualizar Formulario de plantillas"
+
+#~ msgid "About Content"
+#~ msgstr "Contenido Sobre Nosotros"
+
+#~ msgid "Applied Science"
+#~ msgstr "Ciencia aplicada"
+
+#~ msgid "About Section"
+#~ msgstr "Sección Sobre Nosotros"
+
+#~ msgid "Social Links"
+#~ msgstr "Redes Sociales"
+
+#~ msgid ""
+#~ "It is not possible to access the functions of a page if you have a "
+#~ "connected Instagram Professional account. Please disconnect your current "
+#~ "Instagram account before attempting any interaction with this page"
+#~ msgstr ""
+#~ "No es posible acceder a las funciones de este activo si tienes una "
+#~ "conexión.de una cuenta professional de Instagram. Por favor desconecta tu "
+#~ "cuenta actualantes de intentar cualquier interacción con esta página"
+
+#~ msgid ""
+#~ "If you need assistance or have any questions, please don't hesitate to "
+#~ "contact our support team"
+#~ msgstr ""
+#~ "Si necesita asistencia o tiene alguna pregunta, no dude encontactar a "
+#~ "nuestro equipo de soporte."
+
+#~ msgid "Thank you for your understanding"
+#~ msgstr "Gracias por tu comprensión"
+
+#~ msgid "Footer media"
+#~ msgstr "Pie de publicación"
+
+#~ msgid "Total posts"
+#~ msgstr "Total Publicaciones"
+
+#~ msgid "Average likes"
+#~ msgstr "Promedio de Likes"
+
+#~ msgid "Average comments"
+#~ msgstr "Promedio de comentarios"
+
+#~ msgid "Post per hour"
+#~ msgstr "Publicaciones por hora"
+
+#~ msgid "There is no content to obtain this metric."
+#~ msgstr "No hay contenido para obtener esta métrica."
+
+#~ msgid "Last Posts"
+#~ msgstr "Últimos Post"
+
+#~ msgid "Reels Metrics"
+#~ msgstr "Métricas de Reels"
+
+#~ msgid "Data by range"
+#~ msgstr "Datos por rango"
+
+#~ msgid "Post date"
+#~ msgstr "Fecha de publicación"
+
+#~ msgid "reach"
+#~ msgstr "alcance"
+
+#~ msgid "comments"
+#~ msgstr "Comentarios"
+
+#~ msgid "likes"
+#~ msgstr "Me gusta"
+
+#~ msgid "plays"
+#~ msgstr "Reproducciones"
+
+#~ msgid "saved"
+#~ msgstr "Guardado"
+
+#~ msgid "shares"
+#~ msgstr "Compartido"
+
+#~ msgid "interactions"
+#~ msgstr "Integraciones"
+
+#~ msgid "Posts Metrics"
+#~ msgstr "Métricas de publicación"
+
+#~ msgid "engagement"
+#~ msgstr "Captación"
+
+#~ msgid "impressions"
+#~ msgstr "impresiones"
+
+#~ msgid "video_views"
+#~ msgstr "Vistas de video"
+
+#~ msgid "Carousels Metrics"
+#~ msgstr "Métricas de carrusel"
+
+#~ msgid "Stories Metrics"
+#~ msgstr "Métricas de Historias"
+
+#~ msgid "Exits"
+#~ msgstr "Salir"
+
+#~ msgid "Impressions"
+#~ msgstr "Impresiones"
+
+#~ msgid "Replies"
+#~ msgstr "Respuestas"
+
+#~ msgid "Taps_forward"
+#~ msgstr "Adelantado"
+
+#~ msgid "Taps_back"
+#~ msgstr "Regresado"
+
+#~ msgid "Best Performance"
+#~ msgstr "Mejor performance"
+
+#~ msgid "Post with greater reach"
+#~ msgstr "Publicación con mejor alcance"
+
+#~ msgid "Post with the most engagement"
+#~ msgstr "Publicación con mejor Captación"
+
+#~ msgid "Post date:"
+#~ msgstr "Fecha de publicación:"
+
+#~ msgid "at"
+#~ msgstr "a las"
+
+#~ msgid "Click to expand image"
+#~ msgstr "Click sobre imagen para expandir"
+
+#~ msgid "Media type"
+#~ msgstr "Tipo de contenido"
+
+#~ msgid "In Progress"
+#~ msgstr "En proceso"
+
+#~ msgid "Metric type"
+#~ msgstr "Tipo de métrica"
+
+#~ msgid "New Fans"
+#~ msgstr "Nuevos fans"
+
+#~ msgid "Fans Leaves"
+#~ msgstr "Fans retirados"
+
+#~ msgid "Top Fans Country"
+#~ msgstr "Top fans por pais"
+
+#~ msgid "Top Fans Gender Age"
+#~ msgstr "Top fans por género"
+
+#~ msgid "Top Likes Zones"
+#~ msgstr "Top me gusta por zona"
+
+#~ msgid "Top Unlikes Zones"
+#~ msgstr "Top no me gusta por zona"
+
+#~ msgid "Engage Users"
+#~ msgstr "Usuarios captados"
+
+#~ msgid "Negative Feedback"
+#~ msgstr "Feedback Negativo"
+
+#~ msgid "New Fans by ads"
+#~ msgstr "Nuevos fans por promoción"
+
+#~ msgid "Page Impressions"
+#~ msgstr "Impresiones de la página"
+
+#~ msgid "Page Paid Impressions"
+#~ msgstr "Impresiones pagadas"
+
+#~ msgid "Organic Impressions"
+#~ msgstr "Impresiones Organicas"
+
+#~ msgid "Viral Impressions"
+#~ msgstr "Impresiones virales"
+
+#~ msgid "Nonviral Impressions"
+#~ msgstr "Impresiones no virales"
+
+#~ msgid "Content Shared Posts"
+#~ msgstr "Contenido compartido"
+
+#~ msgid "Content Age Gender Impressions"
+#~ msgstr "Contenido por edad y genero"
+
+#~ msgid "Last 20 Post"
+#~ msgstr "Últimos 20 post"
+
+#~ msgid "Post Impressions"
+#~ msgstr "Impresiones de post"
+
+#~ msgid "Post Paid Impressions"
+#~ msgstr "Impresiones pagadas de post"
+
+#~ msgid "Post Organic Impressions"
+#~ msgstr "Impresiones organicas de post"
+
+#~ msgid "Post Viral Impressions"
+#~ msgstr "Impresiones virales de pos"
+
+#~ msgid "Post Nonviral Impressions"
+#~ msgstr "Impresiones no virales de post"
+
+#~ msgid "Post Engaged Users"
+#~ msgstr "Usuarios captados por post"
+
+#~ msgid "Post Negative Feedback"
+#~ msgstr "Feedback negativo por post"
+
+#~ msgid "Post New Fans"
+#~ msgstr "Nuevos fans por post"
+
+#~ msgid "Post Clicks"
+#~ msgstr "Click por post"
+
+#~ msgid "Likes Total"
+#~ msgstr "Total me gusta"
+
+#~ msgid "Love Total"
+#~ msgstr "Total me encanta"
+
+#~ msgid "Wow Total"
+#~ msgstr "Total wow"
+
+#~ msgid "Haha Total"
+#~ msgstr "Total Haha"
+
+#~ msgid "Sorry Total"
+#~ msgstr "Total Sorry"
+
+#~ msgid "Anger Total"
+#~ msgstr "Total Enojado"
+
+#~ msgid "Video Impressions"
+#~ msgstr "Impresiones de Video"
+
+#~ msgid "Video views"
+#~ msgstr "Vistas del Video"
+
+#~ msgid "Complete video views paid"
+#~ msgstr "Vistas completas de video pago"
+
+#~ msgid "Complete video views organic"
+#~ msgstr "Vistas completas de video orgánico"
+
+#~ msgid "Complete video views mixed"
+#~ msgstr "Vistas completas de video mixtas"
+
+#~ msgid "Views for more 30s paid"
+#~ msgstr "Vista de mas de 30s pagada"
+
+#~ msgid "Views for more 30s organic"
+#~ msgstr "Vista de mas de 30s organico"
+
+#~ msgid "Views for more 30s mixed"
+#~ msgstr "Vista de mas de 30s mixto"
+
+#~ msgid "Media Count"
+#~ msgstr "Conteo de Contenido"
+
+#~ msgid "Usertag SEO Suggestions"
+#~ msgstr "Sugerencias de Etiquetas de Usuario para SEO"
+
+#~ msgid "Variant Catalogue"
+#~ msgstr "Catálogo de Variante"
+
+#~ msgid "We have deleted the requested record"
+#~ msgstr "Hemos eliminado el registro solicitado."
+
+#~ msgid "Path Content"
+#~ msgstr "Pasos de contenido"
+
+#~ msgid "Campaign"
+#~ msgstr "Campaña"
+
+#~ msgid "Sended"
+#~ msgstr "Envíado"
+
+#~ msgid "No Campaign"
+#~ msgstr "No hay campañas"
+
+#~ msgid "Register Date"
+#~ msgstr "Registrar fecha"
+
+#~ msgid "No Emails registered"
+#~ msgstr "No hay correos"
+
+#~ msgid "Email List"
+#~ msgstr "Lista de correos"
+
+#~ msgid "New Email"
+#~ msgstr "Nuevo Email"
+
+#~ msgid "watch list"
+#~ msgstr "Ver Lista"
+
+#, fuzzy
+#~| msgid "Stela Business Ecommerce"
+#~ msgid "Stela Business Suite Control"
+#~ msgstr "Stela Negocios"
+
+#~ msgid ""
+#~ "In this section you will obtain valuable information on the performance "
+#~ "of your assets in Meta with our intelligent analysis tool, you will also "
+#~ "be able to create catalogs with your inventory in"
+#~ msgstr ""
+#~ "En esta sección obtendrás información valiosa sobre el rendimiento detus "
+#~ "activos en Meta con nuestra herramienta de análisis inteligente, también "
+#~ "podrás crear catálogos con tu inventario en"
+
+#~ msgid ""
+#~ "create your store on Instagram, segment your advertising with our "
+#~ "optimizers and much more."
+#~ msgstr ""
+#~ "crear tu tienda en Instagram, segmentar tu publicidad con nuestros "
+#~ "optimizadores y mucho más."
+
+#~ msgid ""
+#~ "All your facebook assets in one site, we invite you to manage all the "
+#~ "solutions we have for you"
+#~ msgstr ""
+#~ "Todos los activos de facebook en un solo sitio, te invitamos a gestionar "
+#~ "todas las soluciones que tenemos para tí"
+
+#~ msgid ""
+#~ "In order to access the services that stela has to offer you must link "
+#~ "your facebook pages to our business account"
+#~ msgstr ""
+#~ "Para acceder a los servicios que Stela tiene para ofrecerte, debes "
+#~ "vincular tupágina de facebook a nuestra cuenta de negocios."
+
+#~ msgid "Connect Page"
+#~ msgstr "Conectar Página"
+
+#~ msgid "Add a facebook page"
+#~ msgstr "Añadir página de facebook"
+
+#~ msgid ""
+#~ "Add a Facebook Page if you have an admin role. Remember to have the "
+#~ "professional Instagram account linked to your page to obtain a better "
+#~ "positioning experience"
+#~ msgstr ""
+#~ "Agrega una página de Facebook si tienes un rol de administrador. Recuerda "
+#~ "tener elcuenta profesional de Instagram vinculada a tu página para "
+#~ "obtener una mejor experiencia de posicionamiento"
+
+#~ msgid "By linking to this Facebook page, you agree to the"
+#~ msgstr "Al vincular esta página de Facebook, estás de acuerdo con los"
+
+#~ msgid "Stela Terms of Service"
+#~ msgstr "Términos de servicio de Stela"
+
+#~ msgid "and"
+#~ msgstr "y"
+
+#~ msgid "Stela Policy"
+#~ msgstr "Póliticas de Privacidad de Stela"
+
+#~ msgid "Add page"
+#~ msgstr "Añadir"
+
+#~ msgid "Manage"
+#~ msgstr "Gestionar"
+
+#~ msgid "You request to remove the following asset"
+#~ msgstr "Has solicitado eliminar el siguiente activo."
+
+#~ msgid ""
+#~ "You are about to delete this page and all associated records. Please "
+#~ "confirm if you want to proceed with the removal"
+#~ msgstr ""
+#~ "Estás a punto de eliminar esta página y todos los registros asociados. "
+#~ "Por favor confirmasi deseas proceder con la eliminación."
+
+#~ msgid ""
+#~ "If you have any questions or need more information, please contact our "
+#~ "support team"
+#~ msgstr ""
+#~ "Si tienes alguna pregunta o necesitas más información, por favor contacta "
+#~ "a nuestroequipo de soporte"
+
+#~ msgid ""
+#~ "We offer a wide range of services to help your business grow and prosper. "
+#~ "From application development to business consulting, we're here to help "
+#~ "you achieve your goals."
+#~ msgstr ""
+#~ "Ofrecemos una amplia gama de servicios para ayudar a tu negocio a crecer "
+#~ "y prosperar. Desde el desarrollo de aplicaciones hasta la consultoría de "
+#~ "negocios, estamos aquí para ayudarte a lograr tus objetivos."
+
+#~ msgid ""
+#~ "To access the options menu, please link your facebook account with the"
+#~ msgstr ""
+#~ "Para acceder al menú de opciones, por favor vincula tu cuenta de Facebook "
+#~ "con la"
+
+#~ msgid "Stela Busines Suite App"
+#~ msgstr "Aplicación de negocios Stela"
+
+#~ msgid "this will delete your page and all its settings and campaigns"
+#~ msgstr "esto eliminará tu página y todas sus configuraciones y campañas."
+
+#, fuzzy
+#~| msgid "Yes, remove!"
+#~ msgid "Yes, remove"
+#~ msgstr "Si, Eliminalo"
+
+#~ msgid "Content Planner"
+#~ msgstr "Planificación de Contenido"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendario"
+
+#~ msgid "You do not have any posts yet."
+#~ msgstr "No tienes publicaciones realizadas."
+
+#~ msgid "Content Planner Calendar"
+#~ msgstr "Calendario de contenido"
+
+#~ msgid "Drag your image here"
+#~ msgstr "Sube o arrastra tus imagenes aqui"
+
+#~ msgid "Drag your video here"
+#~ msgstr "Sube o arrastra tu video"
+
+#~ msgid "Invalid file type"
+#~ msgstr "Archivo inválido"
+
+#~ msgid "You have reached the maximum limit of allowed files."
+#~ msgstr "Has alcanzado el límite máximo de archivos permitidos."
+
+#~ msgid "The file is too big. Maximum size allowed:"
+#~ msgstr "El archivo es demasiado grande. Tamaño máximo permitido:"
+
+#~ msgid "Create Post"
+#~ msgstr "Crear Post"
+
+#~ msgid "Update Post"
+#~ msgstr "Actualizar publicación"
+
+#~ msgid "Invalid Format, only .mp4 and .jgp for covers"
+#~ msgstr "Formato inválido, solo se permiten .mp4 y .jpg para las portadas."
+
+#~ msgid "Marketing Report"
+#~ msgstr "Reporte de marketing"
+
+#~ msgid "Send Metric"
+#~ msgstr "Envía métricas"
+
+#~ msgid "Engagement"
+#~ msgstr "Captación"
+
+#~ msgid "Results"
+#~ msgstr "Resultados"
+
+#~ msgid "Audience"
+#~ msgstr "Audiencia"
+
+#~ msgid "Export"
+#~ msgstr "Exportar"
+
+#~ msgid "No data available"
+#~ msgstr "No hay datos disponibles"
+
+#~ msgid "Profile link clicks"
+#~ msgstr "Clics en el enlace del perfil"
+
+#~ msgid "Profile Views"
+#~ msgstr "Vistas del perfil"
+
+#~ msgid "People Data"
+#~ msgstr "Datos de Consumidor"
+
+#~ msgid "Gender"
+#~ msgstr "Género"
+
+#~ msgid "Ages Range"
+#~ msgstr "Rango de Edad"
+
+#~ msgid "By Region"
+#~ msgstr "Por Región"
+
+#~ msgid "By Country"
+#~ msgstr "Por País"
+
+#~ msgid "To view this metric, you need to have more than 100 followers."
+#~ msgstr "Para ver esta métrica, necesitas tener más de 100 seguidores."
+
+#~ msgid ""
+#~ "Do you want to send the Analythics link, please enter the destination "
+#~ "information"
+#~ msgstr ""
+#~ "¿Quieres enviar el enlace de analítica? Por favor, ingresa la información "
+#~ "de destino"
+
+#~ msgid "Render"
+#~ msgstr "Renderizar"
+
+#~ msgid "Link clicks"
+#~ msgstr "Click al link"
+
+#, fuzzy, python-format
+#~| msgid "Audience %"
+#~ msgid "Audience %%"
+#~ msgstr "Audiencia %"
+
+#~ msgid "Analythic Report"
+#~ msgstr "Reporte de analítica"
+
+#~ msgid "Send Grid"
+#~ msgstr "Envíar grid"
+
+#~ msgid "Crear"
+#~ msgstr "Crear"
+
+#~ msgid "Your personal assistant"
+#~ msgstr "Tu asistente personal"
+
+#~ msgid "Stela, create marketing content."
+#~ msgstr "Stela, Crea contenido para marketing"
+
+#~ msgid "number of samples"
+#~ msgstr "Numero de muestras"
+
+#~ msgid "Media User Tag"
+#~ msgstr "Etiqueta de usuario"
+
+#~ msgid "place the username, you can tag as many as you want"
+#~ msgstr ""
+#~ "coloca el nombre de usuario, puedes etiquetar a tantos como quieras."
+
+#~ msgid "IG username"
+#~ msgstr "Usuario IG"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid ""
+#~ "Do you want to send the content planning link, please enter the "
+#~ "destination information"
+#~ msgstr ""
+#~ "¿Quieres enviar el enlace de planificación de contenido? Por favor, "
+#~ "ingresa la información de destino"
+
+#~ msgid "This post must be manually deleted on Instagram"
+#~ msgstr "Esta publicación debe ser eliminada manualmente en Instagram."
+
+#~ msgid "Don't close connection"
+#~ msgstr "No cierre la conexión."
+
+#~ msgid "Uploading"
+#~ msgstr "Cargando"
+
+#~ msgid "Complete"
+#~ msgstr "Completo"
+
+#~ msgid "Events Manager"
+#~ msgstr "Gestion de Eventos"
+
+#~ msgid "soon"
+#~ msgstr "pronto"
+
+#~ msgid "Post Comments"
+#~ msgstr "Comentarios de post"
+
+#~ msgid "Get List"
+#~ msgstr "Obtener lista"
+
+#~ msgid "No comments"
+#~ msgstr "No hay comentarios"
+
+#~ msgid "Chats"
+#~ msgstr "Chats"
+
+#~ msgid "No messages"
+#~ msgstr "Sin mensajes"
+
+#~ msgid "In this section you can track your events, schedule and edit them"
+#~ msgstr ""
+#~ "En esta sección puedes seguir tus eventos, programarlos y editarlos."
+
+#~ msgid "Create Event"
+#~ msgstr "Crear Evento"
+
+#~ msgid "Event"
+#~ msgstr "Evento"
+
+#~ msgid "Write Here"
+#~ msgstr "Escribe aquí"
+
+#~ msgid "Interactions"
+#~ msgstr "Interaciones"
+
+#~ msgid "Post List"
+#~ msgstr "Lista de posts"
+
+#~ msgid "Create New Post"
+#~ msgstr "Crear nueva publicación"
+
+#~ msgid "Schedule post list"
+#~ msgstr "Lista de publicaciones programadas"
+
+#~ msgid "publication date"
+#~ msgstr "Fecha de publicación"
+
+#~ msgid "Post History"
+#~ msgstr "Historial de post"
+
+#~ msgid "Edit Post"
+#~ msgstr "Editar Post"
+
+#~ msgid "Add to your post"
+#~ msgstr "Añadir a tu publicación"
+
+#~ msgid "Continue Post"
+#~ msgstr "Continuar Publicación"
+
+#~ msgid "Date to schedule publication?"
+#~ msgstr "¿Fecha para programar la publicación?"
+
+#~ msgid "Sending, please wait"
+#~ msgstr "Procesando, por favor espere"
+
+#~ msgid "Parameters"
+#~ msgstr "Parámetros"
+
+#~ msgid "Object Select"
+#~ msgstr "Selecciona objetos"
+
+#~ msgid "Likes"
+#~ msgstr "Me gusta"
+
+#~ msgid "Followers"
+#~ msgstr "Seguidores"
+
+#~ msgid "Official Events"
+#~ msgstr "Eventos Oficiales"
+
+#~ msgid "Insight Creative"
+#~ msgstr "Contenido Creativo"
+
+#~ msgid ""
+#~ "Now you can link your Instagram account. Go to Facebook, go to the "
+#~ "settings of your page, and connect it"
+#~ msgstr ""
+#~ "Ahora puedes vincular tu cuenta de Instagram, ve a la configuración de tu "
+#~ "paginade facebook y conecta."
+
+#~ msgid "PRO-Steta Ads Boost"
+#~ msgstr "Impulso de Marketing de PRO-Stela"
+
+#~ msgid "Campaings"
+#~ msgstr "Campañas"
+
+#~ msgid "This option will be available very soon"
+#~ msgstr "¡Esta opción estará disponible muy pronto!"
+
+#~ msgid "Welcome to Stela Control Dynamic"
+#~ msgstr "Bienvenido a Stela Control Dynamic"
+
+#~ msgid ""
+#~ "We're excited to have you here. As a new user, we invite you to explore "
+#~ "and discover all the features and benefits our system has to offer."
+#~ msgstr ""
+#~ "Estamos emocionados de tenerte aquí. Como nuevo usuario, te invitamos a "
+#~ "explorar ytodas las características y beneficios que nuestro sistema "
+#~ "tiene para ofrecer."
+
+#~ msgid ""
+#~ "Before you get started, we recommend that you read our terms and "
+#~ "conditions. This will provide you with a clear understanding of how we "
+#~ "operate and how we can work together."
+#~ msgstr ""
+#~ "Antes de comenzar, te recomendamos que leas nuestros términos y "
+#~ "condiciones.esto te proporcionará una comprensión clara de cómo operamos "
+#~ "y cómopodemos trabajar juntos."
+
+#~ msgid "Decline"
+#~ msgstr "Rechazar"
+
+#~ msgid "Accept"
+#~ msgstr "Aceptar"
+
+#~ msgid "Please fill all startup data"
+#~ msgstr "Por favor la información de tu startup."
+
+#~ msgid "Choose..."
+#~ msgstr "Elige..."
+
+#~ msgid "Add your social media links"
+#~ msgstr "Agregar redes sociales"
+
+#~ msgid "Your address?"
+#~ msgstr "¿Tu dirección es?"
+
+#~ msgid "Business description"
+#~ msgstr "Descripción de negocio"
+
+#~ msgid "Please Upload a valid mediafile (JPG or PNG)"
+#~ msgstr "Por favor, suba un archivo multimedia válido (JPG o PNG)"
+
+#~ msgid "Please Fill all inputs in this form, Thanks"
+#~ msgstr "Por favor, complete todos los campos en este formulario, gracias."
+
+#~ msgid "Turn on cloud instance"
+#~ msgstr "Activar instancia en la cloud"
+
+#~ msgid "Configure DNS"
+#~ msgstr "Configurar DNS"
+
+#~ msgid "Create Superuser"
+#~ msgstr "Crear Superusuario"
+
+#~ msgid "Deliver Project"
+#~ msgstr "Entregar proyecto"
+
+#, fuzzy
+#~| msgid "Project Credencials"
+#~ msgid "Cloud Credencials"
+#~ msgstr "Credenciales del proyecto"
+
+#~ msgid "Project Credencials"
+#~ msgstr "Credenciales del proyecto"
+
+#~ msgid "Path Control"
+#~ msgstr "Control de avances"
+
+#, fuzzy
+#~| msgid "Complete"
+#~ msgid "Complete Step"
+#~ msgstr "Completo"
+
+#, fuzzy
+#~| msgid "Complete"
+#~ msgid "Step Complete."
+#~ msgstr "Completo"
+
+#, fuzzy
+#~| msgid "Update User Data"
+#~ msgid "Updating Data."
+#~ msgstr "Actualizar datos del usuario"
+
+#~ msgid "Welcome, your"
+#~ msgstr "Bienvenido tu"
+
+#~ msgid "first step"
+#~ msgstr "primer paso"
+
+#~ msgid "is register your wallet"
+#~ msgstr "es registrar su monedero"
+
+#~ msgid "Add wallet"
+#~ msgstr "Añadir Monedero"
+
+#~ msgid "Today sales"
+#~ msgstr "Ventas de hoy"
+
+#~ msgid "it represents"
+#~ msgstr "it represents"
+
+#~ msgid "increase from yesterday"
+#~ msgstr "aumento desde ayer"
+
+#~ msgid "decrease from yesterday"
+#~ msgstr "aumento desde ayer"
+
+#~ msgid "You have no sales today"
+#~ msgstr "Hoy no tienes ventas"
+
+#~ msgid "More details"
+#~ msgstr "Más Detalles"
+
+#~ msgid "Total Profit"
+#~ msgstr "Ganancia"
+
+#~ msgid "Year Taxes"
+#~ msgstr "Impuestos"
+
+#~ msgid "Graph Revenue"
+#~ msgstr "Gráfico de ingresos"
+
+#~ msgid "Company Balance"
+#~ msgstr "Saldo de la empresa"
+
+#~ msgid "Current Year"
+#~ msgstr "Año en curso"
+
+#~ msgid "Last Year"
+#~ msgstr "Año pasado"
+
+#~ msgid "Withdrawals"
+#~ msgstr "Retiros"
+
+#~ msgid "Available budget"
+#~ msgstr "Saldo disponible"
+
+#~ msgid "Withdraw"
+#~ msgstr "retirar"
+
+#~ msgid "Please register you wallet to see available budget"
+#~ msgstr "Registre su wallet para ver el presupuesto disponible"
+
+#~ msgid "Order Statistics"
+#~ msgstr "Intención de ordenes"
+
+#~ msgid "Total Orders"
+#~ msgstr "Total Pagado"
+
+#~ msgid "You still do not have purchases"
+#~ msgstr "Aún no tienes compras"
+
+#~ msgid "You don't have charges yet"
+#~ msgstr "No tienes cobros pendientes"
+
+#~ msgid "Send Money"
+#~ msgstr "Envía Dinero"
+
+#~ msgid "You have no recorded withdrawal"
+#~ msgstr "No tienes ningún retiro registrado"
+
+#~ msgid "Register Wallet"
+#~ msgstr "Registrar Wallet"
+
+#~ msgid "Fill in your wallet data"
+#~ msgstr "Rellena tus datos"
+
+#~ msgid "Wallet Holders Name"
+#~ msgstr "Titular del Wallet"
+
+#~ msgid "Terms and conditions"
+#~ msgstr "Términos"
+
+#~ msgid "Your Wallets"
+#~ msgstr "Tus Wallets"
+
+#~ msgid "Email Holder"
+#~ msgstr "Email del wallet"
+
+#~ msgid "Holder Name"
+#~ msgstr "Titular"
+
+#~ msgid "delete account"
+#~ msgstr "Borrar cuenta"
+
+#, fuzzy
+#~| msgid " Remove"
+#~ msgid "Wallet Removed"
+#~ msgstr "Remover"
+
+#~ msgid "You can request this service again anythime"
+#~ msgstr "Puedes volver a solicitar este servicio en cualquier momento"
+
+#~ msgid "Withdraw Request"
+#~ msgstr "Petición de retiro"
+
+#~ msgid "Receiving account"
+#~ msgstr "Cuenta receptora"
+
+#~ msgid "Bank Holder"
+#~ msgstr "Titular del banco"
+
+#~ msgid "ending in"
+#~ msgstr "Termina en"
+
+#~ msgid "Budget amount"
+#~ msgstr "Monto del saldo"
+
+#~ msgid "Withdraw conditions"
+#~ msgstr "Condiciones de retiro"
+
+#~ msgid "Be careful! By selecting Status"
+#~ msgstr "¡Ten cuidado! Al seleccionar Estado"
+
+#~ msgid "(publish)"
+#~ msgstr "Publicar"
+
+#~ msgid "the content will be published instantly on your website."
+#~ msgstr "el contenido se publicará instantáneamente en su sitio web."
+
+#~ msgid "Menu form"
+#~ msgstr "Formulario de menú"
+
+#~ msgid "our sections"
+#~ msgstr "Sobre Nosotros"
+
+#~ msgid "Stela Billing Dynamic"
+#~ msgstr "Stela Cobro dinámico"
+
+#~ msgid "Load Cloud Services Usage"
+#~ msgstr "Cargar uso de servicios en la nube"
+
+#~ msgid "Virtual Cloud Server Usage (Hours)"
+#~ msgstr "Uso del servidor de nube virtual (horas)"
+
+#~ msgid "Cloud Storage Usage (GB Data)"
+#~ msgstr "Uso de almacenamiento en la nube (GB de datos)"
+
+#~ msgid "Cloud Content Requests"
+#~ msgstr "Peticiones datos cloud"
+
+#~ msgid "Load Discounts"
+#~ msgstr "Agregar Descuentos"
+
+#~ msgid "Preview"
+#~ msgstr "Reseñas"
+
+#, fuzzy
+#~| msgid "Users List"
+#~ msgid "Subscribers List"
+#~ msgstr "Lista de Usuarios"
+
+#, fuzzy
+#~| msgid "Stela Blogs"
+#~ msgid "Stela Basic"
+#~ msgstr "Blogs de Stela"
+
+#, fuzzy
+#~| msgid "Stela Business App"
+#~ msgid "Stela Business"
+#~ msgstr "Aplicación de negocios Stela"
+
+#~ msgid "Last Login"
+#~ msgstr "Último Inicio"
+
+#, fuzzy
+#~| msgid "Suscription ID"
+#~ msgid "Subscription Date"
+#~ msgstr "Suscripcion ID"
+
+#, fuzzy
+#~| msgid "Current Year"
+#~ msgid "Current Plan"
+#~ msgstr "Año en curso"
+
+#, fuzzy
+#~| msgid "Sended"
+#~ msgid "Suspended"
+#~ msgstr "Envíado"
+
+#, fuzzy
+#~| msgid "Make Payment"
+#~ msgid "Last Payment"
+#~ msgstr "Hacer el pago"
+
+#, fuzzy
+#~| msgid "Secure Payments"
+#~ msgid "No recorded payments"
+#~ msgstr "Pago seguro"
+
+#~ msgid "Total Purchase"
+#~ msgstr "Total Pagado"
+
+#~ msgid "No Purchase Yet"
+#~ msgstr "No hay compras"
+
+#~ msgid "Send Message"
+#~ msgstr "Envíar mensaje"
+
+#, fuzzy
+#~| msgid "Free Suscription"
+#~ msgid "Suspend Subscription"
+#~ msgstr "Suscripcion gratuita"
+
+#~ msgid "All User Projects"
+#~ msgstr "Todos los proyectos del usuario"
+
+#~ msgid "Create Billing"
+#~ msgstr "Crear Cobro"
+
+#~ msgid "Suscription Cloud Billing"
+#~ msgstr "Crear facturación de suscripción cloud"
+
+#~ msgid "Balance"
+#~ msgstr "Saldo"
+
+#~ msgid "Cloud"
+#~ msgstr "Nube"
+
+#~ msgid "Suspend Account"
+#~ msgstr "Suspender Cuenta"
+
+#~ msgid "Users List"
+#~ msgstr "Lista de Usuarios"
+
+#, fuzzy
+#~| msgid "Linkzone Orders"
+#~ msgid "Linkzone User"
+#~ msgstr "Ordenes Linkzone"
+
+#, fuzzy
+#~| msgid "Phone"
+#~ msgid "phone"
+#~ msgstr "Teléfono"
+
+#~ msgid "Email Already Exists."
+#~ msgstr "Correo electrónico..."
+
+#~ msgid "Tutorial"
+#~ msgstr "Tutorial"
+
+#~ msgid "Poll"
+#~ msgstr "Encuesta"
+
+#~ msgid "Topic"
+#~ msgstr "Topico"
+
+#~ msgid "Type of Post"
+#~ msgstr "Tipo de publicación"
+
+#~ msgid "Published"
+#~ msgstr "Publicado"
+
+#~ msgid "Currency"
+#~ msgstr "Moneda"
+
+#~ msgid "Change"
+#~ msgstr "Cambiar"
+
+#~ msgid "Maximun 99999.99"
+#~ msgstr "Máximo 999.99"
+
+#~ msgid "The price must be between 0 and 99999.99"
+#~ msgstr "El precio debe oscilar entre 0 y 999.99"
+
+#~ msgid "Key validator invalid"
+#~ msgstr "Validador de clave no válido"
+
+#~ msgid "Social Link"
+#~ msgstr "Red Social"
+
+#~ msgid "Payments Policy"
+#~ msgstr "Políticas de Pagos"
+
+#~ msgid "Clause o (Title)"
+#~ msgstr "Clausula o (Título)"
+
+#~ msgid "Form submitted successfully!"
+#~ msgstr "¡Formulario enviado con éxito!"
+
+#~ msgid "Invalid request method."
+#~ msgstr "Método de solicitud no válido."
+
+#~ msgid "Business management system"
+#~ msgstr "Sistema de gestion empresarial"
+
+#~ msgid "SYSTEM ALWAYS ONLINE"
+#~ msgstr "SYSTEM ALWAYS ONLINE"
+
+#~ msgid "(Required) will be used for Email Sender"
+#~ msgstr "(Obligatorio) se utilizará para el remitente de correo electrónico"
+
+#~ msgid "Point of Payment System"
+#~ msgstr "Sistema de punto de pago"
+
+#~ msgid "Direct Purchase"
+#~ msgstr "Pago Directo"
+
+#, fuzzy
+#~| msgid "(COPY)"
+#~ msgid "COPY"
+#~ msgstr "(COPIA)"
+
+#~ msgid "Icon Header"
+#~ msgstr "Encabezado de icono"
+
+#~ msgid "Change footer"
+#~ msgstr "Cambiar Footer"
+
+#~ msgid "Icon Footer"
+#~ msgstr "Icono de pie de página"
+
+#~ msgid "IMPORT RECIPT"
+#~ msgstr "IMPORTE RECIBO"
+
+#~ msgid "Items List"
+#~ msgstr "Artículos"
+
+#~ msgid "Business Seller"
+#~ msgstr "Comercio"
+
+#, fuzzy
+#~| msgid "Any irregularity presented with your purchase can notify it through"
+#~ msgid ""
+#~ "Any irregularity that you present with your purchase can be notified "
+#~ "through"
+#~ msgstr ""
+#~ "Cualquier irregularidad que presente con su compra puede notificarlo a "
+#~ "través de"
+
+#~ msgid "Email Contact Notifications"
+#~ msgstr "Notificación de correos"
+
+#~ msgid "Costumer Message"
+#~ msgstr "Mensaje del cliente"
+
+#~ msgid "COME ON BOARD"
+#~ msgstr "VEN A BORDO"
+
+#~ msgid "thank you for writing to our system"
+#~ msgstr "Gracias por escribir a nuestro sitio"
+
+#~ msgid "PAYMENTS INCLUDED WITH THIS ORDER"
+#~ msgstr "PAGOS INCLUIDOS CON ESTE PEDIDO"
+
+#~ msgid "Integration:"
+#~ msgstr "Integracion:"
+
+#~ msgid "STELA PAYMENTS TURN ON"
+#~ msgstr "PAGOS STELA ACTIVADOS"
+
+#~ msgid "We invite you to review your control of resources in"
+#~ msgstr "Te invitamos a revisar tu control de recursos en"
+
+#, fuzzy
+#~| msgid "Your bill was paid"
+#~ msgid "Your Bill has Paid"
+#~ msgstr "Tu factura fue pagada"
+
+#, fuzzy
+#~| msgid "Billing details"
+#~ msgid "Billing Details"
+#~ msgstr "Detalles de cobro"
+
+#, fuzzy
+#~| msgid "Withdraw Request"
+#~ msgid "Withdrawal Request"
+#~ msgstr "Petición de retiro"
+
+#~ msgid "CASE"
+#~ msgstr "CASO"
+
+#~ msgid "Support Case Answered"
+#~ msgstr "Caso de soporte respondido"
+
+#~ msgid "Date Response"
+#~ msgstr "Responder"
+
+#~ msgid "Clients"
+#~ msgstr "Clientes"
+
+#~ msgid "List"
+#~ msgstr "Listas"
+
+#~ msgid "STELA For Dummies"
+#~ msgstr "STELA para Principiantes"
+
+#~ msgid "Instagram Best Hashtags Generator"
+#~ msgstr "El mejor generador de hashtags de Instagram"
+
+#~ msgid "Enter a keyword"
+#~ msgstr "Introduce una palabra clave"
+
+#, fuzzy
+#~| msgid "Edit Charges"
+#~ msgid "Charges"
+#~ msgstr "Editar Cargos"
+
+#, fuzzy
+#~| msgid "Edit Charges"
+#~ msgid "No Charges"
+#~ msgstr "Editar Cargos"
+
+#~ msgid "Upgrade Plan"
+#~ msgstr "Mejorar Plan"
+
+#, fuzzy
+#~| msgid "You have no pending charges"
+#~ msgid "You cannot have pending payments"
+#~ msgstr "No tienes cargos pendientes"
+
+#~ msgid "Request on Support"
+#~ msgstr "Solicite en Soporte Técnico"
+
+#~ msgid "Low Stock Inventory"
+#~ msgstr "Bajo Inventario"
+
+#~ msgid "Stocked Inventory"
+#~ msgstr "Inventario Suficiente"
+
+#~ msgid ""
+#~ "Transform your company with our dynamic ERP system: Choose the perfect "
+#~ "plan for you"
+#~ msgstr ""
+#~ "Transforma tu empresa con nuestro sistema ERP dinámico: Elige el plan "
+#~ "perfectopara ti"
+
+#~ msgid ""
+#~ "Optimize the management of your company and boost your success! Discover "
+#~ "our subscription plans for our business management system"
+#~ msgstr ""
+#~ "¡Optimiza la gestión de tu empresa y potencia tu éxito! Descubre nuestro "
+#~ "planes de suscripción a nuestro sistema de gestión empresarial"
+
+#~ msgid "Monthly"
+#~ msgstr "Mensual"
+
+#~ msgid "Annually"
+#~ msgstr "Anualmente"
+
+#~ msgid "First Month Stela Business Free Pier"
+#~ msgstr "Primer Mes Stela Business Prueba Gratis"
+
+#~ msgid "POS System Billing"
+#~ msgstr "Sistema de Cobros POS"
+
+#~ msgid "Product Inventory System"
+#~ msgstr "Sistema de inventario de productos"
+
+#~ msgid "Website Integration (Included)"
+#~ msgstr "Integración del sitio web (incluido)"
+
+#~ msgid "Domain + Template (Free)"
+#~ msgstr "Dominio + Plantilla (Gratis)"
+
+#~ msgid "Stela PRO IA (GPT-4) (free)"
+#~ msgstr "Stela PRO IA (GPT-4) (gratis)"
+
+#~ msgid "Cloud Infraestructure (Included)"
+#~ msgstr "Infraestructura en la nube (incluida)"
+
+#~ msgid "Try This Plan Now"
+#~ msgstr "Pruebe este plan ahora"
+
+#~ msgid "First Month Free"
+#~ msgstr "Primer mes gratis"
+
+#~ msgid "Purchase This Plan Now"
+#~ msgstr "Compre este plan ahora"
+
+#~ msgid "Upgrade Plan to Business?"
+#~ msgstr "¿Actualizar plan a Business?"
+
+#~ msgid ""
+#~ "This plan has a new cost. We invite you to review the pricing section."
+#~ msgstr ""
+#~ "Este plan tiene un nuevo costo. Te invitamos a revisar la sección de "
+#~ "precios."
+
+#~ msgid "Now you have the Business Plan"
+#~ msgstr "Ahora ya tienes el Plan Business"
+
+#~ msgid ""
+#~ "Thank you very much now enjoy all the benefits that this plan offers you"
+#~ msgstr ""
+#~ "Muchas gracias ahora disfruta de todos los beneficios que te ofrece este "
+#~ "plan"
+
+#~ msgid "Or Choose your integration"
+#~ msgstr "O Elige tu integración"
+
+#~ msgid ""
+#~ "You can customize the resources of your site and pay for what you need."
+#~ msgstr ""
+#~ "Puedes personalizar los recursos de tu sitio y pagar por lo que necesites."
+
+#~ msgid "Welcome to the Stela Free Trial"
+#~ msgstr "Bienvenido a la prueba gratuita de Stela"
+
+#~ msgid "We would like to know more about you?"
+#~ msgstr "¿Nos gustaría saber más sobre ti?"
+
+#~ msgid "I want to Sign Up"
+#~ msgstr "Me quiero registrar"
+
+#~ msgid "Website Integrations"
+#~ msgstr "Integraciones del Sitio"
+
+#~ msgid "Customize the resources of your website"
+#~ msgstr "Personaliza los recursos de tu web"
+
+#, fuzzy
+#~| msgid "Template"
+#~ msgid "Select Template"
+#~ msgstr "Plantillas"
+
+#~ msgid "Select"
+#~ msgstr "Elegir"
+
+#~ msgid "Welcome to the domain registration assistence"
+#~ msgstr "Bienvenido a la asistente de registro para tu dominio"
+
+#~ msgid "Do you have a registered domain name?"
+#~ msgstr "¿Tiene un nombre de dominio registrado?"
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid "Please enter these nameserver at your domain registrar."
+#~ msgstr "¿Tiene un nombre de dominio registrado?"
+
+#~ msgid "Nameserver"
+#~ msgstr "Nombre de servidor"
+
+#~ msgid "Get identity, get your domain right now."
+#~ msgstr "Obtenga identidad, obtenga su dominio ahora mismo."
+
+#~ msgid "TLD .com First Year Free"
+#~ msgstr "TLD .com Primer año gratis"
+
+#~ msgid "Renoval Price $12.00 next year."
+#~ msgstr "Precio de renovación $12.00 el próximo año."
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "New TLDs"
+#~ msgstr "Nuevo TLDs"
+
+#~ msgid "Domain Pricing"
+#~ msgstr "Precios de dominio"
+
+#~ msgid "Domain Not available !"
+#~ msgstr "¡Dominio no disponible!"
+
+#~ msgid "Error in search query. Please Try Again"
+#~ msgstr "Error en la consulta de búsqueda. Inténtalo de nuevo"
+
+#~ msgid "Registration"
+#~ msgstr "Registro"
+
+#~ msgid "Renewal"
+#~ msgstr "Renovación"
+
+#~ msgid "Users Control Center"
+#~ msgstr "Centro de Control de Usuarios"
+
+#~ msgid "Add User"
+#~ msgstr "Añadir Usuario"
+
+#~ msgid "New User Data"
+#~ msgstr "Nuevos datos del Usuario"
+
+#~ msgid "Create Case"
+#~ msgstr "Crear Caso"
+
+#~ msgid "Cancel Subscription"
+#~ msgstr "Cancelar Subscripcion"
+
+#~ msgid "Create Suscription Billing"
+#~ msgstr "Crear facturación de suscripción"
+
+#~ msgid "Business User"
+#~ msgstr "Usuario Business"
+
+#, fuzzy
+#~| msgid "About Us"
+#~ msgid "About us"
+#~ msgstr "Sobre Nosotros"
+
+#~ msgid "You successfully paid your subscription"
+#~ msgstr "Pagaste con éxito tu suscripción"
+
+#~ msgid "Account Number"
+#~ msgstr "Numero de Cuenta"
+
+#~ msgid "Dayly Payments"
+#~ msgstr "Pagos rápidos"
+
+#~ msgid "I don't have the answer right now, sorry try again"
+#~ msgstr ""
+#~ "No tengo la respuesta en este momento, lo siento, inténtalo de nuevo."
+
+#~ msgid "Now you are closer to us."
+#~ msgstr "Ahora estás más cerca de nosotros."
+
+#~ msgid "Please confirm your email address to complete your registration"
+#~ msgstr ""
+#~ "Por favor, confirme su dirección de correo electrónico para completar su "
+#~ "registro"
+
+#~ msgid "If you prefer not to receive marketing emails form this list"
+#~ msgstr ""
+#~ "Si prefiere no recibir correos electrónicos de marketing de esta lista"
+
+#~ msgid "FOLLOW CASE"
+#~ msgstr "SEGUIR CASO"
+
+#~ msgid "Case answered"
+#~ msgstr "Caso Respondido"
+
+#~ msgid "Then we invite you to monitor the status in the following link."
+#~ msgstr ""
+#~ "Entonces te invitamos a monitorear el estado en el siguiente enlace."
+
+#~ msgid ""
+#~ "We appreciate that you can respond to this case within 24 hours or the "
+#~ "system will automatically close the case."
+#~ msgstr ""
+#~ "Agradecemos que pueda responder a este caso dentro de las 24 horas o elel "
+#~ "sistema cerrará automáticamente el caso."
+
+#~ msgid "Site"
+#~ msgstr "Sitio"
+
+#~ msgid "Integration Cloud Services Billing"
+#~ msgstr "Facturación de servicios de integración Cloud"
+
+#~ msgid "Special Discounts"
+#~ msgstr "Descuentos especiales"
+
+#~ msgid "suscriptions"
+#~ msgstr "suscripciones"
+
+#~ msgid "Manage Addresses"
+#~ msgstr "Administrar direcciones"
+
+#~ msgid "Prize Points"
+#~ msgstr "Puntos"
+
+#~ msgid "Section to see the use of the cloud resources of your website."
+#~ msgstr "Apartado para ver el uso de los recursos en la nube de tu web."
+
+#~ msgid "(Active)"
+#~ msgstr "(Activo)"
+
+#~ msgid "Stela cloud service"
+#~ msgstr "Servicio cloud de Stela"
+
+#~ msgid "Cost Per Hour"
+#~ msgstr "Costo por hora"
+
+#~ msgid "Service Status"
+#~ msgstr "Estado del servicio"
+
+#~ msgid "Turn Off"
+#~ msgstr "Apagado"
+
+#~ msgid "Running"
+#~ msgstr "Encendido"
+
+#~ msgid "All your apps in one site. Get control of function services."
+#~ msgstr ""
+#~ "Todas tus aplicaciones en un solo sitio. Obtenga el control de los "
+#~ "servicios de función."
+
+#~ msgid "Suscriptions ID"
+#~ msgstr "Suscripciones ID"
+
+#~ msgid "Debug"
+#~ msgstr "Desarrollo"
+
+#~ msgid "Enter Your Name"
+#~ msgstr "Ingrese Usuario"
+
+#~ msgid "Fill your staff position"
+#~ msgstr "Ingresa tu cargo"
+
+#~ msgid "Welcome to our payment system"
+#~ msgstr "Bienvenido a nuestro sistema de pago"
+
+#~ msgid "Please check transaction list or init system"
+#~ msgstr "Verifique la lista de transacciones o el sistema de inicio"
+
+#~ msgid "BUSINESS APP"
+#~ msgstr "APLICACIÓN DE NEGOCIOS"
+
+#~ msgid "Bank Accounts"
+#~ msgstr "Cuenta Bancaria"
+
+#~ msgid "Bank Name"
+#~ msgstr "Nombre del banco"
+
+#~ msgid "Rounting Number"
+#~ msgstr "Numero de ruta"
+
+#~ msgid "set default"
+#~ msgstr "establecer predeterminado"
+
+#~ msgid "Account Removed"
+#~ msgstr "Cuenta eliminada"
+
+#~ msgid "Yes, set default!"
+#~ msgstr "¡Sí, establecer como predeterminado!"
+
+#~ msgid "This account is active for withdrawals"
+#~ msgstr "Esta cuenta está activa para retiros"
+
+#~ msgid "add account"
+#~ msgstr "Agregar Cuenta"
+
+#~ msgid "Account use for payments"
+#~ msgstr "Uso de la cuenta para pagos"
+
+#~ msgid "Bank account"
+#~ msgstr "Cuenta Bancaria"
+
+#~ msgid " Total Sales"
+#~ msgstr "Ventas totales"
+
+#~ msgid "Register Bank Account"
+#~ msgstr "Registrar cuenta bancaria"
+
+#~ msgid "You have a sale"
+#~ msgstr "Tienes una venta"
+
+#~ msgid "Order details"
+#~ msgstr "Detalles de orden"
+
+#~ msgid "We Have The Best Pre-Order"
+#~ msgstr "Nosotros tenemos la mejor pre-orden"
+
+#~ msgid "Prices"
+#~ msgstr "Precios"
+
+#~ msgid "You Can Get"
+#~ msgstr "Puedes obtener"
+
+#~ msgid "Offers discounts and more"
+#~ msgstr "Ofrece descuentos y más"
+
+#~ msgid "Loading..."
+#~ msgstr "Cargando..."
+
+#~ msgid "Procesing..."
+#~ msgstr "Procesando..."
+
+#~ msgid "Bulk Bill"
+#~ msgstr "Cobranza Masiva"
+
+#~ msgid "New Custom Recipt"
+#~ msgstr "Nuevo recibo custom"
+
+#~ msgid "New Billing Recipt"
+#~ msgstr "Nuevo recibo de cobro"
+
+#~ msgid "Be careful! By selecting"
+#~ msgstr "¡Ten cuidado! Al seleccionar Estado"
+
+#~ msgid "publish"
+#~ msgstr "Publicar"
+
+#~ msgid "Dynamic Posts"
+#~ msgstr "Publicaciones dinámicas"
+
+#~ msgid "New Dynamic Section"
+#~ msgstr "Nuevo contenido dinámico"
+
+#~ msgid "No data to display"
+#~ msgstr "No hay datos para mostrar"
+
+#~ msgid "Dynamic Section"
+#~ msgstr "Sección dinámicas"
+
+#~ msgid "Bottom Bullets"
+#~ msgstr "Puntos de interés"
+
+#~ msgid "Review the information to change the status."
+#~ msgstr "Revisa la información para cambiar el estado"
+
+#~ msgid "Comment Details"
+#~ msgstr "Detalle de comentario"
+
+#~ msgid "FAQ Posts"
+#~ msgstr "PFC Posts"
+
+#~ msgid "App de F.A.Q."
+#~ msgstr "Aplicación de F.A.Q."
+
+#~ msgid "New FAQ"
+#~ msgstr "Nuevo P.F.C."
+
+#~ msgid "Headline Post"
+#~ msgstr "Publicación Titulares"
+
+#, fuzzy
+#~| msgid "Confirm?"
+#~ msgid "¿Confirm?"
+#~ msgstr "¿Confirmas?"
+
+#~ msgid "About Site"
+#~ msgstr "Nosotros Simple"
+
+#~ msgid "About Complex"
+#~ msgstr "Nosotros Completo"
+
+#~ msgid "News"
+#~ msgstr "Noticias"
+
+#~ msgid "Polícy Posts"
+#~ msgstr "Post Políticas"
+
+#~ msgid "Document Type"
+#~ msgstr "Tipo de documento"
+
+#~ msgid "Docs Site"
+#~ msgstr "Información"
+
+#~ msgid "Portfolio"
+#~ msgstr "Portafolio"
+
+#~ msgid "Site Staff"
+#~ msgstr "Personal del sitio"
+
+#~ msgid "Staff List"
+#~ msgstr "Lista de Personal"
+
+#~ msgid "remove"
+#~ msgstr "Remover"
+
+#~ msgid "App name"
+#~ msgstr "Nombre de App"
+
+#~ msgid "You have a new mesagge"
+#~ msgstr "Tienes un nuevo mensaje"
+
+#~ msgid "Message details"
+#~ msgstr "Detalle de mensaje"
+
+#~ msgid "Support case issue"
+#~ msgstr "nuevo caso de soporte"
+
+#~ msgid "Case Ticket"
+#~ msgstr "Ticket de caso"
+
+#~ msgid "For answer"
+#~ msgstr "Por respuesta"
+
+#~ msgid "Inbox List"
+#~ msgstr "Lista de mensajes"
+
+#~ msgid "Menssage"
+#~ msgstr "Mensaje"
+
+#~ msgid "Site Services"
+#~ msgstr "Servicios del Sitio"
+
+#~ msgid "Order Control Central"
+#~ msgstr "Control de Ordenes"
+
+#~ msgid "Orders Control List"
+#~ msgstr "Lista Control de Ordenes"
+
+#~ msgid "Transaction detail"
+#~ msgstr "Detalle de transacción"
+
+#~ msgid "Get Started"
+#~ msgstr "Empezar"
+
+#~ msgid "Address Line 1"
+#~ msgstr "Dirección 1"
+
+#~ msgid "users"
+#~ msgstr "Usuarios"
+
+#~ msgid "There are no results in this table."
+#~ msgstr "No hay resultados en esta tabla."
+
+#~ msgid "Do you Confirm?"
+#~ msgstr "¿Confirmas?"
+
+#~ msgid "About Dynamic"
+#~ msgstr "Sobre Nosotros Dinámico"
+
+#, fuzzy
+#~| msgid "F.A.Q."
+#~ msgid "FAQ"
+#~ msgstr "P.F.C."
+
+#~ msgid "Blog Post"
+#~ msgstr "Publicaciones del Blog"
+
+#, fuzzy
+#~| msgid "Lobby Content"
+#~ msgid "Lobby News"
+#~ msgstr "Contenido del Lobby"
