@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "echo-artistry"
+version = "0.0.1"
+description = "EchoArtistry is an innovative tool that transforms spoken words into captivating visual stories."
+authors = ["Jurik-001"]
+readme = "README.md"
+packages = [
+    { include = "echo_artistry" }
+]
+
+[tool.poetry.scripts]
+echo-artistry = "echo_artistry.main:args_call"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.6.1"
+pillow = "^10.1.0"
+openai-whisper = "20231117"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.9"
+pytest = "^7.4.4"
+notebook = "^7.0.6"
+black = "^23.12.1"
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^2.0.0"
+myst-parser = "^2.0.0"
+
+[tool.black]
+line-length = 90
+
+[tool.ruff]
+line-length = 90
+select = [
+    "E", # Pycodestyle errors: These are coding standard errors found by Pycodestyle (formerly known as Pep8).
+    "I", # Isort errors: Issues related to import formatting.
+    "D", # Pydocstyle errors: Docstring style issues.
+    "COM", # Flake8-commas errors: Issues related to commas (e.g., missing trailing commas).
+]
+ignore = [
+  "D107",  # Missing docstring in __init__
+]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
