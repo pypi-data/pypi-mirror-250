@@ -1,0 +1,2 @@
+wagtail>=4.1
+django-mjml
