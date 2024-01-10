@@ -1,0 +1,2 @@
+[console_scripts]
+bdchecker = bdchecker.main:main
