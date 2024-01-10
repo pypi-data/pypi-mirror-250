@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+inframatrix/__init__.py
+inframatrix.egg-info/PKG-INFO
+inframatrix.egg-info/SOURCES.txt
+inframatrix.egg-info/dependency_links.txt
+inframatrix.egg-info/top_level.txt
