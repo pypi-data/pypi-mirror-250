@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: setup-generator
+Version: 1.0
+Summary: Pequena biblioteca para criar um setup.py rápido.
+Home-page: https://github.com/Hoyasumii/SetupGenerator
+Author: Alan Reis Anjos
+Author-email: alanreisanjo@gmail.com
+License: GPL-3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2==3.1.2
+Requires-Dist: keyboard==0.13.5
+Requires-Dist: MarkupSafe==2.1.3
+Requires-Dist: python-slugify==8.0.1
+Requires-Dist: setuptools==69.0.3
+Requires-Dist: simple-form==1.0
+Requires-Dist: text-unidecode==1.3
+
+## [SetupGenerator](https://pypi.org/project/setup-generator/)
+- Pequena biblioteca para criar um setup.py rápido.
+- Clique [**aqui**](https://github.com/Hoyasumii/SetupGenerator) para acessar o repositório.
+---
+## Instalação
+- Você pode baixar pelo pip:
+```
+pip install setup-generator
+```
+---
+## Como usar?
+- Abra o terminal e digite:
+```
+setup-generator 
+```
+- Depois disso, você será solicitado a digitar o nome do seu projeto, o nome do autor, a versão do projeto, a descrição do projeto, o nome do arquivo principal e o nome do arquivo de instalação. Após isso, o arquivo setup.py será criado.

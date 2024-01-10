@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+setupGenerator/.template
+setupGenerator/__init__.py
+setupGenerator/setupGenerator.py
+setupGenerator/scripts/__init__.py
+setupGenerator/scripts/getPipFreeze.py
+setup_generator.egg-info/PKG-INFO
+setup_generator.egg-info/SOURCES.txt
+setup_generator.egg-info/dependency_links.txt
+setup_generator.egg-info/entry_points.txt
+setup_generator.egg-info/requires.txt
+setup_generator.egg-info/top_level.txt
