@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+commons/__init__.py
+commons/say_hello.py
+smart_auto_test.egg-info/PKG-INFO
+smart_auto_test.egg-info/SOURCES.txt
+smart_auto_test.egg-info/dependency_links.txt
+smart_auto_test.egg-info/top_level.txt
