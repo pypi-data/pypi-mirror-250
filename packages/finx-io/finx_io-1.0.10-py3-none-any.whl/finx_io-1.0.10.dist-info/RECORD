@@ -1,0 +1,13 @@
+finx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finx/client.py,sha256=7Y7kMyWn33cNKQNN2HgTivZLRQKasV1o-9DCNZCCriI,23155
+finx/version.py,sha256=z6Vx-qD9ifOaxB60TmmC66M7tFOmrZFPWkRgzYzujII,2231
+finx/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finx/test/calculate_greeks_test.py,sha256=6DEmGavigWpOhzg5wUj7LNNvE8CGu3BSHeSvU5rBuP4,444
+finx/test/generic_test.py,sha256=A4NmULq9y26NccP0MfbL0piAysNCvgZKLU4wenYFl78,268
+finx/test/get_security_reference_data_test.py,sha256=MwrWkI6ObbFXHR4r9d5MnRdPrjvgZ440WLm_4CWFIrk,819
+finx/test/list_api_functions_test.py,sha256=IK2v2DnCQp8QCV65k4o8ymqu2N-_AIPi9FYwAhojYKs,367
+finx_io-1.0.10.dist-info/LICENSE,sha256=2lWcRAHjsQhqavGNnR30Ymxq3GJ9BaYL_dnfGO_-WFA,34500
+finx_io-1.0.10.dist-info/METADATA,sha256=6lG6ON1GUl1w4gaiWUyCst33PGgpDVN62CeUdyqIH_k,44905
+finx_io-1.0.10.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+finx_io-1.0.10.dist-info/top_level.txt,sha256=2iiAISvv0HctpeJkZOsHDQg_hTPoeNkQWXAMoTr6SMM,5
+finx_io-1.0.10.dist-info/RECORD,,
