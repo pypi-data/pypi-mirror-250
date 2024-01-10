@@ -1,0 +1,4 @@
+nvdlib
+tqdm
+pgzip
+GitPython
