@@ -1,0 +1,2 @@
+[console_scripts]
+lxd-dyndns = lxd_dyndns.run:run
