@@ -1,0 +1,9 @@
+README.md
+setup.py
+demommath/__init__.py
+demommath/operations.py
+demommath.egg-info/PKG-INFO
+demommath.egg-info/SOURCES.txt
+demommath.egg-info/dependency_links.txt
+demommath.egg-info/entry_points.txt
+demommath.egg-info/top_level.txt
