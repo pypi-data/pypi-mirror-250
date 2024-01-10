@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+src/pybreaker/__init__.py
+src/pybreaker/py.typed
+src/pybreaker.egg-info/PKG-INFO
+src/pybreaker.egg-info/SOURCES.txt
+src/pybreaker.egg-info/dependency_links.txt
+src/pybreaker.egg-info/not-zip-safe
+src/pybreaker.egg-info/requires.txt
+src/pybreaker.egg-info/top_level.txt
