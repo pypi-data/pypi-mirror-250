@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/permutations/__init__.py
+src/permutations/permutations.py
+src/permutations.egg-info/PKG-INFO
+src/permutations.egg-info/SOURCES.txt
+src/permutations.egg-info/dependency_links.txt
+src/permutations.egg-info/requires.txt
+src/permutations.egg-info/top_level.txt
