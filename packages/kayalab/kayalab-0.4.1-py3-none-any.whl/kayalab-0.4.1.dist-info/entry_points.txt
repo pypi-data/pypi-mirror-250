@@ -1,0 +1,3 @@
+[console_scripts]
+kayalab=kayalab.main:app
+
