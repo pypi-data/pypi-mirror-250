@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: tice
+Version: 2.0
+Summary: Tic-Tac-Toe in Python
+Home-page: https://github.com/tic-tac-toe-in-python
+Author: tice
+License: MIT
+Keywords: tic-tac-toe,ttt,ai,multiplayer,min,max,minmax,minimax
+Classifier: Development Status :: 1 - Planning
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Development Status :: 3 - Alpha
+Classifier: Development Status :: 4 - Beta
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+'''
+Tic-Tac-Toe
+
+1 | 2 | 3
+4 | 5 | 6
+7 | 8 | 9
+
+```python
+# Player types:
+tice.player
+tice.ai
+tice.random
+tice.dumb # less smart ai
+```
+
+# How to play:
+```python
+tice.game(board(), player, ai).play(clear=True) # clear console if after each guess?
+
+tice.game(board(), dumb, ai).play()
+
+tice.game(board(), player, random).play()
+
+tice.game(board(), dumb, random).play()
+
+tice.game(board(), player, dumb).play()
+
+tice.game(board(), dumb, dumb).play()
+
+tice.game(board(), random, random).play()
+
+tice.game(board(), ai, ai).play()
+
+tice.game(board(), random, ai).play()
+
+tice.game(board(), player, player).play()
+```
+'''
