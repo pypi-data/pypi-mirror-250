@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zeahoDateUtil
+Version: 0.0.4
+Summary: PYPI python util including date parsing and etc.
+Home-page: https://gitlab.zeaho.com/data/algorithm/zeaho-date-util
+Author: ZhuLingZhi
+Author-email: zhulingzhi917@163.com
+License: MIT
+Platform: any
