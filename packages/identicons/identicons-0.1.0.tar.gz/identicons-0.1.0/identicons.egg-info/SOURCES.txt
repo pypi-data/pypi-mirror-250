@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+identicons/__init__.py
+identicons.egg-info/PKG-INFO
+identicons.egg-info/SOURCES.txt
+identicons.egg-info/dependency_links.txt
+identicons.egg-info/entry_points.txt
+identicons.egg-info/requires.txt
+identicons.egg-info/top_level.txt
+identicons/_generate/__init__.py
+identicons/cli/__init__.py
