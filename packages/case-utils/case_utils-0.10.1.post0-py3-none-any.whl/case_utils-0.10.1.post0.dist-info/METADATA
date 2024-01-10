@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: case-utils
+Version: 0.10.1.post0
+Summary: Python utilities for working with the CASE ontology
+Home-page: https://github.com/casework/CASE-Utilities-Python
+Author: Alex Nelson
+Author-email: alexander.nelson@nist.gov
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: THIRD_PARTY_LICENSES.md
+Requires-Dist: pandas <2.1.0
+Requires-Dist: pyshacl
+Requires-Dist: rdflib >=6.2.0
+Requires-Dist: requests
+Requires-Dist: tabulate
+
+# CASE Python Utilities
+
+This project provides various specialized utilities for producing and analyzing data in the [CASE](https://caseontology.org/) format.
+
+Full documentation is available at the [project homepage](https://github.com/casework/CASE-Utilities-Python).
