@@ -1,0 +1,92 @@
+import os
+
+DEBUG = False
+HOST = "0.0.0.0"
+PORT = 8000
+
+# 服务器模式 develop：开发 release：稳定
+MODE = "develop"
+
+# 证书文件
+LICENSE_PATH = "key.key"
+
+# 秘钥
+SECRET_KEY = "SECRETKEY"
+
+# api接口前缀
+API_PREFIX = "/api/v1"
+
+# 数据库连接配置
+SQLALCHEMY_DATABASE_URI = "sqlite:///project.db"
+
+# 邮箱配置
+MAIL_SERVER = "smtp.163.com"
+MAIL_PORT = 465
+MAIL_USE_SSL = True
+MAIL_USERNAME = "send-email@163.com"
+MAIL_PASSWORD = os.getenv("MAIL_PASSWORD", "")
+MAIL_RECV_LIST = ["recv-email@qq.com"]
+
+# redis连接
+REDIS_URL = "redis://:@127.0.0.1:6379/0"
+
+# 接口白名单
+VALIDATE_LOGIN_INTERFACE_WHITE = ("ping", "index", "keymap", "verifycode", "register", "sign-in", "sign-out", "admin.welcome", "admin.index", "admin.static")
+
+# 用户模型（可使用默认配置）
+# CORE_USER_MODEL = "dao.models.User"
+
+# 定时任务配置path
+CORE_APSCHEDULER_PATH = "webcoreframe.apscheduler_task"
+
+# 项目目录&文件上传目录
+BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+UPLOADS_FOLDER = os.path.join(BASE_PATH, "uploads")
+
+# 日志
+LOG_FOLDER = os.path.join(BASE_PATH, "logs")
+LOG_MAX_BYTES = 1000 << 11
+LOG_BACKUP_COUNT = 10
+LOG_SEND_EMAIL = False
+
+# webcoreframe中间件
+WEBCOREFRAME_MIDDLEWARE = (
+    "webcoreframe.middleware.ResponseEncrypt",# 响应加密
+    "webcoreframe.middleware.Authentication",# 认证
+    "webcoreframe.middleware.SystemLogging",# 系统日志
+    "webcoreframe.middleware.SysIPBlackList",# 系统IP黑名单
+    "webcoreframe.middleware.SysUserBlackList",# 系统用户黑名单
+    "webcoreframe.middleware.RequestKeys",# 参数解码
+    "webcoreframe.middleware.RequestArgs",# 参数值解码
+    "webcoreframe.middleware.RequestFilters",# 接口过滤
+    "webcoreframe.middleware.Authorization",# 授权
+    "webcoreframe.middleware.init_limiter",# 限流
+    "webcoreframe.middleware.Performance",# 慢日志
+)
+
+# 限流
+DEFAULT_LIMITS = ["1000/day", "60/hour"]
+
+# 开启请求字段的混淆处理检查
+REQUEST_CHECK = False
+# 开启请求字段的混淆处理检查-开发模式-自动记录&混淆请求字段-开发模式使用-生产模式关闭
+REQUEST_CHECK_DEVELOP = False
+# 请求参数混淆版本
+REQUEST_CHECK_VERSION = "0.0.1"
+
+# 请求过滤
+REQUEST_FILTER_EXCLUDE_ENDPOINT = ("keymap", )
+
+# 请求字段值解密方式
+REQUEST_ARGS_DECRYPTION_METHOD = "plain"
+# 请求字段值解密key
+REQUEST_ARGS_DECRYPTION_KEY1 = ""
+# 请求字段值解密key
+REQUEST_ARGS_DECRYPTION_KEY2 = ""
+
+# 响应字段值加密方式
+RESPONSE_ARGS_ENCRYPTION_METHOD = "plain"
+# 响应字段值加密key
+RESPONSE_ARGS_ENCRYPTION_KEY1 = ""
+# 响应字段值加密key
+RESPONSE_ARGS_ENCRYPTION_KEY2 = ""

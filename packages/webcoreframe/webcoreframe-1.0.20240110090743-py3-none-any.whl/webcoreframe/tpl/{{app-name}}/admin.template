@@ -1,0 +1,4 @@
+from webcoreframe.contrib.admin.helper import model_mange_decorator
+
+
+# register your models to admin

@@ -1,0 +1,52 @@
+import flask_cors
+from flask import Flask, redirect, url_for
+from webcoreframe.utils.helper import trueReturn
+
+
+def init_project(app: Flask):
+    uploads_folder = app.config.get("UPLOADS_FOLDER", "uploads")
+    log_folder = app.config.get("LOG_FOLDER", "logs")
+    from webcoreframe.utils.helper import mkdirs
+    mkdirs(uploads_folder)
+    mkdirs(log_folder)
+
+
+def create_app(config):
+    app = Flask(__name__)
+    app.config.from_object(config)
+    flask_cors.CORS(app)
+
+    # 初始化项目文件夹
+    init_project(app)
+
+    # 初始化webcoreframe
+    from webcoreframe import init_app as init_webcoreframe
+    init_webcoreframe(app)
+
+    # 初始化项目的数据库模型
+
+    # 初始化项目API
+
+    # 初始化部分API
+    from webcoreframe.contrib import init_contrib
+    init_contrib(app)
+
+    from webcoreframe.plugins.limiter_helper import limiter
+    api_prefix = app.config.get("API_PREFIX", "/api/v1")
+
+    @app.get(f"{api_prefix}/ping", endpoint="ping")
+    @limiter.exempt
+    def ping():
+        return trueReturn("pong")
+
+    if app.config.get("MODE") == "develop":
+        @app.get("/", endpoint="index")
+        @limiter.exempt
+        def index():
+            return redirect(url_for("admin.welcome"))
+
+    # 注册定时器
+    from webcoreframe.plugins.timer_helper import scheduler
+    scheduler.start()
+
+    return app

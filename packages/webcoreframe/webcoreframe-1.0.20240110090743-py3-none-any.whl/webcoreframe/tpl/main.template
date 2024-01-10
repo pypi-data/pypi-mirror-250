@@ -1,0 +1,14 @@
+import os
+import sys
+
+# 添加对python embeddable的支持
+sys.path.insert(0, os.getcwd())
+
+from #project-name#.app import create_app
+
+
+app = create_app("config")
+
+if __name__ == "__main__":
+    from config import PORT, HOST
+    app.run(HOST, PORT)

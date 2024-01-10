@@ -1,0 +1,3 @@
+from webcoreframe.view import BaseView
+
+# write your view

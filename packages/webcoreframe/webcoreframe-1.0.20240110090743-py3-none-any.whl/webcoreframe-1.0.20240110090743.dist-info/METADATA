@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: webcoreframe
+Version: 1.0.20240110090743
+Summary: web develop core frame
+Home-page: https://gitee.com/bean_jun/webcoreframe
+Author: Bean-jun
+Author-email: 1342104001@qq.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: Flask >=2.3.2
+Requires-Dist: Flask-RESTful >=0.3.9
+Requires-Dist: Flask-SQLAlchemy >=3.0.5
+Requires-Dist: pycryptodome >=3.17
+Requires-Dist: redis >=4.5.4
+Requires-Dist: APScheduler >=3.10.1
+Requires-Dist: PyJWT >=2.6.0
+Requires-Dist: Flask-Mail >=0.9.1
+Requires-Dist: Flask-Limiter >=3.3.1
+Requires-Dist: Pillow >=10.1.0
+Requires-Dist: marshmallow >=3.19.0
+Requires-Dist: psutil >=5.9.6
+Requires-Dist: flask-cors >=4.0.0
+Requires-Dist: mysql-connector-python >=8.2.0
+
+# webcoreframe
+
+### 一、介绍
+
+本库旨在帮助后端开发人员快速构建一个基于`flask`框架的后端项目。
+
+1. 高效的脚本工具，快速创建原型
+    
+    ```shell
+    # 查看本库支持的脚本链
+    python -m webcoreframe --help
+    # 快速创建一个后端项目
+    python -m webcoreframe create-project
+    # 快速创建一个项目的app
+    python -m webcoreframe create-app
+    # 快速创建一个用户
+    python -m webcoreframe create-user
+    ```
+
+2. 内部自带电池
+
+    - 内部支持封装orm、redis、log
+    - 内部封装插件（定时任务、邮箱、限流、参数编码、参数加密、响应加密）
+    - 内部封装中间件（支持认证、系统日志、黑名单、参数编解码、接口过滤、授权、限流、SQL慢日志）
+    - 内部封装用户接口，若您需要走自定义用户接口，在配置中添加 CORE_USER_MODEL 配置项目
+    - 内部封装系统接口，用于获取系统状态信息、定时任务信息
+    - 内部封装后台管理，快速实现后端模型权限的配置、数据的更新
+    - 内部封装cli脚本工具，用于快速创建项目
+
+3. 开发进度
+
+    - [80%]封装orm
+        - 读写分离
+    - [80%] 封装redis
+    - [90%] 封装log
+    - [100%] 封装插件
+    - [60%] 封装中间件
+        - 优化部分中间件读写性能
+    - [100%] 封装用户接口
+    - [100%] 封装系统接口
+        - [100%] 定时任务接口
+    - [10%] 封装后台管理
+        - 后台界面开发
+        - 后台接口联调
+    - [100%] 封装cli脚本
+
+4. 相关配置
+
+    参考[config.template](./webcoreframe/tpl/config.template)
+

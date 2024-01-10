@@ -1,0 +1,6 @@
+from webcoreframe.application import Base, BaseModel
+
+# write your model
+
+def init_db(engine):
+    Base.metadata.create_all(engine)
