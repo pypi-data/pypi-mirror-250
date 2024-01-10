@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: monadcontainers
+Version: 0.0.1
+Summary: Python monads for functional programing
+License-File: LICENSE
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# monads
