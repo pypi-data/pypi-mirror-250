@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: BoltzTraP2
+Version: 24.1.1
+Summary: band-structure interpolator and transport coefficient calculator
+Home-page: https://www.boltztrap.org
+Download-URL: https://gitlab.com/sousaw/BoltzTraP2/repository/archive.tar.gz?ref=v24.1.1
+Author: Georg K. H. Madsen
+Author-email: georg.madsen@tuwien.ac.at
+License: GPLv3+
+Keywords: electronic band structure Onsager thermoelectric coefficients
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=3.5
+License-File: LICENSE.txt
+
+BoltzTraP2 provides a numerically stable and efficient method for obtaining
+analytic representations of electronic bands based on density-functional-theory
+results for relatively sparse grids. It achieves this goal by using smoothed
+Fourier interpolation.
+
+BoltzTraP2 can be used as a Python module or as a standalone command-line
+program. One of its most frequent use cases involves determining the Onsager
+electronic transport coefficients by direct integration over the Brillouin zone
+based on the interpolated band structure, as functions of temperature and
+chemical potential. This functionality is easy to access in BoltzTraP2, which
+also includes many additional features for band-structure analysis, such as
+a 3D viewer of the Fermi surface.
+
+The program and the method are described in detail in the following reference:
+G. Madsen, J. Carrete & M. J. Verstraete, Comput. Phys. Commun.

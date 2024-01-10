@@ -1,0 +1,6 @@
+spglib
+numpy
+scipy
+matplotlib
+ase
+netCDF4
