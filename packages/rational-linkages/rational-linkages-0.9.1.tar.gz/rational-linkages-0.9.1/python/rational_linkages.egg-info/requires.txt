@@ -1,0 +1,16 @@
+scipy>=1.1.0
+sympy>=1.1.0
+matplotlib>=3.1.0
+biquaternion-py>=1.0.0
+PyQt5>=5.15.10
+
+[dev]
+coverage
+flake8
+black
+twine
+
+[doc]
+sphinx
+sphinx-rtd-theme
+nbsphinx
