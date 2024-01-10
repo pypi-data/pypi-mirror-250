@@ -1,0 +1,6 @@
+turu/bigquery/__init__.py,sha256=oGrHB4tqdrARoQDS94dJALKdgpnedPqfXOB53VVaxa8,287
+turu/bigquery/connection.py,sha256=fK381HrN80EZCZ1g9nF1rmN5ME_Swfth6OIB0GS0uX8,1908
+turu/bigquery/cursor.py,sha256=1BOB_JbYTgVDh08bnaQgIrmql8EhxnBfYdZhLbXs3hk,4851
+turu_bigquery-0.6.3.dist-info/METADATA,sha256=1Yj4N2LV9x9VHB9u5F6Hzo4PAHzNjM_mPAPdcWLgPYs,1482
+turu_bigquery-0.6.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+turu_bigquery-0.6.3.dist-info/RECORD,,
