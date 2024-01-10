@@ -1,0 +1,10 @@
+aiohttp
+
+[test]
+eth-account
+itsdangerous
+pytest
+pytest-asyncio
+pytest-cov
+starlette
+uvicorn
