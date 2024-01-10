@@ -1,0 +1,16 @@
+httpx
+
+[kafka-event-publisher]
+cloudevents
+aiokafka
+
+[nats-event-publisher]
+cloudevents
+nats-py
+
+[pyorthanc]
+pyorthanc>1.0
+
+[rabbitmq-event-publisher]
+cloudevents
+aio-pika
