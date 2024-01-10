@@ -1,0 +1,2 @@
+[console_scripts]
+apollos-clone = clone.__main__:main
