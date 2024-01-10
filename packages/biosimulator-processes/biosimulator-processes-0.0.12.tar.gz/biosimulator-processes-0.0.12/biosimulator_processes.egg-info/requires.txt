@@ -1,0 +1,11 @@
+bigraph-schema
+process-bigraph
+numpy
+pytest>=6.2.5
+tellurium
+copasi-basico
+cobra
+
+[smoldyn]
+smoldyn
+simulariumio
