@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: binpickle
+Version: 0.4.0a4
+Summary: Optimized format for pickling binary data.
+Author-email: Michael Ekstrand <mdekstrand@drexel.edu>
+License: Copyright (c) 2020–2023 Boise State University
+        Copyright (c) 2023 Michael Ekstrand
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        > The above copyright notice and this permission notice shall be included in
+        > all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://binpickle.lenksit.org
+Project-URL: GitHub, https://github.com/lenskit/binpickle
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: msgpack >=1.0
+Requires-Dist: numcodecs >=0.12
+Requires-Dist: typing-extensions ~=4.8
+Provides-Extra: dev
+Requires-Dist: setuptools >=64 ; extra == 'dev'
+Requires-Dist: setuptools-scm >=8 ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: pyright ; extra == 'dev'
+Requires-Dist: copier ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: pyproject2conda ; extra == 'dev'
+Requires-Dist: sphinx-autobuild ; extra == 'dev'
+Requires-Dist: humanize ~=4.0 ; extra == 'dev'
+Requires-Dist: msgpack-types ; extra == 'dev'
+Requires-Dist: pandas-stubs ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx >=4.2 ; extra == 'doc'
+Requires-Dist: sphinxext-opengraph >=0.5 ; extra == 'doc'
+Requires-Dist: furo ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest >=5 ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: hypothesis >=6 ; extra == 'test'
+Requires-Dist: pandas >=1.4 ; extra == 'test'
+Requires-Dist: numpy >=1.22 ; extra == 'test'
+
+# BinPickle - efficient binary pickled data
+
+[![PyPI version](https://badge.fury.io/py/binpickle.svg)](https://badge.fury.io/py/binpickle)
+![Test and Build](https://github.com/lenskit/binpickle/workflows/Test%20and%20Package/badge.svg)
+[![codecov](https://codecov.io/gh/lenskit/binpickle/branch/master/graph/badge.svg)](https://codecov.io/gh/lenskit/binpickle)
+
+This package uses the new Pickle Protocol 5 added in Python 3.8 to efficiently
+serialize large objects, particularly from scientific Python packages, to an
+on-disk format.  This format is designed to support two use cases:
+
+1.  Serializing data-intensive statistical models in a memory-mappable format so
+    multiple processes can share the same (read-only) model memory.
+2.  Serializing data-intensive statistical models with good compression for long-term
+    storage and cross-machine transportation.
+
+BinPickle does this by using Pickle 5's out-of-band buffer serialization support to
+write buffers uncompressed and page-aligned for memory mapping (use case 1) or with
+per-buffer efficient compression with libraries like Blosc (use case 2).
+
+## Format Stability
+
+We do **not** yet guarantee the stability of the BinPickle format.  We will avoid gratuitous changes,
+but BinPickle 1.0 will be the first with a stability guarantee.
+
+## Acknowledgements
+
+This material is based upon work supported by the National Science Foundation under
+Grant No. IIS 17-51278. Any opinions, findings, and conclusions or recommendations
+expressed in this material are those of the author(s) and do not necessarily reflect
+the views of the National Science Foundation.  This page has not been approved by
+Boise State University and does not reflect official university positions.
