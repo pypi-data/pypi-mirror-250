@@ -1,0 +1,17 @@
+sphinx_deployment/__init__.py,sha256=61R10foNnw3-KQFIorNqqixemRZWBgS50oZciTWifZ4,280
+sphinx_deployment/__main__.py,sha256=3_F4SsuWroOg3gJlEZskX4fpxlYf3FKPtP3OqVHQpGk,194
+sphinx_deployment/_version.py,sha256=EJB7__SNK9kQS_SWZB_U4DHJ3P8ftF6etZEihTYnuXE,411
+sphinx_deployment/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+sphinx_deployment/cli.py,sha256=fTXTBwS8bdB715SvdDRYd9TJFXl_O-ZlKj9L-xAOtrQ,19032
+sphinx_deployment/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_deployment/sphinx_ext.py,sha256=DF69h8sXIzqN0MoCBGMVRzIMkYW6x2g6f_Sgzwsk4vI,3783
+sphinx_deployment/_static/templates/redirect.html,sha256=SyNSVyWztMld1aHulzc6NZqEryI8ZiHN6CNPyxqbfxg,531
+sphinx_deployment/_static/templates/rtd.html,sha256=7nbOwdb4Of6g_ZvpOvhVPKcrW83uD_SwWVr12buDG0c,357
+sphinx_deployment/_static/theme/rtd/rtd.css,sha256=7qcAk5oYNGFF8Jh3v02HCn7wH8g4NyfrC4nrKObas6w,2419
+sphinx_deployment/_static/theme/rtd/rtd.js_t,sha256=F6-h0uhR9qSaYuQw8msx-LQKcYgmfiFXUe1a1ukMSow,6575
+sphinx_deployment-0.0.5.dist-info/LICENSE,sha256=reahO8DNgH3BaqkhlDNQkVEEaWPFc2NS7Nh4ivoxP5g,11338
+sphinx_deployment-0.0.5.dist-info/METADATA,sha256=ZztJikQPQZk-85H62ipUMVxSTStkPbswkzouPckf3JY,3198
+sphinx_deployment-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+sphinx_deployment-0.0.5.dist-info/entry_points.txt,sha256=qeIlNARHH44XoX8PC2iQVtEqdd40FfzPVGkgKaYzIKY,69
+sphinx_deployment-0.0.5.dist-info/top_level.txt,sha256=VGmmJQRX7-Stfls-O4gj--R0Idt6FEXaIXw9q4b3dNA,18
+sphinx_deployment-0.0.5.dist-info/RECORD,,
