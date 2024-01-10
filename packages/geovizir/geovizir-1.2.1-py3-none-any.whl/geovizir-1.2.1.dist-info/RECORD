@@ -1,0 +1,8 @@
+geovizir/__init__.py,sha256=O4F7vyYY2SVz36URHONJXki7ipYT7aUXM8l6EYQnLyk,203
+geovizir/dplyr.py,sha256=TkgQuVOh0S9Q8iw45kyTxCmZEf8CKWWf_CApRw_XWss,1312
+geovizir/features.py,sha256=NllU5p5L3_aB5FR05y2kLlc9RF_sD4GY1MmXCLBXiLE,981
+geovizir/scales.py,sha256=vcI-CZf1X2P_flfKWzjkpDwIzFctrlwoQP9GPUZjGDE,614
+geovizir-1.2.1.dist-info/LICENSE,sha256=0hlB00s4AcJSg5QklfBaL8ublToOFTLG2AdZjhBGJpU,1074
+geovizir-1.2.1.dist-info/METADATA,sha256=5QopsvK_zVqNTf14QTkbOn_91_2UOoz0wvQ5tgzbeQ0,1266
+geovizir-1.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+geovizir-1.2.1.dist-info/RECORD,,
