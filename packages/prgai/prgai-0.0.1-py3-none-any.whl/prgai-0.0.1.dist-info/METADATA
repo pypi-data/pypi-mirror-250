@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: prgai
+Version: 0.0.1
+Summary: AI progs.
+Author: None
+Author-email: abc@email.com
+Requires-Dist: pyperclip
+
