@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rosecape-airflow
+Version: 0.0.14
+Summary: Airflow utilities
+Home-page: UNKNOWN
+Author: Nick Joanis
+Author-email: nicholas@rosecape.ca
+License: MIT
+Keywords: Airflow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+A package that makes it easy to interact with AWS services from Airflow using PythonOperator
+
