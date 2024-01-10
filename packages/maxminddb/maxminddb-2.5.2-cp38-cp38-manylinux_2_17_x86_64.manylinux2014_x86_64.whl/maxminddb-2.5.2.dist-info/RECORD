@@ -1,0 +1,15 @@
+maxminddb/types.py,sha256=XG_zsopH7GUEorjlso3N6QS2mjd2jEqubVfi2BORQP4,558
+maxminddb/file.py,sha256=ECrEZ30j9CB7AxxB1Kr3Va-T9hp59_GkeueXXN7HGG4,2169
+maxminddb/__init__.py,sha256=BEj5gBscOpjD20fEY0oRfm0Mg0Eo5T-R9NG6ohVAJvI,2557
+maxminddb/extension.pyi,sha256=srJxIGFtPUWrIrVj1e8cfrTOyT16EZi4guu0RAckUO0,1447
+maxminddb/reader.py,sha256=2T_NnwV_ZrAx-pVVTizM6l_HclnQ6AaMLylCaX_RuJo,12183
+maxminddb/decoder.py,sha256=5SHtA04eA6jK7XOcrKp0P_5mk78Ohhd6vCosEfRE2bw,7005
+maxminddb/const.py,sha256=jtjysKHB7w8k_TO-1JYkVC3ucWpfjaYKpIWgBKpITG0,122
+maxminddb/extension.cpython-38-x86_64-linux-gnu.so,sha256=4OePwKeFoq36i0ddDr4LoxKCC6efSjQdq_i8ENBsgsE,192744
+maxminddb/errors.py,sha256=RB_1MCKHJ9jLxVQ8Oi8axSsqutfDsgcEsKjbfO9CVkg,226
+maxminddb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maxminddb-2.5.2.dist-info/WHEEL,sha256=zTDqV7OR0em6fvysya0bwC-51Mb7EQ0x5PBJySRF2iQ,148
+maxminddb-2.5.2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+maxminddb-2.5.2.dist-info/RECORD,,
+maxminddb-2.5.2.dist-info/top_level.txt,sha256=AKInnuDXa1wn83qmLWp8u5KzNupVHFWR8eSuSgsjTpc,10
+maxminddb-2.5.2.dist-info/METADATA,sha256=i2lzpOnRqQLvRFnEoQjgAuylt5PL_1w9m2LFu2zFWPM,5075
