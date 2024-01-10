@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: blue_media
+Version: 0.0.2
+Summary: A wrapper of the api logic used to interact with blue_media.
+Home-page: 
+Author: ranyu
+Author-email: wy176404@163.com
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp>=3.9.1
+Requires-Dist: aiosignal>=1.3.1
+Requires-Dist: async-timeout>=4.0.3
+
+# What is it?
+
+> A wrapper of the api logic used to interact with blue_media.
+
+
+# Why is it needed?
+
+> I just wanted to do it, no why.
+
+# How to use it?
+
+**Installing the library**
+> pip install blue_media
+
+**Importing the library**
+> from blue_media import BlueClass
+
+**Initialize the Config Class**
+> config = Config(**kwargs)
+
+**Initialize the BlueMedia Class**
+> blue = BlueMedia(config)
+
+**Call the GET and POST methods**
+
+> blue.async_get(**kwargs)
+> blue.async_post(**kwargs)
+
+By: "_"

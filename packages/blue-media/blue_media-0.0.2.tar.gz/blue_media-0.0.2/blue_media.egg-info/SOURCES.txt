@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+blue_media/BlueClass.py
+blue_media/__init__.py
+blue_media.egg-info/PKG-INFO
+blue_media.egg-info/SOURCES.txt
+blue_media.egg-info/dependency_links.txt
+blue_media.egg-info/requires.txt
+blue_media.egg-info/top_level.txt
