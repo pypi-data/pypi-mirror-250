@@ -1,0 +1,16 @@
+PhrameAPI/__init__.py,sha256=_YnN1y33SUXGzTHKNR2yafgNaHXiScjKeH6o4ohx3ow,1021
+PhrameAPI/api_client.py,sha256=fb778mYVQLqSnHSUfPK8BewosnfXyM0e3KPlqomS6VE,27708
+PhrameAPI/configuration.py,sha256=eOyn5evgx4TH9azZX-uOiXrfa2620ggtnxQG0v673e0,16108
+PhrameAPI/exceptions.py,sha256=97KW2w90iZsCjrybbTyrenXiN8Dg_taqDQN9gcah8pw,5071
+PhrameAPI/rest.py,sha256=qnlGbEBJvKiM-_AIplWBnAOmb3rENA-OuPh6gOd7EFI,12597
+PhrameAPI/api/__init__.py,sha256=q9s1DXVBuv0kqBLI15GTN2lCqHIoyPxEm08awSFIxfM,134
+PhrameAPI/api/phrame_api.py,sha256=18ZB8edCtAS0jt4DUGlOew6epXeMcUziAxyLfGlmH0w,20236
+PhrameAPI/models/__init__.py,sha256=zhf0kg1MTpkPdM4-T9_yJftPoEp0K1zutLUPNtacb70,522
+PhrameAPI/models/db_phrame_json_store.py,sha256=zYWP42CUH5bGacQ8s5TrhIR_1mYh9gapSqzxd2IvUaQ,5109
+PhrameAPI/models/db_phrame_ui_configuration.py,sha256=IiyIRY_9S1fxD79qhQIDeMIPtMOeNbxxIAesrWNxA00,11361
+PhrameAPI/models/get_hello_world200_response.py,sha256=fEDienVuNTbjqdzP3x9tlZqIAguid-BoRTev3V045vE,3708
+PhrameAPI-1.0.0.dist-info/LICENSE,sha256=ZUciv37iIqH9wNZ8RLJfH5qF6FZaqhnPGPMded9o-jU,1067
+PhrameAPI-1.0.0.dist-info/METADATA,sha256=NholUeDjAmBEnuf80Q78JS3wqWsbOJQU6i2OFfeU5JA,4470
+PhrameAPI-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+PhrameAPI-1.0.0.dist-info/top_level.txt,sha256=KG1C_OzJBIfoEy3_7v-0vxQcwmHzGLhMi-K1WI1nUI8,10
+PhrameAPI-1.0.0.dist-info/RECORD,,
