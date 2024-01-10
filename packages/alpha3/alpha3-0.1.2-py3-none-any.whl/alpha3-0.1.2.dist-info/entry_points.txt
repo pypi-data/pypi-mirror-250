@@ -1,0 +1,3 @@
+[console_scripts]
+alpha3=alpha3.__main__:main
+
