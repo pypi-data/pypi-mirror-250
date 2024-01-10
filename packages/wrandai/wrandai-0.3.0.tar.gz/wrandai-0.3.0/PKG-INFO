@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wrandai
+Version: 0.3.0
+Summary: This is a repository for calculating the W Randomness Coefficient                     of a set of algorithms on a suite of Machine Learning benchmarks.
+Home-page: https://github.com/willleeney/wrandai
+Author: William Leeney
+Author-email: will.leeney@outlook.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier:  Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: numpy

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tests/tests.py
+wrandai/__init__.py
+wrandai/wrandai.py
+wrandai.egg-info/PKG-INFO
+wrandai.egg-info/SOURCES.txt
+wrandai.egg-info/dependency_links.txt
+wrandai.egg-info/requires.txt
+wrandai.egg-info/top_level.txt
