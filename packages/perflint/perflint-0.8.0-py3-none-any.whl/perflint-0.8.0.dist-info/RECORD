@@ -1,0 +1,10 @@
+perflint/__init__.py,sha256=QPmijFKE3T7gtuZzNgBdXmv3ti5gtOP2kT6XQLgxsg4,759
+perflint/__main__.py,sha256=ij6va-Wo0Qzsl1Yf7cP5LpYgDSkgb-cvQL-9MyigZ8Q,680
+perflint/comprehension_checker.py,sha256=F_LWe44G0rh6esoXc1KIzfDe1iE2HAFH5JnKoq1LHFo,3262
+perflint/for_loop_checker.py,sha256=7T-IkrD4f1F9CP2bCt1UM2MyulicV3uxLK1m-GL7E9M,13923
+perflint/list_checker.py,sha256=vSxQEVFjQZxukfacb1oRqgXJoIpt8KamlF7u2vPFsh8,2608
+perflint-0.8.0.dist-info/entry_points.txt,sha256=h8ODQTyVRx5iWpxF_bekQN6BOvQnzqLts4n60NlAGQk,46
+perflint-0.8.0.dist-info/LICENSE,sha256=i-D7EyY4kd-FVQ4su6RJr8ySg-NWgF5EyusyPwrDckI,1069
+perflint-0.8.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+perflint-0.8.0.dist-info/METADATA,sha256=KEowaXQ6Rbq0BvMPp76Rs1GmVRgS6f0UU3CtXWOC2fk,10182
+perflint-0.8.0.dist-info/RECORD,,

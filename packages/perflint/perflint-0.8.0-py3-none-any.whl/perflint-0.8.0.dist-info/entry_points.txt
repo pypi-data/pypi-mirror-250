@@ -1,0 +1,3 @@
+[console_scripts]
+perflint=perflint:__main__
+
