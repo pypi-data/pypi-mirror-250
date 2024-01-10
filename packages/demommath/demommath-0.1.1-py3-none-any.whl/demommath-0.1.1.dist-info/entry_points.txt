@@ -1,0 +1,2 @@
+[console_scripts]
+your-command-name = your_package.module1:main_function
