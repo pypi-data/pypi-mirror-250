@@ -1,0 +1,6 @@
+pyproject.toml
+statai/__init__.py
+statai.egg-info/PKG-INFO
+statai.egg-info/SOURCES.txt
+statai.egg-info/dependency_links.txt
+statai.egg-info/top_level.txt
