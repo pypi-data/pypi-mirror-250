@@ -1,0 +1,8 @@
+nonebot_plugin_pingti-0.1.0.post1.dist-info/METADATA,sha256=f0lY6fqs3OMxYfqCFwFIfJBcoat9K0B6hzU_pZsjvBc,4562
+nonebot_plugin_pingti-0.1.0.post1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+nonebot_plugin_pingti-0.1.0.post1.dist-info/licenses/LICENSE,sha256=FgRk_OWZ2NhWR9HRhUC9NhF2knljmKer-ew0H1pbhSQ,1069
+nonebot_plugin_pingti/__init__.py,sha256=fuUnNcckBQ2zDQ1tEL1W_D00WqJ6C5z7mqo9IJQbcvI,1017
+nonebot_plugin_pingti/__main__.py,sha256=68GCUCvUU1UPz3S9b0_iRkqbP5uhLU6MCpOLPi0ZnS0,1768
+nonebot_plugin_pingti/config.py,sha256=xhJKPgxY1Gt_Nq-gcZ-ki80U8SZgHTT9dmY6WA16ovg,260
+nonebot_plugin_pingti/data_source.py,sha256=e58VPMuHL26QYj4khbj77xvWq2tdgZi3CWn5f7DFwWk,3340
+nonebot_plugin_pingti-0.1.0.post1.dist-info/RECORD,,
