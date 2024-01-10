@@ -1,0 +1,2 @@
+[console_scripts]
+tabmemcheck = tabmemcheck.cli_interface:main
