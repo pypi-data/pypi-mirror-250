@@ -1,0 +1,11 @@
+funix_cloud/__init__.py,sha256=xydrWFYPFh-rCCA4xiqQvmFWqNTkEn1CZzrSskjYGnI,692
+funix_cloud/api/__init__.py,sha256=4Z93jSWHwTSycKi5FKUJIT4VyE-swGEPl7zLtsQuWp4,15901
+funix_cloud/cli/__init__.py,sha256=TEjRtCfPN_7PtD7DodmYcj-n0KNrhdkNu5PpfY7pqes,22726
+funix_cloud/config/__init__.py,sha256=aKvuaPcstQ1KQEOz3IX4QXXhw_jjZKYN9iWVPgyIB1s,1465
+funix_cloud/util/__init__.py,sha256=sq3gjIhNy6czcM2LZUuFGmnf-zrFWNE7-0NsYXcuF1I,2192
+funix_cloud-0.1.0.dist-info/LICENSE.txt,sha256=LnZYnEzgoxbK_HmBrAX1U1cwiuX16dODpdElgX4-mSg,1068
+funix_cloud-0.1.0.dist-info/METADATA,sha256=XzxP7KzIO-4MaAqeJCyN7kGF3tYoTO0s9tNJm0rKsfw,2622
+funix_cloud-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+funix_cloud-0.1.0.dist-info/entry_points.txt,sha256=ADrBLN6ln48nrMAYXMq-uNrzAXGRywlLuQ8Md1fZho0,59
+funix_cloud-0.1.0.dist-info/top_level.txt,sha256=nzgRC1ckps6Hmarlsr1_TMioBV2gc_r8Qhcp4d0NOCE,12
+funix_cloud-0.1.0.dist-info/RECORD,,
