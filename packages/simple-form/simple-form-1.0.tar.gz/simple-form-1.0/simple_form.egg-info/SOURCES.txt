@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+simpleForm/Form.py
+simpleForm/__init__.py
+simpleForm/scripts/__init__.py
+simpleForm/scripts/clear.py
+simpleForm/scripts/isIterable.py
+simpleForm/scripts/listenKeyboard.py
+simpleForm/scripts/showItemList.py
+simpleForm/scripts/ternaryOperator.py
+simple_form.egg-info/PKG-INFO
+simple_form.egg-info/SOURCES.txt
+simple_form.egg-info/dependency_links.txt
+simple_form.egg-info/requires.txt
+simple_form.egg-info/top_level.txt
