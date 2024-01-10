@@ -1,0 +1,13 @@
+slackclient==2.9.3
+numpy>=1.19
+pandas==1.3.4
+joblib
+dask==2022.1.1
+xarray>=0.10.0
+geopandas>=0.3.0
+simpledbf>=0.2.6
+python-snappy
+pyarrow>=2.0.0
+toolz
+cloudpickle
+fastparquet
