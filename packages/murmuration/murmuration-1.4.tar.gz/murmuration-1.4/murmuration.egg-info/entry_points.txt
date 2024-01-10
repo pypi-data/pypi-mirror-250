@@ -1,0 +1,2 @@
+[console_scripts]
+kms_wrap = murmuration.kms_wrap:main
