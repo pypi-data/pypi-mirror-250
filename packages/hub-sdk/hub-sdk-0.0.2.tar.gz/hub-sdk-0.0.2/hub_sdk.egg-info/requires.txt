@@ -1,0 +1,13 @@
+requests
+
+[dev]
+ipython
+check-manifest
+pre-commit
+pytest
+pytest-cov
+coverage[toml]
+mkdocs-material
+mkdocstrings[python]
+mkdocs-redirects
+mkdocs-ultralytics-plugin>=0.0.34
