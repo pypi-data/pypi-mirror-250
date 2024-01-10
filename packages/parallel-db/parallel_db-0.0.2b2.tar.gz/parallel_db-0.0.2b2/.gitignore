@@ -1,0 +1,15 @@
+# тестовые файлы
+test*.*
+
+# файлы оптимизации запусков
+*__pycache__*
+
+# файл с кредами
+credos.py
+
+dist/*
+
+history.csv
+.vscode
+
+logs_*
