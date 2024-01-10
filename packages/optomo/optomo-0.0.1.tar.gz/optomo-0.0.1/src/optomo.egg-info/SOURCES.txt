@@ -1,0 +1,11 @@
+MANIFEST.in
+README
+setup.cfg
+setup.py
+versioneer.py
+src/optomo/__init__.py
+src/optomo/_version.py
+src/optomo.egg-info/PKG-INFO
+src/optomo.egg-info/SOURCES.txt
+src/optomo.egg-info/dependency_links.txt
+src/optomo.egg-info/top_level.txt
