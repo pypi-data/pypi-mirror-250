@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: VisionTagger
+Version: 0.1.5
+License-File: LICENCE
+Requires-Dist: pillow
+Requires-Dist: opencv-python
+Requires-Dist: tk
