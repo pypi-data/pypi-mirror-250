@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rows2prose
+Version: 0.1.0
+Summary: Build text-centric visualizations with inline data
+Home-page: https://rows2prose.org/
+Author: Marcus Lewis
+License-File: LICENSE

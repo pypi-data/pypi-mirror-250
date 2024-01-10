@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+rows2prose/__init__.py
+rows2prose/notebook.py
+rows2prose/web.py
+rows2prose.egg-info/PKG-INFO
+rows2prose.egg-info/SOURCES.txt
+rows2prose.egg-info/dependency_links.txt
+rows2prose.egg-info/not-zip-safe
+rows2prose.egg-info/top_level.txt
+rows2prose/package_data/.DS_Store
+rows2prose/package_data/d3.min.js
+rows2prose/package_data/rows2prose.browser.js
+rows2prose/package_data/rows2prose.browser.js.map
