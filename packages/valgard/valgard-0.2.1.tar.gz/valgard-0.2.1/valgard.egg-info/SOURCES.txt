@@ -1,0 +1,9 @@
+README.md
+setup.py
+valgard.egg-info/PKG-INFO
+valgard.egg-info/SOURCES.txt
+valgard.egg-info/dependency_links.txt
+valgard.egg-info/requires.txt
+valgard.egg-info/top_level.txt
+valueguard/__init__.py
+valueguard/valueguard.py
