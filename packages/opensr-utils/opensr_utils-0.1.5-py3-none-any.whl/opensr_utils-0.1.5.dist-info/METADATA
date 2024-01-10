@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: opensr-utils
+Version: 0.1.5
+Summary: Utils supporting the ESA openst-model package for Super-Resolution of Senintel-2 Imagery
+Home-page: https://isp.uv.es/opensr/
+Author: Simon Donike, Cesar Aybar, Luis Gomez Chova, Freddie Kalaitzis
+Author-email: accounts@donike.net
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: einops
+Requires-Dist: rasterio
+Requires-Dist: tqdm
+Requires-Dist: torch
+Requires-Dist: scikit-image
+
+# opensr-utils - Supplementary Code for the ESA OpenSR project
+This package contains useful functions to perform super-resolution of raw Sentinel-2 tiles. More detailed documentation coming soon.
