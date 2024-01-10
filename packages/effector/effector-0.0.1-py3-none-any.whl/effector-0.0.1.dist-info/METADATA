@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: effector
+Version: 0.0.1
+Author: Vasilis Gkolemis
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numdifftools
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+# Effector
