@@ -1,0 +1,14 @@
+xango/__init__.py,sha256=E1gYB_f4W-GWD1CUPZQOkwW-Wfa_ub8ngwtDFf1AYcE,516
+xango/database.py,sha256=CNcpUyH-84w31gVQ_UfC5nNrNAdA3RmVK2ilpeVRk2k,67752
+xango/dict_mutator-2x.py,sha256=il6m4UVvvPTfSoW0CDc_dJhUHBA6lcDCc_1w-JFEj8U,13812
+xango/dict_mutator.py,sha256=EJ6e1NXZJr9LpC6NJRlfyVnaINNDZhqcrnZA3VgJ4b8,12956
+xango/dict_query.py,sha256=54pOrJaDgdIoyzhX8T4WPLMbf4WDICD33nkmVaYd1qs,18846
+xango/exceptions.py,sha256=3C9JnAHOe6bOxXFEcIJhKLh3E0ymDzQph_IIWFwVMdk,565
+xango/lib.py,sha256=I1U27gLoETxiTbC2-iSW-E9x7AJp5vUOdxgmYIB196M,20365
+xango/lib_dict.py,sha256=hwfYeDkNE0TSgLheStMrnlH2ZiE8WaDMqKRbxRizur4,12974
+xango/lib_xql.py,sha256=iLN4ttLotKbflonaYpU0BxPynd5ZEv-RhzO6S_H27lA,20076
+xango-0.1.16.dist-info/LICENSE,sha256=FlO4lqkNlJdbPgtHza40qj8DzcjNOobIguGwPt-pFtc,1084
+xango-0.1.16.dist-info/METADATA,sha256=sxs_GMVN3XvroAWLp8UU_AufLshnoHXEh0gwDuHyS8Q,1448
+xango-0.1.16.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xango-0.1.16.dist-info/top_level.txt,sha256=1c2bGtz3EP1uyoZX4i1mKWg80y5DFfAsjzDJb7HVT_s,6
+xango-0.1.16.dist-info/RECORD,,
