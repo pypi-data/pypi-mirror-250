@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: futuresio
+Version: 0.1.1
+Summary: Abstract classes defination for I/O operations, those abstract classes follows the Rust's I/O related trait definations.
+Home-page: http://github.com/al8n/pyo3-io
+Author: Al Liu
+Author-email: scygliu1@gmail.com
+License: MIT/Apache-2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+
+# futuresio
+
+Abstract classes defination for I/O operations, those abstract classes follows the Rust's I/O related trait definations.
