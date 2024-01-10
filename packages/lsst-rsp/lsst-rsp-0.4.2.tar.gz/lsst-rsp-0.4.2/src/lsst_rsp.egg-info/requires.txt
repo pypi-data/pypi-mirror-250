@@ -1,0 +1,13 @@
+Deprecated
+IPython
+pyvo
+
+[dev]
+types-deprecated
+types-requests
+coverage[toml]
+pytest
+pytest-asyncio
+pre-commit
+mypy
+scriv
