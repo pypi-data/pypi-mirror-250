@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: aivatar-project-api
+Version: 0.0.5
+Summary: API to operate project-info of users in Aivatar products, e.g. get list, choose project...
+Home-page: https://git.woa.com/DCC_Client/Framework/aivatar_project_api.git
+Author: lavenderyao
+Author-email: lavenderyao@tencent.com
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests>=2.25.1
