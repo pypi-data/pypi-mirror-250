@@ -1,0 +1,141 @@
+[project]
+name = "tubthumper"
+description = "Python package of retry utilities named after the English anarcho-communist rock band Chumbawamba's 1997 hit Tubthumping"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "Apache License, Version 2.0"}
+keywords = ["retry", "jitter", "exponential-backoff"]
+authors = [{ name = "Matt Fay", email = "matt.e.fay@gmail.com" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+dependencies = [
+  "typing-extensions; python_version < '3.10'",
+]
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://tubthumper.mattefay.com"
+Changelog = "https://tubthumper.mattefay.com/en/stable/changelog.html"
+Source = "https://github.com/matteosox/tubthumper"
+"Bug Tracker" = "https://github.com/matteosox/tubthumper/issues"
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["tubthumper"]
+package-data = {"tubthumper" = ["py.typed"]}
+zip-safe = true
+
+[tool.setuptools.dynamic]
+version = {attr = "tubthumper.__version__"}
+
+[tool.black]
+verbose = true
+color = true
+target_version = ["py38", "py39", "py310", "py311", "py312"]
+line_length = 88
+
+[tool.isort]
+verbose = true
+profile = "black"
+skip_gitignore = true
+line_length = 88
+
+[tool.mypy]
+cache_dir = "~/.cache/mypy"
+html_report = "docs/source/_static/mypy"
+warn_unused_configs = true
+disallow_any_generics = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+no_implicit_reexport = true
+strict_equality = true
+
+[tool.pytest.ini_options]
+cache_dir = "~/.cache/pytest"
+addopts = "-ra --verbose --color=yes"
+testpaths = ["test/unit_tests"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+source = ["tubthumper"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+exclude_lines = [
+    # typing-related code
+    "^ +\\.\\.\\.$",
+]
+
+[tool.coverage.html]
+directory = "docs/source/_static/coverage"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py38, py39, py310, py311, py312, pypy3.10, coverage-report
+isolated_build = true
+toxworkdir = {tox_root}/../.cache/tox
+
+[testenv]
+deps = -r{toxinidir}/requirements/test_requirements.txt
+setenv = PYTHONHASHSEED = 0
+commands = coverage run -m pytest {posargs}
+
+[testenv:coverage-report]
+deps = coverage[toml]
+skip_install = true
+depends = py38, py39, py310, py311, py312, pypy3.10
+ignore_errors = true
+commands =
+    coverage combine
+    coverage report
+    coverage html
+
+[gh-actions]
+python =
+    3.8: py38
+    3.9: py39
+    3.10: py310
+    3.11: py311
+    3.12: py312
+    pypy-3.10: pypy3.10
+"""
+
+[tool.check-wheel-contents]
+toplevel = "tubthumper"
+package = "tubthumper"
