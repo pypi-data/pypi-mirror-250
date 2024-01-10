@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/ducktools/scriptmetadata/__init__.py
+src/ducktools/scriptmetadata/py.typed
+src/ducktools_scriptmetadata.egg-info/PKG-INFO
+src/ducktools_scriptmetadata.egg-info/SOURCES.txt
+src/ducktools_scriptmetadata.egg-info/dependency_links.txt
+src/ducktools_scriptmetadata.egg-info/requires.txt
+src/ducktools_scriptmetadata.egg-info/top_level.txt
+tests/test_compliance.py
+tests/test_internals.py
+tests/test_vs_regex.py
