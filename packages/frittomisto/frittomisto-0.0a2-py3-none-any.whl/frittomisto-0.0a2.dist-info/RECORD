@@ -1,0 +1,13 @@
+frittomisto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frittomisto/asyncio.py,sha256=EtFurowLglQzys4h34q7ix7YHY_72vatOfuI7fVO8Ns,506
+frittomisto/cfg.py,sha256=OsZSip9mOTiCxn1kyn4nStk53kLksl8DVDakDSblVNA,3462
+frittomisto/io.py,sha256=ROuwQBAB76QEOkcm0OjLtxOsuYKlaLNaDUGWq5Efoc0,439
+frittomisto/json.py,sha256=-E53sSfb4StDTuUi_8sDmPCzhWoVi0g1S3x3chegksc,3521
+frittomisto/logging.py,sha256=Amd2yZSsm_e2SG-Gb6vd6l14Jg98ZyIgyDqDCIq69uA,1448
+frittomisto/path.py,sha256=y-RCZFpW2KA7QYJUmDVAMmc4VNaLe5A4l_JwotyHaZQ,998
+frittomisto/profiling.py,sha256=8tz2qXXkAStDzDni7Wy7R5r04eg6k0jTquFMRkWtpHA,4840
+frittomisto/time.py,sha256=_O5BocGcp5SEyu57oBiYVlBOHNZY7VQbfYGh76ZkhfY,549
+frittomisto/url.py,sha256=1UQL1_56-Rt0PwOEsAmFoQdVB04EyNFtWM95c8QfXTc,1145
+frittomisto-0.0a2.dist-info/METADATA,sha256=10-JGiIH_qWGItssXdE9rSYV4gdAdpbn5Zdya8Cdbxo,5713
+frittomisto-0.0a2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+frittomisto-0.0a2.dist-info/RECORD,,
