@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+rational_linkages.egg-info/PKG-INFO
+rational_linkages.egg-info/SOURCES.txt
+rational_linkages.egg-info/dependency_links.txt
+rational_linkages.egg-info/requires.txt
+rational_linkages.egg-info/top_level.txt
