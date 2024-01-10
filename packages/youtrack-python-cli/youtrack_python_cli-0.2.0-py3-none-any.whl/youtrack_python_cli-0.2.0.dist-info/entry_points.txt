@@ -1,0 +1,3 @@
+[console_scripts]
+youtrack-cli=youtrack_python_cli.cli:cli
+
