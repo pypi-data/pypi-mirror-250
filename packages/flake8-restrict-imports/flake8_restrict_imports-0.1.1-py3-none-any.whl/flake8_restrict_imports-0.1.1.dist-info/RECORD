@@ -1,0 +1,8 @@
+restrict_imports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restrict_imports/checker.py,sha256=dygYo8faF5aKUpEPeAzZHkrmepU5n4LNjhWCOCnlDOQ,3554
+flake8_restrict_imports-0.1.1.dist-info/LICENSE,sha256=_OcAxQDwx2t2II4wn0n7ZLhInda--qAJEMSclLAkSO4,1082
+flake8_restrict_imports-0.1.1.dist-info/METADATA,sha256=ykXItYcPBDsxaxBVxD2CWdtK9w7R9avOOchb_dZ7IxQ,2616
+flake8_restrict_imports-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+flake8_restrict_imports-0.1.1.dist-info/entry_points.txt,sha256=WfcKPVxKyf2khzLzw3rxDqNBjq_MUx_d8--MpL7UK88,57
+flake8_restrict_imports-0.1.1.dist-info/top_level.txt,sha256=q6p5TbcAvXQOppDgMUYj-wM5t6hfQlReIsuJDyazQ10,17
+flake8_restrict_imports-0.1.1.dist-info/RECORD,,
