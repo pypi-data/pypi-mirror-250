@@ -1,0 +1,16 @@
+aivatar_project_api/__init__.py,sha256=kBdA_K8CvJRPMmC7SOecfoqsx3Y-WuBBi4IZfaT2-GA,584
+aivatar_project_api/config_io.py,sha256=LHBPGUO-8I96Yd5GS7IO6d8yZr-l4c3CPZO6glMCbW0,4834
+aivatar_project_api/constants.py,sha256=y4SYcEFV5awOGBCnhodhqF4BfcBlAMsWhBriG1l-j6o,187
+aivatar_project_api/core.py,sha256=eTTB80F7ELCITNUhGGa6RcH7CiYS_8xqMHw-QzefAs8,6537
+aivatar_project_api/logger.py,sha256=GTTIjmVmHVk4hL3Ixm47GmBiGnw0-ppiPV48Z1Jvdvg,3713
+aivatar_project_api/proj_requester.py,sha256=EYqsko22kwUOTYPj_75bz3jnvjRxxhU2gUBViJvS-LA,2696
+aivatar_project_api/configs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aivatar_project_api/configs/network.json,sha256=m5f4p0QG6K0Jp_DmaSi3RmewwwziF2itAPXCBZpL9aU,385
+aivatar_project_api/configs/network_test.json,sha256=cHOh_obaZfqLir_3VrbCOJo-hxJqVYiPxPpUjmLdGOE,401
+aivatar_project_api/test/__init__.py,sha256=yApo9zVeL_JTTxsVrMaeZpNMpFnClUmlCARlyfDYtds,172
+aivatar_project_api/test/test_core.py,sha256=erIYKzAzf_64Rb3wgfvGwOyKDcVC0MA8516biricUOg,1161
+aivatar_project_api/test/test_imports.py,sha256=CrMXPJKTNGl4Srh5CTKtUMdJC4Yn4wxMwtRgcV6HUhY,702
+aivatar_project_api-0.0.5.dist-info/METADATA,sha256=x2HLm5BVpVtgnaVQj7qQ5UigK0wwEwkCJSWs7NYNgZ4,482
+aivatar_project_api-0.0.5.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+aivatar_project_api-0.0.5.dist-info/top_level.txt,sha256=Yre2Vu9XOxR85VWIo9ec5MmT2piwTBEcv999Z-f6cdE,20
+aivatar_project_api-0.0.5.dist-info/RECORD,,

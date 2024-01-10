@@ -1,0 +1,8 @@
+{
+    "//": "formal: https://service.arthub.woa.com; test: https://arthub-service-test.woa.com",
+    "host": "https://arthub-service-test.woa.com",
+    "route": "account/account/openapi/v3/core/get-aivatar-projects-by-account",
+    "guide_page_url": "https://arthub-test.qq.com/dccTools/static/abort.html",
+    "manager_page_url": "https://arthub-test.woa.com/dccTools/admin",
+    "log": true
+}
