@@ -1,0 +1,8 @@
+README.rst
+music_score.py
+setup.py
+music_score.egg-info/PKG-INFO
+music_score.egg-info/SOURCES.txt
+music_score.egg-info/dependency_links.txt
+music_score.egg-info/requires.txt
+music_score.egg-info/top_level.txt
