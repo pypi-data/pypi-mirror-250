@@ -1,0 +1,9 @@
+cffi==1.12.3; python_version < '3.10'
+cffi==1.16.0; python_version >= '3.10'
+h2>=2.4,<3.0,!=2.5.0; python_version < '3.10'
+h2==3.2.0; python_version >= '3.10'
+hyperframe>=3.2,<4.0; python_version < '3.10'
+hyperframe>=5.2.0,<6; python_version >= '3.10'
+rfc3986>=1.1.0,<2.0
+brotlipy>=0.7.0,<1.0
+six
