@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: gitaddnb
+Version: 0.1.0rc1
+Author-email: Georg Wendorf <georgwendorf@gmail.com>
+Project-URL: Homepage, https://github.com/pcjedi/gitaddnb
+Project-URL: Documentation, https://github.com/pcjedi/gitaddnb/blob/main/README.md
+Project-URL: Repository, https://github.com/pcjedi/gitaddnb
+Project-URL: Changelog, https://github.com/pcjedi/gitaddnb/releases
+Project-URL: Bug Tracker, https://github.com/pcjedi/gitaddnb/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# gitaddnb
+
+If you want to add a Jupyter Notebook to the git stage:
+
+- ensuring all code cells ran consecutively
+- without outputs
+- without execution order
+- leave the cell outputs on disk as is
+
+## Pre-Commit
+
+You can use this repository as a [pre-commit](https://pre-commit.com/) hook:
+
+```yaml
+repos:
+  - repo: https://github.com/pcjedi/gitaddnb
+    rev: v0.1.0
+    hooks:
+      - id: gitaddnb
+```
+
+On the first Commit Attempt, this hook will fail due to changing the content of the staged Notebooks. The second try should then go through.
+
+## CLI
+
+### Installation
+
+```bash
+pipx install gitaddnb
+```
+
+### Usage
+
+```bash
+gitaddnb notebook1.ipynb notebook2.ipynb
+```
