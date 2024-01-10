@@ -1,0 +1,8 @@
+README.md
+setup.py
+flake8_self_documenting_f_strings.egg-info/PKG-INFO
+flake8_self_documenting_f_strings.egg-info/SOURCES.txt
+flake8_self_documenting_f_strings.egg-info/dependency_links.txt
+flake8_self_documenting_f_strings.egg-info/entry_points.txt
+flake8_self_documenting_f_strings.egg-info/top_level.txt
+self_documenting_f_strings/__init__.py
