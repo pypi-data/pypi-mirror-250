@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+src/calculator_package_DOUG_HUNGWE/__init__.py
+src/calculator_package_DOUG_HUNGWE/calculator.py
+src/calculator_package_DOUG_HUNGWE.egg-info/PKG-INFO
+src/calculator_package_DOUG_HUNGWE.egg-info/SOURCES.txt
+src/calculator_package_DOUG_HUNGWE.egg-info/dependency_links.txt
+src/calculator_package_DOUG_HUNGWE.egg-info/top_level.txt
+tests/test_calculator.py

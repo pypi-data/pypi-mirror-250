@@ -1,0 +1,80 @@
+# Calculator Class README
+
+This README provides detailed information on how to use each method in the Calculator class, along with use cases and considerations.
+
+## Introduction
+
+The Calculator class is designed to perform basic arithmetic operations on numbers. It includes methods for addition, subtraction, multiplication, division, and calculating the nth root of a number.
+
+## Installation
+
+You can install the calculator package using pip. Open a terminal and run the following command:
+
+pip install calculator
+
+### Class Methods
+1. add(self, first_number: float = 0, second_number: float = 0) -> float
+Adds two numbers and returns the sum.
+
+Example:
+from calculator import Calculator
+
+calculator = Calculator()
+result = calculator.add(3, 5)
+print(result)  # Output: 8.0
+
+2. subtract(self, first_number: float = 0, second_number: float = 0) -> float
+Subtracts the second number from the first and returns the result.
+
+Example:
+from calculator import Calculator
+
+calculator = Calculator()
+result = calculator.subtract(10, 4)
+print(result)  # Output: 6.0
+
+3. multiply(self, first_number: float = 0, second_number: float = 0) -> float
+Multiplies two numbers and returns the product.
+
+Example
+from calculator import Calculator
+
+calculator = Calculator()
+result = calculator.multiply(2, 3)
+print(result)  # Output: 6.0
+
+4. divide(self, first_number: float = 0, second_number: float = 0) -> float
+Divides the first number by the second and returns the result.
+Raises:
+ValueError: If attempting to divide by zero.
+
+Example
+from calculator import Calculator
+
+calculator = Calculator()
+result = calculator.divide(8, 2)
+print(result)  # Output: 4.0
+
+5. nth_root(self, first_number: float, n: int) -> float:
+calculates the nth root of a number.
+
+from calculator import Calculator
+
+calculator = Calculator()
+result_nth_root = calculator.nth_root(64, 2)  # Square root of 64 = 8.0
+
+
+### Running Tests
+To run the tests, make sure you have unittest installed:
+
+pip install unittest
+
+Then, run the tests using:
+
+python -m unittest tests.test_calculator
+
+### Notes
+**Ensure that the Calculator class is instantiated before using its methods.
+**Be cautious when using the divide method to avoid division by zero.
+**When using the nth_root method, be aware of the restriction on calculating the even root of a negative number.
+**Feel free to customize and integrate the Calculator class into your projects for basic arithmetic calculations.
