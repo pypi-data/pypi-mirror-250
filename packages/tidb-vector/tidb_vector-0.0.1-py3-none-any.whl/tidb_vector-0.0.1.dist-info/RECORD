@@ -1,0 +1,10 @@
+tidb_vector/__init__.py,sha256=AqHo61pEPnkK1sxwPkyNKXP--HA2Z68eZocKoHqpICQ,90
+tidb_vector/collection.py,sha256=EUZnGfoZLmcYv2jqU-oTnApny331CQ-VWTnO6mnTAiw,3244
+tidb_vector/config.py,sha256=K6Hd7E2fqQm4bWf9hQw6WrkjHcIQnjRrnVmC6oREjhQ,462
+tidb_vector/document.py,sha256=bNOT0wKFOq_QaOTNnHP2S9eUCtVuXPmaLshqgS6NuWU,1028
+tidb_vector/exceptions.py,sha256=OopqpLs98C0JhYNKlWZJjqwYc6msUL4ZP9fd-nVGJoM,157
+tidb_vector/store.py,sha256=o_oBovlghueHTzxTLZ6-HF9ypfqtGz5n0G7sZazfIwA,4434
+tidb_vector-0.0.1.dist-info/METADATA,sha256=_nVhdk5fuO3N9mm28Wy6ByOFUqmqb3OBQSeddkQQsJw,325
+tidb_vector-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tidb_vector-0.0.1.dist-info/top_level.txt,sha256=3BMzg-EI4FPdXlwloNB3Yr_evJe7WhmtEPBWbl2BEh4,12
+tidb_vector-0.0.1.dist-info/RECORD,,
