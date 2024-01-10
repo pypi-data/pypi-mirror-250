@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "alembic-dddl"
+version = "0.1.1"
+description = "Alembic extension that adds support for arbitrary user-defined objects like views or functions in autogenerate command."
+authors = ["Daniil Minukhin <ddddsa@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Vanderhoof/alembic-dddl"
+keywords = ["alembic", "sqlalchemy", "autogenerate", "DDL", "alembic-extension", "migration"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+alembic = "^1.9"
+sqlparse = "^0.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+coverage = "^7.4.0"
+flake8 = "^7.0.0"
+flake8-print = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
