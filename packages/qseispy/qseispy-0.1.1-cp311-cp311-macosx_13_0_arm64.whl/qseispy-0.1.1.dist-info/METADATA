@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: qseispy
+Version: 0.1.1
+Summary: A python version of Qseis for calculating 1D synthetic seismograms
+License: Apache-2.0
+Author: Fu Yin
+Author-email: oucyinfu@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Provides-Extra: full
+Requires-Dist: cmake (>=3.28.1,<4.0.0)
+Requires-Dist: joblib (>=1.3.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: numpy (>=1.25.0,<2.0.0)
+Requires-Dist: obspy (>=1.4.0,<2.0.0)
+Requires-Dist: pygmt (>=0.10.0,<0.11.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# QseisPy
+
+[![Actions Status](https://github.com/ohmyshake/qseispy/actions/workflows/workflow.yml/badge.svg)](https://github.com/ohmyshake/qseispy/actions)
+[![coverage](https://codecov.io/gh/ohmyshake/qseispy/branch/main/graph/badge.svg)](https://codecov.io/gh/ohmyshake/qseispy)
+[![docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://ohmyshake.github.io/qseispy/)
+[![supported versions](https://img.shields.io/pypi/pyversions/qseispy.svg?label=python_versions)](https://pypi.python.org/pypi/qseispy)
+[![](https://badge.fury.io/py/qseispy.svg)](https://badge.fury.io/py/qseispy)
+
+
+A python version of Qseis for calculating 1D synthetic seismograms.
+
+**WARNING**: QseisPy is still very new and under development.
+
+```
+poetry config [pypi-token]
+
+poetry build -f wheel
+
+poetry publish
+```
