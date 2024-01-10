@@ -1,0 +1,11 @@
+baozi/.gitignore,sha256=tEBef1MPJEsex53jn6uOu-uT_Z4VIyzypxBaEj4HgAA,74
+baozi/__init__.py,sha256=gakKdt6kFTj8JSdZRpAI69E41EJqGNI4XFJp51WGOl8,788
+baozi/baozi.py,sha256=bhYz5KciKWBi1E_GWmwRYDn2C-Opy2eTG1Bn2Tu4h7w,6320
+baozi/error.py,sha256=73Ita71nbeMUkbMZxABRv8Qi-rWBH1_Kj3WdFyCsKP8,456
+baozi/frozen.py,sha256=mdQccd5sXSvHJqTR2WARdmnZkGIPD4c4hI6ltqapL1E,1984
+baozi/slots.py,sha256=T8dCJZ9tmiCkYT3S0IN0Zl_WQ6Y3I9MlCrrQfnJ13yM,2489
+baozi/typecast.py,sha256=0iyItbLJBjdFabDXltriLfJwC88uWQ-VTPomqajkBhk,1349
+baozi-0.0.6.dist-info/LICENSE,sha256=Tsif_IFIW5f-xYSy1KlhAy7v_oNEU4lP2cEnSQbMdE4,1086
+baozi-0.0.6.dist-info/METADATA,sha256=zAp6bPgmhmhaqjYNi6c3ggqfHn6kvcG2mmCO1aaFFeo,5832
+baozi-0.0.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+baozi-0.0.6.dist-info/RECORD,,
