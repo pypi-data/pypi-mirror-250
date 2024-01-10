@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+bistad_distributions/Binomialdistribution.py
+bistad_distributions/Gaussiandistribution.py
+bistad_distributions/Generaldistribution.py
+bistad_distributions/__init__.py
+bistad_distributions.egg-info/PKG-INFO
+bistad_distributions.egg-info/SOURCES.txt
+bistad_distributions.egg-info/dependency_links.txt
+bistad_distributions.egg-info/not-zip-safe
+bistad_distributions.egg-info/top_level.txt
