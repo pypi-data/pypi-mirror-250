@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sg2
+Version: 2.3.1
+Summary: Solar Geometry 2 library
+Home-page: https://www.oie.minesparis.psl.eu/Valorisation/Outils/Solar-Geometry/
+Author: Benoît Gschwind, Philippe Blanc, MINES ParisTech
+Author-email: benoit.gschwind@mines-paristech.fr, philippe.blanc@mines-paristech.fr
+Maintainer: Benoît Gschwind
+Maintainer-email: benoit.gschwind@mines-paristech.fr
+License: GNU Lesser General Public License v3 (LGPLv3)
+Project-URL: Bug Tracker, https://github.com/gschwind/sg2/issues
+Project-URL: Source Code, https://github.com/gschwind/sg2
+Platform: Windows
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6
+License-File: COPYING
+Requires-Dist: numpy >=1.26.3
+
+Solar Geometry 2 (SG2) is the second generation of library for computing the relative position of the sun and the earth. Valid over the time period 1980-2100, the algorithm is 20 times faster than the well-know SPA algorithm, with an accuracy order of approx. 0.005°. Reference article: Blanc P. and L. Wald,  The SG2 algorithm for a fast and accurate computation of the position of the sun for multi-decadal time period. Solar Energy 88, 3072-3083, 2012, doi: 10.1016/j.solener.2012.07.018.
