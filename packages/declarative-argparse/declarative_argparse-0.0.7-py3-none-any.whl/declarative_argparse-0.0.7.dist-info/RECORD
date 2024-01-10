@@ -1,0 +1,13 @@
+declarative_argparse/__init__.py,sha256=J6MsEI_rHRHk6wm_SipET1wo-mreopQqTPlBYcrWliA,5858
+declarative_argparse/options/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+declarative_argparse/options/abc.py,sha256=BeZQDar0IQMn9zmVuaRjq7yFVLTNCoQPwqTItBxXAOs,4393
+declarative_argparse/options/bool.py,sha256=enuBrgFeFxE4AT2BVIixT0J8MueNTaRI4T6dl0tk90U,662
+declarative_argparse/options/float.py,sha256=zg7av_TKVpYkHDCijTIPMR7MiP_3Yaw0vgW_JpECJbU,670
+declarative_argparse/options/int.py,sha256=U1-QARUi2XPXwEASaOCHc2CM5OpRfz11aT2BdFKHFew,654
+declarative_argparse/options/path.py,sha256=jE9vEZqxFOIGsyNUqJTGUaytuOszc5b0GMjl12QQkkw,2096
+declarative_argparse/options/stores.py,sha256=znQUffMH9kNbChKISg1Uv96dH1dxSaWkXOSbbi5u2aE,1020
+declarative_argparse/options/str.py,sha256=FXHgqdcgEw8xvemlfvRH_05VeI4FW063uzM3mq86fcE,654
+declarative_argparse-0.0.7.dist-info/LICENSE,sha256=EyedV82m6oZN8Do8TPX1XYwkh2OjzI_V2ZzP0yjstyc,1072
+declarative_argparse-0.0.7.dist-info/METADATA,sha256=YUbm7_saLoYs4cjm2LYRP_2smqjtF9qu7icKLOf_Wjg,1764
+declarative_argparse-0.0.7.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+declarative_argparse-0.0.7.dist-info/RECORD,,
