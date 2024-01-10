@@ -1,0 +1,6 @@
+[console_scripts]
+videojitter-analyze-recording = videojitter.analyze_recording:main
+videojitter-generate-fake-recording = videojitter.generate_fake_recording:main
+videojitter-generate-report = videojitter.generate_report:main
+videojitter-generate-spec = videojitter.generate_spec:main
+videojitter-generate-video = videojitter.generate_video:main
