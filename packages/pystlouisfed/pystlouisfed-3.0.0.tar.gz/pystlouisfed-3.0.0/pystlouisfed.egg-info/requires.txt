@@ -1,0 +1,13 @@
+pandas>1.0.0
+geopandas
+requests
+rush
+sickle
+numpy
+
+[dev]
+ruff
+sphinx
+sphinx-rtd-theme
+build
+twine
