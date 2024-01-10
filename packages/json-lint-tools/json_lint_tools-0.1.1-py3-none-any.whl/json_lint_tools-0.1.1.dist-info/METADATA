@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: json-lint-tools
+Version: 0.1.1
+Summary: Lints, formats, and diffs JSON files
+Home-page: https://github.com/mathewmoon/json-linter
+Author: Mathew Moon
+Author-email: me@mathewmoon.net
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentation, https://github.com/mathewmoon/json-linter
+Description-Content-Type: text/markdown
+
+

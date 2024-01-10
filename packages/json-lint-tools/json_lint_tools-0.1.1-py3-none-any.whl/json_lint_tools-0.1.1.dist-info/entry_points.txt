@@ -1,0 +1,3 @@
+[console_scripts]
+jsonfmt=json_lint_tools.cli:main
+
