@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: turtlestar
+Version: 1.0.4
+Summary: 使用turtle模块画出动态星空的程序, 类似Windows内置的星空屏保。A program uses module turtle to draw dynamic stars, being similar to the built-in starry screen saver in Windows.
+Home-page: https://github.com/qfcy/Python/blob/main/turtle/%E6%98%9F%E7%A9%BA.py
+Author: 七分诚意 qq:3076711200
+Author-email: 3076711200@qq.com
+License: UNKNOWN
+Keywords: turtle,star,turtlestar,graphics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Multimedia :: Graphics
+Description:
+简介
+======
+
+使用``turtle``模块画出动态星空的程序, 类似Windows内置的星空屏保。
+
+A program uses module ``turtle`` to draw dynamic stars, being similar to the built-in starry screen saver in Windows.
+
+
+github上的源码:https://github.com/qfcy/Python/blob/main/turtle/%E6%98%9F%E7%A9%BA.py
+
+源码 (当前1.0.4版):
+
+.. image:: https://img-blog.csdnimg.cn/bb668f75e54a48a3b11da36400cdece2.png
+    :alt: 源码图片1暂无法显示
+
+.. image:: https://img-blog.csdnimg.cn/6edc169b2cb44fc7b78ac17b82ec5f84.png
+    :alt: 源码图片2暂无法显示
+
+作者: 七分诚意 (百度贴吧账号: qfcy\_) qq:3076711200 邮箱:3076711200@qq.com
+
+作者百度贴吧主页: https://tieba.baidu.com/home/main?id=tb.1.896a502c.wIgwfH33Qty4UGHwVc5N7w
+
+作者CSDN主页: https://blog.csdn.net/qfcy\_/
