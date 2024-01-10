@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odevlib
+Version: 0.1.2
+Summary: ODevLib is a Django helper library that provides a set of tools for developing web applications.
+Author: iammaxim
+Requires-Python: >=3.11,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Django (>=4.1.2,<5.0.0)
+Requires-Dist: django-filter (>=22.1,<23.0)
+Requires-Dist: django-simple-history (>=3.0.0,<4.0.0)
+Requires-Dist: django-timescaledb (>=0.2.13,<0.3.0)
+Requires-Dist: djangorestframework (>=3.12.2,<4.0.0)
+Requires-Dist: drf-spectacular (>=0.26.1,<0.27.0)
+Requires-Dist: drf-spectacular-sidecar (>=2023.3.1,<2024.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.5,<3.0.0)
