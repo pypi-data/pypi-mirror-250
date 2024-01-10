@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+DDMongoLogger/__init__.py
+DDMongoLogger/mongodb_logger.py
+DDMongoLogger.egg-info/PKG-INFO
+DDMongoLogger.egg-info/SOURCES.txt
+DDMongoLogger.egg-info/dependency_links.txt
+DDMongoLogger.egg-info/requires.txt
+DDMongoLogger.egg-info/top_level.txt
