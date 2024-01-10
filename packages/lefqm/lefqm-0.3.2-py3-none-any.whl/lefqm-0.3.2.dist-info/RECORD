@@ -1,0 +1,15 @@
+lefqm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lefqm/__main__.py,sha256=_qvkir_XaI9LpTYULPuADP_1BkHdHXKA1BZ9IHvZsz0,2482
+lefqm/commandline_calculation.py,sha256=OBSHZNoKLkgcuD9VGWOx3iTE0EWVCyQzh7xtvx28zcU,29414
+lefqm/conformers.py,sha256=sPhPTfW0SNTZrnh9n38uz0_H-UrobVoWY7QwCCa8RYM,11075
+lefqm/constants.py,sha256=FL4e6ZWEe4LQWvfo8PpCwztHvg65OYXqbhwDnR8Uk3c,363
+lefqm/ensembles.py,sha256=_Za6E8l1BJbTEF9sXBItzEx4fgCc_orLSiMKD1N0rCY,4715
+lefqm/shieldings.py,sha256=PIOtuMjTssztx6dIfYUiF5BodIsTBhSSRrosugr4AM0,1959
+lefqm/shifts.py,sha256=BKKeeAzJoJnpdtc-g8z15QjwTKJctmN0KXc-bZltVaA,3909
+lefqm/utils.py,sha256=YZm1radTTTfVwNaCSljYcm2D8x6BMysanxrIYsKgvEM,8040
+lefqm-0.3.2.dist-info/LICENSE.md,sha256=_DBi3InVfqRQwnU94uHLUXhFx46bow5bAXU44Vy7dwQ,1125
+lefqm-0.3.2.dist-info/METADATA,sha256=UraxML5ILGrzFMTrna7Y57Ki-EVgtOYWGvigG3WHzoU,7047
+lefqm-0.3.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+lefqm-0.3.2.dist-info/entry_points.txt,sha256=SIlCB-4_lEeRO_HAd-qFOX_OW-ua-TtRLFqb6tK4wNw,46
+lefqm-0.3.2.dist-info/top_level.txt,sha256=gBJsqcvQfOvQ9l1Iq4xQHpqHflfDlD49SuHTMnTb2tg,6
+lefqm-0.3.2.dist-info/RECORD,,
