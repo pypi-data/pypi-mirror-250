@@ -1,0 +1,8 @@
+README.md
+setup.py
+ColorTools/Color.py
+ColorTools/__init__.py
+color_generation_tools.egg-info/PKG-INFO
+color_generation_tools.egg-info/SOURCES.txt
+color_generation_tools.egg-info/dependency_links.txt
+color_generation_tools.egg-info/top_level.txt
