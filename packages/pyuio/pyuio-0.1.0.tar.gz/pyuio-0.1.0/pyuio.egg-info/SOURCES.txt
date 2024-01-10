@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyuio/__init__.py
+pyuio/pyuiobind.py
+pyuio/pyuiolib.c
+pyuio.egg-info/PKG-INFO
+pyuio.egg-info/SOURCES.txt
+pyuio.egg-info/dependency_links.txt
+pyuio.egg-info/top_level.txt
