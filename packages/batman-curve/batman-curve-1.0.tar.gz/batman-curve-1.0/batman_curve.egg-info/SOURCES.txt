@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+versioneer.py
+batman_curve/__init__.py
+batman_curve/_version.py
+batman_curve/batman.py
+batman_curve.egg-info/PKG-INFO
+batman_curve.egg-info/SOURCES.txt
+batman_curve.egg-info/dependency_links.txt
+batman_curve.egg-info/requires.txt
+batman_curve.egg-info/top_level.txt
