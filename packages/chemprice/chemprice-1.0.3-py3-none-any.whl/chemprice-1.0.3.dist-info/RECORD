@@ -1,0 +1,10 @@
+chemprice/__init__.py,sha256=sEy6BF1V3b2e0FR84xzPo3UAzNOtz6DlKDAo2KMH5kM,37
+chemprice/chemprice.py,sha256=HQlSLlUw0x3yo5RYhgGyjQpnnWnZ0QrrNt8hp8pv6vg,8994
+chemprice/utils.py,sha256=Exm5QRC1Af3U1QuOOhnANfTfZ7LQQtjqGYFcWTmA4Uc,27381
+chemprice/tests/Utils.py,sha256=_enAFrrEmjOrLZL_o4rrpYxvZv3rF3QaFVCwmqRB8j4,1246
+chemprice/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemprice-1.0.3.dist-info/LICENSE,sha256=jmSY8rEIPPLQes3dPQ3jD9k9dx2xO-RIK1Se-iWSVBc,1515
+chemprice-1.0.3.dist-info/METADATA,sha256=rQfjVPxEnlGmN6Xr1-ol2DsjNLwU74prg-pFldPKIs0,6283
+chemprice-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chemprice-1.0.3.dist-info/top_level.txt,sha256=G3PFYdNcx7jj8A4dRgKI9hs5ZR1u_SdYU62cSllqUzA,10
+chemprice-1.0.3.dist-info/RECORD,,
