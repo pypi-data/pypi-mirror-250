@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+madaxx_exer.egg-info/PKG-INFO
+madaxx_exer.egg-info/SOURCES.txt
+madaxx_exer.egg-info/dependency_links.txt
+madaxx_exer.egg-info/not-zip-safe
+madaxx_exer.egg-info/top_level.txt
