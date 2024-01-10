@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mlwitheasy/Classification.py
+src/mlwitheasy/Regression.py
+src/mlwitheasy/__init__.py
+src/mlwitheasy/custom_exception.py
+src/mlwitheasy/logger.py
+src/mlwitheasy.egg-info/PKG-INFO
+src/mlwitheasy.egg-info/SOURCES.txt
+src/mlwitheasy.egg-info/dependency_links.txt
+src/mlwitheasy.egg-info/requires.txt
+src/mlwitheasy.egg-info/top_level.txt
