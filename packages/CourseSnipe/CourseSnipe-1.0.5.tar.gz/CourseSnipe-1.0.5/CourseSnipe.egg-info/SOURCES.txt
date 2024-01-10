@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+CourseSnipe/__init__.py
+CourseSnipe/functions.py
+CourseSnipe/main.py
+CourseSnipe.egg-info/PKG-INFO
+CourseSnipe.egg-info/SOURCES.txt
+CourseSnipe.egg-info/dependency_links.txt
+CourseSnipe.egg-info/entry_points.txt
+CourseSnipe.egg-info/requires.txt
+CourseSnipe.egg-info/top_level.txt

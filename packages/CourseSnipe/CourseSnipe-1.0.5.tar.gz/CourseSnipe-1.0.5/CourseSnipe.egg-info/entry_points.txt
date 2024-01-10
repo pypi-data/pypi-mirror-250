@@ -1,0 +1,2 @@
+[console_scripts]
+csnipe = CourseSnipe.main:cli
