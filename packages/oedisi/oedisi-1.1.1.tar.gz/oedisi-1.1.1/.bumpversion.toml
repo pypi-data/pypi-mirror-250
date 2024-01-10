@@ -1,0 +1,22 @@
+[tool.bumpversion]
+current_version = "1.1.1"
+commit = true
+tag = true
+
+[[tool.bumpversion.files]]
+filename = "setup.py"
+
+[[tool.bumpversion.files]]
+filename = "oedisi/__init__.py"
+
+[[tool.bumpversion.files]]
+filename = "oedisi/tools/__init__.py"
+
+[[tool.bumpversion.files]]
+filename = "oedisi/types/__init__.py"
+
+[[tool.bumpversion.files]]
+filename = "oedisi/componentframework/__init__.py"
+
+[[tool.bumpversion.files]]
+filename = "CITATION.cff"

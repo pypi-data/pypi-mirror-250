@@ -1,0 +1,13 @@
+helics-apps>=3.2.1
+helics>=3.2.1
+pydantic<2,>=1.7
+psutil
+click
+pyyaml
+
+[test]
+pytest
+httpx
+fastapi
+uvicorn
+grequests
