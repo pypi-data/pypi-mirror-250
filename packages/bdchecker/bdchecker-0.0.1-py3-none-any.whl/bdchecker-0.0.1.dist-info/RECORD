@@ -1,0 +1,10 @@
+bdchecker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bdchecker/__version__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+bdchecker/checker.py,sha256=uR47uyk02gnwRBRy9Ji9mZCvDEqBpbnaGhfaQMiuCiI,8483
+bdchecker/main.py,sha256=6_wnOnWvGhtHAOL9OFQPDaLjlZnhTSUnfVkGCUiRcYs,1543
+bdchecker-0.0.1.dist-info/LICENSE,sha256=YG3xSfRAbxLBQUVBFagTjLWCbi6lRcXycuHOsGtk8c8,1077
+bdchecker-0.0.1.dist-info/METADATA,sha256=FLYdxt6x6e5rhPmAKw0KV7w18v_L-LOf_BpXiVw9OW0,1782
+bdchecker-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bdchecker-0.0.1.dist-info/entry_points.txt,sha256=Ik3DT-6N_Y6C6P584V7P--dCLhE0i-mVKUR90zrkt4c,50
+bdchecker-0.0.1.dist-info/top_level.txt,sha256=EZiWekCNpixDh3q9GlzhMBORY-JGn5XCxVqkTXtG_3k,10
+bdchecker-0.0.1.dist-info/RECORD,,
