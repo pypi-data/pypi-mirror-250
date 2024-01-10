@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+SmileError.egg-info/PKG-INFO
+SmileError.egg-info/SOURCES.txt
+SmileError.egg-info/dependency_links.txt
+SmileError.egg-info/top_level.txt
+smileerror/ErrorBase.py
