@@ -1,0 +1,13 @@
+ezcolorlog/__init__.py,sha256=POp2VtfdQIUg4eUo8r-8vEUzvg6mXUUiYOSDUThNzwM,1610
+ezcolorlog/config.py,sha256=kkf6Psha-dkSYUfGRt3Dn6jEP5dNBAhcHhOz7drNRc8,842
+ezcolorlog/defaults.yaml,sha256=IN-pwO-QTvKQuanWKKna7Jlx4557sjcAovLfbqsn83Y,888
+ezcolorlog/format.py,sha256=TpdsUDJ7Tl7QAEgY_kgzaJmTf_Fmea7YAFV2mpOtdjI,884
+ezcolorlog/logfile.py,sha256=A4_l7FNilGkKBz5i2oX52kMpdHwjcy7R8HmmP_kbRSo,1936
+ezcolorlog/notebook.py,sha256=mxDIhT5tkxOKKZknK-2Nji0JQyrOl1LYQrtDqyb7UB4,1672
+ezcolorlog/patch.py,sha256=gcGJFe1U3dNWxOjDrcXM8-fZ-gNJIQQe0Alpgs3R1Xg,829
+ezcolorlog/wrapper.py,sha256=BG_DfwpByODpWi-aSTwJxBo3bCJz8UxrUe13HeuK_X0,3443
+EzColorLog-1.0.3.dist-info/LICENSE,sha256=2lzHRfzfJTv-DdcOZEP1teprCZZ7qhKwD2mgzQ9RmiE,1067
+EzColorLog-1.0.3.dist-info/METADATA,sha256=buBk4DnaGXIyGXeQ8H58zpHhoL1SfvmbYlCG5FS-6tg,3816
+EzColorLog-1.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+EzColorLog-1.0.3.dist-info/top_level.txt,sha256=iraNcZfpRbppuHDChTDXLw6uwJajxM5q5EUP_VQtXL8,11
+EzColorLog-1.0.3.dist-info/RECORD,,

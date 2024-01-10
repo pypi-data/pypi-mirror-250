@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: EzColorLog
+Version: 1.0.3
+Summary: A simple pretty Python logging interface.
+Author-email: Ellis Brown <ellis.l.brown.ii@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Ellis Brown
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Code, https://github.com/ellisbrown/EzColorLog
+Project-URL: Issues, https://github.com/ellisbrown/EzColorLog/issues
+Keywords: logging,color,easy,simple,pretty
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: coloredlogs
+Requires-Dist: colorama
+Requires-Dist: pyyaml
+Requires-Dist: IPython
+Provides-Extra: tqdm
+Requires-Dist: tqdm ; extra == 'tqdm'
+
+<!-- [![Build](https://github.com/ellisbrown/EzColorLog/actions/workflows/pypi-publish.yml/badge.svg)](https://github.com/ellisbrown/EzColorLog/actions/workflows/pypi-publish.yml) -->
+<!-- [![codecov](https://codecov.io/gh/ellisbrown/ezcolorlog/branch/master/graph/badge.svg)](https://codecov.io/gh/ellisbrown/ezcolorlog) -->
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ellisbrown/ezcolorlog/blob/master/LICENSE)
+[![PyPI version](https://badge.fury.io/py/EzColorLog.svg)](https://badge.fury.io/py/EzColorLog)
+
+# EzColorLog
+
+`EzColorLog` is a simple pretty Python logging interface.
+
+## Installation
+```shell
+pip install ezcolorlog
+```
+
+## Usage
+
+### Basic Root Logger Usage
+```python
+from ezcolorlog import root_loggger as logger
+
+logger.info('This is a log message')
+logger.debug('This is a debug message')
+logger.warning('This is a warning message')
+logger.error('This is an error message')
+logger.critical('This is a critical message')
+```
+
+### Basic Logger Usage
+```python
+import logging
+from ezcolorlog import root_logger, setup_logging, log_stdout
+
+root_logger.info('Setting up logging...')
+logger = logging.getLogger("my_logger")
+
+logger.info('This is a log message')
+logger.debug('This is a debug message')
+logger.warning('This is a warning message')
+logger.error('This is an error message')
+logger.critical('This is a critical message')
+```
+
