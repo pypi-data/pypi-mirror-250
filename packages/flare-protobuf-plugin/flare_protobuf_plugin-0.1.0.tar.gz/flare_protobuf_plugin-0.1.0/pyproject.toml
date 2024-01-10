@@ -1,0 +1,22 @@
+[project]
+name = "flare_protobuf_plugin"
+description = "An extended protobuf plugin for pants build system"
+version = "0.1.0"
+authors = [
+    { name = "Israël Hallé", email = "israel.halle@flare.io" }
+]
+
+dependencies = [
+
+]
+
+readme = "README.md"
+license = {file = "LICENSE-MIT.txt"}
+keywords = ["pantsbuild", "pants", "backend", "secrets"]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Topic :: Software Development :: Build Tools",
+]
+
