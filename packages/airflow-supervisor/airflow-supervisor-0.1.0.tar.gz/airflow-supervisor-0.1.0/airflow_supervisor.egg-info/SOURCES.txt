@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+airflow_supervisor/__init__.py
+airflow_supervisor.egg-info/PKG-INFO
+airflow_supervisor.egg-info/SOURCES.txt
+airflow_supervisor.egg-info/dependency_links.txt
+airflow_supervisor.egg-info/requires.txt
+airflow_supervisor.egg-info/top_level.txt
+airflow_supervisor/tests/test_all.py
