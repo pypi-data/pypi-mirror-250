@@ -1,0 +1,71 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel", "numpy", "torch", "matplotlib", "joblib", "pandas"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rl-mgm"
+version = "0.0.2"
+authors = [{name="Gerald Jones", email="gjones2@vols.utk.edu"}]
+maintainers = [{name="Gerald Jones", email="gjones2@vols.utk.edu"}]
+description = "A Python module for reinforcement learning based energy management system tools"
+
+license = {file="LICENSE"}
+
+keywords = ["reinforcement learning", "energy management system", "building energy management"]
+
+readme = "README.md"
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "setuptools",
+    "setuptools-scm",
+    "wheel",
+    "numpy",
+    "torch",
+    "matplotlib",
+    "joblib",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    ]
+
+
+
+
+[tool.setuptools]
+packages = ["_A2CRL", "_DQRL", "_PPORL", "_RLCoach_ENVS", "Demand_Generators", "PV_Generators"]
+
+[tool.bumpver]
+current_version = "0.0.2"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = false
+tag = false
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+
+"src/rl_mgm/__init__.py" = [
+    '__version__ = "{version}"',
+]
+
+"setup.py" = [
+    "{version}",
+    "{pep440_version}",
+]
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
+
