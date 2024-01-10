@@ -1,0 +1,7 @@
+openpyxl
+pandas
+xlrd
+pywin32
+python-telegram-bot
+asyncio
+driveup
