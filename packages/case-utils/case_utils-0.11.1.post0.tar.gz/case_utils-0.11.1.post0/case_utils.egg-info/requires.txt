@@ -1,0 +1,12 @@
+pandas<2.1.0
+pyshacl
+rdflib>=6.2.0
+requests
+tabulate
+
+[testing]
+PyLD
+mypy
+pytest
+python-dateutil
+types-python-dateutil
