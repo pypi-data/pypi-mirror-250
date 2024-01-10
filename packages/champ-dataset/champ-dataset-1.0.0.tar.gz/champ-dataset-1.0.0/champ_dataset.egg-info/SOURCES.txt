@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+champ_dataset/__init__.py
+champ_dataset/prompt.py
+champ_dataset.egg-info/PKG-INFO
+champ_dataset.egg-info/SOURCES.txt
+champ_dataset.egg-info/dependency_links.txt
+champ_dataset.egg-info/requires.txt
+champ_dataset.egg-info/top_level.txt
+champ_dataset/dataset_files/v0.json

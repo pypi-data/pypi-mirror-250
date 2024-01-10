@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: champ-dataset
+Version: 1.0.0
+Summary: Concept and Hint-Augmented Math Dataset (CHAMP)
+Home-page: https://yujunmao1.github.io/CHAMP/
+Author: Yilun Zhou
+Author-email: zyilun94@gmail.com
+License: MIT
+Keywords: natural language processing,large language model
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: natsort
+
+# CHAMP Dataset
+
+For more information about this package, including demos and documentations, please consult the project website at [https://yujunmao1.github.io/CHAMP/](https://yujunmao1.github.io/CHAMP/).
