@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: textto-speech-python
+Version: 0.1.7
+Summary: ('Python text-to-speech module (tts)', 'Int')
+Home-page: UNKNOWN
+Author: Int
+Author-email: games.a.matvey@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+
+ Python text-to-speech module (tts) 
+

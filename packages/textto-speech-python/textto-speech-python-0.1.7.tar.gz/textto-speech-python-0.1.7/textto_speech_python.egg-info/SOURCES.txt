@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+textto-speech-python/__init__.py
+textto-speech-python/tts.py
+textto_speech_python.egg-info/PKG-INFO
+textto_speech_python.egg-info/SOURCES.txt
+textto_speech_python.egg-info/dependency_links.txt
+textto_speech_python.egg-info/requires.txt
+textto_speech_python.egg-info/top_level.txt
