@@ -1,0 +1,3 @@
+[console_scripts]
+context_manager=gridappsd.context_manager:main
+
