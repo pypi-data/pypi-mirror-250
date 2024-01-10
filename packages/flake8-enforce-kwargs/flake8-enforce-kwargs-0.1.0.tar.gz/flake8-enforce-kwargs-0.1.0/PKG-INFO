@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flake8-enforce-kwargs
+Version: 0.1.0
+Summary: Flake8 plugin for enforcing kwargs only argument definition.
+Home-page: https://github.com/fylein/flake8-enforce-kwargs
+Author: Siva Narayanan
+Author-email: siva@fylehq.com
+License: MIT
+Keywords: flake8,kwargs,python,enforcer,arguments,parameters
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flake8==7.0.0

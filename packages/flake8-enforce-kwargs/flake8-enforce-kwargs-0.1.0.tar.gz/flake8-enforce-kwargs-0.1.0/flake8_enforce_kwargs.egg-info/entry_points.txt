@@ -1,0 +1,2 @@
+[flake8.extension]
+EKW = plugin.checker:Plugin
