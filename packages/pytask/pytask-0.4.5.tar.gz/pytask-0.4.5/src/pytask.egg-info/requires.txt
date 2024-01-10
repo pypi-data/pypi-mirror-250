@@ -1,0 +1,43 @@
+attrs>=21.3
+click
+click-default-group
+networkx>=2.4
+optree>=0.9
+packaging
+pluggy>=1
+rich
+sqlalchemy>=2
+
+[:python_version < "3.11"]
+tomli>=1
+
+[:python_version < "3.9"]
+typing-extensions
+
+[all]
+
+[all:python_version < "3.12"]
+universal-pathlib
+
+[docs]
+furo
+ipython
+myst-parser
+nbsphinx
+sphinx
+sphinx-click
+sphinx-copybutton
+sphinx-design>=0.3
+sphinx-toolbox
+sphinxext-opengraph
+
+[test]
+deepdiff
+nbmake
+pexpect
+pytest
+pytest-cov
+pytest-xdist
+syrupy
+aiohttp
+requests
