@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "protokol"
+version = "1.6.0"
+description = "NATS-oriented RPC and Event protocol"
+authors = [
+    "Sergey Zhegunya <harmonicsseven@gmail.com>"
+]
+maintainers = [
+    "Ilia Abashin <abashinos@gmail.com>"
+]
+homepage = "https://github.com/event-driven-devs/protokol"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+nats-py = "^2.2.0"
+tenacity = "^8.2.3"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = [
+    {"version" = "^3.4.0", "python" = ">=3.8"},
+    {"version" = "<3", "python" = "<3.8"}
+]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+black = "^22.10.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+select = [
+    "A",
+    "ARG",
+    "B",
+    "BLE",
+    "C4",
+    "E",
+    "ERA",
+    "F",
+    "FLY",
+    "INP",
+    "N",
+    "PERF",
+    "PIE",
+    "PL",
+    "PTH",
+    "RET",
+    "RSE",
+    "RUF",
+    "SIM",
+    "T20",
+    "W"
+]
+ignore = ["E711"]
