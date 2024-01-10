@@ -1,0 +1,8 @@
+ccf==4.0.12
+cryptography==41.*
+httpx
+cbor2==5.4.*
+pycose==1.1.0
+pyjwt
+azure-keyvault
+azure-identity
