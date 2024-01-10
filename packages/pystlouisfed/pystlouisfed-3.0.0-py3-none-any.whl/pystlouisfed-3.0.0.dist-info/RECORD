@@ -1,0 +1,12 @@
+pystlouisfed/__init__.py,sha256=Y-ocsRT3v8P7mPC27TKvqB4YrFs1jL4y_BFkJUovqys,855
+pystlouisfed/alfred.py,sha256=JaMUPG3x3P4E-cn40GgGZVfINMRq6Fkm-ye3PFir_Q0,182978
+pystlouisfed/client.py,sha256=-trHb71_RAfSjhhQ-RBsDpJVsSDeklgiZ-RhCTzzpEY,6053
+pystlouisfed/enums.py,sha256=EMrF50rnMW56l5jt8iHv71Gmm3cnnJsh9m3Nol7A124,13455
+pystlouisfed/fraser.py,sha256=dfREwX0uJZH_CkZO6yaeWvMoBNIQkeFo-bs8iay9uzo,15057
+pystlouisfed/fredmaps.py,sha256=MUBvlArVbYnftlz7BHrRiadxsEOGmeU2SrQZPd25foQ,21872
+pystlouisfed/models.py,sha256=bBByRE6NX3bN7nMPubw4vScNLnDnN3kFPS2MQtRzRyc,3159
+pystlouisfed-3.0.0.dist-info/LICENSE,sha256=GAa2ey6PXbG6vsXXXLwpZYanQVBe8pT4ljQikqrHyTw,1087
+pystlouisfed-3.0.0.dist-info/METADATA,sha256=DM-Kg60jWXFQaEfLUG3qvPvIW0CFW8pZOIHxk2MPf04,25515
+pystlouisfed-3.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pystlouisfed-3.0.0.dist-info/top_level.txt,sha256=lV4A4_m_UkfEkWpcZ-3NWDlSzQriUM_VA_IA_DSXyEs,13
+pystlouisfed-3.0.0.dist-info/RECORD,,
