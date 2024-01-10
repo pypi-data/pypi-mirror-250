@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sysls
+Version: 2
+Summary: Display /sysfs values in a nice way
+Home-page: https://git.sr.ht/~martijnbraam/sysls
+Author: Martijn Braam
+Author-email: martijn@brixit.nl
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+License-File: LICENSE

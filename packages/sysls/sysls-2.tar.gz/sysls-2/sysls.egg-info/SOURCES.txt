@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+sysls/__init__.py
+sysls/__main__.py
+sysls.egg-info/PKG-INFO
+sysls.egg-info/SOURCES.txt
+sysls.egg-info/dependency_links.txt
+sysls.egg-info/entry_points.txt
+sysls.egg-info/top_level.txt
