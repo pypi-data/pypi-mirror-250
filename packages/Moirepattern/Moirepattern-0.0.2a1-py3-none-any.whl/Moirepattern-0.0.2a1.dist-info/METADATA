@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Moirepattern
+Version: 0.0.2a1
+Summary: A lib to generate Moire patterns
+Home-page: https://github.com/funkaro1/moire-constructor
+Author: IE Barrera
+Author-email: iebarrer@uc.cl
+License-File: LICENSE
+Requires-Dist: shapely
+Requires-Dist: PyQt5
+
