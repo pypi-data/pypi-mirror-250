@@ -1,0 +1,2 @@
+aspose_ocr_cloud
+example
