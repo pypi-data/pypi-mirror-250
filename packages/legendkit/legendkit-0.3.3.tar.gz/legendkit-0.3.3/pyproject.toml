@@ -1,0 +1,38 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "legendkit"
+dynamic = ["version", "description"]
+requires-python = ">=3.8"
+authors = [
+      {name = "Mr-Milk", email = "yzheng@cemm.at"},
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+urls = {Home = "https://github.com/Marsilea-viz/legendkit"}
+classifiers = [
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Framework :: Matplotlib",
+      "Intended Audience :: Science/Research",
+      "Intended Audience :: Developers",
+      "Topic :: Scientific/Engineering :: Visualization"
+]
+dependencies = [
+      "matplotlib"
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "icecream",
+    "python-hmr",
+    "pytest",
+    "scikit-learn",
+    "sphinx",
+    "numpydoc",
+    "sphinx_gallery",
+    "furo",
+]
