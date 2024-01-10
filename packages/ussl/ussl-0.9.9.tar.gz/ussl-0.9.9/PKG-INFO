@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ussl
+Version: 0.9.9
+Summary: USSC SOAR SCRIPT LIB
+Author: ussc soc dev team
+Author-email: pbikkuzhina@ussc.ru
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pywinrm==0.4.1
+Requires-Dist: paramiko==2.7.2
+
+Пакет был разработан командой разработчиков USSC-SOC для упрощения взаимодействия с АРМ, серверами и сетевыми устройствами
