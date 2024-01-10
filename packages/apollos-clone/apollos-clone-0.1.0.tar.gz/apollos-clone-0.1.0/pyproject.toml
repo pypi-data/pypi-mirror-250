@@ -1,0 +1,43 @@
+[project]
+name = "apollos-clone"
+version = "0.1.0"
+description = "Clones an Apollos template app"
+readme = "README.md"
+authors = [{ name = "Michael Neeley", email = "michael@neeley.dev" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["apollos", "church"]
+dependencies = [
+    "pillow",
+    "requests",
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver",  "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/apollosproject/clone"
+
+[project.scripts]
+apollos-clone = "clone.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"src/reader/__init__.py" = ["{version}"]

@@ -1,0 +1,9 @@
+pillow
+requests
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest

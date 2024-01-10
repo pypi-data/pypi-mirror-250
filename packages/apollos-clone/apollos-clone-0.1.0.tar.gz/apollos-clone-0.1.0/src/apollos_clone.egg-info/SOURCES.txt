@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/apollos_clone.egg-info/PKG-INFO
+src/apollos_clone.egg-info/SOURCES.txt
+src/apollos_clone.egg-info/dependency_links.txt
+src/apollos_clone.egg-info/entry_points.txt
+src/apollos_clone.egg-info/requires.txt
+src/apollos_clone.egg-info/top_level.txt
+src/clone/__init__.py
+src/clone/__main__.py
+src/clone/church.py
+src/clone/graphics.py
