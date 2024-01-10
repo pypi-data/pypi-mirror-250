@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: oryks-docstring-generator
+Version: 0.0.1
+Summary: A python library for generating documentation for python projects.
+Home-page: https://youtube-wrapper.readthedocs.io/en/latest/index.html
+Author: Lyle Okoth
+Author-email: lyceokoth@gmail.com
+License: MIT
+Keywords: dosctrings,documentation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: black
+Requires-Dist: langchain
+Requires-Dist: langchain-openai
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+
+# documentation-generator
+## Overeview
+This is a python library for generating documentation for python projects. It is built to:
+- Generate function docstrings
+- Generate class docstrings include class method docstrings (still under development)
+- Generate sphinx documentation (still under development)
+
+The library uses ``openai's`` gpt model to generate the function docstrings. You pass it a file or folder path togther with an ``openai`` api key. It then parses the folder for python files, then for each file, it finds the functions and classes, generates their documentation and updates their docstrings.
+
+## Requirements
+- Python 3.10+
+- Works on Linux, Windows, macOS, BSD
+
+## Installation
+
+```sh
+pip install oryks-docstring-generator
+```
+
+## Usage
+
+First, provide the ``openai``  api key:
+```sh
+export OPENAI_API_KEY=sk-xxxxxxxxxxx
+```
+Then run the application, providing the path to the python file to generate docs for or the folder containing the python files:
+```sh
+python -m docstring_generator --path test_function.py
+```
+
+
