@@ -1,0 +1,4 @@
+beautifulsoup4
+pdfminer-six
+scikit-learn
+PyPDF2
