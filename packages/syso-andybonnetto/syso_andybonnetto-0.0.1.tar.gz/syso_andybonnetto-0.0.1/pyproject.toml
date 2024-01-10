@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "syso_andybonnetto"
+version = "0.0.1"
+authors = [
+  { name="Andy Bonnetto", email="andy.bonnetto@epfl.ch" },
+]
+description = "A package to keep track of experiments by managing pandas tables"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
