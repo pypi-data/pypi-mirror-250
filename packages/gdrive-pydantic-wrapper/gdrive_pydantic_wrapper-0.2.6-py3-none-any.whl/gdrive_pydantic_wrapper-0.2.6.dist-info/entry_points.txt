@@ -1,0 +1,3 @@
+[console_scripts]
+gdrive-pydantic-wrapper=gdrive_pydantic_wrapper.cli:main
+
