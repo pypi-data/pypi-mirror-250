@@ -1,0 +1,132 @@
+Metadata-Version: 1.1
+Name: event-simulate
+Version: 1.1.1
+Summary: 模拟键盘,鼠标事件的Python包。可用于编写自动化程序 (如游戏外挂)。A Python package simulating keyboard and mouse events ,which can be used in automation programs.
+Home-page: https://github.com/qfcy/Python/tree/main/event
+Author: 七分诚意 qq:3076711200
+Author-email: 3076711200@qq.com
+License: UNKNOWN
+Keywords: event,simulate,key,mouse,click,automation,键盘,鼠标,外挂
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Topic :: Desktop Environment :: Window Managers :: Blackbox
+Classifier: Topic :: Desktop Environment :: Window Managers
+Classifier: Topic :: Desktop Environment :: Window Managers :: Applets
+Classifier: Topic :: Education
+Classifier: Topic :: Utilities
+Description:
+模块名称: event (切勿使用import event_simulate) !
+
+简介
+====
+
+event-simulate是一个模拟键盘,鼠标事件的Python包, 可以模拟鼠标单击、双击, 键盘按下等各种操作,
+
+打包成PyInstaller等exe文件时体积小巧。可用于编写自动化程序 (如游戏外挂等)。
+
+
+所包含模块 Included modules: 
+============================
+
+event.key - 模拟键盘事件
+""""""""""""""""""""""""
+包含的函数 Functions:
+
+keydown(keycode_or_keyname)::
+
+    模拟键按下。
+    keycode_or_keyname:按键名称或该按键的键码值
+
+keypress(keycode_or_keyname, delay=0.05)::
+
+    模拟按键。
+    keycode_or_keyname:按键名称或该按键的键码值
+    delay:键按下与释放之间的的间隔时间,间隔时间越小,按键速度越快。
+
+keyup(keycode_or_keyname)::
+
+    模拟键释放。
+    keycode_or_keyname:按键名称或该按键的键码值
+
+
+event.mouse - 模拟鼠标事件
+""""""""""""""""""""""""""
+包含的函数 Functions:
+
+click()::
+
+    模拟鼠标左键单击
+
+dblclick(delay=0.25)::
+
+    模拟鼠标左键双击
+
+get_screensize()::
+
+    获取当前屏幕分辨率。
+
+getpos()::
+
+    获取当前鼠标位置。
+    返回值为一个元组,以(x,y)形式表示。
+
+move(x, y)::
+
+    模拟移动鼠标。
+    与goto不同,move()产生一个鼠标事件。
+
+right_click()::
+
+    模拟鼠标右键单击。
+
+wheel(delta)::
+
+    模拟滚动鼠标滚轮。
+	delta: 滚动的距离, 正值为向上滚动, 负值为向下滚动。
+
+新增: leftdown(),leftup(),rightdown(),rightup(),middledown(),middleup()模拟鼠标按下和释放。
+
+
+
+示例代码1:
+
+.. code-block:: python
+
+    #模拟按键Alt+F4关闭当前窗口
+    from event.key import *
+    keydown("Alt")
+    keydown("f4")
+    keyup("f4")
+    keyup("alt")
+
+
+示例代码2:
+
+.. code-block:: python
+
+    #使用Aero Peek预览桌面。(Win7及以上系统)
+    from event import mouse
+    x,y=mouse.get_screensize()
+    mouse.move(x,y) #将鼠标移至屏幕右下角
+    mouse.click() #模拟鼠标点击
+
+
+新增功能 New Features: 
+
+1.1.1: event.key模块新增了按键名, 兼容PyWinHook库。完善了示例:录制键鼠事件(包目录\\examples\\录制键鼠事件.py)
+
+说明: 使用示例"录制键鼠事件.py" 需安装pywinhook库。
+
+1.0.3:修复了调用API函数时出现 ``ValueError`` 的bug。
+
+1.0.2:增加了示例:鼠标控制器(包目录\\examples\\mouseController.py)
+
+源代码 Source: https://github.com/qfcy/Python/tree/main/event
+
+作者 Author:
+
+qfcy qq:3076711200 百度贴吧账号:qfcy\_
+
+作者CSDN主页: https://blog.csdn.net/qfcy\_/
