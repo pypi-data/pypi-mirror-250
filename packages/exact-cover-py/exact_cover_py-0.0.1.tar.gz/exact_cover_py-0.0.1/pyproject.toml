@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "exact_cover_py"
+version = "0.0.1"
+description = "Exact cover solver in Python"
+readme = "README.md"
+license="CC-BY-NC-4.0"
+authors = [
+    {name="Thierry Parmentelat", email="thierry.parmentelat@inria.fr"},
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+    "pandas",
+]
+build = [
+    "build",
+    "hatchling",
+    "twine",
+]
+
+[project.urls]
+Homepage = "https://github.com/parmentelat/exact_cover_py"
+Issues = "https://github.com/parmentelat/exact_cover_py/issues"
+
+# get rid of a naughty warning
+# lib/python3.12/site-packages/dateutil/tz/tz.py:37: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+#    EPOCH = datetime.datetime.utcfromtimestamp(0)
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning:dateutil.tz.tz",
+]
