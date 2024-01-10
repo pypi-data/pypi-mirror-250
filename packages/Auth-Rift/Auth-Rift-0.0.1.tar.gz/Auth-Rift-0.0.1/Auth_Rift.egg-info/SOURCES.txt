@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Auth-Rift/__init__.py
+Auth_Rift.egg-info/PKG-INFO
+Auth_Rift.egg-info/SOURCES.txt
+Auth_Rift.egg-info/dependency_links.txt
+Auth_Rift.egg-info/top_level.txt
