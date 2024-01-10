@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: peerberrypy
+Version: 1.9.0
+Summary: Python API Wrapper for PeerBerry
+Author-email: Tomás Perestrelo <tomasperestrelo21@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Tomás Perestrelo
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/thicccat688/peerberrypy
+Keywords: python,api,api-wrapper,peerberrypy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: cloudscraper >=1.2
+Provides-Extra: otp
+Requires-Dist: pyotp <3,>=2.7.0 ; extra == 'otp'
+Provides-Extra: pandas
+Requires-Dist: pandas <2 ; extra == 'pandas'
+Requires-Dist: openpyxl <4,>=3.0 ; extra == 'pandas'
+
+## Peerberrypy
+
+The peerberrypy package is a Python API wrapper for the Peerberry platform.
+Peerberry currently has no API documentation and some endpoints could be simplified/optimized, which is one of the main goals of this project.
+
+Peerberry platform: https://peerberry.com/
+
+## Requirements 
+
+Python 3.8+
+
+Main dependencies:
+- cloudscraper for accessing the API without getting blocked by CF anti-DDOS,
+
+Optional dependencies:
+- pandas for the large data handling,
+- openpyxl for parsing spreadsheets supplied by Peerberry,
+- pyotp for handling two-factor authentication.
+
+## Installation
+
+```bash
+pip install peerberrypy
+```
+
+Replace with `peerberrypy[pandas]` to install pandas and openpyxl, `peerberrypy[otp]` to install pyotp, or `peerberrypy[pandas,otp]` to install all.
+
+## Usage
+
+```python
+from peerberrypy import API
+
+
+# Authenticate to the API client
+api_client = API(
+  email='YOUR EMAIL HERE',
+  password='YOUR PASSWORD HERE',
+  tfa_secret='YOUR BASE32 TFA SECRET HERE',  # This is only required if you have two-factor authentication enabled on your account
+)
+
+# Gets investor profile data
+print(api_client.get_profile())
+
+# Gets 100 of loans that are from the "Smart Pozyczka PL" originator
+print(api_client.get_loans(quantity=100, originators=['Smart Pozyczka PL']))
+
+# Gets 100 of your current investments from Kazakhstan and Lithuania
+print(api_client.get_investments(quantity=100, current=True, countries=['Kazakhstan', 'Lithuania'])
+```
+
+## API functions
+
+<pre>
+Investor/portfolio data functions:
+  get_profile -> Gets investor profile.
+  get_loyalty_tier -> Gets loyalty tier, tier requirements, and the tier's benefits.
+  get_overview -> Gets portfolio overview (Balance, total invested, total profit, net annual return, etc.).
+  get_profit_overview -> Gets portfolio's profit on a daily, monthly or yearly basis (Data used in your profile's profit chart).
+  get_investment_status -> Gets percentage of funds in different investment statuses (Current, late by 1-15 days, 16-30 days, and 31-60 days).
+  get_investment_originators_overview -> Gets percentage of funds in different loan originators.
+ 
+Marketplace/loan data functions:
+  get_loans & get_loans_page -> Gets loans available for investment in the Peerberry marketplace according to the filters you specify. get_loans_page also returns metadata.
+  get_loan_details -> Gets available information about the loan, the borrower, and the loan's payments schedule.
+  purchase_loan -> Invests in a loan with the amount you specify.
+
+Investment data functions:
+  get_investments -> Gets current or finished investments in accordance to the filters you specify (It's recommended to use the get_mass_investments function when fetching more than ~350 investments at once).
+  get_mass_investments -> Gets current or finished investments either as an Excel or as a Pandas DataFrame in accordance with the filters you specify (It's recommended to use this function when fetching more than ~350 investments at once).
+  get_account_summary -> Gets account's transaction summary (Invested funds, principal payments, interest payments, deposits, etc.).
+
+Transaction data functions:
+  get_transactions -> Gets transactions as a Pandas DataFrame in accordance with the filters you specify.
+  get_mass_transactions -> Gets transactions either as an Excel or as a Pandas DataFrame.
+  
+Authentication functions:
+  login -> Logs in to Peerberry's API and assigns your session an access token. Use is not recommended as it's done automatically when initializing API instance.
+  logout -> Logs out of Peerberry and revokes your access token. Recommended to use after you finish all your operations.
+
+Note:
+The authentication logic is executed automatically upon initializing the API instance, only logout needs to be done manually.
+The login is executed automatically upon initializing the API instance, only logout needs to be done manually (Login is still possible to do manually, but not recommended).
+</pre>
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
