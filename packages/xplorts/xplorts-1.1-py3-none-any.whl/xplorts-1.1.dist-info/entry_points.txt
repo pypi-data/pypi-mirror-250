@@ -1,0 +1,10 @@
+[console_scripts]
+xp-dashboard = xplorts.dashboard.xpdashboard:main
+xp-dblprod = xplorts.dblprod.xpdblprod:main
+xp-diff = xplorts.diff.xpdiff:main
+xp-heatmap = xplorts.heatmap.xpheatmap:main
+xp-lines = xplorts.lines.xplines:main
+xp-scatter = xplorts.scatter.xpscatter:main
+xp-snapcomp = xplorts.snapcomp.xpsnapcomp:main
+xp-stacks = xplorts.stacks.xpstacks:main
+xp-tscomp = xplorts.tscomp.xptscomp:main
