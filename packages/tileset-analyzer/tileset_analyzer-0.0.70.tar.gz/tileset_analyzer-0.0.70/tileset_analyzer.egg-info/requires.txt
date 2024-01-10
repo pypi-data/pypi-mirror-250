@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+pandas
+protobuf<=3.20.3
+parse
