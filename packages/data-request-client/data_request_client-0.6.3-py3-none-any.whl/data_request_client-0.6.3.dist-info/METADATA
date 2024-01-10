@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: data-request-client
+Version: 0.6.3
+Summary: 
+Author: Michael Statt
+Author-email: michael.statt@modelyst.io
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.28.52,<2.0.0)
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: pydantic-settings (>=2.0.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Data Request Client
+
+Client for interacting with the Data Request API.
+
+## Configuration
+
+The client is configured using environment variables. The following variables are required:
+
+- `DATA_REQUEST_API_URL`: The URL of the Data Request API.
+- `DATA_REQUEST_API_KEY`: The API key to use when authenticating with the Data Request API.
+
