@@ -1,0 +1,6 @@
+painter.py
+setup.py
+painter_tk.egg-info/PKG-INFO
+painter_tk.egg-info/SOURCES.txt
+painter_tk.egg-info/dependency_links.txt
+painter_tk.egg-info/top_level.txt
