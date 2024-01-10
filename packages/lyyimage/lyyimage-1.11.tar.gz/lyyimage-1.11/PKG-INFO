@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lyyimage
+Version: 1.11
+Summary: lyyimagetools for lyy
+Author: lyy
+Author-email: 
+License: MIT
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: request
+Requires-Dist: json
