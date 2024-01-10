@@ -1,0 +1,10 @@
+LICENSE.md
+MANIFEST.in
+NOTICE.md
+README.md
+setup.py
+databricks_feature_store.egg-info/PKG-INFO
+databricks_feature_store.egg-info/SOURCES.txt
+databricks_feature_store.egg-info/dependency_links.txt
+databricks_feature_store.egg-info/requires.txt
+databricks_feature_store.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+## Databricks Feature Lookup for Feature Store
+
+Copyright (2022) Databricks, Inc.
+
+This Software includes software developed at Databricks (https://www.databricks.com/) and its use is subject
+to the included LICENSE.md file.
+
