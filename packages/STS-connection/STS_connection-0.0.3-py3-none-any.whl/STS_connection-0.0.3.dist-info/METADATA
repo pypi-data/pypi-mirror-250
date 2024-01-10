@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: STS-connection
+Version: 0.0.3
+Summary: This module allows you to easily perform serial, Telnet, and SSH connections in Python scripts, making the experience similar to using SecureCRT in Python scripts. 
+Author: Yutianlong
+Author-email: longshao863@gmail.com
+License: MIT License
+Keywords: Serial,Telnet,SSH
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+
