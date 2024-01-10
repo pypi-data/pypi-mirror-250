@@ -1,0 +1,8 @@
+name: torchphyics
+dependencies:
+- python 
+- jupyter
+- pip:
+  - scipy
+  - pandas
+  - shapely
