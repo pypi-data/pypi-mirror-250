@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ai4flwr
+Version: 0.1.0
+Summary: AI4OS extensions to the Python Flower federated learning framework (https://flower.dev)
+License: GPL-3
+Author: Alvaro Lopez Garcia
+Author-email: aloga@ifca.unican.es
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flwr (>=1.6.0,<2.0.0)
+Requires-Dist: grpc (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# ai4-flwr
+
+This repo will contain the [AI4OS](https://github.com/ai4os) extensions for the [Flower](https://github.com/adap/flower) framework.
+
