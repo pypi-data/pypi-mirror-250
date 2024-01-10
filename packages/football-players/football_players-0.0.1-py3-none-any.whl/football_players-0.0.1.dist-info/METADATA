@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: football-players
+Version: 0.0.1
+Summary: Application example showing Internazionale football players using tkinter and cURL
+Author: Martina Baiardi
+Author-email: m.baiardi@unibo.it
+License: Apache 2.0 License
+Platform: Independant
+License-File: LICENSE
+
