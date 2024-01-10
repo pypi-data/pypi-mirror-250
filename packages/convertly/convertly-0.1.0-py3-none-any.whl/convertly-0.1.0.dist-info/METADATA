@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: convertly
+Version: 0.1.0
+Summary: A tool to convert and manipulate media files
+Home-page: https://github.com/HudZah/Convertly
+Author: HudZah
+Author-email: hudzah@hudzah.com
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+
+# Convert
