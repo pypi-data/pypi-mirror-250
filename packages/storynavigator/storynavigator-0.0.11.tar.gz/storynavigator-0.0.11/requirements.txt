@@ -1,0 +1,17 @@
+PyQt6
+PyQtWebEngine
+Orange3
+Orange3-Text
+Orange3-network
+pandas
+spacy
+dhtmlparser3
+textblob
+textblob-nl
+pydot
+graphviz
+thefuzz
+beautifulsoup4
+coverage
+sphinx
+recommonmark
