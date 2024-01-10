@@ -1,0 +1,15 @@
+b2h5py/__init__.py,sha256=0qPw3aLDMic3AyxIKzJWxuyb7YtOG8f1aLKD3Zvtvwc,1264
+b2h5py/auto.py,sha256=o_L1Uq5eQvXt1Qa2II0Dic3x6MsUD4ix6rCGgyVp3-I,336
+b2h5py/blosc2.py,sha256=tZdtbHKqwgsEzjsuiPDAD99SW_6iFqgdB0JsXjSUlrg,8899
+b2h5py/patch.py,sha256=YL_B5BViZBkdQnl26TV6LxegHNmzptIJ4IzyPJu11MM,3953
+b2h5py/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b2h5py/tests/common.py,sha256=j7BMEA5dLp8b7MkJns-mCEUUcqoxdMBFIqYR6uQ7Or8,1629
+b2h5py/tests/test_b2dataset.py,sha256=I3_V82_IQgci3AHhQLF5Pc_GbvqUsi2jV9bZMOtASwk,1464
+b2h5py/tests/test_dataset_patching.py,sha256=2uEQB8n5N1Nk18bnkSmCj6eZykVNxT57NuEr-b-g_jE,5278
+b2h5py/tests/test_patched_h5py.py,sha256=5PcN7mNiDGRF8O2ntq99zUPm5H2f0FE2mJeZubDN6Ts,790
+b2h5py/tests/test_slicing_blosc2.py,sha256=fx_9IGMJAMFCLj651Bns4EX09SFdyn8FtRIDxyZIdGg,8606
+b2h5py-0.4.0.dist-info/LICENSE,sha256=d6x4N0_jAPy2a9yH4DVxMGY3Aql0sHvJPuiE_mC2lEw,1508
+b2h5py-0.4.0.dist-info/METADATA,sha256=cyhqFNzLfRc91eRj8oEImiy3nJ_UNDs2jsnDOqJKW8Y,6230
+b2h5py-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+b2h5py-0.4.0.dist-info/top_level.txt,sha256=LtIXYPISxyVqJlOJevhvwkCevP-QuuQZpsgZtr9o1Ds,7
+b2h5py-0.4.0.dist-info/RECORD,,
