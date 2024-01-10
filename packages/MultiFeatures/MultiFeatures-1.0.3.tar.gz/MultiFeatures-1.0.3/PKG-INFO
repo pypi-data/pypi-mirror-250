@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: MultiFeatures
+Version: 1.0.3
+Summary: A versatile Python package with multiple features
+Home-page: https://github.com/S4tyendra/MultiFeatures
+Author: S4tyendra
+Author-email: satya@devh.in
+License: MIT
+Keywords: Tools,Python,12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests[socks]>=2.22.0
+Requires-Dist: beautifulsoup4>=4.10.0
+
+## Install
+
+```sh
+pip install -U multifeatures
+```
+
+## Documentation
+  - Documenttation available here: [https://multifeatures.devh.in/](https://multifeatures.devh.in/)
+
+## Example Usage
+
+```py
+from MultiFeatures.IndianRailway import confirmtkt
+confirmtkt_object = confirmtkt.Confirmtkt()
+try:
+    live_status_data = confirmtkt_object.live_train_status(train_no="12345", doj="01-01-2023", locale="en")
+    print(live_status_data)
+except NotAValidTrainNumber as error:
+    print(f"Error: {error}")
+except InternetUnreachable:
+    print("Error: Connectivity issue. Please check your internet connection.")
+except HTTPErr:
+    print("Error: ran into an issue. Please try again later, or Check the data.")
+```
+
