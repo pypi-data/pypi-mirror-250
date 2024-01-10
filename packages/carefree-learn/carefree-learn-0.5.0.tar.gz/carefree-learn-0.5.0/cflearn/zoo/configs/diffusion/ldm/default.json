@@ -1,0 +1,20 @@
+{
+  "__bases__": [
+    "diffusion/ddpm"
+  ],
+  "__requires__": {
+    "module_config": [
+      "img_size"
+    ]
+  },
+  "module_name": "ldm",
+  "module_config": {
+    "in_channels": 4,
+    "out_channels": 4,
+    "first_stage": "ae/kl.f8",
+    "first_stage_config": {
+      "img_size": 256
+    },
+    "first_stage_scale_factor": 0.18215
+  }
+}
