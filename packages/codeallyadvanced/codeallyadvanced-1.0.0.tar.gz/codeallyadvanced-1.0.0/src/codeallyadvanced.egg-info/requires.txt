@@ -1,0 +1,2 @@
+codeallybasic~=1.0.0
+wxPython~=4.2.1
