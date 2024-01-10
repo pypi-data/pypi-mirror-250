@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: arithmetic_yjiang
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://gitee.com/Eason596/py-package-release-test
+Author: yjiang
+Author-email: 1900812907@qq.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.24.3
+
