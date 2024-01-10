@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/polars_pc/__init__.py
+src/polars_pc.egg-info/PKG-INFO
+src/polars_pc.egg-info/SOURCES.txt
+src/polars_pc.egg-info/dependency_links.txt
+src/polars_pc.egg-info/top_level.txt
