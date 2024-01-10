@@ -1,0 +1,5 @@
+requests
+numpy
+bs4
+pandas
+datetime
