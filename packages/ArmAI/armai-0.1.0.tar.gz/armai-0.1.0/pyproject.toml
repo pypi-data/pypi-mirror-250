@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ArmAI"
+version = "0.1.0"
+description = "0.1.0-a.1"
+authors = ["Greyson Lalonde <greyson.r.lalonde@gmail.com>"]
+readme = "README.md"
+packages = [{include = "armai", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+black = "^23.12.1"
+autoflake = "^2.2.1"
+pre-commit = "^3.6.0"
+
+[tool.isort]
+profile = "black"
+known_first_party = ["armai"]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
