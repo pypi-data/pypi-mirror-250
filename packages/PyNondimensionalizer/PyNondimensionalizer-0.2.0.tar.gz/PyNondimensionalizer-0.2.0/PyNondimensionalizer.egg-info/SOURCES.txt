@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PyNondimensionalizer.egg-info/PKG-INFO
+PyNondimensionalizer.egg-info/SOURCES.txt
+PyNondimensionalizer.egg-info/dependency_links.txt
+PyNondimensionalizer.egg-info/entry_points.txt
+PyNondimensionalizer.egg-info/requires.txt
+PyNondimensionalizer.egg-info/top_level.txt
+pynondimensionalizer/__init__.py
+pynondimensionalizer/pynondimensionalizer.py
+tests/__init__.py
+tests/test_pynondimensionalizer.py

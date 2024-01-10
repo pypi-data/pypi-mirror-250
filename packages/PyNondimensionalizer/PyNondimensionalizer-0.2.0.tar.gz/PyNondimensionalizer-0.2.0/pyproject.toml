@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools==68.1.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyNondimensionalizer"
+version = "0.2.0"
+description = "A command line program that calculates the nullspace vector from a given dimensional matrix."
+authors = [
+    {name = "Doug Keller <dg.kllr.jr@gmail.com>"}
+    ]
+license = {file = "LICENSE"}
+readme = "README.md"
+dynamic = ['dependencies', 'scripts', 'entry-points']
+
+[project.urls]
+Repository = "https://github.com/dkllrjr/PyNondimensionalizer"
+Homepage = "https://www.alaskanresearcher.dev/PyNondimensionalizer/pynondimensionalizer.html"
