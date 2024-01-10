@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/xmlrfc2md/__init__.py
+src/xmlrfc2md/xmlrfc2md.py
+src/xmlrfc2md.egg-info/PKG-INFO
+src/xmlrfc2md.egg-info/SOURCES.txt
+src/xmlrfc2md.egg-info/dependency_links.txt
+src/xmlrfc2md.egg-info/entry_points.txt
+src/xmlrfc2md.egg-info/requires.txt
+src/xmlrfc2md.egg-info/top_level.txt
