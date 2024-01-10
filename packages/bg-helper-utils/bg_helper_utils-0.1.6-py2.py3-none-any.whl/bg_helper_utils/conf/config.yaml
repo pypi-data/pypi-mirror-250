@@ -1,0 +1,11 @@
+---
+base_samplesheet_dir:
+analysis_base_dir:
+samplesheet:
+  analysis_file_type_mapping:
+    gav4: gav4_analysis
+    hcv4: hereditary_cancer_v4_analysis
+batch_analysis:
+  analysis_file_type_mapping:
+    gav4: gav4
+    hcv4: hereditary_cancer_v4
