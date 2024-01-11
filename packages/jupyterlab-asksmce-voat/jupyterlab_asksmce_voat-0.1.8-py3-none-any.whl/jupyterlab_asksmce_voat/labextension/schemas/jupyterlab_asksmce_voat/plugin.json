@@ -1,0 +1,14 @@
+{
+  "title": "SMCE Services Chatlas Settings",
+  "description": "Voice Atlas for JupyterLab Settings",
+  "properties": {
+    "atlasId-asksmce": {
+      "type": "string",
+      "title": "Atlas ID",
+      "description": "This is the Atlas ID of the SCME's support Atlas.",
+      "default": ""
+    }
+  },
+  "additionalProperties": false,
+  "type": "object"
+}
