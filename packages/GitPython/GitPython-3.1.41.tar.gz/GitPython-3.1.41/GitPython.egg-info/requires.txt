@@ -1,0 +1,20 @@
+gitdb<5,>=4.0.1
+
+[:python_version < "3.8"]
+typing-extensions>=3.7.4.3
+
+[test]
+black
+coverage[toml]
+ddt!=1.4.3,>=1.1.1
+mypy
+pre-commit
+pytest>=7.3.1
+pytest-cov
+pytest-instafail
+pytest-mock
+pytest-sugar
+sumtypes
+
+[test:python_version < "3.8"]
+mock
