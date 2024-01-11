@@ -1,0 +1,9 @@
+dbt/adapters/conveyorsnowflake/__init__.py,sha256=DnqYBhaSLZjMf3LjEs_1Y7nhEh4tU-7HvbF9PjRPgQw,711
+dbt/adapters/conveyorsnowflake/__version__.py,sha256=9UsQLZYw3LX7NO0PsCa8nGInSg0LC4sQ67EJUs50ljU,18
+dbt/adapters/conveyorsnowflake/connections.py,sha256=CL5roOdYjFx5qp3XJsDOy-RT_v2gGf49lzGNkKUC6S4,872
+dbt/include/conveyorsnowflake/__init__.py,sha256=vBGWeG-dHHkimfnX8axBJ4IgAowFw8xADmo6Auzn2xc,52
+dbt/include/conveyorsnowflake/dbt_project.yml,sha256=TS-nKkjDbqxHoYFFSVuCR9raEop1bFBQGd3thWl9TK8,76
+dbt_conveyor_snowflake-1.7.0a1.dist-info/METADATA,sha256=yEaulj5Ax4Nr1AAWvXQe61U_TiOxxnE60RlJ44o0hfA,500
+dbt_conveyor_snowflake-1.7.0a1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dbt_conveyor_snowflake-1.7.0a1.dist-info/top_level.txt,sha256=B2YH4he17ajilEWOGCKHbRcEJlCuZKwCcgFcLPntLsE,4
+dbt_conveyor_snowflake-1.7.0a1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dbt-conveyor-snowflake
+Version: 1.7.0a1
+Summary: The ConveyorSnowflake adapter plugin for dbt
+Home-page: https://github.com/datamindedbe/dbt-conveyor-snowflake
+Author: Stijn De Haes
+Author-email: stijn.dehaes@dataminded.be
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: dbt-core ~=1.7.0
+Requires-Dist: dbt-snowflake ~=1.7.0
+
+The ConveyorSnowflake adapter plugin for dbt
