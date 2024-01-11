@@ -1,0 +1,11 @@
+LICENSE,sha256=J6rAxvQNC-m1YumMDcINO-gac56MCCUuS0W9dNOhgXM,1074
+README.rst,sha256=8gk9Yz6XRSv2Z4wHGz6ghvNuaqV5h5meXLZl6AMv9_A,2005
+flog/__init__.py,sha256=3mWyOgjAsLHozConPFEf5KU5Ff5XrBfBijh7ExRsHtE,173
+flog/flog.py,sha256=sfUCsWw0_Spi7HhmLMvEnVqkw0uT8TNJ07Y4MiHA-DA,3016
+flog/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flog/tests/test_get_logger.py,sha256=EgGsVRFeDbwO3SIz8nAuHFQvTllC876FQy-W3Casm2A,1863
+flog/tests/test_log_call.py,sha256=4KUohtjrmtprsCB-rPn5-HuF-xjgKEboaVttNGSzhE8,6139
+flog-0.3.1.dist-info/LICENSE,sha256=J6rAxvQNC-m1YumMDcINO-gac56MCCUuS0W9dNOhgXM,1074
+flog-0.3.1.dist-info/METADATA,sha256=QlWEHazCCC8DznWE6kbMo_Tf8w7yB6Jj23Y4kt2FJCw,2881
+flog-0.3.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flog-0.3.1.dist-info/RECORD,,
