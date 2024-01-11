@@ -1,0 +1,25 @@
+SQLAlchemy~=2.0.16
+fastapi~=0.104.1
+mysqlclient~=2.1.1
+mysql-connector-python~=8.2.0
+pydantic~=2.5.1
+types-requests
+
+[:python_version < "3.8"]
+typing-extensions
+
+[dev]
+black
+mypy
+pipdeptree
+pre-commit
+pydata-sphinx-theme>=0.12
+pytest
+pytest-cov
+ruff
+sphinx-autobuild
+sphinx-copybutton
+sphinx-design
+tox-direct
+types-mock
+pytest-asyncio
