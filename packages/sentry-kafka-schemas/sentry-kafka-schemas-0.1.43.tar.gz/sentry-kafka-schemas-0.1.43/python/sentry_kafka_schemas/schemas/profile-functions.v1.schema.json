@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/ProfileFunctions",
+  "title": "profile_functions",
+  "definitions": {
+    "ProfileFunctions": {
+      "type": "object",
+      "properties": {
+        "functions": {
+          "$ref": "#/definitions/Function"
+        },
+        "environment": {
+          "type": "string"
+        },
+        "profile_id": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        },
+        "project_id": {
+          "type": "integer"
+        },
+        "received": {
+          "type": "integer"
+        },
+        "release": {
+          "type": "string"
+        },
+        "retention_days": {
+          "type": "integer"
+        },
+        "timestamp": {
+          "type": "integer"
+        },
+        "transaction_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "functions",
+        "profile_id",
+        "platform",
+        "project_id",
+        "received",
+        "retention_days",
+        "timestamp",
+        "transaction_name"
+      ]
+    },
+    "Function": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fingerprint": {
+            "$ref": "#/definitions/UInt"
+          },
+          "function": {
+            "type": "string"
+          },
+          "in_app": {
+            "type": "boolean"
+          },
+          "package": {
+            "type": "string"
+          },
+          "self_times_ns": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/UInt"
+            }
+          }
+        }
+      }
+    },
+    "UInt": {
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}
