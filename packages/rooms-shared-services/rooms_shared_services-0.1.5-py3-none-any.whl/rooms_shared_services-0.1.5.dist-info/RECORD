@@ -1,0 +1,11 @@
+rooms_shared_services/__init__.py,sha256=ZunQDtbF28nQISzQ1ceEJPzLHEhIkExCLeA8lSdAjYA,36
+rooms_shared_services/src/__init__.py,sha256=KghXjKc_HAjcpkCULdXY9dN3SK2GIiYNPa3V5bCDVkE,19
+rooms_shared_services/src/main.py,sha256=76gBJ9Ac_zXx93ecdfXj8LjMK5fib5yHnqcQg-0qpRc,584
+rooms_shared_services/src/receivers/abstract.py,sha256=HokUIQArYl58OvuLYYly1Bw2Y9hE4KVnZCMs_MW74_A,63
+rooms_shared_services/src/storage/__init__.py,sha256=ZEUYaCfEWtVDcx9rqxHDgRbbBitY1hLMAQJJ1anSAN0,23
+rooms_shared_services/src/storage/abstract.py,sha256=VPueqMUehCFgs0b4hn1eLqinnO8Ab-gSbNfmgBb9xGQ,615
+rooms_shared_services/src/storage/dynamodb.py,sha256=QHWBeZjN3tjLD2X6xun1Uh64PYeFEDTasVaZ9tyy11I,3314
+rooms_shared_services-0.1.5.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+rooms_shared_services-0.1.5.dist-info/METADATA,sha256=O-3QVAX9e0NzHN4yFFPo_h9cDBpHUefTFTeS-OY8Pwo,450
+rooms_shared_services-0.1.5.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+rooms_shared_services-0.1.5.dist-info/RECORD,,
