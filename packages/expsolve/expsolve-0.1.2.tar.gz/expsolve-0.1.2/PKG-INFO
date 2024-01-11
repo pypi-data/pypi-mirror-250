@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: expsolve
+Version: 0.1.2
+Summary: A PyTorch compatible Differentiable Numerical Algorithms package for computational quantum mechanics
+Project-URL: Homepage, https://github.com/brownadder/expsolve
+Project-URL: Bug Tracker, https://github.com/brownadder/expsolve
+Author-email: Pranav Singh <ps2106@bath.ac.uk>
+Maintainer-email: Pranav Singh <ps2106@bath.ac.uk>
+License: MIT
+License-File: LICENSE.md
+Keywords: PDE,dispersive,exponential,fourier,integrator,quantum,splitting
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Requires-Dist: numpy>=1.16.5
+Requires-Dist: torch>=1.13.1
+Description-Content-Type: text/markdown
+
+# expsolve
+
+A PyTorch compatible Differentiable Numerical Algorithms package for computational quantum mechanics. 
+
+Includes time-propagators based on splitting and composition methods, exponential integrators, Magnus expansion etc. 
+
+Current functionality is limited to Fourier discretisation in space. 
+
+Please see examples directory for tutorial notebooks. 
