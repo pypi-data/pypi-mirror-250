@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pngpy
+Version: 1.0.0
+Summary: Simple libpng image writing interface
+Home-page: https://github.com/damemay/pngpy
+Author: Mariusz Krzyzok
+Keywords: png,libpng
+Platform: All
+Requires-Python: >=3.5
+License-File: LICENSE

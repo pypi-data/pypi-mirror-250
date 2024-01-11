@@ -1,0 +1,9 @@
+LICENSE
+README.md
+ppm.c
+pyproject.toml
+setup.py
+pngpy.egg-info/PKG-INFO
+pngpy.egg-info/SOURCES.txt
+pngpy.egg-info/dependency_links.txt
+pngpy.egg-info/top_level.txt
