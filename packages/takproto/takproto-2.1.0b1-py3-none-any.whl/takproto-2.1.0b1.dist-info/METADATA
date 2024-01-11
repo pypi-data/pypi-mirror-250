@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: takproto
+Version: 2.1.0b1
+Summary: A Python module to encode & decode 'TAK Protocol Payload - Version 1' Protocol Buffer based Cursor on Target (CoT) messages.
+Home-page: https://github.com/snstac/takproto
+Maintainer: Greg Albrecht <oss@undef.net>
+Maintainer-email: oss@undef.net
+License: MIT License
+Project-URL: CI: GitHub Actions, https://github.com/snstac/takproto/actions
+Project-URL: GitHub: issues, https://github.com/snstac/takproto/issues
+Project-URL: GitHub: repo, https://github.com/snstac/takproto
+Keywords: Cursor on Target,CoT,ATAK,TAK,WinTAK,iTAK,TAK Server,TAKX,Protobuf
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Requires-Python: <4,>=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: protobuf >=4.21.0
+Requires-Dist: delimited-protobuf >=1.0.0
+Provides-Extra: test
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+
+![ATAK Screenshot with PyTAK Logo.](atak_screenshot_with_pytak_logo-x25.jpg)
+
+TAKProto: TAK Protocol Python Module
+************************************
+
+TAKProto is a Python module for encoding & decoding TAK Protocol Payloads, for use with `TAK Products <https://tak.gov/>`_ including ATAK, WinTAK, iTAK, TAKX, TAK Tracker & TAK Server. `takproto` includes functions for converting TAK Protocol Protobuf messages as Python objects, and serializing CoT XML messages as Protobuf.
+
+`Documentation is available here. <https://takproto.rtfd.io/>`_
+
+License
+=======
+Copyright Sensors & Signals LLC https://www.snstac.com
+
+Copyright 2020 Delta Bravo-15 <deltabravo15ga@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
