@@ -1,0 +1,7 @@
+lorax/__init__.py,sha256=1dP02aIc8W0Vk9yNSy5OnHTHr6PytJvJonfyLPB5nUs,675
+lorax/client.py,sha256=rpGJ2PxWeMngZeJ21iuuSxD1ibM2fTSufXkHhGcrzqg,20194
+lorax/errors.py,sha256=wFzp46eMLZKrl0-s_Vu_aoHXV_TmsBAzfQGRSGn_XgI,2700
+lorax/types.py,sha256=vcGw9eocVQ0E_4u99h3ivPNbUV4o4e7ahBYMFJkw1Lk,7848
+lorax_client-0.2.0.dist-info/METADATA,sha256=cCSQNgkoS6vPF0lYUVDEwYOF0k_49_pUf2LMZ7-29ls,7592
+lorax_client-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+lorax_client-0.2.0.dist-info/RECORD,,
