@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hcl2tf
+Version: 0.1.1
+Summary: Convenience Utility around python-hcl2 for easier access to parsed terraform configuration
+Home-page: https://github.com/deepbrook/python-hcl2-terraform
+Author: Nils Diefenbach
+Author-email: foss@deepbrook.io
+License: MIT
+Keywords: terraform,hcl,hashicorp
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Requires-Dist: python-hcl2
+
