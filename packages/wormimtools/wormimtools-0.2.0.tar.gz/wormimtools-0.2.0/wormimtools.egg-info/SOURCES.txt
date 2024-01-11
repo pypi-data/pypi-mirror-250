@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+imtools/ImageID.py
+imtools/Processing.py
+imtools/Reg_NeuralNet.py
+imtools/__init__.py
+imtools/con_auto_dir.py
+imtools/rme_parser.py
+wormimtools.egg-info/PKG-INFO
+wormimtools.egg-info/SOURCES.txt
+wormimtools.egg-info/dependency_links.txt
+wormimtools.egg-info/top_level.txt
