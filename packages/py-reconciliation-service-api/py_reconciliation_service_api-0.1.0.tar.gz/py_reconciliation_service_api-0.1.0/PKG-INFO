@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: py-reconciliation-service-api
+Version: 0.1.0
+Summary: Python client for the Reconciliation Service API
+License: GPL-3.0-or-later
+Keywords: reconciliation,api,client
+Author: Daniel Erenrich
+Author-email: daniel@erenrich.net
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: httpx (>=0.26.0,<0.27.0)
+Requires-Dist: pydantic (>=2.5.3,<3.0.0)
+Project-URL: Homepage, https://github.com/derenrich/py-reconciliation-service-api
+Project-URL: Issues, https://github.com/derenrich/py-reconciliation-service-api/issues
+Project-URL: Repository, https://github.com/derenrich/py-reconciliation-service-api.git
+Description-Content-Type: text/markdown
+
+Python Reconciliation Service API
+=================================
+
+This is a python implementation of the [Reconciliation Service API v0.2](https://w3c.github.io/cg-reports/reconciliation/CG-FINAL-specs-0.2-20230410/).
+
