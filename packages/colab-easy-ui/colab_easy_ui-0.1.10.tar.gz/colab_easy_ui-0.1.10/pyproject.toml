@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "colab-easy-ui"
+version = "0.1.10"
+description = ""
+authors = ["w-okada"]
+readme = "README.md"
+
+include = [ "colab_easy_ui/front/**/*"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fire = "^0.5.0"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+python-multipart = "^0.0.6"
+nest-asyncio = "^1.5.8"
+portpicker = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+main = "colab_easy_ui.main:main"
