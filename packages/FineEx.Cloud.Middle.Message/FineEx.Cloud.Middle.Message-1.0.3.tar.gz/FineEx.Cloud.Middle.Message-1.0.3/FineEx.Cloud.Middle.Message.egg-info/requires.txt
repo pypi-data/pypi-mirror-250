@@ -1,0 +1,4 @@
+requests
+aliyun-python-sdk-core
+aliyun-python-sdk-dysmsapi
+mailutils

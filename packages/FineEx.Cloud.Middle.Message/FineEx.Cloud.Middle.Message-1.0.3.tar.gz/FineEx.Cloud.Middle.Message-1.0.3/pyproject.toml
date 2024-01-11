@@ -1,0 +1,25 @@
+[project]
+name = "FineEx.Cloud.Middle.Message"
+version = "1.0.3"
+authors = [
+  { name="liuchunyang", email="liuchunyang@fineex.com" },
+]
+description = "发网供应链消息推送组件"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    'requests',
+    'aliyun-python-sdk-core',
+    'aliyun-python-sdk-dysmsapi',
+    'mailutils'
+]
+
+[project.urls]
+Homepage = "https://github.com/JokkerLiu/fineex.cloud.middle.message"
+Issues = "https://github.com/JokkerLiu/fineex.cloud.middle.message/issues"
