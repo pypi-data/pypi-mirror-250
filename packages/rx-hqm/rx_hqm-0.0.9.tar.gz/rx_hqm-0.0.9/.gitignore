@@ -1,0 +1,15 @@
+.*
+!.gitignore
+
+__pycache__/
+
+# output plots, logs
+output/
+
+# root files, pickle files (softlink)
+data
+cr
+root_sample
+bookkeeping_dir
+
+*.egg-info

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rx_hqm"
+version = "0.0.9"
+dynamic = ["dependencies"]
+
+[tool.pyright]
+# reportOptionalMemberAccess = false
+# reportOptionalSubscript = false
+# reportGeneralTypeIssues = false
+
+[tool.black]
+line-length = 119
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hqm"]
