@@ -1,0 +1,14 @@
+grpcio-tools==1.50.0
+grpcio==1.50.0
+pandas
+protobuf==4.21.9
+
+[mysql]
+mysql-connector-python
+pymysql
+
+[postgres]
+psycopg2-binary
+
+[redshift]
+psycopg2-binary
