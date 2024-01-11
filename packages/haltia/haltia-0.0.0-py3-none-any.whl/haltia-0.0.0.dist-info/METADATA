@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: haltia
+Version: 0.0.0
+Summary: Haltia.AI Software Development Kit (SDK) for Python
+Home-page: https://github.com/HaltiaAI/haltia.py
+Author: Arto Bendiken
+Author-email: arto@haltia.ai
+License: Public Domain
+Project-URL: Bug Tracker, https://github.com/HaltiaAI/haltia.py/issues
+Project-URL: Changelog, https://github.com/HaltiaAI/haltia.py/blob/master/CHANGES.md
+Project-URL: Documentation, https://github.com/HaltiaAI/haltia.py/blob/master/README.md
+Project-URL: Source Code, https://github.com/HaltiaAI/haltia.py
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: ~=3.9
+Description-Content-Type: text/markdown
+License-File: UNLICENSE
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# Haltia.AI Software Development Kit (SDK) for Python
+
