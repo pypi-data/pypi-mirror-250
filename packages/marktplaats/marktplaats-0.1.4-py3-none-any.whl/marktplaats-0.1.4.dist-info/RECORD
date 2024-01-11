@@ -1,0 +1,12 @@
+marktplaats/__init__.py,sha256=WO-yaqR9hMS4unqPmVW3sXuz2ygrH_IBaMv3CN3VCvI,21
+marktplaats/query.py,sha256=aIDFKL_4q5b6RtMMbr-79DhfVdrbNG6G7PoDRnvEv_k,2936
+marktplaats/utils.py,sha256=tcpkzwP5-NaM3urubx4ztpKXUQYJXHw0-mSVhE6CXWc,245
+marktplaats/models/__init__.py,sha256=67-389KQDCTcPt0WIJfyCbhqmQpdfi3tcv_tYAeTae8,157
+marktplaats/models/listing.py,sha256=S8c5EipkHPjXes2-nVOKp_L9IxLAfpOrxg1LBBt_NK8,483
+marktplaats/models/listing_image.py,sha256=XgnUkXDIKzHFTt0eTaladBgyNzhdtwb8dCjq7K4WwK0,527
+marktplaats/models/listing_location.py,sha256=JrnMMl_CG0ZigMLQTgNuiW3uW94WsTpDWa4xky_aHBk,424
+marktplaats/models/listing_seller.py,sha256=F1MFuat42rmchH0mr1OTNY74H2PebEVDF24Ogzm1IOE,1168
+marktplaats-0.1.4.dist-info/METADATA,sha256=aBd1dqe9hZrEMLhj86amzCC4lTdv3dqzcVkd0VxnH1c,1833
+marktplaats-0.1.4.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+marktplaats-0.1.4.dist-info/licenses/LICENSE,sha256=05Qbr6ekBLM7i42wPnrxDLM_PPdsM5kUsKFOTA_ZAeY,1071
+marktplaats-0.1.4.dist-info/RECORD,,
