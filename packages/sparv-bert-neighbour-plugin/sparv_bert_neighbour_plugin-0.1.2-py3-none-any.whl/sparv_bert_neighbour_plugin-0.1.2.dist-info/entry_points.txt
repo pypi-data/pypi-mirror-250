@@ -1,0 +1,2 @@
+[sparv.plugin]
+sparv_bert_neighbour = sparv_bert_neighbour
