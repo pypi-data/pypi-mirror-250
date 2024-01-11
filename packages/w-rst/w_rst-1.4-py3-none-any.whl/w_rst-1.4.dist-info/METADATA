@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: w-rst
+Version: 1.4
+Summary: A useless output model
+Home-page: https://github.com/zzt/w-rst.git
+Author: zzt
+Author-email: zzt@qq.com
+License: MIT
+Keywords: wrst
+License-File: LICENSE
+Requires-Dist: datetime
+
