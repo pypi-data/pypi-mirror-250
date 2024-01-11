@@ -1,0 +1,8 @@
+flake8_prometheus_metrics_name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake8_prometheus_metrics_name/api.py,sha256=VJH4U-DUfI6EOjw11tbvwBU2uq8K7BmQpzAyryyChF8,3271
+flake8_prometheus_metrics_name/cheker.py,sha256=1cIsEFopBdllM_v2mo-OTQpsdM3brY9hEC9Bc-5y3ME,1880
+flake8_prometheus_metrics_name-0.1.13.dist-info/LICENSE,sha256=NbfkeJMkczzL_BbvJj6Lz193-KiP1Cqp6zRMMQ0KkMk,1066
+flake8_prometheus_metrics_name-0.1.13.dist-info/METADATA,sha256=j6Zsocpx8BDO27z8L_EQ64gZk87Z9zW4g8lZqsteIWw,2584
+flake8_prometheus_metrics_name-0.1.13.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flake8_prometheus_metrics_name-0.1.13.dist-info/entry_points.txt,sha256=oOtBJLzya1FAZlhICbWX6gRD8W8ptH6oPqCm2BTth70,63
+flake8_prometheus_metrics_name-0.1.13.dist-info/RECORD,,
