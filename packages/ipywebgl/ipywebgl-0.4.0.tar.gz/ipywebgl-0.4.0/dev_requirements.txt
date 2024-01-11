@@ -1,0 +1,16 @@
+# python 3 requirements for animation systems
+# general ::
+wheel
+jupyterlab
+
+# maths ::
+numpy
+
+# create widget
+ipywidgets
+nodejs
+sphinx
+sphinx_rtd_theme
+nbsphinx
+jupyter_sphinx
+nbsphinx_link

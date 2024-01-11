@@ -1,0 +1,15 @@
+.ipywebgl-json-display {
+  padding: 10px;
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  margin-left: 20px;
+}
+
+.ipywebgl-json-key {
+  font-weight: bold;
+  color: #333;
+}
+
+.ipywebgl-json-value {
+  color: #555;
+}
