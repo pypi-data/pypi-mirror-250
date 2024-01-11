@@ -1,0 +1,17 @@
+acquire_imaging-0.3.0rc2.dist-info/METADATA,sha256=2adLY2FH0oYGXHW1mGd_xIybtt5lcFsJZzC0mV3aDCg,7188
+acquire_imaging-0.3.0rc2.dist-info/WHEEL,sha256=cc4-ltst2wPQ0p5u4GL7UqhOdzHk3MsD0z-aSY-5iCk,94
+acquire_imaging-0.3.0rc2.dist-info/entry_points.txt,sha256=0GFYK0eq34-Uk8yZxbuu_8ZZn65bCniZ3t6z5_gJ_As,54
+acquire_imaging-0.3.0rc2.dist-info/license_files/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+acquire/acquire.pyi,sha256=CvEGCeWb89nCh0qVnq9P_rkiOBUcMsFjW_hLUKpBbp0,11837
+acquire/napari.yaml,sha256=pP_y5ke73-GgQSP-BDHZIM3lyzf5hzoKiaL6UrrF4DM,286
+acquire/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acquire/__init__.py,sha256=regDefRZEv9uPoQ1T0cHPSpWLqkjumXl06qgR3vnkD8,7447
+acquire/__init__.pyi,sha256=o4DjesfxDxBAx6BPKrsZ6SdkTt0DsQpzgzqzcDfpQbE,600
+acquire/acquire-driver-common.dll,sha256=e-9-O5Wc7yVUWmzZE4Rawt_LuGjEbYQcpL1cRNULkO8,753152
+acquire/acquire-driver-egrabber.dll,sha256=3tE98KwK3uGz8lf2HGKn2_Yuy5T3lKMLAWAODEwPsOc,429056
+acquire/acquire-driver-hdcam.dll,sha256=6dDDM9fVV0Jo5eaFzWP9Ja_YOje_HPQYpJabFwevqMg,206848
+acquire/acquire-driver-pvcam.dll,sha256=0gLH6eWmSh5fOuNGVLnhLMZnOTnmV2lM3k0R1UnT4tU,48640
+acquire/acquire-driver-spinnaker.dll,sha256=9Bftib1-FF13H_VEYE4q-sipde7PkAjqFf-tmGOIuak,50688
+acquire/acquire-driver-zarr.dll,sha256=bxyCtA8oncoQV1jD40u2RtKSaqY2OiG11TEQObJB-rA,920576
+acquire/acquire.pyd,sha256=jlaEEiVE8e3yCvdBCNZzMzUdNp1ruasiCfFvEXq1AX0,1162752
+acquire_imaging-0.3.0rc2.dist-info/RECORD,,
