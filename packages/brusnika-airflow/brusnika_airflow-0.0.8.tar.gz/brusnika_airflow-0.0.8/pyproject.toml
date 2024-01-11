@@ -1,0 +1,23 @@
+[project]
+name = "brusnika_airflow"
+version = "0.0.8"
+authors = [
+  { name="Aleksei Zhuravlev", email="a.zhuravlev@brusnika.ru" },
+]
+description = "This Python package contains a set of frequently used functions for using in DAGs."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pendulum",
+    "requests",
+    "sqlalchemy"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitlab.brusnika.tech/erp/skm/etl/brusnika_airflow"
+Issues = "https://gitlab.brusnika.tech/erp/skm/etl/brusnika_airflow/-/issues"
