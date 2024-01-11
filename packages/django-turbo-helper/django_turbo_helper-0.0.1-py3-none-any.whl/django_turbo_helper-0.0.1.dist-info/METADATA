@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: django-turbo-helper
+Version: 0.0.1
+Summary: Hotwired/Turbo response helpers for Django
+Home-page: https://github.com/rails-inspire-django/django-turbo-response
+License: MIT
+Author: Michael Yin
+Author-email: michaelyin@accordbox.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: django (>=3.0)
+Project-URL: Changelog, https://github.com/rails-inspire-django/django-turbo-response/releases
+Description-Content-Type: text/markdown
+
+This package provides helpers for server-side rendering of `Turbo Frame` and `Turbo Stream`, which aim to work with the [Hotwire](https://hotwire.dev/) project.
+
+## Documentation
+
+https://django-turbo-response.readthedocs.io/en/latest/
+
+## Free Hotwire Django eBook
+
+If you are new to Hotwire, you may be interested in this free eBook [Hotwire Django Tutorial](https://tutorial.saashammer.com/).
+
