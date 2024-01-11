@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: compipe
+Version: 0.2.7
+Summary: a lite version of the command wrapper for python
+Home-page: https://github.com/ImagineersHub/compipe
+Author: esunvoteb
+Author-email: esun@voteb.com
+License: MIT
+Keywords: python,command,commandlet,cmd,cmdlet
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.28.2
+Requires-Dist: cryptography >=36
+Requires-Dist: tqdm >=4.63.0
+Requires-Dist: wrapt >=1.13
+Requires-Dist: google-api-python-client >=2.39
+Requires-Dist: colorlog
+
+# COMPIPE  (WIP)
+
+Compipe is a lightweight command manager specifically designed to automate tasks.
+
+
+### Example of initializing runtime environment and credential keys
+
+```python
+
+credentials_cfg_path = os.path.join(os.path.dirname(__file__), 'credential/keys.json')
+
+runtime_cfg_path = os.path.join(os.path.dirname(__file__), 'tars_server_runtime_env.json')
+
+# config DEBUG environment
+initialize_runtime_environment(params={ARG_DEBUG: False},
+                               runtime_cfg_path=runtime_cfg_path,
+                               credential_cfg_path=credentials_cfg_path)
+
+
+```
+
+### How to run unittest
+
+- Add "entry_points" to setup.py
+  ```text
+    setup(
+        # ... other setup parameters ...
+        entry_points={
+            'console_scripts': [
+                'unittest = compipe.unittest.cmd_test:main',
+            ],
+        }
+    )
+
+  ```
+- Install Your Package in Editable Mode:
+  ```text
+  pip install -e .
+  ```
+
+- Add PYPI API token to system environment
+  ```text
+  set PYPI_API_TOKEN=<Your-API-Token>
+  ```
+- Run `upload.bat` to upload package wheel
