@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+Python_canvas_layer.egg-info/PKG-INFO
+Python_canvas_layer.egg-info/SOURCES.txt
+Python_canvas_layer.egg-info/dependency_links.txt
+Python_canvas_layer.egg-info/requires.txt
+Python_canvas_layer.egg-info/top_level.txt
+python_canvas/__init__.py
+python_canvas/canvas_status.py
+python_canvas/course_info.py
+python_canvas/pycanvas.py
