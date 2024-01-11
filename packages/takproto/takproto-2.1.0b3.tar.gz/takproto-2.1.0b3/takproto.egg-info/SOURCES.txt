@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+takproto/__init__.py
+takproto/constants.py
+takproto/functions.py
+takproto.egg-info/PKG-INFO
+takproto.egg-info/SOURCES.txt
+takproto.egg-info/dependency_links.txt
+takproto.egg-info/requires.txt
+takproto.egg-info/top_level.txt
+tests/test_functions.py
