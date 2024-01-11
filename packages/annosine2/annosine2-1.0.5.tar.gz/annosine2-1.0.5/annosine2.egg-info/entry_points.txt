@@ -1,0 +1,3 @@
+[console_scripts]
+AnnoSINE_v2 = AnnoSINE.AnnoSINE_v2:main
+
