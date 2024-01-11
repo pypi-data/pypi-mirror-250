@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+bstq/__init__.py
+bstq/bstq.py
+bstq/exceptions.py
+bstq/test.py
+bstq.egg-info/PKG-INFO
+bstq.egg-info/SOURCES.txt
+bstq.egg-info/dependency_links.txt
+bstq.egg-info/top_level.txt
