@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+coggle/__init__.py
+coggle/dataset.py
+coggle.egg-info/PKG-INFO
+coggle.egg-info/SOURCES.txt
+coggle.egg-info/dependency_links.txt
+coggle.egg-info/requires.txt
+coggle.egg-info/top_level.txt
