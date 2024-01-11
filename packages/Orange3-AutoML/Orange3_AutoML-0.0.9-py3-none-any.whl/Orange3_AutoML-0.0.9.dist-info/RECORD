@@ -1,0 +1,11 @@
+Orange3_AutoML-0.0.9-py3.11-nspkg.pth,sha256=xeeGR3TjdoVxdFeF6T-zSwZWh6Et--EYuPWu67LxL_c,574
+orangecontrib/automl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orangecontrib/automl/automl.py,sha256=kUORocJ5ay_CHbNrsJ2Wv0hO8bA9Kv7ZSUHL3vj8K9c,1824
+orangecontrib/automl/widgets/__init__.py,sha256=AS0S4-erNoibZV-lh2txUo74cKynhijFDiZo9kHEPz0,945
+orangecontrib/automl/widgets/owautoml.py,sha256=eVrNkxeyBjCBeMSIxwclXPNGVDKNI4n5IERbvEyJxd8,2765
+Orange3_AutoML-0.0.9.dist-info/METADATA,sha256=TSEcJLONyp3v3setl6uakqCkcktR4HThznxYFyNsN8I,1644
+Orange3_AutoML-0.0.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Orange3_AutoML-0.0.9.dist-info/entry_points.txt,sha256=ml9oYdihkokleYxiqbGRxhqw8VeqETShHeajzMPqNSE,195
+Orange3_AutoML-0.0.9.dist-info/namespace_packages.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_AutoML-0.0.9.dist-info/top_level.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_AutoML-0.0.9.dist-info/RECORD,,
