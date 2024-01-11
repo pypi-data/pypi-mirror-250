@@ -1,0 +1,9 @@
+bibt/gcp/storage/__init__.py,sha256=7ZYiagbYaBqX0JbabdK6Lts_vWEXQieGWtTkmMKHx6s,212
+bibt/gcp/storage/classes.py,sha256=F8Ijs_E686LWofow3Iok-9g2HlB8oN3arl_bCoDEyZA,8267
+bibt/gcp/storage/methods.py,sha256=IXEKhCVkd7FVOL0AOjN-g9f513a9pUYlRKvYBuDupa8,1186
+bibt/gcp/storage/params.py,sha256=dTMclbU9kkqi4m6N8ofGff6Ac32wuZ6u9KL4YI_JTFo,20
+bibt/gcp/storage/version.py,sha256=-nNlMKS9nph3FR78_ZG9RGKrbxseeNp2K6nMr0pVGaU,23
+bibt_gcp_storage-0.0.10.dist-info/METADATA,sha256=t0goro4AGIMu-JLr8GuEu7FijmdqoOWmG0vJY_Ii9_M,2267
+bibt_gcp_storage-0.0.10.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+bibt_gcp_storage-0.0.10.dist-info/licenses/LICENSE,sha256=TDV6yQwODf_uwPkwskEh6wKRZ1gN2dzn22Dv6Gl0VsE,1054
+bibt_gcp_storage-0.0.10.dist-info/RECORD,,
