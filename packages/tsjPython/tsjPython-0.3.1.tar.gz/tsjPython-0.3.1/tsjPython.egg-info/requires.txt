@@ -1,0 +1,8 @@
+termcolor
+plotille
+regex
+openpyxl
+numpy
+plotly
+matplotlib
+tqdm
