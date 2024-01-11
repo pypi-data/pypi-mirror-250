@@ -1,0 +1,7 @@
+README.md
+setup.py
+multilingual_partial_syllable_tokenization.egg-info/PKG-INFO
+multilingual_partial_syllable_tokenization.egg-info/SOURCES.txt
+multilingual_partial_syllable_tokenization.egg-info/dependency_links.txt
+multilingual_partial_syllable_tokenization.egg-info/requires.txt
+multilingual_partial_syllable_tokenization.egg-info/top_level.txt

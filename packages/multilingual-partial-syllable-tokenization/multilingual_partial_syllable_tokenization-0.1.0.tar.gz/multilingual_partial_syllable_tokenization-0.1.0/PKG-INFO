@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: multilingual_partial_syllable_tokenization
+Version: 0.1.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: tensorflow>=2.15.0
+Requires-Dist: keras>=2.15.0
