@@ -1,0 +1,16 @@
+README.md
+setup.py
+r2papi.egg-info/PKG-INFO
+r2papi.egg-info/SOURCES.txt
+r2papi.egg-info/dependency_links.txt
+r2papi.egg-info/requires.txt
+r2papi.egg-info/top_level.txt
+test/test_base.py
+test/test_config.py
+test/test_esil.py
+test/test_file.py
+test/test_flags.py
+test/test_iomap.py
+test/test_print.py
+test/test_r2api.py
+test/test_write.py
