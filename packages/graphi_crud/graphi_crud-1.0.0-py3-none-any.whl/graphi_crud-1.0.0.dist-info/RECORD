@@ -1,0 +1,11 @@
+graphi_crud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphi_crud/create_mutation.py,sha256=5yC85bcU7ONhxrxQellfFtz-ZLHPFSu8bon2etLcO7M,2013
+graphi_crud/delete_mutation.py,sha256=UoAsQrtrLzoCEPesUFoTKoSV8dKL8A6rhQ7n6uwfPa8,1860
+graphi_crud/filters.py,sha256=6eP4VJafPg7oo9FyVmFIqtSaSg8QNFrITFIfY3OULJw,1060
+graphi_crud/graphi_types.py,sha256=RBwDLJh8yUDu14EQM2ZQqEGz_cGGsW--f0sIaK-aCe4,2105
+graphi_crud/mutations.py,sha256=x0x323GJere0zYozDJqy5DwMBXITD0A-oxf5lCBN-wU,153
+graphi_crud/queries.py,sha256=19O02A0zyIlVG1GgITO7IpUiruNs_9ef3zzozOHOS7U,4554
+graphi_crud/update_mutation.py,sha256=PbHwoizNaJscVLSMunfXAUPs4LBn3GUxSu5hSsEB7v8,2732
+graphi_crud-1.0.0.dist-info/METADATA,sha256=xcAG_kKkRcHerlNFYXRwvoT4YOzIBJ3MO48gG13xCbM,629
+graphi_crud-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+graphi_crud-1.0.0.dist-info/RECORD,,

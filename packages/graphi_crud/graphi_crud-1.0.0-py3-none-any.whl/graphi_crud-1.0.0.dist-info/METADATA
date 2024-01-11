@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: graphi_crud
+Version: 1.0.0
+Summary: Graphene Dajngo CRUD generator
+Home-page: https://github.com/abelayalew/graphi
+License: MIT
+Author: abelayalew
+Author-email: abelayalew81@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Django (>=5.0,<6.0)
+Requires-Dist: graphene-django (>=3.2.0,<4.0.0)
+Project-URL: Repository, https://github.com/abelayalew/graphi
+Description-Content-Type: text/markdown
+
+
