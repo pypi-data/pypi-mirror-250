@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: runflare
+Version: 1.1.8
+Summary: Official CLI for runflare PaaS
+Home-page: https://github.com/parswebserver/runflare-cli
+Author: RUNFLARE DEVELOPMENT TEAM
+Author-email: parswebserver@gmail.com
+Keywords: PaaS,runflare,Kubernetes
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Requires-Dist: certifi==2021.10.8
+Requires-Dist: charset-normalizer==2.0.7
+Requires-Dist: colorama==0.4.4
+Requires-Dist: fire==0.4.0
+Requires-Dist: halo==0.0.31
+Requires-Dist: idna==3.2
+Requires-Dist: log-symbols==0.0.14
+Requires-Dist: Pygments==2.10.0
+Requires-Dist: blessed==1.19.0
+Requires-Dist: readchar==2.0.1
+Requires-Dist: python-editor==1.0.4
+Requires-Dist: pytz==2021.3
+Requires-Dist: regex==2023.10.3
+Requires-Dist: requests==2.26.0
+Requires-Dist: requests-toolbelt==0.9.1
+Requires-Dist: six==1.16.0
+Requires-Dist: spinners==0.0.24
+Requires-Dist: termcolor==1.1.0
+Requires-Dist: tzdata==2021.2.post0
+Requires-Dist: tzlocal==3.0
+Requires-Dist: urllib3==1.26.7
+Requires-Dist: wcwidth==0.2.5
+Requires-Dist: websockets==10.0
+Requires-Dist: pathspec==0.9.0
+Requires-Dist: setuptools==69.0.3
