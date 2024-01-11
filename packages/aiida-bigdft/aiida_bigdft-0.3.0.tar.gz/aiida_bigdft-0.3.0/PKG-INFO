@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: aiida-bigdft
+Version: 0.3.0
+Summary: Translation layer for AiiDA-PyBigDFT
+Keywords: aiida,plugin
+Author-email: Louis Beal <louis.j.beal@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AiiDA
+Requires-Dist: aiida-core>=1.6.3,<3
+Requires-Dist: voluptuous
+Requires-Dist: PyBigDFT
+Requires-Dist: ase
+Requires-Dist: click
+Requires-Dist: sphinx ; extra == "docs"
+Requires-Dist: sphinxcontrib-contentui ; extra == "docs"
+Requires-Dist: sphinxcontrib-details-directive ; extra == "docs"
+Requires-Dist: furo ; extra == "docs"
+Requires-Dist: markupsafe<2.1 ; extra == "docs"
+Requires-Dist: pre-commit~=2.2 ; extra == "pre-commit"
+Requires-Dist: pylint~=2.15.10 ; extra == "pre-commit"
+Requires-Dist: pgtest~=1.3.1 ; extra == "testing"
+Requires-Dist: wheel~=0.31 ; extra == "testing"
+Requires-Dist: coverage[toml] ; extra == "testing"
+Requires-Dist: pytest~=6.0 ; extra == "testing"
+Requires-Dist: pytest-cov ; extra == "testing"
+Project-URL: Source, https://github.com/ljbeal/aiida-bigdft
+Provides-Extra: docs
+Provides-Extra: pre-commit
+Provides-Extra: testing
+
+# aiida-bigdft
+
+Translation layer for AiiDA-PyBigDFT
+
+## Installation
+
+```shell
+pip install aiida-bigdft
+verdi quicksetup  # better to set up a new profile
+verdi plugin list aiida.calculations  # should now show your calculation plugins
+```
+
+## Requirements
+
+- A functioning BigDFT installation
+- A copy of `bigdft.py` (Available in later versions of BigDFT, but also in this repository at `bigdft/bigdft.py`)
+
+When setting up the BigDFT code, ensure that the executable is set to the `bigdft.py` script.
+
+It is also important to source the `install/bin/bigdftvars.sh` script in your prepend.
+
+```shell
+# aiida code prepend
+
+source ${BIGDFT_BUILD_DIR}/install/bin/bigdftvars.sh
+```
+
+Where BIGDFT_BUILD_DIR is the directory in which BigDFT was built.
+
+
+## Usage
+
+To see how calculations can be submitted, see the examples directory:
+
+```shell
+verdi daemon start     # make sure the daemon is running
+cd examples
+verdi run examples/example_01.py        # run test calculation
+verdi process list -a  # check record of calculation
+```
+
+The plugin also includes verdi commands to inspect its data types:
+```shell
+verdi data bigdft list
+verdi data bigdft export <PK>
+```
+
+## WorkChains
+
+The included workchains use the `namespace` format, so inputs should be placed under the
+`bigdft` namespace when launching a workchain
+
+## License
+
+MIT
+## Contact
+
+bigdft-developers@lists.launchpad.net
+
