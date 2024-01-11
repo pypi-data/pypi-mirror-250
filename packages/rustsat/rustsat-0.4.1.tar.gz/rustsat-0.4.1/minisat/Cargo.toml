@@ -1,0 +1,28 @@
+[package]
+name = "rustsat-minisat"
+version = "0.2.2"
+edition = "2021"
+authors = ["Christoph Jabs <christoph.jabs@helsinki.fi>"]
+license = "MIT"
+description = "Interface to the SAT solver Minisat for the RustSAT library."
+keywords = ["sat-solver", "rustsat"]
+repository = "https://github.com/chrjabs/rustsat"
+readme = "README.md"
+
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+debug = []
+
+[dependencies]
+cpu-time = "1.0.0"
+rustsat = { version = "0.4.1", path = "../rustsat", default-features = false }
+
+[build-dependencies]
+cc = { version = "1.0.83", features = ["parallel"] }
+git2 = "0.18.1"
+glob = "0.3.1"
+chrono = "0.4.31"
+cmake = "0.1.50"
