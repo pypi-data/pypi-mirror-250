@@ -1,0 +1,2 @@
+[console_scripts]
+aeropress = aeropress.cli:main
