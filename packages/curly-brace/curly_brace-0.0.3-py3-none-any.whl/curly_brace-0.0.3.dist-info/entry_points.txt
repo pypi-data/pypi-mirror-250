@@ -1,0 +1,2 @@
+[nbdev]
+curly_brace = curly_brace._modidx:d
