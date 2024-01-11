@@ -1,0 +1,2 @@
+MIGRATIONS_DIR = "alembic"
+USE_LOGURU = True
