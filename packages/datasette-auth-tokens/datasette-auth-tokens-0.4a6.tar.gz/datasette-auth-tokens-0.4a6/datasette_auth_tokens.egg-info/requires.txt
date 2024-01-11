@@ -1,0 +1,9 @@
+datasette>=1.0a6
+sqlite-utils
+sqlite-migrate
+
+[test]
+pytest
+pytest-asyncio
+httpx
+sqlite-utils
