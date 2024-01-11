@@ -1,0 +1,15 @@
+scclip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scclip/callback.py,sha256=8FpkIGH6c7CcIc0NdmjOvWxgKSadJHvCXR0anwRAUyY,8044
+scclip/clip.py,sha256=xjfRfoE0sJ3GgqsGZC618heYleKliV4PpIBHNAyXZh4,8345
+scclip/config.py,sha256=TEau3ZyGKfC64OAwytnXbtW7xiwZTu-XJYtbVUZxTEc,6236
+scclip/data.py,sha256=VCB513NpSR5-PU_09Ll648dvhXMZk2DuGBQbM9XQLPU,24131
+scclip/lightning.py,sha256=btUBEODRQQQRstTSH5VxqFtM9OLdrDWlxNTPmKxVh2w,7531
+scclip/logger.py,sha256=kTqfn3UM0M1jCUtcB3hLHBCjBjOn9VRRScKIAY5utcY,618
+scclip/metrics.py,sha256=rr31zfs3t0_dj1XA1CB0EysL1ESCxwoHRfuGF_WYeBU,1745
+scclip/model.py,sha256=vRPQMlw7TPx0jMbZSm6qFsjsnQvDOCHOFXz9N4K3pzY,8229
+scclip/plot.py,sha256=izVJbOaI3Wr3SoQi4Ggl22xVuLD3Io2pUNzGp-Rtk5s,11159
+scclip/vit.py,sha256=xlQeRmSfp-W043-12dImTIHWrVErjEUXV5biQzJ6Vtc,18165
+scclip-0.0.1.dist-info/METADATA,sha256=q9eJx-XSmQn3ABvAzHwxkDfnc7XDdC76nAtldQhmpFA,934
+scclip-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scclip-0.0.1.dist-info/top_level.txt,sha256=EuLdB3aXxsFS3NogWS7Q2e1ufyiExM4r0SduNfI3IBs,7
+scclip-0.0.1.dist-info/RECORD,,
