@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: vt4_client_test
+Version: 0.1.5
+Summary: Python client for the CalcTree API
+Home-page: https://github.com/adam-drag/calctree-client
+Author: Adam Drag
