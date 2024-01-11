@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: d2-dome
+Version: 1.0.1
+Summary: Product class use Dome API's
+Author-email: Bhavin Dave <bhavin.dave@declarativedata.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas >= 2.1.1
+Project-URL: Home, https://declarativedata.com/
+
+# d2-dome
+Dome from Declarative Data Inc. contains the required modules to interactive with Dome Data Product and management Intents 
+
+## Getting Started
+
+Follow the steps described below to use this module 
+
+
+### Prerequisites
+
++ python3
++ pandas
++ requests 
+
+### Usage 
+
+#### Installation
+```
+pip install d2-dome
+```
+
+
+#### Import and Initialize a Dome Product 
+```
+from dome import Product
+my_product = Product(productId="12345678")
+```
+
+
+#### Get Product and Attribute Info 
+```
+product_df, attributes_df = my_product.info()
+```
+
+#### Get Management Intents that govern the lifecycle of a Product
+```
+product_intents = my_product.intents()
+```
+
+#### Get Series Members (Partition Keys and Values) of the Product
+```
+product_series_members_df = my_product.series_members()
+```
+
+
+#### Read Product Data 
+
+The read operation takes following optional parameters 
+
++columns: Optional[List[str | dict]] - A list of all columns to be read. The List can contain a string with the column name or a dict with column name as the key and grouping function to be applied as value 
++where: Optional[str] - A string containing a filter expression to be added. Note: The expression should not include the where key word
++group_by: Optional[List[str]] - A list of column names for grouping the results 
++order_by: Optional[List[str]] - A list of column names for grouping the results
++limit: Optional[int] - A limit to number of records to be returned
+
+Here are few examples 
+
+##### Read all product data 
+
+```
+product_read_df = my_product.read()
+```
+
+##### Read only 10 rows of my product 
+
+```
+product_read_df = my_product.read(limit=10)
+```
+
+##### Read only 2 columns with a where condition and limit to 10 rows 
+
+```
+product_read_df = my_product.read(columns=["col1","col2"], where="col3 = 'col3_value'", limit=10)
+```
+
+##### Read with results grouped 
+
+```
+product_read_df = my_product.read(columns=["col1",{"col2":"sum"}], where="col3 = 'col3_value'", group_by=["col1"], order_by=["col1"], limit=10)
+```
+
+
+## Authors 
++ Bhavin Dave 
+
+## Support 
+Please reach out to info@declarativedata.com 
