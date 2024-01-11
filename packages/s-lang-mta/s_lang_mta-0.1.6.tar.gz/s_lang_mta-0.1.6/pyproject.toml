@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "s-lang-mta"
+version = "0.1.6"
+description = "S lang interpreter"
+authors = ["Tal Alon <talalon369@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "s_lang"},
+    {include = "cli.py"},
+]
+
+[tool.poetry.scripts]
+s_lang = "cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
