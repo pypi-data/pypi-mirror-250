@@ -1,0 +1,62 @@
+# Uncomment this if your project is hosted on GitHub:
+github_url = "https://github.com/LuisAVasquez/python-luis-v-subtitler/"
+
+[version]
+current = "0.1.10"
+
+# Example of a semver regexp.
+# Make sure this matches current_version before
+# using tbump
+regex = '''
+  (?P<major>\d+)
+  \.
+  (?P<minor>\d+)
+  \.
+  (?P<patch>\d+)
+  '''
+
+[git]
+message_template = "Bump to {new_version}"
+tag_template = "v{new_version}"
+
+# For each file to patch, add a [[file]] config
+# section containing the path of the file, relative to the
+# tbump.toml location.
+[[file]]
+src = "setup.py"
+#search = "version='{current_version}'"
+
+[[file]]
+src = "README.rst"
+#search = "/v{current_version}.svg"
+
+[[file]]
+src = "README.rst"
+#search = "/v{current_version}...main"
+
+[[file]]
+src = "docs/conf.py"
+#search = 'version = release = "{current_version}"'
+
+[[file]]
+src = "src/luis_v_subtitler/__init__.py"
+#search = '__version__ = "{current_version}"'
+
+[[file]]
+src = ".cookiecutterrc"
+#search = "version: {current_version}"
+#replace = "version: {new_version}"
+
+# You can specify a list of commands to
+# run after the files have been patched
+# and before the git commit is made
+
+#  [[before_commit]]
+#  name = "check changelog"
+#  cmd = "grep -q {new_version} Changelog.rst"
+
+# Or run some commands after the git tag and the branch
+# have been pushed:
+#  [[after_push]]
+#  name = "publish"
+#  cmd = "./publish.sh"

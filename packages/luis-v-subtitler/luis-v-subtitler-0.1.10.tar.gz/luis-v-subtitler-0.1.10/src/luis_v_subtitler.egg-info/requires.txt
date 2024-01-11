@@ -1,0 +1,13 @@
+click
+moviepy==1.0.3
+pytube==15.0.0
+torch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+torchtext==0.14.1
+torchdata==0.5.1
+pydub==0.25.1
+openai-whisper==20231117
+speechbrain==0.5.16
+accelerate==0.25.0
+optimum==1.16.0
