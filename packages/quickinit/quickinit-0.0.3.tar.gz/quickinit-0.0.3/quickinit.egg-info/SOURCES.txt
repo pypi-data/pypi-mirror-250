@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+quickinit.egg-info/PKG-INFO
+quickinit.egg-info/SOURCES.txt
+quickinit.egg-info/dependency_links.txt
+quickinit.egg-info/entry_points.txt
+quickinit.egg-info/top_level.txt
+src/__init__.py
+src/quickinit.py
