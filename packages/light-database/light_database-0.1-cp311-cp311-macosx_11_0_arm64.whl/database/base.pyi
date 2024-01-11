@@ -1,0 +1,56 @@
+# (generated with --quick)
+
+import database.config
+import database.sql
+import threading
+from typing import Any, Dict, Iterable, Optional, Type, Union
+from pandas import DataFrame
+
+DeleteSqlModel: Type[database.sql.DeleteSqlModel]
+EnvConfig: Type[database.config.EnvConfig]
+FilterSqlModel: Type[database.sql.FilterSqlModel]
+InsertSqlModel: Type[database.sql.InsertSqlModel]
+PooledDB: Any
+PooledDedicatedDBConnection: Any
+UpdateSqlModel: Type[database.sql.UpdateSqlModel]
+db_local: threading.local
+
+class BaseDB:
+    _section: str
+    @classmethod
+    def _key_on_thread(cls) -> str: ...
+    @staticmethod
+    def _local_delattr(key: str) -> None: ...
+    @staticmethod
+    def _local_getattr(key: str) -> Any: ...
+    @staticmethod
+    def _local_hasattr(key: str) -> bool: ...
+    @staticmethod
+    def _local_setattr(key: str, value) -> None: ...
+    @classmethod
+    def _read_config(cls) -> Dict[str, Union[int, str]]: ...
+    @classmethod
+    def new(cls, section: str) -> Union[Type[BaseDB], type]: ...
+
+class RegularDB(BaseDB):
+    _creator: None
+    @classmethod
+    def _reset_spl(cls) -> None: ...
+    @classmethod
+    def connection(cls) -> Any: ...
+    @classmethod
+    def delete(cls, table: str) -> database.sql.DeleteSqlModel: ...
+    @classmethod
+    def description(cls, table: str) -> DataFrame: ...
+    @classmethod
+    def execute(cls, sql: str, values: Iterable = ...) -> None: ...
+    @classmethod
+    def filter(cls, table: str) -> database.sql.FilterSqlModel: ...
+    @classmethod
+    def insert(cls, table: str) -> database.sql.InsertSqlModel: ...
+    @classmethod
+    def raw_sql(cls, sql: str, values: Iterable = ...) -> DataFrame: ...
+    @classmethod
+    def tables(cls, db: Optional[str] = ...) -> DataFrame: ...
+    @classmethod
+    def update(cls, table: str) -> database.sql.UpdateSqlModel: ...
