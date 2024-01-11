@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/sanskrit/__init__.py
+src/sanskrit/__main__.py
+src/sanskrit.egg-info/PKG-INFO
+src/sanskrit.egg-info/SOURCES.txt
+src/sanskrit.egg-info/dependency_links.txt
+src/sanskrit.egg-info/entry_points.txt
+src/sanskrit.egg-info/top_level.txt
