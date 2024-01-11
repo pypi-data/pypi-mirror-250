@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: aiclipal
+Version: 0.0.2
+Summary: Compact AI CLI pal for your terminal. Powered by OpenAI API
+Author-email: Grzegorz Grzęda <grzegorz.grzeda@g2labs.pl>
+Project-URL: Homepage, https://github.com/g2labs-grzegorz-grzeda/aiclipal
+Project-URL: Issues, https://github.com/g2labs-grzegorz-grzeda/aiclipal/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vt100logging >=1.1.0
+
+# ai-assistant
+Small terminal AI assistant for generating content.
+
+## Installation
+
+Install `ai-assistant`: [`pip install -U ai-assistant`](https://pypi.org/project/ai-assistant/)
+
+## Copyright
+Created by Grzegorz Grzęda. Distributed under MIT license
