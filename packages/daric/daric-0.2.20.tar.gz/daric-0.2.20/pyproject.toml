@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "daric"
+version = "0.2.20"
+description = "DARIC, a computational framework to find quantitatively differential compartments from Hi-C data"
+authors = ["Yan Kai <smilekai@gwmail.gwu.edu>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+daric = "daric.main:app"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+typer = {extras = ["all"], version = "^0.4.1"}
+pandas = "^1.4.1"
+numpy = "^1.20.1"
+HTSeq = "^0.12.4"
+scipy = "^1.6.2"
+pyBigWig = "^0.3.18"
+hmmlearn = "^0.2.6"
+matplotlib = "3.3.4"
+seaborn = "^0.11.1"
+scikit-learn = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
