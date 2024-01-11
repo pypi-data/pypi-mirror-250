@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bin/gitid
+gitid/main.py
+gitid.egg-info/PKG-INFO
+gitid.egg-info/SOURCES.txt
+gitid.egg-info/dependency_links.txt
+gitid.egg-info/requires.txt
+gitid.egg-info/top_level.txt
