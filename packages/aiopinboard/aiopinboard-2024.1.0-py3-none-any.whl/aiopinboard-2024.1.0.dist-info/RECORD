@@ -1,0 +1,12 @@
+aiopinboard/__init__.py,sha256=OEuZzBChLoZe26edGeE5yLbl1Q6SZcOe4K72tlUG0J0,97
+aiopinboard/api.py,sha256=4FW_DcqdEh3JOWft9YZqOHBi8XjHkqBFk-EPPMfucMY,2778
+aiopinboard/bookmark.py,sha256=J5inYucFcW_rpLwhq3hC1jfjLTv8dC_jyBFSrFMeDdg,8043
+aiopinboard/errors.py,sha256=xXiL0ZX5RlESksN_Ecdi0pPiIBbGYPYTZLkE_AQ6ftc,781
+aiopinboard/helpers/types.py,sha256=B9KP-Zcx6E1Eh9R2sCUbG529JBLHbVIm1-kKNQCW73I,184
+aiopinboard/note.py,sha256=U9rcUtQiZ-Huly2ljbDFnXpf9z7GXMPoVhkk_iCQAPE,1657
+aiopinboard/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiopinboard/tag.py,sha256=RnoKY16V8IHjF3YtVa1rlNNpud5uQks4-msMVIq6Jos,1306
+aiopinboard-2024.1.0.dist-info/LICENSE,sha256=m4tfSuSK1oG2qiaa32E4QYCP6Vmci4q1eaHyJ5mLFMI,1072
+aiopinboard-2024.1.0.dist-info/METADATA,sha256=TZ_FZ3-3Ji49JlC2pAtrfmBwvnfwU_phK_jJ3tnbHiM,11765
+aiopinboard-2024.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+aiopinboard-2024.1.0.dist-info/RECORD,,
