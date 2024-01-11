@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sphinx_mochi_theme
+Version: 0.1.0
+Summary: a simple, plain, solid sphinx theme 
+Author: yamavol
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Requires-Dist: sphinx >= 4.2
+Requires-Dist: beautifulsoup4
+Project-URL: Home, https://cobapen.github.io/sphinx-mochi-theme
+Project-URL: Source, https://github.com/cobapen/sphinx-mochi-theme
+
+# sphinx-mochi-theme
+
+<p align="center">
+  <img src="https://github.com/cobapen/sphinx-mochi-theme/blob/master/docs/source/_static/logo.png" />
+</p>
+
+sphinx-mochi-theme is a simple sphinx theme for general use.
+
+Documentation: https://cobapen.github.io/sphinx-mochi-theme
+
+

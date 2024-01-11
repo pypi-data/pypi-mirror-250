@@ -1,0 +1,27 @@
+{
+  "name": "sphinx-mochi-theme",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:sass",
+    "build:script": "rollup -c",
+    "build:sass": "node-sass --style compressed assets/sass/theme.scss sphinx_mochi_theme/static/styles/theme.css ",
+    "watch:sass": "node-sass --style compressed -w assets/sass/theme.scss sphinx_mochi_theme/static/styles/theme.css",
+    "watch:sass:dev": "node-sass --style compressed -w assets/sass/theme.scss docs/build/html/_static/styles/theme.css",
+    "tsc": "echo \"TBD\"",
+    "fmt": "prettier --write ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "node-sass": "^8.0.0",
+    "rollup": "^3.18.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5"
+  }
+}
