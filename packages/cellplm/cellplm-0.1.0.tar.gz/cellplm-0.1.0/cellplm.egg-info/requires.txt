@@ -1,0 +1,8 @@
+pydance
+einops
+torchmetrics
+hdf5plugin
+mygene
+
+[rapids]
+rapids-singlecell

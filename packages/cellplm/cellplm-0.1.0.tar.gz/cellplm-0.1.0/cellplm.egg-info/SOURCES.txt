@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+CellPLM/__init__.py
+cellplm.egg-info/PKG-INFO
+cellplm.egg-info/SOURCES.txt
+cellplm.egg-info/dependency_links.txt
+cellplm.egg-info/requires.txt
+cellplm.egg-info/top_level.txt
