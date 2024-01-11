@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: linklist
+Version: 1.7
+Summary: Python package with a fast linked_list support. 
+Home-page: https://github.com/CutieDeng/OrderStatisticTree
+Author: Cutie Deng
+Author-email: Dhdreamer@126.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+
