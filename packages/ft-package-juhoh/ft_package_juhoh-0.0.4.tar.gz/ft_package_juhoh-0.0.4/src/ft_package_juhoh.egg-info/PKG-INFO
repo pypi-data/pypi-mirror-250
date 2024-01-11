@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ft_package_juhoh
+Version: 0.0.4
+Summary: 42 python piscine package test
+Author: juhoh
+Author-email: juhoh@student.42seoul.kr
+Project-URL: Homepage, https://github.com/ozestina
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ft_package_juhoh Package
+
+This is a simple test package for 42 python piscine course.

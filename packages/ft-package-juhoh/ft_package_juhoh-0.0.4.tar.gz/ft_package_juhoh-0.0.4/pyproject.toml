@@ -1,0 +1,18 @@
+[project]
+name = "ft_package_juhoh"
+version = "0.0.4"
+authors = [
+  { name="juhoh" },
+  { email="juhoh@student.42seoul.kr" },
+]
+description = "42 python piscine package test"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ozestina"
