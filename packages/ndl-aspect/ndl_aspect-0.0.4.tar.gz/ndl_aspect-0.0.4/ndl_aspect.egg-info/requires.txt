@@ -1,0 +1,8 @@
+numpy
+pandas
+pyndl
+sklearn
+keras
+xarray
+matplotlib
+nltk
