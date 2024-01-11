@@ -1,0 +1,7 @@
+setup.py
+SteamUserFind.egg-info/PKG-INFO
+SteamUserFind.egg-info/SOURCES.txt
+SteamUserFind.egg-info/dependency_links.txt
+SteamUserFind.egg-info/top_level.txt
+crawler/__init__.py
+crawler/crawler.py
