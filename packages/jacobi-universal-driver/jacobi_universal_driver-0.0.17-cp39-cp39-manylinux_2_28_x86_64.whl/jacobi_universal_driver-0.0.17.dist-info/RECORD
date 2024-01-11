@@ -1,0 +1,9 @@
+libjacobi-universal-driver.so,sha256=qjZUqPFP3a2FI43kE2RmFdPHj6MqIv4AkaKWugIaVeA,1997025
+librtde.a,sha256=3fvacEmPmxDUOgSazJsJmZeBirJ-54cPwwvt6kozKzI,3392150
+jacobi_driver_universal.cpython-39-x86_64-linux-gnu.so,sha256=Pplbg5CAqWAPvcft3pdUkX0q2e_FutVR1sXzYxOlOFE,315889
+jacobi_universal_driver.libs/libboost_system-69a6c43e.so.1.66.0,sha256=sd_lA0coUWXm-bluxkOkNrzrxFSAXYDphjPDwBekik8,22905
+jacobi_universal_driver.libs/libboost_thread-473b539f.so.1.66.0,sha256=SK_ogBu9NK8SNdF6RcCXk60VNbimYOV1VYG7Ley-rEg,267249
+jacobi_universal_driver-0.0.17.dist-info/WHEEL,sha256=JfkX_eSPpJ51o4lPVW-z6zIfLh8AgItfT6glxWHbUfg,112
+jacobi_universal_driver-0.0.17.dist-info/RECORD,,
+jacobi_universal_driver-0.0.17.dist-info/top_level.txt,sha256=XWGDXZkANUse4fSvRnUOVEohxBuFLtK4TFQ5Iq2ehbg,31
+jacobi_universal_driver-0.0.17.dist-info/METADATA,sha256=D3vGRskMF4AnGdHnf534j7-AX1RXidMt3Uom-x-sqcI,975
