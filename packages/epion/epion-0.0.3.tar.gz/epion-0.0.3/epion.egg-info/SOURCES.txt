@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+epion/__init__.py
+epion/epion.py
+epion/exceptions.py
+epion.egg-info/PKG-INFO
+epion.egg-info/SOURCES.txt
+epion.egg-info/dependency_links.txt
+epion.egg-info/requires.txt
+epion.egg-info/top_level.txt
