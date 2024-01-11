@@ -1,0 +1,10 @@
+pytket/extensions/stim/__init__.py,sha256=RmoMyWDSu8Xn0JQfF4SZ45nxmzjlupOEdDjXKhPONuY,838
+pytket/extensions/stim/_metadata.py,sha256=YaOkiW1bcdZr2SySEoaUhtHyKofudm6kU58ZesNgvGY,70
+pytket/extensions/stim/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytket/extensions/stim/backends/__init__.py,sha256=OxurZIQMgjeyFNxcXt20msFnJ--6AWAq0EGcf7Qtgsc,730
+pytket/extensions/stim/backends/stim_backend.py,sha256=WK-ZCnyAf4A58uZk8ccEdJeGzHik2_fgwPuK6HQYAiM,6241
+pytket_stim-0.20.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+pytket_stim-0.20.0.dist-info/METADATA,sha256=I52Z_WzKztyP0Yv8lETbzvdQxIYvYE4f4EY7ew0XrVk,3980
+pytket_stim-0.20.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytket_stim-0.20.0.dist-info/top_level.txt,sha256=GsvCQQpJ7P8Vrx4ydtbjs36yufXiD59vSbbQFtFgcQ0,7
+pytket_stim-0.20.0.dist-info/RECORD,,
