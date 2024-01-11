@@ -1,0 +1,2 @@
+[console_scripts]
+pyproject-scaffold = pyproject_scaffold.main:main
