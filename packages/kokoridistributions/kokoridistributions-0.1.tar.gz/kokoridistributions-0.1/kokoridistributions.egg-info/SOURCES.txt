@@ -1,0 +1,10 @@
+setup.py
+kokoridistributions/Binomialdistribution.py
+kokoridistributions/Gaussiandistribution.py
+kokoridistributions/Generaldistribution.py
+kokoridistributions/__init__.py
+kokoridistributions.egg-info/PKG-INFO
+kokoridistributions.egg-info/SOURCES.txt
+kokoridistributions.egg-info/dependency_links.txt
+kokoridistributions.egg-info/not-zip-safe
+kokoridistributions.egg-info/top_level.txt
