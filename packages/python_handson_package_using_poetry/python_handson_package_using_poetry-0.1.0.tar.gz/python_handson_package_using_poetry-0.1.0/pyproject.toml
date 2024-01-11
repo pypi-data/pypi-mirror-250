@@ -1,0 +1,15 @@
+# python_handson_package_using_poetry/pyproject.toml
+
+[tool.poetry]
+name = "python_handson_package_using_poetry"
+version = "0.1.0"
+description = "A simple Python library"
+authors = ["Jay Sathiya <jay.sathiya@crestdatasys.com>"]
+packages = [{include = "python_handson_package_using_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

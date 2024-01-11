@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: python_handson_package_using_poetry
+Version: 0.1.0
+Summary: A simple Python library
+Author: Jay Sathiya
+Author-email: jay.sathiya@crestdatasys.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
