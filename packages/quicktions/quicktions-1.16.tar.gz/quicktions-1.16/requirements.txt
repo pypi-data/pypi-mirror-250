@@ -1,0 +1,6 @@
+tox
+pytest
+coverage
+Cython>=3.0.8
+codecov
+wheel
