@@ -1,0 +1,4 @@
+[console_scripts]
+black-isort-hook=black_isort_hook.hook:main
+install-black-isort-hook=black_isort_hook.install:main
+
