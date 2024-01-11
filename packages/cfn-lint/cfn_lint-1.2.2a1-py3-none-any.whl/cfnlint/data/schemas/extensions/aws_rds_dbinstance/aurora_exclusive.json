@@ -1,0 +1,98 @@
+{
+ "additionalProperties": true,
+ "description": "When creating an aurora DBInstance don't specify 'AllocatedStorage', 'BackupRetentionPeriod', 'CopyTagsToSnapshot', 'DeletionProtection', 'EnableIAMDatabaseAuthentication', 'MasterUserPassword', or 'StorageEncrypted'",
+ "else": {},
+ "if": {
+  "properties": {
+   "Engine": {
+    "pattern": "(aurora|aurora-mysql|aurora-postgresql)"
+   }
+  }
+ },
+ "then": {
+  "not": {
+   "anyOf": [
+    {
+     "required": [
+      "AllocatedStorage"
+     ]
+    },
+    {
+     "required": [
+      "BackupRetentionPeriod"
+     ]
+    },
+    {
+     "required": [
+      "CopyTagsToSnapshot"
+     ]
+    },
+    {
+     "required": [
+      "DeletionProtection"
+     ]
+    },
+    {
+     "required": [
+      "EnableIAMDatabaseAuthentication"
+     ]
+    },
+    {
+     "required": [
+      "MasterUserPassword"
+     ]
+    },
+    {
+     "required": [
+      "StorageEncrypted"
+     ]
+    }
+   ],
+   "properties": {
+    "AllocatedStorage": {
+     "type": [
+      "string",
+      "object"
+     ]
+    },
+    "BackupRetentionPeriod": {
+     "type": [
+      "string",
+      "object"
+     ]
+    },
+    "CopyTagsToSnapshot": {
+     "type": [
+      "string",
+      "object"
+     ]
+    },
+    "DeletionProtection": {
+     "type": [
+      "string",
+      "object"
+     ]
+    },
+    "EnableIAMDatabaseAuthentication": {
+     "type": [
+      "string",
+      "object"
+     ]
+    },
+    "MasterUserPassword": {
+     "type": [
+      "string",
+      "object"
+     ]
+    },
+    "StorageEncrypted": {
+     "type": [
+      "string",
+      "object"
+     ]
+    }
+   }
+  }
+ },
+ "type": "object"
+}
