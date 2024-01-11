@@ -1,0 +1,50 @@
+{
+    "$id": "https://alwaysai.co/tensorrtModelParameters.json",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "type": "object",
+    "properties": {
+        "tensorrtModelProperties": {
+            "type": "object",
+            "properties": {
+                "device": {
+                    "type": "string",
+                    "enum": [
+                        "nano",
+                        "xavier-nx",
+                        "agx-xavier",
+                        "agx-orin",
+                        "orin-nx"
+                    ]
+                },
+                "batch_size": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "batch_size"
+            ],
+            "if": {
+                "type": "object",
+                "properties": {
+                    "purpose": {
+                        "const": "ObjectDetection"
+                    }
+                }
+            },
+            "then": {
+                "type": "object",
+                "properties": {
+                    "architecture": {
+                        "type": "string",
+                        "enum": [
+                            "yolo",
+                            "mobilenet_ssd"
+                        ]
+                    }
+                },
+                "required": []
+            }
+        }
+    }
+
+}
