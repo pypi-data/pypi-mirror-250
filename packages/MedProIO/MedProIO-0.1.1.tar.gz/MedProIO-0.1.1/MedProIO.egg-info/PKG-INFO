@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MedProIO
+Version: 0.1.1
+Summary: A package to perform specific Medical Image processing operations based on SimpleITK
+Home-page: 
+Author: Dimitris Zaridis
+Author-email: dimzaridis@gmail.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENCE

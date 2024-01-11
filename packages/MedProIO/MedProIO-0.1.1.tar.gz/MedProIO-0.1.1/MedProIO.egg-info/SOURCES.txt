@@ -1,0 +1,13 @@
+LICENCE
+setup.py
+MedProIO/Alignment.py
+MedProIO/BaseClasses.py
+MedProIO/Coregistrator.py
+MedProIO/CropAndPad.py
+MedProIO/Resampler.py
+MedProIO/__init__.py
+MedProIO.egg-info/PKG-INFO
+MedProIO.egg-info/SOURCES.txt
+MedProIO.egg-info/dependency_links.txt
+MedProIO.egg-info/requires.txt
+MedProIO.egg-info/top_level.txt
