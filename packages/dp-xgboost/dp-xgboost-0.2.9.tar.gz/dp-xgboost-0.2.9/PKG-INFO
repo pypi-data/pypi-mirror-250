@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dp-xgboost
+Version: 0.2.9
+Summary: DP-XGBoost Python Package from Sarus
+Home-page: https://github.com/sarus-tech/dp-xgboost
+Maintainer: Nicolas Grislain
+Maintainer-email: ng@sarus.tech
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: dask
+Provides-Extra: datatable
+Provides-Extra: pandas
+Provides-Extra: plotting
+Provides-Extra: scikit-learn
+
+=========================
+DP-XGBoost Python Package
+=========================
+
+|PyPI version|
+
+Installation
+============
+
+From `PyPI <https://pypi.python.org/pypi/dp-xgboost>`_
+------------------------------------------------------
+
+For a stable version, install using ``pip``::
+
+    pip install dp-xgboost
+
+.. |PyPI version| image:: https://badge.fury.io/py/dp-xgboost.svg
+   :target: http://badge.fury.io/py/dp-xgboost
+
+For building from source, see https://github.com/sarus-tech/dp-xgboost.
+
+
