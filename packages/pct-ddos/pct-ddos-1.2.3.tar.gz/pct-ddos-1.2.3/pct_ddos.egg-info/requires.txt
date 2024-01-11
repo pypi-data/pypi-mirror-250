@@ -1,0 +1,8 @@
+asyncio
+dnspython
+pychalk
+pycryptodome
+pymongo
+pytz
+requests
+requests-futures
