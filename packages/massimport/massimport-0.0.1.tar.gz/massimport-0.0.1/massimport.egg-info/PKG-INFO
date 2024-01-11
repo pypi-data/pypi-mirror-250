@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: massimport
+Version: 0.0.1
+Summary: This module make imports faster
+Home-page: UNKNOWN
+Author: Nikita_G
+Author-email: zailox@mail.ru
+License: UNKNOWN
+Keywords: files speedfiles
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+...
+
+
