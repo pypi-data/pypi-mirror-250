@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Setroubleshoot Events</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Cursor</th>
+                <th>Realtime Timestamp</th>
+                <th>Monotonic Timestamp</th>
+                <th>Boot ID</th>
+                <th>Priority</th>
+                <th>Syslog Facility</th>
+                <th>Syslog Identifier</th>
+                <th>Transport</th>
+                <th>PID</th>
+                <th>UID</th>
+                <th>GID</th>
+                <th>Comm</th>
+                <th>Exe</th>
+                <th>Cmdline</th>
+                <th>Cap Effective</th>
+                <th>Selinux Context</th>
+                <th>Systemd Cgroup</th>
+                <th>Systemd Unit</th>
+                <th>Systemd Slice</th>
+                <th>Machine ID</th>
+                <th>Hostname</th>
+                <th>Code File</th>
+                <th>Code Line</th>
+                <th>Code Func</th>
+                <th>Message ID</th>
+                <th>Unit</th>
+                <th>Message</th>
+                <th>Invocation ID</th>
+                <th>Source Realtime Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for event in events %}
+                <tr>
+                    <td>{{ event.cursor }}</td>
+                    <td>{{ event.realtime_timestamp }}</td>
+                    <td>{{ event.monotonic_timestamp }}</td>
+                    <td>{{ event.boot_id }}</td>
+                    <td>{{ event.priority }}</td>
+                    <td>{{ event.syslog_facility }}</td>
+                    <td>{{ event.syslog_identifier }}</td>
+                    <td>{{ event.transport }}</td>
+                    <td>{{ event.pid }}</td>
+                    <td>{{ event.uid }}</td>
+                    <td>{{ event.gid }}</td>
+                    <td>{{ event.comm }}</td>
+                    <td>{{ event.exe }}</td>
+                    <td>{{ event.cmdline }}</td>
+                    <td>{{ event.cap_effective }}</td>
+                    <td>{{ event.selinux_context }}</td>
+                    <td>{{ event.systemd_cgroup }}</td>
+                    <td>{{ event.systemd_unit }}</td>
+                    <td>{{ event.systemd_slice }}</td>
+                    <td>{{ event.machine_id }}</td>
+                    <td>{{ event.hostname }}</td>
+                    <td>{{ event.code_file }}</td>
+                    <td>{{ event.code_line }}</td>
+                    <td>{{ event.code_func }}</td>
+                    <td>{{ event.message_id }}</td>
+                    <td>{{ event.unit }}</td>
+                    <td>{{ event.message }}</td>
+                    <td>{{ event.invocation_id }}</td>
+                    <td>{{ event.source_realtime_timestamp }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
