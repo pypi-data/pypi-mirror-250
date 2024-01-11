@@ -1,0 +1,16 @@
+fastapi>=0.99.1
+uvicorn>=0.23.2
+openai==1.6.1
+geocoder==1.38.1
+line-bot-sdk==2.4.2
+pandas>=2.1.4
+geopy==2.3.0
+selenium==4.7.2
+pyimgur==0.6.0
+pyyaml==6.0
+python-dotenv==1.0.0
+plotly==5.16.1
+kaleido
+cameo-eco-query==1.0.8
+opencc==1.1.7
+cameo_geo_query>=1.0.2
