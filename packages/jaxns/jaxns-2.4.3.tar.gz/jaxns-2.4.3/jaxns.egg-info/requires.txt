@@ -1,0 +1,11 @@
+jax
+jaxlib
+chex
+typing_extensions
+matplotlib
+numpy
+scipy
+tensorflow_probability
+tqdm
+dm-haiku
+optax
