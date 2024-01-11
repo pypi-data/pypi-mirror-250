@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: poetry-git-branch-plugin
+Version: 0.1.0
+Summary: A poetry plugin to store the current git branch into environment variable when poetry runs any command.
+Author: Francesc Font Clos
+Author-email: fran@dribia.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: poetry (>=1.7.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Poetry Git Branch Plugin
+A simple poetry plugin that sets an environment variable containing the name of the current checked-out branch before executing any poetry command.
+
+## Why
+Our main use case is in situations where DBT needs access to the current git branch name to set the name of the target schema.
+
+## Installation
+The plugin cannot be installed with `poetry self add` because it is not published on PyPI.
+Instead, you can install it by building a wheels file
+```bash
+poetry build
+```
+and installing it with your system-wide or pyenv-wide pip.
+```bash
+# not inside pycharm nor inside a poetry shell
+pip install /path/to/poetry-git-branch-plugin/dist/poetry_git_branch_plugin-0.1.0-py3-none-any.whl
+```
+

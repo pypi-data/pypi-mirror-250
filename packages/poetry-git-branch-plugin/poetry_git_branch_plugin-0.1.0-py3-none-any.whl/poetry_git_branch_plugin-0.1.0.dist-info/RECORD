@@ -1,0 +1,7 @@
+poetry_git_branch_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_git_branch_plugin/plugin.py,sha256=V6fpG97OzXF_vtKRCCmn_CNAOh6HEA2vRJ6QloQVsU4,953
+poetry_git_branch_plugin-0.1.0.dist-info/LICENSE,sha256=Q25ZXY3Iw8v4d6iPZ1ZJkvSYmZGdkO4KWgbYfN8DrGU,1079
+poetry_git_branch_plugin-0.1.0.dist-info/METADATA,sha256=08LSN10rzo4ee0RCY5h5fHl5ng9CL70o41SfteXvYVk,1263
+poetry_git_branch_plugin-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+poetry_git_branch_plugin-0.1.0.dist-info/entry_points.txt,sha256=TLyqIxG-GKJmliGJ_yXuMJrFbEp_SQAsw68c_yq3XVk,98
+poetry_git_branch_plugin-0.1.0.dist-info/RECORD,,
