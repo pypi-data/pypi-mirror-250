@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ocrd_modelfactory
+Version: 2.60.3
+Summary: OCR-D framework - wrappers to create ocrd_model instances
+Author-email: Konstantin Baierer <unixprog@gmail.com>
+License: Apache License 2.0
+Project-URL: Homepage, https://ocr-d.de
+Project-URL: Documentation, https://ocr-d.de/core
+Project-URL: Repository, https://github.com/OCR-D/core
+Project-URL: Issues, https://github.com/OCR-D/core/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: lxml
+Requires-Dist: ocrd-utils ==2.60.3
+Requires-Dist: ocrd-models ==2.60.3
+
+# ocrd_modelfactory
+
+> OCR-D framework - wrappers to create ocrd_model instances
+
+See also: https://github.com/OCR-D/core
