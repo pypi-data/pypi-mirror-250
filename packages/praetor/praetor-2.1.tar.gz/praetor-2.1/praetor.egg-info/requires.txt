@@ -1,0 +1,5 @@
+codegen
+memory_profiler
+pymongo
+rdflib
+pandas
