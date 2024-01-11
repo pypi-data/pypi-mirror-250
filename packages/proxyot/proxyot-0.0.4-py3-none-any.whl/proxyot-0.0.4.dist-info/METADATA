@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: proxyot
+Version: 0.0.4
+Summary: Access the values of your ProxyOT points and lists.
+Author: OchaTEK
+Author-email: <ochatek@ochatek.com>
+Keywords: python,proxyot,iot
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+A python package that allows you access to your points and lists in ProxyOT. Using this package, you can easily access these values in your Proxyot Apps, as well as your own Python scripts.
