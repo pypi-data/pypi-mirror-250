@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+aspectreat/__init__.py
+aspectreat/main.py
+aspectreat.egg-info/PKG-INFO
+aspectreat.egg-info/SOURCES.txt
+aspectreat.egg-info/dependency_links.txt
+aspectreat.egg-info/requires.txt
+aspectreat.egg-info/top_level.txt
+aspectreat/aspectreat_pcs/__init__.py
+aspectreat/aspectreat_pcs/et.py
+aspectreat/pyarmor_runtime_000000/__init__.py
