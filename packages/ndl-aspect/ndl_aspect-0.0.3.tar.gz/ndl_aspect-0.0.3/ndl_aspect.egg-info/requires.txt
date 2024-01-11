@@ -1,0 +1,10 @@
+numpy
+h5py
+pandas
+pyndl
+sklearn
+keras
+xarray
+matplotlib
+nltk
+netcdf4==1.5.2
