@@ -1,0 +1,8 @@
+README.md
+setup.py
+ColorWithTools/Color.py
+ColorWithTools/__init__.py
+color_with_tools.egg-info/PKG-INFO
+color_with_tools.egg-info/SOURCES.txt
+color_with_tools.egg-info/dependency_links.txt
+color_with_tools.egg-info/top_level.txt
