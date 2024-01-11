@@ -1,0 +1,6 @@
+pycomfort>=0.0.15
+click
+sentence_transformers
+opensearch-py>=2.4.2
+langchain>=0.1.0
+langchain-community>=0.0.11
