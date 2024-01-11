@@ -1,0 +1,18 @@
+Changelog
+==========================
+
+0.9.1
+--------------------------
+Beta ig
+
+1.0.0
+--------------------------
+Initial Release
+
+1.0.3
+--------------------------
+Fix to only return JSON payload on status code 200, raise Exception otherwise just in case
+
+1.0.4
+--------------------------
+Fix to check locally if the user is attempting to access a token-required endpoint without a token, rather than relying on the server to return a 401
