@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pyqtchat8741
+Version: 0.1.18
+Summary: 
+Author: Viktor Simon
+Author-email: V-U-Simon@yandex.ru
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pycryptodome (>=3.19.0,<4.0.0)
+Requires-Dist: pycryptodomex (>=3.19.0,<4.0.0)
+Requires-Dist: pyqt5 (>=5.15.10,<6.0.0)
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: sphinx (>=7.2.6,<8.0.0)
+Requires-Dist: sphinx-book-theme (>=1.1.0,<2.0.0)
+Requires-Dist: sqlalchemy (>=2.0.23,<3.0.0)
+Description-Content-Type: text/markdown
+
+
+
+# Demo-Chat: PyQT / Socket / Hash-Based MAC
+
+A project that implements chat using sockets. Hash-Based Message Authentication Code is used for user authorization.
+
+(RU) Проект реализующий чат с использованием сокетов. При авторизации пользователя используется "Hash-Based Message Authentication Code".
+
+## Quick start
+
+```bash
+
+# 📀 install python-package
+poetry add pyqtchat8741
+
+
+# 📀 or (if you don't using poetry)
+pip install pyqtchat8741
+
+# 💾 create folder for db store
+mkdir db
+
+# 🚀 for execute CLI interface. After input "s" for start or "x" for exit
+pyqtchat8741_start
+
+# or
+
+# 🚀 you can start sepparetly sever and clients
+pyqtchat8741_server # run server
+pyqtchat8741_client # run client
+```
+
