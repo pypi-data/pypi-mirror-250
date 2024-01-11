@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: httpgo
+Version: 0.20.0
+Summary: CLI tool based on Requests
+Author-Email: RicarTang <357965604@qq.com>
+License: MIT
+Project-URL: Repository, https://github.com/RicarTang/pyhttpcli
+Project-URL: Changelog, https://github.com/RicarTang/httpgo/blob/master/CHANGELOG.md
+Requires-Python: <4.0,>=3.8
+Requires-Dist: typer[all]<1.0.0,>=0.9.0
+Requires-Dist: requests<3.0.0,>=2.31.0
+Description-Content-Type: text/markdown
+
+# httpgo
+## 概述
+该工具使用Typer构建，是基于requests的一个http cli工具。
+## 安装
+```
+pip install httpgo
+```
+## 检查是否安装
+```
+$ httpgo --version
+```

@@ -1,0 +1,40 @@
+[tool.pdm.dev-dependencies]
+dev = [
+    "black<24.0.0,>=23.11.0",
+    "pytest<8.0.0,>=7.4.3",
+]
+
+[tool.pdm.build]
+includes = [
+    "httpgo/",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "httpgo"
+version = "0.20.0"
+description = "CLI tool based on Requests"
+authors = [
+    { name = "RicarTang", email = "357965604@qq.com" },
+]
+dependencies = [
+    "typer[all]<1.0.0,>=0.9.0",
+    "requests<3.0.0,>=2.31.0",
+]
+requires-python = ">=3.8,<4.0"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+repository = "https://github.com/RicarTang/pyhttpcli"
+Changelog = "https://github.com/RicarTang/httpgo/blob/master/CHANGELOG.md"
+
+[project.scripts]
+httpgo = "httpgo.main:app"
