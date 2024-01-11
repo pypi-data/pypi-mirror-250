@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: gptlib
+Version: 0.0.1
+Summary: Basic library for interacting with OpenAI chat API
+Author-email: Armand McQueen <armandmcqueen@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: rich
+Requires-Dist: openai
