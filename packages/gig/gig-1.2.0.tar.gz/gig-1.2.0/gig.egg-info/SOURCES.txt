@@ -1,0 +1,13 @@
+LICENSE
+README.md
+gig.py
+pyproject.toml
+setup.cfg
+setup.py
+gig.egg-info/PKG-INFO
+gig.egg-info/SOURCES.txt
+gig.egg-info/dependency_links.txt
+gig.egg-info/entry_points.txt
+gig.egg-info/requires.txt
+gig.egg-info/top_level.txt
+tests/test_gig.py

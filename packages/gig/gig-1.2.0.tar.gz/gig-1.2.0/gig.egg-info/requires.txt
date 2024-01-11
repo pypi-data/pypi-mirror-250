@@ -1,0 +1,11 @@
+docopt
+requests
+
+[dev]
+gig[tests]
+pre-commit~=3.6
+tox
+
+[tests]
+pytest
+scripttest
