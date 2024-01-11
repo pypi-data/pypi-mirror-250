@@ -1,0 +1,12 @@
+trustcaptcha/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trustcaptcha/aes_encryption.py,sha256=kRB1NHUZsvgzCw6aJATL76I9hrSNWLFtCFxEcvJwnSw,735
+trustcaptcha/captcha_manager.py,sha256=5hp2Q17hiehr8P_ZIbph1Y5x2gYJgYHyBrHl4oPIR-Y,2625
+trustcaptcha/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trustcaptcha/model/result_reason.py,sha256=8gfb7usRileTmqBhJTNrP75UX-9lZTX6hiSMgsGQx7U,514
+trustcaptcha/model/verification_result.py,sha256=cYTMEsmDPovxdpN0yVHtSAkQ0a0v3ZMaMWVlUzMisrQ,1367
+trustcaptcha/model/verification_token.py,sha256=jCymmG5zKuwmJGSKX3bOkAK3ilmU6BhKyNre9bJJi90,520
+trustcaptcha_python-0.0.5.dist-info/METADATA,sha256=gP4Fvoqhk4wuIUk_JT0dm2jXlS_XwHIEJMUv22yg4zk,379
+trustcaptcha_python-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+trustcaptcha_python-0.0.5.dist-info/entry_points.txt,sha256=V__mnqqnmIx-7UDvflP94wgzke6tt5m1nn05JnHMrAk,51
+trustcaptcha_python-0.0.5.dist-info/top_level.txt,sha256=U-YtROKvHdzkz5rbfDTZgb_H4gQ3DVqPXePlJEX0gso,13
+trustcaptcha_python-0.0.5.dist-info/RECORD,,
