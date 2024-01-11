@@ -1,0 +1,3 @@
+[console_scripts]
+py-temporal-doc=py_temporal_doc.main:main
+
