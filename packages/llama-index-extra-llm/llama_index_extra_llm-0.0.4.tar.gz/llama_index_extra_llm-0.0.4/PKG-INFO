@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: llama_index_extra_llm
+Version: 0.0.4
+Summary: Just a simple extension for LlamaIndex for better apply some llm such as DeepSeek.
+Home-page: https://github.com/zeuscsc/llama_index_extra_llm.git
+Author: Zeus Chiu
+Author-email: zeuscsc@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers==4.36.2
+Requires-Dist: llama-index==0.9.13
+Requires-Dist: accelerate==0.25.0
+Requires-Dist: pypdf==3.17.4
+Requires-Dist: pydantic==1.10.11
+Requires-Dist: bitsandbytes==0.39
+
+
+# LlamaIndex Extra LLM
+Just a simple extension for LlamaIndex for better apply some llm such as DeepSeek.
+
+## Features
+- [x] Support DeepSeek
+
+## Installation / Environment
+Pytorch is needed, it is easier to install by conda if you are using local PC with GPU
+```shell
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+## Quick Usage
+Quantization is optional
+```python
+from llama_index_extra_llm.deepseek import DeepSeekLLM
+quantization_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_use_double_quant=True,
+)
+llm = DeepSeekLLM(
+    model_name="deepseek-ai/deepseek-llm-7b-chat",
+    tokenizer_name="deepseek-ai/deepseek-llm-7b-chat",
+    context_window=3900,
+    max_new_tokens=1024,
+    model_kwargs={"quantization_config": quantization_config},
+    generate_kwargs={"temperature": 0.7, "top_k": 50, "top_p": 0.95},
+    device_map="auto",
+)
+service_context = ServiceContext.from_defaults(llm=llm, embed_model="local:BAAI/bge-small-en-v1.5")
+documents = SimpleDirectoryReader("data").load_data()
+index = VectorStoreIndex.from_documents(documents, service_context=service_context)
+query_engine = index.as_query_engine(streaming=True, similarity_top_k=1)
+prompt=DeepSeekLLM.messages2prompt(messages=[{"role": "user", "content": "Hello"}])
+streaming_response=query_engine.query(prompt)
+streaming_response.print_response_stream()
+```
