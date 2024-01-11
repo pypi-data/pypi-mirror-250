@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: omi_tools
+Version: 0.0.1
+Summary: Package with various utilities for OMI department
+Author-email: Věnceslav Chumchal <venceslav.chumchal@tul.cz>
+Project-URL: Homepage, https://gitlab.com/omi4095002/omi-tools
+Project-URL: Issues, https://gitlab.com/omi4095002/omi-tools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OMI Tools package
+
+This is a package with various tools for OMI department.
+For any help or contribution, contact <mailto:venceslav.chumchal@tul.cz>
