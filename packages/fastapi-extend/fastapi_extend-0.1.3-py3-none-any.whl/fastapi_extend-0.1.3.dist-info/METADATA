@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: fastapi-extend
+Version: 0.1.3
+Summary: fastapi extend
+Author: lvyunze
+Author-email: 17817462542@163.com
+Keywords: fastapi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi (==0.94.0)
+Requires-Dist: SQLAlchemy (==2.0.5)
+Requires-Dist: PyJWT (==2.0.0)
+Requires-Dist: pydantic (==1.9.0)
+Requires-Dist: passlib (==1.7.4)
+
+### 1、install
+``` pip install fastapi_extend ```
+### 2、use
+```python
+from sqlalchemy import Column, String, Integer, Float, DateTime
+from sqlalchemy.ext.declarative import declarative_base  # ORM(对象关系映射)的基类
+Base = declarative_base()
+from fastapi_extend.serializer import Serializer
+
+class Trade(Base):
+    __tablename__ = "trade"
+    id = Column(Integer, primary_key=True)
+    account = Column(String(20), default=None, nullable=False)
+    trade_datetime = Column(DateTime)
+    volume = Column(Float, default=None, nullable=False)
+    price = Column(Float, default=0, nullable=False)
+    order_id = Column(String(20))
+
+class TradeSer(Serializer):
+    account: str
+    trade_datetime = Column(DateTime)
+    volume: float
+    price: float
+    order_id: str
+```
+#### 1）、Pagination
+```python
+from fastapi_extend.pagenator import PageNumberPagination
+
+from pydantic import validator
+from sqlalchemy import Column, String, Integer, Float, DateTime
+
+paginator = PageNumberPagination(
+            params,
+            Trade,
+            TradeSer,
+            exclude={"start", "end"},
+        )
+query = paginator.get_queryset()
+if params.start:
+    query = query.where(Trade.trade_datetime >= params.start)
+if params.end:
+    query = query.where(Trade.trade_datetime <= params.end)
+data = await paginator.paginate_query(query, session)
+```
+#### 2)、Serializer
+```python
+from fastapi_extend.serializer import Serializer
+from pydantic import validator
+
+class TradeSer(Serializer):
+    account: str
+    volume: float
+    price: float
+    order_id: str
+
+    @validator("price")
+    def price_add(cls, v):
+        return v + 10
+
+data_ser = TradeSer.dump(result.scalars(), many=True)
+
+```
