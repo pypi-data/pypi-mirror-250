@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/aiclipal/__init__.py
+src/aiclipal/__main__.py
+src/aiclipal/aiclipal.py
+src/aiclipal.egg-info/PKG-INFO
+src/aiclipal.egg-info/SOURCES.txt
+src/aiclipal.egg-info/dependency_links.txt
+src/aiclipal.egg-info/entry_points.txt
+src/aiclipal.egg-info/requires.txt
+src/aiclipal.egg-info/top_level.txt
