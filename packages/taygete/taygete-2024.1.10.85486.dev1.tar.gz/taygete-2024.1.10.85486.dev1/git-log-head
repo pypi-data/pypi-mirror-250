@@ -1,0 +1,7 @@
+commit 7fbaca4210be96f37306100555026dd34d879c1f
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2024-01-10 15:44:46 -0800
+
+    Merge pull request #7 from carme-group/fix-container-stuff
+    
+    Add sudo and move logic to profile

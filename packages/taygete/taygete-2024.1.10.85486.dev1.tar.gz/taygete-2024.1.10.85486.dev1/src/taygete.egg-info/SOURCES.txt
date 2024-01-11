@@ -1,0 +1,14 @@
+README.rst
+git-log-head
+pyproject.toml
+setup.cfg
+src/taygete/__init__.py
+src/taygete/__main__.py
+src/taygete/configure.py
+src/taygete.egg-info/PKG-INFO
+src/taygete.egg-info/SOURCES.txt
+src/taygete.egg-info/dependency_links.txt
+src/taygete.egg-info/requires.txt
+src/taygete.egg-info/top_level.txt
+src/taygete/tests/__init__.py
+src/taygete/tests/test_init.py
