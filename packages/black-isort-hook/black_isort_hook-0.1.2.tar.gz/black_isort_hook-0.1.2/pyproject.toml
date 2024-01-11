@@ -1,0 +1,104 @@
+[tool.poetry]
+name = "black-isort-hook"
+version = "0.1.2"
+description = "A simple pre-commit hook to run black and isort on staged files"
+authors = ["Victor Kotseruba <barbuzaster@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "black_isort_hook", from = "." }]
+
+[tool.poetry.scripts]
+black-isort-hook = "black_isort_hook.hook:main"
+install-black-isort-hook = "black_isort_hook.install:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "*"
+isort = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+pytest = "^7.4.2"
+mypy = "^1.5.1"
+tox = "^4.11.3"
+ruff = "^0.0.292"
+vulture = "^2.10"
+
+[tool.tox]
+legacy_tox_ini = """
+  [tox]
+  requires = tox>=4
+  env_list = lint, py{39,310,311,312}
+  isolated_build = true
+
+  [testenv]
+  description = run unit tests
+  skip_install = true
+  allowlist_externals = poetry
+  commands_pre =
+    poetry install
+  commands =
+    poetry run pytest {posargs:tests}
+
+  [testenv:lint]
+  description = run linters
+  commands =
+    poetry run ruff {posargs:black_isort_hook tests}
+    poetry run vulture --ignore-names main {posargs:black_isort_hook tests}
+    poetry run black --check {posargs:black_isort_hook tests}
+    poetry run isort --check {posargs:black_isort_hook tests}
+    poetry run mypy {posargs:black_isort_hook tests}
+"""
+
+[tool.ruff]
+line-length = 100
+select = [
+  "ANN",     # flake8-annotations
+  "D",       # pydocstyle
+  "E",       # pycodestyle
+  "F",       # Pyflakes
+  "C90",       # mccabe
+  "Q",
+  "B",
+  "T"
+]
+ignore = [
+  "ANN101",  # missing-type-self
+  "ANN102",  # missing-type-classmethod
+  "ANN401",  # Dynamically typed expressions (typing.Any) are disallowed
+  "D107",    # undocumented-public-init
+  "D100",    # missing-docstring in public module
+  "D101",    # missing-docstring in public class
+  "D102",    # missing-docstring in public method
+  "D105",    # missing-docstring in magic method
+  "D106",    # missing-docstring in public nested class
+]
+
+fixable = [
+  "A", "B", "C", "D", "E", "F", "G", "I", "N", "Q", "S", "T", "W", "ANN",
+  "ARG", "BLE", "COM", "DJ", "DTZ", "EM", "ERA", "EXE", "FBT", "ICN", "INP", "ISC",
+  "NPY", "PD", "PGH", "PIE", "PL", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "SIM", "SLF",
+  "TCH", "TID", "TRY", "UP", "YTT"
+]
+unfixable = []
+
+[tool.ruff.flake8-quotes]
+docstring-quotes = "double"
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.black]
+line-length = 80
+target-version = ["py39", "py310", "py311"]
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
