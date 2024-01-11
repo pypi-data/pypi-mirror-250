@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "odd-airflow2-integration"
+version = "0.0.8"
+description = "ODD integration with Airflow"
+authors = ["Open Data Discovery <pypi@opendatadiscovery.org>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/opendatadiscovery/odd-airflow-2"
+repository = "https://github.com/opendatadiscovery/odd-airflow-2"
+keywords = ["airflow2", "opendatadiscovery"]
+include = ["LICENSE"]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+odd-models = "^2.0.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.plugins."airflow.plugins"]
+"OddPlugin" = "odd_airflow2_integration.plugin:OddPlugin"
