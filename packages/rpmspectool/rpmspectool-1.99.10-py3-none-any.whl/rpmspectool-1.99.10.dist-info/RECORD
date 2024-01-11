@@ -1,0 +1,10 @@
+rpmspectool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpmspectool/cli.py,sha256=5irtc6Em8MSbb6g65G_4F3Tdff7Bjegr66Ix4sPPNck,7544
+rpmspectool/download.py,sha256=g9nmiOGWgG2n4ZfynIR-DcHFlKxQxQ-y16IcSzV14oA,1963
+rpmspectool/rpm.py,sha256=lj1k4RFIM0uCfje5V-zUVLWKrEzlTKyZawittacKdv0,8085
+rpmspectool/version.py,sha256=pgP0dt9A92HXJp6bl269wBPZHvOY6UrUKz44mA8ICrs,74
+rpmspectool-1.99.10.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+rpmspectool-1.99.10.dist-info/METADATA,sha256=2Zp3dk_cefXXeAYtQXfUpGvHe6BnN5D9gw3ofCPUoOE,818
+rpmspectool-1.99.10.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+rpmspectool-1.99.10.dist-info/entry_points.txt,sha256=4coMloGVTKm61AhM8dHI4uSO9xyysMeP1ZWTdr69pMw,52
+rpmspectool-1.99.10.dist-info/RECORD,,

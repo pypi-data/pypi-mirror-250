@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rpmspectool
+Version: 1.99.10
+Summary: List and download sources and patches in RPM spec files
+License: GPL-3.0-or-later
+Author: Nils Philippsen
+Author-email: nils@tiptoe.de
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: argcomplete (>=1.11.1,<4.0.0)
+Requires-Dist: pycurl (>=7.43.0.5,<8.0.0.0)
+Description-Content-Type: text/markdown
+
+The `rpmspectool` utility lets people dealing with RPM packages list and
+download sources and patches in RPM spec files.
+
+[![PyPI version](https://badge.fury.io/py/rpmspectool.svg)](https://badge.fury.io/py/rpmspectool)
+
