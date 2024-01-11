@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: subsetsio
+Version: 0.5.4
+Summary: 
+Home-page: https://github.com/subsetsio/subsets-python-client
+Author: Nathan Snellaert
+Author-email: nathan@subsets.io
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pyarrow (>=12.0.1,<13.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/subsetsio/subsets-python-client
+Description-Content-Type: text/markdown
+
+# Subsets Python Client
+
+Easily access the Subsets data warehouse using Python. For more details and features, visit [subsets.io](https://www.subsets.io)
+
+## Installation
+
+Run the following command to install the API:
+
+```pip install subsetsio```
+## Usage
+```python
+import subsetsio
+
+client = subsetsio.Client(api_key="YOUR_API_KEY")
+df = client.query(sql_query)
+```
+
+## License
+
+[MIT Licensed](LICENSE.md)
