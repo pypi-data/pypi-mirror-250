@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+dfupsert/__init__.py
+dfupsert/factory.py
+dfupsert/upsert.py
+dfupsert/util.py
+dfupsert.egg-info/PKG-INFO
+dfupsert.egg-info/SOURCES.txt
+dfupsert.egg-info/dependency_links.txt
+dfupsert.egg-info/requires.txt
+dfupsert.egg-info/top_level.txt
