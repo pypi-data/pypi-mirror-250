@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: rolfdog
+Version: 0.0.5
+Summary: Rolfdog Rolfdog Rolfdog
+Home-page: https://github.com/jrolf/rolfdog
+Author: James A. Rolfsen
+Author-email: james.rolfsen@think.dev
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
