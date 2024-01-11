@@ -1,0 +1,8 @@
+bibt/gcp/secrets/__init__.py,sha256=oHT9F2HcRRf1wjon1KUDF_rTyPcoDFJDpxOwzs1HguQ,98
+bibt/gcp/secrets/classes.py,sha256=zekggBtmeAeNlybyGRZqUT0EBkJr9kiQvjwgcRmH6CI,3499
+bibt/gcp/secrets/params.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bibt/gcp/secrets/version.py,sha256=46Yjk3fz9o8aTN8E95McnzpJcjGzVJmHmQqUZ5mXzfc,22
+bibt_gcp_secrets-0.0.9.dist-info/METADATA,sha256=0iDoI__w_8cj5fU8OmC_Hk17SufQVEzQxVEo8avb5pY,2295
+bibt_gcp_secrets-0.0.9.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+bibt_gcp_secrets-0.0.9.dist-info/licenses/LICENSE,sha256=TDV6yQwODf_uwPkwskEh6wKRZ1gN2dzn22Dv6Gl0VsE,1054
+bibt_gcp_secrets-0.0.9.dist-info/RECORD,,
