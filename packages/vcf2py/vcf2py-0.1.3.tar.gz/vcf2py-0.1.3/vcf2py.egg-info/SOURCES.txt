@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+vcf2py/__init__.py
+vcf2py/vcf.py
+vcf2py.egg-info/PKG-INFO
+vcf2py.egg-info/SOURCES.txt
+vcf2py.egg-info/dependency_links.txt
+vcf2py.egg-info/requires.txt
+vcf2py.egg-info/top_level.txt
+vcf2py/tests/__init__.py
+vcf2py/tests/test.py
