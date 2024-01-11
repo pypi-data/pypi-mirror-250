@@ -1,0 +1,9 @@
+gemini_torch/__init__.py,sha256=Ma_vmclbbv4hVr8xBrU9SphXYvjUCGcfhv9XM_rnjco,175
+gemini_torch/model.py,sha256=cntEfn7Avpo9F73lpj-7OaYaf-FzLRZZhrbmXPN8DFk,5892
+gemini_torch/tokenizer.py,sha256=g__Lr7cie0qRlHzynqIhA5XMvM_Q8oWdWBDNeFxWTf0,5249
+gemini_torch/transformer.py,sha256=VFRrd_QZ9YhBpst0HhLyz8VE64EC0Q9c1ZGwHUARQVc,52033
+gemini_torch/utils.py,sha256=s3WDERV9KgCOZnsgoWF0hOd-3MoM5H5ouhB6ZbPe52U,3887
+gemini_torch-0.1.8.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+gemini_torch-0.1.8.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gemini_torch-0.1.8.dist-info/METADATA,sha256=yGOC68jCwudBmTkEA1wVB3mQL5Pi0AWu2dBmamOGF8A,8271
+gemini_torch-0.1.8.dist-info/RECORD,,
