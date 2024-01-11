@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pct-ddos
+Version: 1.2.1
+Summary: PCT DDOS is a tool for carrying out DDOS attacks which cause the target website to go down. This tool was developed or created by the Palembang Cyber Team.
+Home-page: https://whatsapp.com/channel/0029VaFBBJBBfxo0tIHYMi3r
+Author: Palembang Cyber Team
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: asyncio
+Requires-Dist: dnspython
+Requires-Dist: pychalk
+Requires-Dist: pycryptodome
+Requires-Dist: pymongo
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: requests-futures
+
+# PCT DDOS
+PCT DDOS is a tool for carrying out DDOS attacks which cause the target website to go down. This tool was developed or created by the Palembang Cyber Team.
+
+## installation
+```shell
+pip install pct-ddos
+```
+
+> powered by Palembang Cyber Team
+
