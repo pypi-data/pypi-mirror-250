@@ -1,0 +1,10 @@
+hmd_cli_librarian/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hmd_cli_librarian/controller.py,sha256=o_xdkU9mzeznWaZVq04FkSljiflkJz7YVFGKG6Tyrg4,3827
+hmd_cli_librarian/hmd_cli_librarian.py,sha256=eTJKa0cJkIkx0f5P8cQ-nzXxPz8tlzYI_U_jFTx4Pfk,17038
+hmd_cli_librarian/local_librarian_prj/meta-data/config_local.json,sha256=McieDohtICzi3piw-YQJg972x5wv1siTxcpGBXHTQJI,698
+hmd_cli_librarian/local_librarian_prj/meta-data/manifest.json,sha256=3NKobAJTzhLpb-rKYptdYjobiZdK0p7ab7ppjvnWDeQ,355
+hmd_cli_librarian/local_librarian_prj/src/python/setup.py,sha256=Lv2Jrz5tsyoll5vBZxso1HVjUGo-eXenyUJ67hMmZsc,293
+hmd_cli_librarian-0.1.16.dist-info/METADATA,sha256=ZLrbB95XmRaz5bl6AMY3HZ55LcUfRtCSZkDw5DtSa_I,1523
+hmd_cli_librarian-0.1.16.dist-info/WHEEL,sha256=Ni9JGQXk2T4q02tFVwTZ-iAb8m9R1cjnSLMaE4VH1rg,92
+hmd_cli_librarian-0.1.16.dist-info/top_level.txt,sha256=MYRoVmnDNXpG8bznoHESrjSbDWQEBm3NWWgEVZWDGGM,18
+hmd_cli_librarian-0.1.16.dist-info/RECORD,,
