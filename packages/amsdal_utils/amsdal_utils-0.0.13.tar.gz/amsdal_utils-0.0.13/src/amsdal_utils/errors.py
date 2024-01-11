@@ -1,0 +1,6 @@
+class AmsdalError(Exception):
+    ...
+
+
+class AmsdalInitiationError(AmsdalError):
+    ...
