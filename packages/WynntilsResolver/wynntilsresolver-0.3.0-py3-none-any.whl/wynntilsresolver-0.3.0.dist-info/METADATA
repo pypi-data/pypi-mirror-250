@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: WynntilsResolver
+Version: 0.3.0
+Summary: A simple resolver to analyze wynntils' encoded equipment in chat.
+Keywords: wynntils resolver wynncraft
+Author-Email: FYWinds <i@windis.cn>
+License: GLWTPL
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Homepage, https://github.com/fywinds/WynntilsResolver
+Project-URL: Repository, https://github.com/fywinds/WynntilsResolver
+Project-URL: Documentation, https://github.com/fywinds/WynntilsResolver
+Project-URL: Changelog, https://github.com/fywinds/WynntilsResolver
+Requires-Python: >=3.8
+Requires-Dist: apscheduler==3.10.4
+Requires-Dist: ruff==0.1.8; extra == "dev"
+Requires-Dist: mypy==1.7.1; extra == "dev"
+Provides-Extra: dev
+Description-Content-Type: text/markdown
+
+# Wynntils Resolver
+## A simple resolver to anaslyeze wynntils' coded equipment in chat.
+
+### Requires
+[![Python >= 3.8](https://img.shields.io/badge/python>=3.8-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
+
+### Install
+```bash
+pip install wynntilsresolver -U
+```
+
+
+### Usage
+```python
+from wynntilsresolver import Item
+
+text_toxo = "󰀀󰄀󰉔󶽸󶽰󶱡󷍭󶽳󶥳󰀃󰔀󱱛󲅀󱴰󴽓󲉴󰓆󳿿"
+
+item = Item.from_utf16(
+    text_toxo,
+    id_map,
+    shiny_map,
+    item_map,
+).dump()
