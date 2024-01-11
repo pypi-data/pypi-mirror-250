@@ -1,0 +1,8 @@
+README.md
+setup.py
+syspop.egg-info/PKG-INFO
+syspop.egg-info/SOURCES.txt
+syspop.egg-info/dependency_links.txt
+syspop.egg-info/entry_points.txt
+syspop.egg-info/requires.txt
+syspop.egg-info/top_level.txt
