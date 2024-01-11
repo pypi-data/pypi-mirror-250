@@ -1,0 +1,3 @@
+[console_scripts]
+hc-releaser=chart_releaser.main:main
+
