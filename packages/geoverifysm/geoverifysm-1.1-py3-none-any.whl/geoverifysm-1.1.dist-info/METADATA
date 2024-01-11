@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: geoverifysm
+Version: 1.1
+Summary: Validate Euclidea Levels without GUI. Note this is not the most reliable way, and might contain errors for some level packs.
+Home-page: https://github.com/SpyrosMouselinos/minimal_validator
+Author: Spyridon Mouselinos
+Author-email: mouselinos.spur.kw@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: openai ==0.28
+Requires-Dist: pandas
+Requires-Dist: transformers
+Requires-Dist: sentence-transformers
+Requires-Dist: torch
+Requires-Dist: scipy
+Requires-Dist: python-Levenshtein
+Requires-Dist: Levenshtein
+
