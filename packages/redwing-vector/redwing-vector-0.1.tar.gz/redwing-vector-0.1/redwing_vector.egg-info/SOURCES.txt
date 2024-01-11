@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+redwing_vector/__init__.py
+redwing_vector/vectordb_pb2.py
+redwing_vector/vectordb_pb2_grpc.py
+redwing_vector.egg-info/PKG-INFO
+redwing_vector.egg-info/SOURCES.txt
+redwing_vector.egg-info/dependency_links.txt
+redwing_vector.egg-info/top_level.txt
