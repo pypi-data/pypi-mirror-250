@@ -1,0 +1,7 @@
+README.md
+setup.py
+SupplierSelection.egg-info/PKG-INFO
+SupplierSelection.egg-info/SOURCES.txt
+SupplierSelection.egg-info/dependency_links.txt
+SupplierSelection.egg-info/requires.txt
+SupplierSelection.egg-info/top_level.txt
