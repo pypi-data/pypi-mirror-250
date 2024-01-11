@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django_slack_bot"
+version = "0.10.0"
+description = "Helpers for integrating Slack + Django"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: Django",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "aiohttp",
+    "celery",
+    "Django>=3.2",
+    'importlib-metadata>=1; python_version < "3.10"',
+    "slack-sdk>=3.5.1",
+]
+
+[[project.authors]]
+name = "Paul Traylor"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+]
+
+[project.scripts]
+example-bot = "dsbot.example.manage:main[example]"
+
+[project.entry-points."dsbot.commands"]
+defaults = "dsbot.commands.default"
+
+[tool.ruff]
+line-length = 100
+# https://beta.ruff.rs/docs/rules/
+select = [
+    "E",       # pycodestyle
+    "F",       # Unused imports
+    "I",       # isort
+    "PGH004",  # Use specific rule codes when using noqa
+    "PLC0414", # Useless import alias. Import alias does not rename original package.
+    "S103",    # bad-file-permissions
+    "TRY004",  # Prefer TypeError exception for invalid type
+    "UP",      # pyupgrade
+    "W",       # pycodestyle
+]
