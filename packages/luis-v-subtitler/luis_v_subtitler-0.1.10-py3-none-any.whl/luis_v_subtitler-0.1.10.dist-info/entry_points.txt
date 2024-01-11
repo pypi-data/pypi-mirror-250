@@ -1,0 +1,2 @@
+[console_scripts]
+luis-v-subtitler = luis_v_subtitler.cli:main

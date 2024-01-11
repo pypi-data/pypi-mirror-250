@@ -1,0 +1,16 @@
+luis_v_subtitler/__init__.py,sha256=qLYU8F8aPcsFHCyacRa-yZWFjgE1MytVGOMDWwg4xd0,139
+luis_v_subtitler/__main__.py,sha256=bPuRyxjHpcy3ozJvaVMK49cxo1bmr56l1Le0qSsACS8,379
+luis_v_subtitler/cli.py,sha256=NuVZBgDDngKz_JByvTHl2G-b9Hs4-W3_VyU7cMt9sEQ,948
+luis_v_subtitler/language_identification.py,sha256=v5G-p36XfCPVuyeTAB3sihn1CFQQ2OECDy6FQiVmc10,2302
+luis_v_subtitler/save_subtitles.py,sha256=eIzFepCeuL6d90C9nLGJStQUKi3cp7U6Vz7HJaWwdOk,2648
+luis_v_subtitler/subtitler.py,sha256=ed2qsUZeGe1FtFtkpnavOq7-hqdFdKd8RORrcxZ2eJQ,5196
+luis_v_subtitler/utils.py,sha256=nk0PB-vqOOcrBk7RtCzRxukyQg3zUWuTnUk-tG1MTUI,2150
+luis_v_subtitler/whisperx_transcribe.py,sha256=krhy_pWft_Ip77oOtsoIn-mB9fo606bJo7hclWPU3SQ,2809
+luis_v_subtitler-0.1.10.dist-info/AUTHORS.rst,sha256=Vk_d5uMfGPgHtv5NFuPuIrImdKQboQ4m2I22vVivK7s,90
+luis_v_subtitler-0.1.10.dist-info/LICENSE,sha256=aMGeUEWCI7hDyqF7NUVjVm5B0CD0p9UHQS_kCXFC-s4,1115
+luis_v_subtitler-0.1.10.dist-info/METADATA,sha256=DTPTXmaFZmpstyg4_ZRrcWxhnZ9przvLIH-Sr9OVh0U,2765
+luis_v_subtitler-0.1.10.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+luis_v_subtitler-0.1.10.dist-info/dependency_links.txt,sha256=uPi1gLN2T2dQxhiu51ViwNatjOcsuKMliyE8MufrZOI,84
+luis_v_subtitler-0.1.10.dist-info/entry_points.txt,sha256=3kKtXx_OYc2oqBMb1x3qhN0yyTl06HvHyKD2ZeU86ug,63
+luis_v_subtitler-0.1.10.dist-info/top_level.txt,sha256=NnJx5ShUHTWqo_8D6f8AneFZ6pGCDdKssX_Wp2_pn64,17
+luis_v_subtitler-0.1.10.dist-info/RECORD,,
