@@ -1,0 +1,2 @@
+[console_scripts]
+sanskrit = sanskrit:repl
