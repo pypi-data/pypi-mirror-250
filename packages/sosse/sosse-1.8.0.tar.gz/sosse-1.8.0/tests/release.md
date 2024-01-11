@@ -1,0 +1,27 @@
+- make docker_git_build
+- test (docker run -p 8005:80 biolds/sosse:git)
+- debian update: version + changelog
+- doc version update
+- update the CHANGELOG.md using the last changelog build it the main branch
+- MR
+- create tag "vX.X.X"
+- update the `stable` branch for the release (to update the `stable` version of readthedoc)
+- check RTD as the doc build can fail if Gitlab has concurrent builds running
+- pip release (this needs to be done before the docker step below)
+  - clear `dist/`
+  - download the artifacts of the `pip_pkg` step and unzip it in the root (it creates `dist/` with packages)
+  - run `make pip_pkg_push`
+- debian packages
+  - wget `<pkg url>`
+  - cd /var/www/html/repo/apt/debian/
+  - reprepro -V --keepunreferencedfiles includedeb bookworm `<path to the .deb>`
+- docker build:
+  - docker system prune -a
+  - make docker_build
+  - make docker_release_build
+  - test (docker run -p 8005:80 biolds/sosse:latest, version no check)
+  - make docker_release_push
+  - make docker_push
+  - docker tag biolds/sosse:latest biolds/sosse:X.X.X
+  - docker push biolds/sosse:X.X.X
+- in case the README.md file was modified, update the description at https://hub.docker.com/repository/docker/biolds/sosse/general
