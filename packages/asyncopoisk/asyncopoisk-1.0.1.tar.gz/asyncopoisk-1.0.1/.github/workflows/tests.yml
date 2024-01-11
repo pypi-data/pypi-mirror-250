@@ -1,0 +1,61 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/tests.yml"
+      - "asyncopoisk/**"
+      - "tests/**"
+      - "pyproject.toml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/tests.yml"
+      - "asyncopoisk/**"
+      - "tests/**"
+      - "pyproject.toml"
+
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+        python-version:
+          - '3.8'
+          - '3.9'
+          - '3.10'
+          - '3.11'
+
+    defaults:
+      run:
+        shell: bash
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }} on ${{ matrix.os }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+          cache-dependency-path: pyproject.toml
+
+      - name: Install project dependencies
+        run: |
+          pip install -e .[dev,test]
+
+      - name: Lint code
+        run: |
+          ruff check asyncopoisk --fix
+
+      - name: Run tests
+        run: |
+          pytest tests --token ${{ secrets.KP_TOKEN }}

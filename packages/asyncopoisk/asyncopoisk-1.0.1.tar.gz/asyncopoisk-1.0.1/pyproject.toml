@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+version = "1.0.1"
+name = "asyncopoisk"
+description = "Async wrapper for unofficial KinopoiskAPI"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name="Ninnjah", email="yand.man4@gmail.com" },
+]
+keywords = [
+    "api",
+    "async",
+    "asynchronous",
+    "python-api",
+    "kinopoisk",
+    "movies-api",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pydantic>=2.4.1,<2.6",
+    "httpx==0.26.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ninnjah/asyncopoisk/"
+Issues = "https://github.com/Ninnjah/asyncopoisk/issues/"
+Repository = "https://github.com/Ninnjah/asyncopoisk/"
+
+[project.optional-dependencies]
+dev = [
+    "ruff~=0.1.8",
+]
+test = [
+    "pytest~=7.4.4",
+    "pytest-asyncio~=0.23.3",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
