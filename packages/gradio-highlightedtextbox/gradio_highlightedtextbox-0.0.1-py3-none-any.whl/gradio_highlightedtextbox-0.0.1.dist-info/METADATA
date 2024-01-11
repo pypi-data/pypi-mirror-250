@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gradio_highlightedtextbox
+Version: 0.0.1
+Summary: Editable Gradio textarea supporting highlighting
+Author-email: Gabriele Sarti <gabriele.sarti996@gmail.com>
+License-Expression: MIT
+Keywords: color,editing,gradio-custom-component,gradio-template-SimpleTextbox,highlight,textbox
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8
+Requires-Dist: gradio<5.0,>=4.0
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+
+# gradio_highlightedtextbox
+A Custom Gradio component.
+
+## Example usage
+
+```python
+import gradio as gr
+from gradio_highlightedtextbox import HighlightedTextbox
+```
