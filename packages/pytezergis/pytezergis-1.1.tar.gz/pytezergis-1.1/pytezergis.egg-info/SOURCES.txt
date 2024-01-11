@@ -1,0 +1,8 @@
+README.md
+setup.py
+pytezergis/__init__.py
+pytezergis/geomathutils.py
+pytezergis.egg-info/PKG-INFO
+pytezergis.egg-info/SOURCES.txt
+pytezergis.egg-info/dependency_links.txt
+pytezergis.egg-info/top_level.txt
