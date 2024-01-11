@@ -1,0 +1,3 @@
+[console_scripts]
+linkmedic = linkmedic.__main__:main
+
