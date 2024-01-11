@@ -1,0 +1,5 @@
+benchclients>=2023.2.24
+pyjwt[crypto]
+
+[dev]
+pytest
