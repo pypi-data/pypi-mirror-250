@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dev-version-bumping
+Version: 0.3.1
+Summary: Playground for developmnet CD
+Author-email: Daniel Kunický <danecek37@gmail.com>
+Project-URL: Homepage, https://github.com/kunickyd/dev-version-bumping
+Project-URL: Bug Tracker, https://github.com/kunickyd/dev-version-bumping/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+This is a personal testing playground for Pypi continuos delivery.
+
+Changes to v0.3.0
+Changes...
