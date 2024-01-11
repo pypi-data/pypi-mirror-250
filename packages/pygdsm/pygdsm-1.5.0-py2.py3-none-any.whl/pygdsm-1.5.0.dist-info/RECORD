@@ -1,0 +1,14 @@
+pygdsm/__init__.py,sha256=ZzYKDk_rSVHCaigAVqmEPbR0hd4oHbQoklviDYy0XcU,313
+pygdsm/base_observer.py,sha256=JFzJNZdd2tHpIpVyHSztK8lLdiEdkbqyRERGH5L1iaw,5667
+pygdsm/base_skymodel.py,sha256=j59leYmpAz9TsOiUPBCw3UEh1Q0oDw23brTKFBIfU8s,4198
+pygdsm/component_data.py,sha256=RnXluGcLW3pzwuefF0dhWR2oFKPibJp5XQNsGm0y-MU,1018
+pygdsm/gsm08.py,sha256=jvGG5DqU4PH4q-LV1h-rqA_oU-o_hfeyHasyJgvspCk,7530
+pygdsm/gsm16.py,sha256=XSZCUnS_uLJFgkAhQvtQxo5e9jRJjxt9qsBslsyr2BI,8337
+pygdsm/haslam.py,sha256=mm-heVLpkv6BTL4JkFtHcubQeYpECQKWc5W642KYPWQ,3831
+pygdsm/lfsm.py,sha256=hKBXz7kc3JiCXmDAmlVz5R8IYKjA3Gkk85AY5sj5buA,3921
+pygdsm/plot_utils.py,sha256=gAM2WmY9tYdPw_rmht5AfeW6oNAzVYrZ93AD9Wrv5b4,134
+pygdsm-1.5.0.dist-info/LICENSE,sha256=rvHiksPYzwvpPOIducq9wSp53Z-XqAlMjwVXStAxCAY,1068
+pygdsm-1.5.0.dist-info/METADATA,sha256=zqT3fES4OnKJ7JXkXdxhjfnR1EQvQ4vqZPX6NUepxzc,8113
+pygdsm-1.5.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+pygdsm-1.5.0.dist-info/top_level.txt,sha256=dTIHWXNaz5ITqtSA9xWxOHCFsEPnuJPnlyaxzQhncik,7
+pygdsm-1.5.0.dist-info/RECORD,,
