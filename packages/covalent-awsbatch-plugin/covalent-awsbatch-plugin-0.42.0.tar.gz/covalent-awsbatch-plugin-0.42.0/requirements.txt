@@ -1,0 +1,1 @@
+covalent-aws-plugins>=0.19.0,<1
