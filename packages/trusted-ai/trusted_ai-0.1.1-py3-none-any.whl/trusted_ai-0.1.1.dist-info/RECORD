@@ -1,0 +1,5 @@
+tai/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tai/core/install_tai.py,sha256=BoV2v9XlgM4GmKdLiV0GpBvPBrModJZ0o6dnWDSoj5c,10621
+trusted_ai-0.1.1.dist-info/METADATA,sha256=G59E-iGapuTDquHoCHJk55vZJZ7WzQQrn3cIY_uE0XQ,231
+trusted_ai-0.1.1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+trusted_ai-0.1.1.dist-info/RECORD,,
