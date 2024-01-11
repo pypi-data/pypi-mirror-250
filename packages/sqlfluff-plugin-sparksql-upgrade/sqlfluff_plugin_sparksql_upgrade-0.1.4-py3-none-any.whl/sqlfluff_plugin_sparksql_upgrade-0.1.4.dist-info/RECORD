@@ -1,0 +1,9 @@
+sparksql_upgrade/__init__.py,sha256=MKFhrQ3F-3zKMrgAVN-PdYxpAEBC_xi3mV9qikSqX2A,31
+sparksql_upgrade/plugin.py,sha256=nWgIIuHvJFQcK7IjxwMcC6O15lpCVZizsM2xV-80x1M,1164
+sparksql_upgrade/plugin_default_config.cfg,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparksql_upgrade/rules.py,sha256=hceVTy1shJUGxlvBruAnmrtptrQVdNmTtMStTtP0Gos,19867
+sqlfluff_plugin_sparksql_upgrade-0.1.4.dist-info/METADATA,sha256=b9FeROLF2ssnbUpKGYlOv3abuXBmSKXlH0cHj4aHpTI,370
+sqlfluff_plugin_sparksql_upgrade-0.1.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sqlfluff_plugin_sparksql_upgrade-0.1.4.dist-info/entry_points.txt,sha256=fFMkp2J9nKau9vNVLyp0-c1WKUaHCtd5ZPFI0xrUlHs,54
+sqlfluff_plugin_sparksql_upgrade-0.1.4.dist-info/top_level.txt,sha256=CZnpHkI9sOvW_apG4XyeZWXuQsP9-FjcV9B5QXq-kAo,17
+sqlfluff_plugin_sparksql_upgrade-0.1.4.dist-info/RECORD,,
