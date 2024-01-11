@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: check_cmake
+Version: 0.0.1
+Summary: A simple linter for CMake.
+Author-email: Mark Gillard <mark.gillard@outlook.com.au>
+License: MIT
+Project-URL: Source, https://github.com/marzer/check_cmake
+Project-URL: Tracker, https://github.com/marzer/check_cmake/issues
+Project-URL: Funding, https://github.com/sponsors/marzer
+Keywords: c++,cmake
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: misk >=0.8.1
+Requires-Dist: colorama
+
+# check_cmake
+
+A simple linter for CMake.
+
+## Installation
+
+`check_cmake` requires Python 3.
+
+```
+pip3 install check_cmake
+```
+
+## Usage
+
+`check_cmake` is a command-line application
+
+```
+usage: check_cmake [-h] [--version] [--recurse | --no-recurse] [--limit LIMIT] [<dir>]
+
+CMake checker for C and C++ projects.
+
+positional arguments:
+  <dir>                 path to the project root
+
+options:
+  -h, --help            show this help message and exit
+  --version             print the version and exit
+  --recurse, --no-recurse
+                        recurse into subfolders
+  --limit LIMIT         maximum errors to emit
+
+v0.0.1 - github.com/marzer/check_cmake
+```
+
+# Changelog
+
+## v0.0.1
+
+-   First public release 🎉&#xFE0F;
