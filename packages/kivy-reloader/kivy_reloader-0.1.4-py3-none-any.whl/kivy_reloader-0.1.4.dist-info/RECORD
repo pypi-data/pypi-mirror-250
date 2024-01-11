@@ -1,0 +1,12 @@
+kivy_reloader/.kivy_reloader,sha256=inP8zmoW7wh9yDUYIxVboWRAh3dLtl6LxJNC0ZcjoXw,43
+kivy_reloader/__init__.py,sha256=qcx2h1xt3g05V4g3TxZbbTinFdyayR0hyU2iu8HVypY,43
+kivy_reloader/buildozer.spec,sha256=fqST-bSeTDSyvcFwrWA1VkcwkJMrRTtN5mT9oOHVL1E,15677
+kivy_reloader/compile_app.py,sha256=et4JjKhnuiO3-wMbpZspwH-_r1-Cv75XU-EAzd90AFs,5333
+kivy_reloader/constants.py,sha256=RQ_I29kzlC5f9wnaONlbnQ9gpiV9C2rAbw13Z8rqqy8,2772
+kivy_reloader/custom_reloader.py,sha256=W2YfE02jhN2IuuG4fRbu6NCn-Tz1YdwfosaWyKJC9Oc,13093
+kivy_reloader/send_app_to_phone.py,sha256=77-c5o9NEOnxQ9er2LsLG6T7zHvKJyDJhmWu8RFSSWc,1376
+kivy_reloader/utils.py,sha256=WNtzHxDreEnK6I_ZZDAnjiZ-qpEZzwjdSeme0Pmjtj4,12425
+kivy_reloader-0.1.4.dist-info/LICENSE,sha256=LUmQgPnlpsvwOru7ZwUsl5GQ4N2oDe-OQu7_NodM6Eo,1068
+kivy_reloader-0.1.4.dist-info/METADATA,sha256=HusbNioExMoWTNrVY6sjFPHpm4RctrvJOpwr-MzyFAs,4590
+kivy_reloader-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kivy_reloader-0.1.4.dist-info/RECORD,,
