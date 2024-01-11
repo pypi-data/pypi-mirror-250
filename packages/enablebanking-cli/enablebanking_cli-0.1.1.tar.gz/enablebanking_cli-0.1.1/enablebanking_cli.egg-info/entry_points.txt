@@ -1,0 +1,2 @@
+[console_scripts]
+enablebanking = enablebanking_cli.cli:main
