@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: yaopt
+Version: 0.1.1
+Summary: Basic options pricing in Python
+Home-page: https://github.com/someben/yaopt
+Author: Ben Gimpert
+Author-email: ben@somethingmodern.com
+License: MIT
+Keywords: yaopt
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+
+
+
+
+History
+-------
+
+0.1.1 (2023-01-10)
+---------------------
+
+* First release on PyPI.
