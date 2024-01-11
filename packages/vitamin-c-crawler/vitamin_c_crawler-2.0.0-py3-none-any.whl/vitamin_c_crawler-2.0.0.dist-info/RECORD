@@ -1,0 +1,11 @@
+vitamin_c_crawler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vitamin_c_crawler/config.py,sha256=nfeJJUVz760QwzSUjjfXDL0iVE1DTp6YtpPLuGsSmzQ,617
+vitamin_c_crawler/main.py,sha256=dUXUi6kUgvyQuK3LWJ_5J1_-xkHgtpEzA8bP0tcI_pI,4194
+vitamin_c_crawler/main_script.py,sha256=EyETuzqUrzRKFj3PxTnMsHgdaJQOctuEYyzw3RS91ds,306
+vitamin_c_crawler/pictures_printscreen/data_example.jpg,sha256=Teg48_ExPnTn9E3krMyK-QJBGmydBr-8wLRQ-nm0M4k,90424
+vitamin_c_crawler/pictures_printscreen/example_csv.jpg,sha256=0sc1A3I7HrqjLP9lCB09n_fHFZ6aJKFeEoKNyhmfJDQ,248621
+vitamin_c_crawler/pictures_printscreen/pictures_screnshot.jpg,sha256=4rqr0hRg0_wIw7S6Wej74Bk7bGXYKHhq-MUktL8nOf8,239195
+vitamin_c_crawler/vitamin_c_crawler.py,sha256=r3zihlJzBie8CNB4EJpDxhOGEVn_G323VobeO4EcE10,3711
+vitamin_c_crawler-2.0.0.dist-info/METADATA,sha256=VSjz_jwY2AIQwsfNjbTP07AcuLLtbupVDYjaj-ml_EU,2139
+vitamin_c_crawler-2.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+vitamin_c_crawler-2.0.0.dist-info/RECORD,,
