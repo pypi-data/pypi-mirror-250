@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: runcat
+Version: 0.0.3
+Summary: 常用工具库
+Home-page: https://gitee.com/bluepang2021/runcat
+Author: 杨康
+Author-email: 772840356@qq.com
+Platform: PC
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
