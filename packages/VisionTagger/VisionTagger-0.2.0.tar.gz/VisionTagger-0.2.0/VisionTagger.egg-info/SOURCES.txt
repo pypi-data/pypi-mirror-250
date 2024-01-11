@@ -1,0 +1,14 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+VisionTagger.egg-info/PKG-INFO
+VisionTagger.egg-info/SOURCES.txt
+VisionTagger.egg-info/dependency_links.txt
+VisionTagger.egg-info/entry_points.txt
+VisionTagger.egg-info/requires.txt
+VisionTagger.egg-info/top_level.txt
+visiontagger/__init__.py
+visiontagger/__main__.py
+visiontagger/icon.png
+visiontagger/main.py
