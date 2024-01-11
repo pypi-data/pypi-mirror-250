@@ -1,0 +1,8 @@
+bigquery/__init__.py,sha256=ZjhrT7IOGtMdnsTUwjIPNdfPKxJVCeO4un8Sy7N-kL0,83
+bigquery/bigquery_wrapper.py,sha256=Uw1rZPPJmEbLMBf8OLFJzgJEDLjPzDBAe4i8twyEhrk,1693
+bigquery_wrapper/__init__.py,sha256=ZjhrT7IOGtMdnsTUwjIPNdfPKxJVCeO4un8Sy7N-kL0,83
+bigquery_wrapper/bigquery_wrapper.py,sha256=Uw1rZPPJmEbLMBf8OLFJzgJEDLjPzDBAe4i8twyEhrk,1693
+bigquery_wrapper_gcp-0.0.5.dist-info/METADATA,sha256=s1nPLfLNCVRsBL-N9hdJ6poeuvf_skaOlqODR_b1MpY,622
+bigquery_wrapper_gcp-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bigquery_wrapper_gcp-0.0.5.dist-info/top_level.txt,sha256=LYj8G0ZU12iyyRKP5vDvbR_TA88iGBEfmoQs18tPssA,17
+bigquery_wrapper_gcp-0.0.5.dist-info/RECORD,,
