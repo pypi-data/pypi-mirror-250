@@ -1,0 +1,3 @@
+HTTP_GET = 0
+HTTP_OPTIONS = 1
+BASE_UUID_PATTERN = r'[0-9A-Za-z-_]{3,}'
