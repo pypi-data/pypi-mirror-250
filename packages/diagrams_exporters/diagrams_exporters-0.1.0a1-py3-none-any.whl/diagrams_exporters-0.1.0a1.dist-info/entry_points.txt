@@ -1,0 +1,3 @@
+[console_scripts]
+diagrams-exporters=diagrams_exporters.cli:cli
+
