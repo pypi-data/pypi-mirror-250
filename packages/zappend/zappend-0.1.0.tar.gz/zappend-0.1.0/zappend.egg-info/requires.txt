@@ -1,0 +1,14 @@
+click
+fsspec
+jsonschema
+numpy
+pyyaml
+xarray
+zarr
+
+[test]
+pytest
+pytest-cov
+black
+flake8
+flake8-bugbear
