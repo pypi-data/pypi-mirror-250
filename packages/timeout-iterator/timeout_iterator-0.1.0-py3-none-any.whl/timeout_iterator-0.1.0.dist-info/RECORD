@@ -1,0 +1,8 @@
+timeout_iterator/__init__.py,sha256=qJyb72CVOUSZl-b7LyKrqJDQkd3QtYvk2_rbm-PWW98,161
+timeout_iterator/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+timeout_iterator/terminate.py,sha256=11qbYByWrOi_GBRmWOKnxWFeSDoUZ6rp0E37MA9_1AM,844
+timeout_iterator/without_terminate.py,sha256=IEFM_vqyOFj4gzm65unNeBnVCs6Zt9S076yuHeqqKUM,612
+timeout_iterator-0.1.0.dist-info/METADATA,sha256=KQej7yYuYse0aBou8dJO8prmrs5bFI1UqZCQ8NyCqXU,1127
+timeout_iterator-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+timeout_iterator-0.1.0.dist-info/top_level.txt,sha256=nvIqkq7driA1qK_Go6asLhagba5hwEx_mgvJNx7OUsg,17
+timeout_iterator-0.1.0.dist-info/RECORD,,
