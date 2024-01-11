@@ -1,0 +1,15 @@
+AUTHORS
+CHANGES.md
+MANIFEST.in
+README.md
+UNLICENSE
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+src/haltia/__init__.py
+src/haltia.egg-info/PKG-INFO
+src/haltia.egg-info/SOURCES.txt
+src/haltia.egg-info/dependency_links.txt
+src/haltia.egg-info/requires.txt
+src/haltia.egg-info/top_level.txt
