@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mlx-data
+Version: 0.0.2
+Summary: Universal data loaders
+Home-page: https://github.com/ml-explore/mlx-data
+Author: Ronan Collobert
+Author-email: collobert@apple.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+
