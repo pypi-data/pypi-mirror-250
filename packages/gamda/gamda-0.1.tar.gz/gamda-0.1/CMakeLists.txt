@@ -1,0 +1,39 @@
+cmake_minimum_required(VERSION 3.18)
+set(PROJECT_NAME _gamda)
+project(${PROJECT_NAME} LANGUAGES CXX CUDA)
+
+set(SOURCES "")
+set(INCLUDES "")
+set(LIBRARIES "cuda")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE  ${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
+
+list(APPEND SOURCES cuda/main.cu)
+
+find_package(CUDAToolkit REQUIRED)
+find_package(Python3 REQUIRED COMPONENTS Interpreter Development NumPy)
+
+if (CUDAToolkit_VERSION VERSION_GREATER "11.0")
+set(CMAKE_CUDA_ARCHITECTURES 70)
+add_definitions(-DCUDA_ARCH_BIN=70)
+else()
+set(CMAKE_CUDA_ARCHITECTURES 50)
+add_definitions(-DCUDA_ARCH_BIN=50)
+endif()
+
+Python3_add_library(${PROJECT_NAME} MODULE ${SOURCES})
+set_target_properties(${PROJECT_NAME} PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
+list(APPEND INCLUDES ${CUDA_INCLUDE_DIRS})
+list(APPEND LIBRARIES ${CUDA_LIBRARIES})
+
+list(APPEND INCLUDES ${Python3_INCLUDE_DIRS})
+list(APPEND INCLUDES ${Python3_NumPy_INCLUDE_DIRS})
+list(APPEND LIBRARIES ${Python3_LIBRARIES})
+
+include_directories(${INCLUDES})
+link_directories(${CUDA_TARGET_DIR})
+target_link_libraries(${PROJECT_NAME} PUBLIC ${LIBRARIES})
+
+install(TARGETS ${PROJECT_NAME}
+EXCLUDE_FROM_ALL
+COMPONENT python_modules
+DESTINATION ${PY_BUILD_CMAKE_MODULE_NAME})
