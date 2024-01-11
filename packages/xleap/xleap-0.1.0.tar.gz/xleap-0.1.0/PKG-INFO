@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xleap
+Version: 0.1.0
+Summary: 
+Author: Pritam Soni
+Author-email: 23050213+pritamsoni-hsr@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: attrs (>=21.3.0)
+Requires-Dist: httpx (>=0.20.0,<0.27.0)
+Requires-Dist: python-dateutil (>=2.8.0,<3.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+
