@@ -1,0 +1,10 @@
+pyproject_scaffold/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject_scaffold/__main__.py,sha256=Vdhw8YA1K3wPMlbJQYL5WqvRzAKVeZ16mZQFO9VRmCo,62
+pyproject_scaffold/main.py,sha256=UXDDOyTMygqosR8ivc7TXqHLVpxNX2GF2uOZzwkClRE,3919
+pyproject_scaffold/static/pyproject.toml,sha256=Hq37bE-9iwkFfJsnv9WNljPWAZ5108-1GevuJ7gzl1w,331
+pyproject_scaffold-0.1.2.dist-info/LICENSE,sha256=enSN4EWhNHZMRpbvD6vNqPlflE9u7DtnulnZUjeevWE,1068
+pyproject_scaffold-0.1.2.dist-info/METADATA,sha256=InQRQ3KZIJe_7qKJDarZZ1fztFutQmzAFtuSjXgybOs,261
+pyproject_scaffold-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyproject_scaffold-0.1.2.dist-info/entry_points.txt,sha256=BWjtvVV6jWo9a_fafvc7Ah6UAtA6IeW9E1VcNohF6ms,68
+pyproject_scaffold-0.1.2.dist-info/top_level.txt,sha256=Tc7xfm0QwveyIGZcAb2cyIR7mV-LwTgXTecwfWU8jG8,19
+pyproject_scaffold-0.1.2.dist-info/RECORD,,
