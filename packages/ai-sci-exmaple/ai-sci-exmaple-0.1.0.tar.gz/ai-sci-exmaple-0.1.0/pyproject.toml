@@ -1,0 +1,10 @@
+[project]
+name = "ai-sci-exmaple"
+version = "0.1.0"
+dependencies = [
+    "torch"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
