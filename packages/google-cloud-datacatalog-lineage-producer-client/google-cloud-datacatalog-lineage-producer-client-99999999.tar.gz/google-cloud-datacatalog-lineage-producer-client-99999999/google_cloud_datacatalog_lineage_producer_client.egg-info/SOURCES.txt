@@ -1,0 +1,7 @@
+setup.py
+google-cloud-datacatalog-lineage-producer-client/__init__.py
+google-cloud-datacatalog-lineage-producer-client/main.py
+google_cloud_datacatalog_lineage_producer_client.egg-info/PKG-INFO
+google_cloud_datacatalog_lineage_producer_client.egg-info/SOURCES.txt
+google_cloud_datacatalog_lineage_producer_client.egg-info/dependency_links.txt
+google_cloud_datacatalog_lineage_producer_client.egg-info/top_level.txt
