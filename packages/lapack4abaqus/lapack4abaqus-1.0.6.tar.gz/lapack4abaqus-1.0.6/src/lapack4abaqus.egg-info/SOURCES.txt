@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-package.yml
+.github/workflows/python-publish.yml
+src/lapack4abaqus/__init__.py
+src/lapack4abaqus/_version.py
+src/lapack4abaqus/gen_lapack.py
+src/lapack4abaqus.egg-info/PKG-INFO
+src/lapack4abaqus.egg-info/SOURCES.txt
+src/lapack4abaqus.egg-info/dependency_links.txt
+src/lapack4abaqus.egg-info/top_level.txt
+tests/test_gen_lapack.py
