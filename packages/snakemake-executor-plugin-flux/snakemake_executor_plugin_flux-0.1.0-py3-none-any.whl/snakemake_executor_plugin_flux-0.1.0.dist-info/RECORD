@@ -1,0 +1,6 @@
+snakemake_executor_plugin_flux/__init__.py,sha256=0Ymk1inXDCCDqIiGgDOKx0e6oi1S7kWseF-G8ZUYb6c,761
+snakemake_executor_plugin_flux/executor.py,sha256=yZE4UoDYGngG_vwT_dA5Az_cpkfxA0uwc8ADTgW1puQ,5125
+snakemake_executor_plugin_flux-0.1.0.dist-info/LICENSE,sha256=AlyLB1m_z0CENCx1ob0PedLTTohtH2VLZhs2kfygrfc,1108
+snakemake_executor_plugin_flux-0.1.0.dist-info/METADATA,sha256=adLAOcf4Do7AkPljLoW608YGhHjxtyt0D9wlnwpCuVQ,4834
+snakemake_executor_plugin_flux-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+snakemake_executor_plugin_flux-0.1.0.dist-info/RECORD,,
