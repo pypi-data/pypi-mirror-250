@@ -1,0 +1,13 @@
+cloudmesh/git/Git.py,sha256=nNyNaeCkDEvaNjniUrbt5WuDUAiv47qfFHBFPtZUK6Y,13106
+cloudmesh/git/__init__.py,sha256=6nv-p1-Jbke6v6MeVWUF7wYdnqgh0Qe7iLkRbrtRubU,21
+cloudmesh/git/copy.py,sha256=hM4Ty3cdONHe_7rbCceyxUZhnPaZ_--rk5pZDG6KJeQ,2916
+cloudmesh/git/gh.py,sha256=s-mAZ8pRcObd5_a6AcmUwq04JqGOPi7YneZCqK_mYz4,4587
+cloudmesh/git/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/git/api/manager.py,sha256=mePdgAg74wBGVRAyVBxCksiIO0uJYthQ-4X9pg2wrV8,3871
+cloudmesh/git/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/git/command/git.py,sha256=m-0k7ML8FDDqlyBa0OGDfimlKrmOSS1-9Ky2LGN4kdw,19558
+cloudmesh_git-5.0.9.dist-info/LICENSE,sha256=g8MzEIFSMQbc7dOFLonpIA3yEcrSmMcka7VmSlgQeOk,842
+cloudmesh_git-5.0.9.dist-info/METADATA,sha256=mO5ZJWSMJpwoq_oNib6fpjzUdpbXDyF352-4pE8fQAw,11560
+cloudmesh_git-5.0.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cloudmesh_git-5.0.9.dist-info/top_level.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_git-5.0.9.dist-info/RECORD,,
