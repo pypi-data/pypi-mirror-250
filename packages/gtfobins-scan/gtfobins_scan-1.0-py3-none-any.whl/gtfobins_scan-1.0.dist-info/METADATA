@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gtfobins-scan
+Version: 1.0
+Summary: Vulnerability Scanner for GTFOBins
+Home-page: https://github.com/vinal-2/GTFObins
+Author: Vinal
+License: GPL-3.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests
+
+UNKNOWN
+
