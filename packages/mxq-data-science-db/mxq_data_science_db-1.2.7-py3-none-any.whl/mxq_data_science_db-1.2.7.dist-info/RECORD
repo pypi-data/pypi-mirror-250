@@ -1,0 +1,17 @@
+mxq_data_science_db/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mxq_data_science_db/db/db.py,sha256=KenTCweBkT_HzkyZycLpuUDDuQFGcZqm7V1QQamUCQU,2150
+mxq_data_science_db/db/models/base.py,sha256=Anal5ZTP52qCYrOmI1PTvdpjH53SgmGKGnkRr9SCGJ0,1963
+mxq_data_science_db/db/models/db_comex.py,sha256=s1UY4178_roWWdFUNUQEKhh-hXWCrxG8EgmwSYRQkW8,4741
+mxq_data_science_db/db/models/db_commodity.py,sha256=HbNKuv4DDhaE-MYwoRn-ORcbMF3h3IZApGZd20ZeIv4,1960
+mxq_data_science_db/db/models/db_economia.py,sha256=evSg_y-Rh6OFAPRV3YhzkD0F300NxvOobMk8ZK2AUUc,1554
+mxq_data_science_db/settings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mxq_data_science_db/settings/logger.py,sha256=Er3cOC2oy9U_maGO7NazdRR3IXxW7uLhZfC4v2lDt8w,714
+mxq_data_science_db/settings/settings.py,sha256=HnkdsUWIa0F0etF6fH2xSUXM7SDHxuVivYKtoL5vVZ0,4223
+mxq_data_science_db/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mxq_data_science_db/utils/data_lake.py,sha256=j8TKKLBV7kEev7bP3dRGHpZhReBwnNGSDF0AFA1y8M8,4271
+mxq_data_science_db/utils/dropbox.py,sha256=gGi7kLkAXNPZpoJW3KGtCeuxxtUtqwtxpk-vvXbdddI,5390
+mxq_data_science_db/utils/teams_alert.py,sha256=eMW4E6WRT5ubUFN1M3ZNnRKoMo_TG_4NCln4pnQ68SI,1461
+mxq_data_science_db/utils/utils.py,sha256=J3Y1-sqN3Gusk3u75k6AZe5-hYR4KQR18wghvaPAVoI,504
+mxq_data_science_db-1.2.7.dist-info/METADATA,sha256=EVq0cUQSvdrU3MVsLVeHIBsgR-y6RkIWbANZ1QhCPeU,2009
+mxq_data_science_db-1.2.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+mxq_data_science_db-1.2.7.dist-info/RECORD,,
