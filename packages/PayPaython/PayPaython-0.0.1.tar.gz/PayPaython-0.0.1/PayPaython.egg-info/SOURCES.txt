@@ -1,0 +1,5 @@
+setup.py
+PayPaython.egg-info/PKG-INFO
+PayPaython.egg-info/SOURCES.txt
+PayPaython.egg-info/dependency_links.txt
+PayPaython.egg-info/top_level.txt
