@@ -1,0 +1,10 @@
+amlhpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amlhpc/__main__.py,sha256=ZjdGeFf_hX1YO7QyLbibobF3nMCGrp2UBUI7aC8P7bk,670
+amlhpc/pbs/qsub.py,sha256=KqcTo5YLn0EE1oDzmQt1BwGS_xBlAejPU-8P2E6pPZk,55
+amlhpc/slurm/sbatch.py,sha256=DgrttSrG04mE-2skpi-FLDK5MM5oxt9TeDHvwwumPZE,11823
+amlhpc/slurm/sinfo.py,sha256=CzY1UwY3-IJZI3YISbHF1xfKOH-U3eTcuHS8DWfjQNU,2108
+amlhpc/slurm/squeue.py,sha256=amSGzvvR44UX8S0FCgHKa1sYZHZSBAOHASzc2FjoxsY,1949
+amlhpc-0.1.9.dist-info/METADATA,sha256=0krpTGtzAhaNQrg7nUbHAnOqjBqdT8biPNtnhDIZYK4,3684
+amlhpc-0.1.9.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+amlhpc-0.1.9.dist-info/entry_points.txt,sha256=h7sac0ghVRjW84JP3DM_vWezxVwQPwFB-5bTCJEuhYM,118
+amlhpc-0.1.9.dist-info/RECORD,,
