@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: sportradar-unofficial
+Version: 0.1.6
+Summary: An unofficial python package to access sportradar NFL APIs.
+Home-page: http://github.com/ggurjar333/sportradar-unofficial
+Author: Gaurav Gurjar, John Bonnett, John Bassie
+Author-email: ggurjar333@gmail.com
+License: MIT
+Keywords: sport analysis,sport statistics,sport data analysis,scraping,data collection,data processing,MongoDB
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: urllib3
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: pymongo
+Requires-Dist: coloredlogs <16.0.0,>=15.0.1
+
+# Sportradar Python Package
+
+**An unofficial python package to access Sportradar NFL APIs**
+
+This package allows you to easily extract sports data for analysis and predictive modeling with a simple interface to access NFL APIs.
+
+## Installation
+
+You can install the `sportradar-unofficial` python package via pip:
+
+## Usage
+
+Here's a quick example of how you can use this package:
+```python
+import sportradar
+```
+Complete documentation with more examples and features is available on [GitHub](https://www.github.com/ggurjar333/sportradar-unofficial)
+
+## Contributing
+
+Contributions are always welcome! Please read our [Contributing Guidelines](https://www.github.com/ggurjar333/sportradar-unofficial) before submitting a pull request.
+
+## Author(s)
+- [John Bonnett](https://www.linkedin.com/in/john-bonnett-ba89909b/)
+- [Gaurav Gurjar](https://www.linkedin.com/in/ggurjarsocl/)
+- [John Bassie](https://www.linkedin.com/in/john-bassey-991a99107)
+
+## License
+
+This project is licensed under the MIT License. Please see the [LICENSE.txt](LICENSE.txt) file for details.
+
+## Acknowledgements
+
+Shout out to all the Sports enthusiasts and Data Engineers/Scientists!
