@@ -1,0 +1,3 @@
+[console_scripts]
+create_cbioportal_database = cbioportal.create_cbioportal_database:main
+vcf_annotate_cbioportal = cbioportal.vcf_annotate_cbioportal:main
