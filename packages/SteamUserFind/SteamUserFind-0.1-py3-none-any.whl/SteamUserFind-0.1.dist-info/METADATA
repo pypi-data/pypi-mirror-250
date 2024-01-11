@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: SteamUserFind
+Version: 0.1
+Summary: A simple web crawler for steamcommunity.com
+Home-page: https://github.com/LordPoc/SteamUserFinder_API
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+
