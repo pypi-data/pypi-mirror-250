@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+duration_detective.egg-info/PKG-INFO
+duration_detective.egg-info/SOURCES.txt
+duration_detective.egg-info/dependency_links.txt
+duration_detective.egg-info/entry_points.txt
+duration_detective.egg-info/requires.txt
+duration_detective.egg-info/top_level.txt
+durationdetective/__init__.py
+durationdetective/__main__.py
+durationdetective/cli.py
+durationdetective/durationdetective.py

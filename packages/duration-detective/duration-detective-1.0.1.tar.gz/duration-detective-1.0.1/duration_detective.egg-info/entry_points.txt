@@ -1,0 +1,2 @@
+[console_scripts]
+DurationDetective = durationdetective.__main__:main
