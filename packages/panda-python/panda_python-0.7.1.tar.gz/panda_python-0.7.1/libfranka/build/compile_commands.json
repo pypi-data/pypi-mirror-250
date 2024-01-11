@@ -1,0 +1,140 @@
+[
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/control_loop.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/control_loop.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/control_loop.cpp",
+  "output": "CMakeFiles/franka.dir/src/control_loop.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/control_tools.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/control_tools.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/control_tools.cpp",
+  "output": "CMakeFiles/franka.dir/src/control_tools.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/control_types.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/control_types.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/control_types.cpp",
+  "output": "CMakeFiles/franka.dir/src/control_types.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/duration.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/duration.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/duration.cpp",
+  "output": "CMakeFiles/franka.dir/src/duration.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/errors.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/errors.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/errors.cpp",
+  "output": "CMakeFiles/franka.dir/src/errors.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/exception.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/exception.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/exception.cpp",
+  "output": "CMakeFiles/franka.dir/src/exception.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/gripper.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/gripper.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/gripper.cpp",
+  "output": "CMakeFiles/franka.dir/src/gripper.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/gripper_state.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/gripper_state.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/gripper_state.cpp",
+  "output": "CMakeFiles/franka.dir/src/gripper_state.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/library_downloader.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/library_downloader.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/library_downloader.cpp",
+  "output": "CMakeFiles/franka.dir/src/library_downloader.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/library_loader.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/library_loader.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/library_loader.cpp",
+  "output": "CMakeFiles/franka.dir/src/library_loader.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/load_calculations.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/load_calculations.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/load_calculations.cpp",
+  "output": "CMakeFiles/franka.dir/src/load_calculations.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/log.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/log.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/log.cpp",
+  "output": "CMakeFiles/franka.dir/src/log.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/logger.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/logger.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/logger.cpp",
+  "output": "CMakeFiles/franka.dir/src/logger.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/lowpass_filter.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/lowpass_filter.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/lowpass_filter.cpp",
+  "output": "CMakeFiles/franka.dir/src/lowpass_filter.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/model.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/model.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/model.cpp",
+  "output": "CMakeFiles/franka.dir/src/model.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/model_library.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/model_library.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/model_library.cpp",
+  "output": "CMakeFiles/franka.dir/src/model_library.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/network.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/network.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/network.cpp",
+  "output": "CMakeFiles/franka.dir/src/network.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/rate_limiting.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/rate_limiting.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/rate_limiting.cpp",
+  "output": "CMakeFiles/franka.dir/src/rate_limiting.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/robot.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/robot.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/robot.cpp",
+  "output": "CMakeFiles/franka.dir/src/robot.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/robot_impl.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/robot_impl.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/robot_impl.cpp",
+  "output": "CMakeFiles/franka.dir/src/robot_impl.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/robot_state.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/robot_state.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/robot_state.cpp",
+  "output": "CMakeFiles/franka.dir/src/robot_state.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/vacuum_gripper.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/vacuum_gripper.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/vacuum_gripper.cpp",
+  "output": "CMakeFiles/franka.dir/src/vacuum_gripper.cpp.o"
+},
+{
+  "directory": "/home/runner/work/panda-py/panda-py/libfranka/build",
+  "command": "/usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -Dfranka_EXPORTS -I/home/runner/work/panda-py/panda-py/libfranka/include -I/home/runner/work/panda-py/panda-py/libfranka/common/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Wextra -o CMakeFiles/franka.dir/src/vacuum_gripper_state.cpp.o -c /home/runner/work/panda-py/panda-py/libfranka/src/vacuum_gripper_state.cpp",
+  "file": "/home/runner/work/panda-py/panda-py/libfranka/src/vacuum_gripper_state.cpp",
+  "output": "CMakeFiles/franka.dir/src/vacuum_gripper_state.cpp.o"
+}
+]
