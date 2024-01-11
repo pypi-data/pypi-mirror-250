@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aiclipal
+Version: 0.0.4
+Summary: Compact AI CLI pal for your terminal. Powered by OpenAI API
+Author-email: Grzegorz Grzęda <grzegorz.grzeda@g2labs.pl>
+Project-URL: Homepage, https://github.com/g2labs-grzegorz-grzeda/aiclipal
+Project-URL: Issues, https://github.com/g2labs-grzegorz-grzeda/aiclipal/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vt100logging>=1.1.0
+
+# ai-assistant
+Small terminal AI CLI pal for generating content.
+
+## Installation
+
+Install `aiclipal`: [`pip install -U aiclipal`](https://pypi.org/project/aiclipal/)
+
+## Usage
+Just run from the command line. By default you need to have the `AI_CLI_PAL_OPENAI_API_KEY`
+environment variable exported to the command line containing your API key for OpenAI.
+
+Then run `aiclipal -h` to get more information
+
+## Copyright
+Created by Grzegorz Grzęda. Distributed under MIT license
