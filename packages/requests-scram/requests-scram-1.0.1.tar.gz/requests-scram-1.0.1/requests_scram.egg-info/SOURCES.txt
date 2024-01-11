@@ -1,0 +1,16 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+pyproject.toml
+requests_scram.py
+requirements.txt
+.github/FUNDING.yml
+.vscode/settings.json
+dev/requirements.txt
+requests_scram.egg-info/PKG-INFO
+requests_scram.egg-info/SOURCES.txt
+requests_scram.egg-info/dependency_links.txt
+requests_scram.egg-info/requires.txt
+requests_scram.egg-info/top_level.txt
+typing/requirements.txt
