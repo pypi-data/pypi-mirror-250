@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+select = ["F", "E", "W", "C90"]
+ignore = ["F403", "F405"]
+exclude = ["migrations"]
+fixable = ["I001"]
+target-version = "py39"
+line-length = 90
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
