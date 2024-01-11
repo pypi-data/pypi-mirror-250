@@ -1,0 +1,9 @@
+rich
+tinydb
+shares
+flask
+flask_cors
+flask_limiter
+flask_socketio
+gunicorn
+uvicorn

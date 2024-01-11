@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: vessels
+Version: 1.0.0
+Summary: flask, HAProxy, etc. tools
+Description-Content-Type: text/plain
+Requires-Dist: rich
+Requires-Dist: tinydb
+Requires-Dist: shares
+Requires-Dist: flask
+Requires-Dist: flask_cors
+Requires-Dist: flask_limiter
+Requires-Dist: flask_socketio
+Requires-Dist: gunicorn
+Requires-Dist: uvicorn
+
+
+
+
+vessels
+
+	documentation:
+		vessels shares
+
+	similar:
+		https://pypi.org/project/uvicorn/
