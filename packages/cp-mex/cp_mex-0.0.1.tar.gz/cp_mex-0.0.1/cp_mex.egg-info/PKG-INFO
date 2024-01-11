@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cp-mex
+Version: 0.0.1
+Summary: Permite migrar los codigos postales de México
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Este módulo carga los codigos postales de mexico con sus estados,delegaciones y colonias
+        
+        
+        1 - "agregue a las apps en su settings catalogo_cp_mex"
+        2 - python manage.py migrate
+        3 - python manage.py load_catalogs
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
