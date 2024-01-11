@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyproject_scaffold/__init__.py
+src/pyproject_scaffold/__main__.py
+src/pyproject_scaffold/main.py
+src/pyproject_scaffold.egg-info/PKG-INFO
+src/pyproject_scaffold.egg-info/SOURCES.txt
+src/pyproject_scaffold.egg-info/dependency_links.txt
+src/pyproject_scaffold.egg-info/entry_points.txt
+src/pyproject_scaffold.egg-info/requires.txt
+src/pyproject_scaffold.egg-info/top_level.txt

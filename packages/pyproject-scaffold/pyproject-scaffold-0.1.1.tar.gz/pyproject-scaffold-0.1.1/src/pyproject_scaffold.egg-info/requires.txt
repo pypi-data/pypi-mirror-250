@@ -1,0 +1,6 @@
+tomlkit==0.12.3
+
+[dev]
+pytest
+pytest-mock
+pyfakefs
