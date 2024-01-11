@@ -1,0 +1,2 @@
+[console_scripts]
+nanovnav2fetch = pynanovnav2.util_fetch:main
