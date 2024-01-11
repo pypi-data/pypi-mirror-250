@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: memorious
+Version: 2.6.5
+Summary: A minimalistic, recursive web crawling library for Python.
+Home-page: http://github.com/alephdata/memorious
+Author: Organized Crime and Corruption Reporting Project
+Author-email: data@occrp.org
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: banal <2.0.0,>=1.0.6
+Requires-Dist: click
+Requires-Dist: requests[security] >=2.21.0
+Requires-Dist: PySocks ==1.7.1
+Requires-Dist: requests-ftp
+Requires-Dist: lxml >=4
+Requires-Dist: normality <3.0.0,>=2.4.0
+Requires-Dist: tabulate
+Requires-Dist: python-dateutil <3.0.0,>=2.8.2
+Requires-Dist: dataset >=1.6.2
+Requires-Dist: servicelayer[amazon,google] >=1.21.2
+Requires-Dist: pantomime ==0.5.1
+Requires-Dist: alephclient >=2.3.5
+Requires-Dist: followthemoney >=3.5.8
+Requires-Dist: followthemoney-store >=3.0.6
+Requires-Dist: dateparser
+Requires-Dist: stringcase
+Requires-Dist: flask
+Requires-Dist: babel
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-env ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: recommonmark ; extra == 'dev'
+Provides-Extra: ocr
+Requires-Dist: tesserocr ; extra == 'ocr'
+
+=========
+Memorious
+=========
+
+    The solitary and lucid spectator of a multiform, instantaneous and almost intolerably precise world.
+
+    -- `Funes the Memorious <http://users.clas.ufl.edu/burt/spaceshotsairheads/borges-funes.pdf>`_,
+    Jorge Luis Borges
+
+.. image:: https://github.com/alephdata/memorious/workflows/memorious/badge.svg
+
+``memorious`` is a light-weight web scraping toolkit. It supports scrapers that
+collect structured or un-structured data. This includes the following use cases:
+
+* Make crawlers modular and simple tasks re-usable
+* Provide utility functions to do common tasks such as data storage, HTTP session management
+* Integrate crawlers with the Aleph and FollowTheMoney ecosystem
+* Get out of your way as much as possible
+
+Design
+------
+
+When writing a scraper, you often need to paginate through through an index
+page, then download an HTML page for each result and finally parse that page
+and insert or update a record in a database.
+
+``memorious`` handles this by managing a set of ``crawlers``, each of which 
+can be composed of multiple ``stages``. Each ``stage`` is implemented using a
+Python function, which can be re-used across different ``crawlers``.
+
+The basic steps of writing a Memorious crawler:
+
+1. Make YAML crawler configuration file
+2. Add different stages
+3. Write code for stage operations (optional)
+4. Test, rinse, repeat
+
+Documentation
+-------------
+
+The documentation for Memorious is available at
+`alephdata.github.io/memorious <https://alephdata.github.io/memorious/>`_.
+Feel free to edit the source files in the ``docs`` folder and send pull requests for improvements.
+
+To build the documentation, inside the ``docs`` folder run ``make html``
+
+You'll find the resulting HTML files in /docs/_build/html.
