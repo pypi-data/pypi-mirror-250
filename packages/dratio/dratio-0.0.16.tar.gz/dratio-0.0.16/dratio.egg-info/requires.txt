@@ -1,0 +1,13 @@
+requests
+pandas>=0.21.1
+pyarrow
+
+[:python_version < "3.8"]
+typing_extensions
+
+[docs]
+sphinx
+pydata-sphinx-theme
+
+[geo]
+geopandas>=0.8
