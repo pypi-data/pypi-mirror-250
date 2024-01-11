@@ -1,0 +1,9 @@
+README.md
+setup.py
+bigquery_wrapper/__init__.py
+bigquery_wrapper/bigquery_wrapper.py
+bigquery_wrapper_gcp.egg-info/PKG-INFO
+bigquery_wrapper_gcp.egg-info/SOURCES.txt
+bigquery_wrapper_gcp.egg-info/dependency_links.txt
+bigquery_wrapper_gcp.egg-info/requires.txt
+bigquery_wrapper_gcp.egg-info/top_level.txt
