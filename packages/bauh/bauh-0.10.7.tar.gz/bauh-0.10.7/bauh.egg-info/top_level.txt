@@ -1,0 +1,4 @@
+bauh
+dist
+linux_dist
+venv
