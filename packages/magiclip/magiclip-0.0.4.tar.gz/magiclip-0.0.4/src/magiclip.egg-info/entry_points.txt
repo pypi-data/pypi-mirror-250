@@ -1,0 +1,2 @@
+[console_scripts]
+magiclip = magiclip.__main__:main
