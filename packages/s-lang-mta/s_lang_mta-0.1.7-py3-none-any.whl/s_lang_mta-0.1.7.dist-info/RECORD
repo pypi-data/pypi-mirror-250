@@ -1,0 +1,11 @@
+cli.py,sha256=1FXewr77p6zIcrZICB9uCqsWIbfZ7dvGHC70TOdaJVw,846
+s_lang/__init__.py,sha256=7faYe0nJRjnY8guMjKajEyxXFIJvASkHwJrivFeHmgw,334
+s_lang/data_models.py,sha256=enzuiuwSh_lphXgpPHu2E1lF3_ewuQXOG4kXhtfBYVQ,173
+s_lang/instructions.py,sha256=-kzy4twcPA0MdLgHPuuIcJXNCiXH8XOc450nx42FKg0,2878
+s_lang/parse.py,sha256=kyn1TupN5sPfkwHw_os0X3kaSeHTlKiB5rj_uF9vmGs,1013
+s_lang/runner.py,sha256=KIpk0u7-hT5VwBZUNx5ixr87f8h_PmwlQVzrzS-Xa08,714
+s_lang/variables_store.py,sha256=buVQs-Vfg84A2bBGqF4ztSca-6v4T2TJbREg8dogXUY,1568
+s_lang_mta-0.1.7.dist-info/entry_points.txt,sha256=fV_wcuscjRRCM5M8N0YmawIbo2O_piMf-stPqQg3zQY,34
+s_lang_mta-0.1.7.dist-info/METADATA,sha256=VM3O_TRQmzaxlMLonT1fgFbeE41pl7ZfwI3Ls6Yc5uU,2441
+s_lang_mta-0.1.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+s_lang_mta-0.1.7.dist-info/RECORD,,
