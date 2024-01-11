@@ -1,0 +1,6 @@
+ass_tag_parser
+ass
+playwright
+ffmpeg-python
+pillow
+requests
