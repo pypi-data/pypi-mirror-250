@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gcode-helpers"
+dynamic = ["version"]
+description = "`gcode_helpers`-- collection of helper functions for parsing raw gcode"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Rodrigo Telles", email = "rtelles@g.harvard.edu" },
+]
+
+[project.urls]
+Homepage = "https://github.com/rtellez700/gcode_helpers"
+
+[tool.hatch.version]
+path = "gcode_helpers/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/gcode_helpers",
+]
