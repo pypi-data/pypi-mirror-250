@@ -1,0 +1,4 @@
+bitcart
+httpx[http2]
+Jinja2
+RestrictedPython
