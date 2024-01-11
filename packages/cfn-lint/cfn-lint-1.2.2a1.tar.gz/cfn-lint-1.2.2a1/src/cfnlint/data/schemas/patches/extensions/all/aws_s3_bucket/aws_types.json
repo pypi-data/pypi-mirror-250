@@ -1,0 +1,12 @@
+[
+ {
+  "op": "add",
+  "path": "/definitions/ReplicationConfiguration/properties/Role/awsType",
+  "value": "IamRoleArn"
+ },
+ {
+  "op": "add",
+  "path": "/properties/PolicyDocument/awsType",
+  "value": "IamResourcePolicy"
+ }
+]

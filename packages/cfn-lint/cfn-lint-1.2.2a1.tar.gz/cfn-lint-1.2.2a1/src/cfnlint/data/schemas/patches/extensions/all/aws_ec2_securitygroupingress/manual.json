@@ -1,0 +1,13 @@
+[
+ {
+  "op": "add",
+  "path": "/requiredXor",
+  "value": [
+   "CidrIp",
+   "CidrIpv6",
+   "SourcePrefixListId",
+   "SourceSecurityGroupId",
+   "SourceSecurityGroupName"
+  ]
+ }
+]
