@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tests/test_collapsable_mode.py
+tests/test_gitlab_collapsable.py
+tests/test_gitlab_reporter.py
+vedro_gitlab_reporter/__init__.py
+vedro_gitlab_reporter/_collapsable_mode.py
+vedro_gitlab_reporter/_gitlab_reporter.py
+vedro_gitlab_reporter/py.typed
+vedro_gitlab_reporter.egg-info/PKG-INFO
+vedro_gitlab_reporter.egg-info/SOURCES.txt
+vedro_gitlab_reporter.egg-info/dependency_links.txt
+vedro_gitlab_reporter.egg-info/requires.txt
+vedro_gitlab_reporter.egg-info/top_level.txt
