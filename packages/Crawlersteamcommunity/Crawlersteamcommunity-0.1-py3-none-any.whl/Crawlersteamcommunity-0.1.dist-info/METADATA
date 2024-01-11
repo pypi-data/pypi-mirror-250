@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Crawlersteamcommunity
+Version: 0.1
+Summary: 用于 steamcommunity.com 的简单网络爬虫
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+
