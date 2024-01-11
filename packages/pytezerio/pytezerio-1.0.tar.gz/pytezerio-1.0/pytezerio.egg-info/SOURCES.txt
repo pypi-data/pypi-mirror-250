@@ -1,0 +1,9 @@
+README.md
+setup.py
+pytezerio/__init__.py
+pytezerio/directory.py
+pytezerio/file.py
+pytezerio.egg-info/PKG-INFO
+pytezerio.egg-info/SOURCES.txt
+pytezerio.egg-info/dependency_links.txt
+pytezerio.egg-info/top_level.txt
