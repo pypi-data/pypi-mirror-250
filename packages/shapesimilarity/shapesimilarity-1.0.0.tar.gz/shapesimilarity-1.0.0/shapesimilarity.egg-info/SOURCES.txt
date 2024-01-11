@@ -1,0 +1,12 @@
+README.md
+setup.py
+shapesimilarity/__init__.py
+shapesimilarity/frechetdistance.py
+shapesimilarity/geometry.py
+shapesimilarity/procrustesanalysis.py
+shapesimilarity/shapesimilarity.py
+shapesimilarity/utils.py
+shapesimilarity.egg-info/PKG-INFO
+shapesimilarity.egg-info/SOURCES.txt
+shapesimilarity.egg-info/dependency_links.txt
+shapesimilarity.egg-info/top_level.txt
