@@ -1,0 +1,2 @@
+Version: 1.5.2
+Arguments: ['C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64\\Scripts\\delvewheel', 'repair', '-v', '--add-path=C:/Miniconda/Library/bin', '--wheel-dir=C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-r7jqxy1r\\cp312-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-r7jqxy1r\\cp312-win_amd64\\built_wheel\\mrsimulator-0.8.0rc0-cp312-cp312-win_amd64.whl']
