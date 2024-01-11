@@ -1,0 +1,3 @@
+[creart.creators]
+broadcast = graia.broadcast.creator:BroadcastCreator
+
