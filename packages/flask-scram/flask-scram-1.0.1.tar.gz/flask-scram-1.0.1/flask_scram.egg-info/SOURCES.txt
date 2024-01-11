@@ -1,0 +1,16 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+flask_scram.py
+pyproject.toml
+requirements.txt
+.github/FUNDING.yml
+.vscode/settings.json
+dev/requirements.txt
+flask_scram.egg-info/PKG-INFO
+flask_scram.egg-info/SOURCES.txt
+flask_scram.egg-info/dependency_links.txt
+flask_scram.egg-info/requires.txt
+flask_scram.egg-info/top_level.txt
+typing/requirements.txt
