@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: d2-dome
+Version: 1.0.0
+Summary: Product class ise Dome API's
+Author-email: Bhavin Dave <bhavin.dave@declarativedata.com>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas >= 2.1.1
+Project-URL: Home, https://declarativedata.com/
