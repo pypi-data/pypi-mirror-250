@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block title %}Ignite it all{% endblock %}
+{% block content %}
+<hr>
+<h1><center>Ignite it all</center></h1>
+<hr>
+<h2>About</h2>
+<p>Ignite it all is a project to ignite all the things.</p>
+<p>It is a Django project with a single app called <code>project</code>.</p>
+<p>The aim is to kickstart and maintail configuration of --- Anything</p>
+<p></p>
+<p>The idea started when I was "supposed" to use ansible automation/Tower/awx was met by a swiss army knife.</p>
+<p>The framework could do Anything and yet it could not do Anything</p>
+<p>First you need to create a project, if you have an git repo, step back create a git service accout, create credentials</p>
+<p>Then create a project, then create a playbook, then create a job template, then create a job, then run the job</p>
+<p>You need to enable single sign on in order to .... Before this you should have. You need to decide if you are using a dynamic inventory      </p>
+<p>If you are using a licensed AAP the you need to mind the maximum nodes, Backup ...........</p>
+<p>BOOOOOM </p>
+<p>The idea of having a declarative configuration as code was born</p>
+<p>Kalm, Knowit Automation Lifecycle Manager was ignited</p>
+<p>It is a framework to ignite Ansible</p>
+<p></p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Projects</h2>
+            <ul>
+                {% for project in projects %}
+                <li><a href="{% url 'project:detail' project.id %}">{{ project.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+{% endblock %}
+```
