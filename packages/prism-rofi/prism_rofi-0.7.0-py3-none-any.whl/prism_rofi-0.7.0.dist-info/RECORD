@@ -1,0 +1,12 @@
+prism_rofi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prism_rofi/__main__.py,sha256=FdEJ0sxC4NAdIfWWfdlQE0Jyu5OSDLKvNBXaD2wsYsE,9922
+prism_rofi/icons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prism_rofi/icons/fabric.png,sha256=p2iszoiQhybv7QTuiBHbG3hFb4DL3Bvdjjv_bSqBIQ4,1752
+prism_rofi/icons/forge.png,sha256=2fYdfc1h5P9sRZfmLzQ42-YEGYwtLZ11nLCXzmMTtPQ,1205
+prism_rofi/icons/grass.png,sha256=GCPoGNouYNriWIcJbJ-IudOulllOyZDD5ONG5PP60yA,545
+prism_rofi/icons/neoforge.png,sha256=Oufofdz5rgXCqiQ-CvLY4h0EVNHl0pegQJ4b3sGXoU4,2232
+prism_rofi/icons/quilt.png,sha256=wVByFRGBXqWd6dwI2Y-t-Zeev1NTQrkDcO1MV0ZNiwI,1637
+prism_rofi-0.7.0.dist-info/METADATA,sha256=THsHsCckDIpDupC6y3Ck9AwJ7tq_ogkvrZT6a_yWFeY,2749
+prism_rofi-0.7.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+prism_rofi-0.7.0.dist-info/entry_points.txt,sha256=kLEYqMSx6yu9pMM-beNTf5vE7Mwcdsf2FMEr6nlR9kk,55
+prism_rofi-0.7.0.dist-info/RECORD,,

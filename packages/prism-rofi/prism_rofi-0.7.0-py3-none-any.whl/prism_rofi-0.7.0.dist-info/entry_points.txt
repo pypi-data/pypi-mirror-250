@@ -1,0 +1,3 @@
+[console_scripts]
+prism-rofi=prism_rofi.__main__:main
+
