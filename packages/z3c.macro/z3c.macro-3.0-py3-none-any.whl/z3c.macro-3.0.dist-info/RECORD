@@ -1,0 +1,16 @@
+z3c.macro-3.0-py3.11-nspkg.pth,sha256=Ou9y0X2aSJC-56yWL7VjITZxnfX6slYJCSxhMSKad6I,524
+z3c/macro/README.rst,sha256=R3amAygFBc1Xet_wmiaWSZetjvr5nTodqOPApoORLVE,5841
+z3c/macro/__init__.py,sha256=cp2FQegWiRY1mqkR8oSjYbCw9lDWged2D-r63pooVOw,1281
+z3c/macro/configure.zcml,sha256=4iNy3rrF630ICOOrKs6H14Pw1-CQHQQnDq1Wdm-2Km8,514
+z3c/macro/interfaces.py,sha256=y58msLyiqs_vm09_RX9z1BkVr_5j7k3YeAcit09OIUg,1602
+z3c/macro/meta.zcml,sha256=nFaYkhHQUD1pgzyZxpT9urwONp3lawD475WcHGFbyBc,337
+z3c/macro/tales.py,sha256=bWFJW9yKwggV02hk0rav-yjwJwXm8xkfaCSikyOtUAo,2480
+z3c/macro/tests.py,sha256=aEKNGlr8Dlx65UIXTnzCVxGOKfDPYOhYOX9ugyGLlRY,1926
+z3c/macro/zcml.py,sha256=2wB8pjfNxxvUWl4WVw50WfjMXojUoooxRfYV7Gkoj9M,4728
+z3c/macro/zcml.rst,sha256=tpSDXcd6n3dXMlG1N2XdMk3jJ5tFVgD5vJ2w3VYMR7U,3080
+z3c.macro-3.0.dist-info/LICENSE.txt,sha256=PmcdsR32h1FswdtbPWXkqjg-rKPCDOo_r1Og9zNdCjw,2070
+z3c.macro-3.0.dist-info/METADATA,sha256=lMDJPY3KjneW_djNX4fQVDgXE5R0bRdZaF-ddlQhdzg,15283
+z3c.macro-3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+z3c.macro-3.0.dist-info/namespace_packages.txt,sha256=4IdyINjld7m2QfMrXUzjX5iV4pLTBx0DBASmKaA1wJc,4
+z3c.macro-3.0.dist-info/top_level.txt,sha256=4IdyINjld7m2QfMrXUzjX5iV4pLTBx0DBASmKaA1wJc,4
+z3c.macro-3.0.dist-info/RECORD,,
