@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sdpc-for-python
+Version: 1.0.5
+Summary: Python library for processing whole slide images (WSIs) in sdpc format
+Home-page: https://github.com/WonderLandxD/sdpc-for-python
+Author: Jiawen Li
+Author-email: lijiawen21@mails.tsinghua.edu.cn
+License: MIT License
+Platform: any
+
+UNKNOWN
+

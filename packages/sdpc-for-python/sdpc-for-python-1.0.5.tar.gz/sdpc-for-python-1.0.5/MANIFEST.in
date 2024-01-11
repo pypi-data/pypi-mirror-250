@@ -1,0 +1,6 @@
+include sdpc/*
+include sdpc/LINUX/*
+include sdpc/LINUX/ffmpeg/*
+include sdpc/LINUX/jpeg/*
+include sdpc/WINDOWS/*
+include sdpc/WINDOWS/dll/*
