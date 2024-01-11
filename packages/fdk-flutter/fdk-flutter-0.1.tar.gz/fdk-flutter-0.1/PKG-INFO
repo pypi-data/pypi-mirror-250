@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fdk-flutter
+Version: 0.1
+Description-Content-Type: text/markdown
+Requires-Dist: mycolorlogger==0.8
+
+[![Upload Python Package](https://github.com/codingbeast/fdk-flutter/actions/workflows/python-publish.yml/badge.svg)](https://github.com/codingbeast/fdk-flutter/actions/workflows/python-publish.yml)
+
+# FDK - FLUTTER  

@@ -1,0 +1,12 @@
+README.md
+setup.py
+core/__init__.py
+core/utility.py
+fdk/__init__.py
+fdk/fdk.py
+fdk_flutter.egg-info/PKG-INFO
+fdk_flutter.egg-info/SOURCES.txt
+fdk_flutter.egg-info/dependency_links.txt
+fdk_flutter.egg-info/entry_points.txt
+fdk_flutter.egg-info/requires.txt
+fdk_flutter.egg-info/top_level.txt
