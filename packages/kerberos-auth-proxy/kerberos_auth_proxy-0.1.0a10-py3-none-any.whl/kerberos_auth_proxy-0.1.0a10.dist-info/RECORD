@@ -1,0 +1,12 @@
+kerberos_auth_proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kerberos_auth_proxy/cmd.py,sha256=TGvPEcPSoLud8DwcoQulI6BwGqd2T89UlJkA5u1txt0,2028
+kerberos_auth_proxy/mitm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kerberos_auth_proxy/mitm/addons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kerberos_auth_proxy/mitm/addons/kerberos.py,sha256=F1sjLlOUx6P17jfiDkC5yFi3uz-Y1XSHzD0R2HsL2Ns,11874
+kerberos_auth_proxy/mitm/hostutils.py,sha256=gAlY_Hh54Dz6YQ3U08Y6G7JrAoMqA9epSvxPLqf83hw,8478
+kerberos_auth_proxy/utils.py,sha256=ZapeHY2gIMqaBCQvvAjVz8hgWPteeH1oabGDrS_96w8,1673
+kerberos_auth_proxy-0.1.0a10.dist-info/LICENSE,sha256=Gw1JjOgHOzyW3_3qJXkkOG6ZpgHHPcoPJVPk1fWqaZ8,1075
+kerberos_auth_proxy-0.1.0a10.dist-info/METADATA,sha256=tqk0ZsS0pi-OqvxkxfqT0wvgQXoh4hK2AS5kfD-Tbo8,787
+kerberos_auth_proxy-0.1.0a10.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+kerberos_auth_proxy-0.1.0a10.dist-info/entry_points.txt,sha256=VZQnZN6WvbCl0DKxpG3iI4cn7OkbW9uTlwoELW9LVn0,68
+kerberos_auth_proxy-0.1.0a10.dist-info/RECORD,,
