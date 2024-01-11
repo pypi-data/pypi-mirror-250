@@ -1,0 +1,2 @@
+[console_scripts]
+aiclipal = aiclipal:ai_cli_pal_main
