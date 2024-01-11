@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: radiant-compiler
+Version: 0.1a2
+Summary: Brython Framework
+Download-URL: https://github.com/dunderlab/python-radiant.compiler
+Author: Yeison Cardona
+Author-email: yencardonaal@unal.edu.co
+Maintainer: Yeison Cardona
+Maintainer-email: yencardonaal@unal.edu.co
+License: BSD-2-Clause
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-for-android
+Requires-Dist: cython
+
+# Radiant-Compiler
+
+Pull the image with the environ for [python-for-android](https://python-for-android.readthedocs.io/en/latest/) that includes the [Android NDK](https://developer.android.com/studio/projects/install-ndk) and the [SDK](https://developer.android.com/studio) to compile Python applications into APKs installer:
+
+
+```python
+docker pull yeisondev/radiant:compiler
+```
+
+Then install the Python pacakge to use the ```p4a``` command:
+
+
+```python
+pip install radiant-compiler
+```
+
+Now ```p4a``` is replaced by ```docker_p4a```
+
+
+```python
+docker_p4a apk --arch arm64-v8a
+```
+
+## Software versions included in the image
+
+
+```python
+ARG NDK_VERSION=r23b
+SDK_VERSION=8512546_latest 
+JAVA_VERSION=jdk17-openjdk
+NDKAPI=27
+ANDROIDAPI=27
+```
