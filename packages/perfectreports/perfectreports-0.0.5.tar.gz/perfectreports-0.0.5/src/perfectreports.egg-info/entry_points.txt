@@ -1,0 +1,2 @@
+[console_scripts]
+perfectreports = perfecto.main_cli:main
