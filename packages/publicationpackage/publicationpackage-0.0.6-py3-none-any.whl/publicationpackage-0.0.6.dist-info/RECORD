@@ -1,0 +1,9 @@
+publicationpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+publicationpackage/get_database_info.py,sha256=x8IekyHMCNEMviuvtF6if6EguSvKgK2ZEgRew0AbYJE,1855
+publicationpackage/load_data.py,sha256=0lZ-oAnYtOVuPQag_smILuzWZqWMON9_8jwKDzPUP7g,507
+publicationpackage/load_table_from_catalog.py,sha256=QNV0r9FoaxxHrI5lioS5V2Ytfx9yR4QKyN5-IAVF1Hc,748
+publicationpackage/run_sql.py,sha256=SHUU5ufjw3ZCC_lSs4U7hAkfjkx_mPr9vV80FEMG9y8,523
+publicationpackage/write_dataframe_to_s3.py,sha256=bGe-aFjarD0rWAje8hzW2ftgQeaJj9wjDUwfHAgeitc,308
+publicationpackage-0.0.6.dist-info/METADATA,sha256=7uiwLU_BN96T-gqhwR842dbsIUAEQX1Mch11Yjpodh8,669
+publicationpackage-0.0.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+publicationpackage-0.0.6.dist-info/RECORD,,
