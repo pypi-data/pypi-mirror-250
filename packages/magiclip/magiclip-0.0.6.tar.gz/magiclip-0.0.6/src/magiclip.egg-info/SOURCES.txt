@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/__init__.py
+src/magiclip/__init__.py
+src/magiclip/magi_clip.py
+src/magiclip/main.py
+src/magiclip.egg-info/PKG-INFO
+src/magiclip.egg-info/SOURCES.txt
+src/magiclip.egg-info/dependency_links.txt
+src/magiclip.egg-info/entry_points.txt
+src/magiclip.egg-info/requires.txt
+src/magiclip.egg-info/top_level.txt
+tests/test_magiclip.py
+tests/test_main.py
