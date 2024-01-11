@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: s360tools
+Version: 0.0.7
+Author-email: Mikkel Almind <mje@s360digital.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10.12
+License-File: LICENSE.txt
+Requires-Dist: gspread>=5.12.0
+Requires-Dist: gspread-formatting>=1.1.2
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: google-auth
