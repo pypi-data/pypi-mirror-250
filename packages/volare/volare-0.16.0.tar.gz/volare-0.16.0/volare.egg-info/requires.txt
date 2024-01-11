@@ -1,0 +1,6 @@
+click<9,>=8.0.0
+pyyaml<7,>=5
+rich<14,>=12
+httpx>=0.22.0
+pcpp<2,>=1.2
+zstandard<1,>=0.19.0
