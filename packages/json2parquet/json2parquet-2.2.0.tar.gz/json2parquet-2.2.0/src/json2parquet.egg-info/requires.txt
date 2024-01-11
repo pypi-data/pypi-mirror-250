@@ -1,0 +1,4 @@
+pyarrow
+pandas
+numpy>=1.14.0
+ciso8601
