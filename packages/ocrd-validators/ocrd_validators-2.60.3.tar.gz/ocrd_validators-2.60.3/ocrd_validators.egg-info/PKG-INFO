@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ocrd_validators
+Version: 2.60.3
+Summary: OCR-D framework - data validators
+Author-email: Konstantin Baierer <unixprog@gmail.com>
+License: Apache License 2.0
+Project-URL: Homepage, https://ocr-d.de
+Project-URL: Documentation, https://ocr-d.de/core
+Project-URL: Repository, https://github.com/OCR-D/core
+Project-URL: Issues, https://github.com/OCR-D/core/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: bagit>=1.7.0
+Requires-Dist: bagit_profile>=1.3.0
+Requires-Dist: click>=7
+Requires-Dist: jsonschema
+Requires-Dist: pyyaml
+Requires-Dist: shapely
+Requires-Dist: ocrd_utils
+Requires-Dist: ocrd_models
+Requires-Dist: ocrd_modelfactory
+
+# ocrd_validators
+
+> OCR-D framework - data validators
+
+See also: https://github.com/OCR-D/core
