@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: comwatt-client-legacy
+Version: 0.1
+Summary: Python Client for Comwatt API
+Author: Matéo Greil
+Author-email: contact@greil.fr
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests
