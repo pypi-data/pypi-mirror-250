@@ -1,0 +1,10 @@
+pnnx-20240111.dist-info/RECORD,,
+pnnx-20240111.dist-info/WHEEL,sha256=9eQSRGrOa03o6gOAokAH2Pxmxf46-vNjolslVVBruVM,109
+pnnx-20240111.dist-info/top_level.txt,sha256=VGFzoqvyIrBTQiKBPTFetfyUGPvKO8r9mggLGBKxEkw,5
+pnnx-20240111.dist-info/METADATA,sha256=BOOMDfJiBmYg50NIgd4owmizf8RA8y37Sq4fv2gILeM,31152
+pnnx/__init__.py,sha256=UU_1oJRej-uUSAhpfTiE_Kfjj1vWUUZNYyz8L-EKhVQ,1206
+pnnx/pnnx,sha256=Y5UVHbdUb0jdc67ElxXADeMZ73x1bTmWRnHZIOZcuro,61897976
+pnnx/utils/convert.py,sha256=IJaTHOSzSpW3GbMQodlQmYAPzNxGFoBil5VpsIUFxk8,7168
+pnnx/utils/__init__.py,sha256=aOvtpZbBaaoqGFUuadu0qYSUM2bXnr_UTQW-hmq9Eyk,753
+pnnx/utils/export.py,sha256=NWiCDEd9NBzSmfYsfS4ijgvGM1ZHtS9rq1vKUcQtWWk,1740
+pnnx/utils/utils.py,sha256=POaYlkS9Ibr0iJKXUa6OhjbpIdmrBzyy62OxtPIE0dw,3043
