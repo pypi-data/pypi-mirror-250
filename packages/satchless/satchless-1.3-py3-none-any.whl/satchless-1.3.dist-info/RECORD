@@ -1,0 +1,13 @@
+satchless/__init__.py,sha256=FD4KOhy-1gAgwoLzU5-bRMnpxX0WOvFhA4zoN5hNfXc,295
+satchless/cart/__init__.py,sha256=OwvaBcp4b8mVWmSrEsp5g4cHSvatLXYYFDQmX08P-sk,3797
+satchless/cart/test_cart.py,sha256=gpzJFDzFdKN4F0z-9xpARylEa8XTSooOvOHgePoL58I,7156
+satchless/item/__init__.py,sha256=Tn3vLqHx3lsBSkZZ0mItjgvImR97EJ4HKNtkEVdKbMk,4452
+satchless/item/test_item.py,sha256=g-_uP3Mr6ZNDRmgH0rjHdj3Si-ll1O9GERunQyPySLU,6799
+satchless/process/__init__.py,sha256=5phPlk8RTPxAElAxo9YMFNAEtFJLnlpFrNrLoiEpj1Q,1302
+satchless/process/test_process.py,sha256=GF1F4jRNFWiV0CZVy7sdixkvZ0QP5kTExElX80Etyz4,2432
+satchless-1.3.dist-info/LICENSE,sha256=GxI1RuKTQ-cxmUo3IDfWj9Vf4SgJFrR2wPi_fhyrv2A,1467
+satchless-1.3.dist-info/METADATA,sha256=Jv5FolWs-kzXrp9dwT1FLqhHUfMTZMaMBik_1b0HHAg,1002
+satchless-1.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+satchless-1.3.dist-info/top_level.txt,sha256=Lx03GNkrV12FsN2G_QMrlfSqUL9J6AQ_zAngMIDDd8A,10
+satchless-1.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+satchless-1.3.dist-info/RECORD,,
