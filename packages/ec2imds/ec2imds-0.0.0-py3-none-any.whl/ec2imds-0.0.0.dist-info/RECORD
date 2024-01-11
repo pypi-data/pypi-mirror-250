@@ -1,0 +1,7 @@
+ec2imds/__init__.py,sha256=kbjX2WlfKAR-rC8aSCHdGXI5kA4Onzl1AQQMq-blXe4,14774
+ec2imds/__main__.py,sha256=nLHMKcsiyR9OvacvxM_Cg9g9DY0iZbye3GyMqF7uakY,5659
+ec2imds/exceptions.py,sha256=dtDQxTiHpNrSsp73C8fdR6hWCUg0yEscF6_fwMf10ms,79
+ec2imds-0.0.0.dist-info/METADATA,sha256=6Xh5xy75tbweb4XhtpH-sq7lnsjVx6v-LnG-kBXQDCU,3857
+ec2imds-0.0.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+ec2imds-0.0.0.dist-info/licenses/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ec2imds-0.0.0.dist-info/RECORD,,
