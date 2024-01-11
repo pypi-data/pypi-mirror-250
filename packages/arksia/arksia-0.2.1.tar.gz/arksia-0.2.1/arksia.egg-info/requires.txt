@@ -1,0 +1,16 @@
+numpy>=1.21.6
+matplotlib>=3.4.0
+scipy>=1.9.0
+multiprocess>=0.70.15
+frank>=1.2.2
+mpol==0.2.0
+
+[analysis]
+jax>=0.4.20
+optax>=0.1.7
+tqdm>=4.65.0
+
+[test]
+pytest
+coverage>=6.2
+coverage-badge>=1.1.0

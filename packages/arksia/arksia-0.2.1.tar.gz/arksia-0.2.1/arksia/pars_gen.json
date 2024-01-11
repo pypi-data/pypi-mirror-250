@@ -1,0 +1,54 @@
+{
+  "base" : { 
+    "extract_clean_profile" : false,
+    "process_rave_fit"      : false,
+    "run_frank"             : false,
+    "run_parametric"        : false,
+    "aspect_ratio_fig"      : false,  
+    "compare_models_fig"    : null,
+    "frank_multifit_fig"    : false,
+    "input_dir"             : ".",
+    "output_dir"            : null
+  },
+
+  "clean" : {
+    "robust"                : 2.0,
+    "rmax"                  : 12.0,
+    "Nr"                    : 300,
+    "Nphi"                  : 120 
+  }, 
+
+  "rave" : {
+    " "                     : null
+  }, 
+
+  "frank" : {
+    "rout"                  : 12.0,
+    "N"                     : 300,
+    "alpha"                 : [1.05],
+    "wsmooth"               : [1e-1],
+    "method"                : "LogNormal",
+    "I_scale"               : 1e2,
+    "max_iter"              : 1000,
+    "set_fstar"             : "MCMC",
+    "scale_height"         : null,
+    "save_solution"         : true,
+    "save_profile_fit"      : true,
+    "save_vis_fit"          : true,
+    "save_uvtables"         : true,
+    "make_quick_fig"        : true
+  },
+
+  "parametric" : {
+    "form"                  : ["asym_gauss"],
+    "device"                : null,
+    "learn_rate"            : 1e-3,
+    "niter"                 : 1e5    
+  },
+
+  "plot" : {
+    "bin_widths"            : [5e3, 20e3],
+    "image_xy_bounds"       : [-5, 5],
+    "frank_resid_im_robust" : 2.0    
+  }
+}  
