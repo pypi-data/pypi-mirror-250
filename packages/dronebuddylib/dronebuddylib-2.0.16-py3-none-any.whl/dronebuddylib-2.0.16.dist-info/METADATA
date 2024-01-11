@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dronebuddylib
+Version: 2.0.16
+Summary: Everything to control and customize Tello
+Author: Malsha de Zoysa
+Author-email: malsha@ahlab.org
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: requests ~=2.28.0
+Requires-Dist: numpy ~=1.23.0
+Requires-Dist: cython ~=0.29.34
+Requires-Dist: setuptools ~=65.5.1
+Requires-Dist: packaging ~=23.0
+Requires-Dist: pyparsing ~=3.0.9
+Requires-Dist: djitellopy ~=2.5.0
+Provides-Extra: face_recognition
+Requires-Dist: face-recognition ; extra == 'face_recognition'
+Provides-Extra: intent_recognition_gpt
+Requires-Dist: openai ; extra == 'intent_recognition_gpt'
+Requires-Dist: tiktoken ; extra == 'intent_recognition_gpt'
+Provides-Extra: intent_recognition_snips
+Requires-Dist: snips-nlu ; extra == 'intent_recognition_snips'
+Provides-Extra: object_detection_mp
+Requires-Dist: mediapipe ; extra == 'object_detection_mp'
+Provides-Extra: object_detection_yolo
+Requires-Dist: ultralytics ; extra == 'object_detection_yolo'
+Provides-Extra: speech_recognition_multi
+Requires-Dist: SpeechRecognition ; extra == 'speech_recognition_multi'
+Provides-Extra: speech_recognition_vosk
+Requires-Dist: vosk ; extra == 'speech_recognition_vosk'
+Provides-Extra: text_recognition
+Requires-Dist: google-cloud-vision ; extra == 'text_recognition'
+
