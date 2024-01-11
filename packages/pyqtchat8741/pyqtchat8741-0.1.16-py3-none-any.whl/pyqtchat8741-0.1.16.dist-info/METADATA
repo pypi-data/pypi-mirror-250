@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pyqtchat8741
+Version: 0.1.16
+Summary: 
+Author: Viktor Simon
+Author-email: V-U-Simon@yandex.ru
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pycryptodome (>=3.19.0,<4.0.0)
+Requires-Dist: pycryptodomex (>=3.19.0,<4.0.0)
+Requires-Dist: pyqt5 (>=5.15.10,<6.0.0)
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: sphinx (>=7.2.6,<8.0.0)
+Requires-Dist: sphinx-book-theme (>=1.1.0,<2.0.0)
+Requires-Dist: sqlalchemy (>=2.0.23,<3.0.0)
+Description-Content-Type: text/markdown
+
+
+
+## Quick start
+
+
+```bash
+# for server
+python server/server.py
+
+# for client
+python client/client.py
+```
+
+for MacOS
+
+```bash
+# for server
+python launcher_macos.py
+
+# for client
+python client/client.py
+```
+
+
