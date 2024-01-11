@@ -1,0 +1,10 @@
+shapesimilarity/__init__.py,sha256=UlYQIN53fKgYYyjjgclxfoRYzOX_xWvgcKSpWwcVQBo,140
+shapesimilarity/frechetdistance.py,sha256=aHHZjXKVRuLMauF626VpANfblMn17eibEFQ0H9WWhCk,1605
+shapesimilarity/geometry.py,sha256=Ve_kFcSuLSEMWSdIVPsqUlbw0M5USErdRsTHrl8vUR4,1714
+shapesimilarity/procrustesanalysis.py,sha256=q4Dfafvz6cf5VfzICmcS_HhKm9nOZ1AtbtN5zgr3-0Q,2329
+shapesimilarity/shapesimilarity.py,sha256=yEkaY5kkrO_UvysxXUWWDLo0NjBaSr75rtCVOoeB0_k,1778
+shapesimilarity/utils.py,sha256=aYLwpSQqogHINZreSH7jjWPhyBT2sxbgoUCs3jjsUag,249
+shapesimilarity-1.0.0.dist-info/METADATA,sha256=rk7mZhuZXmBZmUgaKYLn_dH89ANRiDDRkrsX_scGOS8,4269
+shapesimilarity-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+shapesimilarity-1.0.0.dist-info/top_level.txt,sha256=sxrKafkniP9SJbBGC21ROH4BQMZWuo26Uk3VlCEUgxc,16
+shapesimilarity-1.0.0.dist-info/RECORD,,
