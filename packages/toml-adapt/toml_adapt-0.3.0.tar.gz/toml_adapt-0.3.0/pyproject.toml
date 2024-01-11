@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "toml-adapt"
+version = "0.3.0"
+description = "A simple command-line interface for manipulating toml files"
+license = "MIT"
+authors = ["Iztok Fister Jr. <iztok@iztok-jr-fister.eu>","Filip Strajnar <filip.strajnar@gmail.com>"]
+keywords = ['adaptation', 'data manipulation', 'flit', 'poetry', 'toml']
+homepage = "https://github.com/firefly-cpp/toml-adapt"
+repository = "https://github.com/firefly-cpp/toml-adapt"
+documentation = "https://toml-adapt.readthedocs.io/en/latest/"
+include = [ { path = "toml-adapt.1", format = "sdist" } ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+toml = "*"
+click = "*"
+
+[tool.poetry.extras]
+docs = ["Sphinx", "sphinx-rtd-theme"]
+
+[tool.poetry.dev-dependencies]
+pytest = ">=6.2.5"
+sphinx = {version = "^4.4.0", extras = ["docs"]}
+sphinx-rtd-theme = {version = "^1.0.0", extras = ["docs"]}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+toml-adapt = "toml_adapt.main:TomlAdapt"
