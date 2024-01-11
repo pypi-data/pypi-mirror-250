@@ -1,0 +1,10 @@
+README.md
+setup.py
+FreeFireGETinfo/__init__.py
+FreeFireGETinfo/main.py
+FreeFireGETinfo.egg-info/PKG-INFO
+FreeFireGETinfo.egg-info/SOURCES.txt
+FreeFireGETinfo.egg-info/dependency_links.txt
+FreeFireGETinfo.egg-info/entry_points.txt
+FreeFireGETinfo.egg-info/requires.txt
+FreeFireGETinfo.egg-info/top_level.txt
