@@ -1,0 +1,9 @@
+binpatch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+binpatch/__main__.py,sha256=fxU4dl8PITlolVIIMkSHy7hgVstAPB450UarYHsZvn8,504
+binpatch/diff.py,sha256=C9wOAp9NBeWLgWSBR04uIqzbjD9AyURKa6qCcjdKfiA,2655
+binpatch/file.py,sha256=WXymC6QmtI5oRu7Xjob5cBjkl96A6dUMQy0VJJMwGOQ,515
+binpatch/find.py,sha256=aODKYgo9LQfpObNnkGSkTz3uzuN4UuVwTUuTdTaOrHs,1074
+binpatch/patch.py,sha256=N4qiBsZERJu2g95PVJMj9eyqTf2njRJ8OX3ZfoL89sk,1036
+pybinpatch-1.0.3.dist-info/METADATA,sha256=HApu07-XeEqU0xjOMZeVOkF0lvr6ybddxxqrZPCiCII,563
+pybinpatch-1.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pybinpatch-1.0.3.dist-info/RECORD,,
