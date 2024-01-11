@@ -1,0 +1,12 @@
+simplekivy/__init__.py,sha256=szck4kJvpNHkHBqyIbplHO3QcPn2VIY7pzi2cMdMBGU,35
+simplekivy/simplekivy.py,sha256=8Q1ttCY05oWP0yM2cURYRN2TberE0iT9t4in26vLSlg,1170
+simplekivy/widgets/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+simplekivy/widgets/app.py,sha256=cUcakwB6MKg-kW5f9IWrhCKUeMteCOqTvTWsDZT2_I0,336
+simplekivy/widgets/app_methods.py,sha256=Uixc-sIW7PPT4-0C_ktZCG2paV_Stu79LuxLJQnBnd4,3443
+simplekivy/widgets/main.kv,sha256=dzMQI9uYX09Zej3J4Onug0vwdHn1YOl_3mWq7RrVvaQ,486
+simplekivy/widgets/mdapp.py,sha256=daT1WMxMcip1t3RHY63y84tVSwSe09bUUdDWFs6BnFk,343
+simplekivy-0.0.7.dist-info/LICENSE,sha256=48CE_p5d8YvgNhVnoGIdiACNf4a8fSiLMfEo5exmhmo,1058
+simplekivy-0.0.7.dist-info/METADATA,sha256=v4JwdqTboJOhfWW4PWEb6TNdvCTr5ecvTKqZ6um6SgE,3445
+simplekivy-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+simplekivy-0.0.7.dist-info/top_level.txt,sha256=QJqOKGUuG5lfRCvgd3jh4ayY0_8zILZrYPi9HkZzTFQ,11
+simplekivy-0.0.7.dist-info/RECORD,,
