@@ -1,0 +1,2 @@
+[console_scripts]
+ns2json = ns2json.__main__:main

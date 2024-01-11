@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: ns2json
+Version: 1.1.0b0
+Summary: A Python script to converts and saves a data from a DNS response to a JSON file.
+Project-URL: Repository, https://github.com/drazkgi/ns2json
+Author-email: Bartłomiej Drążkiewicz <bartlomiej@drazkiewicz.me>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: convert,dns,file,json,mit,python,script
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: File Formats :: JSON
+Classifier: Topic :: Internet :: Name Service (DNS)
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+
+# NS2JSON
+
+Name Server to JavaScript Object Notation is a Python script to converts and saves a data from a DNS response to a JSON file.
+
+
+## Installing
+
+Install the module by [pip][1] (check [how to use pip][2]):
+
+```
+py -m pip install ns2json
+```
+
+
+## How to use
+
+```python
+py -m ns2json [domain] [dns] [path]
+```
+
+|| Domain | DNS | Path |
+| :--- | :--- | :--- | :--- |
+| Full name | Domain name | DNS resolver | Path to save |
+| Required | Yes | No | No |
+| Default | No | 1.1.1.1 | From executed script |
+| Example | google.com | 8.8.8.8 | C:\Users\Name\Desktop
+
+
+## Examples
+
+```python
+py -m ns2json google.com 8.8.8.8 C:\Users\Name\Desktop
+py -m ns2json google.com 8.8.8.8
+py -m ns2json google.com C:\Users\Name\Desktop
+
+# Output file name: google.com.json
+```
+
+## Comments
+
+- The script uses the nslookup tool.
+- Currently, the script works only on Windows.
+
+## To Do
+- Linux version.
+
+[1]: https://pypi.org/ 
+[2]: https://pip.pypa.io/en/stable/getting-started/
