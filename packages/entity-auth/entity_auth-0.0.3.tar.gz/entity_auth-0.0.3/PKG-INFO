@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: entity_auth
+Version: 0.0.3
+Summary: A FastAPI extension that provides support for JWT authentication (secure, easy to use, and lightweight).
+Home-page: https://github.com/gangstand/entity_auth
+Author: gangstand
+Author-email: ganggstand@gmail.ru
+License: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyjwt
+Requires-Dist: fastapi
+
+## Features
+
+A FastAPI extension that provides support for JWT authentication (secure, easy to use, and lightweight).
+
+- Access tokens and refresh tokens
+- Freshness Tokens
+- Revoking Tokens
+- Support for WebSocket authorization
+- Support for adding custom claims to JSON Web Tokens
+- Storing tokens in cookies and CSRF protection
+
+## License
+
+This project is licensed under the terms of the MIT license.
