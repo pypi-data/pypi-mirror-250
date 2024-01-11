@@ -1,0 +1,7 @@
+hy==0.28.0
+hyrule==0.5.0
+toolz>=0.12.0
+construct>=2.10.70
+blessed>=1.20.0
+platformdirs>=4.1.0
+metadict>=0.1.3
