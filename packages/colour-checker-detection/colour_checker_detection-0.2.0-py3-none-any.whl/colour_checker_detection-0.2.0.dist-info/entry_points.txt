@@ -1,0 +1,3 @@
+[console_scripts]
+colour-checker-detection-inference=colour_checker_detection.scripts.inference:segmentation
+
