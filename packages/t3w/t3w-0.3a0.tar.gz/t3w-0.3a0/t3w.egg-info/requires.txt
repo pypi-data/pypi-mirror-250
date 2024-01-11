@@ -1,0 +1,7 @@
+jaxtyping
+pandas
+aim
+tqdm
+rich
+docstring_parser
+typing_inspect
