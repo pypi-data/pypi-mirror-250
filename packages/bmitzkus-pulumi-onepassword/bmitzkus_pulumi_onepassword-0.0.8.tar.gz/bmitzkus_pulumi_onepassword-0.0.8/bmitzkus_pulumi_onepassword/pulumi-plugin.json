@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "onepassword",
+  "server": "https://github.com/Hvitgar/pulumi-onepassword/releases/download/v${VERSION}"
+}
