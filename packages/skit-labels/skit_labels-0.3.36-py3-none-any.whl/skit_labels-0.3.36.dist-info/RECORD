@@ -1,0 +1,12 @@
+skit_labels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skit_labels/cli.py,sha256=vlYWuwoUlPS7-5ULOIARzOZUgOrXtJUA2A2IL7nOoFY,13528
+skit_labels/commands.py,sha256=mBBm4OY778DaEbXqO7ETjauXiATDpq6SF1EDNq53jI0,16084
+skit_labels/constants.py,sha256=2W3VgTpDc-ijGA1jfZYapxNrJAyVtdVBZ9LO87GWWuo,3302
+skit_labels/db.py,sha256=0Dy_JaGjn_pH9podLK-pgzfJytpeYWjey9mwzcm2VG8,24859
+skit_labels/labelstudio/annotations.py,sha256=riMgDac1NIGhFuAyfU89oJM6F-lGRSrznPAYKBdycA8,1784
+skit_labels/types.py,sha256=oSGLq0oWj5vy-PsRLN7yxiEqg26l2osL0DPtC5boN3k,6625
+skit_labels/utils.py,sha256=Ng_6dLdssnY8Q2HDlQnRuT2Z2jHnl_9yoMXqIl3UIcQ,4671
+skit_labels-0.3.36.dist-info/METADATA,sha256=OU2UDEPS_3y1kmtohCCWWMFXs3iUl27vRQ9opHa0Gus,1048
+skit_labels-0.3.36.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+skit_labels-0.3.36.dist-info/entry_points.txt,sha256=3Yo0JHJ6L5JHZ5Dto0dMXz5GDrrflKz3GYG-MYyGtTs,52
+skit_labels-0.3.36.dist-info/RECORD,,
