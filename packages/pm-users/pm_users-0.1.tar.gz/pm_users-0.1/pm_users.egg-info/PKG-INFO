@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pm-users
+Version: 0.1
+Summary: This is an app for managing users in a SaaS product named Platform.
+Author: Vishwajeet Kale
+Author-email: vishwajeet.kale.v2stech@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
