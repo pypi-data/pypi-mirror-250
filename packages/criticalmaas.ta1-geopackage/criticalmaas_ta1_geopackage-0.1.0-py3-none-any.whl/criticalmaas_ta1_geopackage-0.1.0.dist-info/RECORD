@@ -1,0 +1,10 @@
+criticalmaas/ta1_geopackage/__init__.py,sha256=f1nTPWzJcXdtSBUPAc1Hi33L2p2B_zqfRgzN5cet6iM,3990
+criticalmaas/ta1_geopackage/fixtures/01-geopackage-structure.sql,sha256=19BaiNAqGBlPlIDvLhIBcEiM4mgmDQfSZldFsp09VB8,1689
+criticalmaas/ta1_geopackage/fixtures/02-defs.sql,sha256=kRcl3uKSZvHL3E_QaVwtsfTSAWorVMAY4jnheSRZeQg,1990
+criticalmaas/ta1_geopackage/fixtures/03-tables.sql,sha256=-gydLuboDtCFEwkxuLHsf_1V2dVlqnuUWlJ1MLwQQzU,10381
+criticalmaas/ta1_geopackage/procedures/insert-srid.sql,sha256=7xNTjYmz89zM37tKaAEfDqLTanQt27OSQAn8OkLMjOs,267
+criticalmaas/ta1_geopackage/procedures/update-geometry-columns.sql,sha256=Wzo1Qyx-6K-9japqaKJaBFjt6rj7rdlRx9bRO0jDLfQ,199
+criticalmaas/ta1_geopackage/test_create_geopackage.py,sha256=rmAkyYCkvHN5i50FDuzgZmjToaKFZ0PfCVlgOzq2GAI,4871
+criticalmaas_ta1_geopackage-0.1.0.dist-info/METADATA,sha256=4AwqTMGAfuBqV7vzLs-Z5p3D4vhRS7wCVJ87Rt1mUPc,4784
+criticalmaas_ta1_geopackage-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+criticalmaas_ta1_geopackage-0.1.0.dist-info/RECORD,,
