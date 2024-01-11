@@ -1,0 +1,9 @@
+numpy
+gymnasium
+
+[:python_version >= "3.8"]
+importlib-metadata
+
+[test]
+pytest
+pytest-cov

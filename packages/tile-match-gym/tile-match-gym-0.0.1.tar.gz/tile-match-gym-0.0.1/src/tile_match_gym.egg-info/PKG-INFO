@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: tile-match-gym
+Version: 0.0.1
+Summary: A set of reinforcement learning environments for tile matching games, consistent with the OpenAI Gym API.
+Home-page: https://www.github.com/akshilpatel/tile_match_gym
+Author: Akshil Patel, James Elson
+Author-email: akshilpatel11@gmail.com
+License: BSD-3-Clause
+Keywords: reinforcement-learning,gym,tile-matching,games,rl,openai-gym,gym,rl-environment
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: gymnasium
+Requires-Dist: importlib-metadata; python_version >= "3.8"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+
+# Tile Matching Reinforcement Learning Environments
+
+
+Welcome to the Reinforcement Learning Environments for Tile Matching Games repository! This repository provides a collection of tile matching game environments (like Bejeweled or Candy Crush) implemented in NumPy, poised to push reinforcement learning research forwards.
+
+This genre of games is characterised by the following features which we find useful for reinforcement learning research:
+- Large action spaces
+- Intuitive action hierarchies
+- Procedurally generated levels
+- Structured complex stochasticity in transition dynamics
+
+**Work in Progress - Pre-release**
+
+Please note that this project is a work in progress, and while many exciting features are on the roadmap, they might not all be fully implemented at this time.
+
+## Installation
+On release, the environments will be installable via pip:
+
+```pip install tile-match-gym```
+
+
+## Citation
+
+If you use this repository please cite as below:
+
+```
+@software{tile_match_gym,
+  author = {Patel, Akshil and Elson, James},
+  title = {{Tile Matching Game Reinforcement Learning Environments}},
+  url = {https://github.com/akshilpatel/tile-match-gym},
+  version = {0.0.1},
+  year = {2023}
+}
+```

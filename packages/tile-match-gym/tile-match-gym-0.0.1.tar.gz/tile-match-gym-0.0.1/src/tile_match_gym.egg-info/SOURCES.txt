@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tile_match_gym.egg-info/PKG-INFO
+src/tile_match_gym.egg-info/SOURCES.txt
+src/tile_match_gym.egg-info/dependency_links.txt
+src/tile_match_gym.egg-info/not-zip-safe
+src/tile_match_gym.egg-info/requires.txt
+src/tile_match_gym.egg-info/top_level.txt
+tests/test_env.py
