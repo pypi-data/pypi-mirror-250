@@ -1,0 +1,7 @@
+setup.py
+Crawlersteamcommunity.egg-info/PKG-INFO
+Crawlersteamcommunity.egg-info/SOURCES.txt
+Crawlersteamcommunity.egg-info/dependency_links.txt
+Crawlersteamcommunity.egg-info/top_level.txt
+crawler/__init__.py
+crawler/crawler.py
