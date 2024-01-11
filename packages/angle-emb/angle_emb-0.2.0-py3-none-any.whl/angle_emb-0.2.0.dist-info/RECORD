@@ -1,0 +1,15 @@
+angle_emb/__init__.py,sha256=HFd-5nitbsTi5LsAhKUb9Rc0WhS_m2T9cm-A8P6iU30,70
+angle_emb/angle.py,sha256=rVqodX0k4gTM_Hg-n9ub9yY-A_L66kdYD5AkGpAwo_g,40086
+angle_emb/train_cli.py,sha256=PktU3O2ku7AKdw-V5YwHoCMEg7zai-N5hLHxD5GAyVA,7628
+angle_emb/utils.py,sha256=DvGzUxNggfZ5UUBA4xPkht1vwLq96NgNVLdq2tDnt20,118
+angle_emb/bellm/__init__.py,sha256=K9iqgeaoNB5phz3TtWhHUjC1-yz4dwrStFJVwW5o2HE,587
+angle_emb/bellm/modeling_llama.py,sha256=0YssKjZd9SiTsPAlLuI3puD8XszDvYOXjRZkb1gyoqo,10512
+angle_emb/bellm/modeling_mistral.py,sha256=HLeGs5lITr718_WdccxjLOGF3IkYGRiAC2mAytckXuM,10548
+angle_emb/bellm/modeling_opt.py,sha256=VCWNAqcCydWC2-zdX3gJII9t2AfkeChEHZE-unn2ljI,18150
+angle_emb/bellm/modeling_phi2.py,sha256=ch0d0jMaeElhN-yn-SXwdnMkuSfL0qwHYn12AW8OYT0,36162
+angle_emb-0.2.0.dist-info/LICENSE,sha256=DfBcQEfFKfbQ4Bkt1kVA-gfQCigGIr-syjv4g_cf8N4,1061
+angle_emb-0.2.0.dist-info/METADATA,sha256=707WJIyilUkLEfv25ej9fpAeQnrFZBbEYAWm_IT_eD4,14793
+angle_emb-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+angle_emb-0.2.0.dist-info/entry_points.txt,sha256=ilXtvwObJ-1vLWiezMksFZISN44KA95bYO5JbKHbjWo,54
+angle_emb-0.2.0.dist-info/top_level.txt,sha256=PRrRJASyALPz9zdUIYXsLtECMfN3aUjiSCm86uxWQHY,10
+angle_emb-0.2.0.dist-info/RECORD,,
