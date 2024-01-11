@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "publicationpackage"
+version = "0.0.5"
+description = "This package contains the functions needed for doing a publication in a Jupyter Notebook."
+authors = ["Jesse Faber <Jesse.Faber@aegon.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.34.15"
+pyspark = "^3.5.0"
+awsglue-dev = "^2021.12.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
