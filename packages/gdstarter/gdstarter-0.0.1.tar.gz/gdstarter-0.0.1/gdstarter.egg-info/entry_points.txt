@@ -1,0 +1,2 @@
+[console_scripts]
+gdstarter = gdstarter.main:main

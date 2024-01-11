@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gdstarter/__init__.py
+gdstarter/main.py
+gdstarter.egg-info/PKG-INFO
+gdstarter.egg-info/SOURCES.txt
+gdstarter.egg-info/dependency_links.txt
+gdstarter.egg-info/entry_points.txt
+gdstarter.egg-info/requires.txt
+gdstarter.egg-info/top_level.txt
