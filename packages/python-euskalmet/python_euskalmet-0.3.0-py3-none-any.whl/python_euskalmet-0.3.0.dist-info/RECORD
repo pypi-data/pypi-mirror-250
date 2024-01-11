@@ -1,0 +1,12 @@
+euskalmet/__init__.py,sha256=ZDkjxV0_FoAly5QPbQHgUC9pmZM6l6YyywjQflOhaec,114
+euskalmet/__version__.py,sha256=B9aMrHxDw0mO2xpHs2wp0oUYnEH8OH6WejhsdJQ_-Vk,272
+euskalmet/euskalmet.py,sha256=d9fi4QvEAddspOUVcjizGbFCQskRq-diNw5DqV4_txo,4055
+euskalmet/exceptions.py,sha256=8PilyaMXWXWb1G4U1aSNQPOTG-rEqYSIRo0G9XWfjxc,719
+euskalmet/geo.py,sha256=9DWSUORy3PsNTPHdHnFy6e9bjliy4U5nv_CSgnV34G8,8825
+euskalmet/stations.py,sha256=RIsfQOtUPurWQI9Im8P4SGtZEO361GuPPwg9Mdgt5h0,12179
+euskalmet/weather.py,sha256=FRgYI-ppGob18nt87vCve4ISQ1mZRVxto9sUibez6dI,7285
+python_euskalmet-0.3.0.dist-info/LICENSE,sha256=1x11MMrVbZVdD9MgDrigdqPo9h-MkIC5XkSCb4Cs7Hc,1070
+python_euskalmet-0.3.0.dist-info/METADATA,sha256=w4VUtpEjbhAeQkkfRDka7MiWxQq9h7vRNzog0rWildQ,3605
+python_euskalmet-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_euskalmet-0.3.0.dist-info/top_level.txt,sha256=qN8U91bbyJ4hyDygslMGmFzCvUciGjHFu3i1p-AGxyg,10
+python_euskalmet-0.3.0.dist-info/RECORD,,
