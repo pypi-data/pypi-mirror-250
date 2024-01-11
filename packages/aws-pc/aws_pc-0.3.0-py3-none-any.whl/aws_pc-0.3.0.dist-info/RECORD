@@ -1,0 +1,15 @@
+aws_pc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_pc/config.py,sha256=iT73sWgTJdCYd-7GI2ammZvOMbwWfFh-Mgrgk6M4aRM,3196
+aws_pc/iam.py,sha256=oa6lqCUNymF41be_ZLsZqW3oFEMngVMdv1-W1A9QGo4,14874
+aws_pc/organization.py,sha256=NLuvJlbOb03aabrHWE1ryJsFSzNzPNN86MhcpEK6ckk,648
+aws_pc/policy.py,sha256=XAGN0VarrzIwov--tWsGD2O9Jmipg2xL1GydSfOVbh4,5052
+aws_pc/s3.py,sha256=EqZFecjqFBHqELT1EGYQ3g95wbWPgREXHGKocY2KHZc,1625
+aws_pc/sso.py,sha256=Vzz9aJqBfxJhQkr12zP-XO7EXY0NYVAN-JTqSkKoSR8,11052
+aws_pc/create_roles/create_roles.py,sha256=4n0PNG51eAFtnm7i_eBmB1hKXyYHfALW1OYXEIj6czM,2401
+aws_pc/create_roles/delete_roles.py,sha256=IZRrzTtkDI5oNV35w28DjtprYNb2kVIkQbpkWrebItw,2491
+aws_pc/update_contact_details/update_details.py,sha256=nBXLbPSOZBubrQcH6B6gZuNP_-E4b22AYHPLtzSFnT8,1925
+aws_pc-0.3.0.dist-info/LICENCE,sha256=aSLAoQFihrj9-Fg0mTyFCT9Z5q2BUaWVU8UVT6NgW1U,1067
+aws_pc-0.3.0.dist-info/METADATA,sha256=kd_YDj9v9Ko5Rf8M2MMKyV1o4Ke32x9xQJV6N5z0O-4,232
+aws_pc-0.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+aws_pc-0.3.0.dist-info/top_level.txt,sha256=QtHJbyYeTmyHlvuTH8q3LfApO8Qg0madR2LP05-XQrA,7
+aws_pc-0.3.0.dist-info/RECORD,,
