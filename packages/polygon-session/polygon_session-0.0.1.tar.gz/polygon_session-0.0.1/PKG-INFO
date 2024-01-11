@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: polygon_session
+Version: 0.0.1
+Summary: A requests session manager to handle polygon.io's header authentication
+Project-URL: Homepage, https://github.com/adamdeprince/polygon_session
+Project-URL: Issues, https://github.com/adamdeprince/polygon_session/issues
+Author-email: Adam DePrince <adam.deprince@gmail.com>
+Requires-Python: >=3.6

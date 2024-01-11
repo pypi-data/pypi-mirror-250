@@ -1,0 +1,15 @@
+[build-system]
+requires=["hatchling"]
+build-backend="hatchling.build"
+
+[project]
+name="polygon_session"
+version="0.0.1"
+authors = [
+{ name="Adam DePrince", email="adam.deprince@gmail.com"}]
+description="A requests session manager to handle polygon.io's header authentication"
+requires-python=">=3.6"
+
+[project.urls]
+Homepage="https://github.com/adamdeprince/polygon_session"
+Issues="https://github.com/adamdeprince/polygon_session/issues"
