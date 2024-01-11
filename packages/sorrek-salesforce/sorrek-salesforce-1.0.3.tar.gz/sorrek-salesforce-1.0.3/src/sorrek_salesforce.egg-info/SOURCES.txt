@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/sorrek_salesforce/__init__.py
+src/sorrek_salesforce/__version__.py
+src/sorrek_salesforce/app.py
+src/sorrek_salesforce.egg-info/PKG-INFO
+src/sorrek_salesforce.egg-info/SOURCES.txt
+src/sorrek_salesforce.egg-info/dependency_links.txt
+src/sorrek_salesforce.egg-info/top_level.txt
