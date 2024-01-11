@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/timeseriesqualitycheck/__init__.py
+src/timeseriesqualitycheck/signal_to_noise_ratio.py
+src/timeseriesqualitycheck/timeseriesqualitycheck.py
+src/timeseriesqualitycheck.egg-info/PKG-INFO
+src/timeseriesqualitycheck.egg-info/SOURCES.txt
+src/timeseriesqualitycheck.egg-info/dependency_links.txt
+src/timeseriesqualitycheck.egg-info/requires.txt
+src/timeseriesqualitycheck.egg-info/top_level.txt
