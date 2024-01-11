@@ -1,0 +1,7 @@
+setup.py
+src/calctree_client/__init__.py
+src/calctree_client/client.py
+src/vt4_client_test.egg-info/PKG-INFO
+src/vt4_client_test.egg-info/SOURCES.txt
+src/vt4_client_test.egg-info/dependency_links.txt
+src/vt4_client_test.egg-info/top_level.txt
