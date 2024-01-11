@@ -1,0 +1,7 @@
+tomli==2.0.1
+tomli-w==1.0.0
+
+[dev]
+pytest
+pytest-mock
+pyfakefs
