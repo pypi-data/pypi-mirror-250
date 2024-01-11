@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: flapi
+Version: 0.1.0
+Summary: Remotely control FL Studio using the MIDI Controller Scripting API
+Home-page: https://github.com/MiguelGuthridge/Flapi
+License: MIT
+Keywords: fl,studio,fl studio,midi,script,midi controller scripting,remote,remote control
+Author: Miguel Guthridge
+Author-email: hello@miguelguthridge.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Dist: fl-studio-api-stubs (>=28.2.2)
+Requires-Dist: mido[ports-rtmidi] (>=1.3.2,<2.0.0)
+Requires-Dist: typing-extensions (>=4.9.0,<5.0.0)
+Project-URL: Bug Tracker, https://github.com/MiguelGuthridge/Flapi/issues
+Project-URL: Online Documentation, https://miguelguthridge.github.io/Flapi
+Project-URL: Repository, https://github.com/MiguelGuthridge/Flapi
+Description-Content-Type: text/markdown
+
+# Flapi
+
+Remotely control FL Studio using the MIDI Controller Scripting API
+
+```py
+$ flapi
+>>> import ui
+>>> ui.setHintMsg("Hello from Flapi!")
+# Hint message "Hello from Flapi!" is displayed in FL Studio
+```
+
+## Setup
+
+1. Install the Flapi library using Pip, or any package manager of your choice.
+   `pip install flapi`
+
+2. Install the Flapi server to FL Studio by running `flapi install`. If you
+   have changed your FL Studio user data folder, you will need to enter it.
+
+3. On Windows, install a virtual MIDI loopback tool such as
+   [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) and use it
+   to create a virtual MIDI port named `Flapi`. On MacOS, Flapi is able to
+   create this MIDI port automatically, so this step is not required.
+
+4. Start or restart FL Studio. The server should be loaded automatically, but
+   if not, you may need to set it up in FL Studio's MIDI settings.
+
+## Credits
+
+This concept was originally created by
+[dimentorium](https://github.com/dimentorium) and is available on GitHub at
+[dimentorium/Flappy](https://github.com/dimentorium/Flappy). I have adapted
+their code to improve its usability, and make it easier to install.
+
