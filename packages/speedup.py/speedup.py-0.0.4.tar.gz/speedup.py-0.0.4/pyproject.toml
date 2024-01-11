@@ -1,0 +1,18 @@
+[project]
+name = "speedup.py"
+version = "0.0.4"
+authors = [{ name = "trustytrojan" }]
+description = "A simple script to speedup your music/audio"
+requires-python = ">=3.11"
+keywords = ["music", "audio", "speed", "speed up", "speedup"]
+dependencies = ["scipy", "numpy"]
+
+[project.urls]
+GitHub = "https://github.com/trustytrojan/speedup.py"
+
+[project.scripts]
+speedup = "speedup.cli:main"
+
+[project.optional-dependencies]
+cli = ["soundfile", "sounddevice"]
+server = ["soundfile", "flask"]
