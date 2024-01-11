@@ -1,0 +1,2 @@
+import sys; exec('try:\n    import sanskrit\n    sanskrit.register()\nexcept ImportError:\n    pass\n')
+
