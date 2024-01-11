@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "ribeye"
+version = "0.0.1-alpha.1"
+description = "Beef is a Python metaprogramming library for generating HTTP clients using type hints. Beef removes the need for writing boilerplate code for deserialization of Pydantic models, and provides out of the box rate limiting, retries, and caching."
+
+authors = ["pmateusz <pmateusz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+aiohttp = ">=3.7.0"
+typing-extensions = ">=4.7.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+coverage = ">=7.4.0"
+pre-commit = ">=3.6.0"
+virtualenv = ">=20.25.0"
+pytest = ">=7.4.3"
+pytest-asyncio = ">=0.23.2"
+
+[tool.poetry.group.pydantic]
+optional = true
+
+[tool.poetry.group.pydantic.dependencies]
+pydantic = ">=2.0.0"
+pydantic-settings = ">=2.0.0"
+
+
+[tool.pytest.ini_options]
+log_cli = true
+pythonpath = ["src"]
+addopts = ["--import-mode=importlib"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
