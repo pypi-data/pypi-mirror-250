@@ -1,0 +1,22 @@
+[project]
+name = "trusted-ai"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    { name = "Ekaterina Kurdenkova", email = "kurdenkova@ispras.ru" },
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+package-type = "library"
