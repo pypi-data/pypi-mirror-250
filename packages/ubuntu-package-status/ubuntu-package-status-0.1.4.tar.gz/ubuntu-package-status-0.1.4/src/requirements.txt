@@ -1,0 +1,10 @@
+babel
+click
+humanize
+keyring
+launchpadlib
+pyyaml
+pytz
+readchar
+joblib
+python-debian
