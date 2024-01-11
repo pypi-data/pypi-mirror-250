@@ -1,0 +1,16 @@
+*
+
+!.gitignore
+!.gitmodules
+!README.md
+!.sh
+!.uniws
+!.uniws/**
+!bin
+!bin/**
+!etc
+!etc/**
+!lib
+!lib/**
+!tmp
+!tmp/**
