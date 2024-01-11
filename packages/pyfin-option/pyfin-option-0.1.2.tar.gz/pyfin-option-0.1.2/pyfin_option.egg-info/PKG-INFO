@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyfin-option
+Version: 0.1.2
+Summary: Basic options pricing in Python
+Home-page: https://github.com/someben/pyfin
+Author: Ben Gimpert
+Author-email: ben@somethingmodern.com
+License: MIT
+Keywords: pyfin
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+
+
+
+
+History
+-------
+
+0.1.0 (2014-12-01)
+---------------------
+
+* First release on PyPI.
