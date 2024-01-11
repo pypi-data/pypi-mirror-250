@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+bin/termpass
+termpass/arguments.py
+termpass/color.py
+termpass/conf.py
+termpass/crypt.py
+termpass/functions.py
+termpass/inputs.py
+termpass/interpreter.py
+termpass/start.py
+termpass.egg-info/PKG-INFO
+termpass.egg-info/SOURCES.txt
+termpass.egg-info/dependency_links.txt
+termpass.egg-info/requires.txt
+termpass.egg-info/top_level.txt
