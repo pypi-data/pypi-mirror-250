@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: mpl_simple_svg_parser
+Version: 0.1.0
+Home-page: https://github.com/leejjoon/mpl-simple-svg-parser
+Author: Jae-Joon Lee
+Author-email: lee.j.joon@gmail.com
+License: BSD 3-Clause
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: cairosvg
+Requires-Dist: picosvg
+Requires-Dist: svgpath2mpl
+Requires-Dist: mpl-visual-context >=0.9.3
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-mpl ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: numpydoc ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinx-copybutton ; extra == 'dev'
+Requires-Dist: sphinx-autobuild ; extra == 'dev'
+Requires-Dist: sphinx-gallery >=0.8.2 ; extra == 'dev'
+Requires-Dist: autoapi ; extra == 'dev'
+Requires-Dist: pandas ; extra == 'dev'
+Requires-Dist: seaborn ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: numpydoc ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Requires-Dist: sphinx-copybutton ; extra == 'doc'
+Requires-Dist: sphinx-autobuild ; extra == 'doc'
+Requires-Dist: sphinx-gallery >=0.8.2 ; extra == 'doc'
+Requires-Dist: autoapi ; extra == 'doc'
+Requires-Dist: pandas ; extra == 'doc'
+Requires-Dist: seaborn ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-mpl ; extra == 'test'
+
+# mpl-simple-svg-parser
+
+A simple SVG parser for matplotlib. It read the svg file as a vector path for
+Matplotlib. It utilizes cairosvg and picosvg to convert the input svg to more
+manageable svg, and read it using svgpath2mpl.
+
+It is meant to be good enough, not 100% compatible. We support gradient, but no filtes etc.
+
+Please check out the [sample
+page](https://leejjoon.github.io/mpl-simple-svg-parser/gallery/), were we
+compare the rendering result of mpl-simple-svg-parser to to other renderer,
+including inkscape.
+
+## Installation
+
+You can install using `pip`:
+
+```bash
+pip install mpl_simple_svg_parser
+```
+
+## Development Installation
+
+
+```bash
+pip install -e ".[dev]"
+```
+
