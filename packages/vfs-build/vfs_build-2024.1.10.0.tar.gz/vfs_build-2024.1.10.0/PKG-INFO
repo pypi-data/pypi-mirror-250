@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: vfs_build
+Version: 2024.1.10.0
+Summary: C++ builder for VFS
+Author-email: Hugo Leclerc <hugo.leclerc@universite-paris-saclay.fr>
+Description-Content-Type: text/markdown
