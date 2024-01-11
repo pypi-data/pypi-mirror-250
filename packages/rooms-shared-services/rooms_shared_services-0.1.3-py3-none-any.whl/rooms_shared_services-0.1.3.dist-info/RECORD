@@ -1,0 +1,15 @@
+rooms_shared_services/__init__.py,sha256=ZunQDtbF28nQISzQ1ceEJPzLHEhIkExCLeA8lSdAjYA,36
+rooms_shared_services/src/__init__.py,sha256=KghXjKc_HAjcpkCULdXY9dN3SK2GIiYNPa3V5bCDVkE,19
+rooms_shared_services/src/main.py,sha256=76gBJ9Ac_zXx93ecdfXj8LjMK5fib5yHnqcQg-0qpRc,584
+rooms_shared_services/src/receivers/abstract.py,sha256=HokUIQArYl58OvuLYYly1Bw2Y9hE4KVnZCMs_MW74_A,63
+rooms_shared_services/src/storage/__init__.py,sha256=ZEUYaCfEWtVDcx9rqxHDgRbbBitY1hLMAQJJ1anSAN0,23
+rooms_shared_services/src/storage/abstract.py,sha256=VPueqMUehCFgs0b4hn1eLqinnO8Ab-gSbNfmgBb9xGQ,615
+rooms_shared_services/src/storage/dynamodb.py,sha256=KyjS1A85tqP6KfnzTFmGfeL9s8_L5LJ6A1Zv41cnj1I,3292
+rooms_shared_services/tests/component/test_component.py,sha256=2hNADWKsYt8JIEwJX17elAdT6waQLC6O3mXfnaQxXUY,649
+rooms_shared_services/tests/integration/test_integration.py,sha256=30GxdwK3CNOY1nV6XUgdSxkPJKJnP0ZwwbZP11zq-x0,6030
+rooms_shared_services/tests/pytest.ini,sha256=j_xsLCEv7OsnmXRZcZ4Dd-JqyVbwC4bEBA9It4boPo4,170
+rooms_shared_services/tests/unit/test_true.py,sha256=mwqpsS284pDEPW9CR-67gZiGdWnPaEg6K9GIFSpMUqw,39
+rooms_shared_services-0.1.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+rooms_shared_services-0.1.3.dist-info/METADATA,sha256=q5jqUuB43WL0fxPuEOi53_UuHfAOvbNCNEE5szvexTc,450
+rooms_shared_services-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+rooms_shared_services-0.1.3.dist-info/RECORD,,
