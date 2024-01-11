@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: light_database
+Version: 0.1.1
+Author: Bigollo
+Requires-Dist: thrift
+Requires-Dist: rich
+Requires-Dist: pandas
+Requires-Dist: impyla
+Requires-Dist: mysqlclient
+Requires-Dist: DBUtils
+Requires-Dist: portalocker
+
