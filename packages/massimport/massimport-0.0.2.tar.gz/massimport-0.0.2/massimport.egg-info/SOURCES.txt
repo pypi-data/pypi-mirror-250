@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+massimport/__init__.py
+massimport.egg-info/PKG-INFO
+massimport.egg-info/SOURCES.txt
+massimport.egg-info/dependency_links.txt
+massimport.egg-info/requires.txt
+massimport.egg-info/top_level.txt
+massimport/console/__init__.py
+massimport/console/console.py
+massimport/full/__init__.py
+massimport/full/full.py
+massimport/massimport/__init__.py
+massimport/massimport/massimport.py
