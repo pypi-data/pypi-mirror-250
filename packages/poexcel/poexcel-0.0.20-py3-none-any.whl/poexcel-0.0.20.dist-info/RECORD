@@ -1,0 +1,17 @@
+poexcel/__init__.py,sha256=8ptO68gBomYehj2NRYpB_rbY7TC90CP4QZ0e9XtS1P0,89
+poexcel/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poexcel/api/excel.py,sha256=dbCzXA6wD0tUjytO31m_kgEh-244xArLuQlklJQQNVc,4240
+poexcel/core/ExcelType.py,sha256=w9KjM1hr22R6cmXvESChGau_X_OfQC8k8m_7JAOSuhg,8731
+poexcel/core/QueryExcel.py,sha256=kxM4TSPM3dtPtFT3O3XGKmY7Rd92yG8PxnEpnrsH4qA,2748
+poexcel/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poexcel/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poexcel/lib/pandas_mem.py,sha256=59Zrg5ayetayjrXgxS6Y-d1ov6BuGRP6sTPDvh0yH2A,1472
+poexcel/lib/excel/SplitExcel.py,sha256=cnHGTyxLONa21sMstDR8PpK-GgzkOlTLtKwm7WGnRRE,3910
+poexcel/lib/excel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=T1HWb39tq0H-v7idpzujFLtYWZ2pePBsKusqu0mOj0I,183
+tests/test_excel.py,sha256=yTXBOsHCOJcoO8SnWF2qoF-i3cuZ58QHN7VVmOAAQzE,1429
+poexcel-0.0.20.dist-info/LICENSE,sha256=GQ6XaGbsxl2OlUBlk1jLBtkHC8U1p6Bw9E1P1XqYAlU,1093
+poexcel-0.0.20.dist-info/METADATA,sha256=6_xQV8GynGMryPEyrYO1toHFULO8JfBssTO4gxxHRCA,8629
+poexcel-0.0.20.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+poexcel-0.0.20.dist-info/top_level.txt,sha256=-sqWZKT3GJQWqL0bsRHnwJD4Per8P0ZCXqYcgLsQkGY,14
+poexcel-0.0.20.dist-info/RECORD,,
