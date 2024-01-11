@@ -1,0 +1,3 @@
+[console_scripts]
+daric=daric.main:app
+
