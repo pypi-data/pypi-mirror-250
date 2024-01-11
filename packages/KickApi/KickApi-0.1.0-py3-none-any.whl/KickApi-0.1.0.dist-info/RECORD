@@ -1,0 +1,8 @@
+kickapi/__init__.py,sha256=mtLNruRkQJqkx-riDrIv500CsY48XtyhfhmLecXhzaY,58
+kickapi/channel_data.py,sha256=AyRp9jt0VrNROZKrgzswJzSx8fl-zvSdWozy51_mOY0,460
+kickapi/kickapi.py,sha256=rzMzNuJVPSNoZfFQvTVgEBQeR_gVRlExvttX9rxpmfU,1391
+kickapi/video_data.py,sha256=9TP9OqRC8Kdfi0VEOQlaXOlHYzUlbQBgFYIb5r-6SEs,814
+KickApi-0.1.0.dist-info/METADATA,sha256=4y9ZELQiKE3DNWtxqQkQwzc9knwq62KVHJ6fiF34eTw,122
+KickApi-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+KickApi-0.1.0.dist-info/top_level.txt,sha256=h0dBs5RQIICBBtM5HdPpdv9wok0kSduMHgWtIN4GBVA,8
+KickApi-0.1.0.dist-info/RECORD,,
