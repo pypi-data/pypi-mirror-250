@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ocrd_network
+Version: 2.60.3
+Summary: OCR-D framework - network
+Author: Jonas Schrewe, Triet Doan
+Author-email: Mehmed Mustafa <unixprog@gmail.com>
+License: Apache License 2.0
+Project-URL: Homepage, https://ocr-d.de
+Project-URL: Documentation, https://ocr-d.de/core
+Project-URL: Repository, https://github.com/OCR-D/core
+Project-URL: Issues, https://github.com/OCR-D/core/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: uvicorn>=0.17.6
+Requires-Dist: fastapi>=0.78.0
+Requires-Dist: pydantic==1.*
+Requires-Dist: docker
+Requires-Dist: paramiko
+Requires-Dist: pika>=1.2.0
+Requires-Dist: beanie~=1.7
+Requires-Dist: httpx>=0.22.0
+Requires-Dist: ocrd_validators
+Requires-Dist: ocrd_utils
+
+# ocrd_network
+
+> OCR-D framework - web API
+
+See also: https://github.com/OCR-D/core
