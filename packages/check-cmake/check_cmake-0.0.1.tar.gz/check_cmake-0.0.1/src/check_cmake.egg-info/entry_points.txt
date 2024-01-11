@@ -1,0 +1,2 @@
+[console_scripts]
+check_cmake = check_cmake:main
