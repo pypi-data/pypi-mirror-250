@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: genmax
+Version: 0.0.4
+Summary: A simple code generation tool.
+Home-page: https://https://github.com/razaibi/genmax/
+Author: Raza Balbale
+License: Apache 2.0
+Project-URL: Documentation, https://github.com/razaibi/genmax/README.md
+Project-URL: Source, https://github.com/razaibi/genmax
+Project-URL: Tracker, https://github.com/razaibi/genmax/
+Keywords: cli code generator automation
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML ==6.0
+Requires-Dist: Jinja2 ==3.1.2
+Requires-Dist: pluralizer ==1.2.0
+Requires-Dist: case-switcher ==1.3.13
+Requires-Dist: typer ==0.9.0
+
+#### What is this?
+
+Genmax is a simple code generation tool.
+
+#### Extensions supported in templates
+
+The following methods are supported in the template:
+
+| Description | Method |
+|:---|:---|
+|Lower case| lcase(your_string)|
+|Pluralize| pluralize(your_string)|
+|Join With Commas| joinify(name_of_element, element_list)|
+|Switch to Camel case| camel(your_string)|
+|Switch to Kebab case| kebab(your_string)|
+|Switch to Pascale case| pascale(your_string)|
+|Switch to Dot case| dot(your_string)|
+|Switch to Title case| title(your_string)|
+|Switch to Snake case| snake(your_string)|
+|Switch to Path format| path(your_string)|
+|Generate UUID| uuid()|
+|Generate secret in 16 bit - hexadecimal| secret()|
+|Generate secret in 64 bit - hexadecimal| secret_complex()|
+
+#### Run It
+
+```bash
+gmx wf sample sample
+```
