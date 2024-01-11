@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry-git-branch-plugin"
+version = "0.1.0"
+description = "A poetry plugin to store the current git branch into environment variable when poetry runs any command."
+authors = ["Francesc Font Clos <fran@dribia.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+poetry = "^1.7.1"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+poetry-git-env = "poetry_git_branch_plugin.plugin:PoetryGitBranchPlugin"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
