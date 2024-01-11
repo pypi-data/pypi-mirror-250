@@ -1,0 +1,7 @@
+requests
+tqdm
+pandas
+PyJWT>=2.5.0
+pytz
+cryptography
+numpy

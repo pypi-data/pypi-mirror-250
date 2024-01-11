@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+euskalmet/__init__.py
+euskalmet/__version__.py
+euskalmet/euskalmet.py
+euskalmet/exceptions.py
+euskalmet/geo.py
+euskalmet/stations.py
+euskalmet/weather.py
+python_euskalmet.egg-info/PKG-INFO
+python_euskalmet.egg-info/SOURCES.txt
+python_euskalmet.egg-info/dependency_links.txt
+python_euskalmet.egg-info/requires.txt
+python_euskalmet.egg-info/top_level.txt
