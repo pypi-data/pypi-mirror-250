@@ -1,0 +1,8 @@
+README.md
+setup.py
+package_test_squab77/__init__.py
+package_test_squab77/package_test_squab77.py
+package_test_squab77.egg-info/PKG-INFO
+package_test_squab77.egg-info/SOURCES.txt
+package_test_squab77.egg-info/dependency_links.txt
+package_test_squab77.egg-info/top_level.txt
