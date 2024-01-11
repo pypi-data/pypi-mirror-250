@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: braspag-sdk
+Version: 0.0.1
+Summary: 
+Home-page: https://github.com/romatallinn/braspagSdk-python
+Keywords: braspag,sdk,python,cielo,api,ecommerce,brazil
+Author: Roman Sirokov
+Author-email: sirokov@dizconto.com
+Requires-Python: >=2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: future (>=0.18.3,<0.19.0)
+Requires-Dist: packaging (>=23.2,<24.0)
+Requires-Dist: pyparsing (>=3.1.1,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/romatallinn/braspagSdk-python
+Description-Content-Type: text/markdown
+
+# Braspag SDK for Python
+Unofficial SDK for Python to integrate with Braspag payment gateway.
+
+## Installation
+```bash
+pip install --upgrade braspag-sdk
+```
+
+## Disclaimer
+This SDK is created for personal use and is not officially supported by Braspag/Cielo.
+The functionality is limited to what I need for my own projects.
+You are more than welcome to contribute the functionality that you need as soon as it follows the same code style.
+Fortunately, this is a very simple SDK, so it should be easy to understand and extend.
+
