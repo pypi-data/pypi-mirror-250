@@ -1,0 +1,9 @@
+PyOpenGL
+Pyro4>=4.22
+freetype-py
+matplotlib
+microscope>=0.7
+numpy
+pyserial
+scipy
+wxPython>=4.1

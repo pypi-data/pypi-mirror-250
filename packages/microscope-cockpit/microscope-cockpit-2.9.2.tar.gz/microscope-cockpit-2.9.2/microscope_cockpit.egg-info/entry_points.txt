@@ -1,0 +1,2 @@
+[gui_scripts]
+cockpit = cockpit:_setuptools_entry_point
