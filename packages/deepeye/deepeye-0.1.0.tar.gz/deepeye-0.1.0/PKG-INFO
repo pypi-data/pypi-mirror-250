@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: deepeye
+Version: 0.1.0
+Summary: Utility tools for image enhancement.
+Home-page: https://github.com/ImagineersHub/deepeye
+Author: esunvoteb
+Author-email: esun@voteb.com
+License: MIT
+Keywords: python,blender
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch==2.0.0+cu117
+Requires-Dist: torchaudio==2.0.1+cu117
+Requires-Dist: torchvision==0.15.1+cu117
+Requires-Dist: numpy==1.24.2
+Requires-Dist: opencv-contrib-python==4.7.0.72
+
+
+# DeepEye
+Utility tools for image enhancement
