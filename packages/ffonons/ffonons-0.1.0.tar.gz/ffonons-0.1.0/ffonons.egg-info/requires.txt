@@ -1,0 +1,13 @@
+matplotlib
+numpy
+pandas>=2.0.0
+plotly
+pymatgen
+pymatviz[export-figs]
+scikit-learn
+scipy
+tqdm
+
+[test]
+pytest
+pytest-cov

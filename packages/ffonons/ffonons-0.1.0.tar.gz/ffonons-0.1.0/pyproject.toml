@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ffonons"
+version = "0.1.0"
+description = "A Python package for benchmarking phonon predictions from ML force fields"
+authors = [{ name = "Janosh Riebesell", email = "janosh.riebesell@gmail.com" }]
+readme = "readme.md"
+license = { file = "license" }
+keywords = [
+  "chemistry",
+  "force-fields",
+  "interatomic-potentials",
+  "machine-learning",
+  "materials-science",
+  "phonons",
+  "physics",
+]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+requires-python = ">=3.11"
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "pandas>=2.0.0",
+  "plotly",
+  "pymatgen",
+  "pymatviz[export-figs]",
+  "scikit-learn",
+  "scipy",
+  "tqdm",
+]
+
+[project.urls]
+Homepage = "https://janosh.github.io/ffonons"
+Repo = "https://github.com/janosh/ffonons"
+Package = "https://pypi.org/project/ffonons"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov"]
+
+[tool.setuptools.packages.find]
+include = ["ffonons*"]
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[tool.ruff]
+target-version = "py311"
+select = ["ALL"]
+ignore = [
+  "ANN401",  # Dynamically typed expressions (typing.Any) disallowed
+  "BLE001",  # do not catch blind except
+  "C408",    # unnecessary-collection-call
+  "C901",    # too-complex
+  "COM812",  # missing trailing comma
+  "D100",    # undocumented-public-module
+  "D205",    # blank-line-after-summary
+  "E731",    # lambda-assignment
+  "EM102",   #
+  "ERA",     # commented-out-code
+  "FBT001",
+  "FBT002",
+  "FIX002",
+  "N806",    # non-lowercase-variable-in-function
+  "PD901",   # pandas-df-variable-name
+  "PERF203", # try-except-in-loop
+  "PLC0414", # useless-import-alias
+  "PLR",     # pylint refactor
+  "PLW2901", # redefined-loop-name
+  "PT006",   # pytest-parametrize-names-wrong-type
+  "PT013",   # pytest-incorrect-pytest-import
+  "PTH",     # prefer pathlib to os.path
+  "S101",    # use of assert detected
+  "T201",
+  "TD",
+  "TRY003",  # Avoid specifying long messages outside the exception class
+]
+pydocstyle.convention = "google"
+isort.split-on-trailing-comma = false
+
+[tool.ruff.per-file-ignores]
+"tests/*" = ["D"]
