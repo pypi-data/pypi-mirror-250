@@ -1,0 +1,7 @@
+bibt/gcp/asset/__init__.py,sha256=Y18w-7FLLXUb_fEw3WaVW2GVHgcQwLyTDHLch6F735A,109
+bibt/gcp/asset/classes.py,sha256=ECtb-2IB332zCrBc_rvlMHfQOzj8pgvo1TfvaIQmY40,13724
+bibt/gcp/asset/version.py,sha256=z6JYG2yALo9HI8zZMbgirtKP92kE14gI-nkfBP7Sf24,23
+bibt_gcp_asset-0.1.36.dist-info/METADATA,sha256=LCxhz1n4mEqmESjIq_R9QXyN5OgUw_WiNrFSWOWfyAE,2260
+bibt_gcp_asset-0.1.36.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+bibt_gcp_asset-0.1.36.dist-info/licenses/LICENSE,sha256=TDV6yQwODf_uwPkwskEh6wKRZ1gN2dzn22Dv6Gl0VsE,1054
+bibt_gcp_asset-0.1.36.dist-info/RECORD,,
