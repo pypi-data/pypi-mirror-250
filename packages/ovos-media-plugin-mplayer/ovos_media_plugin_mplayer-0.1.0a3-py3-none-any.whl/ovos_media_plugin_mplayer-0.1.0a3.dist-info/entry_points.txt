@@ -1,0 +1,6 @@
+[opm.media.audio]
+ovos-media-audio-plugin-mplayer=ovos_plugin_mplayer.MplayerOCPAudioService
+
+[opm.media.video]
+ovos-media-video-plugin-mplayer=ovos_plugin_mplayer:MplayerOCPVideoService
+
