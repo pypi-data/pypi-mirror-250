@@ -1,0 +1,16 @@
+click
+jieba
+joblib
+lmdb
+marisa-trie
+mwparserfromhell
+numpy
+scipy
+tqdm
+
+[icu]
+PyICU
+
+[mecab]
+mecab-python3
+unidic-lite
