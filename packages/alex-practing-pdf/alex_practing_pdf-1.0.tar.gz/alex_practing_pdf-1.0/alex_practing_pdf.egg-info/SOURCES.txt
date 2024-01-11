@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+alex_practing_pdf.egg-info/PKG-INFO
+alex_practing_pdf.egg-info/SOURCES.txt
+alex_practing_pdf.egg-info/dependency_links.txt
+alex_practing_pdf.egg-info/top_level.txt
+alexpdf/__init__.py
+alexpdf/pdf2image.py
+alexpdf/pdf2text.py
