@@ -1,0 +1,10 @@
+radiant/compiler/__init__.py,sha256=NLGGpLFQ21d7P65YaYJx56nKgQavoTIj5w0Z09p9UN8,59
+radiant/compiler/server.py,sha256=pl_4BJqcL4C5KwCI83bdfKxiiHD-gYjozAXgmePJN4E,1502
+radiant/compiler/android/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+radiant/compiler/android/permissions.py,sha256=HQ7mSPKfR15wFrRQ7Z28JZ2Oka32bFakjiOcU_22NfM,12446
+radiant_compiler-0.1a5.data/scripts/radiant_p4a,sha256=6igbqPqyWdvgRSVWvrsaMlS48Q9-snFl8jtBIDgYcn8,593
+radiant_compiler-0.1a5.dist-info/LICENSE,sha256=ao7seoK2DluvSr5N_R0isZeiqa2RKSlb13m2EUhcZcE,1319
+radiant_compiler-0.1a5.dist-info/METADATA,sha256=SUqFKF7JDxbnldxJkxQDJTnxh4xeQO6YZiu7e3eEJJU,1439
+radiant_compiler-0.1a5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+radiant_compiler-0.1a5.dist-info/top_level.txt,sha256=EVFVSuRl34K8_aDyJqWEHpU6TdWsbIHufuwZdT6gydk,8
+radiant_compiler-0.1a5.dist-info/RECORD,,
