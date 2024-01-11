@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: luis-v-subtitler
+Version: 0.1.9
+Summary: A Python package to use AI to subtitle any video in any language
+Home-page: https://github.com/LuisAVasquez/python-luis-v-subtitler
+Author: Luis Antonio VASQUEZ REINA
+Author-email: luis.vasquez.work.contact@gmail.com
+License: MIT
+Project-URL: Documentation, https://python-luis-v-subtitler.readthedocs.io/
+Project-URL: Changelog, https://python-luis-v-subtitler.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/LuisAVasquez/python-luis-v-subtitler/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: click
+Requires-Dist: moviepy ==1.0.3
+Requires-Dist: pytube ==15.0.0
+Requires-Dist: torch ==1.13.1
+Requires-Dist: torchvision ==0.14.1
+Requires-Dist: torchaudio ==0.13.1
+Requires-Dist: torchtext ==0.14.1
+Requires-Dist: torchdata ==0.5.1
+Requires-Dist: pydub ==0.25.1
+Requires-Dist: openai-whisper ==20231117
+Requires-Dist: speechbrain ==0.5.16
+Requires-Dist: accelerate ==0.25.0
+Requires-Dist: optimum ==1.16.0
+
+========
+Overview
+========
+
+
+
+A Python package to use AI to subtitle any video in any language
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install luis-v-subtitler
+
+You can also install the in-development version with::
+
+    pip install https://github.com/LuisAVasquez/python-luis-v-subtitler/archive/main.zip
+
+
+Documentation
+=============
+
+
+https://python-luis-v-subtitler.readthedocs.io/
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.0 (2023-12-04)
+------------------
+
+* First release on PyPI.
