@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gemmini
+Version: 0.0.2
+Summary: Python package for constructing and handling geometric objects
+Home-page: https://github.com/byanko55/gemmini
+Author: Yankos
+Author-email: Yankos <byanko55@gmail.com>
+Maintainer: gemmini contributors
+License: BSD 3-Clause
+Project-URL: Documentation, https://github.com/byanko55/gemmini
+Project-URL: Repository, https://github.com/byanko55/gemmini
+Keywords: geometry,drawing 2D/3D graphic
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+=======
+Gemmini
+=======
+
+Python package for constructing and handling geometric objects
