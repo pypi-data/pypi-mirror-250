@@ -1,0 +1,3 @@
+[console_scripts]
+pyjwt512=pyjwt512.genjwt:run
+
