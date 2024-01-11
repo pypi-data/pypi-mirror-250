@@ -1,0 +1,2 @@
+[console_scripts]
+pipreqgen = pipreqgen.extract_imports:main

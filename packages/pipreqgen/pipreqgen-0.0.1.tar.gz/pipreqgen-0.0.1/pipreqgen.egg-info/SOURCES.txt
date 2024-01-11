@@ -1,0 +1,11 @@
+README.md
+setup.py
+pipreqgen/__init__.py
+pipreqgen/extract_imports.py
+pipreqgen.egg-info/PKG-INFO
+pipreqgen.egg-info/SOURCES.txt
+pipreqgen.egg-info/dependency_links.txt
+pipreqgen.egg-info/entry_points.txt
+pipreqgen.egg-info/top_level.txt
+tests/__init__.py
+tests/test_extract_imports.py
