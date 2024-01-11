@@ -1,0 +1,73 @@
+### SynthGen
+
+## Introduction
+
+<p> SynthGen is a string generator that generates name-like strings for synthesising name identifiers. <br>
+The main goal for developing SynthGen is to create strings that shares the characteristics of a known population. <br>
+This version of SynthGen generates low fidelity sex and ethnicity.</p>
+
+Users can tailor:<br>
+
+Total number of terms to generate: total_strings (int) (1,000) <br>
+
+# characteristics related to gender/ethnicity
+
+<p> Proportion of names are unique (not correct yet): unique_percentage (int) (0.5)<br>
+Proportion of gender: gender_settings (dict) {'Male': 0.4, 'Female': 0.6} <br>
+Proportion of Strings overlapped by gender: gender_overlap_percentage (int) (0.15) <br>
+Proportion of ethnicity: ethnicity_settings (dict) {'White': 0.81, 'Asian': 0.096, 'Black': 0.042, 'Mixed': 0.03, 'Other': 0.022} <br>
+Proportion of Strings overlapped by ethnicity: ethnicity_overlap_percentages (dict) {('White', 'Black'): 0.1, ('White', 'Asian'): 0.05, ('White', 'Other'): 0.1} <br> </p>
+
+# String related characteristics:
+
+<p>string_settings = { <br>
+    'lengths': [4, 5, 6, 7],  # Specify lengths <br>
+    'length_probabilities': [0.15, 0.3, 0.4, 0.15],  # Specify length probabilities <br>
+    'num_terms_range': [1, 2, 3],  # Specify number of terms range  <br>
+    'num_terms_probabilities': [0.2, 0.6, 0.2]  # Specify number of terms probabilities  <br>
+} </p>
+
+## Future direction - 1
+Other string characteristics will be introduced to tailor, such as:
+- apostrophes, hyphens, non-ISO characters
+- vowel-consonant ratios
+
+Uniqueness of terms will be a key goal to be retained, by gender and ethnicity. 
+
+
+## Future direction - 2
+To implement a insight tool to generate settings based on the loaded dataframe, and generate strings that match the characteristics of the loaded dataset.
+
+---
+
+## Current work-around looks like:
+
+uniqueness_requirements = {
+    ('White', 'Male'): 0.85,
+    ('White', 'Female'): 0.80,
+    ('Black', 'Male'): 0.90,
+    ('Black', 'Female'): 0.75,
+    # Add more combinations as needed
+}
+
+df = pd.read_csv('output_from_SynthGen.csv')
+grouped_df = df.groupby(['Ethnicity', 'Gender'])
+
+for group, group_data in grouped_df:
+    # Get the desired uniqueness for the current group from the dictionary
+    desired_uniqueness = uniqueness_requirements.get(group, 0.8)  # Default to 0.8 if not specified
+    
+    # Calculate the number of unique names needed for the group based on desired uniqueness
+    total_names = len(group_data)
+    unique_names_needed = int(desired_uniqueness * total_names)
+    
+    # Apply your sampling technique to ensure the desired level of uniqueness
+    # Replace this with your actual sampling logic
+    sampled_data = group_data.sample(unique_names_needed)
+    
+    # Append the sampled data to the subsample DataFrame
+    subsample_df = subsample_df.append(sampled_data)
+
+subsample_df.to_csv('subsampled_data.csv', index=False)
+
+

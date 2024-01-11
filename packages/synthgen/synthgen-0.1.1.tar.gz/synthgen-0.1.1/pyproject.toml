@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "synthgen"
+version = "0.1.1"
+description = "Generate strings according to specified characteristics"
+authors = ["Joseph Lam <joseph.lam.18@ucl.ac.uk>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "1.26.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
