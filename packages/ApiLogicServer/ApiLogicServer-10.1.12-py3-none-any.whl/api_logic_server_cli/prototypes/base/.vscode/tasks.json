@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run welcome on startup",
+        "type": "shell",
+        "command": "echo '     *** F5 to run... Review readme ***\n\n'",
+        "windows": {
+          "command": "code -r readme.md"
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": { "runOn": "folderOpen" }
+      }
+
+    ]
+  }
