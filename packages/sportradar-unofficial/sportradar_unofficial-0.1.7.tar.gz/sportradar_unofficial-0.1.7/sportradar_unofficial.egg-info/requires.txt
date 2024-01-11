@@ -1,0 +1,6 @@
+urllib3
+pydantic
+requests
+pymongo
+redis
+python-dotenvcoloredlogs<16.0.0,>=15.0.1
