@@ -1,0 +1,2 @@
+[console_scripts]
+magiclip = magiclip.magiclip:main_docopt
