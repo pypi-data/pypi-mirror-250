@@ -1,0 +1,93 @@
+[build-system]
+requires = ["hatchling>=1.9.0", "jupyterlab>=3.6.3,<5", "hatch-nodejs-version>=0.3.2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyterlab_asksmce_voat"
+description = "SMCE Services Extension for JupyterLab"
+keywords = [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+]
+urls = {texzt = "https://navteca.com"}
+authors = [{name = "Navteca LLC", email = "info@navteca.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Framework :: Jupyter",
+    "Framework :: Jupyter :: JupyterLab",
+    "Framework :: Jupyter :: JupyterLab :: 3",
+    "Framework :: Jupyter :: JupyterLab :: Extensions",
+    "Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "nbformat"
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = [
+    "coverage",
+    "pytest",
+    "pytest-asyncio",
+    "pytest-cov",
+    "pytest-tornasync"
+]
+
+[tool.hatch.version]
+source = "nodejs"
+
+[tool.hatch.metadata.hooks.nodejs]
+fields = ["description", "authors", "urls"]
+
+[tool.hatch.build]
+artifacts = ["jupyterlab_asksmce_voat/labextension"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"jupyterlab_asksmce_voat/labextension" = "share/jupyter/labextensions/jupyterlab_asksmce_voat"
+"install.json" = "share/jupyter/labextensions/jupyterlab_asksmce_voat/install.json"
+
+[tool.hatch.build.targets.sdist]
+exclude = [".github"]
+
+[tool.hatch.build.hooks.jupyter-builder]
+dependencies = ["hatch-jupyter-builder>=0.5"]
+build-function = "hatch_jupyter_builder.npm_builder"
+ensured-targets = [
+    "jupyterlab_asksmce_voat/labextension/static/style.js",
+    "jupyterlab_asksmce_voat/labextension/package.json",
+]
+skip-if-exists = ["jupyterlab_asksmce_voat/labextension/static/style.js"]
+
+[tool.hatch.build.hooks.jupyter-builder.build-kwargs]
+build_cmd = "build:prod"
+npm = ["jlpm"]
+
+[tool.hatch.build.hooks.jupyter-builder.editable-build-kwargs]
+build_cmd = "install:extension"
+npm = ["jlpm"]
+source_dir = "src"
+build_dir = "jupyterlab_asksmce_voat/labextension"
+
+[tool.jupyter-releaser.options]
+version_cmd = "hatch version"
+
+[tool.jupyter-releaser.hooks]
+before-build-npm = [
+    "python -m pip install 'jupyterlab>=3.6.3,<5'",
+    "jlpm",
+    "jlpm build:prod"
+]
+before-build-python = ["jlpm clean:all"]
+
+[tool.check-wheel-contents]
+ignore = ["W002"]
