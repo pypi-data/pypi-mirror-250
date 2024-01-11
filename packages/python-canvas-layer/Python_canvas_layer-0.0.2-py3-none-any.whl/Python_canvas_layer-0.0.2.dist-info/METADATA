@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Python_canvas_layer
+Version: 0.0.2
+Summary: A lightweight Python layer over the Canvas LMS API
+Author-email: Zack Ives <zives@cis.upenn.edu>
+Project-URL: Homepage, https://github.com/upenn/python_canvas
+Project-URL: Issues, https://github.com/upenn/python_canvas/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: html5lib
+Requires-Dist: beautifulsoup4
+Requires-Dist: canvasapi
+Requires-Dist: pandas
+Requires-Dist: pytz
+Requires-Dist: pyyaml
+
+# Python-Canvas APIs
+
+Lightweight APIs for accessing the Canvas LMS, built as part of a Penn CIS Department effort to integrate Canvas and Gradescope data.
+
+To install:
+
+`pip install python_canvas`
