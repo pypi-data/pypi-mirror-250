@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: argilla-haystack
+Version: 0.0.1a0
+Summary: Argilla-Haystack Integration
+Project-URL: Documentation, https://github.com/argilla-io/argilla-haystack
+Project-URL: Issues, https://github.com/argilla-io/argilla-haystack/issues
+Project-URL: Source, https://github.com/argilla-io/argilla-haystack
+Author-email: Argilla <admin@argilla.io>
+License-Expression: MIT
+License-File: LICENSE
+License-File: LICENSE_HEADER
+Keywords: annotation,llm,monitoring
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: argilla>=1.18.0
+Requires-Dist: farm-haystack>=1.23.0
+Requires-Dist: packaging>=23.2
+Requires-Dist: typing-extensions>=4.3.0
+Provides-Extra: dev
+Requires-Dist: black==23.10.0; extra == 'dev'
+Requires-Dist: pre-commit>=3.5.0; extra == 'dev'
+Requires-Dist: ruff==0.1.0; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest>=7.4.0; extra == 'tests'
+Description-Content-Type: text/markdown
+
+# argilla-haystack
+A public repo that contains integrations for Argilla an Haystack.
