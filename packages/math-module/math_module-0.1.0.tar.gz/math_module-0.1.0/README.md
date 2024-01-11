@@ -1,0 +1,1 @@
+This module provide basic maths functionality to calculate gcd and lcm of two numbers.
