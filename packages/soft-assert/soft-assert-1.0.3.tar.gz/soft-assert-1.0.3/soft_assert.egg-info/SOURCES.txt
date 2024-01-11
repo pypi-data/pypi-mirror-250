@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+soft_assert/__init__.py
+soft_assert/soft_assert.py
+soft_assert.egg-info/PKG-INFO
+soft_assert.egg-info/SOURCES.txt
+soft_assert.egg-info/dependency_links.txt
+soft_assert.egg-info/top_level.txt
