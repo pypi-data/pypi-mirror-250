@@ -1,0 +1,17 @@
+aiida_bigdft/__init__.py,sha256=zNiJGHuWDChE-6cinWAVMSfyEWnHlsnhTum1M2JFk2Q,107
+aiida_bigdft/calculations.py,sha256=Ai-NWGTW0yV0gEpjA24e_i1sTVSjIqF-_Oj_MFRoHlQ,7629
+aiida_bigdft/cli.py,sha256=pql5pkttZiy_Vcv2Fyv2kbGh8J6KOF7I9aM-9UqAFTI,1594
+aiida_bigdft/helpers.py,sha256=pyQzUnS5MaF5gWQ33baiGiLPPDWdwgsYnqiMLPnU_U8,3312
+aiida_bigdft/parsers.py,sha256=wuL3yFG5ikZmOu1IZ-be_EIbd_M4rFBvkCxanswRdig,5622
+aiida_bigdft/data/BigDFTFile.py,sha256=FjW422wbtrgtITTkcHxwgW8VYI4ZyCj4Knw1dRCYfQs,2140
+aiida_bigdft/data/BigDFTParameters.py,sha256=fTnFo8AAgBia2_PQdB3pQyV1F3yY1qhZilAKEK4efBk,1550
+aiida_bigdft/data/__init__.py,sha256=suRWUJE9j4bqdMGX8RzD-iby7bosaQ_a7qAmPx4FmiU,194
+aiida_bigdft/utils/MiniLogger.py,sha256=eP3UkAwFbMNcHFZNtFWh-VO4s8djLCGbN1eAHrpa_VI,957
+aiida_bigdft/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiida_bigdft/workflows/__init__.py,sha256=CkceJFEKSseVmksfJScPHNkL7aWmrun3uEMnnznrmNc,74
+aiida_bigdft/workflows/base.py,sha256=aD-pl75tsck_co_acrc6zQY8eg0IZnOIp6i1hqkFTyY,2570
+aiida_bigdft-0.3.0.dist-info/entry_points.txt,sha256=JmBKfFS_YjDcv7j_mrFsMmwyASFBSW7csy4k6lzJ2uI,504
+aiida_bigdft-0.3.0.dist-info/LICENSE,sha256=VuGwEMBg-9RD7bySc_g5oPqUJ0lKhQf5OZJg3PD-fT8,1068
+aiida_bigdft-0.3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+aiida_bigdft-0.3.0.dist-info/METADATA,sha256=g2t-NKvdvPk2AqN-jnQJrLGIpmAHv-1M7C98vhboicM,2742
+aiida_bigdft-0.3.0.dist-info/RECORD,,
