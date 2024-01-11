@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/dev-version-bumping/__init__.py
+src/dev_version_bumping.egg-info/PKG-INFO
+src/dev_version_bumping.egg-info/SOURCES.txt
+src/dev_version_bumping.egg-info/dependency_links.txt
+src/dev_version_bumping.egg-info/top_level.txt
