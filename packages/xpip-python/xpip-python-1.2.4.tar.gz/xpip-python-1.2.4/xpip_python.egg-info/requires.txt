@@ -1,0 +1,10 @@
+argcomplete
+keyring
+keyrings.alt
+ping3
+pip
+setuptools>=51.0.0
+tabulate
+toml
+twine
+wheel
