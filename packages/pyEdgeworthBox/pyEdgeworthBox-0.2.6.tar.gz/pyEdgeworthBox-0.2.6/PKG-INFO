@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyEdgeworthBox
+Version: 0.2.6
+Summary: Python Library to draw the Edgeworth box and calculate equilibrium, core, pareto efficient allocations etc
+Home-page: https://gitlab.com/maxlit/pyEdgeworthBox
+Author: Maxim Litvak
+Author-email: maxim@litvak.eu
+Description-Content-Type: text/plain
+License-File: LICENSE.txt
+
+
+pyEdgeworthBox calculates equilibrium, core, pareto effective allocation etc in the pure exchange economy, plots Edgeworth box (microeconomics)
