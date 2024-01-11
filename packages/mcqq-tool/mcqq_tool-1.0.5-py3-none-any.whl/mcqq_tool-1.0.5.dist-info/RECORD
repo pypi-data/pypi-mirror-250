@@ -1,0 +1,12 @@
+mcqq_tool/__init__.py,sha256=ny0HVh3H0Ldd48-mzpjXaY-PdSi40k5_32TQpGEnujU,19
+mcqq_tool/config.py,sha256=wCXjjUiHspv6OHLsHabmZBIqeOXqhzqYkiuB7PmTgVs,2208
+mcqq_tool/model.py,sha256=OKBOWYHPZ6yXVVJOnacOfJLqRzYuSWXv8kvezN73snQ,266
+mcqq_tool/parse_qq_msg.py,sha256=hv_QsMW5a_RDsGdLw7GbkwtZaKOFPK5c4W02fVBvdb0,14785
+mcqq_tool/rule.py,sha256=O_3mRCTNSSnaAtfxk2JZ1bL2S_XWFjSGObrv9LPHoGs,4892
+mcqq_tool/send_to_mc.py,sha256=o7fJbA92_nxE3_1qbTgIk-WAoATlm9bc_t6xOhD5DBk,10238
+mcqq_tool/send_to_qq.py,sha256=jRhNZrA9LSgL2cizGHv5FbwlvuRl5zjuFNbi7apVWa8,2270
+mcqq_tool-1.0.5.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+mcqq_tool-1.0.5.dist-info/METADATA,sha256=PeQZAbGnaA4JdOnoFD3y1-zdi9SzxPPVhZMtHjQwpdE,608
+mcqq_tool-1.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mcqq_tool-1.0.5.dist-info/top_level.txt,sha256=q9yj_RM2NGhBJI2npYQeaeUG6YUptCcTFQBAPHFUvrA,10
+mcqq_tool-1.0.5.dist-info/RECORD,,
