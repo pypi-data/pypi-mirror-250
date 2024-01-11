@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jupyter-jchannel
+Version: 0.0.2
+Summary: 
+Home-page: https://github.com/hashiprobr/jupyter-jchannel
+Author: Marcelo Hashimoto
+Author-email: marcelo.hashimoto@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: websockets (>=12.0,<13.0)
+Project-URL: Repository, https://github.com/hashiprobr/jupyter-jchannel
+Description-Content-Type: text/markdown
+
+jupyter-jchannel
+----------------
+
