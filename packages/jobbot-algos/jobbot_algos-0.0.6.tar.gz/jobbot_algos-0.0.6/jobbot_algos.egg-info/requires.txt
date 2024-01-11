@@ -1,0 +1,6 @@
+setuptools
+twine
+pandas
+loguru
+fastcore
+numpy
