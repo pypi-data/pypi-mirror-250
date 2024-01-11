@@ -1,0 +1,10 @@
+perflint/__init__.py,sha256=E4-IEeM9OkEdyuOXy6Y0NtuuIjUcdLyTnulvv2SOLU8,759
+perflint/__main__.py,sha256=ij6va-Wo0Qzsl1Yf7cP5LpYgDSkgb-cvQL-9MyigZ8Q,680
+perflint/comprehension_checker.py,sha256=F_LWe44G0rh6esoXc1KIzfDe1iE2HAFH5JnKoq1LHFo,3262
+perflint/for_loop_checker.py,sha256=o5m_vsTH2RL1HKO0Tm7T5I9zyrSwELVeVcwDBt50DzY,14022
+perflint/list_checker.py,sha256=Dw-sMFf4m-T4bAIm8OMOaHLGewl8JzVQ2ib-E1TZ4FU,2681
+perflint-0.8.1.dist-info/entry_points.txt,sha256=h8ODQTyVRx5iWpxF_bekQN6BOvQnzqLts4n60NlAGQk,46
+perflint-0.8.1.dist-info/LICENSE,sha256=i-D7EyY4kd-FVQ4su6RJr8ySg-NWgF5EyusyPwrDckI,1069
+perflint-0.8.1.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+perflint-0.8.1.dist-info/METADATA,sha256=P2areK3rVDQl_7O7OYnootsWOVA75u1WJHfasx7b31g,10182
+perflint-0.8.1.dist-info/RECORD,,
