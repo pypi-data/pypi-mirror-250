@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyEdgeworthBox
+Version: 0.2.8
+Summary: Python Library to draw the Edgeworth box and calculate equilibrium, core, pareto efficient allocations etc
+Home-page: https://gitlab.com/maxlit/pyEdgeworthBox
+Author: Maxim Litvak
+Author-email: maxim@litvak.eu
+Keywords: Pareto,Walras equilibrium,contract curve,Edgeworth box,budget line,microeconomics,game theory,marginal rate of substitution
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Education
+Classifier: Topic :: Sociology
+Description-Content-Type: text/plain
+License-File: LICENSE.txt
+
+
+pyEdgeworthBox calculates equilibrium, core, pareto effective allocation etc in the pure exchange economy, plots Edgeworth box (microeconomics)
