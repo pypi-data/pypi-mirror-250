@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: upstash-vector
+Version: 0.1.0
+Summary: Serverless Vector SDK from Upstash
+Home-page: https://github.com/upstash/vector-py
+License: MIT
+Keywords: Upstash Vector,Serverless Vector
+Author: Upstash
+Author-email: support@upstash.com
+Maintainer: Upstash
+Maintainer-email: support@upstash.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/upstash/vector-py
+Description-Content-Type: text/markdown
+
+# Upstash Vector SDK
