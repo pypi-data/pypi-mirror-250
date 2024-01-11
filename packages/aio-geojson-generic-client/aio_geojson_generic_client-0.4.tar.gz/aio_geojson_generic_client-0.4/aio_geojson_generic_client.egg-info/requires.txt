@@ -1,0 +1,4 @@
+aio_geojson_client>=0.20
+aiohttp<4,>=3.7.4
+geojson<3,>=2.4.0
+pytz>=2019.01
