@@ -1,0 +1,8 @@
+LICENSE
+README.md
+lyyddsender.py
+setup.py
+lyyddsender.egg-info/PKG-INFO
+lyyddsender.egg-info/SOURCES.txt
+lyyddsender.egg-info/dependency_links.txt
+lyyddsender.egg-info/top_level.txt
