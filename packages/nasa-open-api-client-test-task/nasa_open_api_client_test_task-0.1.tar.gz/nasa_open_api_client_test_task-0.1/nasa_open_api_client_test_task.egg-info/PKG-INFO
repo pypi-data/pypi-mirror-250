@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nasa-open-api-client-test-task
+Version: 0.1
+Summary: A Python client for accessing NASA Open API endpoints.
+Author: Shevchenko Alessa
+Author-email: alesyavaskovith@gmail.com
+Requires-Dist: requests
+
+This package provides a simple Python client for retrieving information from NASA Open API. It currently supports two endpoints: astronomy_picture_of_the_day and geomagnetic_storm.

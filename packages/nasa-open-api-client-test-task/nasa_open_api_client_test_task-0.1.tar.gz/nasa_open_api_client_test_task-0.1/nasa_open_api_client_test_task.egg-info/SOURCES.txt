@@ -1,0 +1,6 @@
+setup.py
+nasa_open_api_client_test_task.egg-info/PKG-INFO
+nasa_open_api_client_test_task.egg-info/SOURCES.txt
+nasa_open_api_client_test_task.egg-info/dependency_links.txt
+nasa_open_api_client_test_task.egg-info/requires.txt
+nasa_open_api_client_test_task.egg-info/top_level.txt
