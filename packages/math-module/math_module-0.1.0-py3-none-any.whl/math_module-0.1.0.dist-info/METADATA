@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: math-module
+Version: 0.1.0
+Summary: 
+Author: dhruv.patel7
+Author-email: dhruv.patel7@crestdatasys.com
+Requires-Python: >=3.10.9,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pytest (>=7.4.4,<8.0.0)
+Description-Content-Type: text/markdown
+
+This module provide basic maths functionality to calculate gcd and lcm of two numbers.
