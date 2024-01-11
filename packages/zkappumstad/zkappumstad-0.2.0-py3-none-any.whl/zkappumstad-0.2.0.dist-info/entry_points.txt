@@ -1,0 +1,4 @@
+[console_scripts]
+zkumstad-create = zkappumstad.create:run_zk_command
+zkumstad-help = zkappumstad.zkappumstad:help
+zkumstad-start = zkappumstad.__main__:main
