@@ -1,0 +1,15 @@
+pyproject.toml
+requirements.txt
+src/perfecto/main_cli.py
+src/perfecto/temp.py
+src/perfecto/py/analytics.py
+src/perfecto/py/commands_api.py
+src/perfecto/py/custom_reasons.py
+src/perfecto/py/functions.py
+src/perfecto/py/html.py
+src/perfectreportstest.egg-info/PKG-INFO
+src/perfectreportstest.egg-info/SOURCES.txt
+src/perfectreportstest.egg-info/dependency_links.txt
+src/perfectreportstest.egg-info/entry_points.txt
+src/perfectreportstest.egg-info/requires.txt
+src/perfectreportstest.egg-info/top_level.txt
