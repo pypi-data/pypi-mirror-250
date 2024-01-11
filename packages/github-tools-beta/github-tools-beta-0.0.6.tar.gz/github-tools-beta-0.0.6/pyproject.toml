@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-tools-beta"
+description = "Template and testing purposes"
+dynamic = ["version"]
+dependencies = [
+    "requests"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "github_tools.__version__"}
