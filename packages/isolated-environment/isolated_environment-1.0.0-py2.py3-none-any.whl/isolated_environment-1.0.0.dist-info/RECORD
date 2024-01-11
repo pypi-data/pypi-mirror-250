@@ -1,0 +1,9 @@
+isolated_environment/__init__.py,sha256=ZkIpWOWdPMNpCcjdSEOvOMC0t3gyk3viI3lfZkKs1tk,51
+isolated_environment/api.py,sha256=AjgXMqSGxLN8siV4C3oSJAZZ4rVpxTVWgYRn5I8tXjo,2624
+isolated_environment/cli.py,sha256=dibfAZIh0kXWsBbfp3onKLjyZXo54mTzDjUdzJlDlWo,231
+isolated_environment/assets/example.txt,sha256=lTBovRjiz0_TgtAtbA1C5hNi2ffbqnNPqkKg6UiKCT8,54
+isolated_environment-1.0.0.dist-info/LICENSE,sha256=b6pOoifSXiUaz_lDS84vWlG3fr4yUKwB8fzkrH9R8bQ,1064
+isolated_environment-1.0.0.dist-info/METADATA,sha256=HB1PjwiZFgyXOvXUJyvurfGVLzdBH9zejkpUaCWsz-A,424
+isolated_environment-1.0.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+isolated_environment-1.0.0.dist-info/top_level.txt,sha256=d6TjiTg17h9UWo5Ka2e0N2CcU8JWOggmc8cEzk-WAdI,21
+isolated_environment-1.0.0.dist-info/RECORD,,
