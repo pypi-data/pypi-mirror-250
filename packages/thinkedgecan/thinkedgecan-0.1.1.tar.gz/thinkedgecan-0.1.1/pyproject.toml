@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "thinkedgecan"
+description = "Interface between the SUNIX SDC Expansion Board Software and python-can"
+keywords = ["CAN", "can-bus", "python-can", "sunix"]
+authors = [{ name = "Lukas Schreiber", email = "lukas.schreiber@ifos-gmbh.de" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["python-can >= 4.0.0, < 5"]
+dynamic = ["version"]
+
+[project.entry-points."can.interface"]
+sunix = "thinkedgecan:SunixBus"
