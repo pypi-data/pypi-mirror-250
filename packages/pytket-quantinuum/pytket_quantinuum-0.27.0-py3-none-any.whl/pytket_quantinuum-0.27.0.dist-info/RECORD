@@ -1,0 +1,15 @@
+pytket/extensions/quantinuum/__init__.py,sha256=c7TitlCVuHLcg3OuZ3yN9n0VgbJEYwgzmuQs2OMZbyM,992
+pytket/extensions/quantinuum/_metadata.py,sha256=YO7b0pKKhVi7GjXm4VLO8x5mDdCo3yZXDNFKlUJCcgw,74
+pytket/extensions/quantinuum/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytket/extensions/quantinuum/backends/__init__.py,sha256=hsA6ASbaMLBKcCTUfVAlVf_xJyWgzGNy6YT26_zFzOI,910
+pytket/extensions/quantinuum/backends/api_wrappers.py,sha256=hmWnbzQKOszAWjGUjk44-T4S9ntF4EvKAPutEfTdpUg,21770
+pytket/extensions/quantinuum/backends/config.py,sha256=jowqS9N5Hik8s1sGjTscLyXC58rcvsJ2KUKIf5ELOYA,1792
+pytket/extensions/quantinuum/backends/credential_storage.py,sha256=DNIbjGm53Hw73e5D2_ezsi7YeEY1qiGE5bHDg-8QXSM,7748
+pytket/extensions/quantinuum/backends/federated_login.py,sha256=GjAXC_zKvbFvYahALU9l9eKC12sT23yiSFtDHQQeWJk,2866
+pytket/extensions/quantinuum/backends/leakage_gadget.py,sha256=AIHlQZ8mZhQiU_Usk3EQOjA4l01HuR2iKsCrS8IEqBw,7101
+pytket/extensions/quantinuum/backends/quantinuum.py,sha256=8dvkqYfYDNSYTIRbmvaKw03Ycj63LnTtuN8ViV1K_2E,52121
+pytket_quantinuum-0.27.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytket_quantinuum-0.27.0.dist-info/METADATA,sha256=Vdi2BNm40IVlsVNZ_T2TRVqlKWnXtBETzHJi4Z3YkrM,4185
+pytket_quantinuum-0.27.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytket_quantinuum-0.27.0.dist-info/top_level.txt,sha256=GsvCQQpJ7P8Vrx4ydtbjs36yufXiD59vSbbQFtFgcQ0,7
+pytket_quantinuum-0.27.0.dist-info/RECORD,,
