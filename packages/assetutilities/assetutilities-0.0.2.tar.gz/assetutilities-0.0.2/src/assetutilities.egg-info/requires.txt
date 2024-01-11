@@ -1,0 +1,15 @@
+pyyaml
+tabula
+PyPDF2
+xlsxwriter
+webcolors
+
+[build]
+build
+twine
+
+[dev]
+black
+bumpver
+isort
+pytest
