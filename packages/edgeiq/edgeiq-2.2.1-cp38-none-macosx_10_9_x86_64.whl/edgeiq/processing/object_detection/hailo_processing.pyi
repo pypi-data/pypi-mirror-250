@@ -1,0 +1,6 @@
+from .types import ObjectDetectionPostProcessParams
+
+__all__ = ['hailo_yolov3_post_process', 'hailo_ssd_post_process']
+
+def hailo_yolov3_post_process(params: ObjectDetectionPostProcessParams): ...
+def hailo_ssd_post_process(params: ObjectDetectionPostProcessParams): ...
