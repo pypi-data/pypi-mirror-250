@@ -1,0 +1,2 @@
+[console_scripts]
+coniql = coniql.app:main
