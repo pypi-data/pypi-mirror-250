@@ -1,0 +1,7 @@
+data
+dist
+examples
+luxonis_ml
+media
+src
+tests
