@@ -1,0 +1,10 @@
+SheriAPI/__init__.py,sha256=IVHOl6c8R-g2USgEPN8CKzu1B5iwZ6FN2HgOLoZ2K4o,397
+SheriAPI/api.py,sha256=cbe6khfH-VkvuXxYUvVFlpWYFSw54_N3p_Ixhus3Jd8,11076
+SheriAPI/endpoints.py,sha256=3a0iILEQ-gnM1aoGc8Znn0e3vTa2knSrgqdhu-qre30,3318
+SheriAPI/enums.py,sha256=CxbWu1NQjsdHLzHjMKgQ8ZmdjJA8vo9SZu8K_vcLXzs,3693
+SheriAPI/errors.py,sha256=No6aUWWs20R1iOZ6FJi4zAFiXgKAQR5YTiOodTgVTfU,2279
+SheriAPI-1.0.4.dist-info/LICENSE,sha256=nTfthn12BUKaoZW6hTm9yuQdLpvikGIAnk9poEp9c48,1053
+SheriAPI-1.0.4.dist-info/METADATA,sha256=6DmGTSU03JdbL0pnDe-z3smAz2sk1pQ2o6IUgiH6io0,3434
+SheriAPI-1.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+SheriAPI-1.0.4.dist-info/top_level.txt,sha256=0LLxw_6xAhz34B0h9PcZDLffdfqJs_tUJXHL7rG4Z4o,9
+SheriAPI-1.0.4.dist-info/RECORD,,
