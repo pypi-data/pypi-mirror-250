@@ -1,0 +1,17 @@
+numpy
+scipy
+matplotlib
+zarr
+dask
+colorcet
+fastcore
+toml
+numba
+numexpr
+holoviews
+datashader
+pyproj>=3.0
+
+[dev]
+nbdev
+pre-commit
