@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: gemseo-pymoo
+Version: 2.0.0
+Summary: A GEMSEO wrapper for pymoo optimization algorithms.
+Author-email: Francois Gallard <contact@gemseo.org>
+License: GNU Lesser General Public License v3
+Project-URL: Homepage, https://gitlab.com/gemseo
+Project-URL: Source, https://gitlab.com/gemseo/dev/gemseo-pymoo
+Project-URL: Tracker, https://gitlab.com/gemseo/dev/gemseo-pymoo/-/issues
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: <3.12,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: CREDITS.md
+Requires-Dist: gemseo[all] >=5.1
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pymoo ==0.6.1
+Provides-Extra: test
+Requires-Dist: covdefaults ; extra == 'test'
+Requires-Dist: pytest <8 ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+
+<!--
+Copyright 2021 IRT Saint Exupéry, https://www.irt-saintexupery.com
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative
+Commons, PO Box 1866, Mountain View, CA 94042, USA.
+-->
+
+A GEMSEO wrapper for pymoo optimization algorithms.
+
+# Documentation
+
+How to get the docs?
+
+# Bugs/Questions
+
+Please use the gitlab issue tracker at
+<https://gitlab.com/gemseo/dev/gemseo-pymoo/-/issues>
+to submit bugs or questions.
+
+# License
+
+The **gemseo-pymoo** source code is distributed under the GNU LGPL v3.0 license.
+A copy of it can be found in the LICENSE.txt file.
+The GNU LGPL v3.0 license is an exception to the GNU GPL v3.0 license.
+A copy of the GNU GPL v3.0 license can be found in the LICENSES folder.
+
+The **gemseo-pymoo** examples are distributed under the BSD 0-Clause, a permissive
+license that allows to copy paste the code of examples without preserving the
+copyright mentions.
+
+The **gemseo-pymoo** documentation is distributed under the CC BY-SA 4.0 license.
+
+The **gemseo-pymoo** product depends on other software which have various licenses.
+The list of dependencies with their licenses is given in the CREDITS.md file.
+
+# Contributors
+
+- Gabriel Max DE MENDONCA ABRANTES
+- Francois GALLARD
+- Antoine Dechaume
+- Lluis ARMENGOL GARCIA
+- Luca SARTORI
+- Gilberto RUIZ JIMENEZ
