@@ -1,0 +1,2 @@
+[console_scripts]
+chkbit = chkbit_cli.main:main
