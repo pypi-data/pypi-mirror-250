@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: prefref
+Version: 24.1.1001
+Summary: A basic config package that reads a JSON config file, environment variables, and console arguments (prioritized in that order)
+Project-URL: Homepage, https://github.com/ghostdisco/prefref
+Project-URL: Issues, https://github.com/ghostdisco/prefref/issues
+Author-email: ghostdisco <pypi@ghostdisco.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8.1
+Requires-Dist: logging>=0.4.9.6
+Description-Content-Type: text/markdown
+
+# PrefRef
+
+### Config init in \_\_main\_\_
+#### Subsection
+```
+example code
+```
