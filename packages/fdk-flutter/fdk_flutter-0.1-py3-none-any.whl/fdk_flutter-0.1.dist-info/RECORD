@@ -1,0 +1,9 @@
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/utility.py,sha256=-wneuPhbkLjh-MXnnWg8jYdKjJU_lSMNwKv_3GWVI_k,147
+fdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fdk/fdk.py,sha256=lGE5fr328gS6UOdt2DgdYSjX9plsJ-5c27IP3Z20auc,840
+fdk_flutter-0.1.dist-info/METADATA,sha256=45iLqkPDTmVfKtQGeEZSpS17MGybcTzm1xZfqc0wQKg,347
+fdk_flutter-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fdk_flutter-0.1.dist-info/entry_points.txt,sha256=WysL7fC0k0V21GDUFuSha1Dm12fXsPmG_mAjtpmkvMA,37
+fdk_flutter-0.1.dist-info/top_level.txt,sha256=jbobW7VVgfKGSL2ZdrkTGAAFWrIBwgSRz8P2cNXK-AI,9
+fdk_flutter-0.1.dist-info/RECORD,,
