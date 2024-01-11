@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+giskard_vision/__init__.py
+giskard_vision.egg-info/PKG-INFO
+giskard_vision.egg-info/SOURCES.txt
+giskard_vision.egg-info/dependency_links.txt
+giskard_vision.egg-info/requires.txt
+giskard_vision.egg-info/top_level.txt
