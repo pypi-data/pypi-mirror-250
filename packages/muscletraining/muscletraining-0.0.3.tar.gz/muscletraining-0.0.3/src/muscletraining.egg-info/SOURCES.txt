@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/muscletraining.py
+src/muscletraining.egg-info/PKG-INFO
+src/muscletraining.egg-info/SOURCES.txt
+src/muscletraining.egg-info/dependency_links.txt
+src/muscletraining.egg-info/entry_points.txt
+src/muscletraining.egg-info/top_level.txt
