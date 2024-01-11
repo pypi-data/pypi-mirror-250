@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: dcaspt2_input_generator
+Version: 0.0.3
+Summary: This is a GUI tool for supporting the generation of input files for DIRAC_CASPT2 calculation.
+Project-URL: Documentation, https://github.com/QRC-HU/dcaspt2_input_generator#readme
+Project-URL: Issues, https://github.com/QRC-HU/dcaspt2_input_generator/issues
+Project-URL: Source, https://github.com/QRC-HU/dcaspt2_input_generator
+Author-email: Kohei Noda <kohei-noda@hiroshima-u.ac.jp>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: pyqt5
+Requires-Dist: qtpy
+Requires-Dist: sum-dirac-dfcoef>=4.0.0
+Description-Content-Type: text/markdown
+
+# dcaspt2_input_generator
+
+## Description
+
+- This is a GUI tool for supporting the generation of input files for DIRAC_CASPT2 calculation.
+
+## Prerequisites
+
+- Python 3.7 or later
+- pip
+
+## Install
+
+```bash
+pip install dcaspt2_input_generator
+```
+
+## Usage
+
+```bash
+dcaspt2_input_generator
+```
+ or
+```bash
+python -m dcaspt2_input_generator
+```
+
+## LICENSE
+
+- Apache LICENSE 2.0
+
+## Author
+
+- Kohei Noda
