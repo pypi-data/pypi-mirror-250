@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: coggle
+Version: 0.1
+Summary: 数据挖掘和人工智能项目最佳实践
+Home-page: https://github.com/coggle-club/coggle
+Author: Yuzhong Liu
+Author-email: finlayliu@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: jieba
+Requires-Dist: gensim
+Requires-Dist: emoji
+Requires-Dist: joblib
+Requires-Dist: scikit-learn
+
