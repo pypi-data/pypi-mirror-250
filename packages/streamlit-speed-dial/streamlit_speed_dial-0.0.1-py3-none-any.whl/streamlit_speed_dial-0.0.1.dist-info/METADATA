@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: streamlit-speed-dial
+Version: 0.0.1
+Summary: Streamlit component that allows you to make speed dial 
+Home-page: https://github.com/BlueGob/streamlit-speed-dial
+Author: Moslem gannoun
+Author-email: moslemgannoun@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit >=0.63
+
+# streamlit-custom-component
+
+Streamlit component that allows you to do X
+
+## Installation instructions
+
+```sh
+pip install streamlit-custom-component
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from my_component import my_component
+
+value = my_component()
+
+st.write(value)
+```
+
