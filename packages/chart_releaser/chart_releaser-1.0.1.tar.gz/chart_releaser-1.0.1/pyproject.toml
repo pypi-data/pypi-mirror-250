@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "chart_releaser"
+version = "1.0.1"
+description = "Helm chart releaser tools"
+authors = ["Trusikhin Andrei <andrei.trusikhin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/Onder7994/chart_releaser"
+"Repository" = "https://github.com/Onder7994/chart_releaser"
+"Documentation" = "https://github.com/Onder7994/chart_releaser#readme"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+requests = "^2.26.0"
+pyyaml = "^6.0.0"
+
+[tool.poetry.scripts]
+hc-releaser = "chart_releaser.main:main"
+
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "venv",
+]
+line-length = 100
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["E", "W", "C", "F", "N", "D"]
+ignore = []
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
