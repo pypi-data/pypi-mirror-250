@@ -1,0 +1,3 @@
+[console_scripts]
+rs=realsense_cli.cli:app
+
