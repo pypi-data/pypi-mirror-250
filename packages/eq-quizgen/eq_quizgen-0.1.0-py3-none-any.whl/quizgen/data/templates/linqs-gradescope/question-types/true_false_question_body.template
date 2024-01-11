@@ -1,0 +1,12 @@
+    \noindent
+    {{{QUESTION_PROMPT}}}
+
+    \vspace{0.25cm}
+    Fill in the one circle that corresponds to your answer.
+    \vspace{0.25cm}
+
+    \begin{center}
+        \begin{tabular}{ m{10mm} p{12cm} }
+{{{QUESTION_ANSWERS}}}
+        \end{tabular}
+    \end{center}
