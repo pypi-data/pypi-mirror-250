@@ -1,0 +1,3 @@
+[console_scripts]
+methamplicons=methamplicons.main:main
+
