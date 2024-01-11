@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tflite_micro
+Description-Content-Type: text/markdown
+Summary: TensorFlow Lite for Microcontrollers
+Requires-Dist: flatbuffers
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Version: 0.dev20240110025040
+
+# TensorFlow Lite for Microcontrollers
+
+This package is built from commit
+[85e19dd](https://github.com/tensorflow/tflite-micro/blob/85e19dd/python/tflite_micro)
+of [github.com/tensorflow/tflite-micro](https://github.com/tensorflow/tflite-micro).
+
