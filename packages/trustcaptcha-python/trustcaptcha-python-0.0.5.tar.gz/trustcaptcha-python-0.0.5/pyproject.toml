@@ -1,0 +1,18 @@
+[build-system]
+requires = [ "setuptools>=42", "wheel",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trustcaptcha-python"
+version = "0.0.5"
+description = "Trustcaptcha library for python"
+dependencies = [ "requests", "numpy", "pycryptodome==3.19.0", "pycryptodomex==3.19.0",]
+[[project.authors]]
+name = "Trustcaptcha GmbH"
+email = "mail@trustcaptcha.com"
+
+[project.scripts]
+trustcaptcha = "trustcaptcha:main"
+
+[project.optional-dependencies]
+dev = [ "pytest", "flake8",]
