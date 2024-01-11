@@ -1,0 +1,11 @@
+tile_match_gym/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tile_match_gym/board.py,sha256=jFSlHh4MRLmhHJl7Fng6anLd_5VGlKWor_Aw9St-3vw,38242
+tile_match_gym/tile_match_env.py,sha256=oYZgZZzLe2xTNOghBgRLKKco1ps9w_FprndRHfNzKLQ,4440
+tile_match_gym/working.ipynb,sha256=rMRSuoCKO8kYR51LRENa_wFaxIACXXcLxBMxfPPQjwM,37795
+tile_match_gym/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tile_match_gym/utils/print_board_diffs.py,sha256=MWlWRL2LzrCdqfxiXV6esBtGdWuCq350XOE9TveuaVI,2727
+tile_match_gym-0.0.2.dist-info/LICENSE,sha256=JdpUot2j9dqXoh_5aWFBgaS_KzTNm74D0oT2KoJvHco,1545
+tile_match_gym-0.0.2.dist-info/METADATA,sha256=46yNVDm_TeDySlqGXKIPDNMnH-fsx5mVKgQHKx3VPPo,4468
+tile_match_gym-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tile_match_gym-0.0.2.dist-info/top_level.txt,sha256=RVAQIVJ0xO75pY5qnOqH12ZO0uUvCcwZsOnRmF6_K4M,15
+tile_match_gym-0.0.2.dist-info/RECORD,,
