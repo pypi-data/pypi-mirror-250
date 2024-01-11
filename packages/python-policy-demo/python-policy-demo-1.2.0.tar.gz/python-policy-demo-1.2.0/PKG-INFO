@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python-policy-demo
+Version: 1.2.0
+Summary: A simple demo project that Sonatype employees can use to demo policy (and possibly other) features for PYTHON.
+Home-page: https://github.com/sonatype/python-policy-demo
+Author: Sonatype HI Expedition
+Author-email: hi-expedition-team@sonatype.com
+Maintainer: Sonatype HI Expedition
+Maintainer-email: hi-expedition-team@sonatype.com
+License: Eclipse Public License 2.0 (EPL-2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Eclipse Public License 2.0 (EPL-2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-policy-demo
+A simple demo project that Sonatype employees can use to demo policy (and possibly other) features for PYTHON. It does not do anything of use and should not be used in production by anyone ever.
