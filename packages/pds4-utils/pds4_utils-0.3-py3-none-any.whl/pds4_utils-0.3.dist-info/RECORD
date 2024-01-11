@@ -1,0 +1,11 @@
+pds4_utils/__init__.py,sha256=0fvg9uGQxqFj9UK1_a_InAWV6hM38GK3dxf5fBsAfXs,600
+pds4_utils/cdf_utils.py,sha256=M5zvEpDxyhWVfaDiLSPiweY5j3btsCY5ZK6sXihr-Oo,10541
+pds4_utils/common.py,sha256=SOhZ24X_44kL-H4n79oFOdaep8fbsArj2Lt5WJ6qZbo,1342
+pds4_utils/dbase.py,sha256=bpT6uxDNxc9EcdeS4_lAaDce3kmGsa3xeqe53l-97Og,7610
+pds4_utils/read.py,sha256=_sMrZWMUiBZgZu_WLKjTXxoQ4b-dH8jFFNL4573PUiU,7639
+pds4_utils/write.py,sha256=n26DVbXtQLiQkhe8i9r7PLyvbDAP1xoKCTyHib3EEJE,3832
+pds4_utils-0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pds4_utils-0.3.dist-info/METADATA,sha256=PwYfgVTK3p2y1l-MpSGny6HMvo7XWBYmNVsSfwaRdDI,3116
+pds4_utils-0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pds4_utils-0.3.dist-info/top_level.txt,sha256=bPK7XRXD3uvKsgOtjGzL5HPBRRrLO1N-C_v_633UcC8,11
+pds4_utils-0.3.dist-info/RECORD,,
