@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: canvas_utilities
+Version: 0.1.0
+Summary: Various utility tools for editing canvas image
+Home-page: https://github.com/ImagineersHub/compipe
+Author: esunvoteb
+Author-email: esun@voteb.com
+License: MIT
+Keywords: python,cv2,image,canvas,2d
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow
+Requires-Dist: imagehash
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python
+Requires-Dist: imutils
+Requires-Dist: blend-modes
+Requires-Dist: scikit-image
+Requires-Dist: colorthief
+Requires-Dist: psd-tools
+Requires-Dist: matplotlib
+
+# Various utility tools for editing canvas image
