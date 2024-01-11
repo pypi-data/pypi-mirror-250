@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flask_auth_middleware"
+version = "0.2.0"
+authors = [
+  { name="Laxman Maharjan", email="lxmnmrzn17@gmail.com" },
+]
+description = "A middleware to secure your flask application routes"
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Internet",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+]
+dependencies = [
+    "Flask>=1.0",
+    "PyJWT>=2.8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/LaxmanMaharjan/flask-auth-middleware"
+Issues = "https://github.com/LaxmanMaharjan/flask-auth-middleware/issues"
+Repository = "https://github.com/LaxmanMaharjan/flask-auth-middleware" 

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: flask_auth_middleware
+Version: 0.2.0
+Summary: A middleware to secure your flask application routes
+Author-email: Laxman Maharjan <lxmnmrzn17@gmail.com>
+Project-URL: Homepage, https://github.com/LaxmanMaharjan/flask-auth-middleware
+Project-URL: Issues, https://github.com/LaxmanMaharjan/flask-auth-middleware/issues
+Project-URL: Repository, https://github.com/LaxmanMaharjan/flask-auth-middleware
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask>=1.0
+Requires-Dist: PyJWT>=2.8.0
+
+# Flask Auth Middleware
+
+Flask Auth Middlewawre is a middleware for securing flask application. It provides a convenient way to secure your Flask routes and endpoints using jwt tokens.
+
+## Features
+
+- Seamless integration with Flask applications.
+- Easily protect routes and endpoints with JWT authentication.
+- Lightweight and designed for simplicity.
