@@ -1,0 +1,15 @@
+partcad_cli/__init__.py,sha256=6wo1FjqLYcab384UfJcF5H2lY7OGXUTOfuSw67zfJz4,93
+partcad_cli/cli.py,sha256=9fwe2-r60hcxbUruHbSPafYjvMOYRNHh5U7BSVQ647c,1748
+partcad_cli/cli_add.py,sha256=Vi7yHs4odCdA4_reRaQD9Of_t7mMqPe5fHevg45Iu2s,1481
+partcad_cli/cli_init.py,sha256=ugqyYh9RjfrKIgYcSG0yGjYLRdwVQCvrv6vt2rM3voA,1128
+partcad_cli/cli_install.py,sha256=cypwSRc0_ke7FlHqowTmR8hbzsNkRenb8bvzpNljY6A,427
+partcad_cli/cli_list.py,sha256=UCMOyRvafUeqbgnsZhSF9OB7SRIdPyy9ExB0gimADm8,6349
+partcad_cli/cli_render.py,sha256=M3jQOG4PI86YHqgmpG37lE5SwdPmPCIxrZwVvSO2mAQ,1926
+partcad_cli/cli_show.py,sha256=aGjslxTXenmSst3Tk82A6NBWFL7xuJxF1Ci-b2_YWSk,1582
+partcad_cli/template/init-private.yaml,sha256=vo9AKGRejyHvIo6bS7jid098TWQ-AR4LUJ4rYFpTZdw,571
+partcad_cli/template/init-public.yaml,sha256=HtNfE8fJrLZ3QUT5YLs0wWNBi_7d629mi1mKcg3shSI,656
+partcad_cli-0.3.1.dist-info/METADATA,sha256=IrAinrDdyF_pXxCUZfs2MBChVe18p1cazSKj6Yw5A0c,777
+partcad_cli-0.3.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+partcad_cli-0.3.1.dist-info/entry_points.txt,sha256=Jw-HlI9Q2WNTV8Fvl6gw2HuoB7T6Wd_HsKHkIRYDnJA,44
+partcad_cli-0.3.1.dist-info/top_level.txt,sha256=6aiiP_LT9e7zE-u9fexYKoue5cSQkrDWGZj5qdCgnVA,12
+partcad_cli-0.3.1.dist-info/RECORD,,

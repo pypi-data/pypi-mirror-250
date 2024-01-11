@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: partcad-cli
+Version: 0.3.1
+Summary: Command-line interface to PartCAD
+Author-email: Roman Kuzmenko <openvmp@proton.me>
+Maintainer-email: Roman Kuzmenko <openvmp@proton.me>
+Project-URL: Homepage, https://github.com/openvmp/partcad
+Project-URL: Issues, https://github.com/openvmp/partcad/issues
+Keywords: cadquery,build123d,cad,design,openscad,step,stl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: partcad ==0.3.1
+Requires-Dist: pycairo
+Requires-Dist: renderlab
+Requires-Dist: rlPyCairo
+Requires-Dist: svglib
+Requires-Dist: ocp-vscode
+Requires-Dist: progress
+
