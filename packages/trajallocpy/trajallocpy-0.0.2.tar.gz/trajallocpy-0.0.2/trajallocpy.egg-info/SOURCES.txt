@@ -1,0 +1,10 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+trajallocpy.egg-info/PKG-INFO
+trajallocpy.egg-info/SOURCES.txt
+trajallocpy.egg-info/dependency_links.txt
+trajallocpy.egg-info/requires.txt
+trajallocpy.egg-info/top_level.txt
