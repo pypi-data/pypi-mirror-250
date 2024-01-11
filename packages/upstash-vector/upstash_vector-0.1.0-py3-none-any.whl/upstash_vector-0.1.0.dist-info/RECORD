@@ -1,0 +1,8 @@
+upstash_vector/__init__.py,sha256=KopcqHrUXtM0yRlO0UKFcSEYo4P-onXImbljaXYZmAQ,47
+upstash_vector/client.py,sha256=KYq_zBQV1iXJIhip0ubjVjle9UogsZrRAzGpIy5AGZ4,688
+upstash_vector/core/index_operations.py,sha256=SGfw1jF9LM-I8RO9sOqwDJtSB_P2dFqTXbeoI-pBxv4,973
+upstash_vector/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upstash_vector-0.1.0.dist-info/LICENSE,sha256=XoqAkpEiOcQhcuragcwNkq7oMEoMOsQOH26Q07Pjy_E,1070
+upstash_vector-0.1.0.dist-info/METADATA,sha256=Ys-nSYa8gUZjLShs93e2JW55kA146VOxgheh5nREhSI,1299
+upstash_vector-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+upstash_vector-0.1.0.dist-info/RECORD,,
