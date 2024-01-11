@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+proxyot/__init__.py
+proxyot/proxyot.py
+proxyot.egg-info/PKG-INFO
+proxyot.egg-info/SOURCES.txt
+proxyot.egg-info/dependency_links.txt
+proxyot.egg-info/requires.txt
+proxyot.egg-info/top_level.txt
