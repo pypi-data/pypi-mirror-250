@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/ai_sci_exmaple.egg-info/PKG-INFO
+src/ai_sci_exmaple.egg-info/SOURCES.txt
+src/ai_sci_exmaple.egg-info/dependency_links.txt
+src/ai_sci_exmaple.egg-info/requires.txt
+src/ai_sci_exmaple.egg-info/top_level.txt
+src/lu_project/__init__.py
+tests/test.py
