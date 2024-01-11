@@ -1,0 +1,7 @@
+    \noindent
+    {{{ANSWER_TEXT}}}: \newline
+    \begin{center}
+        \begin{tabular}{ m{10mm} p{12cm} }
+{{{ANSWER_CHOICES}}}
+        \end{tabular}
+    \end{center}
