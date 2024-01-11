@@ -1,0 +1,17 @@
+project_raccoon/__init__.py,sha256=ymL8VV9a-DB6v3WZKBWtFVRjmNPE_te7-tbT5LUQeYQ,334
+project_raccoon/__main__.py,sha256=pdXkbx9ivz1LNoCqGcvy_ZvlS3F6_WtvxTykJA7iW_A,1426
+project_raccoon/src/data/monomers.json,sha256=jT84AJSEIfPs3_UBrItgZetKhlWLj43AMWOL-KXvu7k,21157
+project_raccoon/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project_raccoon/tests/__main__.py,sha256=VMpmVfl43bENEUCUcBBVRq3pd3ukJFwxcHM6Eq_XXgI,65
+project_raccoon/tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project_raccoon/tests/unit/test_data.py,sha256=kdzmda32-PN60tDARQKN2JPJPTC52zDYLf3vlm7D3uA,12100
+project_raccoon/tests/unit/test_functions.py,sha256=2XGlTwRnp7vwI-2VqmhBF8da7k2HPVbpBA5ciATt550,4612
+project_raccoon/tests/unit/test_monomers_json.py,sha256=znhPL67BovW47psyWocj_pTk60B8gHMxO0izR1k-r7A,1275
+project_raccoon/tests/unit/test_pdb_file.py,sha256=3cv8hMs3jx7b78PzouPkYMWN3o3vjljwbmgjujMduxs,332
+project_raccoon/tests/unit/test_ui.py,sha256=q6JuWDn6hsBaGc-4AiWIiD0vdKv-NBo-WsrLBteClDU,6730
+project_raccoon-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+project_raccoon-1.0.1.dist-info/METADATA,sha256=zHZ_cGGZamu9bA7B5GlksWI839LcsMxkdgvpAJ5WQ_M,10269
+project_raccoon-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+project_raccoon-1.0.1.dist-info/entry_points.txt,sha256=8e8dfVlwrQuIKD72BXuUmnDHYwwAc7Eu5lFLCR4qlxE,66
+project_raccoon-1.0.1.dist-info/top_level.txt,sha256=eB8Dj6c0KkvtCFHW2aXWOprDnAkkkv5gwKQynraciZs,16
+project_raccoon-1.0.1.dist-info/RECORD,,
