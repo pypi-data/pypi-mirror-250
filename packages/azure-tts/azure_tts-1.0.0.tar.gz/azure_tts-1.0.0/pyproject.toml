@@ -1,0 +1,34 @@
+[project]
+name = "azure_tts"
+version = "1.0.0"
+authors = [
+  { name="Bryt", email="bryt.xin.li@gmail.com" },
+]
+description = "Convert text file to voice mp3 filie"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'azure-cognitiveservices-speech'
+]
+
+[project.scripts]
+azure_tts = "azure_tts.cli:entry"
+
+[project.urls]
+Homepage = "https://github.com/xin-at-marathon/pypi"
+Issues = "https://github.com/xin-at-marathon/pypi/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]

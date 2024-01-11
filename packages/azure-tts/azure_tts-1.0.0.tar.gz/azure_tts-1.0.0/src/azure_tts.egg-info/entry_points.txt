@@ -1,0 +1,2 @@
+[console_scripts]
+azure_tts = azure_tts.cli:entry
