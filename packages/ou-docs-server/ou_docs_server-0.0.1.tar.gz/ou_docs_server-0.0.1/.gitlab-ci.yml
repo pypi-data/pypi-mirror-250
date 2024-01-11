@@ -1,0 +1,87 @@
+stages:
+  - build
+  - test
+  - publish
+
+variables:
+  DOCKER_HOST: tcp://docker:2376
+  DOCKER_TLS_CERTDIR: "/certs"
+  DOCKER_TLS_VERIFY: 1
+  DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
+
+sast:
+  stage: test
+
+include:
+  - template: Security/SAST.gitlab-ci.yml
+  - template: Security/Dependency-Scanning.gitlab-ci.yml
+  - template: Security/Secret-Detection.gitlab-ci.yml
+
+build-package:
+  image: python:3.11
+  stage: build
+  script:
+    - pip install hatch
+    - hatch build
+  artifacts:
+    paths:
+      - dist
+    expire_in: 300 seconds
+  rules:
+    - if: $CI_PIPELINE_SOURCE != 'schedule'
+
+tests:
+  image: python:${PYTHON_VERSION}
+  stage: test
+  script:
+    - pip install hatch
+    - hatch run test
+  parallel:
+    matrix:
+      - PYTHON_VERSION: ["3.11"]
+#publish-package:
+#  image: python:3.10
+#  stage: publish
+#  script:
+#    - pip install hatch
+#    - hatch publish
+#  dependencies:
+#    - build-package
+#  rules:
+#    - if: $CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+(b[0-9]+)?$/
+
+#publish-beta-image:
+#  image: docker:24.0.6
+#  stage: publish
+#  services:
+#    - docker:24.0.6-dind
+#  before_script:
+#    - until docker info; do sleep 1; done
+#  script:
+#    - docker build . --tag mmh352/ou-container-builder:${CI_COMMIT_TAG:1}
+#    - docker login -u mmh352 -p $DOCKER_HUB_TOKEN
+#    - docker push mmh352/ou-container-builder:${CI_COMMIT_TAG:1}
+#  rules:
+#    - if: $CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+b[0-9]+$/
+#  dependencies:
+#    - build-package
+#  needs:
+#    - build-package
+
+#publish-image:
+#  image: docker:latest
+#  stage: publish
+#  services:
+#    - docker:dind
+#  before_script:
+#    - until docker info; do sleep 1; done
+#  script:
+#    - /bin/ash
+#    - export major_minor_patch=${CI_COMMIT_TAG:1}
+#    - export major_minor=${major_minor_patch%.*}
+#    - export major=${major_minor%.*}
+#    - docker build . --tag mmh352/ou-container-builder:${major_minor_patch} --tag mmh352/ou-container-builder:${major_minor} --tag mmh352/ou-container-builder:${major}
+#    - docker login -u mmh352 -p $DOCKER_HUB_TOKEN
+#    - docker push -a mmh352/ou-container-builder
+#  rules:
+#    - if: $CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+$/
