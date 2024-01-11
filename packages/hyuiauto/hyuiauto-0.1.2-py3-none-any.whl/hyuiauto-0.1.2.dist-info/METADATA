@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: hyuiauto
+Version: 0.1.2
+Summary: A generic automation framework for QA testing
+Home-page: https://github.com/jcyrss/hyuiauto
+Download-URL: https://pypi.python.org/pypi/hyuiauto
+Author: baiyueheiyu 白月黑羽
+Author-email: jcyrss@gmail.com
+License: Apache License 2.0
+Keywords: hyuiauto automation testautomation
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pure-python-adb
+Requires-Dist: bottle
+
+## Introduction
+
+`hyuiauto` is an open source software UI automation library. 
+
+
+## Installation
+
+```py
+pip install hyuiauto
+```
+
+## Documentation
+
+<!-- [User Guide](https://github.com/jcyrss/hyuiauto/blob/main/Documentation.md) -->
+
+
+[中文教程链接](https://www.byhy.net/tut-etc/hyuiauto/01/)
+
