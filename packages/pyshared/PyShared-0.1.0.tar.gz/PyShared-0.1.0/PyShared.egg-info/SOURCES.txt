@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+PyShared/__init__.py
+PyShared.egg-info/PKG-INFO
+PyShared.egg-info/SOURCES.txt
+PyShared.egg-info/dependency_links.txt
+PyShared.egg-info/top_level.txt
