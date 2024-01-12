@@ -1,0 +1,9 @@
+serpentscribe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serpentscribe/logger.py,sha256=9Ymbe2wWmDMb0kuOPxUatVAYxyKce1zSGMRm5oIu5S0,2278
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_serpentscribe.py,sha256=_NH2-nKiAX1XBqxNPivvEJWIdpDqQQ2PaGiN8A0Drm4,1957
+serpentscribe-0.1.dist-info/LICENSE,sha256=cxRU4KFQuNO-2FQxqRk7iWfrJH1ijR1SfP7fST93P44,1065
+serpentscribe-0.1.dist-info/METADATA,sha256=Zs8KO9rvupzYfinbVASwI8QtZUqsbyPbKvdOlJyIF6E,1805
+serpentscribe-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+serpentscribe-0.1.dist-info/top_level.txt,sha256=J1W2K2-kt_1jO0QFoAOOHBHeiHsXErtN8SAScol6SgA,20
+serpentscribe-0.1.dist-info/RECORD,,
