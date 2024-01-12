@@ -1,0 +1,12 @@
+napari
+napari-plugin-engine>=0.1.4
+napari-annotatorj
+napari-nD-annotator
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5

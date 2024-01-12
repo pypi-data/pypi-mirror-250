@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-biomag-annotator = napari_biomag_annotator:napari.yaml
