@@ -1,0 +1,16 @@
+folx/__init__.py,sha256=bUubAfr9Nkz9grdWuqotTAd8cokRF21qZhFjisDAl7k,650
+folx/api.py,sha256=8jnsLUbTeMrkgPTNRaDVdkZPhuGuk626WvqrpentWGc,12936
+folx/custom_hessian.py,sha256=Ufpr0l5OsMKPCPIsU2GHsCvk3PpFxowMJKNcGmY5oMs,2333
+folx/hessian.py,sha256=JSvil4eU-mElD_56JYenpCREyvw9zx4vXgS7NgIp2jQ,13083
+folx/interpreter.py,sha256=LTBSAXRlaGXou_9MkiM63QmN1TyPCGnDj4eU38c8ItA,10061
+folx/jvp.py,sha256=NBXM-jx6Azq7iBE8EhoR-N2ngeGcHnpXvskdQ-Ltxg8,17026
+folx/operators.py,sha256=6fVObe2t3d5DfXmo0OmuxCgbdBuziyW_H_nOOwom958,1825
+folx/tree_utils.py,sha256=N4T3isP8ZRAZnAKoOW8NvXKqkg-5zaX8Qp_wvLw83KQ,2219
+folx/utils.py,sha256=u7BVM_qJ4a4q8lOss0dWH6LJ_16_uQHfbA49Ap_v3o4,16927
+folx/vmap.py,sha256=4v-GCmPa9Gc_oHTFDnE1LNGjUPIkAyn-V1yFtg50Eow,2775
+folx/wrapped_functions.py,sha256=9X4CBgDit3jesg7ANIhMohtN0itcw0jR6u3B9RN1cPg,12799
+folx/wrapper.py,sha256=CWGYXHQJhub7UBbG39bXKWfCfhX5ssFYP9TWgjjY_78,3908
+folx-0.2.2.post1.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+folx-0.2.2.post1.dist-info/METADATA,sha256=JeCAjML3Nr80L4Htyn92CkxXRqGb8sVoS9ayJxgvMwE,10821
+folx-0.2.2.post1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+folx-0.2.2.post1.dist-info/RECORD,,
