@@ -1,0 +1,14 @@
+proksee_batch/__init__.py,sha256=4s6VPwqpeg2btUd7sYxMdKh0x4hEzQGCmkRb9bKeQRo,21
+proksee_batch/__main__.py,sha256=rZjSev00p0NoVWuis1GhMOsOCcsUNZ01EH9_m8P3HiY,6270
+proksee_batch/genbank_to_cgview_json.py,sha256=dFVK4WpRJAGU88rEoe-PDrF6HiDzsPWVnEtlYOGj8t4,4219
+proksee_batch/generate_proksee_link.py,sha256=x5gpMEIHCdV_tBTDQ1XZWowNPAnu2TfJ910KyOMc9Gc,868
+proksee_batch/generate_report_html.py,sha256=w4dt9smzHvOBksOXmoUdRWVxtOqITK4Urs8VukLHGSo,8672
+proksee_batch/get_stats_from_genbank.py,sha256=LtXRqzWVcTwfMs9He4eeWtSJ4JSZcHqsZFW3R1axpDA,881
+proksee_batch/merge_cgview_json_with_template.py,sha256=T0XtvYLob8moWkEQmnGl_TaZ3RFsbRuhEyfsmI-qu3s,1952
+proksee_batch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proksee_batch/scrape_proksee_image.py,sha256=cfCvqcbLuObb3p6QoQ5A34mcrKoRpHjnSkTNJ59Sh5I,2658
+proksee_batch-0.1.0.dist-info/LICENSE,sha256=NWFMHY-bv8AZI4ZrVDv5f_MHSVUe0M4-ZxAGutE8Prg,1070
+proksee_batch-0.1.0.dist-info/METADATA,sha256=kgC4LPzagewFb8Ec_Fp3b9cBY_ych6oW91KsqOR-UeI,3557
+proksee_batch-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+proksee_batch-0.1.0.dist-info/entry_points.txt,sha256=HByViW5TfAi4jhUBxOzWlqdH63_uZ1OSDuDuvTPAG6Q,61
+proksee_batch-0.1.0.dist-info/RECORD,,
