@@ -1,0 +1,7 @@
+typechecks<1.0.0,>=0.0.2
+datacache<2.0.0,>=1.1.4
+memoized-property>=1.0.2
+tinytimer
+gtfparse<3.0.0,>=2.2.1
+serializable
+pylint>=1.4.4
