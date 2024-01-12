@@ -1,0 +1,3 @@
+[console_scripts]
+optk-file=openpack_toolkit.bin.file:entry_func
+
