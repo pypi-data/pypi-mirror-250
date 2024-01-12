@@ -1,0 +1,17 @@
+hydra-core
+matplotlib
+numpy
+omegaconf
+opencv_python
+pandas
+PyYAML
+scipy
+tqdm
+torch
+motrack-motion
+
+[reid]
+onnxruntime
+
+[yolov8]
+ultralytics
