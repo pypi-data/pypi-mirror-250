@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/libhum/__init__.py
+src/libhum/analysis.py
+src/libhum/io.py
+src/libhum/main.py
+src/libhum/match.py
+src/libhum/merge.py
+src/libhum/types.py
+src/libhum.egg-info/PKG-INFO
+src/libhum.egg-info/SOURCES.txt
+src/libhum.egg-info/dependency_links.txt
+src/libhum.egg-info/entry_points.txt
+src/libhum.egg-info/requires.txt
+src/libhum.egg-info/top_level.txt
