@@ -1,0 +1,164 @@
+Metadata-Version: 2.1
+Name: tesseract_client
+Version: 0.0.7
+Summary: Client for Tesseract API
+Project-URL: Homepage, https://gitlab-stud.elka.pw.edu.pl/mstelmak/zprp-cloud-storage
+Project-URL: Issues, https://gitlab-stud.elka.pw.edu.pl/mstelmak/zprp-cloud-storage/issues
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: annotated-types==0.6.0
+Requires-Dist: attrs==23.1.0
+Requires-Dist: cachetools==5.3.2
+Requires-Dist: certifi==2023.7.22
+Requires-Dist: cffi==1.16.0
+Requires-Dist: chardet==5.2.0
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: click==8.1.7
+Requires-Dist: colorama==0.4.6
+Requires-Dist: cryptography==41.0.7
+Requires-Dist: distlib==0.3.8
+Requires-Dist: exceptiongroup==1.2.0
+Requires-Dist: filelock==3.13.1
+Requires-Dist: flake8==6.1.0
+Requires-Dist: ghp-import==2.1.0
+Requires-Dist: hypothesis==6.92.0
+Requires-Dist: idna==3.4
+Requires-Dist: importlib-metadata==7.0.0
+Requires-Dist: iniconfig==2.0.0
+Requires-Dist: jaraco-classes==3.3.0
+Requires-Dist: jeepney==0.8.0
+Requires-Dist: jinja2==3.1.2
+Requires-Dist: keyring==24.3.0
+Requires-Dist: loguru==0.7.2
+Requires-Dist: markdown==3.5.1
+Requires-Dist: markupsafe==2.1.3
+Requires-Dist: mccabe==0.7.0
+Requires-Dist: mergedeep==1.3.4
+Requires-Dist: mkdocs==1.5.3
+Requires-Dist: more-itertools==10.1.0
+Requires-Dist: packaging==23.2
+Requires-Dist: pathspec==0.12.1
+Requires-Dist: platformdirs==4.1.0
+Requires-Dist: pluggy==1.3.0
+Requires-Dist: pycodestyle==2.11.1
+Requires-Dist: pycparser==2.21
+Requires-Dist: pyflakes==3.1.0
+Requires-Dist: pyproject-api==1.6.1
+Requires-Dist: pytest-mock==3.12.0
+Requires-Dist: pytest==7.4.3
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: pyyaml-env-tag==0.1
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: responses==0.24.1
+Requires-Dist: secretstorage==3.3.3
+Requires-Dist: six==1.16.0
+Requires-Dist: sortedcontainers==2.4.0
+Requires-Dist: tomli==2.0.1
+Requires-Dist: tox==4.11.4
+Requires-Dist: typing-extensions==4.8.0
+Requires-Dist: urllib3==2.0.7
+Requires-Dist: virtualenv==20.25.0
+Requires-Dist: watchdog==3.0.0
+Requires-Dist: zipp==3.17.0
+Description-Content-Type: text/markdown
+
+# Tesseract-client documentation
+
+## Introduction
+
+Tesseract-client is a client for the Tesseract file-hosting service. It is written in Python 3 and uses the Tesseract API to communicate with the server.
+
+## Installation
+
+> `tesseract-client` requires Python 3.9 or higher.
+
+Tesseract-client is available on PyPI and can be installed with pip:
+
+```bash
+pip install tesseract-client
+```
+
+> If you get an error during installation, make sure that you have the latest version of pip installed. You can upgrade pip with `pip install --upgrade pip`.
+
+Verify that the installation was successful by running `tesseract --version`.
+
+```bash
+$ tesseract --version
+tesseract 0.0.5
+```
+
+## Usage
+
+```bash
+usage: main.py [-h] [-V] [--log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}] {signup,login,logout,run,config,pull} ...
+```
+
+### Login
+
+Before you can use the client, you must create an account on the Tesseract server. You can do this with the `signup` command:
+
+```bash
+tesseract signup [--username <username>] [--password <password>]
+```
+
+If you do not specify a username and password, you will be prompted for them.
+
+After you have created an account, you can login with the `login` command:
+
+```bash
+tesseract login [--username <username>] [--password <password>]
+```
+
+It uses the keyring library to store your credentials in the system keyring. You will only need to login once, as the credentials will be stored for future use.
+
+> **Note:** If you are using a Linux distribution that does not have the keyring library installed by default, you will need to install it manually. For example, on Ubuntu, you can install it with `sudo apt install gnome-keyring`.
+
+If you wish to logout, you can use the `tesseract logout` command. It will also delete all the files associated with your account from the local directory.
+
+
+### Configuring the client
+
+By default, the client will create a directory called `tesseract` in your home directory, and will monitor this directory for changes. The local database file will be stored in `~/.local/share/tesseract/tesseract.db`.
+
+You can change these defaults with the `config` command:
+
+```bash
+tesseract config [--path PATH] [--db DB] [--api_url API_URL]
+```
+
+By default, the client will use the default Tesseract API URL. If you are running your own instance of the Tesseract server, you can configure the client to use your own API URL.
+
+
+### Pulling files
+
+If you have used the Tesseract on another machine and want to pull the files from the server, or you just want to pull the latest version of the files, you can use the `pull` command:
+
+```bash
+tesseract pull
+```
+
+It will compare the files in the local directory with the files on the server, and download only parts of files that were modified since the last pull. If a file was deleted on the server, it will be deleted locally as well.
+
+
+### Running the monitoring
+
+To run the monitoring, you should use the `tesseract run` command. This will start the monitoring process, which will automatically upload any files that are added to or modified in the monitored directory. It will also upload to the server any files that were modified while the monitoring was not running and try to pull any files that were modified on the server.
+
+```bash
+tesseract run
+```
+
+## Uninstalling
+
+If you wish to uninstall the client, you should consider running `tesseract logout` first. This will delete all the files associated with your account from the local directory.
+
+After that, you can uninstall the client with pip:
+
+```bash
+pip uninstall tesseract-client
+```

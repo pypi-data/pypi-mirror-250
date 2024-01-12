@@ -1,0 +1,10 @@
+site_name: Tesseract
+site_description: A client for the Tesseract API
+
+theme: readthedocs
+
+nav:
+  - Home: 'index.md'
+
+plugins:
+  - search
