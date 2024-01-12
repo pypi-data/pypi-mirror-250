@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+src/gotopub/__init__.py
+src/gotopub/__main__.py
+src/gotopub/version.py
+src/gotopub.egg-info/PKG-INFO
+src/gotopub.egg-info/SOURCES.txt
+src/gotopub.egg-info/dependency_links.txt
+src/gotopub.egg-info/entry_points.txt
+src/gotopub.egg-info/requires.txt
+src/gotopub.egg-info/top_level.txt
