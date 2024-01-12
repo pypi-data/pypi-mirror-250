@@ -1,0 +1,308 @@
+Metadata-Version: 2.1
+Name: bdpycmd
+Version: 1.3.30
+Summary: Run Python`s file as command line
+Home-page: https://github.com/biandoucheng/bd-py-cmd
+Author: biandoucheng
+Author-email: biandoucheng@outlook.com
+Project-URL: Bug Tracker, https://github.com/biandoucheng/bd-py-cmd/issues
+Project-URL: Use Example, https://github.com/biandoucheng/open-example/tree/main/bdpycmd-example
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Python command tool
+
+## Require
++ python3.5 +
+
+## Install
+```
+1. pip install bdpycmd
+2. pip install -i https://pypi.org/simple/ bdpycmd==real_version
+```
+
+## Description
+```
+It is used to run your Python code as a command line .
+It only works on class methods .
+Add as_cmder decorator on your class method and create command class in command file directory .
+In your project root directory, create a pycmd.py file and import everything under the bdpycmd.pycmd module .
+Add initialization code and execution entry to your pycmd.py .
+Open the command line interface, go to your project root directory (the same level as your pycmd.py file), and run python pycmd.py .
+```
+
+## Usage
+```
+# Your python project directory
+home/app/your_python_project
+# Create a pycmd.py file in your python project directory as the entry point for interactive command execution
+home/app/your_python_project/pycmd.py
+# Create a cmder directory in your python project directory to store production executable commands
+home/app/your_python_project/cmder
+# Assume that there is a tasks directory in your python project directory, and you develop your python script in this directory
+home/app/your_python_project/tasks/
+
+1. Then your pycmd.py file should be as follows
+from bdpycmd.pycmd import *
+
+CmdBaseConf.init(
+    root_dir=".",
+    cmd_dir='cmder'
+)
+
+if __name__ == "__main__":
+    CmdBaseConf.run()
+
+2. Suppose you have a script, demo.py, in the tasks directory. If you allow this script to run interactively from the command line, your content will be roughly as follows
+from bdpycmd.cmd.factory.base import BaseCommand as bscm
+
+class SayHi:
+    """
+    Say Hi
+    """
+
+    # Injected into the command line as a decorator
+    @bscmd.as_cmder
+    def say(self,name:str):
+        """
+        Say Hi
+
+        :param name: str name
+        """
+        print(f"Hi {name} I`m {__name__}")
+
+3. You need to run the assistant command in the project home directory to generate the executable command file of demo.py. The specific interaction content is roughly as follows
+>> python ./pycmd.py
+command line interpreter
+        
+        :param cmd:      parent command name  If this parameter is omitted, the help is called
+        :param son:      subcommand name  If this parameter is omitted, help is called
+        :param **kwargs: Subcommand arguments Unsupported arguments are filtered out
+        
+
+        >>> Selection Parent Command : Commands
+
+        < assistant > . Command Info 
+        Number: 0
+        command base class
+        Generate execution commands from existing modules   
+        
+>> / # Type "/" to select the command
+
+        >>> Running Parent Command : 
+        < bdpycmd.cmd.camp.assistant >
+        command assistant
+        Generate execution commands from existing modules
+        
+
+        >>> Select Son Method : Methods 
+
+        [ make_cmd ] of Command . Method Info 
+        Number: 0
+        Create a command from a module
+            
+            :param mpth:  str #Module relative path, such as: a/b/c
+            :param cls:   str #Class name
+            :param cdir:  str #Relative Directory, such as: ./cmder
+            :param cmd:   str #Command name
+            :param alias: str #command alias
+            :param desc:  str #command description
+            :param abs:   str #Do you want to forcibly replace existing command files. yes/no
+              
+        
+>> / # Type "/" to indicate the executable method of the selected command
+
+        >>> Running Son Method : 
+        [ make_cmd ] of Command
+        Create a command from a module
+            
+            :param mpth:  str #Module relative path, such as: a/b/c
+            :param cls:   str #Class name
+            :param cdir:  str #Relative Directory, such as: ./cmder
+            :param cmd:   str #Command name
+            :param alias: str #command alias
+            :param desc:  str #command description
+            :param abs:   str #Do you want to forcibly replace existing command files. yes/no
+            
+        
+>> mpth = tasks/demo
+>> cls = SayHi
+>> cdir = ./cmder
+>> cmd = say_hai
+>> alias = Say Hi       
+>> desc = Say Hi
+>> abs = yes    
+
+     Command created successfully
+
+At this time, the assistant command will produce a say_hi.py file under the ./cmder directory. This is the file that is actually executed during command line interaction. The content of this file is as follows. Please do not edit this file.
+# This file is a command execution file generated by the command assistant. 
+# Do not edit it.
+
+from bdpyconsts import bdpyconsts as pyconst
+
+# Command Description Information
+_BDCMD_DESC_ = {
+    "name":'say_hai',
+    "alias":'Say Hi',
+    "desc":'Say Hi'
+}
+
+if pyconst._BD_CMD_RUN_NOW == True:
+    from bdpycmd.cmd.factory.base import BaseCommand 
+    from tasks.demo import SayHi
+
+    class Command(BaseCommand,SayHi):
+        def __init__(self):
+            super().__init__(name=__class__.__module__,alias='Say Hi',description='Say Hi')
+            super(BaseCommand,self).__init__()
+
+4. Now assume that your script fails to execute in the online service. You need to run it locally to make up for the error. At this time, you can enter the project home directory through the command line and execute this command, especially the parameters of the command method. This interactive execution method is more convenient when dynamic adjustment is required, or when you need to manually change parameters to adjust script performance, the execution method is as follows
+>> python ./pycmd.py 
+command line interpreter
+        
+        :param cmd:      parent command name  If this parameter is omitted, the help is called
+        :param son:      subcommand name  If this parameter is omitted, help is called
+        :param **kwargs: Subcommand arguments Unsupported arguments are filtered out
+        
+
+        >>> Selection Parent Command : Commands
+
+        < assistant > . Command Info 
+        Number: 0
+        command base class
+        Generate execution commands from existing modules   
+        
+>> say # Type specific content to indicate search command
+
+        < say_hai > . Command Info 
+        Number: 9
+        Say Hi
+        Say Hi   
+        
+>> / # Type "/" to select the command
+
+        >>> Running Parent Command : 
+        < cmder.say_hai >
+        Say Hi
+        Say Hi
+        
+
+        >>> Select Son Method : Methods 
+
+        [ say ] of SayHi . Method Info 
+        Number: 0
+        Say Hi
+
+        :param name: str name
+          
+        
+>> sa # Type specific content to indicate the executable method of the search command
+
+        [ say ] of SayHi . Method Info 
+        Number: 0
+        Say Hi
+
+        :param name: str name
+          
+        
+>> / # Type "/" to indicate the executable method of the selected command
+
+        >>> Running Son Method : 
+        [ say ] of SayHi
+        Say Hi
+
+        :param name: str name
+        
+        
+>> name = John
+Hi John I`m unit.demo.say_hi
+
+5. There are the following special symbols during command interaction:
+After entering ".", press the Enter key to exit the command interaction.
+Enter "/" and then press the Enter key to select the current command or method of the command.
+After entering other content, press the Enter key to indicate the search command or command method.
+Before the command or method is selected, press the Enter key without inputting anything to display the next command or method.
+```
+
+## Use the example project url
+<https://github.com/biandoucheng/open-example/tree/main/bdpycmd-example>
+
+## Source Codd url
+<https://github.com/biandoucheng/bd-py-cmd>
+
+## Annotation Specification
+```
+When adding comments to the command method, the following rules must be followed, otherwise the command parameters will not be parsed correctly
+
+@base.BaseCommand.as_cmder
+def your_func(p1,p2):
+    """
+    your function`s description
+
+    :param p1: type #describe
+    :param p2: type #describe
+    :return: type
+    """
+    your_func_content ...
+```
+## Change Log
+```
+2023.06.13
+1. Support command keyword retrieval:
+    No content input, press Enter directly to reality the next command
+    Enter the command number or any range, and relevant commands will be queried based on the provided content
+    Enter the '/' symbol to exit the help prompt
+
+2. Support executable methods for directly querying commands during command queries
+    Enter the '.' symbol to exit the help prompt
+    Enter '/' to query the executable method of the selected command
+
+3. Fix Bugs
+    Fix the issue of execution errors caused by the 'None' parameter in the run dictionary and optimize information output
+
+2023.06.14
+1. Support direct execution of methods when querying command executable methods
+    Enter the '.' symbol to exit the help prompt
+    Enter '/' to executable the selected method of the selected command
+2. Fix Bug
+    Fix 'm' parameter error in command method help
+3. Fix Bug
+    Fix the issue of command generation assistant generating command errors
+4. Perf
+    Optimize the command generation assistant to make the parameters of the command generation method clearer and easier to use
+5. Perf
+    When using the command assistant to generate commands, it supports forcibly overwriting the parameter 'abs' of existing command files
+
+2023.06.15
+1. Fix
+    Fix errors in keyword retrieval methods
+
+2023.06.20
+1. Feat assistant
+    Optimizing the Naming of Command File Names. Allow the parameter cmd to be passed in as the name of the command and command file.
+
+2023.07.06
+1. Feat cmder list
+    Optimized command recognition speed. Dynamically determine whether to import command implementation classes based on whether command methods need to be executed, in order to significantly reduce the number of modules that need to be loaded when listing commands, thereby accelerating the display of command lists
+
+2023.07.10
+1. Fix command module import error
+    Fix command execution error `run command failed: module 'cmder.***' has no attribute 'Command' ` caused by delayed loading of command implementation module .
+
+2023.12.07
+1. Fix the error where carriage return causes the command or method to be directly selected for execution when there is only one command or method .
+
+2023.12.19
+1. Fix the issue where functions marked as commands cannot be executed directly through function calls with incomplete parameter input
+
+2024.01.11
+1. Fix bugs
+    Fixed an issue that caused an infinite loop if the search was empty when searching for a command or method based on input.
+2. Optimize help information display
+    When searching for commands or methods, the names and methods are displayed more clearly. Commands are wrapped by <command> and methods are wrapped by [method].
+```
