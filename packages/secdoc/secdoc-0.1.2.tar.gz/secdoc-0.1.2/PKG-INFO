@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: secdoc
+Version: 0.1.2
+Summary: A package for working with protein secondary structure
+Project-URL: Homepage, https://github.com/itrujnara/secdoc
+Project-URL: Bug Tracker, https://github.com/itrujnara/secdoc/issues
+Author-email: Igor Trujnara <igor.trujnara@crg.eu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# SecDoc
+## A simple Python module for working with protein secondary structure
+
+# Pre-requisites
+The following Python packages are required in order to use this package:
+- `Biopython`; may require manual installation
+- `subprocess` and `itertools`; these packages are included in most Python distributions.
+
+Biopython also requires a working installation of DSSP in order to perform the required operations. The program can be installed with `sudo apt install dssp` on Debian Linux systems. For other platforms, consult the relevant package repository.
+
+A full readme will be here eventually.
