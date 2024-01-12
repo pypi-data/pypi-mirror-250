@@ -1,0 +1,1 @@
+- add option to extend timeseries at beginning or end to allow for forecasting
