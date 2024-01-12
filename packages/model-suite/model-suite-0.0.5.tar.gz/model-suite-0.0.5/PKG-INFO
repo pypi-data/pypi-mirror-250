@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: model-suite
+Version: 0.0.5
+Summary: Model Suite
+Home-page: https://github.com/model-suite/model-suite
+License: Apache License 2.0
+License-File: LICENSE
+Requires-Dist: torch
