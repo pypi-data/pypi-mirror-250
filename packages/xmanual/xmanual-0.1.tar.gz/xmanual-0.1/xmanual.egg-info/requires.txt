@@ -1,0 +1,2 @@
+xarg-python>=1.2.1
+doclifter>=2.20.2
