@@ -1,0 +1,46 @@
+matrix:
+  platform:
+    - linux/amd64
+  ARCH:
+    - amd64
+    - arm32v5
+    - arm32v6
+    - arm32v7
+    - i386
+    - arm64
+    - mips64
+    - mips64le
+    - mips
+    - mipsle
+    - ppc64
+    - ppc64le
+    - riscv64
+    - s390x
+  GOVER:
+    - 1.21
+    - 1.20
+    - 1.19
+  DIST:
+    - bookworm
+  CC:
+    - clang
+
+steps:
+  go-${GOVER}-${DIST}-${ARCH}-${CC}:
+    group: go-${GOVER}-${DIST}-${ARCH}-${CC}
+    image: golang:${GOVER}-${DIST}
+    commands:
+      - export CI=true
+      - PATH=$PATH:~/.local/bin
+      - export WORKDIR=`pwd`
+      - export CC=${CC}
+      - ./misc/install-debian-go-deps-by-arch.sh ${ARCH}
+      - ./misc/test-golang-cross.sh ${ARCH}
+#   when:
+#     - path:
+#         include: ["ctidh511/*", "ctidh512/*", "ctidh1024/*", "ctidh2048/*"]
+
+depends_on:
+  - golang-test
+
+runs_on: [ success, failure ]
