@@ -1,0 +1,11 @@
+fleximod/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fleximod/gitinterface.py,sha256=jmcWRZvIvSiPLPSzr1DS84HLB2DvaTbNmMh4bOm29mY,2516
+fleximod/gitmodules.py,sha256=xhNofIdgIBiaOWPqNVU29z-xOOXhUhs01ieMQ2ZpTnY,3381
+fleximod/lstripreader.py,sha256=KJosD1B5LiASEaStrSTu_DVqgLnPqS3T-mH9fRzV5LE,1191
+fleximod/utils.py,sha256=pYo-Lwd5pCcCmL5AmE9pwVuDd0SlrD39_hEmYoOhodc,10271
+fleximod/version.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+fleximod-0.1.4.data/scripts/git-fleximod,sha256=y41DRmXgqcXzYm3RnoSgYsEZYshIKGwso3B6es2ulsQ,12973
+fleximod-0.1.4.dist-info/METADATA,sha256=HGQ3VD9UKJ-bgjm04RSI0r6AmcV63jnQ8QsaXWmO8Zw,3699
+fleximod-0.1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fleximod-0.1.4.dist-info/top_level.txt,sha256=X-eC_MHIg4MiGH0jLABGFcHAC2wpEPMaKGtcQlr9F-M,9
+fleximod-0.1.4.dist-info/RECORD,,
