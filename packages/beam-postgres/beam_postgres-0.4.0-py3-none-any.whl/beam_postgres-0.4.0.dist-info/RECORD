@@ -1,0 +1,9 @@
+beam_postgres/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+beam_postgres/io/__init__.py,sha256=V0h5_iCS24jmRrt9mSBFreo6UgOJWxhvbewaYTwLfo8,188
+beam_postgres/io/postgres.py,sha256=hfu0zbDiWBBxXvTFauu3aqKnVDdHP9yxHe6Py5no4cU,11023
+beam_postgres/io/retry.py,sha256=Aggi_7zvx7TDdAq4cQ0IQq1n3wEpY1vfEPjhbuTC10Y,1336
+beam_postgres-0.4.0.dist-info/LICENSE,sha256=mIk384lQ7ikpyySQk1AG7Sl59AG9hSaOYldh5STdZio,11345
+beam_postgres-0.4.0.dist-info/METADATA,sha256=eSUfoKL9RzUAk_tO5iXy4-MhEIY9CUfjCzg5gwcW_uw,3269
+beam_postgres-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+beam_postgres-0.4.0.dist-info/top_level.txt,sha256=-wn6lY_FvPK3cQjOCpi4rDXRqYQpSxCYy5N-U0HiET0,14
+beam_postgres-0.4.0.dist-info/RECORD,,
