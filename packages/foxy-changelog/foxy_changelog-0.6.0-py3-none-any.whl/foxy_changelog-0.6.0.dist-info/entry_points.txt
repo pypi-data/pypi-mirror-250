@@ -1,0 +1,2 @@
+[console_scripts]
+foxy-changelog = foxy_changelog.__main__:main
