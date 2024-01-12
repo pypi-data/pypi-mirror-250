@@ -1,0 +1,6 @@
+README.md
+setup.py
+sccclient.egg-info/PKG-INFO
+sccclient.egg-info/SOURCES.txt
+sccclient.egg-info/dependency_links.txt
+sccclient.egg-info/top_level.txt
