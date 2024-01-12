@@ -1,0 +1,3 @@
+class EZSN:
+    pass
+
