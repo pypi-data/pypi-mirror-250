@@ -1,0 +1,10 @@
+p1_queue/__init__.py,sha256=pQ8qbnJsXFxbk48P1ui5x8BTqbWBLCT4yJ0-fuVSiWY,73
+p1_queue/base_consumer.py,sha256=q2_q5sSPqlmOBnBl8ujB29QOzENOIvIgfYjrivNLE_0,1580
+p1_queue/publisher.py,sha256=Ab2ix8G1h-1ck8Zw3pD1vygNFhRF_e7lh73V-0XEzKA,1318
+p1_queue/v2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p1_queue/v2/base_consumer.py,sha256=kwoz_xVDgfCypLwws9_0vedBiGbkyH4N2KhyYVVjs5U,6810
+p1_queue/v2/base_publisher.py,sha256=05LVJkEAU57U9q4veqXSfV1_f4H2KX5CfMXmdbEAAOY,2611
+p1_queue-0.4.1.dist-info/METADATA,sha256=sSNtaeDEemNFU2Tqfz1qC7D_NOFlEsJsfJLczx1tCGI,624
+p1_queue-0.4.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+p1_queue-0.4.1.dist-info/top_level.txt,sha256=WsQiMSHoTe1wdRb0dMFXaui2NXyQwf3r1BqZHMOcrBk,9
+p1_queue-0.4.1.dist-info/RECORD,,
