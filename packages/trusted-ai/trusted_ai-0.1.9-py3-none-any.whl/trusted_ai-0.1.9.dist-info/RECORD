@@ -1,0 +1,8 @@
+tai/core/.gitignore_template,sha256=XzvVSafVEvdBuyhJNeuga_xvpp8sBUGp_xvfjP_BDu8,3493
+tai/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tai/core/cli.py,sha256=ebvzkTY59u7vNSAEDaZSkBan6S0gWwhOehOXoyR1kOM,1857
+tai/core/install_tai.py,sha256=LrKoo5eMahnL_Dc9TiqIvOE5hXlYrI57LmYWRBHKe9Q,10389
+trusted_ai-0.1.9.dist-info/METADATA,sha256=F8S_rAPds-UqT7Q7yIXluEcJM5Rgbvb4afI5AiTGE5E,292
+trusted_ai-0.1.9.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+trusted_ai-0.1.9.dist-info/entry_points.txt,sha256=LYSK2Ffg-b_VUxYt6X9UIM1rcTGpiR69SakjvVcKF94,43
+trusted_ai-0.1.9.dist-info/RECORD,,
