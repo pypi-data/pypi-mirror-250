@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+gtfobins_scan.sh
+setup.py
+gtfobins_scan.egg-info/PKG-INFO
+gtfobins_scan.egg-info/SOURCES.txt
+gtfobins_scan.egg-info/dependency_links.txt
+gtfobins_scan.egg-info/entry_points.txt
+gtfobins_scan.egg-info/requires.txt
+gtfobins_scan.egg-info/top_level.txt
