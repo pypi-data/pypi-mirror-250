@@ -1,0 +1,8 @@
+flipt/__init__.py,sha256=rj6D8WeLOd61tXMj-ELSw9hDeUzaU3luQ4J_dGa0Kmw,370
+flipt/authentication/__init__.py,sha256=3EFW0HON4Z44i3GElKgYGTxEoMpp2PKlU5CD-TubIMA,546
+flipt/evaluation/__init__.py,sha256=s5mKPd8JB7YHE6X3cosNZbLPm8sv3MwARPo6Q6dYO_A,2553
+flipt/evaluation/models.py,sha256=YgvrbmgYzx6lh_8K1rxCs06yOLwkbd0wpABF_S7GLKc,2576
+flipt-1.0.0rc1.dist-info/METADATA,sha256=EtPsDorbvaHmrnHwL7Icl8i3SBxemp-rY18gkKRR8T0,1078
+flipt-1.0.0rc1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flipt-1.0.0rc1.dist-info/entry_points.txt,sha256=d-DgzOMENNfQ2VNMOztEgFpFxFffuOcwGl6KXc-ThuA,37
+flipt-1.0.0rc1.dist-info/RECORD,,
