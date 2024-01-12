@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+automower_ble.egg-info/PKG-INFO
+automower_ble.egg-info/SOURCES.txt
+automower_ble.egg-info/dependency_links.txt
+automower_ble.egg-info/top_level.txt
