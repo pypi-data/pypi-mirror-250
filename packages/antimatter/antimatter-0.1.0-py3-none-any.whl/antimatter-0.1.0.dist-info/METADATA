@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: antimatter
+Version: 0.1.0
+Summary: library for interacting with capsules in various formats
+Author: Daniel Faulkner
+Author-email: support@antimatter.io
+Requires-Python: >=3.10
+Requires-Dist: faiss-cpu ~=1.7.4
+Requires-Dist: langchain ~=0.1.0
+Requires-Dist: numpy ~=1.26.1
+Requires-Dist: pandas[performance] ~=2.1.2
+Requires-Dist: pyarrow ~=14.0.1
+Requires-Dist: torch ~=2.1.0
+Requires-Dist: torchvision ~=0.16.0
+Requires-Dist: transformers ~=4.34.1
+Requires-Dist: sniffio ~=1.3.0
+Requires-Dist: pydantic-core ~=2.14.6
+Requires-Dist: annotated-types ~=0.6.0
+Requires-Dist: mpmath ~=1.3.0
+Requires-Dist: pydantic ~=2.5.3
+Requires-Dist: aenum ~=3.1.15
+Requires-Dist: cbor2 ~=5.5.1
+Requires-Dist: antimatter-engine ==0.1.0
+Provides-Extra: dev
+Requires-Dist: pytest ==7.1.2 ; extra == 'dev'
+
