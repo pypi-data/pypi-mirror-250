@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zaide
+Version: 1.5
+Summary: A useless model
+Home-page: https://github.com/waide/waide.git
+Author: zaide
+Author-email: zztaide@163.com
+License: MIT
+Keywords: rst
+License-File: LICENSE
+Requires-Dist: datetime
+Requires-Dist: time
+Requires-Dist: os
+Requires-Dist: json
+Requires-Dist: socket
+Requires-Dist: inspect
+
