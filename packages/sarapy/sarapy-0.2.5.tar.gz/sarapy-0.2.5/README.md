@@ -1,0 +1,46 @@
+# SARAPY
+
+Library for processing SARAPICO project metadata of _AMG_.
+
+#### Version 0.2.5
+
+- Se corrige GeoAnalyzer.transform() para que entregue el array con un cero adicional al final ya que estaba entregando _(n-1,2)_ datos cuando X es de shape (n,2).
+
+#### Version 0.2.4
+
+- Se corrige nombre de atributos de TLMSensorDataExtractor
+
+#### Version 0.2.3
+
+- Se modifican métodos _TLMSensorDataExtractor.fit()_ y _TLMSensorDataExtractor.transofmr()_ ya que no se habían considerado los datos de FIX y SIV de la metadata.
+
+#### Version 0.2.2
+
+- Se quita el chequeo de valores nulos en TimeSeriesProcessor.fit()
+- Si la cantidad de filas de X que se pasa a TimeSeriesProcessor.fit() es igual a uno, los tiempos de operación y de caminata se hacen cero. El método transform devolverá un array de (1,3) donde el único valor diferente de cero será el deltaC.
+
+#### Version 0.2.1
+
+- Se corrige _init.py_ de dataProcessing.
+
+#### Version 0.2.0
+
+- Transforming some attributs to private attributes. Adding @property for getters.
+- Created GNSSDataProcessor class.
+- Created TimeSeriesProcessor class.
+
+#### Version 0.1.4
+
+Setting an **init**.py file for TLMSensorDataExtractor module.
+
+#### Version 0.1.3
+
+Setting version.py file.
+
+#### Version 0.1.1 and Version 0.1.0
+
+Just for testing.
+
+### Docs
+
+Documentation [here](https://github.com/lucasbaldezzari/sarapy/blob/main/docs/docs.md).
