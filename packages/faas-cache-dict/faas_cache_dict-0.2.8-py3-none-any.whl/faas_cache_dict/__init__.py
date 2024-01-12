@@ -1,0 +1,7 @@
+import sys
+
+__version__ = "0.2.8"
+
+
+from faas_cache_dict.faas_cache_dict import FaaSCacheDict  # noqa
+from faas_cache_dict.file_faas_cache_dict import FileBackedFaaSCache  # noqa
