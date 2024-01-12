@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+video_streaming/__init__.py
+video_streaming/runner.py
+video_streaming/processing/__init__.py
+video_streaming/processing/datasets.py
+video_streaming/processing/manager.py
+video_streaming/processing/strategy.py
+video_streaming/processing/stream.py
+video_streaming/processing/writer.py
+video_streaming_api.egg-info/PKG-INFO
+video_streaming_api.egg-info/SOURCES.txt
+video_streaming_api.egg-info/dependency_links.txt
+video_streaming_api.egg-info/requires.txt
+video_streaming_api.egg-info/top_level.txt
