@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Setroubleshoot Events</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Realtime Timestamp</th>
+                <th>Priority</th>
+                <th>Syslog Facility</th>
+                <th>Cmdline</th>
+                <th>Selinux Context</th>
+                <th>Hostname</th>
+                <th>Code File</th>
+                <th>Code Line</th>
+                <th>Code Func</th>
+                <th>Message ID</th>
+                <th>Unit</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for event in events %}
+                <tr>
+                    <td>{{ event.REALTIMETIMESTAMP}}</td>
+                    <td>{{ event.PRIORITY }}</td>
+                    <td>{{ event.SYSLOGFACILITY }}</td>
+                    <td>{{ event.CMDLINE }}</td>
+                    <td>{{ event.SELINUXCONTEXT }}</td>
+                    <td>{{ event.HOSTNAME }}</td>
+                    <td>{{ event.CODEFILE }}</td>
+                    <td>{{ event.CODELINE }}</td>
+                    <td>{{ event.CODEFUNC }}</td>
+                    <td>{{ event.MESSAGEID }}</td>
+                    <td>{{ event.UNIT }}</td>
+                    <td>{{ event.MESSAGE }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
