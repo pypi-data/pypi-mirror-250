@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: goldenset
+Version: 0.0.3
+Summary: SDK of the GoldenSet eval platform
+Author: Johannes Messner
+Author-email: johannes@goldenset.io
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: torch
+Provides-Extra: transformers
+Requires-Dist: click
+Requires-Dist: numpy (>=1.25,<2.0)
+Requires-Dist: requests
+Requires-Dist: supabase (>=2.0.3,<3.0.0)
+Requires-Dist: torch ; extra == "torch" or extra == "transformers"
+Requires-Dist: transformers ; extra == "transformers"
+Description-Content-Type: text/markdown
+
+Python SDk for GoldenSet, the platform for LLM evaluation: pilot.goldenset.io
