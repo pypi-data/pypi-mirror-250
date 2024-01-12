@@ -1,0 +1,20 @@
+[project]
+name = "sf_git_tdambrin"
+version = "1.0"
+authors = [
+  { name="Thomas Dambrin", email="thomas.dambrin@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Operating System :: MacOS :: MacOS X",
+  "Operating System :: Unix",
+  "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+Homepage = "https://github.com/tdambrin/sf_git"
+Issues = "https://github.com/tdambrin/sf_git/issues"
