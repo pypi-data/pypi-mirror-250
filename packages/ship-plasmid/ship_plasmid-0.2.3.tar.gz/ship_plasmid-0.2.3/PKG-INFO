@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ship-plasmid
+Version: 0.2.3
+Summary: Finds regions with evidence of HGT between plasmids and groups plasmids according to evolutionary dynamics.
+Author-email: Marco Teixeira <mcarvalh@broadinstitute.org>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: bcbio-gff == 0.6.9
+Requires-Dist: biopython == 1.79
+Requires-Dist: joblib == 1.2.0
+Requires-Dist: markov_clustering == 0.0.6.dev0
+Requires-Dist: matplotlib == 3.6.1
+Requires-Dist: networkx == 2.8.6
+Requires-Dist: numpy == 1.23.3
+Requires-Dist: pandas == 1.4.4
+Requires-Dist: pymc == 4.2.2
+Requires-Dist: pyvis == 0.2.1
+Requires-Dist: pyyaml == 6.0
+Requires-Dist: scikit-learn == 1.1.2
+Requires-Dist: scipy == 1.9.1
+Requires-Dist: tqdm == 4.64.1
+Project-URL: Home, https://github.com/AbeelLab/plasmidHGT
+Project-URL: Source, https://github.com/AbeelLab/plasmidHGT
