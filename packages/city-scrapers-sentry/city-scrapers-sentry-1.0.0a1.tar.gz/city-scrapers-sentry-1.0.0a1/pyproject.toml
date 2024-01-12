@@ -1,0 +1,31 @@
+[project]
+name = "city-scrapers-sentry"
+version = "1.0.0-alpha.1"
+description = "Scrapy extension that logs errors to Sentry"
+authors = [
+    {name = "City Bureau", email = "documenters@citybureau.org"}
+]
+dependencies = [
+    'scrapy>=2.0', 
+    'raven>=6.3.0', 
+    'six>=1.11.0'
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "BSD"}
+classifiers=[
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Environment :: Console',
+    'Topic :: Software Development :: Libraries :: Application Frameworks',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Internet :: WWW/HTTP',
+]
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
