@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/ingest_data.py
+src/nonstandardcode.py
+src/score.py
+src/train.py
+src/housingLibrary_5508.egg-info/PKG-INFO
+src/housingLibrary_5508.egg-info/SOURCES.txt
+src/housingLibrary_5508.egg-info/dependency_links.txt
+src/housingLibrary_5508.egg-info/entry_points.txt
+src/housingLibrary_5508.egg-info/requires.txt
+src/housingLibrary_5508.egg-info/top_level.txt
+tests/test_data.py
+tests/test_installs.py
