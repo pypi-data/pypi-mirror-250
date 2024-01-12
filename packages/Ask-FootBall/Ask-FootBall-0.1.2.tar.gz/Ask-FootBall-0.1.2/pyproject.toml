@@ -1,0 +1,25 @@
+[project]
+name = "Ask-FootBall"
+version = "0.1.2"
+description = "Ask me"
+authors = [
+    {name = "Kanishk Pachauri", email = "itskanishkp.py@gmail.com"},
+]
+dependencies = [
+    "InquirerPy>=0.3.4",
+    "build>=1.0.3",
+    "twine>=4.0.2",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+ask = "ask_football.__main__:main"
+
+[tool.pdm]
+package-type = "library"
