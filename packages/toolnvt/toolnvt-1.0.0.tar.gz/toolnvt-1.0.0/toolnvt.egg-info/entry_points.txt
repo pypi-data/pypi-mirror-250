@@ -1,0 +1,2 @@
+[console_scripts]
+toolnvt = toolnvt.__main__:main

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: toolnvt
+Version: 1.0.0
+License-File: LICENSE.txt
+Requires-Dist: google-api-python-client
+Requires-Dist: PyQt5
+Requires-Dist: pytube
