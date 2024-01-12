@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+commitlint.egg-info/PKG-INFO
+commitlint.egg-info/SOURCES.txt
+commitlint.egg-info/dependency_links.txt
+commitlint.egg-info/top_level.txt

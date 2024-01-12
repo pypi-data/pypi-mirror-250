@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: commitlint
+Version: 0.0.0
+Summary: Commitlint for pre-commit.
+Author: opensource-nepal
+Author-email: aj3sshh@gmail.com, sugatbajracharya49@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# commitlint
+
+Commitlint for pre-commit.
