@@ -1,0 +1,8 @@
+README.md
+setup.py
+gradial/__init__.py
+gradial.egg-info/PKG-INFO
+gradial.egg-info/SOURCES.txt
+gradial.egg-info/dependency_links.txt
+gradial.egg-info/not-zip-safe
+gradial.egg-info/top_level.txt
