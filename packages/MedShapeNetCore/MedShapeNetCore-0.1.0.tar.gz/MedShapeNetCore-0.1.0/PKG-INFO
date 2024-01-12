@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: MedShapeNetCore
+Version: 0.1.0
+Summary: MedShapeNetCore: A Lightweight 3D Repository for Computer Vision and Machine Learning
+Home-page: https://github.com/Jianningli/medshapenet-feedback/
+Author: Jianning Li
+Author-email: jianningli.me@gmail.com
+License: Apache-2.0 License
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-image
+Requires-Dist: tqdm
+Requires-Dist: Pillow
+Requires-Dist: fire
+Requires-Dist: trimesh
+Requires-Dist: SimpleITK
+Requires-Dist: open3d
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: clint
+Requires-Dist: requests
+Requires-Dist: argparse
