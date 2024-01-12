@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "llegos"
+version = "0.1.0"
+description = "Where we explore the future of multi-agent systems"
+authors = ["Cyrus Nouroozi, <cyrus@edendaolab.com>"]
+license = "LGPLv3"
+readme = "README.md"
+packages = [{ include = "llegos" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.12"
+beartype = "^0.15.0"
+deepmerge = "^1.1.0"
+networkx = "^3.2"
+pydantic = "^2.0"
+pyee = "^11.1.0"
+python-statemachine = "^2.1.2"
+sorcery = "^0.2.2"
+pydash = "^7.0.6"
+svix-ksuid = "^0.6.2"
+match-ref = "^1.0.1"
+more-itertools = "^10.2.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+faker = "^21.0.0"
+ipdb = "^0.13.13"
+ipython = "^8.12.0"
+jupyter = "^1.0.0"
+marvin = "2.0.1a1"
+pyee = "^11.0.0"
+pytest = "^7.3.1"
+pytest-asyncio = "^0.21.0"
+python-dotenv = "^1.0.0"
+ruff = "^0.0.261"
+setuptools = "^67.6.1"
+types-pyyaml = "^6.0.12.9"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+src_paths = ["llegos"]
+
+[tool.pyright]
+include = ["llegos"]
+exclude = ["**/__pycache__", "**/.venv", "**/.mypy_cache", "**/.pytest_cache"]
+ignore = []
+stubPath = "stubs/"
+typeCheckingMode = "basic"
+reportMissingImports = true
+reportPrivateImportUsage = false
+reportMissingTypeStubs = false
+reportGeneralTypeIssues = false
+reportTypedDictNotRequiredAccess = false
+pythonVersion = "3.10"
+pythonPlatform = "Linux"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
