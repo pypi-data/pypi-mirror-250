@@ -1,0 +1,11 @@
+grnndata/GRNAnnData.py,sha256=00RAie_wdcH9wgUbDPEtEOKP_nZPSKX7SXTmKd2ZM80,3502
+grnndata/TF.txt,sha256=OHyP8HxxXF3CoTaltIjWmYkp1Mxo1hn9y6J6mBlBurc,10198
+grnndata/VERSION,sha256=6d2FB_S_DG9CRY5BrqgzrQvT9hJycjNe7pv01YVB7Wc,6
+grnndata/__init__.py,sha256=t40CST6bUXN-kKS5TEvtmPdfd20yktpJ-uS2WZOL9EU,25
+grnndata/celltype.gmt,sha256=Tgf3vVgdfuHwLAAD9ZAGCMix3p_EuSizhTqFZ3yPGKE,30686
+grnndata/utils.py,sha256=-kg3nn0_FAUOLuIGSnp9T5xyQLCAHiLiASOg8DyH6Ug,7156
+grnndata-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+grnndata-0.1.0.dist-info/METADATA,sha256=fSD_EllHReUGfKIj89IyGXgevHBaW73F2vfhIJUOah0,37303
+grnndata-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+grnndata-0.1.0.dist-info/entry_points.txt,sha256=qfcr8Uq69uiiaivupTLVeFQLFAHk7oEtnlb6fTxVDmE,51
+grnndata-0.1.0.dist-info/RECORD,,
