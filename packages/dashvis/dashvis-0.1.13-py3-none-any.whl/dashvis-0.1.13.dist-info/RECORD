@@ -1,0 +1,14 @@
+dashvis/DashNetwork.py,sha256=fItHJJQjVPXAQudz5DAezQCSloqU0SZXCafUkUo4-qs,48083
+dashvis/__init__.py,sha256=emoPmYZFuZ0VKmZP0m4xKGI6Za_F4Gql8f4Kq_Upmw0,2487
+dashvis/_imports_.py,sha256=s4DaX36Roev1nRlG-YguyboqVICVxDW9GpTa_AIccac,69
+dashvis/dashvis.min.js,sha256=2XXeYod5Somg07JgavOIqK2JSQPpHSEO49sFs_GKgAo,697137
+dashvis/dashvis.min.js.map,sha256=u5ApB-5GuZRYgGh8a1veL4XLj8GQ4BnKPqxt53aU9S8,2095260
+dashvis/metadata.json,sha256=n1TuZTMG99LbLzzmaLtqL4ODGWrdW1H34YQBrIbdq7w,63378
+dashvis/package-info.json,sha256=wlQ2e9NmuVyuWCaHDbiZJdNgRnvPONfMeCvL8Ha85XM,2682
+dashvis/stylesheets.py,sha256=WCoUlUFK1992RS_Tx8v-cYgsCv2PQ5lpUI9BDkQ_WRI,90
+dashvis-0.1.13.dist-info/LICENSE,sha256=cbguqhUz3e9o6_fi_QsyZmxtW-xb668_09jQZbTBPQg,1071
+dashvis-0.1.13.dist-info/LICENSE-APACHE-2.0,sha256=UUEu4YgMRfWtChYctEEyzGth3iRVntQCeA7OJbtSzJI,11347
+dashvis-0.1.13.dist-info/METADATA,sha256=cGhiI_7qTBCuHvu0QkfMPpLlM5XWeLxEJXSB7GeuNek,5023
+dashvis-0.1.13.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dashvis-0.1.13.dist-info/top_level.txt,sha256=9ChXzJW4fAYyK4OcYUAaFCtajKBoan3dtPcAUdci50c,8
+dashvis-0.1.13.dist-info/RECORD,,
