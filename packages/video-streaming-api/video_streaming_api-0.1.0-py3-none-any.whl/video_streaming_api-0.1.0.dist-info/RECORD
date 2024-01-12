@@ -1,0 +1,13 @@
+video_streaming/__init__.py,sha256=l3LHDI-5Vg7stAPqi0BfXtlbYKhoe9ICegrAmvVe_lg,26
+video_streaming/runner.py,sha256=RsxGEj73_VmwG3uSJksdlWj6BTpXp4kghe3mS-9fMRU,10763
+video_streaming/processing/__init__.py,sha256=dOul8vYoiGiZZigoFlrP1ErDT6qjFnPkH6kEhGC2v2w,21
+video_streaming/processing/datasets.py,sha256=d0famNiIOvCTLA1CipvMe37Jfg1BMmQj46rpUMHpU18,7408
+video_streaming/processing/manager.py,sha256=nKYC0YYUJIUTzPN0baG-pBqlEyYPHMd2f2p5CN-RQBM,6065
+video_streaming/processing/strategy.py,sha256=d8E2wfFtllDf2XlqPTsCsCcXyPQrTacONqekp98WH70,5686
+video_streaming/processing/stream.py,sha256=PdpPHtuCshgVpobcQHJIkED_4xYiIcBUCFJc3USpzao,19575
+video_streaming/processing/writer.py,sha256=q73I8LvV0U0FzD6q4xPo4Va-GghZvPL1PFzHcMXf8J0,6900
+video_streaming_api-0.1.0.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+video_streaming_api-0.1.0.dist-info/METADATA,sha256=J2xfHy0cR8-SKaQaHQVrt0SKLrOLBfgPa-aAN1lND_k,7309
+video_streaming_api-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+video_streaming_api-0.1.0.dist-info/top_level.txt,sha256=WGY6uYIS2XFC8AbERl98GYi_Dci5LysIGCuAQf52JN4,16
+video_streaming_api-0.1.0.dist-info/RECORD,,
