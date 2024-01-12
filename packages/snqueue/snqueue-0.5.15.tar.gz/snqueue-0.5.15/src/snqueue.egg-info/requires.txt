@@ -1,0 +1,5 @@
+aiofiles
+aiohttp
+boto3
+pydantic[email]
+pycryptodomex
