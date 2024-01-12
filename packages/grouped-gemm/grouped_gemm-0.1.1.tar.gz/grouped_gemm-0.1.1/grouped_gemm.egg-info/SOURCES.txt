@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+csrc/grouped_gemm.cu
+csrc/grouped_gemm.h
+csrc/ops.cu
+grouped_gemm/__init__.py
+grouped_gemm/backend.py
+grouped_gemm/ops.py
+grouped_gemm/ops_test.py
+grouped_gemm.egg-info/PKG-INFO
+grouped_gemm.egg-info/SOURCES.txt
+grouped_gemm.egg-info/dependency_links.txt
+grouped_gemm.egg-info/requires.txt
+grouped_gemm.egg-info/top_level.txt

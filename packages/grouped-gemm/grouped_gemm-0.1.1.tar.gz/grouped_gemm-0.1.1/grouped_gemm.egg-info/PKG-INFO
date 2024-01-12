@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: grouped-gemm
+Version: 0.1.1
+Summary: Grouped GEMM
+Home-page: https://github.com/tgale06/grouped_gemm
+Author: Trevor Gale
+Author-email: tgale@stanford.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: absl-py; extra == "dev"
+Provides-Extra: all
+Requires-Dist: absl-py; extra == "all"
+
+# Grouped GEMM
+
+A lighweight library exposing grouped GEMM kernels in PyTorch.
+
+# Installation
+
+Run `pip install grouped_gemm` to install the package.
