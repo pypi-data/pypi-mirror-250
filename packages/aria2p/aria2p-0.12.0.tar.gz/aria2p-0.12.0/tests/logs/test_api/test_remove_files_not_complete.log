@@ -1,0 +1,1572 @@
+2024-01-11 18:50:33.728 | DEBUG    | aria2p.api:remove:435 - Try to remove download 0000000000000001
+2024-01-11 18:50:33.731 | SUCCESS  | aria2p.api:remove:442 - Removed download 0000000000000001
+2024-01-11 18:50:33.734 | DEBUG    | aria2p.api:remove:447 - Failed to remove download result 0000000000000001
+2024-01-11 18:50:33.734 | TRACE    | aria2p.api:remove:448 - GID 0000000000000001 is not found
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1640, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+    │                │      └ 'gw2-worker'
+    │                └ <execnet.gateway_base.Popen2IO object at 0x7ff6c99f4920>
+    └ <class 'execnet.gateway_base.WorkerGateway'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1142, in serve
+    self._execpool.integrate_as_primary_thread()
+    │    │         └ <function WorkerPool.integrate_as_primary_thread at 0x7ff6c9a29620>
+    │    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+    └ <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 343, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+    │    │              └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+    │    └ <function WorkerPool._perform_spawn at 0x7ff6c9a29800>
+    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 361, in _perform_spawn
+    reply.run()
+    │     └ <function Reply.run at 0x7ff6c9a294e0>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 296, in run
+    self._result = func(*args, **kwargs)
+    │              │     │       └ {}
+    │              │     └ ((<Channel id=1 open>, ('"""\n    This module is executed in remote subprocesses and helps to\n    control a remote testing s...
+    │              └ <bound method WorkerGateway.executetask of <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1157, in executetask
+    exec(co, loc)
+         │   └ {'channel': <Channel id=1 open>, '__name__': '__channelexec__', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in...
+         └ <code object <module> at 0x55c312b4ea80, file "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 1>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 355, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+    │      │    │                          └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │      │    └ <HookCaller 'pytest_cmdline_main'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_cmdline_main'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_cmdline_main'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x7ff6c8893050>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x7ff6c871d620>
+           │            └ <_pytest.config.Config object at 0x7ff6c8893050>
+           └ <function wrap_session at 0x7ff6c871d580>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │       │            │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │       │            └ <function _main at 0x7ff6c871d620>
+    │       └ <ExitCode.OK: 0>
+    └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │      │    └ <HookCaller 'pytest_runtestloop'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtestloop'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtestloop'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtestloop'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='140697925529776', plugin=<__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 157, in pytest_runtestloop
+    self.run_one_test()
+    │    └ <function WorkerInteractor.run_one_test at 0x7ff6c84b4040>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 174, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │      │    │                            │              └ <Function test_remove_method>
+    │    │      │    │                            └ <Function test_remove_files_not_complete>
+    │    │      │    └ <HookCaller 'pytest_runtest_protocol'>
+    │    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_protocol'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_protocol'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>, <Function test_remove_method>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='rerunfailures', plugin=<module 'pytest_rerunfailures' from '/media/data/dev/aria2p/__pypackages__/3.12...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pytest_rerunfailures.py", line 541, in pytest_runtest_protocol
+    reports = runtestprotocol(item, nextitem=nextitem, log=False)
+              │               │              └ <Function test_remove_method>
+              │               └ <Function test_remove_files_not_complete>
+              └ <function runtestprotocol at 0x7ff6c871c7c0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ False
+    │       │      │               └ <Function test_remove_files_not_complete>
+    │       │      └ <function call_and_report at 0x7ff6c871cb80>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_api.py::test_remove_files_not_complete' when='setup' outcome='passed'>]
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_remove_files_not_complete>
+           └ <function call_runtest_hook at 0x7ff6c871cd60>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod(<function CallInfo.from_call at 0x7ff6c871cfe0>)>
+           └ <class '_pytest.runner.CallInfo'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x7ff6c20b4fe0>
+            │        └ +TResult
+            └ typing.Optional
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_remove_files_not_complete>
+            └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ False
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x7ff6c8767880>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_remove_files_not_complete>
+    │    └ <property object at 0x7ff6c887e430>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_pyfunc_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_pyfunc_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {'tmp_path': PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'), 'port': 15633}
+             └ <function test_remove_files_not_complete at 0x7ff6c325cc20>
+
+  File "/media/data/dev/aria2p/tests/test_api.py", line 180, in test_remove_files_not_complete
+    assert server.api.remove(downloads, files=True)
+           │      │   │      └ [<aria2p.downloads.Download object at 0x7ff6c21abad0>, <aria2p.downloads.Download object at 0x7ff6c21abf50>]
+           │      │   └ <function API.remove at 0x7ff6c36b0fe0>
+           │      └ API(Client(host='http://localhost', port=15633, secret='********'))
+           └ <tests.conftest.Aria2Server object at 0x7ff6c21a98e0>
+
+> File "/media/data/dev/aria2p/src/aria2p/api.py", line 445, in remove
+    self.client.remove_download_result(download.gid)
+    │    │      │                      │        └ <property object at 0x7ff6c3627d80>
+    │    │      │                      └ <aria2p.downloads.Download object at 0x7ff6c21abad0>
+    │    │      └ <function Client.remove_download_result at 0x7ff6c3634040>
+    │    └ Client(host='http://localhost', port=15633, secret='********')
+    └ API(Client(host='http://localhost', port=15633, secret='********'))
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 1418, in remove_download_result
+    return self.call(self.REMOVE_DOWNLOAD_RESULT, [gid])  # type: ignore
+           │    │    │    │                        └ '0000000000000001'
+           │    │    │    └ 'aria2.removeDownloadResult'
+           │    │    └ Client(host='http://localhost', port=15633, secret='********')
+           │    └ <function Client.call at 0x7ff6c3622a20>
+           └ Client(host='http://localhost', port=15633, secret='********')
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 258, in call
+    return self.res_or_raise(self.post(payload))
+           │    │            │    │    └ '{"jsonrpc": "2.0", "method": "aria2.removeDownloadResult", "id": -1, "params": ["0000000000000001"]}'
+           │    │            │    └ <function Client.post at 0x7ff6c3622c00>
+           │    │            └ Client(host='http://localhost', port=15633, secret='********')
+           │    └ <staticmethod(<function Client.res_or_raise at 0x7ff6c3622d40>)>
+           └ Client(host='http://localhost', port=15633, secret='********')
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 380, in res_or_raise
+    raise Client.response_as_exception(response)
+          │      │                     └ {'id': -1, 'jsonrpc': '2.0', 'error': {'code': 1, 'message': 'GID 0000000000000001 is not found'}}
+          │      └ <staticmethod(<function Client.response_as_exception at 0x7ff6c3622ca0>)>
+          └ <class 'aria2p.client.Client'>
+
+aria2p.client.ClientException: GID 0000000000000001 is not found
+2024-01-11 18:50:33.748 | DEBUG    | aria2p.api:remove:461 - Removed control file /tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0/5m.aria2
+2024-01-11 18:50:33.748 | WARNING  | aria2p.downloads:root_files_paths:330 - Can't determine file path '.' relative to '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+2024-01-11 18:50:33.749 | TRACE    | aria2p.downloads:root_files_paths:331 - '.' is not in the subpath of '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1640, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+    │                │      └ 'gw2-worker'
+    │                └ <execnet.gateway_base.Popen2IO object at 0x7ff6c99f4920>
+    └ <class 'execnet.gateway_base.WorkerGateway'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1142, in serve
+    self._execpool.integrate_as_primary_thread()
+    │    │         └ <function WorkerPool.integrate_as_primary_thread at 0x7ff6c9a29620>
+    │    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+    └ <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 343, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+    │    │              └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+    │    └ <function WorkerPool._perform_spawn at 0x7ff6c9a29800>
+    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 361, in _perform_spawn
+    reply.run()
+    │     └ <function Reply.run at 0x7ff6c9a294e0>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 296, in run
+    self._result = func(*args, **kwargs)
+    │              │     │       └ {}
+    │              │     └ ((<Channel id=1 open>, ('"""\n    This module is executed in remote subprocesses and helps to\n    control a remote testing s...
+    │              └ <bound method WorkerGateway.executetask of <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1157, in executetask
+    exec(co, loc)
+         │   └ {'channel': <Channel id=1 open>, '__name__': '__channelexec__', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in...
+         └ <code object <module> at 0x55c312b4ea80, file "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 1>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 355, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+    │      │    │                          └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │      │    └ <HookCaller 'pytest_cmdline_main'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_cmdline_main'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_cmdline_main'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x7ff6c8893050>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x7ff6c871d620>
+           │            └ <_pytest.config.Config object at 0x7ff6c8893050>
+           └ <function wrap_session at 0x7ff6c871d580>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │       │            │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │       │            └ <function _main at 0x7ff6c871d620>
+    │       └ <ExitCode.OK: 0>
+    └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │      │    └ <HookCaller 'pytest_runtestloop'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtestloop'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtestloop'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtestloop'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='140697925529776', plugin=<__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 157, in pytest_runtestloop
+    self.run_one_test()
+    │    └ <function WorkerInteractor.run_one_test at 0x7ff6c84b4040>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 174, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │      │    │                            │              └ <Function test_remove_method>
+    │    │      │    │                            └ <Function test_remove_files_not_complete>
+    │    │      │    └ <HookCaller 'pytest_runtest_protocol'>
+    │    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_protocol'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_protocol'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>, <Function test_remove_method>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='rerunfailures', plugin=<module 'pytest_rerunfailures' from '/media/data/dev/aria2p/__pypackages__/3.12...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pytest_rerunfailures.py", line 541, in pytest_runtest_protocol
+    reports = runtestprotocol(item, nextitem=nextitem, log=False)
+              │               │              └ <Function test_remove_method>
+              │               └ <Function test_remove_files_not_complete>
+              └ <function runtestprotocol at 0x7ff6c871c7c0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ False
+    │       │      │               └ <Function test_remove_files_not_complete>
+    │       │      └ <function call_and_report at 0x7ff6c871cb80>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_api.py::test_remove_files_not_complete' when='setup' outcome='passed'>]
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_remove_files_not_complete>
+           └ <function call_runtest_hook at 0x7ff6c871cd60>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod(<function CallInfo.from_call at 0x7ff6c871cfe0>)>
+           └ <class '_pytest.runner.CallInfo'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x7ff6c20b4fe0>
+            │        └ +TResult
+            └ typing.Optional
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_remove_files_not_complete>
+            └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ False
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x7ff6c8767880>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_remove_files_not_complete>
+    │    └ <property object at 0x7ff6c887e430>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_pyfunc_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_pyfunc_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {'tmp_path': PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'), 'port': 15633}
+             └ <function test_remove_files_not_complete at 0x7ff6c325cc20>
+
+  File "/media/data/dev/aria2p/tests/test_api.py", line 180, in test_remove_files_not_complete
+    assert server.api.remove(downloads, files=True)
+           │      │   │      └ [<aria2p.downloads.Download object at 0x7ff6c21abad0>, <aria2p.downloads.Download object at 0x7ff6c21abf50>]
+           │      │   └ <function API.remove at 0x7ff6c36b0fe0>
+           │      └ API(Client(host='http://localhost', port=15633, secret='********'))
+           └ <tests.conftest.Aria2Server object at 0x7ff6c21a98e0>
+
+  File "/media/data/dev/aria2p/src/aria2p/api.py", line 464, in remove
+    self.remove_files([download], force=True)
+    │    │             └ <aria2p.downloads.Download object at 0x7ff6c21abad0>
+    │    └ <staticmethod(<function API.remove_files at 0x7ff6c36b1800>)>
+    └ API(Client(host='http://localhost', port=15633, secret='********'))
+
+  File "/media/data/dev/aria2p/src/aria2p/api.py", line 650, in remove_files
+    for path in download.root_files_paths:
+                │        └ <property object at 0x7ff6c3627d30>
+                └ <aria2p.downloads.Download object at 0x7ff6c21abad0>
+
+> File "/media/data/dev/aria2p/src/aria2p/downloads.py", line 328, in root_files_paths
+    relative_path = file.path.relative_to(self.dir)
+                    │    │                │    └ <property object at 0x7ff6c36447c0>
+                    │    │                └ <aria2p.downloads.Download object at 0x7ff6c21abad0>
+                    │    └ <property object at 0x7ff6c36273d0>
+                    └ <aria2p.downloads.File object at 0x7ff6c343a3f0>
+
+  File "/home/pawamoy/.basher-packages/pyenv/pyenv/versions/3.12.0/lib/python3.12/pathlib.py", line 683, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+                            │                                      └ PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0')
+                            └ PosixPath('.')
+
+ValueError: '.' is not in the subpath of '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+2024-01-11 18:50:33.757 | DEBUG    | aria2p.api:remove:435 - Try to remove download 0000000000000002
+2024-01-11 18:50:33.761 | SUCCESS  | aria2p.api:remove:442 - Removed download 0000000000000002
+2024-01-11 18:50:33.764 | DEBUG    | aria2p.api:remove:447 - Failed to remove download result 0000000000000002
+2024-01-11 18:50:33.764 | TRACE    | aria2p.api:remove:448 - GID 0000000000000002 is not found
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1640, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+    │                │      └ 'gw2-worker'
+    │                └ <execnet.gateway_base.Popen2IO object at 0x7ff6c99f4920>
+    └ <class 'execnet.gateway_base.WorkerGateway'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1142, in serve
+    self._execpool.integrate_as_primary_thread()
+    │    │         └ <function WorkerPool.integrate_as_primary_thread at 0x7ff6c9a29620>
+    │    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+    └ <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 343, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+    │    │              └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+    │    └ <function WorkerPool._perform_spawn at 0x7ff6c9a29800>
+    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 361, in _perform_spawn
+    reply.run()
+    │     └ <function Reply.run at 0x7ff6c9a294e0>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 296, in run
+    self._result = func(*args, **kwargs)
+    │              │     │       └ {}
+    │              │     └ ((<Channel id=1 open>, ('"""\n    This module is executed in remote subprocesses and helps to\n    control a remote testing s...
+    │              └ <bound method WorkerGateway.executetask of <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1157, in executetask
+    exec(co, loc)
+         │   └ {'channel': <Channel id=1 open>, '__name__': '__channelexec__', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in...
+         └ <code object <module> at 0x55c312b4ea80, file "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 1>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 355, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+    │      │    │                          └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │      │    └ <HookCaller 'pytest_cmdline_main'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_cmdline_main'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_cmdline_main'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x7ff6c8893050>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x7ff6c871d620>
+           │            └ <_pytest.config.Config object at 0x7ff6c8893050>
+           └ <function wrap_session at 0x7ff6c871d580>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │       │            │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │       │            └ <function _main at 0x7ff6c871d620>
+    │       └ <ExitCode.OK: 0>
+    └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │      │    └ <HookCaller 'pytest_runtestloop'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtestloop'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtestloop'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtestloop'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='140697925529776', plugin=<__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 157, in pytest_runtestloop
+    self.run_one_test()
+    │    └ <function WorkerInteractor.run_one_test at 0x7ff6c84b4040>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 174, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │      │    │                            │              └ <Function test_remove_method>
+    │    │      │    │                            └ <Function test_remove_files_not_complete>
+    │    │      │    └ <HookCaller 'pytest_runtest_protocol'>
+    │    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_protocol'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_protocol'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>, <Function test_remove_method>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='rerunfailures', plugin=<module 'pytest_rerunfailures' from '/media/data/dev/aria2p/__pypackages__/3.12...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pytest_rerunfailures.py", line 541, in pytest_runtest_protocol
+    reports = runtestprotocol(item, nextitem=nextitem, log=False)
+              │               │              └ <Function test_remove_method>
+              │               └ <Function test_remove_files_not_complete>
+              └ <function runtestprotocol at 0x7ff6c871c7c0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ False
+    │       │      │               └ <Function test_remove_files_not_complete>
+    │       │      └ <function call_and_report at 0x7ff6c871cb80>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_api.py::test_remove_files_not_complete' when='setup' outcome='passed'>]
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_remove_files_not_complete>
+           └ <function call_runtest_hook at 0x7ff6c871cd60>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod(<function CallInfo.from_call at 0x7ff6c871cfe0>)>
+           └ <class '_pytest.runner.CallInfo'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x7ff6c20b4fe0>
+            │        └ +TResult
+            └ typing.Optional
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_remove_files_not_complete>
+            └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ False
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x7ff6c8767880>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_remove_files_not_complete>
+    │    └ <property object at 0x7ff6c887e430>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_pyfunc_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_pyfunc_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {'tmp_path': PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'), 'port': 15633}
+             └ <function test_remove_files_not_complete at 0x7ff6c325cc20>
+
+  File "/media/data/dev/aria2p/tests/test_api.py", line 180, in test_remove_files_not_complete
+    assert server.api.remove(downloads, files=True)
+           │      │   │      └ [<aria2p.downloads.Download object at 0x7ff6c21abad0>, <aria2p.downloads.Download object at 0x7ff6c21abf50>]
+           │      │   └ <function API.remove at 0x7ff6c36b0fe0>
+           │      └ API(Client(host='http://localhost', port=15633, secret='********'))
+           └ <tests.conftest.Aria2Server object at 0x7ff6c21a98e0>
+
+> File "/media/data/dev/aria2p/src/aria2p/api.py", line 445, in remove
+    self.client.remove_download_result(download.gid)
+    │    │      │                      │        └ <property object at 0x7ff6c3627d80>
+    │    │      │                      └ <aria2p.downloads.Download object at 0x7ff6c21abf50>
+    │    │      └ <function Client.remove_download_result at 0x7ff6c3634040>
+    │    └ Client(host='http://localhost', port=15633, secret='********')
+    └ API(Client(host='http://localhost', port=15633, secret='********'))
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 1418, in remove_download_result
+    return self.call(self.REMOVE_DOWNLOAD_RESULT, [gid])  # type: ignore
+           │    │    │    │                        └ '0000000000000002'
+           │    │    │    └ 'aria2.removeDownloadResult'
+           │    │    └ Client(host='http://localhost', port=15633, secret='********')
+           │    └ <function Client.call at 0x7ff6c3622a20>
+           └ Client(host='http://localhost', port=15633, secret='********')
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 258, in call
+    return self.res_or_raise(self.post(payload))
+           │    │            │    │    └ '{"jsonrpc": "2.0", "method": "aria2.removeDownloadResult", "id": -1, "params": ["0000000000000002"]}'
+           │    │            │    └ <function Client.post at 0x7ff6c3622c00>
+           │    │            └ Client(host='http://localhost', port=15633, secret='********')
+           │    └ <staticmethod(<function Client.res_or_raise at 0x7ff6c3622d40>)>
+           └ Client(host='http://localhost', port=15633, secret='********')
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 380, in res_or_raise
+    raise Client.response_as_exception(response)
+          │      │                     └ {'id': -1, 'jsonrpc': '2.0', 'error': {'code': 1, 'message': 'GID 0000000000000002 is not found'}}
+          │      └ <staticmethod(<function Client.response_as_exception at 0x7ff6c3622ca0>)>
+          └ <class 'aria2p.client.Client'>
+
+aria2p.client.ClientException: GID 0000000000000002 is not found
+2024-01-11 18:50:33.772 | DEBUG    | aria2p.api:remove:461 - Removed control file /tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0/6m.aria2
+2024-01-11 18:50:33.773 | WARNING  | aria2p.downloads:root_files_paths:330 - Can't determine file path '.' relative to '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+2024-01-11 18:50:33.773 | TRACE    | aria2p.downloads:root_files_paths:331 - '.' is not in the subpath of '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1640, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+    │                │      └ 'gw2-worker'
+    │                └ <execnet.gateway_base.Popen2IO object at 0x7ff6c99f4920>
+    └ <class 'execnet.gateway_base.WorkerGateway'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1142, in serve
+    self._execpool.integrate_as_primary_thread()
+    │    │         └ <function WorkerPool.integrate_as_primary_thread at 0x7ff6c9a29620>
+    │    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+    └ <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 343, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+    │    │              └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+    │    └ <function WorkerPool._perform_spawn at 0x7ff6c9a29800>
+    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 361, in _perform_spawn
+    reply.run()
+    │     └ <function Reply.run at 0x7ff6c9a294e0>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 296, in run
+    self._result = func(*args, **kwargs)
+    │              │     │       └ {}
+    │              │     └ ((<Channel id=1 open>, ('"""\n    This module is executed in remote subprocesses and helps to\n    control a remote testing s...
+    │              └ <bound method WorkerGateway.executetask of <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1157, in executetask
+    exec(co, loc)
+         │   └ {'channel': <Channel id=1 open>, '__name__': '__channelexec__', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in...
+         └ <code object <module> at 0x55c312b4ea80, file "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 1>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 355, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+    │      │    │                          └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │      │    └ <HookCaller 'pytest_cmdline_main'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_cmdline_main'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_cmdline_main'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x7ff6c8893050>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x7ff6c871d620>
+           │            └ <_pytest.config.Config object at 0x7ff6c8893050>
+           └ <function wrap_session at 0x7ff6c871d580>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │       │            │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │       │            └ <function _main at 0x7ff6c871d620>
+    │       └ <ExitCode.OK: 0>
+    └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │      │    └ <HookCaller 'pytest_runtestloop'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtestloop'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtestloop'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtestloop'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='140697925529776', plugin=<__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 157, in pytest_runtestloop
+    self.run_one_test()
+    │    └ <function WorkerInteractor.run_one_test at 0x7ff6c84b4040>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 174, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │      │    │                            │              └ <Function test_remove_method>
+    │    │      │    │                            └ <Function test_remove_files_not_complete>
+    │    │      │    └ <HookCaller 'pytest_runtest_protocol'>
+    │    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_protocol'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_protocol'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>, <Function test_remove_method>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='rerunfailures', plugin=<module 'pytest_rerunfailures' from '/media/data/dev/aria2p/__pypackages__/3.12...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pytest_rerunfailures.py", line 541, in pytest_runtest_protocol
+    reports = runtestprotocol(item, nextitem=nextitem, log=False)
+              │               │              └ <Function test_remove_method>
+              │               └ <Function test_remove_files_not_complete>
+              └ <function runtestprotocol at 0x7ff6c871c7c0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ False
+    │       │      │               └ <Function test_remove_files_not_complete>
+    │       │      └ <function call_and_report at 0x7ff6c871cb80>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_api.py::test_remove_files_not_complete' when='setup' outcome='passed'>]
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_remove_files_not_complete>
+           └ <function call_runtest_hook at 0x7ff6c871cd60>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod(<function CallInfo.from_call at 0x7ff6c871cfe0>)>
+           └ <class '_pytest.runner.CallInfo'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x7ff6c20b4fe0>
+            │        └ +TResult
+            └ typing.Optional
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_remove_files_not_complete>
+            └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ False
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x7ff6c8767880>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_remove_files_not_complete>
+    │    └ <property object at 0x7ff6c887e430>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_pyfunc_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_pyfunc_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {'tmp_path': PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'), 'port': 15633}
+             └ <function test_remove_files_not_complete at 0x7ff6c325cc20>
+
+  File "/media/data/dev/aria2p/tests/test_api.py", line 180, in test_remove_files_not_complete
+    assert server.api.remove(downloads, files=True)
+           │      │   │      └ [<aria2p.downloads.Download object at 0x7ff6c21abad0>, <aria2p.downloads.Download object at 0x7ff6c21abf50>]
+           │      │   └ <function API.remove at 0x7ff6c36b0fe0>
+           │      └ API(Client(host='http://localhost', port=15633, secret='********'))
+           └ <tests.conftest.Aria2Server object at 0x7ff6c21a98e0>
+
+  File "/media/data/dev/aria2p/src/aria2p/api.py", line 464, in remove
+    self.remove_files([download], force=True)
+    │    │             └ <aria2p.downloads.Download object at 0x7ff6c21abf50>
+    │    └ <staticmethod(<function API.remove_files at 0x7ff6c36b1800>)>
+    └ API(Client(host='http://localhost', port=15633, secret='********'))
+
+  File "/media/data/dev/aria2p/src/aria2p/api.py", line 650, in remove_files
+    for path in download.root_files_paths:
+                │        └ <property object at 0x7ff6c3627d30>
+                └ <aria2p.downloads.Download object at 0x7ff6c21abf50>
+
+> File "/media/data/dev/aria2p/src/aria2p/downloads.py", line 328, in root_files_paths
+    relative_path = file.path.relative_to(self.dir)
+                    │    │                │    └ <property object at 0x7ff6c36447c0>
+                    │    │                └ <aria2p.downloads.Download object at 0x7ff6c21abf50>
+                    │    └ <property object at 0x7ff6c36273d0>
+                    └ <aria2p.downloads.File object at 0x7ff6c21abce0>
+
+  File "/home/pawamoy/.basher-packages/pyenv/pyenv/versions/3.12.0/lib/python3.12/pathlib.py", line 683, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+                            │                                      └ PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0')
+                            └ PosixPath('.')
+
+ValueError: '.' is not in the subpath of '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+2024-01-11 18:50:33.781 | WARNING  | aria2p.downloads:root_files_paths:330 - Can't determine file path '.' relative to '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+2024-01-11 18:50:33.781 | TRACE    | aria2p.downloads:root_files_paths:331 - '.' is not in the subpath of '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1640, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+    │                │      └ 'gw2-worker'
+    │                └ <execnet.gateway_base.Popen2IO object at 0x7ff6c99f4920>
+    └ <class 'execnet.gateway_base.WorkerGateway'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1142, in serve
+    self._execpool.integrate_as_primary_thread()
+    │    │         └ <function WorkerPool.integrate_as_primary_thread at 0x7ff6c9a29620>
+    │    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+    └ <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 343, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+    │    │              └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+    │    └ <function WorkerPool._perform_spawn at 0x7ff6c9a29800>
+    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 361, in _perform_spawn
+    reply.run()
+    │     └ <function Reply.run at 0x7ff6c9a294e0>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 296, in run
+    self._result = func(*args, **kwargs)
+    │              │     │       └ {}
+    │              │     └ ((<Channel id=1 open>, ('"""\n    This module is executed in remote subprocesses and helps to\n    control a remote testing s...
+    │              └ <bound method WorkerGateway.executetask of <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1157, in executetask
+    exec(co, loc)
+         │   └ {'channel': <Channel id=1 open>, '__name__': '__channelexec__', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in...
+         └ <code object <module> at 0x55c312b4ea80, file "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 1>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 355, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+    │      │    │                          └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │      │    └ <HookCaller 'pytest_cmdline_main'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_cmdline_main'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_cmdline_main'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x7ff6c8893050>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x7ff6c871d620>
+           │            └ <_pytest.config.Config object at 0x7ff6c8893050>
+           └ <function wrap_session at 0x7ff6c871d580>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │       │            │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │       │            └ <function _main at 0x7ff6c871d620>
+    │       └ <ExitCode.OK: 0>
+    └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │      │    └ <HookCaller 'pytest_runtestloop'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtestloop'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtestloop'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtestloop'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='140697925529776', plugin=<__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 157, in pytest_runtestloop
+    self.run_one_test()
+    │    └ <function WorkerInteractor.run_one_test at 0x7ff6c84b4040>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 174, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │      │    │                            │              └ <Function test_remove_method>
+    │    │      │    │                            └ <Function test_remove_files_not_complete>
+    │    │      │    └ <HookCaller 'pytest_runtest_protocol'>
+    │    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_protocol'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_protocol'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>, <Function test_remove_method>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='rerunfailures', plugin=<module 'pytest_rerunfailures' from '/media/data/dev/aria2p/__pypackages__/3.12...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pytest_rerunfailures.py", line 541, in pytest_runtest_protocol
+    reports = runtestprotocol(item, nextitem=nextitem, log=False)
+              │               │              └ <Function test_remove_method>
+              │               └ <Function test_remove_files_not_complete>
+              └ <function runtestprotocol at 0x7ff6c871c7c0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ False
+    │       │      │               └ <Function test_remove_files_not_complete>
+    │       │      └ <function call_and_report at 0x7ff6c871cb80>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_api.py::test_remove_files_not_complete' when='setup' outcome='passed'>]
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_remove_files_not_complete>
+           └ <function call_runtest_hook at 0x7ff6c871cd60>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod(<function CallInfo.from_call at 0x7ff6c871cfe0>)>
+           └ <class '_pytest.runner.CallInfo'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x7ff6c20b4fe0>
+            │        └ +TResult
+            └ typing.Optional
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_remove_files_not_complete>
+            └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ False
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x7ff6c8767880>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_remove_files_not_complete>
+    │    └ <property object at 0x7ff6c887e430>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_pyfunc_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_pyfunc_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {'tmp_path': PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'), 'port': 15633}
+             └ <function test_remove_files_not_complete at 0x7ff6c325cc20>
+
+  File "/media/data/dev/aria2p/tests/test_api.py", line 182, in test_remove_files_not_complete
+    for file in download.root_files_paths:
+                │        └ <property object at 0x7ff6c3627d30>
+                └ <aria2p.downloads.Download object at 0x7ff6c21abad0>
+
+> File "/media/data/dev/aria2p/src/aria2p/downloads.py", line 328, in root_files_paths
+    relative_path = file.path.relative_to(self.dir)
+                    │    │                │    └ <property object at 0x7ff6c36447c0>
+                    │    │                └ <aria2p.downloads.Download object at 0x7ff6c21abad0>
+                    │    └ <property object at 0x7ff6c36273d0>
+                    └ <aria2p.downloads.File object at 0x7ff6c343a3f0>
+
+  File "/home/pawamoy/.basher-packages/pyenv/pyenv/versions/3.12.0/lib/python3.12/pathlib.py", line 683, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+                            │                                      └ PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0')
+                            └ PosixPath('.')
+
+ValueError: '.' is not in the subpath of '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+2024-01-11 18:50:33.789 | WARNING  | aria2p.downloads:root_files_paths:330 - Can't determine file path '.' relative to '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+2024-01-11 18:50:33.790 | TRACE    | aria2p.downloads:root_files_paths:331 - '.' is not in the subpath of '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1640, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+    │                │      └ 'gw2-worker'
+    │                └ <execnet.gateway_base.Popen2IO object at 0x7ff6c99f4920>
+    └ <class 'execnet.gateway_base.WorkerGateway'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1142, in serve
+    self._execpool.integrate_as_primary_thread()
+    │    │         └ <function WorkerPool.integrate_as_primary_thread at 0x7ff6c9a29620>
+    │    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+    └ <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 343, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+    │    │              └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+    │    └ <function WorkerPool._perform_spawn at 0x7ff6c9a29800>
+    └ <execnet.gateway_base.WorkerPool object at 0x7ff6c9a471a0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 361, in _perform_spawn
+    reply.run()
+    │     └ <function Reply.run at 0x7ff6c9a294e0>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 296, in run
+    self._result = func(*args, **kwargs)
+    │              │     │       └ {}
+    │              │     └ ((<Channel id=1 open>, ('"""\n    This module is executed in remote subprocesses and helps to\n    control a remote testing s...
+    │              └ <bound method WorkerGateway.executetask of <execnet.gateway_base.WorkerGateway object at 0x7ff6c9df2090>>
+    └ <execnet.gateway_base.Reply object at 0x7ff6c9dc5ac0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1157, in executetask
+    exec(co, loc)
+         │   └ {'channel': <Channel id=1 open>, '__name__': '__channelexec__', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in...
+         └ <code object <module> at 0x55c312b4ea80, file "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 1>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 355, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+    │      │    │                          └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │      │    └ <HookCaller 'pytest_cmdline_main'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_cmdline_main'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_cmdline_main'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x7ff6c8893050>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x7ff6c8893050>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x7ff6c871d620>
+           │            └ <_pytest.config.Config object at 0x7ff6c8893050>
+           └ <function wrap_session at 0x7ff6c871d580>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │       │            │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    │       │            └ <function _main at 0x7ff6c871d620>
+    │       └ <ExitCode.OK: 0>
+    └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │      │    └ <HookCaller 'pytest_runtestloop'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    └ <_pytest.config.Config object at 0x7ff6c8893050>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtestloop'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtestloop'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtestloop'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='140697925529776', plugin=<__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 157, in pytest_runtestloop
+    self.run_one_test()
+    │    └ <function WorkerInteractor.run_one_test at 0x7ff6c84b4040>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 174, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │      │    │                            │              └ <Function test_remove_method>
+    │    │      │    │                            └ <Function test_remove_files_not_complete>
+    │    │      │    └ <HookCaller 'pytest_runtest_protocol'>
+    │    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7ff6c84922d0>
+    │    └ <_pytest.config.Config object at 0x7ff6c8893050>
+    └ <__channelexec__.WorkerInteractor object at 0x7ff6c9df30b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_protocol'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_protocol'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>, 'nextitem': <Function test_remove_method>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>, <Function test_remove_method>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='rerunfailures', plugin=<module 'pytest_rerunfailures' from '/media/data/dev/aria2p/__pypackages__/3.12...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pytest_rerunfailures.py", line 541, in pytest_runtest_protocol
+    reports = runtestprotocol(item, nextitem=nextitem, log=False)
+              │               │              └ <Function test_remove_method>
+              │               └ <Function test_remove_files_not_complete>
+              └ <function runtestprotocol at 0x7ff6c871c7c0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ False
+    │       │      │               └ <Function test_remove_files_not_complete>
+    │       │      └ <function call_and_report at 0x7ff6c871cb80>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_api.py::test_remove_files_not_complete' when='setup' outcome='passed'>]
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_remove_files_not_complete>
+           └ <function call_runtest_hook at 0x7ff6c871cd60>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod(<function CallInfo.from_call at 0x7ff6c871cfe0>)>
+           └ <class '_pytest.runner.CallInfo'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x7ff6c20b4fe0>
+            │        └ +TResult
+            └ typing.Optional
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_remove_files_not_complete>
+            └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ False
+           │    │         │    │     │    │           └ {'item': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x7ff6c8767880>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_remove_files_not_complete>
+    │    └ <property object at 0x7ff6c887e430>
+    └ <Function test_remove_files_not_complete>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_pyfunc_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_pyfunc_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_remove_files_not_complete>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x7ff6c9dad760>
+           └ <_pytest.config.PytestPluginManager object at 0x7ff6c9a47380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_remove_files_not_complete>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {'tmp_path': PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'), 'port': 15633}
+             └ <function test_remove_files_not_complete at 0x7ff6c325cc20>
+
+  File "/media/data/dev/aria2p/tests/test_api.py", line 182, in test_remove_files_not_complete
+    for file in download.root_files_paths:
+                │        └ <property object at 0x7ff6c3627d30>
+                └ <aria2p.downloads.Download object at 0x7ff6c21abf50>
+
+> File "/media/data/dev/aria2p/src/aria2p/downloads.py", line 328, in root_files_paths
+    relative_path = file.path.relative_to(self.dir)
+                    │    │                │    └ <property object at 0x7ff6c36447c0>
+                    │    │                └ <aria2p.downloads.Download object at 0x7ff6c21abf50>
+                    │    └ <property object at 0x7ff6c36273d0>
+                    └ <aria2p.downloads.File object at 0x7ff6c21abce0>
+
+  File "/home/pawamoy/.basher-packages/pyenv/pyenv/versions/3.12.0/lib/python3.12/pathlib.py", line 683, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+                            │                                      └ PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0')
+                            └ PosixPath('.')
+
+ValueError: '.' is not in the subpath of '/tmp/pytest-of-pawamoy/pytest-32/popen-gw2/test_remove_files_not_complete0'

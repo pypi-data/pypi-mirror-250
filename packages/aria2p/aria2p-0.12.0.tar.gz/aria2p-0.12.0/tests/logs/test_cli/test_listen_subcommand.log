@@ -1,0 +1,12 @@
+2024-01-11 18:50:17.675 | DEBUG    | aria2p.client:listen_to_notifications:1673 - Notifications (ws://localhost:15236/jsonrpc): opening WebSocket with timeout=5
+2024-01-11 18:50:17.678 | DEBUG    | aria2p.utils:__init__:37 - Signal handler: handling signals SIGTERM, SIGINT
+2024-01-11 18:50:17.679 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15236/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:19.677 | INFO     | aria2p.client:listen_to_notifications:1702 - Notifications (ws://localhost:15236/jsonrpc): received aria2.onDownloadStart with gid=0000000000000001
+2024-01-11 18:50:19.677 | DEBUG    | aria2p.client:listen_to_notifications:1707 - Notifications (ws://localhost:15236/jsonrpc): calling functools.partial(<function on_download_start at 0x7f2e2661bd80>, API(Client(host='http://localhost', port=15236, secret='********'))) with gid=0000000000000001
+2024-01-11 18:50:19.677 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15236/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:19.678 | INFO     | aria2p.client:listen_to_notifications:1702 - Notifications (ws://localhost:15236/jsonrpc): received aria2.onDownloadStart with gid=0000000000000002
+2024-01-11 18:50:19.678 | DEBUG    | aria2p.client:listen_to_notifications:1707 - Notifications (ws://localhost:15236/jsonrpc): calling functools.partial(<function on_download_start at 0x7f2e2661bd80>, API(Client(host='http://localhost', port=15236, secret='********'))) with gid=0000000000000002
+2024-01-11 18:50:19.678 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15236/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:24.682 | DEBUG    | aria2p.client:listen_to_notifications:1699 - Notifications (ws://localhost:15236/jsonrpc): reached timeout (5s)
+2024-01-11 18:50:24.682 | DEBUG    | aria2p.client:listen_to_notifications:1713 - Notifications (ws://localhost:15236/jsonrpc): stopped listening
+2024-01-11 18:50:24.682 | DEBUG    | aria2p.client:listen_to_notifications:1720 - Notifications (ws://localhost:15236/jsonrpc): closing WebSocket

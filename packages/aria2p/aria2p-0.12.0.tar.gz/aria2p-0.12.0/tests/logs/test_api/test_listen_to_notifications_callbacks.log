@@ -1,0 +1,23 @@
+2024-01-11 18:50:29.549 | DEBUG    | aria2p.client:listen_to_notifications:1673 - Notifications (ws://localhost:15152/jsonrpc): opening WebSocket with timeout=1
+2024-01-11 18:50:29.551 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15152/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:30.552 | DEBUG    | aria2p.client:listen_to_notifications:1699 - Notifications (ws://localhost:15152/jsonrpc): reached timeout (1s)
+2024-01-11 18:50:30.552 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15152/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:30.553 | INFO     | aria2p.client:listen_to_notifications:1702 - Notifications (ws://localhost:15152/jsonrpc): received aria2.onDownloadStart with gid=0000000000000001
+2024-01-11 18:50:30.553 | DEBUG    | aria2p.client:listen_to_notifications:1707 - Notifications (ws://localhost:15152/jsonrpc): calling functools.partial(<function test_listen_to_notifications_callbacks.<locals>.<lambda> at 0x7ff6c20b4b80>, API(Client(host='http://localhost', port=15152, secret='********'))) with gid=0000000000000001
+2024-01-11 18:50:30.553 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15152/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:30.553 | INFO     | aria2p.client:listen_to_notifications:1702 - Notifications (ws://localhost:15152/jsonrpc): received aria2.onDownloadStart with gid=0000000000000002
+2024-01-11 18:50:30.553 | DEBUG    | aria2p.client:listen_to_notifications:1707 - Notifications (ws://localhost:15152/jsonrpc): calling functools.partial(<function test_listen_to_notifications_callbacks.<locals>.<lambda> at 0x7ff6c20b4b80>, API(Client(host='http://localhost', port=15152, secret='********'))) with gid=0000000000000002
+2024-01-11 18:50:30.553 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15152/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:30.555 | INFO     | aria2p.client:listen_to_notifications:1702 - Notifications (ws://localhost:15152/jsonrpc): received aria2.onDownloadError with gid=0000000000000001
+2024-01-11 18:50:30.555 | DEBUG    | aria2p.client:listen_to_notifications:1710 - Notifications (ws://localhost:15152/jsonrpc): no callback given for type aria2.onDownloadError
+2024-01-11 18:50:30.555 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15152/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:30.555 | INFO     | aria2p.client:listen_to_notifications:1702 - Notifications (ws://localhost:15152/jsonrpc): received aria2.onDownloadError with gid=0000000000000002
+2024-01-11 18:50:30.555 | DEBUG    | aria2p.client:listen_to_notifications:1710 - Notifications (ws://localhost:15152/jsonrpc): no callback given for type aria2.onDownloadError
+2024-01-11 18:50:30.555 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15152/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:31.556 | DEBUG    | aria2p.client:listen_to_notifications:1699 - Notifications (ws://localhost:15152/jsonrpc): reached timeout (1s)
+2024-01-11 18:50:31.557 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15152/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:32.558 | DEBUG    | aria2p.client:listen_to_notifications:1699 - Notifications (ws://localhost:15152/jsonrpc): reached timeout (1s)
+2024-01-11 18:50:32.558 | DEBUG    | aria2p.client:listen_to_notifications:1692 - Notifications (ws://localhost:15152/jsonrpc): waiting for data over WebSocket
+2024-01-11 18:50:33.560 | DEBUG    | aria2p.client:listen_to_notifications:1699 - Notifications (ws://localhost:15152/jsonrpc): reached timeout (1s)
+2024-01-11 18:50:33.560 | DEBUG    | aria2p.client:listen_to_notifications:1713 - Notifications (ws://localhost:15152/jsonrpc): stopped listening
+2024-01-11 18:50:33.560 | DEBUG    | aria2p.client:listen_to_notifications:1720 - Notifications (ws://localhost:15152/jsonrpc): closing WebSocket

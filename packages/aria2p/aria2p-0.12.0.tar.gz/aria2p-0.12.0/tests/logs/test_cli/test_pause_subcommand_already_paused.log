@@ -1,0 +1,548 @@
+2024-01-11 18:50:17.797 | DEBUG    | aria2p.api:pause:498 - Failed to pause download 0000000000000001
+2024-01-11 18:50:17.797 | TRACE    | aria2p.api:pause:499 - GID#0000000000000001 cannot be paused now
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1640, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+    │                │      └ 'gw1-worker'
+    │                └ <execnet.gateway_base.Popen2IO object at 0x7f5b6f50e2d0>
+    └ <class 'execnet.gateway_base.WorkerGateway'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1142, in serve
+    self._execpool.integrate_as_primary_thread()
+    │    │         └ <function WorkerPool.integrate_as_primary_thread at 0x7f5b6f581620>
+    │    └ <execnet.gateway_base.WorkerPool object at 0x7f5b6f59f380>
+    └ <execnet.gateway_base.WorkerGateway object at 0x7f5b6f59d6a0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 343, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+    │    │              └ <execnet.gateway_base.Reply object at 0x7f5b6f59f6b0>
+    │    └ <function WorkerPool._perform_spawn at 0x7f5b6f581800>
+    └ <execnet.gateway_base.WorkerPool object at 0x7f5b6f59f380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 361, in _perform_spawn
+    reply.run()
+    │     └ <function Reply.run at 0x7f5b6f5814e0>
+    └ <execnet.gateway_base.Reply object at 0x7f5b6f59f6b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 296, in run
+    self._result = func(*args, **kwargs)
+    │              │     │       └ {}
+    │              │     └ ((<Channel id=1 open>, ('"""\n    This module is executed in remote subprocesses and helps to\n    control a remote testing s...
+    │              └ <bound method WorkerGateway.executetask of <execnet.gateway_base.WorkerGateway object at 0x7f5b6f59d6a0>>
+    └ <execnet.gateway_base.Reply object at 0x7f5b6f59f6b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1157, in executetask
+    exec(co, loc)
+         │   └ {'channel': <Channel id=1 open>, '__name__': '__channelexec__', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in...
+         └ <code object <module> at 0x563201fb7a80, file "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 1>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 355, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+    │      │    │                          └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+    │      │    └ <HookCaller 'pytest_cmdline_main'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7f5b6e94f3b0>
+    └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'config': <_pytest.config.Config object at 0x7f5b6fec0a70>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_cmdline_main'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_cmdline_main'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x7f5b6fec0a70>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x7f5b6fec0a70>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x7f5b6e7d9620>
+           │            └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+           └ <function wrap_session at 0x7f5b6e7d9580>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │       │            │    └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+    │       │            └ <function _main at 0x7f5b6e7d9620>
+    │       └ <ExitCode.OK: 0>
+    └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │      │    └ <HookCaller 'pytest_runtestloop'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7f5b6e94f3b0>
+    └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtestloop'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtestloop'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtestloop'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='140030659513520', plugin=<__channelexec__.WorkerInteractor object at 0x7f5b6db7ccb0>>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 157, in pytest_runtestloop
+    self.run_one_test()
+    │    └ <function WorkerInteractor.run_one_test at 0x7f5b6e570040>
+    └ <__channelexec__.WorkerInteractor object at 0x7f5b6db7ccb0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 174, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │      │    │                            │              └ <Function test_no_interface_deps_print_error>
+    │    │      │    │                            └ <Function test_pause_subcommand_already_paused>
+    │    │      │    └ <HookCaller 'pytest_runtest_protocol'>
+    │    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7f5b6e94f3b0>
+    │    └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+    └ <__channelexec__.WorkerInteractor object at 0x7f5b6db7ccb0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'item': <Function test_pause_subcommand_already_paused>, 'nextitem': <Function test_no_interface_deps_print_error>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_protocol'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_protocol'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_pause_subcommand_already_paused>, 'nextitem': <Function test_no_interface_deps_print_error>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_pause_subcommand_already_paused>, <Function test_no_interface_deps_print_error>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='rerunfailures', plugin=<module 'pytest_rerunfailures' from '/media/data/dev/aria2p/__pypackages__/3.12...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pytest_rerunfailures.py", line 541, in pytest_runtest_protocol
+    reports = runtestprotocol(item, nextitem=nextitem, log=False)
+              │               │              └ <Function test_no_interface_deps_print_error>
+              │               └ <Function test_pause_subcommand_already_paused>
+              └ <function runtestprotocol at 0x7f5b6e7d87c0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ False
+    │       │      │               └ <Function test_pause_subcommand_already_paused>
+    │       │      └ <function call_and_report at 0x7f5b6e7d8b80>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_cli.py::test_pause_subcommand_already_paused' when='setup' outcome='passed'>]
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_pause_subcommand_already_paused>
+           └ <function call_runtest_hook at 0x7f5b6e7d8d60>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod(<function CallInfo.from_call at 0x7f5b6e7d8fe0>)>
+           └ <class '_pytest.runner.CallInfo'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x7f5b6c337f60>
+            │        └ +TResult
+            └ typing.Optional
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_pause_subcommand_already_paused>
+            └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ False
+           │    │         │    │     │    │           └ {'item': <Function test_pause_subcommand_already_paused>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_pause_subcommand_already_paused>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_pause_subcommand_already_paused>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x7f5b6e823880>
+    └ <Function test_pause_subcommand_already_paused>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_pause_subcommand_already_paused>
+    │    └ <property object at 0x7f5b6e93a430>
+    └ <Function test_pause_subcommand_already_paused>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'pyfuncitem': <Function test_pause_subcommand_already_paused>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_pyfunc_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_pyfunc_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_pause_subcommand_already_paused>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_pause_subcommand_already_paused>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {'tmp_path': PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw1/test_pause_subcommand_already_0'), 'port': 15065, 'capsys'...
+             └ <function test_pause_subcommand_already_paused at 0x7f5b6d400ae0>
+
+  File "/media/data/dev/aria2p/tests/test_cli.py", line 160, in test_pause_subcommand_already_paused
+    assert pause(server.api, ["0000000000000001", "0000000000000002"]) == 1
+           │     │      └ API(Client(host='http://localhost', port=15065, secret='********'))
+           │     └ <tests.conftest.Aria2Server object at 0x7f5b6c2e7b30>
+           └ <function pause at 0x7f5b6d23b6a0>
+
+  File "/media/data/dev/aria2p/src/aria2p/cli/commands/pause.py", line 42, in pause
+    result = api.pause(downloads, force=force)
+             │   │     │                └ False
+             │   │     └ [<aria2p.downloads.Download object at 0x7f5b6c169dc0>, <aria2p.downloads.Download object at 0x7f5b6d423770>]
+             │   └ <function API.pause at 0x7f5b6d611120>
+             └ API(Client(host='http://localhost', port=15065, secret='********'))
+
+> File "/media/data/dev/aria2p/src/aria2p/api.py", line 496, in pause
+    pause_func(download.gid)
+    │          │        └ <property object at 0x7f5b6d783dd0>
+    │          └ <aria2p.downloads.Download object at 0x7f5b6c169dc0>
+    └ <bound method Client.pause of Client(host='http://localhost', port=15065, secret='********')>
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 653, in pause
+    return self.call(self.PAUSE, [gid])  # type: ignore
+           │    │    │    │       └ '0000000000000001'
+           │    │    │    └ 'aria2.pause'
+           │    │    └ Client(host='http://localhost', port=15065, secret='********')
+           │    └ <function Client.call at 0x7f5b6d77ea20>
+           └ Client(host='http://localhost', port=15065, secret='********')
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 258, in call
+    return self.res_or_raise(self.post(payload))
+           │    │            │    │    └ '{"jsonrpc": "2.0", "method": "aria2.pause", "id": -1, "params": ["0000000000000001"]}'
+           │    │            │    └ <function Client.post at 0x7f5b6d77ec00>
+           │    │            └ Client(host='http://localhost', port=15065, secret='********')
+           │    └ <staticmethod(<function Client.res_or_raise at 0x7f5b6d77ed40>)>
+           └ Client(host='http://localhost', port=15065, secret='********')
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 380, in res_or_raise
+    raise Client.response_as_exception(response)
+          │      │                     └ {'id': -1, 'jsonrpc': '2.0', 'error': {'code': 1, 'message': 'GID#0000000000000001 cannot be paused now'}}
+          │      └ <staticmethod(<function Client.response_as_exception at 0x7f5b6d77eca0>)>
+          └ <class 'aria2p.client.Client'>
+
+aria2p.client.ClientException: GID#0000000000000001 cannot be paused now
+2024-01-11 18:50:17.809 | DEBUG    | aria2p.api:pause:498 - Failed to pause download 0000000000000002
+2024-01-11 18:50:17.809 | TRACE    | aria2p.api:pause:499 - GID#0000000000000002 cannot be paused now
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1640, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+    │                │      └ 'gw1-worker'
+    │                └ <execnet.gateway_base.Popen2IO object at 0x7f5b6f50e2d0>
+    └ <class 'execnet.gateway_base.WorkerGateway'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1142, in serve
+    self._execpool.integrate_as_primary_thread()
+    │    │         └ <function WorkerPool.integrate_as_primary_thread at 0x7f5b6f581620>
+    │    └ <execnet.gateway_base.WorkerPool object at 0x7f5b6f59f380>
+    └ <execnet.gateway_base.WorkerGateway object at 0x7f5b6f59d6a0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 343, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+    │    │              └ <execnet.gateway_base.Reply object at 0x7f5b6f59f6b0>
+    │    └ <function WorkerPool._perform_spawn at 0x7f5b6f581800>
+    └ <execnet.gateway_base.WorkerPool object at 0x7f5b6f59f380>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 361, in _perform_spawn
+    reply.run()
+    │     └ <function Reply.run at 0x7f5b6f5814e0>
+    └ <execnet.gateway_base.Reply object at 0x7f5b6f59f6b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 296, in run
+    self._result = func(*args, **kwargs)
+    │              │     │       └ {}
+    │              │     └ ((<Channel id=1 open>, ('"""\n    This module is executed in remote subprocesses and helps to\n    control a remote testing s...
+    │              └ <bound method WorkerGateway.executetask of <execnet.gateway_base.WorkerGateway object at 0x7f5b6f59d6a0>>
+    └ <execnet.gateway_base.Reply object at 0x7f5b6f59f6b0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/execnet/gateway_base.py", line 1157, in executetask
+    exec(co, loc)
+         │   └ {'channel': <Channel id=1 open>, '__name__': '__channelexec__', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in...
+         └ <code object <module> at 0x563201fb7a80, file "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 1>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 355, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+    │      │    │                          └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+    │      │    └ <HookCaller 'pytest_cmdline_main'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7f5b6e94f3b0>
+    └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'config': <_pytest.config.Config object at 0x7f5b6fec0a70>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_cmdline_main'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_cmdline_main'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x7f5b6fec0a70>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x7f5b6fec0a70>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x7f5b6e7d9620>
+           │            └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+           └ <function wrap_session at 0x7f5b6e7d9580>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │       │            │    └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+    │       │            └ <function _main at 0x7f5b6e7d9620>
+    │       └ <ExitCode.OK: 0>
+    └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>
+    │      │    └ <HookCaller 'pytest_runtestloop'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7f5b6e94f3b0>
+    └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtestloop'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtestloop'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtestloop'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/mai...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session config exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=485>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='140030659513520', plugin=<__channelexec__.WorkerInteractor object at 0x7f5b6db7ccb0>>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 157, in pytest_runtestloop
+    self.run_one_test()
+    │    └ <function WorkerInteractor.run_one_test at 0x7f5b6e570040>
+    └ <__channelexec__.WorkerInteractor object at 0x7f5b6db7ccb0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/xdist/remote.py", line 174, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │      │    │                            │              └ <Function test_no_interface_deps_print_error>
+    │    │      │    │                            └ <Function test_pause_subcommand_already_paused>
+    │    │      │    └ <HookCaller 'pytest_runtest_protocol'>
+    │    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x7f5b6e94f3b0>
+    │    └ <_pytest.config.Config object at 0x7f5b6fec0a70>
+    └ <__channelexec__.WorkerInteractor object at 0x7f5b6db7ccb0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'item': <Function test_pause_subcommand_already_paused>, 'nextitem': <Function test_no_interface_deps_print_error>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_protocol'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_protocol'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_pause_subcommand_already_paused>, 'nextitem': <Function test_no_interface_deps_print_error>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_pause_subcommand_already_paused>, <Function test_no_interface_deps_print_error>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='rerunfailures', plugin=<module 'pytest_rerunfailures' from '/media/data/dev/aria2p/__pypackages__/3.12...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pytest_rerunfailures.py", line 541, in pytest_runtest_protocol
+    reports = runtestprotocol(item, nextitem=nextitem, log=False)
+              │               │              └ <Function test_no_interface_deps_print_error>
+              │               └ <Function test_pause_subcommand_already_paused>
+              └ <function runtestprotocol at 0x7f5b6e7d87c0>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ False
+    │       │      │               └ <Function test_pause_subcommand_already_paused>
+    │       │      └ <function call_and_report at 0x7f5b6e7d8b80>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_cli.py::test_pause_subcommand_already_paused' when='setup' outcome='passed'>]
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_pause_subcommand_already_paused>
+           └ <function call_runtest_hook at 0x7f5b6e7d8d60>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod(<function CallInfo.from_call at 0x7f5b6e7d8fe0>)>
+           └ <class '_pytest.runner.CallInfo'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x7f5b6c337f60>
+            │        └ +TResult
+            └ typing.Optional
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_pause_subcommand_already_paused>
+            └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ False
+           │    │         │    │     │    │           └ {'item': <Function test_pause_subcommand_already_paused>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_runtest_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_runtest_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_pause_subcommand_already_paused>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_pause_subcommand_already_paused>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x7f5b6e823880>
+    └ <Function test_pause_subcommand_already_paused>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_pause_subcommand_already_paused>
+    │    └ <property object at 0x7f5b6e93a430>
+    └ <Function test_pause_subcommand_already_paused>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_hooks.py", line 493, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+           │    │         │    │     │    │           │       └ True
+           │    │         │    │     │    │           └ {'pyfuncitem': <Function test_pause_subcommand_already_paused>}
+           │    │         │    │     │    └ <member '_hookimpls' of 'HookCaller' objects>
+           │    │         │    │     └ <HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ <member 'name' of 'HookCaller' objects>
+           │    │         └ <HookCaller 'pytest_pyfunc_call'>
+           │    └ <member '_hookexec' of 'HookCaller' objects>
+           └ <HookCaller 'pytest_pyfunc_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_manager.py", line 115, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_pause_subcommand_already_paused>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x7f5b6fe75760>
+           └ <_pytest.config.PytestPluginManager object at 0x7f5b6ec7e810>
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/pluggy/_callers.py", line 77, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_pause_subcommand_already_paused>]
+          │         └ <member 'function' of 'HookImpl' objects>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.12/lib/_pytest/python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {'tmp_path': PosixPath('/tmp/pytest-of-pawamoy/pytest-32/popen-gw1/test_pause_subcommand_already_0'), 'port': 15065, 'capsys'...
+             └ <function test_pause_subcommand_already_paused at 0x7f5b6d400ae0>
+
+  File "/media/data/dev/aria2p/tests/test_cli.py", line 160, in test_pause_subcommand_already_paused
+    assert pause(server.api, ["0000000000000001", "0000000000000002"]) == 1
+           │     │      └ API(Client(host='http://localhost', port=15065, secret='********'))
+           │     └ <tests.conftest.Aria2Server object at 0x7f5b6c2e7b30>
+           └ <function pause at 0x7f5b6d23b6a0>
+
+  File "/media/data/dev/aria2p/src/aria2p/cli/commands/pause.py", line 42, in pause
+    result = api.pause(downloads, force=force)
+             │   │     │                └ False
+             │   │     └ [<aria2p.downloads.Download object at 0x7f5b6c169dc0>, <aria2p.downloads.Download object at 0x7f5b6d423770>]
+             │   └ <function API.pause at 0x7f5b6d611120>
+             └ API(Client(host='http://localhost', port=15065, secret='********'))
+
+> File "/media/data/dev/aria2p/src/aria2p/api.py", line 496, in pause
+    pause_func(download.gid)
+    │          │        └ <property object at 0x7f5b6d783dd0>
+    │          └ <aria2p.downloads.Download object at 0x7f5b6d423770>
+    └ <bound method Client.pause of Client(host='http://localhost', port=15065, secret='********')>
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 653, in pause
+    return self.call(self.PAUSE, [gid])  # type: ignore
+           │    │    │    │       └ '0000000000000002'
+           │    │    │    └ 'aria2.pause'
+           │    │    └ Client(host='http://localhost', port=15065, secret='********')
+           │    └ <function Client.call at 0x7f5b6d77ea20>
+           └ Client(host='http://localhost', port=15065, secret='********')
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 258, in call
+    return self.res_or_raise(self.post(payload))
+           │    │            │    │    └ '{"jsonrpc": "2.0", "method": "aria2.pause", "id": -1, "params": ["0000000000000002"]}'
+           │    │            │    └ <function Client.post at 0x7f5b6d77ec00>
+           │    │            └ Client(host='http://localhost', port=15065, secret='********')
+           │    └ <staticmethod(<function Client.res_or_raise at 0x7f5b6d77ed40>)>
+           └ Client(host='http://localhost', port=15065, secret='********')
+
+  File "/media/data/dev/aria2p/src/aria2p/client.py", line 380, in res_or_raise
+    raise Client.response_as_exception(response)
+          │      │                     └ {'id': -1, 'jsonrpc': '2.0', 'error': {'code': 1, 'message': 'GID#0000000000000002 cannot be paused now'}}
+          │      └ <staticmethod(<function Client.response_as_exception at 0x7f5b6d77eca0>)>
+          └ <class 'aria2p.client.Client'>
+
+aria2p.client.ClientException: GID#0000000000000002 cannot be paused now

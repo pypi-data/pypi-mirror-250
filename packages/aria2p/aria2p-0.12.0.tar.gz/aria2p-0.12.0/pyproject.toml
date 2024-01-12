@@ -1,0 +1,129 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "aria2p"
+description = "Command-line tool and library to interact with an aria2c daemon process with JSON-RPC."
+authors = [
+    { name = "Timothée Mazzucotelli", email = "pawamoy@pm.me" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = [
+    "aria2",
+    "aria2c",
+    "aria2-cli",
+]
+dynamic = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+dependencies = [
+    "appdirs>=1.4",
+    "loguru>=0.5",
+    "requests>=2.19",
+    "tomli>=2.0; python_version < '3.11'",
+    "websocket-client>=0.58",
+]
+version = "0.12.0"
+
+[project.license]
+text = "ISC"
+
+[project.optional-dependencies]
+tui = [
+    "asciimatics>=1.13",
+    "pyperclip>=1.8",
+]
+
+[project.urls]
+Homepage = "https://pawamoy.github.io/aria2p"
+Documentation = "https://pawamoy.github.io/aria2p"
+Changelog = "https://pawamoy.github.io/aria2p/changelog"
+Repository = "https://github.com/pawamoy/aria2p"
+Issues = "https://github.com/pawamoy/aria2p/issues"
+Discussions = "https://github.com/pawamoy/aria2p/discussions"
+Gitter = "https://gitter.im/aria2p/community"
+Funding = "https://github.com/sponsors/pawamoy"
+
+[project.scripts]
+aria2p = "aria2p.cli.main:main"
+
+[tool.pdm]
+plugins = [
+    "pdm-multirun",
+]
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.build]
+package-dir = "src"
+editable-backend = "editables"
+
+[tool.pdm.dev-dependencies]
+duty = [
+    "duty>=0.10",
+]
+ci-quality = [
+    "aria2p[duty,docs,quality,typing,security]",
+]
+ci-tests = [
+    "aria2p[duty,tests]",
+]
+docs = [
+    "black>=23.9",
+    "markdown-callouts>=0.3",
+    "markdown-exec>=1.7",
+    "mkdocs>=1.5",
+    "mkdocs-coverage>=1.0",
+    "mkdocs-gen-files>=0.5",
+    "mkdocs-git-committers-plugin-2>=1.2",
+    "mkdocs-literate-nav>=0.6",
+    "mkdocs-material>=9.4",
+    "mkdocs-minify-plugin>=0.7",
+    "mkdocstrings[python]>=0.23",
+    "tomli>=2.0; python_version < '3.11'",
+]
+maintain = [
+    "black>=23.9",
+    "blacken-docs>=1.16",
+    "git-changelog>=2.3",
+]
+quality = [
+    "ruff>=0.0",
+]
+tests = [
+    "fastapi>=0.100",
+    "psutil>=5.9.5",
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "pytest-randomly>=3.15",
+    "pytest-rerunfailures>=9.1",
+    "pytest-xdist>=3.3",
+    "responses>=0.23",
+    "uvicorn>=0.23",
+]
+typing = [
+    "mypy>=1.5",
+    "types-markdown>=3.5",
+    "types-pyyaml>=6.0",
+    "types-requests>=2.31",
+]
+security = [
+    "safety>=2.3",
+]
