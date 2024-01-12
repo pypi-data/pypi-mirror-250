@@ -1,0 +1,6 @@
+pyproject.toml
+statsql/__init__.py
+statsql.egg-info/PKG-INFO
+statsql.egg-info/SOURCES.txt
+statsql.egg-info/dependency_links.txt
+statsql.egg-info/top_level.txt
