@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pipebio
+Version: 1.0.3
+Summary: A PipeBio client package
+Home-page: https://github.com/pipebio/python-library
+Author: Chris Peters
+Author-email: chris@pipebio.com
+License: BSD 3-clause
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests ~=2.25.1
+Requires-Dist: urllib3 ~=1.26.5
+Requires-Dist: pandas ~=1.5.0
+Requires-Dist: setuptools ~=67.7.2
+Requires-Dist: biopython ~=1.78
+
+# PipeBio Python SDK
+
+This is based on the library originally created as part of the [api-examples](https://github.com/pipebio/api-examples).
+
+## Versioning
+To deploy a new version of this package, the version number needs to be incremented, as pypi does not permit a current version to be overwritten.
+
+The version needs to be bumped in two places:
+
+* `pipebio/__init__.py`
+* `setup.py`
+
+These version number **must** be kept in lock step.
+
+## PyPi documentation
+The documentation shown on PyPi is pulled from the `DESCRIPTION.md` file, which is configured in the setup.py file in the line:
+```python
+long_description=Path("DESCRIPTION.md").read_text(encoding='UTF-8'),
+```
+
+## Developing new versions
+New versions of this package can be deployed to `test.pypi.org` – a separate instance of the Python Package Index that allows you to try distribution tools and processes without affecting the real index.
+
+To deploy to `test.pypi.org`, the shell script `deploy_to_testpypi.sh` can be used. This requires `~/.pypirc` to be configured. 
+
+To install a package deployed to `test.pypi.org`, use 
+```shell
+pip install -i testpypi pipebio
+```
+
+### Example .pypirc file
+```
+[distutils]
+index-servers =
+    testpypi
+    pypi
+
+[testpypi]
+repository=https://test.pypi.org/legacy/
+username = __token__
+password = <Test PyPI token>
+
+[pypi]
+repository=https://pypi.org/legacy/
+username = __token__
+password = <PyPI token>
+```
+
+## Deploying to pypi
+TBC
