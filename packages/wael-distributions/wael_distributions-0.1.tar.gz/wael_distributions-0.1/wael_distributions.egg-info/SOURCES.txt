@@ -1,0 +1,10 @@
+setup.py
+wael_distributions/Binomialdistribution.py
+wael_distributions/Gaussiandistribution.py
+wael_distributions/Generaldistribution.py
+wael_distributions/__init__.py
+wael_distributions.egg-info/PKG-INFO
+wael_distributions.egg-info/SOURCES.txt
+wael_distributions.egg-info/dependency_links.txt
+wael_distributions.egg-info/not-zip-safe
+wael_distributions.egg-info/top_level.txt
