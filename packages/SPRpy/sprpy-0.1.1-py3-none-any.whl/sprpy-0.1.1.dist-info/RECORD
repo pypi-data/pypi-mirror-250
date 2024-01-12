@@ -1,0 +1,26 @@
+SPRpy/SPR_poly_coeff_22-01-29.csv,sha256=MJoLCbLfV8DsqfDE64uU-Fpgnqgft2Mt16ZXUuZMsmc,1780
+SPRpy/SPR_poly_coefficients_generator.py,sha256=PMZM5GYksMbzERzkpAw0FukKIC2kTzcnTbHcaJKCYTM,2376
+SPRpy/SPRpy.py,sha256=HEIYef-Y0LPeRpiIK5S7MqttzuECCFtCUsQ40oKqVCg,225289
+SPRpy/SPRpy_classes.py,sha256=2nPoOxrTjqcdfRpfJSmAdSqOrz_gFrxvRNlL3aSIZSA,44627
+SPRpy/SPRpy_functions.py,sha256=6U8F8--KVJ4HZp3pu8BexsvBP1onOlu4jN3HV2kCA5M,3930
+SPRpy/__about__.py,sha256=IVY0mappRUjUZdZLwZB7Yz_5OxU6P3lvPjDyuMSiBDs,19
+SPRpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SPRpy/config.toml,sha256=NvLRsibVezQoFEtJNpckQ4pm4GrQnm3t5WPipH4cxno,685
+SPRpy/create_desktop_shortcut.py,sha256=WtzzhVDyxBvcDw84ljJcZugVCkTJI8zHML7Ki0YGmsM,821
+SPRpy/fresnel_transfer_matrix.py,sha256=ZpKpPpa65oPC83RprI2ynDdSap7vkfEf9JJTHewgz2o,8718
+SPRpy/spr2_to_csv.py,sha256=bHRHx0PRn8pdZzK_JpMejzVPAOc-IAAF67iWjMp4xzc,7912
+SPRpy/assets/bootstrap_spacelab.css,sha256=TZ-aI08NGDhKWdSHMKvZJ21j7zYRXwrzFmDj7qQ4Fr4,202724
+SPRpy/assets/icon.ico,sha256=Lxw8oIZKDnG4GSEEzSyMpScmA3uiDJ5Sba0QjuJ5MbA,9662
+SPRpy/example data/Example_height_probing_data.spr2,sha256=0ivCY9AtZQQy_pL08iH7tRAXWL2z3bEWMNqzAIlFvGk,101732187
+SPRpy/static/images/SPR-sensor.PNG,sha256=eCn_muH1caE2d0nr1hD0A8-M4QcKE6qdQCR2FEIyPH4,422807
+SPRpy/static/images/SPR_angular_spectrum.svg,sha256=9yiR1KlPwyEnEp_j8GkdMjSuwoQ-3VrrXfUqB2GZyBg,51399
+SPRpy/static/images/SPR_principle.svg,sha256=FJynvuSuNPMZK8l2-lHUJ29w8APyUBWXHfQ_NVm742Y,40493
+SPRpy/static/images/fresnel_material.svg,sha256=9dMLXwb2WAUJleR6-h_UfO1744X7Iaeu5472qxEQB6k,50372
+SPRpy/static/images/icon.png,sha256=5yFCvfYqp_ooyNT4bEnhV8Qc49VqszLBtbFGkhRMxEE,1415
+SPRpy/static/images/icon.svg,sha256=mhM_hoipOw22F7ty_HbwMfd0wd-fi-XFShT07nIXfXo,15997
+SPRpy/static/images/non-interacting_height_probe.PNG,sha256=Yiecypa4f_f8j0s0OlvdEdRF4UJk2Q8tIT4mHUyH3b8,46396
+sprpy-0.1.1.dist-info/METADATA,sha256=v7tKYCOkOQFcaNj9fIzcuSTB2VUsT_uSNf7kfbOuRH8,12044
+sprpy-0.1.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+sprpy-0.1.1.dist-info/entry_points.txt,sha256=yTbrVeV4lgmEgmRQ7S-Cb71xKg_S82UKQsGuLfIt214,175
+sprpy-0.1.1.dist-info/licenses/LICENSE,sha256=hxqBAT2pnodiiBlgPSDxNabo35uXX-7pHqSuflyHdEE,1090
+sprpy-0.1.1.dist-info/RECORD,,
