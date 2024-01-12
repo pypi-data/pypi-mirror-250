@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: promptcache
+Version: 0.0.1a1
+Summary: A tool for caching prompts and compleation based on embedding
+License: BSD-3-Clause
+Keywords: machine-learning,llm,embedding,prompt,redis
+Author: xdssio
+Author-email: yonatana@lasso.security
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: dev
+Requires-Dist: InstructorEmbedding (>=1.0.1,<2.0.0)
+Requires-Dist: cloudpickle (>=3.0.0,<4.0.0)
+Requires-Dist: fastembed (>=0.1.3,<0.2.0)
+Requires-Dist: langchain-community (>=0.0.11,<0.0.12)
+Requires-Dist: redis (>=5.0.1,<6.0.0)
+Requires-Dist: sentence-transformers (>=2.2.2,<3.0.0)
+Requires-Dist: xxhash (>=3.4.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# PromptCache
+
+A simple-to-use prompt caching optmized for simplicity and speed.
+
+## Installation
+
+```bash
+pip install promptcache
+```
+
+## Quickstart
+
+```python
+from promptcache import RedisCache
+
+>>> cache = RedisCache()
+>>> cache.set("this is a prompt", "this is the completion")
+>>> cache.search("this is a prompt")
+{'completion': 'this is the completion', 'prompt': 'this is a prompt', 'distance': 0}
+
+>>> cache.search("this is a prompt prompt prompt")
+{'completion': 'this is the completion', 'prompt': 'this is a prompt', 'distance': 0.1254}
+
+>>> cache.get("this is a prompt")
+'this is the completion'
+
+>>> cache.delete("this is a prompt")
+>>> cache.get("this is a prompt")
+None 
+
+```
+
+# Features
+1. Simplicity, speed and scalability using [redis](https://redis.io)
+2. Fast embedding base on [fastembed](https://github.com/qdrant/fastembed)
+3. Insturction embedding based on [InstructorEmbedding](https://github.com/xlang-ai/instructor-embedding) 
+
