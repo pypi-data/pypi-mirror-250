@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ezpyzy
+Version: 0.1.0
+Summary: utility functions solving common but annoying problems
+Author: jdfinch
+Author-email: jdfinch@emory.edu
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
+# ezpyzy
+
+Utility functions solving common but annoying problems.
+
+## Installation
+
+```bash
+pip install ezpyzy
+```
+
+## Usage
+
+```python
+import ezpyzy as ez
+```
+
+
+
+
+
+
+
