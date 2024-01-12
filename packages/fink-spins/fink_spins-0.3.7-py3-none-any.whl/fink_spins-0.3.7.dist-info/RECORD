@@ -1,0 +1,17 @@
+fink_spins/__init__.py,sha256=woB4DggyBwRNednXqzHBXvRDCheFojMzboMwCtVs3Lc,662
+fink_spins/conftest.py,sha256=RpxJIedX-qgtQDd8z1zwMwjwoOSBUI770xsqVxDDjhc,597
+fink_spins/generate_data.py,sha256=IP-38WkD-MSUx2eIwHkqcMGGDRFGtIdjjl_nJEHOIKY,6376
+fink_spins/hertha.py,sha256=kz6LM2pU_XJhW6LU645ZLNWyjj3MZISPY1k7Pt56E38,1011
+fink_spins/hertha_ztf.py,sha256=8E1V3iQuwyH8X2nNJOoirQniwb5xUVqVBFmwnDZUJBo,1368
+fink_spins/model.py,sha256=ufs9cdgw-XfF4v7CIaZtOcjGVyjXpWi8S3mvzeXx2Qc,6919
+fink_spins/plots.py,sha256=r3Xi2Z5lFTvB1HnZRCisCF5_ZmEaQ04FDE3TP9ly5kw,5889
+fink_spins/ssoft.py,sha256=maELFymLVMOXL8FrnnNcQi5_fJ7LXDE4Kuc2SPOot0w,25630
+fink_spins/ssptools.py,sha256=t8MA12SOnN6fE5FpbnYJJe1h89EeDbpaGA59DmmJsKc,4096
+notebooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebooks/figure_setup.py,sha256=tT-tmmZ2btY17OLn4THPIJaBX4Ch998r1edztJUgKEM,4797
+notebooks/ssptools.py,sha256=hRmCMrqOwFhPkk6-h0KWEblCMgcVwUojIgAz9fNaivc,2303
+fink_spins-0.3.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fink_spins-0.3.7.dist-info/METADATA,sha256=4KyQEKQ1aXz8Zmm_g4K6VM27PW5PEDOwlGVbXf6XxW8,977
+fink_spins-0.3.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fink_spins-0.3.7.dist-info/top_level.txt,sha256=36fokSwF-JkOaVdg_pvBt1aZjO3ZCHOLrpM9_i_QExM,21
+fink_spins-0.3.7.dist-info/RECORD,,
