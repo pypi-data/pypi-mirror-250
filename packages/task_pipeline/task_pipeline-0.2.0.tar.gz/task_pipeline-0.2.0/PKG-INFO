@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: task_pipeline
+Version: 0.2.0
+Author-Email: Strana Dev <pypi@stranadev.ru>
+License: MIT
+Project-URL: Repository, https://github.com/stranadev/task_pipeline
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# task_pipeline
