@@ -1,0 +1,11 @@
+anchorconnector/__init__.py,sha256=aSQ3j3gPivMCrDC1JM44Bffkyvebyq01blQIiX-_lcM,233
+anchorconnector/__main__.py,sha256=wzAL17yxu-T76WN2dWX_RHoO5x5fhzRpPefU6cOEckE,5177
+anchorconnector/connector.py,sha256=lwJ1FmYhIZK9msJCMaHhqo-IOXgfsQaaIgY_t_njqac,16249
+anchorconnector/pagination.py,sha256=vLlpwuTnqEknmFEF0NhVjPOBIBqA5LvLYuAc4S0EGA0,424
+anchorconnector/test_pagination.py,sha256=Z7nAkh-QEhNJDd3aVdpdJuh4doyJ_ssfPpLHdl0yPms,895
+anchorconnector-0.4.0.dist-info/LICENSE,sha256=bx8fITZ_nz8hOKcuxSTLwqaUSuRmDpbgCv4cXUoAimY,1085
+anchorconnector-0.4.0.dist-info/METADATA,sha256=eMjbrRwmsWpg96WGlt68Up97crJpoeWbMFKc4pAzRLU,3692
+anchorconnector-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+anchorconnector-0.4.0.dist-info/entry_points.txt,sha256=1Crr_tben3B6R8DAxIIkTgbBi6Ld5vpwvtljeKgviM8,66
+anchorconnector-0.4.0.dist-info/top_level.txt,sha256=udrpCwBHr4drG6mEvMYWKR1sRo-WKUhJt5OLTM8R8Ow,16
+anchorconnector-0.4.0.dist-info/RECORD,,
