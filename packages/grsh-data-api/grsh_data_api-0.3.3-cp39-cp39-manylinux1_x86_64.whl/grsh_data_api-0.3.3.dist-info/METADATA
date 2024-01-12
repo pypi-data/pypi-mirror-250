@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: grsh-data-api
+Version: 0.3.3
+Summary: grsh_data_api
+Home-page: http://none.com
+Author: shiyingzhu
+Author-email: 13764511803@126.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: charset-normalizer (==3.2.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: numpy (==1.25.2)
+Requires-Dist: pandas (==2.0.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2023.3)
+Requires-Dist: requests (==2.30.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tzdata (==2023.3)
+Requires-Dist: urllib3 (==2.0.4)
+Requires-Dist: pydantic (==1.10.7)
+Requires-Dist: loguru (==0.7.0)
+Requires-Dist: matplotlib (==3.7.2)
+Requires-Dist: openpyxl (==3.1.2)
+Requires-Dist: PyJWT (==2.6.0)
+Requires-Dist: cryptography (==41.0.3)
+Requires-Dist: ntplib (==0.4.0)
+
+UNKNOWN
+
