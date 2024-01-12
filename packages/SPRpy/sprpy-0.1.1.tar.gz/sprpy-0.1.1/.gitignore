@@ -1,0 +1,5 @@
+SPRpy/SPRpy sessions/
+venv
+venv_laptop
+dist
+pyproject.toml
