@@ -1,0 +1,28 @@
+parallelism = 2
+search_orientation = "vertex"
+
+[graph]
+edge_list_input_file = "edges-compass.csv.gz"
+vertex_list_input_file = "vertices-compass.csv.gz"
+verbose = true
+
+[traversal]
+type = "distance"
+distance_unit = "miles"
+
+# based on 65.5 cents per mile 2023 IRS mileage rate, $/mile
+[cost.vehicle_state_variable_rates.distance]
+type = "factor"
+factor = 0.655
+
+[plugin]
+input_plugins = [
+    { type = "vertex_rtree", distance_tolerance = 0.2, distance_unit = "kilometers", vertices_input_file = "vertices-compass.csv.gz" },
+    { type = "grid_search" },
+    { type = "load_balancer", weight_heuristic = { type = "haversine" } },
+]
+output_plugins = [
+    { type = "summary" },
+    { type = "traversal", route = "geo_json", geometry_input_file = "edges-geometries-enumerated.txt.gz" },
+    { type = "uuid", uuid_input_file = "vertices-uuid-enumerated.txt.gz" },
+]
