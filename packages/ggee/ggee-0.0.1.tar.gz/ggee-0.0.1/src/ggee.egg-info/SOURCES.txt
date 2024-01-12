@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ggee/__init__.py
+src/ggee/ggee.py
+src/ggee.egg-info/PKG-INFO
+src/ggee.egg-info/SOURCES.txt
+src/ggee.egg-info/dependency_links.txt
+src/ggee.egg-info/top_level.txt
+tests/test_simple.py
