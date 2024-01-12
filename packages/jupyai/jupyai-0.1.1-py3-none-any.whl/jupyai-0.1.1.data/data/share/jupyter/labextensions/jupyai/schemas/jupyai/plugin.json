@@ -1,0 +1,29 @@
+{
+  "title": "jupyai",
+  "description": "jupyai settings.",
+  "type": "object",
+  "properties": {
+    "modelName": {
+      "type": "string",
+      "title": "Model name",
+      "description": "Model used for autocompletion.",
+      "default": "gpt-3.5-turbo"
+    }
+  },
+  "additionalProperties": false,
+  "jupyter.lab.toolbars": {
+    "Cell": [
+      {
+        "name": "autocomplete",
+        "command": "jupyai:autocomplete"
+      }
+    ]
+  },
+  "jupyter.lab.shortcuts": [
+    {
+      "command": "jupyai:autocomplete",
+      "keys": ["Accel Enter"],
+      "selector": ".jp-Notebook.jp-mod-editMode .jp-mod-completer-enabled"
+    }
+  ]
+}
