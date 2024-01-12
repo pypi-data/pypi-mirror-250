@@ -1,0 +1,16 @@
+twisted
+gather
+
+[docs]
+sphinx
+
+[lint]
+flake8
+black
+pylint
+
+[mypy]
+mypy
+
+[tests]
+coverage[toml]
