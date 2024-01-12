@@ -1,0 +1,153 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = [
+  "hatchling",
+]
+
+[project]
+name = "{{ project_name }}"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = [{ name = "{{ author_name }}", email = "{{ author_email }}" }]
+requires-python = ">=3.11"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "boto3",
+  "crispy-tailwind",
+  "django[argon2]",
+  "django-allauth",
+  "django-anymail",
+  "django-browser-reload",
+  "django-debug-toolbar",
+  "django-environ",
+  "django-extensions",
+  "django-fastdev",
+  "django-htmx",
+  "django-model-utils",
+  "django-tailwind-cli",
+  "django-template-partials",
+  "gunicorn",
+  "hiredis",
+  "Pillow",
+  "psycopg[binary]",
+  "redis",
+  "sentry-sdk",
+  "whitenoise",
+]
+
+[tool.hatch.env]
+requires = [
+  "hatch-pip-compile"
+]
+
+[tool.hatch.envs.default]
+type = "pip-compile"
+pip-compile-constraint = "default"
+pip-compile-installer = "pip-sync"
+lock-filename = "requirements.txt"
+dependencies = ["dj-notebook>=0.6.1", "Werkzeug[watchdog]>=3.0.1", "pre-commit", "django-stubs[compatible-mypy]"]
+
+[tool.hatch.envs.default.scripts]
+runserver = ["migrate", "python manage.py tailwind runserver {args}"]
+migrate = "python manage.py migrate {args}"
+makemigrations = "python manage.py makemigrations {args}"
+reset-db = "python manage.py reset_db --noinput"
+shell = "python manage.py shell_plus {args}"
+start-app = "python manage.py startapp {args} && mv {args} {{ project_name }} && sed -i 's/{args}/{{ project_name }}.{args}/g' {{ project_name }}/{args}/apps.py"
+upgrade-deps = ["rm requirements.txt", "hatch env run --env default -- python --version"]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.11", "3.12"]
+
+[tool.hatch.envs.test]
+dependencies = [
+  "coverage[toml]>=6.5",
+  "pytest",
+  "pytest-django",
+  "pytest-sugar",
+]
+
+[tool.hatch.envs.test.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = ["- coverage combine", "coverage report"]
+cov = ["test-cov", "cov-report"]
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+
+[tool.coverage.run]
+source_pkgs = ["{{ project_name }}", "tests"]
+branch = true
+parallel = true
+
+[tool.coverage.paths]
+{{ project_name }} = ["*/{{ project_name }}/{{ project_name }}"]
+tests = ["tests", "*/{{ project_name }}/tests"]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
+
+[tool.mypy]
+python_version = "3.11"
+check_untyped_defs = true
+ignore_missing_imports = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true
+plugins = ["mypy_django_plugin.main"]
+
+[[tool.mypy.overrides]]
+# Django migrations should not produce any errors:
+module = "*.migrations.*"
+ignore_errors = true
+
+[tool.django-stubs]
+django_settings_module = "config.settings"
+
+[tool.curlylint]
+include = '\.(html|jinja)$'
+exclude = '''
+(
+  /(
+      \.eggs           # exclude a few common directories in the root of the project
+    | \.git
+    | \.venv
+    | \.ruff_cache
+  )/
+  | webpack-stats.html # also separately exclude a file named webpack-stats.html in the root of the project
+)
+'''
+
+[tool.curlylint.rules]
+indent = 4
+aria_role = true
+django_forms_rendering = true
+image_alt = true
+meta_viewport = true
+no_autofocus = true
+tabindex_no_positive = true
+
+[tool.djlint]
+blank_line_after_tag = "load,extends"
+close_void_tags = true
+format_css = true
+format_js = true
+# TODO: remove T002 when fixed https://github.com/Riverside-Healthcare/djLint/issues/687
+ignore = "H006,H030,H031,T002"
+include = "H017,H035"
+indent = 2
+max_line_length = 120
+profile = "django"
+
+[tool.djlint.css]
+indent_size = 2
+
+[tool.djlint.js]
+indent_size = 2
