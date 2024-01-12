@@ -1,0 +1,13 @@
+[archan]
+archan.CSVInput = archan.plugins.providers:CSVInput
+archan.CodeClean = archan.plugins.checkers:CodeClean
+archan.CompleteMediation = archan.plugins.checkers:CompleteMediation
+archan.EconomyOfMechanism = archan.plugins.checkers:EconomyOfMechanism
+archan.LayeredArchitecture = archan.plugins.checkers:LayeredArchitecture
+archan.LeastCommonMechanism = archan.plugins.checkers:LeastCommonMechanism
+archan.LeastPrivileges = archan.plugins.checkers:LeastPrivileges
+archan.SeparationOfPrivileges = archan.plugins.checkers:SeparationOfPrivileges
+
+[console_scripts]
+archan = archan.cli:main
+
