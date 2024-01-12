@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gerenciamento-mysql
+Version: 1.0.3
+Summary: Gerenciador de MYSQL
+Author: George Júnior
+Author-email: ctt.georgejr@gmail.com
+License: MIT License
+Keywords: gerenciamento mysql
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Biblioteca feita para facilitar a criacao de sistemas de login / verificacao
+
