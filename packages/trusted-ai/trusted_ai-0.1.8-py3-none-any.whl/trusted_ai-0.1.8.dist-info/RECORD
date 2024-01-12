@@ -1,0 +1,9 @@
+tai/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tai/core/cli.py,sha256=p8PGp3jQTK6bO7Q-z7uq_OM1WweWhVC-AHr-bEOfJiE,1199
+tai/core/install_tai.py,sha256=LrKoo5eMahnL_Dc9TiqIvOE5hXlYrI57LmYWRBHKe9Q,10389
+trusted_ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trusted_ai-0.1.8.dist-info/METADATA,sha256=jSFeI9sqWhajK_4G7j93lMFh4vTbinpvzkREKM2UGDo,268
+trusted_ai-0.1.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+trusted_ai-0.1.8.dist-info/entry_points.txt,sha256=OWK0FrJalynMmmTQtwjzi-_ltkbWcCPiTdoXqu78aUw,42
+trusted_ai-0.1.8.dist-info/top_level.txt,sha256=OqgxaMckwsUxRhonCaLlCTYVE7ybB7VnIKsoLnuv_b0,4
+trusted_ai-0.1.8.dist-info/RECORD,,
