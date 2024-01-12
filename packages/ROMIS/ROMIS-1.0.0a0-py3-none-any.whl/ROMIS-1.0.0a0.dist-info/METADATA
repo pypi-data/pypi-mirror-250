@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ROMIS
+Version: 1.0.0a0
+Summary: Rigid Optimization of Molecular Interface Structures
+Home-page: https://github.com/siegfriedkaidisch/ROMIS
+Author: Siegfried Kaidisch
+Author-email: siegfried.kaidisch@uni-graz.at
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >3.8.0
+License-File: LICENSE.md
+Requires-Dist: ase
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+UNKNOWN
+
