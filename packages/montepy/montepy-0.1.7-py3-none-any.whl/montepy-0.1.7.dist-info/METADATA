@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: montepy
+Version: 0.1.7
+Summary: A library for reading, editing, and writing MCNP input files.
+Home-page: https://github.com/idaholab/montepy
+Author: Micah Gale, Travis Labossiere-Hickman, Brenna Carbno
+Author-email: micah.gale@inl.gov
+Maintainer: Micah Gale
+Maintainer-email: micah.gale@inl.gov
+License-File: LICENSE
+License-File: NOTICE.txt
+License-File: AUTHORS
+Requires-Dist: numpy
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinxcontrib-apidoc ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
