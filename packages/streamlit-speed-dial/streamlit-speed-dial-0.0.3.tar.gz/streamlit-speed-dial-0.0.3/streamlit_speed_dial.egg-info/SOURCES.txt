@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_speed_dial/__init__.py
+streamlit_speed_dial.egg-info/PKG-INFO
+streamlit_speed_dial.egg-info/SOURCES.txt
+streamlit_speed_dial.egg-info/dependency_links.txt
+streamlit_speed_dial.egg-info/requires.txt
+streamlit_speed_dial.egg-info/top_level.txt
+streamlit_speed_dial/frontend/build/asset-manifest.json
+streamlit_speed_dial/frontend/build/bootstrap.min.css
+streamlit_speed_dial/frontend/build/index.html
+streamlit_speed_dial/frontend/build/static/js/main.5bb3bc6b.js
+streamlit_speed_dial/frontend/build/static/js/main.5bb3bc6b.js.LICENSE.txt
+streamlit_speed_dial/frontend/build/static/js/main.5bb3bc6b.js.map
