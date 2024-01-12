@@ -1,0 +1,13 @@
+numpy
+matplotlib
+pandas
+networkx
+
+[developer]
+pre-commit
+
+[doc]
+sphinx
+
+[test]
+pytest
