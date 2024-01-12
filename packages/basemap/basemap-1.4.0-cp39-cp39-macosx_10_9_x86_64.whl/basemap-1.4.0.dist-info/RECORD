@@ -1,0 +1,15 @@
+basemap-1.4.0-py3.9-nspkg.pth,sha256=FgO_3ug071EXEKT8mgOPBUhyrswPtPCYjOpUCyau7UU,569
+_geoslib.cpython-39-darwin.so,sha256=cadmHXQvWz9c-Xasp3sLv0wlJeTg6zr853g_jT41vOk,137648
+basemap.dylibs/libgeos_c.1.10.5.dylib,sha256=ACxHOWPcB54NDS9RunyCrBO05_xEXQjjBfoNdmPY2tw,1429920
+mpl_toolkits/basemap/cm.py,sha256=pw17zRVfom_Y-iPr9sjJ2zzZpHViDcFv2YHRobJaV5k,47867
+mpl_toolkits/basemap/__init__.py,sha256=wH8O8KC1ceyYtKMsrRzsqyt0QLYjcAm5Z3rZPRAarwY,256497
+mpl_toolkits/basemap/diagnostic.py,sha256=gv48PoyDvrCDaTogBEpuwao4mFcNUvIc_9DT3nN6uTE,3744
+mpl_toolkits/basemap/proj.py,sha256=6jO_o62y3uglimKNxPCZrYtnC85FvaszK2NuEyp9f_s,16949
+mpl_toolkits/basemap/solar.py,sha256=XjrOmbiHRgaYTbLmNmMoV2-ffQQ2LM-nBwdy96bVxWA,6788
+basemap-1.4.0.dist-info/LICENSE.geos,sha256=oaMxgNApYKscXeNs8gsaLw_piI2DgmrSY9pdtS8bGDs,26529
+basemap-1.4.0.dist-info/RECORD,,
+basemap-1.4.0.dist-info/LICENSE,sha256=7MJYm5g8JDJt-3MdXsjCQEiY7lszqiHpXckOs9kcn2s,1121
+basemap-1.4.0.dist-info/namespace_packages.txt,sha256=A2PHFg9NKYOU4pEQ1h97U0Qd-rB-65W34XqC-56ZN9g,13
+basemap-1.4.0.dist-info/WHEEL,sha256=iG8A0NTh07TTUrjuItt5jQWSaCWls4bkT_lqUuVXNGc,109
+basemap-1.4.0.dist-info/top_level.txt,sha256=ZjL7WiCmlSHcJ_SjYWRzejHmMrpJgRDQRy3Et0bu66Y,22
+basemap-1.4.0.dist-info/METADATA,sha256=1PvmFEH08ioBWx3aPXf-aI3uhV4UijzsTU_Tl32pTps,9086
