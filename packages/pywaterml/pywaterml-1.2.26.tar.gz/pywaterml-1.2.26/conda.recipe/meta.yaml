@@ -1,0 +1,59 @@
+{% set name = "pywaterml" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: {{ GIT_DESCRIBE_TAG }}
+  # version: "0.1.0" # uncomment when using locally
+
+source:
+  git_url: https://github.com/BYU-Hydroinformatics/pywaterml
+  sha256: 98326c410a0ceacef8f0cf749815fafebfc47676953290673458c351949331db # change this one
+  # path: ../ # uncomment when using locally
+
+build:
+  number: {{ GIT_DESCRIBE_NUMBER }}
+  # number: 0 # uncomment when using locally
+  noarch: python
+
+  script: python setup.py install
+
+requirements:
+  host:
+    - python>=3.6
+    - pip
+    - setuptools
+    - pytest
+    - cython
+  run:
+    - numpy
+    - python>=3.6
+    - owslib
+    - pandas
+    - suds-community
+    - xmltodict
+test:
+  imports:
+    - pywaterml
+    - pywaterml.auxiliaryMod
+    - pywaterml.analyzeData
+    - pywaterml.waterML
+
+  source_files:
+    - tests/test_fast.py
+  requires:
+    - pytest
+  commands:
+    - pytest -vv tests/test_fast.py
+
+about:
+  home: "https://github.com/BYU-Hydroinformatics/pywaterml"
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: "The pywaterml is a package that lets you handle WaterML functions such as GetValues, GetSitesInfo, etc. In addition it lets offers extra functions such as mean interpolation for data with gaps"
+  doc_url: https://pywaterml.readthedocs.io/en/latest/index.html
+  dev_url: https://hydroinformatics.byu.edu/
+
+extra:
+  recipe-maintainers:
+    - romer8
