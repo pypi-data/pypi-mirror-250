@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: streamlit-dsfr
+Version: 0.0.1
+Summary: VueDsfr components for Streamlit
+Author-email: Matiboux <matiboux@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit >=0.63
+Provides-Extra: devel
+Requires-Dist: wheel ; extra == 'devel'
+Requires-Dist: pytest ==7.4.0 ; extra == 'devel'
+Requires-Dist: playwright ==1.39.0 ; extra == 'devel'
+Requires-Dist: requests ==2.31.0 ; extra == 'devel'
+Requires-Dist: pytest-playwright-snapshot ==1.0 ; extra == 'devel'
+Requires-Dist: pytest-rerunfailures ==12.0 ; extra == 'devel'
+
+# streamlit-dsfr
+
+VueDsfr components for Streamlit
+
+
+## Installation instructions
+
+```sh
+pip install streamlit-dsfr
+```
+
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from streamlit_dsfr import st_dsfr_button
+
+value = st_dsfr_button()
+st.write(value)
+```
