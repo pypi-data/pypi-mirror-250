@@ -1,0 +1,16 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pythoncheck/__init__.py
+pythoncheck/common.py
+pythoncheck/pythoncheck.py
+pythoncheck.egg-info/PKG-INFO
+pythoncheck.egg-info/SOURCES.txt
+pythoncheck.egg-info/dependency_links.txt
+pythoncheck.egg-info/not-zip-safe
+pythoncheck.egg-info/top_level.txt
+tests/test_pythoncheck.py
