@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: personalcolor
+Version: 0.0.1
+Summary: Shows your personal color
+Home-page: https://github.com/harunearakage/personalcolor
+Author: harune arakage
+Author-email: s2122002@stu.musashino-u.ac.jp
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/harunearakage/personalcolor
+Description: # personalcolor
+        
+        By giving your photo as data, it will tell you your personal color based on your eye color and skin color.
+        
+        # how to install personalcolor
+        $ pip install personalcolor
+        
+        # how to personalcolor
+        $ import personalcolor
+        
+        $ import cv2
+        
+        
+        $ img = cv2.imread("image.jpg")
+        
+        $ personalcolor
+        
+        
+        <img src='https://github.com/harunearakage/personalcolor/blob/main/result.png' width=640 hight=480>
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

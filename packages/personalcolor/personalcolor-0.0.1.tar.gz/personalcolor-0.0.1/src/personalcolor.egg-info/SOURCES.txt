@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/personalcolor.py
+src/personalcolor.egg-info/PKG-INFO
+src/personalcolor.egg-info/SOURCES.txt
+src/personalcolor.egg-info/dependency_links.txt
+src/personalcolor.egg-info/entry_points.txt
+src/personalcolor.egg-info/top_level.txt
