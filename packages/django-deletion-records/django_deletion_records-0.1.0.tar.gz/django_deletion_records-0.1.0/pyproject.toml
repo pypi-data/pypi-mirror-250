@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["deletion_records"]
+
+[project]
+name = "django-deletion-records"
+version = "0.1.0"
+description = "A Django application to track deleted records."
+readme = "README.md"
+authors = [{ name = "suayip uzulmez", email = "suayip.541@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["django", "soft-delete"]
+requires-python = ">=3.10"
+dependencies = [
+  "django>=3.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/realsuayip/django-deletion-records"
+"Bug Tracker" = "https://github.com/realsuayip/django-deletion-records/issues"
+
+[tool.ruff]
+select = [
+    "E", # pycodestyle errors
+    "W", # pycodestyle warnings
+    "F", # pyflakes
+    "C", # flake8-comprehensions
+    "B", # flake8-bugbear
+    "RUF", # Ruff-specific
+    "C4", # flake8-comprehensions
+    "C90", # mccabe
+    "I", # isort
+]
+target-version = "py310"
+line-length = 88
+extend-ignore = ["RUF012"]
+
+[tool.ruff.isort]
+combine-as-imports = true
+section-order = [
+    "future",
+    "standard-library",
+    "third-party",
+    "first-party",
+    "local-folder",
+]
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.mypy]
+strict = true
