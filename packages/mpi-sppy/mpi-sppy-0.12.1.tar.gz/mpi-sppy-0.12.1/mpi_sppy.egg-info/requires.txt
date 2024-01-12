@@ -1,0 +1,7 @@
+numpy
+scipy
+pyomo>=6.4
+
+[doc]
+sphinx_rtd_theme
+sphinx
