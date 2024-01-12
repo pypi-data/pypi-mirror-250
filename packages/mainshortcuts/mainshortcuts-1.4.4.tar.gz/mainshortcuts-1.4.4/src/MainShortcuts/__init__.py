@@ -1,0 +1,51 @@
+from .main import *
+dir=mdir
+file=mfile
+json=mjson
+os=mos
+path=mpath
+str=mstr
+proc=mproc
+# Данные о модуле
+__version__="1.4.4"
+__depends__={"required":[],"optional":[]}
+__functions__=[
+  "clear",
+  "dir.copy",
+  "dir.create",
+  "dir.delete",
+  "dir.list",
+  "dir.move",
+  "dir.rename",
+  "exit",
+  "file.copy",
+  "file.delete",
+  "file.move",
+  "file.open",
+  "file.read",
+  "file.rename",
+  "file.save",
+  "file.write",
+  "json.decode",
+  "json.encode",
+  "json.read",
+  "json.rebuild",
+  "json.rewrite",
+  "json.sort",
+  "json.write",
+  "path.copy",
+  "path.delete",
+  "path.exists",
+  "path.format",
+  "path.info",
+  "path.link",
+  "path.merge",
+  "path.move",
+  "path.rename",
+  "path.split",
+  "proc.run",
+  "str.array2str",
+  "str.dict2str",
+  "str.replace.all",
+  "str.replace.multi"
+]
