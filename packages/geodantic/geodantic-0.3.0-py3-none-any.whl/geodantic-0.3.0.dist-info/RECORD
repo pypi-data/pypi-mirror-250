@@ -1,0 +1,10 @@
+geodantic/__init__.py,sha256=Ptd_4atoqgzc17YseWX9N_ejheb42Sslvj8i5b8Pvgw,901
+geodantic/base.py,sha256=4cP5g0ld-bVkVM109fVyUVaqURmHBEeStCZl1VzQ5Ic,524
+geodantic/features.py,sha256=LVcdJthC99-4Uob72QKFopxWnh09cL074b_WpPwZ9Es,1100
+geodantic/geometries.py,sha256=3NsAVsOnnpaJaqC8zfczK6lwWWS9E1N086QAzlaHlro,1489
+geodantic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geodantic/types.py,sha256=jXlYwc3KgVZvjIx2rGIFj2KDWOnPt9qmIdyWS_QdWvQ,1500
+geodantic-0.3.0.dist-info/LICENSE,sha256=9lUXpAzy4F9cE64VFAEHVAcam21aNculgR6zSLkcwr8,1073
+geodantic-0.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+geodantic-0.3.0.dist-info/METADATA,sha256=7caERkdNCK9csDjaiIGC4gWngjM3UQoW8tgynwnK1e8,3603
+geodantic-0.3.0.dist-info/RECORD,,
