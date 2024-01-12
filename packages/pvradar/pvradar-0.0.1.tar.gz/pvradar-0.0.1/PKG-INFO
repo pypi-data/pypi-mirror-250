@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pvradar
+Version: 0.0.1
+Summary: constants and shared function for PVRADAR SDK and API client
+Author-email: Kostiantyn Pogorelov <kp@pvradar.com>
+Project-URL: homepage, https://pvradar.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Installation
+
+```sh
+pip install pvradar
+```
+
+# Usage
+
+```python
+from pvradar import SECONDS_PER_HOUR
+print ('seconds in an hour:', SECONDS_PER_HOUR)
+```

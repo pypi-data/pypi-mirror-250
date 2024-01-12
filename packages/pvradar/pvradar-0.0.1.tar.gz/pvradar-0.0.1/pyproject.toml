@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pvradar"
+version = "0.0.1"
+requires-python = ">=3.11"
+description = "constants and shared function for PVRADAR SDK and API client"
+readme = "README.md"
+authors = [
+    { name="Kostiantyn Pogorelov", email="kp@pvradar.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://pvradar.com"
