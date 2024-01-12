@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: attotree
+Version: 0.1.0
+Summary: description
+Home-page: https://github.com/karel-brinda/attotree
+Author: Karel Brinda
+Author-email: karel.brinda@inria.fr
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+License-File: LICENSE.txt
+Requires-Dist: wheel
+
+Attotree
+==================================================================================
+
+
+Introduction
+------------
+
+Rapid estimation of phylogenetic tree direclty from FASTA files in the style of
+`Mashtree <https://github.com/lskatz/mashtree>`_.
+
+
+Dependencies
+------------
+
+* `Mash <https://github.com/marbl/Mash>`_ (installation: ``conda install -c bioconda mash``)
+* `QuickTree <https://github.com/khowe/quicktree>`_ (installation: ``conda install -c bioconda quicktree``)
+
+
+Quick example
+-------------
+
+.. code-block:: bash
+
+    git clone https://github.com/karel-brinda/attotree
+    cd attotree
+    ./attotree/attotree.py tests/*.fa
+
+
+Issues
+------
+
+Please use `Github issues <https://github.com/karel-brinda/attotree/issues>`_.
+
+
+Changelog
+---------
+
+See `Releases <https://github.com/karel-brinda/attotree/releases>`_.
+
+
+Licence
+-------
+
+`MIT <https://github.com/karel-brinda/attotree/blob/master/LICENSE.txt>`_
+
+
+Authors
+-------
+
+`Karel Brinda <http://brinda.eu>`_ <karel.brinda@inria.fr>
+
