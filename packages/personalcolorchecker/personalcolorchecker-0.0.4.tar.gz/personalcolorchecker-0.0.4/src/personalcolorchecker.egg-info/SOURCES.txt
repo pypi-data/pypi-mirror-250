@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/personalcolorchecker.py
+src/personalcolorchecker.egg-info/PKG-INFO
+src/personalcolorchecker.egg-info/SOURCES.txt
+src/personalcolorchecker.egg-info/dependency_links.txt
+src/personalcolorchecker.egg-info/entry_points.txt
+src/personalcolorchecker.egg-info/top_level.txt
