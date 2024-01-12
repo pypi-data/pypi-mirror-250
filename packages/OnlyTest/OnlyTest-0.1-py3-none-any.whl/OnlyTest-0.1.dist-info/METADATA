@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: OnlyTest
+Version: 0.1
+Summary: Just For Test
+Home-page: https://github.com/OnlyRad/pypi
+Author: mamad
+Author-email: onlymamd@gmail.com
+Keywords: Bot,test
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pypi
+این ریپوزیتوری برای ساخت و آپلود ماژول هستش...
+
+## Hello World
+### Just Test pypi
