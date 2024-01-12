@@ -1,0 +1,8 @@
+llegos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llegos/abc/cognitive/reinforcement.py,sha256=PYxICggagexmWckGIVSbbA_O48NxkAEwf8OU4-bnRVg,4072
+llegos/logger.py,sha256=fD8XLV-dr8Vv_0CY3nNC_8LI0vTNGwQbJzgYlsBdrJM,197
+llegos/research.py,sha256=bP8SxBOLCivfiNm0D1WYm1PmAksA-8om-RkcKp2w45Y,9802
+llegos-0.1.0.dist-info/LICENSE,sha256=HpUKMjWJEodvzT6gvdl1yeqKeCLt3DzaZigXw6vpmxw,7642
+llegos-0.1.0.dist-info/METADATA,sha256=KRca2CwPjLkxnKf2xka8uG2Bn1sXsX3fftfhcFUdsqg,7996
+llegos-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llegos-0.1.0.dist-info/RECORD,,
