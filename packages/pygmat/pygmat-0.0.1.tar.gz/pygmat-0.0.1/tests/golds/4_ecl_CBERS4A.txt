@@ -1,0 +1,14 @@
+Create EclipseLocator Eclipse_CBERS4A;
+GMAT Eclipse_CBERS4A.Spacecraft = CBERS4A;
+GMAT Eclipse_CBERS4A.Filename = 'CBERS4A_ecl.txt';
+GMAT Eclipse_CBERS4A.OccultingBodies = {Earth, Luna};
+GMAT Eclipse_CBERS4A.InputEpochFormat = 'TAIModJulian';
+GMAT Eclipse_CBERS4A.InitialEpoch = '21545';
+GMAT Eclipse_CBERS4A.StepSize = 10;
+GMAT Eclipse_CBERS4A.FinalEpoch = '21545.138';
+GMAT Eclipse_CBERS4A.UseLightTimeDelay = true;
+GMAT Eclipse_CBERS4A.UseStellarAberration = true;
+GMAT Eclipse_CBERS4A.WriteReport = true;
+GMAT Eclipse_CBERS4A.RunMode = Automatic;
+GMAT Eclipse_CBERS4A.UseEntireInterval = true;
+GMAT Eclipse_CBERS4A.EclipseTypes = {'Umbra', 'Penumbra', 'Antumbra'};

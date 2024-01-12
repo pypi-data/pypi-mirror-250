@@ -1,0 +1,2 @@
+BeginMissionSequence;
+Propagate 'defaultPropagator' EarthPointProp(CONASAT1,CONASAT2,CONASAT3,CONASAT4,CONASAT5,CONASAT6,SCD1,SCD2,CBERS4A,ITASAT1){CBERS4A.ElapsedDays = 1};

@@ -1,0 +1,14 @@
+Create ContactLocator ContactCBERS4A;
+GMAT ContactCBERS4A.Target = CBERS4A;
+GMAT ContactCBERS4A.Filename = 'CBERS4A_contact.txt';
+GMAT ContactCBERS4A.InputEpochFormat = 'TAIModJulian';
+GMAT ContactCBERS4A.InitialEpoch = '21545';
+GMAT ContactCBERS4A.StepSize = 600;
+GMAT ContactCBERS4A.FinalEpoch = '21545.138';
+GMAT ContactCBERS4A.UseLightTimeDelay = true;
+GMAT ContactCBERS4A.UseStellarAberration = true;
+GMAT ContactCBERS4A.WriteReport = true;
+GMAT ContactCBERS4A.RunMode = Automatic;
+GMAT ContactCBERS4A.UseEntireInterval = true;
+GMAT ContactCBERS4A.Observers = {EMMN,ETC,ETA,PLANA,BME};
+GMAT ContactCBERS4A.LightTimeDirection = Transmit;

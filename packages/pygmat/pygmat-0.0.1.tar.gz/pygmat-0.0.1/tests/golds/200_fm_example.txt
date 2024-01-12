@@ -1,0 +1,7 @@
+Create ForceModel EarthPointProp_ForceModel;
+GMAT EarthPointProp_ForceModel.CentralBody = Earth;
+GMAT EarthPointProp_ForceModel.PointMasses = {Earth};
+GMAT EarthPointProp_ForceModel.Drag = None;
+GMAT EarthPointProp_ForceModel.SRP = Off;
+GMAT EarthPointProp_ForceModel.RelativisticCorrection = Off;
+GMAT EarthPointProp_ForceModel.ErrorControl = RSSStep;

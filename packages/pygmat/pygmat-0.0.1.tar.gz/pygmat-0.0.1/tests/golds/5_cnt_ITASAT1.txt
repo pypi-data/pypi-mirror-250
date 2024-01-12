@@ -1,0 +1,14 @@
+Create ContactLocator ContactITASAT1;
+GMAT ContactITASAT1.Target = ITASAT1;
+GMAT ContactITASAT1.Filename = 'ITASAT1_contact.txt';
+GMAT ContactITASAT1.InputEpochFormat = 'TAIModJulian';
+GMAT ContactITASAT1.InitialEpoch = '21545';
+GMAT ContactITASAT1.StepSize = 600;
+GMAT ContactITASAT1.FinalEpoch = '21545.138';
+GMAT ContactITASAT1.UseLightTimeDelay = true;
+GMAT ContactITASAT1.UseStellarAberration = true;
+GMAT ContactITASAT1.WriteReport = true;
+GMAT ContactITASAT1.RunMode = Automatic;
+GMAT ContactITASAT1.UseEntireInterval = true;
+GMAT ContactITASAT1.Observers = {EMMN,ETC,ETA,PLANA,BME};
+GMAT ContactITASAT1.LightTimeDirection = Transmit;

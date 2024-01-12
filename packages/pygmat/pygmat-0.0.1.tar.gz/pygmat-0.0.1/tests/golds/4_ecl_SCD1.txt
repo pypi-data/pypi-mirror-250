@@ -1,0 +1,14 @@
+Create EclipseLocator Eclipse_SCD1;
+GMAT Eclipse_SCD1.Spacecraft = SCD1;
+GMAT Eclipse_SCD1.Filename = 'SCD1_ecl.txt';
+GMAT Eclipse_SCD1.OccultingBodies = {Earth, Luna};
+GMAT Eclipse_SCD1.InputEpochFormat = 'TAIModJulian';
+GMAT Eclipse_SCD1.InitialEpoch = '21545';
+GMAT Eclipse_SCD1.StepSize = 10;
+GMAT Eclipse_SCD1.FinalEpoch = '21545.138';
+GMAT Eclipse_SCD1.UseLightTimeDelay = true;
+GMAT Eclipse_SCD1.UseStellarAberration = true;
+GMAT Eclipse_SCD1.WriteReport = true;
+GMAT Eclipse_SCD1.RunMode = Automatic;
+GMAT Eclipse_SCD1.UseEntireInterval = true;
+GMAT Eclipse_SCD1.EclipseTypes = {'Umbra', 'Penumbra', 'Antumbra'};

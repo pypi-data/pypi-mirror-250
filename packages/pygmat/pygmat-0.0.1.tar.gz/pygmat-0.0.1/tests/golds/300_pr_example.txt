@@ -1,0 +1,9 @@
+Create Propagator EarthPointProp;
+GMAT EarthPointProp.FM = EarthPointProp_ForceModel;
+GMAT EarthPointProp.Type = RungeKutta89;
+GMAT EarthPointProp.InitialStepSize = 60;
+GMAT EarthPointProp.Accuracy = 1e-11;
+GMAT EarthPointProp.MinStep = 0.001;
+GMAT EarthPointProp.MaxStep = 2700;
+GMAT EarthPointProp.MaxStepAttempts = 50;
+GMAT EarthPointProp.StopIfAccuracyIsViolated = true;

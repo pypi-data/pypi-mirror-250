@@ -1,0 +1,15 @@
+Create GroundStation PLANA;
+GMAT PLANA.CentralBody = Earth;
+GMAT PLANA.StateType = Spherical;
+GMAT PLANA.HorizonReference = Sphere;
+GMAT PLANA.Location1 = 42.48304;
+GMAT PLANA.Location2 = 23.445973;
+GMAT PLANA.Location3 = 1100.0;
+GMAT PLANA.Id = 'StationId';
+GMAT PLANA.IonosphereModel = 'None';
+GMAT PLANA.TroposphereModel = 'None';
+GMAT PLANA.DataSource = 'Constant';
+GMAT PLANA.Temperature = 295.1;
+GMAT PLANA.Pressure = 1013.5;
+GMAT PLANA.Humidity = 55;
+GMAT PLANA.MinimumElevationAngle = 7;

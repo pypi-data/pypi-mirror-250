@@ -1,0 +1,15 @@
+Create GroundStation ETC;
+GMAT ETC.CentralBody = Earth;
+GMAT ETC.StateType = Spherical;
+GMAT ETC.HorizonReference = Sphere;
+GMAT ETC.Location1 = -15.55;
+GMAT ETC.Location2 = -56.0666;
+GMAT ETC.Location3 = 0.0;
+GMAT ETC.Id = 'StationId';
+GMAT ETC.IonosphereModel = 'None';
+GMAT ETC.TroposphereModel = 'None';
+GMAT ETC.DataSource = 'Constant';
+GMAT ETC.Temperature = 295.1;
+GMAT ETC.Pressure = 1013.5;
+GMAT ETC.Humidity = 55;
+GMAT ETC.MinimumElevationAngle = 7;

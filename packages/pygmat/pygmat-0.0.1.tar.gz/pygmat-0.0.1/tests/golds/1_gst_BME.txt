@@ -1,0 +1,15 @@
+Create GroundStation BME;
+GMAT BME.CentralBody = Earth;
+GMAT BME.StateType = Spherical;
+GMAT BME.HorizonReference = Sphere;
+GMAT BME.Location1 = 47.47;
+GMAT BME.Location2 = 19.06;
+GMAT BME.Location3 = 0.0;
+GMAT BME.Id = 'StationId';
+GMAT BME.IonosphereModel = 'None';
+GMAT BME.TroposphereModel = 'None';
+GMAT BME.DataSource = 'Constant';
+GMAT BME.Temperature = 295.1;
+GMAT BME.Pressure = 1013.5;
+GMAT BME.Humidity = 55;
+GMAT BME.MinimumElevationAngle = 7;

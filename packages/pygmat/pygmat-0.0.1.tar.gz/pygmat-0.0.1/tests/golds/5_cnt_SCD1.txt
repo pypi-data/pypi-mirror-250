@@ -1,0 +1,14 @@
+Create ContactLocator ContactSCD1;
+GMAT ContactSCD1.Target = SCD1;
+GMAT ContactSCD1.Filename = 'SCD1_contact.txt';
+GMAT ContactSCD1.InputEpochFormat = 'TAIModJulian';
+GMAT ContactSCD1.InitialEpoch = '21545';
+GMAT ContactSCD1.StepSize = 600;
+GMAT ContactSCD1.FinalEpoch = '21545.138';
+GMAT ContactSCD1.UseLightTimeDelay = true;
+GMAT ContactSCD1.UseStellarAberration = true;
+GMAT ContactSCD1.WriteReport = true;
+GMAT ContactSCD1.RunMode = Automatic;
+GMAT ContactSCD1.UseEntireInterval = true;
+GMAT ContactSCD1.Observers = {EMMN,ETC,ETA,PLANA,BME};
+GMAT ContactSCD1.LightTimeDirection = Transmit;

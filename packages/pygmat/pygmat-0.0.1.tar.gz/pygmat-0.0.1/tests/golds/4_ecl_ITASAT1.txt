@@ -1,0 +1,14 @@
+Create EclipseLocator Eclipse_ITASAT1;
+GMAT Eclipse_ITASAT1.Spacecraft = ITASAT1;
+GMAT Eclipse_ITASAT1.Filename = 'ITASAT1_ecl.txt';
+GMAT Eclipse_ITASAT1.OccultingBodies = {Earth, Luna};
+GMAT Eclipse_ITASAT1.InputEpochFormat = 'TAIModJulian';
+GMAT Eclipse_ITASAT1.InitialEpoch = '21545';
+GMAT Eclipse_ITASAT1.StepSize = 10;
+GMAT Eclipse_ITASAT1.FinalEpoch = '21545.138';
+GMAT Eclipse_ITASAT1.UseLightTimeDelay = true;
+GMAT Eclipse_ITASAT1.UseStellarAberration = true;
+GMAT Eclipse_ITASAT1.WriteReport = true;
+GMAT Eclipse_ITASAT1.RunMode = Automatic;
+GMAT Eclipse_ITASAT1.UseEntireInterval = true;
+GMAT Eclipse_ITASAT1.EclipseTypes = {'Umbra', 'Penumbra', 'Antumbra'};

@@ -1,0 +1,14 @@
+Create EclipseLocator Eclipse_CONASAT6;
+GMAT Eclipse_CONASAT6.Spacecraft = CONASAT6;
+GMAT Eclipse_CONASAT6.Filename = 'CONASAT6_ecl.txt';
+GMAT Eclipse_CONASAT6.OccultingBodies = {Earth, Luna};
+GMAT Eclipse_CONASAT6.InputEpochFormat = 'TAIModJulian';
+GMAT Eclipse_CONASAT6.InitialEpoch = '21545';
+GMAT Eclipse_CONASAT6.StepSize = 10;
+GMAT Eclipse_CONASAT6.FinalEpoch = '21545.138';
+GMAT Eclipse_CONASAT6.UseLightTimeDelay = true;
+GMAT Eclipse_CONASAT6.UseStellarAberration = true;
+GMAT Eclipse_CONASAT6.WriteReport = true;
+GMAT Eclipse_CONASAT6.RunMode = Automatic;
+GMAT Eclipse_CONASAT6.UseEntireInterval = true;
+GMAT Eclipse_CONASAT6.EclipseTypes = {'Umbra', 'Penumbra', 'Antumbra'};

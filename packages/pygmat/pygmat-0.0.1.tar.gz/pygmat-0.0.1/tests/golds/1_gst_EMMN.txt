@@ -1,0 +1,15 @@
+Create GroundStation EMMN;
+GMAT EMMN.CentralBody = Earth;
+GMAT EMMN.StateType = Spherical;
+GMAT EMMN.HorizonReference = Sphere;
+GMAT EMMN.Location1 = -5.835;
+GMAT EMMN.Location2 = -35.209;
+GMAT EMMN.Location3 = 51.0;
+GMAT EMMN.Id = 'StationId';
+GMAT EMMN.IonosphereModel = 'None';
+GMAT EMMN.TroposphereModel = 'None';
+GMAT EMMN.DataSource = 'Constant';
+GMAT EMMN.Temperature = 295.1;
+GMAT EMMN.Pressure = 1013.5;
+GMAT EMMN.Humidity = 55;
+GMAT EMMN.MinimumElevationAngle = 7;

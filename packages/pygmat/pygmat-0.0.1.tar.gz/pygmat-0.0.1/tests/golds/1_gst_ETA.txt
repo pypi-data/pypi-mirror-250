@@ -1,0 +1,15 @@
+Create GroundStation ETA;
+GMAT ETA.CentralBody = Earth;
+GMAT ETA.StateType = Spherical;
+GMAT ETA.HorizonReference = Sphere;
+GMAT ETA.Location1 = -2.333;
+GMAT ETA.Location2 = -44.4;
+GMAT ETA.Location3 = 0.0;
+GMAT ETA.Id = 'StationId';
+GMAT ETA.IonosphereModel = 'None';
+GMAT ETA.TroposphereModel = 'None';
+GMAT ETA.DataSource = 'Constant';
+GMAT ETA.Temperature = 295.1;
+GMAT ETA.Pressure = 1013.5;
+GMAT ETA.Humidity = 55;
+GMAT ETA.MinimumElevationAngle = 7;

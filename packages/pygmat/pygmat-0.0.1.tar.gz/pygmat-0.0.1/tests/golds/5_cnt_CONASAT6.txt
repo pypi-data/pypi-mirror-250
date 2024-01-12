@@ -1,0 +1,14 @@
+Create ContactLocator ContactCONASAT6;
+GMAT ContactCONASAT6.Target = CONASAT6;
+GMAT ContactCONASAT6.Filename = 'CONASAT6_contact.txt';
+GMAT ContactCONASAT6.InputEpochFormat = 'TAIModJulian';
+GMAT ContactCONASAT6.InitialEpoch = '21545';
+GMAT ContactCONASAT6.StepSize = 600;
+GMAT ContactCONASAT6.FinalEpoch = '21545.138';
+GMAT ContactCONASAT6.UseLightTimeDelay = true;
+GMAT ContactCONASAT6.UseStellarAberration = true;
+GMAT ContactCONASAT6.WriteReport = true;
+GMAT ContactCONASAT6.RunMode = Automatic;
+GMAT ContactCONASAT6.UseEntireInterval = true;
+GMAT ContactCONASAT6.Observers = {EMMN,ETC,ETA,PLANA,BME};
+GMAT ContactCONASAT6.LightTimeDirection = Transmit;
