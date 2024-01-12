@@ -1,0 +1,14 @@
+pdcom5-5.2.4.dist-info/RECORD,,
+pdcom5-5.2.4.dist-info/METADATA,sha256=SoE9YA0-i-hUlvVuPGyhQuGxmkuiaV6kkyIH2B1MZas,4866
+pdcom5-5.2.4.dist-info/WHEEL,sha256=tc0M31ErFtq0Q78qDBJv_aOKOzERpLswn962z2grrKs,120
+pdcom5-5.2.4.dist-info/top_level.txt,sha256=c-VYZprjMdvrN4ZuMSvpUtHffzU_4en_OHU-FNb22Ds,7
+pdcom5/Variable.py,sha256=OrIgADOtj7fP1x1SV5VxhDU1slpWG_CY8tbD5H__zOE,5368
+pdcom5/__init__.py,sha256=GfrZionG2zjLYx6-F7mHRJxbZCPirW4gdTB_8od-tIs,1864
+pdcom5/Process.py,sha256=eB-UlN-30DOERMuFdCt-p-WKp9mn5DwEBBl8-fKmoP4,15534
+pdcom5/LoginManager.py,sha256=atENXL6YK5Ju8U6q2h9GXl1yaje2Cn3yEhH2oGr2G7E,2105
+pdcom5/_PdComWrapper.pypy39-pp73-aarch64-linux-gnu.so,sha256=nIVd5EwuGPQp1Y31ABhsZM0ChPpxG80yz5Kl4_wwExM,802209
+pdcom5/Subscription.py,sha256=m62fQFqJ5vd7FQwb49CrFfjj6qF9hqd5ydnY4hXwNyg,10013
+pdcom5.libs/libcrypt-29c34f43.so.2.0.0,sha256=IgrwCLWIGgwjk3iB3rRPuWjifFAl088nwXwtv1NmllU,656225
+pdcom5.libs/libcrypto-50d55c4f.so.3,sha256=CZ4ojUQ41RAp6iW8uzhaLfyywLb53GNctj_7rTBhn64,4935521
+pdcom5.libs/libpdcom5-03fd43d5.so.2.2.4,sha256=Mghep2Tqkserw7svL_WXwi4LdDB6eLRhJSeWvwZvXr0,545625
+pdcom5.libs/libpdcom5-sasl-595d0f77.so.2.2.4,sha256=LjPjwLEoDlKjtKUY6Sm6H2u7Dg9ORlzKAXUutbPfVnQ,399529
