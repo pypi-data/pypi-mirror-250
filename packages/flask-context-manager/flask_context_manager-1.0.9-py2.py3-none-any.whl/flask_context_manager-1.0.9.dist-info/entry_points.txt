@@ -1,0 +1,2 @@
+[console_scripts]
+flask_context_manager = flask_context_manager.flask_context_manager:main
