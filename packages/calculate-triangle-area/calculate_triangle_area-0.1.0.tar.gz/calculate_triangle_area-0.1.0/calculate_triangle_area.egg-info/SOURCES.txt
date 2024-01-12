@@ -1,0 +1,6 @@
+setup.py
+triangle_area.py
+calculate_triangle_area.egg-info/PKG-INFO
+calculate_triangle_area.egg-info/SOURCES.txt
+calculate_triangle_area.egg-info/dependency_links.txt
+calculate_triangle_area.egg-info/top_level.txt
