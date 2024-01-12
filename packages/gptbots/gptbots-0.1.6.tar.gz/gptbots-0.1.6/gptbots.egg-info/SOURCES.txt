@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+gptbots/__init__.py
+gptbots/gptbots.py
+gptbots.egg-info/PKG-INFO
+gptbots.egg-info/SOURCES.txt
+gptbots.egg-info/dependency_links.txt
+gptbots.egg-info/top_level.txt
