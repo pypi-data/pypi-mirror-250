@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "print-position"
+version = "0.1.1"
+description = ""
+authors = ["Pranav Soni <pranav.bhawan@gmail.com>"]
+readme = "README.md"
+
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
