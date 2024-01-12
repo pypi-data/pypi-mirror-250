@@ -1,0 +1,11 @@
+Output a JSON object that strictly adheres to the specified schema with no additional text or commentary. The object should only include fields defined in the schema
+Schema: """{{ action_schema }}"""
+
+{% if meta_memory %}
+
+{{ meta_memory }}
+{% endif %}
+{% if rulesets %}
+
+{{ rulesets }}
+{% endif %}
