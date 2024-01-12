@@ -1,0 +1,7 @@
+README.md
+setup.py
+stokenizer.egg-info/PKG-INFO
+stokenizer.egg-info/SOURCES.txt
+stokenizer.egg-info/dependency_links.txt
+stokenizer.egg-info/requires.txt
+stokenizer.egg-info/top_level.txt
