@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "remote-play-3ds"
+version = "0.1.0"
+description = "Remote play your modded 3DS."
+authors = ["Koutaro Mukai <mukai.k1011k@outlook.jp>"]
+readme = "README.md"
+homepage = "https://github.com/U-1F992/remote-play-3ds"
+repository = "https://github.com/U-1F992/remote-play-3ds"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python-headless = "^4.9.0.80"
+flask = "^3.0.0"
+qingpi-python = "^0.1.10"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
