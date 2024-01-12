@@ -1,0 +1,10 @@
+daemonless_queuing/__init__.py,sha256=K-tkBLjLcSELzLG-4mSHOqarBxZHfKLP9gGhKgtxmZg,43
+daemonless_queuing/lock.py,sha256=ensmsQOv1E3lbJScQu9NzSnTWd643ZSfdhah3Tf8G50,1045
+daemonless_queuing/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daemonless_queuing/queuing.py,sha256=IaHlansPChov4MG79WLgrbHFjq0XVAnvrMrTymc_Ano,4337
+daemonless_queuing/types.py,sha256=q3-K2uc7LtFgorXBTz0N6T5p0yGA7ezucOxWvBEf1aA,34
+daemonless_queuing-0.0.6.dist-info/LICENSE,sha256=QN-6KFG0-V8T_6pA9rnPDiWTy6Dp-43Njt5-Kd7BcAg,1083
+daemonless_queuing-0.0.6.dist-info/METADATA,sha256=wnGblSup7HcK5rLjJcRwGzBec1bipF_kAN4WvPgbAq4,2324
+daemonless_queuing-0.0.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+daemonless_queuing-0.0.6.dist-info/top_level.txt,sha256=D1qtsLeHm05k2BVNcrhbFxYyHnCEl6Scuhs4n9KFQUE,19
+daemonless_queuing-0.0.6.dist-info/RECORD,,
