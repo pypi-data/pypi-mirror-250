@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "safety-schemas"
+version = "0.0.1"
+description = "Schemas for Safety CLI"
+authors = ["Yeison Vargas <yeison@pyup.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "safety_schemas"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pydantic = "^1.10.12"
+dparse = ">=0.6.2"
+ruamel-yaml = ">=0.17.21"
+packaging = ">=21.0,<=23.0"
+typing-extensions = "^4.7.1"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.21.0"
+ruff = "^0.0.253"
+mypy = "^1.0.1"
+commitizen = "^2.42.1"
+
+[tool.ruff]
+target-version = "py37"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+tag_format = "v$version"
+version_files = [
+    "pyproject.toml:tool.poetry.version"
+]
+bump_message = "bump: version $current_version → $new_version"
+update_changelog_on_bump = true
+annotated_tag = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
