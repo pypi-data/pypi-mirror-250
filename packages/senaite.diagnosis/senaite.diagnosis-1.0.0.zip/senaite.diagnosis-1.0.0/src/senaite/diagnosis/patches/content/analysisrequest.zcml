@@ -1,0 +1,84 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
+    i18n_domain="senaite.diagnosis">
+
+  <monkey:patch
+    class="bika.lims.content.analysisrequest.AnalysisRequest"
+    original="getRawSymptoms"
+    ignoreOriginal="True"
+    replacement=".analysisrequest.getRawSymptoms" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="getSymptoms"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.getSymptoms" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="setSymptoms"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.setSymptoms" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="getDateOfOnset"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.getDateOfOnset" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="setDateOfOnset"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.setDateOfOnset" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="getDateOfDiagnosis"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.getDateOfDiagnosis" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="setDateOfDiagnosis"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.setDateOfDiagnosis" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="getRawDiseases"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.getRawDiseases" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="getDiseases"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.getDiseases" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="setDiseases"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.setDiseases" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="getRawEtiologicAgents"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.getRawEtiologicAgents" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="getEtiologicAgents"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.getEtiologicAgents" />
+
+  <monkey:patch
+      class="bika.lims.content.analysisrequest.AnalysisRequest"
+      original="setEtiologicAgents"
+      ignoreOriginal="True"
+      replacement=".analysisrequest.setEtiologicAgents" />
+
+</configure>

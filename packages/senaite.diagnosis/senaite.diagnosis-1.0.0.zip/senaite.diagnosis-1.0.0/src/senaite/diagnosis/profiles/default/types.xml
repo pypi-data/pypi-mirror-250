@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object name="portal_types">
+  <object name="EtiologicAgent" meta_type="Dexterity FTI" />
+  <object name="EtiologicAgents" meta_type="Dexterity FTI" />
+  <object name="Disease" meta_type="Dexterity FTI" />
+  <object name="Diseases" meta_type="Dexterity FTI" />
+  <object name="Symptom" meta_type="Dexterity FTI" />
+  <object name="Symptoms" meta_type="Dexterity FTI" />
+</object>

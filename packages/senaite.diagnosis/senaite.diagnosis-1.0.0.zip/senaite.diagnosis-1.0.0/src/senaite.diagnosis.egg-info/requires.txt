@@ -1,0 +1,5 @@
+senaite.patient>=1.4.0
+
+[test]
+plone.app.testing
+unittest2

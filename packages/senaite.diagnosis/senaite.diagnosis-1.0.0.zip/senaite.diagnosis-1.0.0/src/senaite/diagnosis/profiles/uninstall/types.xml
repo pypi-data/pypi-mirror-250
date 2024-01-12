@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object name="portal_types">
+  <object remove="True" name="EtiologicAgent" meta_type="Dexterity FTI" />
+  <object remove="True" name="EtiologicAgents" meta_type="Dexterity FTI" />
+  <object remove="True" name="Disease" meta_type="Dexterity FTI" />
+  <object remove="True" name="Diseases" meta_type="Dexterity FTI" />
+  <object remove="True" name="Symptom" meta_type="Dexterity FTI" />
+  <object remove="True" name="Symptoms" meta_type="Dexterity FTI" />
+</object>

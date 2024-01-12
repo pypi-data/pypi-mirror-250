@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="senaite.diagnosis">
+
+  <!-- Etiologic Agents listing view -->
+  <browser:page
+      for="senaite.diagnosis.interfaces.IEtiologicAgents"
+      name="view"
+      class=".etiologicagents.EtiologicAgentsListingView"
+      permission="senaite.core.permissions.ManageBika"
+      layer="senaite.diagnosis.interfaces.ISenaiteDiagnosisLayer" />
+
+  <!-- Diseases listing view -->
+  <browser:page
+      for="senaite.diagnosis.interfaces.IDiseases"
+      name="view"
+      class=".diseases.DiseasesListingView"
+      permission="senaite.core.permissions.ManageBika"
+      layer="senaite.diagnosis.interfaces.ISenaiteDiagnosisLayer" />
+
+  <!-- Symptoms listing view -->
+  <browser:page
+      for="senaite.diagnosis.interfaces.ISymptoms"
+      name="view"
+      class=".symptoms.SymptomsListingView"
+      permission="senaite.core.permissions.ManageBika"
+      layer="senaite.diagnosis.interfaces.ISenaiteDiagnosisLayer" />
+
+</configure>

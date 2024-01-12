@@ -1,0 +1,162 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-01-11 16:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: senaite.diagnosis\n"
+
+#: senaite.diagnosis/src/senaite/diagnosis/utils.py:53
+msgid "Code cannot contain special characters or spaces"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/utils.py:63
+msgid "Code must be unique"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/profiles/default/types/Disease.xml
+msgid "Disease"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/profiles/default/types/Diseases.xml
+msgid "Diseases"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/profiles/default/types/EtiologicAgent.xml
+msgid "Etiologic agent"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/profiles/default/types/EtiologicAgents.xml
+msgid "Etiologic agents"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/configure.zcml:33
+msgid "Patient diagnostic information handling for SENAITE"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/configure.zcml:33
+msgid "SENAITE DIAGNOSIS"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/configure.zcml:51
+msgid "SENAITE DIAGNOSIS (uninstall)"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/profiles/default/types/Symptoms.xml
+msgid "Signs and symptoms"
+msgstr ""
+
+#: senaite.diagnosis/src/senaite/diagnosis/profiles/default/types/Symptom.xml
+msgid "Symptom"
+msgstr ""
+
+#. Default: "Code"
+#: senaite.diagnosis/src/senaite/diagnosis/browser/content/diseases.py:56
+msgid "column_diseases_code"
+msgstr ""
+
+#. Default: "Code"
+#: senaite.diagnosis/src/senaite/diagnosis/browser/content/symptoms.py:56
+msgid "column_symptoms_code"
+msgstr ""
+
+#. Default: "Unique code of this disease"
+#: senaite.diagnosis/src/senaite/diagnosis/content/disease.py:47
+msgid "description_disease_code"
+msgstr ""
+
+#. Default: "Date when the diagnosis, as the process of identifying a disease, condition or injure from its signs and symptoms, was determined"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:131
+msgid "description_sample_dateofdiagnosis"
+msgstr ""
+
+#. Default: "Date when the signs and symptoms were first noted"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:78
+msgid "description_sample_dateofonset"
+msgstr ""
+
+#. Default: "Particular abnormal conditions that negatively affect the structure or function of all or part of an organism. Often known to be medical conditions that are associated with specific signs and symptoms"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:100
+msgid "description_sample_diseases"
+msgstr ""
+
+#. Default: "Infectious agents (microorganisms or toxins) that cause or may cause the disease or diseases"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:155
+msgid "description_sample_etiologicagents"
+msgstr ""
+
+#. Default: "Observed or detectable signs, and experienced symptoms of an illness, injury, or condition"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:49
+msgid "description_sample_symptoms"
+msgstr ""
+
+#. Default: "Unique code of this symptom"
+#: senaite.diagnosis/src/senaite/diagnosis/content/symptom.py:47
+msgid "description_symptom_code"
+msgstr ""
+
+#. Default: "Gender this symptom applies to"
+#: senaite.diagnosis/src/senaite/diagnosis/content/symptom.py:69
+msgid "description_symptom_gender"
+msgstr ""
+
+#. Default: "Select if patient can experience different stress levels of this symptom (none, mild, moderate, severe)"
+#: senaite.diagnosis/src/senaite/diagnosis/content/symptom.py:83
+msgid "description_symptom_severity"
+msgstr ""
+
+#. Default: "Code"
+#: senaite.diagnosis/src/senaite/diagnosis/content/disease.py:43
+msgid "label_disease_code"
+msgstr ""
+
+#. Default: "Date of Diagnosis"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:127
+msgid "label_sample_dateofdiagnosis"
+msgstr ""
+
+#. Default: "Date of Onset"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:74
+msgid "label_sample_dateofonset"
+msgstr ""
+
+#. Default: "Diseases or conditions"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:96
+msgid "label_sample_diseases"
+msgstr ""
+
+#. Default: "Etiologic agents"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:151
+msgid "label_sample_etiologicagents"
+msgstr ""
+
+#. Default: "Signs and Symptoms"
+#: senaite.diagnosis/src/senaite/diagnosis/content/analysisrequest.py:45
+msgid "label_sample_symptoms"
+msgstr ""
+
+#. Default: "Code"
+#: senaite.diagnosis/src/senaite/diagnosis/content/symptom.py:43
+msgid "label_symptom_code"
+msgstr ""
+
+#. Default: "Gender"
+#: senaite.diagnosis/src/senaite/diagnosis/content/symptom.py:65
+msgid "label_symptom_gender"
+msgstr ""
+
+#. Default: "Severity levels permitted"
+#: senaite.diagnosis/src/senaite/diagnosis/content/symptom.py:79
+msgid "label_symptom_severity"
+msgstr ""

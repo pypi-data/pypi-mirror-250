@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rolemap>
+
+  <permissions>
+
+    <!-- Field permissions -->
+    <permission name="senaite.diagnosis: Field: Edit Date of Diagnosis" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+      <role name="Client"/>
+    </permission>
+    <permission name="senaite.diagnosis: Field: Edit Date of Onset" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+      <role name="Client"/>
+    </permission>
+    <permission name="senaite.diagnosis: Field: Edit Diseases" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+      <role name="Client"/>
+    </permission>
+    <permission name="senaite.diagnosis: Field: Edit Etiologic Agents" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+      <role name="Client"/>
+    </permission>
+    <permission name="senaite.diagnosis: Field: Edit Symptoms" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+      <role name="Client"/>
+    </permission>
+
+  </permissions>
+
+</rolemap>
