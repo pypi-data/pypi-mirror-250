@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: autogoal-nltk
+Version: 0.8.0
+Summary: Scikit-learn algorithm library wrapper for AutoGOAL
+Home-page: https://autogoal.github.io
+License: MIT
+Author: Suilan Estevez-Velarde
+Author-email: suilanestevez@gmail.com
+Requires-Python: ==3.9.16
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: autogoal (==1.0.1a0)
+Requires-Dist: gensim (==4.1)
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Requires-Dist: numpy (>=1.21.6,<2.0.0)
+Project-URL: Documentation, https://autogoal.github.io
+Project-URL: Repository, https://github.com/autogoal/autogoal-contrib
+Description-Content-Type: text/markdown
+
+# AutoGOAL NLTK Algorithm Library
