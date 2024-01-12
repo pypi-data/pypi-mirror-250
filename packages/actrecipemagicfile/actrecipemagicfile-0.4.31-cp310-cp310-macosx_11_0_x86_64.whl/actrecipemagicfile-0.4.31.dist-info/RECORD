@@ -1,0 +1,11 @@
+actrecipemagicfile-0.4.31.dist-info/RECORD,,
+actrecipemagicfile-0.4.31.dist-info/LICENSE,sha256=zqlutlnp9fuzhjWamN08gRHUQJoi9nGae1xzvSUaJXY,1115
+actrecipemagicfile-0.4.31.dist-info/WHEEL,sha256=TncAKGvnfXJs-WUZUGzl_RwrBY6HmH7BWWQjmjUD8NU,111
+actrecipemagicfile-0.4.31.dist-info/top_level.txt,sha256=3brWKQcgC_IzIHWJ5mbt605y6i3SHAh2ZgUVusbkfgA,10
+actrecipemagicfile-0.4.31.dist-info/METADATA,sha256=b3bvDdB7T40vBiYZEFcWHSfm0gwr9quSKWJ4nzR_53c,2326
+magicfile/_libmagic.abi3.so,sha256=nq-6j80nuSBYkzCHM_I7DKjxPDcPruHZtFTemQ8tmRw,73264
+magicfile/__init__.py,sha256=MWiNE_GUgvrDcnI1TGsamHuY1d4zoBxkFUokU4tqjrU,5990
+magicfile/magic.mgc,sha256=4XbrbGdFV5iyTiRryig1Be49g_GABXck-STl5pePuIQ,5818072
+magicfile/_libmagic_build.py,sha256=R3o-26lPHQACrPYi3Wo6-AmXZz2kItr6W7YSAYuymdA,841
+magicfile/.dylibs/libmagic.1.dylib,sha256=GsMo3aKzmbtNM4UZcR_vBlnswnyXyTv_CUv0Vv1d7Lc,214848
+magicfile/.dylibs/liblzma.5.dylib,sha256=ug4Ycq7LCdrXba5q6flHO3BJawLA01ho99aRg3wvXk0,201664
