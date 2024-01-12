@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+anime_king_r/__init__.py
+anime_king_r/main.py
+anime_king_r.egg-info/PKG-INFO
+anime_king_r.egg-info/SOURCES.txt
+anime_king_r.egg-info/dependency_links.txt
+anime_king_r.egg-info/entry_points.txt
+anime_king_r.egg-info/requires.txt
+anime_king_r.egg-info/top_level.txt
+anime_king_r/assets/screenshot.png
