@@ -1,0 +1,7 @@
+README.md
+setup.py
+simbolotokenizer.egg-info/PKG-INFO
+simbolotokenizer.egg-info/SOURCES.txt
+simbolotokenizer.egg-info/dependency_links.txt
+simbolotokenizer.egg-info/requires.txt
+simbolotokenizer.egg-info/top_level.txt
