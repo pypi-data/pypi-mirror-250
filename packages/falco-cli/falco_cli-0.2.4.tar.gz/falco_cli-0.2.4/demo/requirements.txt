@@ -1,0 +1,6 @@
+django
+django-crispy-forms
+crispy-tailwind
+django-template-partials
+django-htmx
+-e ../.
