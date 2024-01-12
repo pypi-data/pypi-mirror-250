@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pyqt-ext
+Version: 1.1.2
+Summary: Collection of PyQt/PySide widgets/tools
+Keywords: PyQt PySide
+Home-page: https://github.com/marcel-goldschen-ohm/PyQt-ext
+Author-Email: Marcel Goldschen-Ohm <goldschen-ohm@utexas.edu>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Homepage, https://github.com/marcel-goldschen-ohm/PyQt-ext
+Project-URL: Repository, https://github.com/marcel-goldschen-ohm/PyQt-ext
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.26.2
+Requires-Dist: qtpy>=2.4.1
+Requires-Dist: qtawesome>=1.3.0
+Description-Content-Type: text/markdown
+
+# PyQt-ext
+Collection of PyQt/PySide widgets/tools.
+
+- [PyQtAbstractTreeItem](https://github.com/marcel-goldschen-ohm/PyQt-ext/docs/PyQtAbstractTreeItem.md)
+- [PyQtAbstractTreeModel](https://github.com/marcel-goldschen-ohm/PyQt-ext/docs/PyQtAbstractTreeModel.md)
+- [PyQtAbstractTreeView](https://github.com/marcel-goldschen-ohm/PyQt-ext/docs/PyQtAbstractTreeView.md)
+- [PyQtColorButton](https://github.com/marcel-goldschen-ohm/PyQt-ext/docs/PyQtColorButton.md)
+- [PyQtKeyValueTreeItem](https://github.com/marcel-goldschen-ohm/PyQt-ext/docs/PyQtKeyValueTreeItem.md)
+- [PyQtKeyValueTreeModel](https://github.com/marcel-goldschen-ohm/PyQt-ext/docs/PyQtKeyValueTreeModel.md)
+- [PyQtKeyValueTreeView](https://github.com/marcel-goldschen-ohm/PyQt-ext/docs/PyQtKeyValueTreeView.md)
+- [PyQtMultiValueSpinBox](https://github.com/marcel-goldschen-ohm/PyQt-ext/docs/PyQtMultiValueSpinBox.md)
+- [PyQtXYDataStyle](https://github.com/marcel-goldschen-ohm/PyQt-ext/docs/PyQtXYDataStyle.md)
+
+# Install
+Should work with PySide6, PyQt6, or PyQt5.
+```shell
+pip install PySide6 pyqt-ext
+```
