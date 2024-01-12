@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: armored
+Version: 0.0.1.dev0
+Summary: Armored that implements Model objects for Data Engineer
+Keywords: models,armored
+Maintainer-email: korawica <korawich.anu@gmail.com>
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic==2.5.3
+Requires-Dist: pytest==7.4.4 ; extra == "test"
+Requires-Dist: clishelf==0.1.2 ; extra == "test"
+Project-URL: Homepage, https://github.com/korawica/armored/
+Project-URL: Source Code, https://github.com/korawica/armored/
+Provides-Extra: test
+
+# Armored
+
+[![test](https://github.com/korawica/armored/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/korawica/armored/actions/workflows/tests.yml)
+
+Armored that implements Model objects for Data Engineer.
+
+## Features
+
+## License
+
+This project was licensed under the terms of the [MIT license](LICENSE).
+
