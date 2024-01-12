@@ -1,0 +1,10 @@
+astra_haystack/__init__.py,sha256=F14IvvDWamkTosjKpZ2HNSfm30NedknsaNJBbW8WuzQ,211
+astra_haystack/astra_client.py,sha256=S7nGu16fz8EPQa-aew-xpjEgsGQ7Kz1r4qhg4GL-aZk,11768
+astra_haystack/document_store.py,sha256=hwiI1nnp3rlUQbKCsHB1Th1pyo3_E1y2DG-igy_HeEo,16085
+astra_haystack/errors.py,sha256=NxPs6rB5Mog1ge-SLfc9AKKqUSCknRL74zTLBEoM2Ss,415
+astra_haystack/filters.py,sha256=yQGYA39NFgDmHLoqsku0FaMNLCcHYGLXk_dGyAk4DMQ,4512
+astra_haystack/retriever.py,sha256=hfh0HsX_YGgPhi4toJPNWgPiTMkWo-gY4LoZ3K_vhNU,2476
+astra_haystack-0.1.0.dist-info/METADATA,sha256=Mlp4RhHqhOuUzsTPPmfrQrmc8Xbh9VNWFzfryKg0_aU,3830
+astra_haystack-0.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+astra_haystack-0.1.0.dist-info/licenses/LICENSE,sha256=OrAtTu4aPmrTjKDSTzkSPgo_ji6NOMWO2N9JOTFyAzM,11350
+astra_haystack-0.1.0.dist-info/RECORD,,
