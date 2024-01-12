@@ -1,0 +1,136 @@
+/* 通用样式 */
+.hidden{
+  display: none !important;
+}
+
+
+input{    
+  height: 1.3rem;
+  border: 1px solid gray;
+}
+
+.input-l{
+  width: 10rem;
+}
+
+.input-xl{
+  width: 20rem;
+}
+
+.btn{
+  background-color: #218a8a;
+  padding: .2rem .4rem;
+  color: white;
+  cursor: pointer;
+  font-size: .8rem;
+  min-width: 3rem;
+  text-align: center;
+  user-select: none;
+}
+
+
+.btn-no-border{
+  cursor: pointer;
+  color: #0785d6;
+  font-size: .8rem;
+  padding: .2rem .4rem;
+  /* border: 1px solid whitesmoke; */
+  user-select: none;
+  border: 1px solid white;
+}
+
+.btn-no-border:hover{
+  border: 1px solid #218a8a;
+}
+
+
+.btn-no-border.disable{
+  cursor: auto;
+  color: grey;
+}
+.btn-no-border.disable:hover{
+  color: grey;
+  border: 1px solid whitesmoke;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+
+/* 功能区设置 */
+body{
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  /* gap: 5px; */
+  grid-template-rows: auto 1fr;
+}     
+
+
+
+/* 主内容区 */
+main{
+  /* background: #f9f9f9; */
+  padding: 1rem;
+  font-size: .9rem;
+}
+
+/* 设备条目 */
+.device{
+  cursor: pointer;
+  color:darkorange
+}
+
+
+.left-column {
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+.right-column {
+  border-left: #eddddd 1px solid;
+  padding-left: 1rem;
+}
+
+.right-top-zone{
+  border-bottom: 1px solid #eddddd;
+  padding-bottom: .5rem;
+  display: flex;
+  gap: 1em;
+}
+
+/* 页脚 */
+footer{
+  background: #fcf7f7;
+  text-align: center;
+  padding: .2rem;
+  font-size: .9rem;
+  color: #b62456;
+}
+
+footer a{
+  color: #3c8dbc;
+  text-decoration: none;
+  float: right;
+  margin-right: 1rem;
+}
+
+
+
+/* home 模块 */
+.home {  
+  display: grid;
+  gap: 1em;
+  grid-template-columns: auto 1fr;
+  height: 100%;
+  
+}
+
+
+.widget {
+  display: block;
+  position: absolute;
+  border: '2px dashed #e91e63'
+}
