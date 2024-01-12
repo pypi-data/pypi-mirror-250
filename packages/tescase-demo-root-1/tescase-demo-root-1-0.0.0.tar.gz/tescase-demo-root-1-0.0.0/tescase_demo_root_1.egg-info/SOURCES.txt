@@ -1,0 +1,6 @@
+README.md
+setup.py
+tescase_demo_root_1.egg-info/PKG-INFO
+tescase_demo_root_1.egg-info/SOURCES.txt
+tescase_demo_root_1.egg-info/dependency_links.txt
+tescase_demo_root_1.egg-info/top_level.txt
