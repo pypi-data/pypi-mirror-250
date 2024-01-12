@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: xarray-tree
+Version: 0.1.0
+Summary: Tree of xarray datasets.
+Keywords: xarray tree
+Home-page: https://github.com/marcel-goldschen-ohm/xarray-tree
+Author-Email: Marcel Goldschen-Ohm <goldschen-ohm@utexas.edu>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering
+Project-URL: Homepage, https://github.com/marcel-goldschen-ohm/xarray-tree
+Project-URL: Repository, https://github.com/marcel-goldschen-ohm/xarray-tree
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.26.2
+Requires-Dist: xarray>=2023.12.0
+Requires-Dist: scipy>=1.11.4
+Requires-Dist: lmfit>=1.2.2
+Description-Content-Type: text/markdown
+
+# xarray-tree
+Tree of Xarray datasets.
