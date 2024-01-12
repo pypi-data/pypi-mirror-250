@@ -1,0 +1,9 @@
+multi_bioservices/__init__.py,sha256=d0EitVeVdxUhNCVD4OdFbrsW61s66AvGf1s3kXGdRiM,209
+multi_bioservices/db2db.py,sha256=Uu3giaiHmO500XWNmRhWIGqAYzJhrjX02wz0IfziOvw,3610
+multi_bioservices/input_database.py,sha256=6zxCnd4cugIRd9BBMZ90Fl2vYN-orOMt8Py-rsadhF0,2624
+multi_bioservices/output_database.py,sha256=iv-j6gNQkO3yNhJlLFVv_IWXNbG_RhIMpo-pXNr5moc,6073
+multi_bioservices/taxon_id.py,sha256=MXPC3bqbeAF1Px_nv1VojSskF7dwI-im4frvrlaLOa0,176
+multi_bioservices/utils.py,sha256=8VBzmOjKMMJLXTh6Uo4q2_D_DWoe2H1-85PnnxC-HnA,438
+multi_bioservices-3.0.0.dist-info/METADATA,sha256=MKeyVJ5psMKu8aGbo0RDySut4Kd0stk5gP9RUxVbXI4,5804
+multi_bioservices-3.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+multi_bioservices-3.0.0.dist-info/RECORD,,
