@@ -1,0 +1,15 @@
+ipycollections/__init__.py,sha256=0Z4GvppCm_rSV_zKnyLFwNs52vp8ZSHaRnN370yLHY0,334
+ipycollections/_version.py,sha256=W6DIaBZh3c4iERseQh1LSFmmsS5lqkkAwTOt20QcsZg,171
+ipycollections/formatter.py,sha256=p0vR7Bc8VjKVhbADTLXTE_xHFDS7tLF3KK3OM7zCeec,1344
+ipycollections/printer.py,sha256=KV9ZvP5jmsjGjxuWmfS0g6XNyzE42Ekf-KZK0kOMeWw,9809
+ipycollections-0.3.0.data/data/share/jupyter/labextensions/@dfnotebook/ipycollections-extension/package.json,sha256=ZONm3V25YKwIJzBaLpZdMnisQLta6y_lLHA_vz-Elmc,3839
+ipycollections-0.3.0.data/data/share/jupyter/labextensions/@dfnotebook/ipycollections-extension/static/237.aea739a67ffbd6c1ebe1.js,sha256=rqc5pn_71sHr4UBHPXePdcf4IKCG9_coGeP9rTh_dDg,8136
+ipycollections-0.3.0.data/data/share/jupyter/labextensions/@dfnotebook/ipycollections-extension/static/747.1f5bff0e0b44a7b8a03e.js,sha256=H1v_DgtEp7igPjJn9KxFLtLpGIAqcPhy7NLcF3xonm4,3721
+ipycollections-0.3.0.data/data/share/jupyter/labextensions/@dfnotebook/ipycollections-extension/static/remoteEntry.ee332cd15a8834982144.js,sha256=7jMs0VqINJghRKkWhJPX5-xOCb-NJg8EzlU5OKHRwQQ,7233
+ipycollections-0.3.0.data/data/share/jupyter/labextensions/@dfnotebook/ipycollections-extension/static/style.js,sha256=spAzYjiohGRQJTz-6wu33afywyCjCNowFCUaWZJsxWc,179
+ipycollections-0.3.0.data/data/share/jupyter/labextensions/@dfnotebook/ipycollections-extension/static/third-party-licenses.json,sha256=P_VjLKCSMZ3sXuPckg8bDyB8Xn8JD7EsiIoRqvSP3h0,2452
+ipycollections-0.3.0.data/data/share/jupyter/labextensions/@dfnotebook/ipycollections-extension/install.json,sha256=mv39_cnUdGtVZwFf7X5aHPhzf4Kjk_vkv-hzaEZJ2ck,189
+ipycollections-0.3.0.dist-info/METADATA,sha256=lgbSxi_N67dk5EBFV7_LQIoikPR0ZnJlNEKIFVPmevA,7582
+ipycollections-0.3.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+ipycollections-0.3.0.dist-info/licenses/LICENSE,sha256=Ft_ETM94153OwsB31Z69PEq4sCy3W86EWBYpq3ktTQI,2413
+ipycollections-0.3.0.dist-info/RECORD,,
