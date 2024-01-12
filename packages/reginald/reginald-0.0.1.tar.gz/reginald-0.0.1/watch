@@ -1,0 +1,10 @@
+#!/bin/bash
+while true
+do
+    clear
+    rm out.h
+    python3 run.py examples/maps/lsm6dsv16bx.yaml out.h c.funcpack --no-field-enum-prefix
+    # python3 run.py examples/maps/lsm6dsv16bx.yaml out.h c.macromap
+    bat --paging=never out.h
+	sleep 3
+done
