@@ -1,0 +1,4 @@
+geopandas
+pandas
+fiona
+pyshp
