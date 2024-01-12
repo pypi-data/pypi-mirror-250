@@ -1,0 +1,13 @@
+judge_pics/__init__.py,sha256=HLJVl1U-t83RQrpuATYRSAxzEPELI2rQNs-Ng9mzFC4,204
+judge_pics/search.py,sha256=D-VRWpdnJJAfgh4b-AdIyhx1jwMhuZqHd-IxTx9gbh4,2103
+judge_pics/update.py,sha256=4r-VLyaCQTmykmxYggPMx3NoyshcgQH1665pI-JqtsM,3593
+judge_pics/upload.py,sha256=Ob_lwBneFGrmpC-I14D1rPuuLMRjC1D2xyG6PYjowY4,4422
+judge_pics/data/people.json,sha256=QDDPrDiCbcnVDMFHItQzfq-PykPR6uIFupUi-lBkJI0,389678
+judge_pics/scrapers/__init__.py,sha256=v6KlC8R-HErb2TPBdJXUhzKrZCm13xGwcwB-54lag4U,47
+judge_pics/scrapers/cand_judges.py,sha256=NXqir39av_4t0q5kGdygEUY54xCXgzwvKXMmOGQhgcA,4243
+judge_pics/scrapers/dc_circuit_judges.py,sha256=yn522Ia56vBzTDdBGMOUk4KiCyMOR_VTFR8hdwQCoss,2729
+judge_pics-2.0.5.dist-info/LICENSE,sha256=LbaW0G8N2C1P4YEILXi9rxGoPiQ1_Yb-43zklzEhx6M,1794
+judge_pics-2.0.5.dist-info/METADATA,sha256=fOy7qXHSrEvRqnIaypl0RknJhlO9SYmEW7Pi5eq_XQ8,9685
+judge_pics-2.0.5.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+judge_pics-2.0.5.dist-info/top_level.txt,sha256=2-yz30ymMoT6G-OVP1nNsRQoUf0YWnG02izChY19dGw,11
+judge_pics-2.0.5.dist-info/RECORD,,
