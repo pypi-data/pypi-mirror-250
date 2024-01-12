@@ -1,0 +1,12 @@
+blackboard/__init__.py,sha256=ymVclner3LJIQfaqEtDn4B8nt0ES7V7pTOnBr6eAbbc,225
+blackboard/api.py,sha256=HcHs-L5rgusVUp8tCEoajOwK-YatgMZaXIlk9YZBMSk,25799
+blackboard/api_extended.py,sha256=F6PRi-WVXr5St4HilkglD-oAc9kXk8PeV_5d0JqUZy0,2322
+blackboard/blackboard.py,sha256=XEFpw7zaPETF-BJrH9a0ivmruzUxjWKSONCisHGFa3I,7008
+blackboard/filters.py,sha256=muNc8iErOHC_eR64r3C9ye0XFlMsIiexRNefRDzt_UY,4031
+blackboard/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bblearn-0.2.3.dist-info/AUTHORS.md,sha256=LxKhKtlD-XnXaC4Wbf8ku52pa7ZV4K-EqCqdNznkx40,152
+bblearn-0.2.3.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+bblearn-0.2.3.dist-info/METADATA,sha256=7KqEiZhmDrNyNQS-HGwzjK0sn0qkcXPzcD-7mQ_dZ2k,2713
+bblearn-0.2.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bblearn-0.2.3.dist-info/top_level.txt,sha256=OnMtWoUwoTCZsKBQyTKMcjRbmta4nYuolk0vw7OeulA,11
+bblearn-0.2.3.dist-info/RECORD,,
