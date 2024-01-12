@@ -1,0 +1,7 @@
+triton>=2.1.0
+
+[all]
+absl-py
+
+[dev]
+absl-py
