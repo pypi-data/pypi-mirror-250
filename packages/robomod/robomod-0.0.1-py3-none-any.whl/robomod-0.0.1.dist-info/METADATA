@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: robomod
+Version: 0.0.1
+Summary: Robomod
+Author-email: Nanw1103 <nanw1103@gmail.com>
+Project-URL: Homepage, https://github.com/nanw1103/robomod
+Project-URL: Bug Tracker, https://github.com/nanw1103/robomod/issues
+Project-URL: documentation, https://readthedocs.org
+Project-URL: repository, https://github.com/nanw1103/robomod
+Project-URL: changelog, https://github.com/nanw1103/robomod/blob/main/CHANGELOG.md
+Keywords: Robomod,Simulation
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+
+# RoboCivix
+
