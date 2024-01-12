@@ -1,0 +1,28 @@
+const baseConfig = require('@jupyterlab/galata/lib/playwright-config');
+
+module.exports = {
+  ...baseConfig,
+  reporter: [[process.env.CI ? 'dot' : 'list'], ['html']],
+  use: {
+    acceptDownloads: true,
+    appPath: '',
+    autoGoto: false,
+    baseURL: 'http://localhost:8000',
+    trace: 'on-first-retry',
+    video: 'retain-on-failure'
+  },
+  retries: 1,
+  expect: {
+    toMatchSnapshot: {
+      maxDiffPixelRatio: 0.05
+    }
+  },
+  webServer: [
+    {
+      command: 'yarn start',
+      port: 8000,
+      timeout: 120 * 1000,
+      reuseExistingServer: true
+    }
+  ]
+};
