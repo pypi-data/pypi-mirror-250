@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pyqtgraph-ext
+Version: 1.0.2
+Summary: Collection of PyQtGraph widgets/tools.
+Keywords: PyQt PySide pyqtgraph
+Home-page: https://github.com/marcel-goldschen-ohm/PyQtGraph-ext
+Author-Email: Marcel Goldschen-Ohm <goldschen-ohm@utexas.edu>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Homepage, https://github.com/marcel-goldschen-ohm/PyQtGraph-ext
+Project-URL: Repository, https://github.com/marcel-goldschen-ohm/PyQtGraph-ext
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.26.2
+Requires-Dist: qtpy>=2.4.1
+Requires-Dist: qtawesome>=1.3.0
+Requires-Dist: pyqtgraph>=0.13.3
+Requires-Dist: pyqt-ext>=1.1.0
+Description-Content-Type: text/markdown
+
+# PyQtGraph-ext
+Collection of [PyQtGraph](https://www.pyqtgraph.org) widgets/tools.
+
+- [PyQtGraphAxisRegionItem](https://github.com/marcel-goldschen-ohm/PyQtGraph-ext/docs/PyQtGraphAxisRegionItem.md)
+- [PyQtGraphEventItem](https://github.com/marcel-goldschen-ohm/PyQtGraph-ext/docs/PyQtGraphEventItem.md)
+- [PyQtGraphPlotItem](https://github.com/marcel-goldschen-ohm/PyQtGraph-ext/docs/PyQtGraphPlotItem.md)
+- [PyQtGraphPlotWidget](https://github.com/marcel-goldschen-ohm/PyQtGraph-ext/docs/PyQtGraphPlotWidget.md)
+- [PyQtGraphViewBox](https://github.com/marcel-goldschen-ohm/PyQtGraph-ext/docs/PyQtGraphViewBox.md)
+- [PyQtGraphXYDataItem](https://github.com/marcel-goldschen-ohm/PyQtGraph-ext/docs/PyQtGraphXYDataItem.md)
+
+# Install
+Should work with PySide6, PyQt6, or PyQt5.
+```shell
+pip install PySide6 pyqtgraph-ext
+```
