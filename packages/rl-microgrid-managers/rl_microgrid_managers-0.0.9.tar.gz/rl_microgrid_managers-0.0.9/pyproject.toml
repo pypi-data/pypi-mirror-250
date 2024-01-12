@@ -1,0 +1,74 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel", "numpy", "torch", "matplotlib", "joblib", "pandas"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rl_microgrid_managers"
+version = "0.0.9"
+authors = [{name="Gerald Jones", email="gjones2@vols.utk.edu"}]
+maintainers = [{name="Gerald Jones", email="gjones2@vols.utk.edu"}]
+description = "A Python module for reinforcement learning based energy management system tools"
+
+license = {file="LICENSE"}
+
+keywords = ["reinforcement learning", "energy management system", "building energy management"]
+
+readme = "README.md"
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "setuptools",
+    "setuptools-scm",
+    "wheel",
+    "numpy",
+    "torch",
+    "matplotlib",
+    "joblib",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    ]
+
+
+
+# tell it which packages you want to include in the build
+[tool.setuptools]
+packages = ["MG_Managers", "MG_Managers._A2CRL", "MG_Managers._DQRL",    "MG_Managers._PPORL","_RLCoach_ENVS", "_DATAGENERATORS", "_DATAGENERATORS.Demand_Generators", "_DATAGENERATORS.PV_Generators",]
+
+# used by bumpver to bumpup the version of the package
+# yusing eh version patter you can tell it what part of the version to 
+# updata. 
+[tool.bumpver]
+current_version = "0.0.9"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = false
+tag = false
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+
+"rl_mgm/__init__.py" = [
+    '__version__ = "{version}"',
+]
+
+"setup.py" = [
+    "{version}",
+    "{pep440_version}",
+]
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
+
