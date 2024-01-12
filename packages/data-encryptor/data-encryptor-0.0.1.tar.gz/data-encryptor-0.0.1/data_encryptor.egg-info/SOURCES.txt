@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+data_encryptor.egg-info/PKG-INFO
+data_encryptor.egg-info/SOURCES.txt
+data_encryptor.egg-info/dependency_links.txt
+data_encryptor.egg-info/entry_points.txt
+data_encryptor.egg-info/top_level.txt
+encryptor/__init__.py
+encryptor/__main__.py
+encryptor/my_module.py
+encryptor/bin/__init__.py
+encryptor/bin/entry.py
+tests/test_example.py

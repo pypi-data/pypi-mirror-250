@@ -1,0 +1,20 @@
+[project]
+name = "data-encryptor"
+version = "0.0.1"
+authors = [
+    {name="Shun Huang", email="shun@formosa1544.com"}
+]
+description = "A convenient tool to encrypt data."
+readme = {file = "README.rst", content-type = "text/x-rst"}
+requires-python = ">=3.11"
+license = {text = "MIT License"}
+dependencies = []
+
+[tool.setuptools.packages.find]
+exclude = ["tests"]
+
+[project.urls]
+repository = "https://github.com/burpeesDaily/data-encryptor"
+
+[project.scripts]
+project-entry = "encryptor.bin.entry:main"

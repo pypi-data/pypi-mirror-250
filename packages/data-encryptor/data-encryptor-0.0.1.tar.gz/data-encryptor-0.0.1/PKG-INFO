@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: data-encryptor
+Version: 0.0.1
+Summary: A convenient tool to encrypt data.
+Author-email: Shun Huang <shun@formosa1544.com>
+License: MIT License
+Project-URL: repository, https://github.com/burpeesDaily/data-encryptor
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Data Encryptor
+==============
+
+A tool to encrypt and decrypt data.
