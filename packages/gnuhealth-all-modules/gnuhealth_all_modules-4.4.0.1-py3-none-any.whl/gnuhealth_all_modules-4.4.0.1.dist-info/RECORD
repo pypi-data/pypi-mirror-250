@@ -1,0 +1,10 @@
+gnuhealth-all-modules/etc/gnuhealth.service,sha256=oOzNbZDai9Yz5z0sKJUhOH0lLYscquCV-ptm6UDz6Us,311
+gnuhealth-all-modules/etc/gnuhealth_log.conf,sha256=ugcdWxKd2Qlpxgg8U0dXe486MKzBXJv8evPntGqodeQ,459
+gnuhealth-all-modules/etc/reverse_proxy.conf,sha256=OLpqrEmErY15J5oSHqYAEPIQFs93QSemPh88Ld-LeFI,1177
+gnuhealth-all-modules/etc/trytond.conf,sha256=u6ypyJR0JeDQTNYpjPj7sPe6ALioGIeNaCbSTmcUrSQ,8071
+gnuhealth-all-modules/etc/uwsgi_trytond.ini,sha256=OSgdNByXn6GvryFn0T89ZQOZqDRG-CQYbv-taO7LkiI,625
+gnuhealth_all_modules-4.4.0.1.dist-info/LICENSE.txt,sha256=Z20dW4LfwFIv-LoPJ7oHEBv5-e-tFrSHXm8PeJoRpSE,34431
+gnuhealth_all_modules-4.4.0.1.dist-info/METADATA,sha256=AivvsYU9JynvhYh-8Qt39bDwJ1qDwwRZ8D2bjV9Xinc,5621
+gnuhealth_all_modules-4.4.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gnuhealth_all_modules-4.4.0.1.dist-info/top_level.txt,sha256=I7UYLyoOepAXr6rbkjpmtuEbhXNOlpcljT16dOg2SvE,22
+gnuhealth_all_modules-4.4.0.1.dist-info/RECORD,,
