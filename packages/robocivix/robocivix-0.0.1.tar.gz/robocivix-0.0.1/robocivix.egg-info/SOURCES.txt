@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+requirements.txt
+robocivix/__init__.py
+robocivix.egg-info/PKG-INFO
+robocivix.egg-info/SOURCES.txt
+robocivix.egg-info/dependency_links.txt
+robocivix.egg-info/entry_points.txt
+robocivix.egg-info/requires.txt
+robocivix.egg-info/top_level.txt
