@@ -1,0 +1,9 @@
+Django>=4.1.7
+djangorestframework>=3.14.0
+djangorestframework-simplejwt
+dj-rest-auth
+django-allauth[saml]==0.57.0
+
+[dev]
+pre-commit
+tox

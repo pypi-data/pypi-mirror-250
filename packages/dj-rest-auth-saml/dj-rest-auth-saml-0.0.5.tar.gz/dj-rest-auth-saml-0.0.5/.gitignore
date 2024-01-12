@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+*__pycache__
+
+# Mac OS X
+.DS_Store
+
+# Environment variables
+.env
+
+# Virtual Environment
+virtual
+venv
+
+
+# IDEs
+## Pycharm files
+.idea
+## VSCodium
+#.vscode
+
+# Python compiled files
+*.pyc
+
+# distutil
+## MANIFEST
+MANIFEST
+## the egg
+*.egg-info/
+build
+
+#Jupyter
+
+#django
+static
+config/.secrets.yaml
+
+#ipython
+.ipynb_checkpoints
+
+#pytest
+.coverage
+.coverage*
+
+#tox
+.tox
+
+# build
+dist
