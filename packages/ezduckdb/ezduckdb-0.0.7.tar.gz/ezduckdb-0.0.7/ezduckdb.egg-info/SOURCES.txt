@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+ezduckdb/__init__.py
+ezduckdb/core.py
+ezduckdb/paths.py
+ezduckdb.egg-info/PKG-INFO
+ezduckdb.egg-info/SOURCES.txt
+ezduckdb.egg-info/dependency_links.txt
+ezduckdb.egg-info/requires.txt
+ezduckdb.egg-info/top_level.txt
+tests/test_core.py
+tests/test_paths.py
