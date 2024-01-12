@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ecies-xmr
+Version: 0.2
+Summary: ECIES implementation for the Monero Edwards25519 curve
+Home-page: https://github.com/mewmix/ecies-xmr
+Author: Alexander Klein
+Author-email: alexanderjamesklein@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome
+
+# ecies-xmr
