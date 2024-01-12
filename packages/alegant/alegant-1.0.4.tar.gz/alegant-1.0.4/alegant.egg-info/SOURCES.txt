@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+alegant/__init__.py
+alegant/data_module.py
+alegant/trainer.py
+alegant/utils.py
+alegant.egg-info/PKG-INFO
+alegant.egg-info/SOURCES.txt
+alegant.egg-info/dependency_links.txt
+alegant.egg-info/requires.txt
+alegant.egg-info/top_level.txt
