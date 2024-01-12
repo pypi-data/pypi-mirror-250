@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+doods.egg-info/PKG-INFO
+doods.egg-info/SOURCES.txt
+doods.egg-info/dependency_links.txt
+doods.egg-info/entry_points.txt
+doods.egg-info/requires.txt
+doods.egg-info/top_level.txt
+ds2play/__init__.py
+ds2play/ds.py

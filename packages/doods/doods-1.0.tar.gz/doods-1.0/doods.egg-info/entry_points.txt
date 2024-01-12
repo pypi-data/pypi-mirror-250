@@ -1,0 +1,2 @@
+[console_scripts]
+module = ds2play.ds:main
