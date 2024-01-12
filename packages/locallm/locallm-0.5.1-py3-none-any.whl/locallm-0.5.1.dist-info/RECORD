@@ -1,0 +1,13 @@
+locallm/__init__.py,sha256=bHav_10kDnfbBLvNqASCVczFMmY_nL3aS4V1WbHSc2o,626
+locallm/provider.py,sha256=YEHrAssVbS-o6nzn473jpNWMdW_cnfqAm2vypeOlu8g,4357
+locallm/schemas.py,sha256=gbYbOG2auNYHpaBc0mHURUd5cQpLaYQnRCihmGpRGX8,5477
+locallm/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+locallm/providers/koboldcpp.py,sha256=ty30STm_kQAKTCz9jfmaANCpDTxDrZ_SdkR8obYoJ34,7455
+locallm/providers/local.py,sha256=SBwBtOqc5cGn-DK17uHYwgJwVWJDjlTS04z1glOjuAQ,7320
+locallm/providers/ollama.py,sha256=caiedGOD2vkiyl8utL5xyD24LXktUVriFsu07ivm8OA,7012
+locallm-0.5.1.dist-info/LICENCE.txt,sha256=YRX6LTNZjV1sLI1ghSzmr16yOxYwWDLtVIq0nmu2Po0,1065
+locallm-0.5.1.dist-info/METADATA,sha256=6vsLE0-08JJuOtiQYO30itbd26m1F65d80qnaF3ynY8,7746
+locallm-0.5.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+locallm-0.5.1.dist-info/top_level.txt,sha256=f6Upksfr53ENNCPA1acizSy_i9nfdEb7rL4zv1nuz4Q,8
+locallm-0.5.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+locallm-0.5.1.dist-info/RECORD,,
