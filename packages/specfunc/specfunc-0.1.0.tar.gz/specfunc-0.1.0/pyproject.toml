@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "specfunc"
+version = "0.1.0"
+description = "Python wrapper around Fortran codes for special functions."
+authors = ["Alex <adrysdale@protonmail.com>"]
+license = "GPLv3-or-above"
+readme = "README.md"
+include = [
+        { path = "src/special_functions.so" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
