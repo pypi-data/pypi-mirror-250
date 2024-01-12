@@ -1,0 +1,13 @@
+setup.py
+py_geoinova_apiclient/__init__.py
+py_geoinova_apiclient/abstract.py
+py_geoinova_apiclient/analise.py
+py_geoinova_apiclient/auth.py
+py_geoinova_apiclient/camada.py
+py_geoinova_apiclient/deteccao.py
+py_geoinova_apiclient/deteccao_camada.py
+py_geoinova_apiclient/imagem.py
+py_geoinova_apiclient.egg-info/PKG-INFO
+py_geoinova_apiclient.egg-info/SOURCES.txt
+py_geoinova_apiclient.egg-info/dependency_links.txt
+py_geoinova_apiclient.egg-info/top_level.txt
