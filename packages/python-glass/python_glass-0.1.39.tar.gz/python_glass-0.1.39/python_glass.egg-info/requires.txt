@@ -1,0 +1,11 @@
+PyOpenGL
+PyOpenGL_accelerate
+moderngl
+PyGLM
+numpy
+opencv-python
+maxminddb-geolite2
+wget
+requests
+chardet
+tree-sitter
