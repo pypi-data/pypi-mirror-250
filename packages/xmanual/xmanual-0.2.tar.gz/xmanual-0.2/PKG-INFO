@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xmanual
+Version: 0.2
+Summary: Management manual(man).
+Home-page: https://github.com/bondbox/xmanual
+Author: Mingzhe Zou
+Author-email: zoumingzhe@outlook.com
+License: GPLv2
+Project-URL: Source Code, https://github.com/bondbox/xmanual
+Project-URL: Bug Tracker, https://github.com/bondbox/issues
+Project-URL: Documentation, https://github.com/bondbox/xmanual
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xarg-python>=1.2.1
+Requires-Dist: doclifter>=2.20.2
+
+# xmanual
