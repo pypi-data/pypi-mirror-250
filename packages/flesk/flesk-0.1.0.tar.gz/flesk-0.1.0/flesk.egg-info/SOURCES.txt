@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+flesk.egg-info/PKG-INFO
+flesk.egg-info/SOURCES.txt
+flesk.egg-info/dependency_links.txt
+flesk.egg-info/requires.txt
+flesk.egg-info/top_level.txt
