@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+isx/__init__.py
+isx.egg-info/PKG-INFO
+isx.egg-info/SOURCES.txt
+isx.egg-info/dependency_links.txt
+isx.egg-info/requires.txt
+isx.egg-info/top_level.txt
