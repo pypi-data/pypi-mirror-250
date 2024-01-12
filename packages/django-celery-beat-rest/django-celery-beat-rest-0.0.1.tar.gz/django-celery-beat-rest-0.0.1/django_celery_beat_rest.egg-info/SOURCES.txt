@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+celery_beat_rest/__init__.py
+celery_beat_rest/filters.py
+celery_beat_rest/serializers.py
+celery_beat_rest/urls.py
+celery_beat_rest/views.py
+django_celery_beat_rest.egg-info/PKG-INFO
+django_celery_beat_rest.egg-info/SOURCES.txt
+django_celery_beat_rest.egg-info/dependency_links.txt
+django_celery_beat_rest.egg-info/requires.txt
+django_celery_beat_rest.egg-info/top_level.txt
