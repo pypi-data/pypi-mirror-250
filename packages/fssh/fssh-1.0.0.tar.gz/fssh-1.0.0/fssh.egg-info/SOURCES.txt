@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fssh/__init__.py
+fssh/__main__.py
+fssh/setup.py
+fssh.egg-info/PKG-INFO
+fssh.egg-info/SOURCES.txt
+fssh.egg-info/dependency_links.txt
+fssh.egg-info/entry_points.txt
+fssh.egg-info/requires.txt
+fssh.egg-info/top_level.txt

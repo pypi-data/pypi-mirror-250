@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fssh
+Version: 1.0.0
+Summary: Fash SSH for UTCS students
+Home-page: https://github.com/migopp/fssh/
+Author: Michael Goppert
+Author-email: goppert@cs.utexas.edu
+License: MIT
+License-File: LICENSE
+Requires-Dist: beautifulsoup4==4.12.2
+Requires-Dist: certifi==2023.11.17
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: idna==3.6
+Requires-Dist: pexpect==4.9.0
+Requires-Dist: ptyprocess==0.7.0
+Requires-Dist: pyperclip==1.8.2
+Requires-Dist: requests==2.31.0
+Requires-Dist: soupsieve==2.5
+Requires-Dist: urllib3==2.1.0
