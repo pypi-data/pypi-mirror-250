@@ -1,0 +1,2 @@
+[console_scripts]
+gotopub = gotopub.__main__:main

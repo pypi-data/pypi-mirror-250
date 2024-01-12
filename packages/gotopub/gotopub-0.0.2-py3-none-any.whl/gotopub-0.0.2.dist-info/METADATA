@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: gotopub
+Version: 0.0.2
+Summary: gotopub - GoToSocial and general Fediverse client
+Home-page: https://gitlab.com/sunarch/gotopub-py
+Author: András Németh (sunarch)
+Author-email: sunarch@protonmail.com
+Maintainer: András Németh (sunarch)
+Maintainer-email: sunarch@protonmail.com
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Project-URL: Bug Tracker, https://gitlab.com/sunarch/gotopub-py/-/issues
+Keywords: GoToPub,Fediverse,ActivityPub,GoToSocial,Mastodon
+Platform: Any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Office/Business :: News/Diary
+Classifier: Topic :: System :: Networking
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: libmonty-logging ==0.1.1
+Requires-Dist: xdg-base-dirs ==6.0.0
+
+# GoToPub (Py)
+
+Experimental GoToSocial and general Fediverse client
+
+## Installation
+
+The package is on PyPI: [gotopub](https://pypi.org/project/gotopub/)
+
+```
+pip install gotopub
+```
+
+### License
+
+[GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+```
+GoToPub - GoToSocial and general Fediverse client
+Copyright (C) 2024  András Németh
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
+
+## Acknowledgements
+
+- Python section in global .gitignore taken from [github/gitignore](https://github.com/github/gitignore) under the [CC0-1.0 License](https://choosealicense.com/licenses/cc0-1.0/).
+- Thanks to [Guido van Rossum](https://gvanrossum.github.io/), the [Python Software Foundation](https://www.python.org/psf/), and all contributors for the [Python](https://www.python.org/) programming language
