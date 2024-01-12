@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: armory-examples
+Version: 24.1
+Summary: TwoSix Armory Adversarial Robustness Library Examples
+Author-email: Two Six Technologies <armory@twosixtech.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Requires-Dist: albumentations
+Requires-Dist: armory-library
+Provides-Extra: all
+Requires-Dist: armory-examples[huggingface]; extra == 'all'
+Requires-Dist: armory-examples[jatic]; extra == 'all'
+Requires-Dist: armory-examples[yolo]; extra == 'all'
+Provides-Extra: demo
+Requires-Dist: matplotlib; extra == 'demo'
+Requires-Dist: numpy; extra == 'demo'
+Requires-Dist: pandas; extra == 'demo'
+Requires-Dist: plotly; extra == 'demo'
+Requires-Dist: seaborn; extra == 'demo'
+Requires-Dist: sklearn; extra == 'demo'
+Provides-Extra: huggingface
+Requires-Dist: datasets; extra == 'huggingface'
+Requires-Dist: huggingface-hub; extra == 'huggingface'
+Requires-Dist: transformers; extra == 'huggingface'
+Provides-Extra: yolo
+Requires-Dist: yolov5; extra == 'yolo'
+Description-Content-Type: text/markdown
+
+![charmory logo](../docs/assets/charmory.png)
+
+---
+
+# Overview
+
+This project includes example Python scripts and Jupyter notebook usages of the
+charmory (JATIC armory replacement) library.
+
+# Installation
+
+```sh
+cd examples
+pip install --editable .
+```
+
+# Usage
+
+```sh
+charmory
+```
+
+# Acknowledgment
+
+This material is based upon work supported by the Defense Advanced Research Projects
+Agency (DARPA) under Contract No. HR001120C0114. Any opinions, findings and
+conclusions or recommendations expressed in this material are those of the author(s)
+and do not necessarily reflect the views of the Defense Advanced Research Projects
+Agency (DARPA).
+
+# Points of Contact
+
+POC: Matt Wartell @matt.wartell
+DPOC: Christopher Woodall @christopher.woodall
