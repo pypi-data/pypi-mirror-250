@@ -1,0 +1,3 @@
+[console_scripts]
+django-fullstack=django_fullstack.scripts.django_fullstack:run
+
