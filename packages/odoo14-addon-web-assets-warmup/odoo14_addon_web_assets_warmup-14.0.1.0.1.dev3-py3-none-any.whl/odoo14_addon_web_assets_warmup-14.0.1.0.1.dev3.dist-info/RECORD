@@ -1,0 +1,16 @@
+odoo/addons/web_assets_warmup/README.rst,sha256=TkZu2QJ7TE4s400e1sN5K8PI60JwdXuZKGLxx24FYVY,3274
+odoo/addons/web_assets_warmup/__init__.py,sha256=5hYKiH0NTzhT7fwJN91zFlNTrsMR5p_gOYaIIztb26c,55
+odoo/addons/web_assets_warmup/__manifest__.py,sha256=HUAcKomk06G4vB9ddBr2rRJTNiygqzO1aOppikCQjUg,535
+odoo/addons/web_assets_warmup/hooks.py,sha256=yImznVbPdQRpUloGv4zD8QxErpPzy49ACLFpxxMLftI,2399
+odoo/addons/web_assets_warmup/data/ir_cron.xml,sha256=UZCfk6yptWmURpiZ1gVbaB_96UMl4f_k5YGEV4Qd6Uo,806
+odoo/addons/web_assets_warmup/i18n/web_assets_warmup.pot,sha256=KtoSq_3UCG5OInOayeJE7xssCSJ3zy1UhQGZpzL6KUc,1243
+odoo/addons/web_assets_warmup/models/__init__.py,sha256=1HQWE1fb4FrER_X-JycnKw4nXpcXPuzzGDA6jVwPqsc,32
+odoo/addons/web_assets_warmup/models/ir_actions_report.py,sha256=yuOkg4YbTaQQFh3Yp4I36uCzhZVPFlAf3xDZTm4WHI4,1263
+odoo/addons/web_assets_warmup/readme/CONTRIBUTORS.rst,sha256=G9UoaO8rjTKaJZ85hs8Po1Ij28UJ9W9X8xk5X-3HmNI,104
+odoo/addons/web_assets_warmup/readme/DESCRIPTION.rst,sha256=J2pqtg6cwLuhsvz08ot6lJKLPJcIi_GDQB1N910fqIU,489
+odoo/addons/web_assets_warmup/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/web_assets_warmup/static/description/index.html,sha256=cTaeqB-UgQ2ytahAaKSL2AR4zqmlNK9343NgIH0vfw4,12613
+odoo14_addon_web_assets_warmup-14.0.1.0.1.dev3.dist-info/METADATA,sha256=blS-t2iZuCxUMEY6GkQjqekGdB_If7pN1whetijCYt8,3834
+odoo14_addon_web_assets_warmup-14.0.1.0.1.dev3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_web_assets_warmup-14.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_web_assets_warmup-14.0.1.0.1.dev3.dist-info/RECORD,,
