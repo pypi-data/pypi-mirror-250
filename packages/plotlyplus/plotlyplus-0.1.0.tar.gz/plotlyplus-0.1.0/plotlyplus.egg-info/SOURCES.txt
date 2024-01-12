@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+plotlyplus/__init__.py
+plotlyplus/plotlyplus.py
+plotlyplus/plotlyplus_safe.py
+plotlyplus.egg-info/PKG-INFO
+plotlyplus.egg-info/SOURCES.txt
+plotlyplus.egg-info/dependency_links.txt
+plotlyplus.egg-info/requires.txt
+plotlyplus.egg-info/top_level.txt
+tests/__init__.py
