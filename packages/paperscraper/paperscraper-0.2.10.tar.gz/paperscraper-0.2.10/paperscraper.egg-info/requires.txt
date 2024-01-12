@@ -1,0 +1,13 @@
+arxiv>=1.4.2
+pymed
+pandas
+requests
+tqdm
+scholarly==0.5.1
+seaborn
+matplotlib
+matplotlib_venn
+bs4
+impact-factor>=1.1.0
+thefuzz
+pytest
