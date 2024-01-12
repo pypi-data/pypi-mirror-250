@@ -1,0 +1,2 @@
+[console_scripts]
+dimz = pydimz.__main__:main

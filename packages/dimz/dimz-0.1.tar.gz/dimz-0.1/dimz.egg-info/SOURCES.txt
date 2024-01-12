@@ -1,0 +1,12 @@
+COPYRIGHT.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+dimz.egg-info/PKG-INFO
+dimz.egg-info/SOURCES.txt
+dimz.egg-info/dependency_links.txt
+dimz.egg-info/entry_points.txt
+dimz.egg-info/top_level.txt
+pydimz/__init__.py
+pydimz/__main__.py
