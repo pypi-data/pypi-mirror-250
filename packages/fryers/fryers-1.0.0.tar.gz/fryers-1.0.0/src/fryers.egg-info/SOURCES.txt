@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/fryers/__init__.py
+src/fryers/fyers.py
+src/fryers.egg-info/PKG-INFO
+src/fryers.egg-info/SOURCES.txt
+src/fryers.egg-info/dependency_links.txt
+src/fryers.egg-info/requires.txt
+src/fryers.egg-info/top_level.txt
