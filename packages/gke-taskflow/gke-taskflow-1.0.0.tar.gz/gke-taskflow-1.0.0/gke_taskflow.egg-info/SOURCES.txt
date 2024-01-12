@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+gke_taskflow/__init__.py
+gke_taskflow.egg-info/PKG-INFO
+gke_taskflow.egg-info/SOURCES.txt
+gke_taskflow.egg-info/dependency_links.txt
+gke_taskflow.egg-info/entry_points.txt
+gke_taskflow.egg-info/requires.txt
+gke_taskflow.egg-info/top_level.txt
+gke_taskflow/operators/__init__.py
+gke_taskflow/operators/gke_taskflow.py
+tests/test_gke_taskflow.py
