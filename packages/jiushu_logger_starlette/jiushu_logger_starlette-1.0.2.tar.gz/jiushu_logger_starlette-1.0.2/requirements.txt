@@ -1,0 +1,4 @@
+jiushu-logger>=1.0.4
+orjson>=3.8.0
+python-ulid>=1.1.0
+starlette[full]>=0.24.0
