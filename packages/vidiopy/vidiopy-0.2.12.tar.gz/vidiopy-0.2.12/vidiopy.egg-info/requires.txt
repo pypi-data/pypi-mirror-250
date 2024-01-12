@@ -1,0 +1,6 @@
+rich
+pydub
+numpy
+ffmpegio
+pillow
+decorator
