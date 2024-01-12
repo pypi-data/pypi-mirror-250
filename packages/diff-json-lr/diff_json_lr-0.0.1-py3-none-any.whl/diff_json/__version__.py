@@ -1,0 +1,5 @@
+__title__ = "diff_json"
+__description__ = "Diffs two JSON objects to create a patch document, or (coming soon) for producing a left-right diff view."
+__version__ = "0.0.1"
+__author__ = "Josh MacLachlan"
+__author_email__ = "josh.t.maclachlan@gmail.com"
