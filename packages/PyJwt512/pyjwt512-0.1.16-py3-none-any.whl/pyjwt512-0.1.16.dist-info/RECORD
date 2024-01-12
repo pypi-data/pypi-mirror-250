@@ -1,0 +1,11 @@
+pyjwt512/CreateJwtToken.py,sha256=qVpW0aM4ReVAyvm1Mo6rwysMH9NwquLFg1BqplbVios,2788
+pyjwt512/Es512KeysManger.py,sha256=H2IKaWu8NPa3YlX6dutfzPrCDhhO6lQXzWG929MJNrw,5796
+pyjwt512/Exceptions.py,sha256=PunBe3UcbW4qgNr_Ko_mIz9R9sjk-gdmZome8xUfqCo,99
+pyjwt512/VerifyJwtToken.py,sha256=CR9QaCkGG6Dt5ELkOAkjEWhkIPhbw3n15G3BE7JVBqU,4581
+pyjwt512/__init__.py,sha256=mTgrqsBgTft0_CEmSPCvkh8n2VbPbCaUhG9hFZhB5Bc,199
+pyjwt512/genjwt.py,sha256=6MamJmrTHUYj46XVRgUCNmOoAvX-U_VUWDquGNMgzUc,3276
+pyjwt512-0.1.16.dist-info/LICENSE,sha256=Nzg1Vf8eYZquIrCkRQsVgJL18m3bND30AAFQlUPR5j8,1080
+pyjwt512-0.1.16.dist-info/METADATA,sha256=12XDQESB5b3HJXu8RTpN3g97zyaBa5SrtOT5l5L8MfI,3092
+pyjwt512-0.1.16.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyjwt512-0.1.16.dist-info/entry_points.txt,sha256=VAH_sG41itUfpip6tbd1zw-j0QJ9van43kzrvQ92ZY8,48
+pyjwt512-0.1.16.dist-info/RECORD,,
