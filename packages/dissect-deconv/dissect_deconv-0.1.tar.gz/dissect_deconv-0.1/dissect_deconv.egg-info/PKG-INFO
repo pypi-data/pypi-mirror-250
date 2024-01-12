@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dissect-deconv
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/imsb-uke/DISSECT
+Author: Robin Khatri
+Author-email: robin.khatri@zmnh.uni-hamburg.de
+License: MIT License
+Keywords: bioinformatics,deep learning,machine learning,single cell sequencing,bulk rna sequencing,spatial transcriptomics,deconvolution
+Platform: UNKNOWN
+Requires-Python: >=3.8.6
+License-File: LICENSE
+
+UNKNOWN
+
