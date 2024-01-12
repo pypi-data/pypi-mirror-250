@@ -1,0 +1,10 @@
+bpwave/__init__.py,sha256=YDxrTFUKNRqCmPr7krNjNyT9MXnpw83b5wZWcQ-giZI,82
+bpwave/_version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+bpwave/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bpwave/signal.py,sha256=9S6ka2imKBiQ3Ky0YmzL0ReCraRcTdmZQ39cRgq3Y0Y,24449
+bpwave/visu.py,sha256=s8JZSMYGOHvyUYYnA3YDocxe3FCuy70dE75GAYQpayI,1847
+bpwave-0.0.1.dist-info/LICENSE.txt,sha256=wscXcH2Of8s9HlGHRLHm60uhvHgPraPPTnUmdPiWCfY,1070
+bpwave-0.0.1.dist-info/METADATA,sha256=Mo2G2XyYzjBZb9OShwXJZWDShHn7r_IWtq48xsbi5yQ,3697
+bpwave-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bpwave-0.0.1.dist-info/top_level.txt,sha256=mMMDrtCWec2fncFBPznrD0GsGaUCKq517xphL35MqIU,7
+bpwave-0.0.1.dist-info/RECORD,,
