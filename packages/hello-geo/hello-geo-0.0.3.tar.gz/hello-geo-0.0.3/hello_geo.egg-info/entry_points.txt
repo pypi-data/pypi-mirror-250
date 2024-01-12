@@ -1,0 +1,2 @@
+[console_scripts]
+hello_geo = hello_geo.cli:main

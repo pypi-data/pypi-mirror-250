@@ -1,0 +1,7 @@
+numpy
+
+[all]
+hello-geo[extra]
+
+[extra]
+pandas
