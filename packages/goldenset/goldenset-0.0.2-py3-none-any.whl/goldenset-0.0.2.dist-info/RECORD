@@ -1,0 +1,8 @@
+goldenset/__init__.py,sha256=ePeh31Lzr9nMBqWw4CSijV0fk0rNGnDoT78JQc2wnLg,212
+goldenset/constants.py,sha256=KGlqGfq0dkXU0BQhaPWIqgku2QEk2r1qY8llEnfpvVk,1454
+goldenset/exceptions.py,sha256=FtnOwRrUjBbd1MvMRe8__Q_vWQlhnsnUQ19cfuRoNKM,47
+goldenset/goldenset.py,sha256=GHXawr-cI2WE0MNo1rFl28OXkBdbuK_uGn5Bwjt2848,29732
+goldenset/utils.py,sha256=WkYjKmAyJvOo1hAz3lC9XcVjgO11IjzVAkt9dhrSNjs,514
+goldenset-0.0.2.dist-info/METADATA,sha256=sbh30JCyDVoDakkmzZ9Zdmk6_2zvWF17qM6IpPx71jw,696
+goldenset-0.0.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+goldenset-0.0.2.dist-info/RECORD,,
