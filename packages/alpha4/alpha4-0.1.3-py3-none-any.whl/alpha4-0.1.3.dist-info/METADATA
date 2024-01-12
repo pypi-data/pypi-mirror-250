@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: alpha4
+Version: 0.1.3
+Summary: A simple CLI tool to convert a country name to its corresponding alpha3 code.
+License: MIT
+Author: Sahil Rohilla
+Author-email: imsahilrl@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: structlog (>=23.3.0,<24.0.0)
+Description-Content-Type: text/markdown
+
+# Alpha3
+
+`alpha3` is a Python package that provides a simple command line interface to convert country names to their corresponding alpha3 codes using the OpenSoft API.
+
+## Installation
+
+```bash
+pip install alpha3
+```
+
+## Usage
+
+```bash
+alpha3 'United States'
+```
+
