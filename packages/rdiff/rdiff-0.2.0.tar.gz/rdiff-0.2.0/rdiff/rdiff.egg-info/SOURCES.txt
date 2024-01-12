@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+rdiff/rdiff.egg-info/PKG-INFO
+rdiff/rdiff.egg-info/SOURCES.txt
+rdiff/rdiff.egg-info/dependency_links.txt
+rdiff/rdiff.egg-info/top_level.txt
