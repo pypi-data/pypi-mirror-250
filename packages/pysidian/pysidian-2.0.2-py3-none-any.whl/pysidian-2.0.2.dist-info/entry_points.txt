@@ -1,0 +1,3 @@
+[console_scripts]
+pysid = pysidian.cli:cli_main
+pysidian = pysidian.cli:cli_main
