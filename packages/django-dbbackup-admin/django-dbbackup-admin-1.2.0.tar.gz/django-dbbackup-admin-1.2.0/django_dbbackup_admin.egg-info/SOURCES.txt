@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+dbbackup_admin/__init__.py
+dbbackup_admin/admin.py
+dbbackup_admin/apps.py
+dbbackup_admin/models.py
+dbbackup_admin/urls.py
+dbbackup_admin/views.py
+django_dbbackup_admin.egg-info/PKG-INFO
+django_dbbackup_admin.egg-info/SOURCES.txt
+django_dbbackup_admin.egg-info/dependency_links.txt
+django_dbbackup_admin.egg-info/requires.txt
+django_dbbackup_admin.egg-info/top_level.txt

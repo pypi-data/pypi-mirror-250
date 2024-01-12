@@ -1,0 +1,2 @@
+django-dbbackup==4.0.2
+django-solo==2.1.0
