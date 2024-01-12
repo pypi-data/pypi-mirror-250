@@ -1,0 +1,14 @@
+pyelan/__init__.py,sha256=pTHTgyR4opbyRijzxbB7R8IIXPupGUN6bLtOCrGsw94,65
+pyelan/elanGen.py,sha256=Fp6ADd1rrL8_gAFaHcu4Aol82ujWRYqdXY1gEnrO798,1595
+pyelan/pyelan.py,sha256=opIO3DEb4ol5UDcX-dgaPkfYQ_XuG13cu0ORSi07G9Y,21036
+pyelan/relPathFix.py,sha256=576JrvoaKqBxLS2z9OsA_2S_VGxhlQLPcWXeXTZCTyw,913
+pyelan/templates/480.mp4,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyelan/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyelan/templates/elanSkeleton.eaf,sha256=f7-eAaIG5MXTSX8h5w9Ny5GejYGW1wQUXJsrMrg3NBY,1173
+pyelan/tests/Letters.eaf,sha256=Opz8fsBqKzO21SmqBXwuCcrvZvyFC-LO4NzEtWhA5tg,22302
+pyelan/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyelan/tests/test_elanGen.py,sha256=raih7pl505dDR9_vkC2-hB63iTqj_DxqAHpB33KSKsI,542
+pyelan-0.1.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pyelan-0.1.0.dist-info/METADATA,sha256=i3N2EU4OOW5FxIS1HNMbviVAcByoYZJCLFDTDuTFgUg,748
+pyelan-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyelan-0.1.0.dist-info/RECORD,,
