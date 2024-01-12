@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project] 
+name = "cbsm"
+description = 'A compartment based scaledown model for modeling the dynamics of a bioreactor'
+readme = 'README.md'
+license = {text = "MIT License"}
+requires-python = '>=3.9'
+dynamic = ['version']
+keywords = [
+    'bioreactor',
+    'scaledown',
+    'compartment',
+    'regime',
+    'biology',
+    'biochemistry'
+]
+classifiers = [
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: Microsoft :: Windows :: Windows 10',
+    'Operating System :: Microsoft :: Windows :: Windows 11',
+    'Operating System :: MacOS',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3 :: Only',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Scientific/Engineering :: Chemistry',
+    'Topic :: Scientific/Engineering :: Bio-Informatics',
+    'Topic :: Scientific/Engineering :: Medical Science Apps.',
+    'Topic :: Scientific/Engineering :: Physics'
+]
+dependencies = [
+'numpy',
+'matplotlib',
+'pandas',
+'networkx'
+]
+
+[[project.authors]]
+email = "s184186@dtu.dk"
+[[project.authors]]
+email = "s184209@dtu.dk"
+
+
+
+[project.urls]
+"Bug Tracker" = 'https://gitlab.gbar.dtu.dk/inno4vac/compartment-based-scaledown-model/issues/'
+"Source Code" = 'https://gitlab.gbar.dtu.dk/inno4vac/compartment-based-scaledown-model/cbsm/'
+
+
+[project.optional-dependencies]
+doc = [
+'sphinx'
+]
+developer = [
+    'pre-commit'
+]
+test = [
+    'pytest'
+]
+[tool.setuptools]
+platforms = [
+'Mac OSX',
+'Windows'
+]
+[tool.setuptools.dynamic.version]
+attr = 'cbsm.__version__'
