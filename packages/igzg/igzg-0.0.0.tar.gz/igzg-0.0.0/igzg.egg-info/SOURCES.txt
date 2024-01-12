@@ -1,0 +1,8 @@
+setup.py
+igzg/__init__.py
+igzg/mySQL.py
+igzg.egg-info/PKG-INFO
+igzg.egg-info/SOURCES.txt
+igzg.egg-info/dependency_links.txt
+igzg.egg-info/not-zip-safe
+igzg.egg-info/top_level.txt
