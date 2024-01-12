@@ -1,0 +1,10 @@
+setuptools
+setuptools-scm
+wheel
+numpy
+torch
+matplotlib
+joblib
+pandas
+scipy
+scikit-learn
