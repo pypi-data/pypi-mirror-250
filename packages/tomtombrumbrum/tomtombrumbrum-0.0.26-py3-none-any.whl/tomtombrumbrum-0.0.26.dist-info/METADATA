@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tomtombrumbrum
+Version: 0.0.26
+Summary: TomTom API library
+Author: Gabriele Trevisan
+Author-email: <gabriele.3vi@gmail.com>
+Keywords: python,tomtom,api,drive
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+# tomtombrumbrum
+**The package is still under construction.**
+
+This library aims to simplify the usage of the TomTom API.
+
+**To use their API you need an API key.** 
+
+For more information, go to the [official website](https://developer.tomtom.com/).
+
+This project and its authors are not affiliated in any way to TomTom. For more information, see DISCLAIMER.txt.
+
+Author: Gabriele3vi
+# Usage
+## Matrix routing v2 API
+...
