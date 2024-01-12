@@ -1,0 +1,9 @@
+starlette
+moesifapi>=1.4.2
+moesifpythonrequest>=0.3.3
+apscheduler
+
+[dev]
+
+[test]
+nose
