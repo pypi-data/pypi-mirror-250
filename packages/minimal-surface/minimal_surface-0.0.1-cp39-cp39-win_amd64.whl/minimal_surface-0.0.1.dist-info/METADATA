@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: minimal_surface
+Version: 0.0.1
+Summary: Python Package with minimalsurface C++ extension
+Author: David Bauer, Jozsef Molnar
+Author-email: dbauer@brc.hu
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/bauerdavid/minimal-surface/issues
+Project-URL: Documentation, https://github.com/bauerdavid/minimal-surface/blob/main/README.md
+Project-URL: Source Code, https://github.com/bauerdavid/minimal-surface
+Project-URL: User Support, https://github.com/bauerdavid/minimal-surface/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: testing
+Requires-Dist: tox ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-qt ; extra == 'testing'
+
