@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fink-spins
+Version: 0.3.6
+Summary:  Collection of useful functionalities used for asteroid spins
+Home-page: https://github.com/astrolabsoftware/fink-spins
+Author: JulienPeloton
+Author-email: peloton@lal.in2p3.fr
+Project-URL: Source, https://github.com/astrolabsoftware/fink-spins
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Spin orientation of asteroids
+
+This repository contains:
+- [fink_spins](fink_spins), a library with necessary routines to work with spin orientation of asteroids
+- [data](data/) for various absolute magnitude models + instruction to generate data for notebooks
+- [notebooks](notebooks) describing different models, and with various examples and validation steps
