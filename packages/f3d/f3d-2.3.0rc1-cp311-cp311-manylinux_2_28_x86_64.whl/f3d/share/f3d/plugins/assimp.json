@@ -1,0 +1,51 @@
+{
+  "description" : "Assimp support (version 5.3.0)",
+  "name" : "assimp",
+  "readers" : 
+  [
+    {
+      "description" : "Filmbox",
+      "exclude_thumbnailer" : false,
+      "extensions" : [ "fbx" ],
+      "mimetypes" : [ "application/vnd.fbx" ],
+      "name" : "FBX"
+    },
+    {
+      "description" : "Collada",
+      "exclude_thumbnailer" : false,
+      "extensions" : [ "dae" ],
+      "mimetypes" : [ "application/vnd.dae" ],
+      "name" : "Collada"
+    },
+    {
+      "description" : "AutoCAD DXF",
+      "exclude_thumbnailer" : false,
+      "extensions" : [ "dxf" ],
+      "mimetypes" : [ "image/vnd.dxf" ],
+      "name" : "DXF"
+    },
+    {
+      "description" : "Object File Format",
+      "exclude_thumbnailer" : false,
+      "extensions" : [ "off" ],
+      "mimetypes" : [ "application/vnd.off" ],
+      "name" : "OFF"
+    },
+    {
+      "description" : "DirectX File Format",
+      "exclude_thumbnailer" : false,
+      "extensions" : [ "x" ],
+      "mimetypes" : [ "application/vnd.x" ],
+      "name" : "DirectX"
+    },
+    {
+      "description" : "3D Manufacturing Format",
+      "exclude_thumbnailer" : false,
+      "extensions" : [ "3mf" ],
+      "mimetypes" : [ "model/3mf" ],
+      "name" : "3MF"
+    }
+  ],
+  "type" : "STATIC",
+  "version" : "1.0"
+}
