@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: opus-pjlab
+Version: 0.0.1
+Summary: Opus: An auto-launcher for ray clusters on clouds
+Author: AST
+License: Apache 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wheel
+Requires-Dist: click >=7.0
+Requires-Dist: pytest
+Requires-Dist: prettytable
+Requires-Dist: schema ==0.7.5
+Requires-Dist: jinja2
+Requires-Dist: pyyaml !=5.4.*,>3.13
+Requires-Dist: ray[default]
+Requires-Dist: pydantic
+Requires-Dist: pendulum
+Requires-Dist: requests
+Requires-Dist: paramiko
+
+[English](./README-en.md) | 
+[简体中文](./README.md)
+
+# Opus
+用于统一部署和管理分布式计算框架和作业的 CLI 工具。
+
+## 背景
+分布式训练是当今的一个常见需求，然而用户在面临各种分布式计算框架（如 Ray、MPI 等）和云环境（如 Kubernetes、Slurm、AWS 等）时，需要适应不同的训练作业提交方式，这可能存在不便之处。
+
+为此，我们设计了一款通用型工具 opus，作为部署和管理多种分布式计算框架及作业的统一方式，提供更简单、流畅的使用体验。
+
+## 安装
+```bash
+git clone https://gitlab.pjlab.org.cn/ast/opus.git
+cd opus
+pip install .
+```
+
+## 预备工作
+### 配置跨 clouds SSH 免密登录
+Opus 支持基于 Slurm 的 Ray 框架和 Ray 作业。为了方便进行跨 Slurm 集群的数据传输和作业提交，需提前[配置 SSH 免密登录](http://sdoc.pjlab.org.cn/doc/#/danji/sjcs/03%E5%92%8C%E5%85%B6%E4%BB%96%E5%8D%95%E6%9C%BA%E4%BC%A0%E8%BE%93%E6%95%B0%E6%8D%AE?id=_21-%e9%85%8d%e7%bd%ae%e9%9b%86%e7%be%a4%e5%85%ac%e9%92%a5)。
+
+由于当前仅支持 S 到 T Slurm 集群的 SSH 登录，这意味着在跨 Slurm 集群的使用场景中，我们将把 S-slurm 集群的管理节点视为控制节点，来操作用户在 S 和 T Slurm 集群上使用 opus 纳管的所有分布式计算框架和训练作业。
+
+### 设置 cloud 配置文件
+在配置完 SSH 免密登录后，需在控制节点的 `~/.opus/` 目录下添加一个 yaml 文件，命名为 `opus_conf.yaml`，用来记录用户所属 clouds 的名称、类型及登录节点，例如：
+
+```yaml
+# 这个 yaml 文件的路径必须是 `~/.opus/opus_conf.yaml`
+clouds:
+  s-slurm:                    # cloud name
+    type: slurm               # cloud type
+  t-slurm:                    # cloud name
+    type: slurm               # cloud type
+    loginNode: 10.140.60.209  # login node
+```
+
+## 如何使用
+### 查看用户所属 clouds 的信息
+```bash
+>> opus cloud list
+NAME     TYPE   GROUP   NODE(IDLE/TOTAL)  
+s-slurm  slurm  llmit   14/102            
+t-slurm  slurm  llmit2  10/345 
+```
+
+### 启动一个 framework
+- 参考 [framework 配置模板](./examples/ray-framework_2-nodes.yaml) 在一个 YAML 文件中定义 framework 的配置
+  
+  <font color=CadetBlue>
+  注意：在定义 framework 配置文件时，我们建议用户启用一个名为 `RAY_TMPDIR` 的环境变量，以更改 Ray 的 temp dir 路径，例如可以设为 `/tmp/$USER`。这是由于未引入环境变量时 Ray 的默认 temp dir 路径是 `/tmp/ray`，其中有一个文件 `/tmp/ray/ray_current_cluster` 里面会存当前机器节点所连接 Ray 集群的 gcs address，Ray 集群在启动各节点时都会去访问这个文件并根据地址是否相同来决定是否覆写它。对于基于 Slurm 的 Ray 集群而言，当 Slurm 集群上的不同用户在相同机器节点上前后启动过 gcs address 不同的 Ray 集群时，上述文件的默认路径就会引发写权限冲突问题。
+  </font>
+
+- 通过 CLI 选项 `--cloud` 来设置启动 framework 的目标 cloud 的名称和分区，中间用 `:` 隔开
+- 使用命令 `opus framework launch` 来启动 framework
+```bash
+>> opus framework launch --cloud t-slurm:llmit2 ./examples/ray-framework_2-nodes.yaml
+```
+
+### 查看 frameworks 列表
+```bash
+>> opus framework list [OPTIONS]
+
+Options:
+  -s/--status: 通过 framework 状态对列表结果进行筛选
+  -cp/--cloud-providers: 通过 cloud 类型对列表结果进行筛选
+
+Note:
+  可以通过 `opus framework list --help` 查看支持的所有筛选项名称，大小写不敏感。当需要输入多个筛选项查询时，每个筛选项都需以它对应的 CLI 选项名开头，参考下述示例：
+
+>> opus framework list -s up -s STOPPED -cp slurm
+```
+
+### 提交一个 job
+- 参考 [job 配置模板](./examples/rl3m_internlm2_7b.yaml) 在一个 YAML 文件中定义 job 的配置
+- 通过 CLI 选项 `-f/--framework-id`（必填）来选择提交 job 的目标 framework 的 ID
+- 使用命令 `opus job submit` 来提交 job
+```bash
+>> opus job submit -f 1 ./examples/rl3m_internlm2_7b.yaml
+```
+- 通过 CLI 选项 `-j/--jobname`（可选）可以指定新的 jobname
+- 当在 `opus job submit` 命令行末尾输入格式为 `'{run command}'`（可选）可以指定新的 job 运行命令
+```bash
+>> opus job submit -f 1 ./examples/rl3m_internlm2_7b.yaml -j rl3m_internlm2_7b_batch_size_256 'cd ~/rl3m && bash ./projects/internlm2/7b/run_rlhf_7b_1dp.sh --batch-size 256'
+```
+
+### 查看 jobs 列表
+```bash
+>> opus job list [OPTIONS]
+
+Options:
+  -s/--status: 通过 job 状态对列表结果进行筛选
+  -f/--framework-id: 通过 framework ID 对列表结果进行筛选
+
+>> opus job list -s running -s PENDING -f 1
+```
+
+### 获取 jobs 的日志
+```bash
+# 在终端实时打印日志
+>> opus logs {JOB_ID}
+# 下载日志到本地，输出相应的日志文件路径
+>> opus logs {JOB_ID(s)} --download 
+```
+
+### 终止 jobs
+```bash
+>> opus job stop {JOB_ID(s)}
+```
+
+### 终止 frameworks
+```bash
+>> opus framework stop {FRAMEWORK_ID(s)}
+```
+
+### 其他信息
+```bash
+# 查看 opus CLI 的使用帮助信息
+opus -h/--help
+# 查看 opus CLI 的版本信息
+opus -v/--version
+```
