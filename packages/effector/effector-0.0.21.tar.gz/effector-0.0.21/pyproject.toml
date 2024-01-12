@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["effector"]
+
+[project]
+name = "effector"
+version = "0.0.21"
+readme = "README.md"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "tqdm",
+    "shap"
+]
