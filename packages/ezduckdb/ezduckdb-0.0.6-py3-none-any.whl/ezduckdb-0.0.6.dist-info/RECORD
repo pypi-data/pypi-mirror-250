@@ -1,0 +1,9 @@
+ezduckdb/__init__.py,sha256=CuFN-gmB8kzPFIvnzNynTpQfF-miGvyJyeG0lkteFX0,95
+ezduckdb/core.py,sha256=aJTCQfuyx2qU7xDMRyCcqSmxTUxRLTcoXSpYAE1FpAY,14869
+ezduckdb/paths.py,sha256=DvNu4L0DuFEO8-5ipMHz_I7yyc9A0fXyF_56NfyPiyM,3384
+ezduckdb/udfs.py,sha256=LFsh2D69lr0tiuKTuJ002spr5i9dnF3euP5pCxnWAaA,517
+ezduckdb-0.0.6.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+ezduckdb-0.0.6.dist-info/METADATA,sha256=E71sWhKt3UnC6RTKIQ_QC3l6u8I_vbIh0q8sI_wb2J4,4661
+ezduckdb-0.0.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ezduckdb-0.0.6.dist-info/top_level.txt,sha256=FHFsSFodr7306fLs6_d7dFpXB3N5KQRkyuPPxIRd8bI,9
+ezduckdb-0.0.6.dist-info/RECORD,,
