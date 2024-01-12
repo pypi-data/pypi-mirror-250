@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pysidian
+Version: 2.0.1
+Author: ZackaryW
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: toml
+
+# pysidian
+a local (BRAT like) integration to help you with Obsidian plugin development
+
+## Components
+- local-brat is an Obsidian plugin
+- pysidian is a python click cli
+
+## Click Commands
+### test_init
+    - uses obsidian sample plugin for test
+### init
+    - init plugin workplace
+### update
+    - update plugin
+### commit
+    - copy plugin files to pysidian-release folder
+### vault new
+    - create new vault
+### vault open
+    - open vault
+### vault reg
+    - register vault so it can be opened by obsidian
+### vault unreg
+    - unregister vault
