@@ -1,0 +1,54 @@
+---
+qualified_email_list:
+  - tbd@tbd.com
+qualified_mail_type_list:
+  - NONE
+  - BEGIN
+  - END
+  - FAIL
+  - REQUEUE
+  - ALL
+  - INVALID_DEPEND
+  - STAGE_OUT
+  - TIME_LIMIT
+  - TIME_LIMIT_90
+  - TIME_LIMIT_80
+  - TIME_LIMIT_50
+  - ARRAY_TASKS
+qualified_partition_list:
+  - tbd
+  - tbd
+required_directives:
+  - job-name
+  - nodes
+  - qos
+  - gres
+  - export
+  - propagate
+  - mail-user
+  - mail-type
+  - output
+  - error
+  - partition
+  - ntasks-per-node
+  - cpus-per-task
+  - time
+qualified_qos_list:
+  - tbd
+qualified_gres_list:
+  - tbd
+qualified_export_list:
+  - NONE
+qualified_propagate_list:
+  - ALL
+  - NONE
+  - AS
+  - CORE
+  - CPU
+  - DATA
+  - FSIZE
+  - MEMLOCK
+  - NOFILE
+  - NPROC
+  - RSS
+  - STACK

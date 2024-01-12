@@ -1,0 +1,2 @@
+[console_scripts]
+validate-slurm-script = slurm_helper_utils.validate_slurm_script:main
