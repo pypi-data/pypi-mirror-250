@@ -1,0 +1,10 @@
+epnel/__init__.py,sha256=eY8SqBzmi6f3NyKBKRi-hb5PSbBsb4K-VIEMFNYLkis,93
+epnel/interpreter.py,sha256=1WFap2nPBLBrVEuGcsVyQym9QqgyLqHfjScQhcsP8Vg,2336
+epnel/parser.py,sha256=WFt9BFXfBZRCzu3ACvUZPbSncQslam7zYZLGVAl1wes,1780
+epnel/repl.py,sha256=IQVz96yreihVgfRtN78xelRoP5Qaj2hSrZK95kQeBoU,670
+epnel-0.0.3.dist-info/LICENSE,sha256=oF0x20t-PTYGJ1s4i-eZvsUUEXKHkKt9PQFSjYf9ELw,35053
+epnel-0.0.3.dist-info/METADATA,sha256=g2iHh_jw8v12eHnXDyMxTXVyRQG-q4VeUCpBcPaI6ng,3362
+epnel-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+epnel-0.0.3.dist-info/entry_points.txt,sha256=sa-ox7wyv6DNbnQ9goCYl_eSoL8Xoe2cN3VqV257NCE,41
+epnel-0.0.3.dist-info/top_level.txt,sha256=FWh3UeEQMWYdxHn88zgZb0o00NXtJbw_Drr7W47FLZ4,6
+epnel-0.0.3.dist-info/RECORD,,
