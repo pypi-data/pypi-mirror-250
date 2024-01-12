@@ -1,0 +1,22 @@
+[project]
+name = "trusted-ai"
+version = "0.1.6"
+description = "Default template for PDM package"
+authors = [
+    {name = "Ekaterina Kurdenkova", email = "kurdenkova@ispras.ru"},
+]
+dependencies = [
+    "GitPython>=3.1.41",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+package-type = "application"
+
+[tool.pdm.build]
+includes = ["tai/"]
+
+[project.scripts]
+tai = "tai.core.cli:main"
