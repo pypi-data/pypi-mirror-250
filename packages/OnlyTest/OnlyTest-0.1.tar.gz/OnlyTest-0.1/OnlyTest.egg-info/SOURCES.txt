@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+OnlyTest.egg-info/PKG-INFO
+OnlyTest.egg-info/SOURCES.txt
+OnlyTest.egg-info/dependency_links.txt
+OnlyTest.egg-info/top_level.txt
+pypi/__init__.py
