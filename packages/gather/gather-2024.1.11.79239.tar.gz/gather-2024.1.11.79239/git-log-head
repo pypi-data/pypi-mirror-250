@@ -1,0 +1,7 @@
+commit fac20471e464f306db078e574c59ba8fbee810bf
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2024-01-11 14:00:39 -0800
+
+    Merge pull request #42 from elcaminoreal/remove-git-log-head
+    
+    actually build new versions
