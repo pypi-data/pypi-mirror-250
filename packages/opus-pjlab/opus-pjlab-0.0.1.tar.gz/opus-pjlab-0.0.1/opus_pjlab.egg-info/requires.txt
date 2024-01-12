@@ -1,0 +1,12 @@
+wheel
+click>=7.0
+pytest
+prettytable
+schema==0.7.5
+jinja2
+pyyaml!=5.4.*,>3.13
+ray[default]
+pydantic
+pendulum
+requests
+paramiko
