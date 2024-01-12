@@ -1,0 +1,5 @@
+snakemake_executor_plugin_slurm/__init__.py,sha256=JAak2AwpQHNe39MSpgVu4oXTvR-4Ry6-Y6HcIUoqQCE,19334
+snakemake_executor_plugin_slurm-0.2.0.dist-info/LICENSE,sha256=YVc4xTLWMqGfFL36120k7rzXtsT6e4RkJsh68VVn12s,1076
+snakemake_executor_plugin_slurm-0.2.0.dist-info/METADATA,sha256=X5FgtqMZ25ZfPSJ7gm6u2xI5NIzw1boBdW_5i0ZfZ1E,1232
+snakemake_executor_plugin_slurm-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+snakemake_executor_plugin_slurm-0.2.0.dist-info/RECORD,,
