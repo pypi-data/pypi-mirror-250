@@ -1,0 +1,11 @@
+getpaper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getpaper/download.py,sha256=YlhS__PGX1rBIBdF2QGOjwY9dzXVOpyT2s8Uh1BQhK8,19788
+getpaper/parse.py,sha256=EakMphd-c1Qie_pelqEDyZS0ZvHyFPKHgSb3J3AOfdk,22661
+getpaper/selenium_download.py,sha256=IlSqYl4xEgw0kWlaDIiVi0ohYruCGUmkmqybUsJkyK8,4625
+getpaper/test.py,sha256=artnzQOkIb7d8RVQduj1mN5SN790te2CrFLfWu0t8BE,781
+getpaper-0.4.8.dist-info/LICENSE,sha256=tl842lRgcekaixAK-EXZsykznLNp-pOnMdMlhhX6qfQ,1072
+getpaper-0.4.8.dist-info/METADATA,sha256=H3ZNOzdDYbSHw3BGhtONzWJ-nWrr2ho9QSnrgIlhLuQ,5743
+getpaper-0.4.8.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+getpaper-0.4.8.dist-info/entry_points.txt,sha256=l-BnFMkB1ir4HDZzq-ldiu80gHSP-6wSUXk1hMR1KXg,78
+getpaper-0.4.8.dist-info/top_level.txt,sha256=QQQ8zklRQGkbDuTYttxdguUqaviq45OFRgpaNV4ryRA,9
+getpaper-0.4.8.dist-info/RECORD,,
