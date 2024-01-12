@@ -1,0 +1,15 @@
+[project]
+name = "gptbots"
+version = "0.1.5"
+authors = [
+  { name="Carl Vincent Escobar", email="cvescobar112@protonmail.com" },
+]
+description = "A simple Python package for creating and interacting with GPT-based chatbots"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+

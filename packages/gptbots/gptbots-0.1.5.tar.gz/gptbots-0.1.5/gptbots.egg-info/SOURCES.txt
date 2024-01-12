@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gptbots.egg-info/PKG-INFO
+gptbots.egg-info/SOURCES.txt
+gptbots.egg-info/dependency_links.txt
+gptbots.egg-info/top_level.txt
