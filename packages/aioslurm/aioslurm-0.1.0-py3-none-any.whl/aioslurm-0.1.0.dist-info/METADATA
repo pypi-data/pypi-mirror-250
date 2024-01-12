@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: aioslurm
+Version: 0.1.0
+Summary: aioslurm.
+Author-email: Matt Austin <matt.austin@csiro.au>
+License: Apache 2.0
+Project-URL: Homepage, https://gitlab.com/aioslurm/aioslurm
+Project-URL: Documentation, https://aioslurm.gitlab.io/aioslurm/
+Project-URL: Changelog, https://aioslurm.gitlab.io/aioslurm/changelog.html
+Project-URL: Issues, https://gitlab.com/aioslurm/aioslurm/issues
+Project-URL: Source, https://gitlab.com/aioslurm/aioslurm
+Keywords: aio,async,asyncio,slurm,sbatch
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: anyio >=3
+Requires-Dist: jinja2 >=3
+Requires-Dist: six >=1
+Requires-Dist: typing-extensions >=4 ; python_version < "3.10"
+Provides-Extra: cli
+Requires-Dist: click >=7 ; extra == 'cli'
+Requires-Dist: rich >=10 ; extra == 'cli'
+Requires-Dist: sentry-sdk >=1 ; extra == 'cli'
+Requires-Dist: uvloop >=0.18 ; (python_version < "3.13" and implementation_name == "cpython") and extra == 'cli'
+Provides-Extra: docs
+Requires-Dist: sphinx ~=7.2 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ~=2.0 ; extra == 'docs'
+Requires-Dist: sphinxcontrib-spelling ~=8.0 ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: coverage[toml] ~=7.4 ; extra == 'tests'
+Requires-Dist: unittest-xml-reporting ~=3.2 ; extra == 'tests'
+Provides-Extra: types
+Requires-Dist: mypy ~=1.8 ; extra == 'types'
+Requires-Dist: types-backports ==0.1.3 ; extra == 'types'
+Requires-Dist: types-pkg-resources ==0.1.3 ; extra == 'types'
+Requires-Dist: types-six ==1.16.21.20240106 ; extra == 'types'
+Provides-Extra: tzdata
+Requires-Dist: tzdata ; extra == 'tzdata'
+
+# aioslurm
+
+[![pipeline status](https://gitlab.com/aioslurm/aioslurm/badges/development/pipeline.svg)](https://gitlab.com/aioslurm/aioslurm/commits/development) [![coverage](https://gitlab.com/aioslurm/aioslurm/badges/development/coverage.svg)](https://aioslurm.gitlab.io/aioslurm/coverage/)
+
+
+Documentation: https://aioslurm.gitlab.io/aioslurm/
+
+
+## Development environment
+
+Docker (compose) is used both for development and for GitLab CI to ensure a
+consistent environment.
+
+
+Get started by cloning the repository and work on the `development` branch:
+
+```bash
+git clone git@gitlab.com:aioslurm/aioslurm.git
+cd aioslurm
+```
+
+
+### Build services
+
+`docker` and `fabric` (v2+) should be installed and available locally to
+build/run the containers. On Ubuntu 22.04+, you can install these with:
+
+```bash
+sudo apt install docker fabric
+```
+
+To build the docker containers:
+
+```bash
+fab build
+```
+
+
+### Development and testing
+
+Remember to run the tests locally when developing to catch failures before CI
+is run on push to the repo.
+
+Run tests:
+
+```bash
+fab tox
+```
+
+
+### Other commands
+
+Generate docs:
+
+```bash
+fab docs
+```
+
+Python shell:
+
+```bash
+fab shell
+```
+
+Bash shell:
+
+```bash
+fab bash
+```

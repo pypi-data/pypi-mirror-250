@@ -1,0 +1,2 @@
+[console_scripts]
+aioslurm = aioslurm.__main__:main
