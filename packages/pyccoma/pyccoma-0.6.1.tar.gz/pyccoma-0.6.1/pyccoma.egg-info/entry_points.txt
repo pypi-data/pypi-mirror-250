@@ -1,0 +1,2 @@
+[console_scripts]
+pyccoma = pyccoma.__main__:main
