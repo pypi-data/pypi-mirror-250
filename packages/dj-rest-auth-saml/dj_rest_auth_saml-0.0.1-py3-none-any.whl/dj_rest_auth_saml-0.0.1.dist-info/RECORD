@@ -1,0 +1,11 @@
+dj_rest_auth_saml/__init__.py,sha256=Q4sw5sSxyn5ONkwHEmJYogBvy1IXqs8Y5W_9PaP8ayI,147
+dj_rest_auth_saml/apps.py,sha256=IGXM4YfZy6ICRkfmd1OvoUZ7yzlLRXQsx2OD_DUnEKo,145
+dj_rest_auth_saml/serializers.py,sha256=vKuTVfBuHQbSw4MRSSnAtejumxqldU5dQFPFLEwASbY,2372
+dj_rest_auth_saml/urls.py,sha256=a4tX_md5F8_gdxKIo_6gTyYX0HUjISKiVvMOHweEl28,2303
+dj_rest_auth_saml/utils.py,sha256=KCkXBnh02ahyk7SE3_5ueTAnoPhQKFhKGZ5LsFCcdmw,2560
+dj_rest_auth_saml/views.py,sha256=OkLV5LoDcET-5Oi9p7z1y7RThJeKVodWGMCE_1HxwN8,6229
+dj_rest_auth_saml/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dj_rest_auth_saml-0.0.1.dist-info/METADATA,sha256=QVRtTFCvm2nashCt6jNP5v_Bc3YZmz-MTdRQa8GiZEE,4740
+dj_rest_auth_saml-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dj_rest_auth_saml-0.0.1.dist-info/top_level.txt,sha256=0P8n3wNSb3mtA4AMyWP5kUZdtwyZxAHIAZyU1Dop0JE,18
+dj_rest_auth_saml-0.0.1.dist-info/RECORD,,
