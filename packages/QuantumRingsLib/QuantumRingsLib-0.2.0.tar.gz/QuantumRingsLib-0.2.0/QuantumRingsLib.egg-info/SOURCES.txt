@@ -1,0 +1,7 @@
+LICENSE.rst
+README.rst
+setup.py
+QuantumRingsLib.egg-info/PKG-INFO
+QuantumRingsLib.egg-info/SOURCES.txt
+QuantumRingsLib.egg-info/dependency_links.txt
+QuantumRingsLib.egg-info/top_level.txt
