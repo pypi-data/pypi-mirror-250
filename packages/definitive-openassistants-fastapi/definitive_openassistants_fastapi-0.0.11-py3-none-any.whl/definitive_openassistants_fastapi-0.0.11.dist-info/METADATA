@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: definitive-openassistants-fastapi
+Version: 0.0.11
+Summary: 
+Author: Rick Lamers
+Author-email: ricklamers@gmail.com
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi (>=0.104.1,<0.105.0)
+Requires-Dist: langchain (>=0.0.352,<0.0.353)
+Requires-Dist: sse-starlette (>=1.8.2,<2.0.0)
+Requires-Dist: starlette (>=0.27.0,<0.28.0)
+Description-Content-Type: text/markdown
+
+
