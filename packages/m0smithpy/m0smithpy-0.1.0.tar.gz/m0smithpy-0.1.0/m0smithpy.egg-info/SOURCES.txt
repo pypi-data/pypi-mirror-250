@@ -1,0 +1,8 @@
+setup.py
+m0smithpy/__init__.py
+m0smithpy/m0os.py
+m0smithpy.egg-info/PKG-INFO
+m0smithpy.egg-info/SOURCES.txt
+m0smithpy.egg-info/dependency_links.txt
+m0smithpy.egg-info/top_level.txt
+test/test_m0os.py
