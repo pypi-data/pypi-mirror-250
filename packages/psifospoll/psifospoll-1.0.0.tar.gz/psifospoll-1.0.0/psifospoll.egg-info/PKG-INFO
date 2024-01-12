@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: psifospoll
+Version: 1.0.0
+Summary: PsifosPoll is a python library for different voting methods
+Home-page: https://github.com/clcert/psifospoll
+Author: Fernanda Macías
+Author-email: fernanda.macias@ug.uchile.cl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
