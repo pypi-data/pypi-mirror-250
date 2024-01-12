@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+requirements.txt
+robomod.egg-info/PKG-INFO
+robomod.egg-info/SOURCES.txt
+robomod.egg-info/dependency_links.txt
+robomod.egg-info/entry_points.txt
+robomod.egg-info/requires.txt
+robomod.egg-info/top_level.txt

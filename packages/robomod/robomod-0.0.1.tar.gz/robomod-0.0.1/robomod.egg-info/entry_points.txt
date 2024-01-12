@@ -1,0 +1,2 @@
+[console_scripts]
+hcs = robomod.main:main
