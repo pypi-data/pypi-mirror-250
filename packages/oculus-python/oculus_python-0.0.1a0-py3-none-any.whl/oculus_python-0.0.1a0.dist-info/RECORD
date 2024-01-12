@@ -1,0 +1,15 @@
+bps_oculus/__init__.py,sha256=8zLGg-DfQhnDl2Ky0n-zXpN-8e-g7iR0AcaI4l4Vvpk,32
+bps_oculus/core.py,sha256=y_Kf0JT2tuz1U7wyoKhwRIlqQP5EkZ1e6DBL5Cqz_Ds,8848
+bps_oculus/helpers.py,sha256=ArH-3IxY3ollCGRf85Y0fot3SUGkBSkgeo48tNKbyGI,1598
+bps_oculus/io.py,sha256=bXJyuXQZHf3eFAlaOXC_qsONb9d7VtPGwVfpYKi3_zA,15891
+bps_oculus/oculus.py,sha256=Yr4g8viRVlEH4PPxinOwI7S0WDpJrNFqeDAhMmiDBD8,6521
+bps_oculus/version.py,sha256=w5aCx2p7IOz8K4Wup_CrpjDgWuYJuRQCYleyb7StWyo,22
+bps_oculus/logger/__init__.py,sha256=wZToJVVuA-OQgtYxJPLBNnacOZeewXq_Nv-gDdQ7UpM,724
+bps_oculus/logger/v1.py,sha256=DXbIMznqJDGv3X0sxcPYzrZfShTLNDLXicFAMPsBmcM,1572
+bps_oculus/logger/v2.py,sha256=9drdNQ5NjDNjWFqDMsttU-D1fYSjbDIWCAr_c0kFvXA,2004
+oculus_python-0.0.1a0.dist-info/LICENSE,sha256=OxpZwjFcW33UOAsDRKfQVlzqbTnHnkhCFjBj5LtWMY8,11347
+oculus_python-0.0.1a0.dist-info/METADATA,sha256=LtObJM7uIHwBrnOzxnpTJ49Ot5SNGDF3iv-zWd0Zg1g,1824
+oculus_python-0.0.1a0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+oculus_python-0.0.1a0.dist-info/entry_points.txt,sha256=yq3hUvg9m6UsyQYJUtl_d4OW3sm9LA0UzwCF--dGc1A,53
+oculus_python-0.0.1a0.dist-info/top_level.txt,sha256=tV6jYHXbnkL8sOo6GrPyE3svsTOzka-GIHcAJ389dRA,11
+oculus_python-0.0.1a0.dist-info/RECORD,,
