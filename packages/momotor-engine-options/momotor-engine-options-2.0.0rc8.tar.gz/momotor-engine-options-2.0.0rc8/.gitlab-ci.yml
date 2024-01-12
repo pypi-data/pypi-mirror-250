@@ -1,0 +1,163 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  GIT_STRATEGY: clone
+
+image: python:3.11
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+      when: always
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: always
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: '$CI_COMMIT_TITLE !~ /^((build|ci|doc|docs|feat|fix|perf|style|refactor|test)\s*[:(])|Merge\s+/'
+      when: never
+    - when: always
+
+cache:
+  key: "$CI_JOB_NAME-$CI_COMMIT_REF_SLUG"
+  paths:
+    - .cache/pip
+
+stages:
+  - test
+  - test-optional
+  - build
+  - publish
+
+.tests:
+  stage: test
+  before_script:
+    - pip install --upgrade --upgrade-strategy=eager -e .[test]
+  script:
+    - pytest -vv --full-trace --color=yes
+  rules:
+    - exists:
+        - tests/**
+
+.tests-optional:
+  extends: .tests
+  stage: test-optional
+  allow_failure: true
+  rules:
+    - exists:
+        - tests/**
+      when: manual
+
+test:py39:
+  extends: .tests
+  image: python:3.9
+
+test:py310:
+  extends: .tests
+  image: python:3.10
+
+test:py311:
+  extends: .tests
+  image: python:3.11
+
+test:py312:
+  extends: .tests
+  image: python:3.12
+
+test:pynext:
+  extends: .tests-optional
+  image: python:3.13-rc
+
+build:
+  stage: build
+  allow_failure: true
+  before_script:
+    - apt update
+    - apt install -y zip git
+    - pip install --upgrade --upgrade-strategy=eager -e .[dev,docs,test]
+  script:
+    - sh ./semver.sh
+    - export FN=`python setup.py --fullname`
+    - echo "${FN}" > FULLNAME
+    - cd docs
+    - make html
+    - cd build/html
+    - zip -r ../../../${FN}-docs.zip *
+    - echo "Built ${FN}"
+  artifacts:
+    paths:
+      - "FULLNAME"
+      - "*.tar.gz"
+      - "*.whl"
+      - "*-docs.zip"
+    expire_in: 1 month
+  variables:
+    SPHINXOPTS: "-nT -v"
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - when: on_success
+
+.publish-docs:
+  stage: publish
+  image: alpine
+  allow_failure: true
+  before_script:
+    - chmod +x ./publish-docs.sh
+    - export FN=`cat FULLNAME`
+  script:
+    - ./publish-docs.sh ${CHANNEL} ${FN}-docs.zip
+
+docs:release:
+  extends: .publish-docs
+  variables:
+    CHANNEL: release
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - if: '$CI_COMMIT_REF_PROTECTED != "true"'
+      when: never
+    - when: manual
+  needs:
+    - build
+
+docs:dev:
+  extends: .publish-docs
+  variables:
+    CHANNEL: dev
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - if: '$CI_COMMIT_REF_PROTECTED == "true"'
+      when: never
+    - when: manual
+  needs:
+    - build
+
+.publish-pypi:
+  stage: publish
+  allow_failure: true
+  before_script:
+    - pip install --upgrade twine
+  script:
+    - python -m twine upload -u __token__ --repository-url https://upload.pypi.org/legacy/ *.whl *.tar.gz
+
+pypi:release:
+  extends: .publish-pypi
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - if: '$CI_COMMIT_REF_PROTECTED != "true"'
+      when: never
+    - when: manual
+  needs:
+    - build
+
+pypi:dev:
+  extends: .publish-pypi
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - if: '$CI_COMMIT_REF_PROTECTED == "true"'
+      when: never
+    - when: manual
+  needs:
+    - build

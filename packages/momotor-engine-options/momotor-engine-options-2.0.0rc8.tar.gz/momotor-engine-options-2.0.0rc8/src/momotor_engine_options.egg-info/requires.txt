@@ -1,0 +1,22 @@
+momotor-bundles~=8.0rc
+
+[:python_version < "3.11"]
+typing-extensions
+
+[dev]
+setuptools
+build[virtualenv]
+docutils-stubs
+python-semantic-release~=8.0
+twine
+
+[docs]
+docutils
+Sphinx
+sphinx-autodoc-typehints!=1.14.0
+furo
+
+[test]
+pytest~=7.4
+pytest-cov
+pytest-doctestplus
