@@ -1,0 +1,11 @@
+werkzeug
+pycryptodome
+furo
+Routes
+python-socketio
+eventlet
+websockets
+sonora
+grpcio
+grpcio-tools
+Jinja2
