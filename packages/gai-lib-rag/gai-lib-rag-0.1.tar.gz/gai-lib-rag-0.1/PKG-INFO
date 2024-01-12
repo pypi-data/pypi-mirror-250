@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gai-lib-rag
+Version: 0.1
+Summary: Gai/Rag is the extension to the popular Gai/Gen Library for Retrieval Augmented Generation.
+Author: kakkoii1337
+Author-email: kakkoii1337@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: gai-gen[TTT]==0.40
+Requires-Dist: uvicorn==0.23.2
+Requires-Dist: fastapi
