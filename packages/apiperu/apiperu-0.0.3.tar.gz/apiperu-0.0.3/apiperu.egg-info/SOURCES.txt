@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+apiperu/__init__.py
+apiperu/departamentos.py
+apiperu.egg-info/PKG-INFO
+apiperu.egg-info/SOURCES.txt
+apiperu.egg-info/dependency_links.txt
+apiperu.egg-info/requires.txt
+apiperu.egg-info/top_level.txt
