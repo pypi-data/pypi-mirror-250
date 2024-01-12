@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pure-cv
+Version: 0.1.3
+Summary: Purely functional tools for Python OpenCV 
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: ramda
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+
+# Pure CV
+
+```python
+import pure_cv as vc
+```
+
+- Some curried common OpenCV functions
+- `vc.show(img)`: returns a `Figure` displaying the image
+- `vc.black(w, h)`: black image to quickly draw stuff
+- `vc.draw.*`: drawing functions; return new image without modifying input
