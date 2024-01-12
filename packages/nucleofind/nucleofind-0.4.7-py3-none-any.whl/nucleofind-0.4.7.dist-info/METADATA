@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nucleofind
+Version: 0.4.7
+Summary: NucleoFind: A Deep-Learning Network for Interpreting Nucleic Acid Electron Density
+Author: Jordan Dialpuri
+Author-email: jsd523@york.ac.uk
+Description-Content-Type: text/markdown
+Requires-Dist: onnxruntime
+Requires-Dist: gemmi
+Requires-Dist: tqdm
+
+Nucleic acid electron density interpretation remains a difficult problem for computer programs to deal with. Programs tend to rely on exhaustive searches to recognise characteristic features. NucleoFind is a deep-learning-based approach to interpreting and segmenting electron density. Using a crystallographic map, the positions of the phosphate group, sugar ring and nitrogenous base group are able to be predicted with high accuracy. 
+
+## Documentation
+[Link to Documentation](https://dialpuri.github.io/NucleoFind/about-nucleofind.html)
