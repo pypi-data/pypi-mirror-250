@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: generic-iterative-stemmer
+Version: 1.0.7
+Summary: A generic language stemming utility, dedicated for gensim word-embedding.
+Home-page: https://github.com/asaf-kali/generic-iterative-stemmer
+Author: Asaf Kali
+Author-email: asaf.kali@mail.huji.ac.il
+License: https://github.com/asaf-kali/generic-iterative-stemmer/blob/main/LICENSE
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: the-spymaster-util ~=3.0
+Requires-Dist: gensim ~=4.1
+Requires-Dist: pydantic ~=1.9
+Provides-Extra: all
+Requires-Dist: the-spymaster-util ~=3.0 ; extra == 'all'
+Requires-Dist: gensim ~=4.1 ; extra == 'all'
+Requires-Dist: pydantic ~=1.9 ; extra == 'all'
+Requires-Dist: numpy ~=1.21 ; extra == 'all'
+Requires-Dist: pandas ~=1.3 ; extra == 'all'
+Requires-Dist: matplotlib ~=3.5 ; extra == 'all'
+Requires-Dist: fasttext ~=0.9 ; extra == 'all'
+Requires-Dist: editdistance ~=0.6 ; extra == 'all'
+Requires-Dist: tqdm ~=4.62 ; extra == 'all'
+Provides-Extra: training
+Requires-Dist: numpy ~=1.21 ; extra == 'training'
+Requires-Dist: pandas ~=1.3 ; extra == 'training'
+Requires-Dist: matplotlib ~=3.5 ; extra == 'training'
+Requires-Dist: fasttext ~=0.9 ; extra == 'training'
+Requires-Dist: editdistance ~=0.6 ; extra == 'training'
+Requires-Dist: tqdm ~=4.62 ; extra == 'training'
+
+# Word embedding: generic iterative stemmer
+
+A generic helper for training `gensim` and `fasttext` word embedding models.<br>
+Specifically, this repository was created in order to
+implement [stemming](https://en.wikipedia.org/wiki/Stemming)
+on a Wikipedia-based corpus in Hebrew, but it will probably also work for other
+corpus sources and languages as well.
+
+**Important** to note that while there are sophisticated and efficient
+approaches to the stemming task, this repository implements a naive approach
+with no strict time or memory considerations (more about that in
+the [explanation section](#generic-iterative-stemming)).
+
+Based on https://github.com/liorshk/wordembedding-hebrew.
+
+[![Lint](https://github.com/asaf-kali/gensim-model-trainer/actions/workflows/lint.yml/badge.svg)](https://github.com/asaf-kali/gensim-model-trainer/actions/workflows/lint.yml)
+[![Tests](https://github.com/asaf-kali/gensim-model-trainer/actions/workflows/tests.yml/badge.svg)](https://github.com/asaf-kali/gensim-model-trainer/actions/workflows/tests.yml)
+
+## Setup
+
+1. Create a `python3` virtual environment.
+2. Install dependencies using `make install` (this will run tests too).
+
+## Usage
+
+This section shows the basic flow this repository was designed to perform. It
+supports more complicated flows as well.
+
+The output of the training process is a `StemmedKeyedVectors` object (in the
+form of a `.kv` file), which inherits the standard `gensim.models.KeyedVectors`.
+
+1. Under `./data` folder, create a directory for your corpus (for
+   example, `wiki-he`).
+
+
+2. Download Hebrew (or any other language) dataset from Wikipedia:
+    1. Go to [wikimedia dumps](https://dumps.wikimedia.org/hewiki/latest/).
+    2. Download `hewiki-latest-pages-articles.xml.bz2`, and save it
+       under `./data/wiki-he`.
+
+
+3. Create your initial text corpus:
+
+   TODO: create a notebook for that.
+
+
+4. Train the model:
+
+   TODO: create a notebook for that.
+
+
+5. Play with your trained model using `playground.ipynb`.
+
+## Generic iterative stemming
+
+TODO: Explain the algorithm.
