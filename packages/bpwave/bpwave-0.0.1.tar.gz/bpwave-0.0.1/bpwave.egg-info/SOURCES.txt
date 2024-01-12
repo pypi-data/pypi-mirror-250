@@ -1,0 +1,16 @@
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+bpwave/__init__.py
+bpwave/_version.py
+bpwave/py.typed
+bpwave/signal.py
+bpwave/visu.py
+bpwave.egg-info/PKG-INFO
+bpwave.egg-info/SOURCES.txt
+bpwave.egg-info/dependency_links.txt
+bpwave.egg-info/requires.txt
+bpwave.egg-info/top_level.txt
+tests/test_signal.py
