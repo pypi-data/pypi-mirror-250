@@ -1,0 +1,2 @@
+[console_scripts]
+project-entry = encryptor.bin.entry:main
