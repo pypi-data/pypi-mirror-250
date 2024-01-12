@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+fedora-distro-aliases.spec
+setup.py
+.tito/tito.props
+.tito/packages/.readme
+.tito/packages/fedora-distro-aliases
+fedora_distro_aliases/__init__.py
+fedora_distro_aliases.egg-info/PKG-INFO
+fedora_distro_aliases.egg-info/SOURCES.txt
+fedora_distro_aliases.egg-info/dependency_links.txt
+fedora_distro_aliases.egg-info/not-zip-safe
+fedora_distro_aliases.egg-info/requires.txt
+fedora_distro_aliases.egg-info/top_level.txt
+tests/test_fedora_distro_aliases.py
