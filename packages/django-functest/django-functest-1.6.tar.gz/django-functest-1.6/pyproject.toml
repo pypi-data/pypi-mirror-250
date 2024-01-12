@@ -1,0 +1,17 @@
+
+[tool.black]
+line-length = 120
+# required-version = '22.3.0' # see https://github.com/psf/black/issues/2493
+target-version = ['py39']
+
+
+
+[tool.ruff]
+line-length = 120
+
+extend-select = [
+  "UP",  # enable pyupgrade
+  "I",  # enable isort
+  "FLY",  # enable flynt
+]
+target-version = 'py310'
