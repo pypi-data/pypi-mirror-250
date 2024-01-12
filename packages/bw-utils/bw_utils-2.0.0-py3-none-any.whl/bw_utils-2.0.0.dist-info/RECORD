@@ -1,0 +1,17 @@
+bitwarden_utils/__init__.py,sha256=tfpN3MuMzFZ6PGm3Fkjh1yWC8vGd23Cg6zeWeBuZyz4,691
+bitwarden_utils/cli.py,sha256=FO9AfALzWnjF6exN6Rchqe9KJWcRJmBNUH7HeuH6QQA,1645
+bitwarden_utils/core/adapter.py,sha256=U3ytzzFUD9du3UcxHxBB_u1DmxGO6oDmIyealTlbYds,1660
+bitwarden_utils/core/history_recorder.py,sha256=RCWZ2x-WnPVEBD_aNDY5h4Y86I57-NOE9m96avOp4N0,629
+bitwarden_utils/core/proc.py,sha256=6pcWQnFh-YrMdYCeNvPws69TFyvol3vWoB8OTCeJSZU,3904
+bitwarden_utils/core/python_client.py,sha256=hVJ-RpWAhmnHFZKgnTcmYeIurW6Z-G0GKSIosjSUBO8,2156
+bitwarden_utils/core/session_retain.py,sha256=UATJE5vLa9c6yPJrRxDV6ukZCnrwtymI2PGRjGBF3O0,218
+bitwarden_utils/core/models/item.py,sha256=BDpjbCnXgTO64yVSUoRTmQhbnNizLKGEdgX7l2kmCT4,890
+bitwarden_utils/core/models/status.py,sha256=_4lCl5oRWVbVrNhjNajj8aykDz6y-te7PRVyuwS4IeE,304
+bitwarden_utils/core/utils/__init__.py,sha256=jZRJV387TY5RdkSuggA3xxyXD5If8za3ZZCl5OEr6nA,1331
+bitwarden_utils/core/utils/github_release.py,sha256=EXQjgeWlF5uK9h3o_7DvpEikDMjOAJbwPWH6y4mVFp0,680
+bw_utils-2.0.0.dist-info/LICENSE,sha256=SzO7ASCGNz9STOWTFQyvPWV_RZqtBfg9mU2HYTefVg8,1086
+bw_utils-2.0.0.dist-info/METADATA,sha256=T_sEF9HZN-CqYLk-yq6M5gomj4G58xjzPvW85I10KQk,743
+bw_utils-2.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bw_utils-2.0.0.dist-info/entry_points.txt,sha256=AcAmh5nnBReKzFTQUvYHCxCn_dlgedmlaON0uZZLokU,53
+bw_utils-2.0.0.dist-info/top_level.txt,sha256=r0sJAycHQhhgRd5sxw0yB611AJS8sEiVjFagQgbIGN8,16
+bw_utils-2.0.0.dist-info/RECORD,,
