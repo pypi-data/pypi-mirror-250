@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: airflow_providers_geonode_op
+Version: 0.1.2
+Summary: Custom GeoNode Operator for Apache Airflow
+Home-page: UNKNOWN
+Author: Kan territory & IT
+Author-email: develop@kan-gl.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
