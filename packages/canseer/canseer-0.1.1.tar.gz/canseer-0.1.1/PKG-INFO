@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: canseer
+Version: 0.1.1
+Summary: Canseer is a toolkit which allows the user to analyse data from NHS statistics on adherence to cancer diagnosis standards. The data can be downloaded,filtered, and visualised. There are different tools which can be employed to visualise the data, to display both trends over time and geographical variation. The 'Canseer' package leverages multiple sources of NHS data, and allows seamless and flexible visualisation of NHS cancer targets on a map.
+Author: Coding_for_machine_learning_GroupSMP
+Author-email: p.loginovic@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: geopandas (>=0.13.2,<0.14.0)
+Requires-Dist: jupyterlab (>=3.4.6,<4.0.0)
+Requires-Dist: matplotlib (>=3.5.3,<4.0.0)
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: plotly (>=5.18.0,<6.0.0)
+Requires-Dist: seaborn (>=0.13.0,<0.14.0)
