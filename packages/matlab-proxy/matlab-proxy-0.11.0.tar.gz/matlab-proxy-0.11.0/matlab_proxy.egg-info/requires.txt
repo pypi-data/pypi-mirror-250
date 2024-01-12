@@ -1,0 +1,16 @@
+aiohttp>=3.7.4
+psutil
+aiohttp_session[secure]
+
+[dev]
+aiohttp-devtools
+black
+pytest
+pytest-env
+pytest-cov
+pytest-mock
+pytest-aiohttp
+psutil
+urllib3
+requests
+pytest-playwright
