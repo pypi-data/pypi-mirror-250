@@ -1,0 +1,8 @@
+setup.py
+jira_utils_package/__init__.py
+jira_utils_package/jira_utils.py
+jira_utils_package.egg-info/PKG-INFO
+jira_utils_package.egg-info/SOURCES.txt
+jira_utils_package.egg-info/dependency_links.txt
+jira_utils_package.egg-info/requires.txt
+jira_utils_package.egg-info/top_level.txt
