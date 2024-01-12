@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: anime_king_r
+Version: 0.1.0
+Summary: An anime bot to download your favourite animes
+Home-page: https://github.com/GhoulKingR/anime-bot
+Author: GhoulKingR
+Author-email: oduahchigozie46@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests==2.31.0
+Requires-Dist: selenium==4.16.0
+Requires-Dist: tqdm==4.66.1
+Requires-Dist: setuptools
