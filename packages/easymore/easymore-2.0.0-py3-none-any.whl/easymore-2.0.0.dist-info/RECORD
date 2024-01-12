@@ -1,0 +1,17 @@
+easymore/__init__.py,sha256=6otyuR7Qks7UsRgxnZotxTHrGjhhcF_HuEmmSHJK6Io,476
+easymore/remapper.py,sha256=gBvGzPfJWXay1OoynNJx7rjk2BeRztVQD0GUjbYQtHg,162861
+easymore/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easymore/scripts/_cli_args.py,sha256=G6otQN159tiTgGJ--AcsWeQYPMCU2kWAImxtjYKgHd0,92
+easymore/scripts/_cli_options.py,sha256=4Pp39nPJIzBpyCjllklGxQROsKKXKLeWomiWqj-0Xio,9910
+easymore/scripts/_conf_args.py,sha256=ThyF7yMCsbSaGfveFezKNod1HXm5nQgGorXvDkFwU8w,365
+easymore/scripts/_conf_options.py,sha256=ECAMLw1j_gcKOy_Q_O4yCXlQp6sBzP75H70BnZuxZUQ,956
+easymore/scripts/_submit_args.py,sha256=gWoHTLJ15t2g9QjzRbrvV_cDxIn8n8kPyqYF_na_kDU,56
+easymore/scripts/_submit_options.py,sha256=QabWdPwcdipwVcW1r4uX7ohq6o8rG-IAzk6KXUEQcJ8,87
+easymore/scripts/main.py,sha256=EI_-i1gRDsft46mWHhkGlYqkpGEkoc-efc62MxR4PJg,6366
+easymore/scripts/assets/default.slurm,sha256=un3WngSCNGT7FpOJdtuE3PrHeaTneOwc5AKH9a_PX0I,157
+easymore-2.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+easymore-2.0.0.dist-info/METADATA,sha256=uIbuknLpbnU9o9EKKNgseLRg43dw97D1-eNFBn0cB5A,9109
+easymore-2.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+easymore-2.0.0.dist-info/entry_points.txt,sha256=pgRQgFiSA3nTJcWsS6_8u1hT4e-B7Phzw2nuGNlvpVE,56
+easymore-2.0.0.dist-info/top_level.txt,sha256=Takjnva8jOm4eSKsKI7DGTR6EEvDxc0WoZ_eJ0GHIC4,9
+easymore-2.0.0.dist-info/RECORD,,
