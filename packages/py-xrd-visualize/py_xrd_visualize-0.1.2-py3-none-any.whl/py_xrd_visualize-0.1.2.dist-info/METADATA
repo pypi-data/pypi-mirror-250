@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: py-xrd-visualize
+Version: 0.1.2
+Summary: Add a short description here
+Author-email: om-hands <okumuramasaki.hands@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: matplotlib~=3.7.1
+Requires-Dist: numpy~=1.24.3
+Requires-Dist: pyqt5~=5.15.9
+Requires-Dist: scipy~=1.11.3
+Requires-Dist: xrd-xy-parser~=0.0.4
+Description-Content-Type: text/markdown
+
+# py-xrd-visualize
+
+Describe your project here.
