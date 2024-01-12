@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+zaide/__cls_aide_rst__.py
+zaide/__init__.py
+zaide.egg-info/PKG-INFO
+zaide.egg-info/SOURCES.txt
+zaide.egg-info/dependency_links.txt
+zaide.egg-info/requires.txt
+zaide.egg-info/top_level.txt
