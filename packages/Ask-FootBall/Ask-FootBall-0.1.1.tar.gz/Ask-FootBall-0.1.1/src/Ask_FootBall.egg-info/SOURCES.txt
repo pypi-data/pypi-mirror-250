@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/Ask_FootBall.egg-info/PKG-INFO
+src/Ask_FootBall.egg-info/SOURCES.txt
+src/Ask_FootBall.egg-info/dependency_links.txt
+src/Ask_FootBall.egg-info/entry_points.txt
+src/Ask_FootBall.egg-info/requires.txt
+src/Ask_FootBall.egg-info/top_level.txt
+src/ask_football/__init__.py
+src/ask_football/__main__.py
+src/ask_football/cli.py
+src/ask_football/main.py
