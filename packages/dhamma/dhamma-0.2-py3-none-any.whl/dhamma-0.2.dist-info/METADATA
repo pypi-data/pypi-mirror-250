@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: dhamma
+Version: 0.2
+Summary: Download and transcribe Dharma Seed retreat talks.
+Home-page: https://github.com/dnjp/dhamma
+Author: Daniel Posthuma
+Author-email: dnjp@posteo.org
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Public Domain
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: annotated-types ==0.6.0
+Requires-Dist: anyio ==4.2.0
+Requires-Dist: beautifulsoup4 ==4.12.2
+Requires-Dist: bs4 ==0.0.1
+Requires-Dist: certifi ==2023.11.17
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: distro ==1.9.0
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.2
+Requires-Dist: httpx ==0.26.0
+Requires-Dist: idna ==3.6
+Requires-Dist: openai ==1.7.0
+Requires-Dist: pydantic ==2.5.3
+Requires-Dist: pydantic-core ==2.14.6
+Requires-Dist: requests ==2.31.0
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: soupsieve ==2.5
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: typing-extensions ==4.9.0
+Requires-Dist: urllib3 ==2.1.0
+Requires-Dist: pydub
+Requires-Dist: tiktoken
+
+# Dhamma
+
+[Dharma Seed](https://dharmaseed.org/) is an indespensible resource for those on the Buddhist path. However, sometimes it can be challenging to commit to sitting and listening to many hours of talks when reading the content would be preferred. The `dhamma` ("dharma" in Pāḷi) tool in this project enables you to do exactly that.
+
+The tool works by scraping a retreat page ([dharmaseed.org/retreats/3972](https://dharmaseed.org/retreats/3972) for example), downloading the mp3 files hosted there, and then using the OpenAI Whisper and Chat APIs to transcribe, cleanup, and prepare markdown documents for easy reading anywhere. Facilities for converting these markdown documents into pdfs or epub documents are also included with this tool.
+
+## Installation
+
+```sh
+pip install dhamma
+```
+
+## Example Usage
+
+```sh
+$ dhamma download retreat 3972 -o ./Soulmaking
+$ dhamma transcribe ./Soulmaking
+```
