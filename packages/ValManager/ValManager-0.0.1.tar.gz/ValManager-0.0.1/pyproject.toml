@@ -1,0 +1,31 @@
+[project]
+name="ValManager"
+version = "0.0.1"
+readme = "README.md"
+authors = [{ name = "PWall" }]
+license = {text = "GPL-3.0"}
+dependencies = [
+	"ValVault",
+	"ValLib",
+	"ValStorage",
+	"dataclasses-json",
+	"pick"
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/ValUtils/ValManager"
+
+[tool.bumpver]
+current_version = "0.0.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "chore: version bump"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+	'current_version = "{version}"',
+	'version = "{version}"',
+]

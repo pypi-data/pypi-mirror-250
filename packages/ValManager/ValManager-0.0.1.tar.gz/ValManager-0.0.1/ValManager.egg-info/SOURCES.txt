@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+ValManager/__init__.py
+ValManager/config.py
+ValManager/loadout.py
+ValManager/storage.py
+ValManager/structs.py
+ValManager.egg-info/PKG-INFO
+ValManager.egg-info/SOURCES.txt
+ValManager.egg-info/dependency_links.txt
+ValManager.egg-info/requires.txt
+ValManager.egg-info/top_level.txt
+ValManager/backup/__init__.py
+ValManager/backup/backup.py
+ValManager/backup/storage.py
+ValManager/backup/transform.py
