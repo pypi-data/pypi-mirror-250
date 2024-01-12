@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: baseapp-email-templates
+Version: 1.3
+Summary: baseapp-email-templates is now baseapp-message-templates
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # baseapp-email-templates is now baseapp-message-templates
+        
+        This package has been renamed. Use `pip install baseapp-message-templates` instead.
+        
+        New package: https://pypi.org/project/baseapp-message-templates/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown

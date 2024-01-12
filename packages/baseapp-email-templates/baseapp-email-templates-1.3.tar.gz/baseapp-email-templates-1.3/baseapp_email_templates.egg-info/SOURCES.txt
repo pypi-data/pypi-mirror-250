@@ -1,0 +1,7 @@
+README.md
+setup.py
+baseapp_email_templates.egg-info/PKG-INFO
+baseapp_email_templates.egg-info/SOURCES.txt
+baseapp_email_templates.egg-info/dependency_links.txt
+baseapp_email_templates.egg-info/requires.txt
+baseapp_email_templates.egg-info/top_level.txt
