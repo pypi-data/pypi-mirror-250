@@ -1,0 +1,16 @@
+triton>=2.1.0
+stanford-stk>=0.0.6
+
+[all]
+mosaicml-turbo==0.0.4
+absl-py
+grouped_gemm
+
+[dev]
+absl-py
+
+[gg]
+grouped_gemm
+
+[quant]
+mosaicml-turbo==0.0.4
