@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: prusek-spheroid-segmentation
+Version: 0.1
+Summary: Your package description
+Home-page: https://github.com/michalprusek/Spheroid-segmentation
+Author: Michal Prusek
+Author-email: prusemic@cvut.cz
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: shapely
+Requires-Dist: threadpool_executor
+Requires-Dist: matplotlib
