@@ -1,0 +1,2 @@
+[console_scripts]
+flaxkv = flaxkv.__main__:main
