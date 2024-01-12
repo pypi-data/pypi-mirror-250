@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "alpha3"
+version = "0.1.3"
+description = "A simple CLI tool to convert a country name to its corresponding alpha3 code."
+authors = ["Sahil Rohilla <imsahilrl@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+structlog = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+alpha3 = "alpha3.__main__:main"
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/legacy/"
+priority = "primary"
