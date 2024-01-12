@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+je_streda/__init__.py
+je_streda/je_streda.py
+je_streda.egg-info/PKG-INFO
+je_streda.egg-info/SOURCES.txt
+je_streda.egg-info/dependency_links.txt
+je_streda.egg-info/top_level.txt
