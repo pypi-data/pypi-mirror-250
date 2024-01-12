@@ -1,0 +1,3 @@
+_dev
+_scripts
+napari_bacseg
