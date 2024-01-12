@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: SimpleITK-SimpleElastix
+Version: 2.4.0.dev67
+Summary: SimpleITK is a simplified interface to the Insight Toolkit (ITK) for image registration and segmentation
+Home-page: http://simpleitk.org/
+Author: Insight Software Consortium
+Author-email: insight-users@itk.org
+License: Apache
+Project-URL: Bug Tracker, https://github.com/SimpleITK/SimpleITK/issues
+Project-URL: Documentation, https://simpleitk.readthedocs.io/en/release/
+Project-URL: Source Code, https://github.com/SimpleITK/SimpleITK
+Keywords: SimpleITK ITK InsightToolkit segmentation registration
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+
+Important notice
+================
+
+This is an unofficial build of SimpleITK where SimpleElastix is enabled. The codebase is unmodified except for the output package name.
+
+This release is provided by Francesco Santini <francesco.santini@unibas.ch> and is unaffiliated with SimpleITK, The Insight Software Consortium, or NumFOCUS.
+
+Please find the official release at https://github.com/SimpleITK/SimpleITK.
+
+The build script for linux can be found at https://gist.github.com/fsantini/25074839adf5eb089c62d3a00e30e299
+
+
+Original copyright notice
+-------------------------
+
+The SimpleITK project is part of the Insight Software Consortium(ISC) a non-profit educational consortium dedicated to promoting and maintaining open-source, freely available software for bio-medical image analysis. The copyright is held by NumFOCUS. The SimpleITK software is distributed under the Apache License 2.0.
