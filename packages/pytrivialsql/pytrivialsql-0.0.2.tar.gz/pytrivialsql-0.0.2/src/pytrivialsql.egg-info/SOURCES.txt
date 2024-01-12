@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pytrivialsql/__init__.py
+src/pytrivialsql/db.py
+src/pytrivialsql/sql.py
+src/pytrivialsql.egg-info/PKG-INFO
+src/pytrivialsql.egg-info/SOURCES.txt
+src/pytrivialsql.egg-info/dependency_links.txt
+src/pytrivialsql.egg-info/top_level.txt
