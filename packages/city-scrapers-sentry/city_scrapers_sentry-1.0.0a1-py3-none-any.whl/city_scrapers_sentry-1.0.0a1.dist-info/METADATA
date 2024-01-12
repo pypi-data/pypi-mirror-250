@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: city-scrapers-sentry
+Version: 1.0.0a1
+Summary: Scrapy extension that logs errors to Sentry
+Author-email: City Bureau <documenters@citybureau.org>
+License: BSD
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scrapy >=2.0
+Requires-Dist: raven >=6.3.0
+Requires-Dist: six >=1.11.0
+
+city-scrapers-sentry
+=============
+
+A Scrapy extension that logs spider errors to Sentry.
+
+This project began as a fork of [scrapy-sentry](https://github.com/llonchj/scrapy-sentry), which was developed by Jordi Llonch. We are grateful for their work and contributions.
+
+Note: while this extension captures errors from Scrapy spiders, it does not capture errors elsewhere in Scrapy's operation (e.g. the Scrapy pipeline).
+
+Requisites: 
+-----------
+
+* [Sentry server](http://www.getsentry.com/)
+
+Installation
+------------
+
+```
+pip install city-scrapers-sentry
+```
+
+Setup
+-----
+
+Add `SENTRY_DSN` and `city_scrapers_sentry.extensions.Errors` extension to your Scrapy Project `settings.py`.
+
+Example:
+
+```
+# sentry dsn
+SENTRY_DSN = 'http://public:secret@example.com/1'
+EXTENSIONS = {
+    "city_scrapers_sentry.extensions.Errors": 10,
+}
+```

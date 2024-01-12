@@ -1,0 +1,9 @@
+city_scrapers_sentry/__init__.py,sha256=n60hhAJCUF_6UCvgNCRx4oD-fL9NSUB5sOlda5_PDcM,129
+city_scrapers_sentry/extensions.py,sha256=oCv1NCYNlQF9jEMv0ywlEGmWGkj4oRMLP1gFalqrfSc,3132
+city_scrapers_sentry/middlewares.py,sha256=aWotKuEAeK6JKJGmTAYpm2NEHKt6PrwVBdPUlQU_qnI,1296
+city_scrapers_sentry/utils.py,sha256=_xb8OwpTKRwk_6DbIcUNQoEiEXfhvvn31Fu6L4Rx8wM,2264
+city_scrapers_sentry-1.0.0a1.dist-info/LICENSE,sha256=StBUCdRLJq-ZgFG31y-XGyRoLEA6OonlKPF6J_VMKlU,3163
+city_scrapers_sentry-1.0.0a1.dist-info/METADATA,sha256=E2--huSCRoTZXChl_D15-btZiNFE5TEbKjXikZMz0q0,1701
+city_scrapers_sentry-1.0.0a1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+city_scrapers_sentry-1.0.0a1.dist-info/top_level.txt,sha256=p9n8CGaJZ4-U7sqDEoglQ13TP7CMo2iqZKuICDKCRz8,21
+city_scrapers_sentry-1.0.0a1.dist-info/RECORD,,
