@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: cbsm
+Version: 0.0.5
+Summary: A compartment based scaledown model for modeling the dynamics of a bioreactor
+Author-email: s184186@dtu.dk, s184209@dtu.dk
+License: MIT License
+Project-URL: Bug Tracker, https://gitlab.gbar.dtu.dk/inno4vac/compartment-based-scaledown-model/issues/
+Project-URL: Source Code, https://gitlab.gbar.dtu.dk/inno4vac/compartment-based-scaledown-model/cbsm/
+Keywords: bioreactor,scaledown,compartment,regime,biology,biochemistry
+Platform: Mac OSX
+Platform: Windows
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.TXT
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: networkx
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Provides-Extra: developer
+Requires-Dist: pre-commit; extra == "developer"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# Compartment based scaledown model
+
+**Compartment based scaledown model (cbsm)** is a Python package for creating compartments of a bioreactor.
+
+## Usage
+
+## Install
+
+Install the latest version of **cbsm**:
+
+`pip install cbsm`
+
+## Bugs
+
+Please report any bugs using the [issues](https://gitlab.gbar.dtu.dk/inno4vac/compartment-based-scaledown-model/-/issues) or contribute and fix the bug by following the steps in the [Contribution Guide](https://gitlab.gbar.dtu.dk/inno4vac/compartment-based-scaledown-model/-/blob/main/CONTRIBUTING.md). We welcome all contributions!
+
+## License
+
+Released under the **MIT license** (see LICENSE.txt)
