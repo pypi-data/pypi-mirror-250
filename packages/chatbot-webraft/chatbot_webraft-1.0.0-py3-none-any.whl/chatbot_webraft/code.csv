@@ -1,0 +1,4 @@
+,in,out
+0,"an example","print 'hi'"
+1,"a hello world example,"print 'hello world'"
+2,"a chatbot","define function chatbot taking input. if input=='hi' print 'hi' . else print 'bye' "
