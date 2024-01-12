@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "qingpi-python"
+version = "0.1.10"
+description = "Python library for Qingpi."
+authors = ["Koutaro Mukai <mukai.k1011k@outlook.jp>"]
+homepage = "https://github.com/U-1F992/qingpi"
+repository = "https://github.com/U-1F992/qingpi"
+readme = "README.md"
+packages = [{ include = "qingpi", from = "." }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyserial = "^3.5"
+
+[tool.poetry.scripts]
+qingpictl = "qingpi.__main__:main"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
