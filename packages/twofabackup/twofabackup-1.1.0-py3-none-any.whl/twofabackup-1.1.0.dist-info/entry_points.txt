@@ -1,0 +1,3 @@
+[console_scripts]
+twofabackup=twofabackup.main:main
+
