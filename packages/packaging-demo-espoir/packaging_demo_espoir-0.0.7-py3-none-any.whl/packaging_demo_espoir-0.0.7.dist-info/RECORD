@@ -1,0 +1,14 @@
+packaging_demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_demo/colorized_demo.py,sha256=Njs7ItLQhqYzy0PPmyPS3brkEoqhxa3BbgXRdfL6zQI,108
+packaging_demo/my_file.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_demo/my_other_file.py,sha256=S5W2lbjbJl1-i9h8FYuFBpIVXvQHLIriGBBCJsdM7Oc,24
+packaging_demo/slow.py,sha256=wecm2bptGJ4YdiFe8P8HJicZQ2hpIAqkKokrd-3SenA,82
+packaging_demo/states_info.py,sha256=Wu-h6k2IFsvF2LcmlfZMvzFFfSji_4R1pIFpQg2Qw0I,687
+packaging_demo/my_folder/__init__.py,sha256=1YXxa-JXEOvwss6NFkaQ_3BtNKqKTt4qnmQ55S8efU4,5
+packaging_demo/my_folder/my_nested_file.py,sha256=LChX44Y3wT3ENicCLAq5T6HiTBguj2W6xq8p1qJoXuo,100
+packaging_demo/my_folder/sub_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_demo/my_folder/sub_package/some_deeply_nested_file.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_demo_espoir-0.0.7.dist-info/METADATA,sha256=6KbCIVWg4SOtxNaW-Gk0yBNZEBNmIeqyNitMuSNAreE,11964
+packaging_demo_espoir-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+packaging_demo_espoir-0.0.7.dist-info/top_level.txt,sha256=JQYuoHLSBUdWNZjDus5DYc3ohopasuGzDPZpph3ynKg,15
+packaging_demo_espoir-0.0.7.dist-info/RECORD,,
