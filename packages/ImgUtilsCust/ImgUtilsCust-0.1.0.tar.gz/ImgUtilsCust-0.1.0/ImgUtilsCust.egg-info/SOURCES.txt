@@ -1,0 +1,8 @@
+README.md
+setup.py
+ImgUtilsCust.egg-info/PKG-INFO
+ImgUtilsCust.egg-info/SOURCES.txt
+ImgUtilsCust.egg-info/dependency_links.txt
+ImgUtilsCust.egg-info/top_level.txt
+imgprocessing/__init__.py
+imgprocessing/myfunctions.py
