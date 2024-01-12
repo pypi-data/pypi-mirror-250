@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+tai/core/__init__.py
+tai/core/cli.py
+tai/core/install_tai.py
+trusted_ai.egg-info/PKG-INFO
+trusted_ai.egg-info/SOURCES.txt
+trusted_ai.egg-info/dependency_links.txt
+trusted_ai.egg-info/entry_points.txt
+trusted_ai.egg-info/requires.txt
+trusted_ai.egg-info/top_level.txt
