@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: schedule-sdk
+Version: 3.0.6
+Requires-Dist: requests
+Requires-Dist: redis
+
