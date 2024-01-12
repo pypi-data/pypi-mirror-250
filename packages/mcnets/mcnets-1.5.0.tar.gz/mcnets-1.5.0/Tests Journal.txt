@@ -1,0 +1,176 @@
+<Net Usage Tests>
+I. Curve fitting
+    - With the addition of activation function customization, this works pretty well.
+    - Some combinations of NONE, ATAN and RELU works well
+    - Training to a few spaced points tends to be efficient and easy to increase
+      or decrease the amount of training points used.
+    - Latest (8/31/2023): Using a combination of atan, elu and lin is able to fit 
+                          very well to a lot of things easily, still has problems
+                          with high frequency oscillatory ones though (larger nets
+                          might be able to handle these idk too lazy rn)
+II. Chess
+III. Snake
+IV. Derivative (Slope) fitting
+V. MNIST Dataset
+VI. Blurry to Sharpened Images
+    - Make use of the image compressor/expander project
+VII. Zeros of Polynomials
+    - Was able to learn training data pretty well
+        - Still struggled a bit with predictive power though
+    - (!) Try using generate_model
+
+
+<Model Optimization Functions>
+Tested a few of the model generator functions meant to optimize 
+an MCNeuralNetwork model to the given data. 
+  - optimize_fit was the first function made -- it was slow (tested 
+    all combinations) and didn't really give the best results. Its
+    main purpose was to show which AF sets might be useful
+  - build_model was the second function made -- it was quite a bit
+    quicker and gave some decent results, but for simple datasets
+    it didn't always give good results (due to fitting first and last
+    activations first)
+  - generate_model is the current function -- it is easily the fastest,
+    and can go even quicker using greedy=True. Sometimes the greedy
+    algorithm gives not particularly useful activation sets however.
+0. Main Test
+  - load_diabetes from scikit
+  - Initial Model
+    - [10, 10, 10]
+    - 'default' activation layout (lin/silu/.../silu/lin)
+    - Tested activations of 'lin', 'silu', 'dsilu'
+
+1. build_model
+  - Training Depth = 2
+  - Test Results
+    - Time: 40.23 s
+    - Score: -466.9109
+    - Best AF set: ['DSILU', 'LIN', 'LIN', 'LIN', 'SILU']
+
+2. optimize_fit
+  - Sped up these results using:
+    - input AF = 'dsilu'
+    - output AF = 'lin'
+  - Test Results
+    - Time: 115.92 s
+    - Score: -693.7692
+    - Best AF set: ['dsilu', 'lin', 'lin', 'silu', 'lin']
+
+3. generate_model
+  - Used greedy algorithm
+  - 3 iterations
+  - Test Results
+    - Time: 20.36 s
+    - Score: -331.4213
+    - Best AF set: ['LIN', 'LIN', 'LIN', 'LIN', 'LIN']
+
+3. generate_model ****
+  - Didn't use greedy algorithm
+  - 3 iterations
+  - Test Results
+    - Time: 36.68 s
+    - Score: -331.2314
+    - Best AF set: ['DSILU', 'LIN', 'LIN', 'SILU', 'LIN']
+
+
+<Micro Tweaks>
+Tested small nets (no hidden layer) if altering one individual weight at a time would
+be as effective if not more than the current monte-carlo genTrain() method. The results
+show that it is not more effective, and instead the current general genTrain() method
+is still far superior.
+- Test:
+  > net = AdvNet(4, [], 1, "lin")
+  > X = 4 * (np.random.rand(100, 4) - 0.5)
+  > Y = np.zeros((100,))
+- Results:
+  > genTrain:
+    Time ~= 1.4s
+    MAE ~= 0
+  > gradientTrain()
+    Time ~= 1.4s
+    MAE ~= 0.025
+
+
+<Gradient Tests>
+I. Simple
+  - Idea: 
+    Checks if using the same (or reduced by a constant) version of the last successful
+    tweaking will work again -- if not, it trains the net normally and repeats.
+  - Results:
+    Sometimes it does help and is a quicker way to progress training. Tends not to give
+    the largest/most effective training iterations however.
+II. Regression
+  - Idea:
+    Keep track of the dW sets over a few iterations and see if there is a pattern/Regression
+    that can be used to create the next dW set to train the net with,
+  - Results:
+    TODO
+
+
+<Single-Equivalent-Matrix (SEM) Tests>
+- Idea is to matrix multiply all the weight arrays together in advance
+  of actually running calculations to save Time
+- Also tested building the SEM applying the coresponding activation function
+  to the weights before matrix multiplying
+- Results (Primary Function / Best Predictor):
+  I. ATAN --> SEM + activation (Very good)
+  II. ELU --> SEM + activation (Very good)
+  III. RLEU --> SEM (Sometimes good)
+  IV. SIG --> SEM (Good)
+- Time
+  - At worst, the SEM methods are equal to the normal .Calculate method
+  - Above 5-ish calculations, the SEM methods are notably faster
+- Overall
+  - Not worth implementing in this way
+
+
+<Biases & Error Metric Tests>
+- Biases
+	- Single vector
+		- Applied to all hidden layers
+			- Just created a very off center line
+		- Applied to input layer
+			- Kinda did something, still worse behavior
+	- Bias collection
+		- Hidden + final layer
+			- Kinda fitted, more often than not raised or lowered too much
+		- Hidden layers only
+			- Could fit, had some weird jumps/behavior though
+- 'SSE' for error
+	- Actually did sum(abs(differences)) and reported the inverse to give higher == better for training
+	- Fit not terribly, but overall R^2 is still much more superior method
+
+
+<R^2 Tests of Various Batch Sizes>
+I. R^2 Values (50 iterations):
+    Default0 Size: Avg = 0.787037, Med = 0.786065
+    10 Batch Size: Avg = 0.780430, Med = 0.776033
+    20 Batch Size: Avg = 0.799839, Med = 0.790577
+    50 Batch Size: Avg = 0.837653, Med = 0.854896
+
+II. Time to Complete (2 iterations)
+    T1 = 5.297518100000161   / 2
+    T2 = 3.714165800000046   / 2
+    T3 = 7.308545600000798   / 2
+    T4 = 18.205850700000155  / 2
+
+III. Average dR/dt Ratios (R/t)
+    10-20 D: <dR/dt> = 0.297134
+    10 Size: <dR/dt> = 0.420245
+    20 Size: <dR/dt> = 0.218878
+    50 Size: <dR/dt> = 0.092020
+
+IV. Median dR/dt Ratios
+    10-20 D: dR/dt = 0.296767
+    10 Size: dR/dt = 0.417877
+    20 Size: dR/dt = 0.216343
+    50 Size: dR/dt = 0.093914
+
+V. Results:
+    - The default method finds itself with a preformance of that between the 10 and 20
+      batch sizes as expected due to its decay from 20 to 10 over the training session.
+    - The lowest batch size of 10 is easily to most efficient in terms of training time,
+      nonetheless, it of course does not get nearly the depth of the other methods.
+    - If a particular depth is needed in training, a sacrafice of time would just have 
+      to be made. For example, to go from R2 of ~0.776 to ~0.855 (10.2% increase) the
+      training time goes from ~1.86s to ~9.10s (389% increase).
