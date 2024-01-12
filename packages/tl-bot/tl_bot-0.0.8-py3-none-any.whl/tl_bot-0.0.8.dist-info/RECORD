@@ -1,0 +1,10 @@
+tl_bot/__init__.py,sha256=ICOxGt7ta-t2F9uXLMXVo-4VDYGM0IEvKPStCf0y8Rk,21
+tl_bot/cli.py,sha256=jCaTliAuNJELeLAQZzcGyisO3kvY_n427doiOBh2e0E,2653
+tl_bot/config.ini,sha256=SGomuEj4TiMqTeDm0Arbw_0C9c1PmmpIXdqOiqXbjsc,92
+tl_bot/main.py,sha256=CAyK_R8emZuGvTv-dk23cho_P_49gVbeQAyd0mS6i7A,8077
+tl_bot-0.0.8.dist-info/LICENSE,sha256=fcHwilQ6HuERLVuHUY0uEcSJBl0tLJn_QUy0IhoqhkI,1064
+tl_bot-0.0.8.dist-info/METADATA,sha256=1DdTqZdtDb27OAcuhM-yWDGYTub8o1IIrMD4MS9Opvc,2851
+tl_bot-0.0.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tl_bot-0.0.8.dist-info/entry_points.txt,sha256=rPwvI-LRyLZcrm6T2yxy1QdLe6lPJkA9-9nuJWE0uWM,42
+tl_bot-0.0.8.dist-info/top_level.txt,sha256=Kimpy10-ltib3gkm_ccyLwOdXqKBVXFZRjfu0f27UCc,7
+tl_bot-0.0.8.dist-info/RECORD,,
