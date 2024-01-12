@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/grigode_env/__init__.py
+src/grigode_env/environ.py
+src/grigode_env/errors.py
+src/grigode_env/parser.py
+src/grigode_env.egg-info/PKG-INFO
+src/grigode_env.egg-info/SOURCES.txt
+src/grigode_env.egg-info/dependency_links.txt
+src/grigode_env.egg-info/top_level.txt
