@@ -1,0 +1,16 @@
+pyqrlew-0.8.1.dist-info/METADATA,sha256=qwUIz2i0co2w9Qb2ThDTKQn90JAjJ9Vw8d40yQrElOE,2303
+pyqrlew-0.8.1.dist-info/WHEEL,sha256=xa5Fd7-P_y-B5WRpkswbzg12DHqwCuR1RVnHarWc33E,90
+pyqrlew-0.8.1.dist-info/license_files/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+pyqrlew/io/dataset.py,sha256=Aj7HIDZ6toCmoyfe50BQwR_NULmcbqNl04AJ_Zgsfkw,17317
+pyqrlew/io/postgresql.py,sha256=C6igez4UH2_xH12VnQUXJTCR-YWWO9Ltk-aQeecV8JQ,4229
+pyqrlew/io/sqlite.py,sha256=_AlS-YCMd8CAnOcR02jWiJgiguJO3qgz0xRqmZudFqo,5318
+pyqrlew/io/utils.py,sha256=jHNfMHqjm8HAnM8kvSSHiBZ7wyYqKN6rgyM3s3psiMs,6498
+pyqrlew/io/__init__.py,sha256=Owhqb6yDGXAoFyprnK2h3U5pQZ47-9_saGzktmTkt1M,232
+pyqrlew/tester/stochatic_dataset.py,sha256=oTMfEDqZXQORpWFd_ySbK72dTkzULP6HphYlkdPzCjM,3676
+pyqrlew/tester/tester.py,sha256=q1YJ3LlonomrDCu41zks85HWBwf2bayxY4ea0Jn1zy4,1503
+pyqrlew/tester/utils.py,sha256=NkaAcCeJirElHQBzK7FEOpfNWf2p3irky728ShIeICI,4608
+pyqrlew/tester/__init__.py,sha256=u4Vzgr1lzINDN9Q1HcG9-ZTMgtLDf0w6kzeZzdw7JZI,94
+pyqrlew/utils.py,sha256=hrbrXNq8iNJJCLKK8ddhFVVo61vKYRa_0sQsztFIYX4,1147
+pyqrlew/__init__.py,sha256=HnBNf4NCoQuufE-PtyPsn2SnXX-n8zkQi70cFix0mPI,115
+pyqrlew/pyqrlew.pyd,sha256=7S-Cqfh6KjZvpLEQSN8nI4qP8SZROLxLoi5W0vaHXg8,8084992
+pyqrlew-0.8.1.dist-info/RECORD,,
