@@ -1,0 +1,10 @@
+github_tools/__init__.py,sha256=2apYRqQYqQpTN6q29O9tIbTZSLNAgu_HH4gdyhMywAE,147
+github_tools/gh_create_milestone.py,sha256=vjzAR3zYhhJrQyEC-absr_KHSF_huSWvtUnL3grjRt0,3570
+github_tools/gh_issue_templates.py,sha256=MaEDRCWwZby7AA76OaH4l_LlaXiqIMHJQoeqpe0hPQc,5525
+github_tools/gh_repos.py,sha256=97JHGvYCAz7dNVaH9q2ORfSHfsXozr4EI4hNG4D0MfU,4956
+github_tools/github_issue_templates.py,sha256=2RnSamqnu0jn0wVqlWn4Q4ME-OrBzX_ibeiLq-76smA,6526
+github_tools/github_tools_examples.py,sha256=AB3E6axMrzMY-4i5jsajD-aXhTf82SO1lBOaPt_qgKM,1092
+github_tools_beta-0.0.17.dist-info/METADATA,sha256=rr8jAyHpUYWyWj2Rm2BeTPpDdo4KfX1jzCFk_fj9uGo,126
+github_tools_beta-0.0.17.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+github_tools_beta-0.0.17.dist-info/top_level.txt,sha256=7GT2FvRMlq0tBWRZIo-pBqiaTLrVctEslwJIIraWiHo,13
+github_tools_beta-0.0.17.dist-info/RECORD,,
