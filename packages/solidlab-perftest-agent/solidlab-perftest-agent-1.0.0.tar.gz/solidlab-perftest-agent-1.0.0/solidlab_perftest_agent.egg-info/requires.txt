@@ -1,0 +1,5 @@
+python-dateutil
+requests
+solidlab-perftest-common<5,>=4.0.2
+aiofiles
+aiohttp[speedups]
