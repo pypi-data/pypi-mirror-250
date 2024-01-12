@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+epnel/__init__.py
+epnel/interpreter.py
+epnel/parser.py
+epnel/repl.py
+epnel.egg-info/PKG-INFO
+epnel.egg-info/SOURCES.txt
+epnel.egg-info/dependency_links.txt
+epnel.egg-info/entry_points.txt
+epnel.egg-info/top_level.txt
