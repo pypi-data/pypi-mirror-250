@@ -1,0 +1,42 @@
+{Fore.cyan}#tml{Style.reset} - toggle list mode
+{Fore.green_yellow}#slm{Style.reset} - show list items
+{Fore.cyan}#skip{Style.reset} [@barcode/code prompt only] - skip searching barcode/code respectively
+{Fore.green_yellow}#list_all{Style.reset} - list all codes in db
+{Fore.cyan}#show,[EntryId]{Style.reset} - display data for EntryId 1 only
+{Fore.green_yellow}#remove,[EntryID]{Style.reset} - remove entryid from db [Permanently]
+{Fore.cyan}#save_csv{Style.reset} - save entire Entry Table to csv file specified at prompt
+{Fore.green_yellow}q,quit{Style.reset} - quits program
+{Fore.cyan}b,back{Style.reset} - goes to previous menu
+{Fore.green_yellow}#clear_list{Style.reset} - unflags items, sets ListQty to 0
+{Fore.cyan}#stock_total{Style.reset} - sums totals for Display_x,BackRoom,Shelf prints stored value
+{Fore.green_yellow}#show_list{Style.reset} - prints InList flagged Items
+{Fore.cyan}#inlist[entryid]{Style.reset} - print inlist value for item
+{Fore.green_yellow}#inlist[entryid],[newvalue]{Style.reset} - update inlist field value and print to screen
+{Fore.cyan}#display_[1..6],[entryid]{Style.reset} - print display value
+{Fore.green_yellow}#display_[1..6],[entryid],[new_value]{Style.reset} - update display value
+{Fore.cyan}#backroom,[entryid]{Style.reset} - print backroom value
+{Fore.green_yellow}#backroom,[entryid],[newvalue]{Style.reset} - update backroom value
+{Fore.cyan}#shelf,[entryid]{Style.reset} - print shelf value
+{Fore.green_yellow}#shelf,[entryid],[newvalue]{Style.reset} - update shelf value
+{Fore.cyan}#price,[entryid]{Style.reset} - print price value
+{Fore.green_yellow}#price,[entryid],[newvalue]{Style.reset} - update price value
+{Fore.cyan}#note,[entryid]{Style.reset} - print note value
+{Fore.green_yellow}#note,[entryid],[newvalue]{Style.reset} - update note value
+{Fore.cyan}#barcode,[entryid]{Style.reset} - print barcode value
+{Fore.green_yellow}#barcode,[entryid],[newvalue]{Style.reset} - update barcode value
+{Fore.cyan}#code,[entryid]{Style.reset} - print code value
+{Fore.green_yellow}#code,[entryid],[newvalue]{Style.reset} - update code value
+{Fore.cyan}#name,[entryid]{Style.reset} - print name value
+{Fore.green_yellow}#name,[entryid],[newvalue]{Style.reset} - update name value
+{Fore.cyan}#factory_reset{Style.reset} - reset entire items db
+
+{Fore.green_yellow}Edit Entry:
+	n,b,'' - skip and go to next entry
+	q - user quits program
+	d - deletes entry item
+{Style.reset}
+
+{Fore.cyan}ListMode:
+	flags item InList=True
+	anytime the item is requested, its ListQty field is incremented
+{Style.reset}
