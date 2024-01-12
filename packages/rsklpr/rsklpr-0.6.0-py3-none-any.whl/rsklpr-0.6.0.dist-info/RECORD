@@ -1,0 +1,11 @@
+rsklpr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rsklpr/kde_statsmodels_impl/__init__.py,sha256=0DHZnxaB_Ew3n3-183phqWX6JE_D52_sH2l5ybqHouw,245
+rsklpr/kde_statsmodels_impl/bandwidths.py,sha256=PJmWGY1iOUkghRdgB4WPSDE_-fH4x4RuLp6kwnnwDtE,4728
+rsklpr/kde_statsmodels_impl/kernel_base.py,sha256=PibMtiXMvpO7Sq-wNv1m1J3GB3Cg6Q2KPV7FNP08sFw,18703
+rsklpr/kde_statsmodels_impl/kernel_density.py,sha256=cGwdYI09NTfiwSvMfpx_3oD9X8q2mU15LRsMuQechqY,25549
+rsklpr/kde_statsmodels_impl/kernels.py,sha256=gOd_OPmx_djO3oFZiDfuv9hzokAdvsVD6tETKK3z9H4,26154
+rsklpr/rsklpr.py,sha256=rRcOVcsQxrnkMwqz-o3CyGLJdvL3tUbMx2r3f4xfGgc,28737
+rsklpr-0.6.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rsklpr-0.6.0.dist-info/METADATA,sha256=Pn55hazLTdrh5DSMnveVNFUPGLmAKnzGSzASKWUAisQ,4518
+rsklpr-0.6.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+rsklpr-0.6.0.dist-info/RECORD,,
