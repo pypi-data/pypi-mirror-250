@@ -1,0 +1,11 @@
+requirements.txt,sha256=7ScTRNppQy5B2g6C7SL-AorMzyr5PC0KLt3tlRREfGg,47
+gtfparse/__init__.py,sha256=THQaPnrdl0KsfVZTl_k1FCGM6XnRe-V1p7eCsg5BKIc,1102
+gtfparse/attribute_parsing.py,sha256=U579OuulIBhRdHsPmS33wePwiJ0qxsfNNY7y-1-KBuo,4134
+gtfparse/create_missing_features.py,sha256=CGwxlyS9trrse7u3KKg8mFmuGoli2wFEBJ-n4XEzlpw,5016
+gtfparse/parsing_error.py,sha256=dWjxGGIhpZDEnWjrRp0hxk3Ut7BaYujYT-8DhlCnBMI,585
+gtfparse/read_gtf.py,sha256=YJFhYq7vc0c-HGqVUa8uC2Pmic5ok_OaShNC-GLoCoQ,11915
+gtfparse-2.2.0.dist-info/LICENSE,sha256=xllut76FgcGL5zbIRvuRc7aezPbvlMUTWJPsVr2Sugg,11358
+gtfparse-2.2.0.dist-info/METADATA,sha256=aANPR9ifGF_IKA1EfXKOlbGcEKmJhblDAC8Cq9J094U,2119
+gtfparse-2.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gtfparse-2.2.0.dist-info/top_level.txt,sha256=7j2M9WSTNQye5-GDW_wLZfLoa10e4YfFKw-cAeVxFPM,9
+gtfparse-2.2.0.dist-info/RECORD,,
