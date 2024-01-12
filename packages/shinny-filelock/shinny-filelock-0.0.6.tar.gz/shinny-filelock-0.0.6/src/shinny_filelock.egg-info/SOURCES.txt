@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/shinny_filelock/__init__.py
+src/shinny_filelock/_flockd.py
+src/shinny_filelock.egg-info/PKG-INFO
+src/shinny_filelock.egg-info/SOURCES.txt
+src/shinny_filelock.egg-info/dependency_links.txt
+src/shinny_filelock.egg-info/requires.txt
+src/shinny_filelock.egg-info/top_level.txt
+tests/test_flock.py
