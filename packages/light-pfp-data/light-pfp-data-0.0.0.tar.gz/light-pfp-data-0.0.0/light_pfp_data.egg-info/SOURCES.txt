@@ -1,0 +1,5 @@
+setup.py
+light_pfp_data.egg-info/PKG-INFO
+light_pfp_data.egg-info/SOURCES.txt
+light_pfp_data.egg-info/dependency_links.txt
+light_pfp_data.egg-info/top_level.txt
