@@ -1,0 +1,17 @@
+pdcd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdcd/cli.py,sha256=Y6TNj8_6SkFHgvU8D44RV4GCOLKjDXUb384_8tV0b0Q,3252
+pdcd/config.py,sha256=4EuFL6AH4n5vXg5mw1M5LsAvhO0c7CLJnLSpLlvxYz0,6608
+pdcd/connectors.py,sha256=x2rrwFQaTXgxURX_6O9JTnJ_UHMRpjzdnYvT5z4q1mY,5816
+pdcd/external.py,sha256=FPXfn2kc8P8eUmHnhG9eI-DWDPJMfg2NkTCamK-dzy0,18928
+pdcd/files.py,sha256=u6ozYD8orFnZXSHwMjrvaR036mZNcju9Zv1UTOC-UZM,9390
+pdcd/jobs.py,sha256=Oz08E3T7XUovlhWF6BTpMF_d97Xo5h5_HayMcg34B8E,3312
+pdcd/log.py,sha256=OxcLhUcDNH5muLyidZVP2qjbFvILPr0PDySJnmkMB4o,574
+pdcd/routines.py,sha256=jJSy_IP0ZPwmiiAml86Z3pE6leWTE0V5oIAMUU0n7_w,6560
+pdcd/settings.py,sha256=gxmMVEo4dGZqMdN8XTfZBK4aKFtz7lr8rXLV6aAqmOI,2047
+pdcd/shellcode.py,sha256=6ZmQwjxbMzGeC7SuGsc-v9V74PiiQeT5KRBkop7xceU,2257
+pdcd/utils.py,sha256=yKQWF02SNE9GMW1d7_ZywL-9xqTPtzTEaNlXKW9HYP0,2447
+pdcd-1.2.0.dist-info/LICENSE,sha256=NvRKe1dCnpR_vAVve_f8PqyRFjNpUuh8p1_Qfdlt7ns,1079
+pdcd-1.2.0.dist-info/METADATA,sha256=MQSga1LyZZ1mv1kwHtG5Khhk4Ixkk9WOp9hpOl3koTw,1921
+pdcd-1.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pdcd-1.2.0.dist-info/entry_points.txt,sha256=mRscLiWpZp0wpqO99VyBCR542JJ12fpzK8uOISMdxF0,38
+pdcd-1.2.0.dist-info/RECORD,,
