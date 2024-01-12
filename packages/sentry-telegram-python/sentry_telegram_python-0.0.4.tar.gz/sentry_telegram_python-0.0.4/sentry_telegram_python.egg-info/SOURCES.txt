@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+sentry_telegram_python/__init__.py
+sentry_telegram_python/plugin.py
+sentry_telegram_python.egg-info/PKG-INFO
+sentry_telegram_python.egg-info/SOURCES.txt
+sentry_telegram_python.egg-info/dependency_links.txt
+sentry_telegram_python.egg-info/entry_points.txt
+sentry_telegram_python.egg-info/top_level.txt
+tests/test_base.py
