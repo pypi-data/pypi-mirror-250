@@ -1,0 +1,7 @@
+click
+requests
+pandas
+selenium
+webdriver-manager
+undetected-chromedriver
+python-telegram-bot
