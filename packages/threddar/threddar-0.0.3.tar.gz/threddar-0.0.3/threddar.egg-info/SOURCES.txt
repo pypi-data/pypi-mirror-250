@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+threddar/__init__.py
+threddar/rethread.py
+threddar.egg-info/PKG-INFO
+threddar.egg-info/SOURCES.txt
+threddar.egg-info/dependency_links.txt
+threddar.egg-info/top_level.txt
