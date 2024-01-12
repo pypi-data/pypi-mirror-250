@@ -1,0 +1,33 @@
+[project]
+name = "trusted-ai"
+version = "0.1.9"
+description = "Trusted-ai project."
+authors = [
+    { name = "Ekaterina Kurdenkova", email = "kurdenkova@ispras.ru" },
+]
+dependencies = [
+    "GitPython>=3.1.41",
+    "pdm>=2.11.2",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+tai = "tai.core.cli:main"
+
+[tool.pdm]
+package-type = "library"
+
+[tool.pdm.build]
+includes = [
+    "tai/",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
