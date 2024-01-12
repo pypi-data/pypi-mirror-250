@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DataPrepKit6.1
+Version: 1.2
+Summary: a comprehensive toolkit  
+Author: Asmaa.Said.Abdelmosef
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+
+ this packge designed  to seamlessly read data from various file formats, provide a data summary, handle missing values, and encode categorical data. Please see README file to know how to use each function 
