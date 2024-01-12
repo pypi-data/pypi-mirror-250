@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: ds-ml-data-kit
+Version: 0.1
+Summary: Functions and helpers to accelerate ml and data analysis tasks currently functions only for pytorch
+Home-page: UNKNOWN
+Author: Dawid Śliwa
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
