@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+src/liteexpr/LiteExpr.interp
+src/liteexpr/LiteExpr.tokens
+src/liteexpr/LiteExprLexer.interp
+src/liteexpr/LiteExprLexer.py
+src/liteexpr/LiteExprLexer.tokens
+src/liteexpr/LiteExprParser.py
+src/liteexpr/LiteExprVisitor.py
+src/liteexpr/__init__.py
+src/liteexpr/liteexpr.py
+src/liteexpr.egg-info/PKG-INFO
+src/liteexpr.egg-info/SOURCES.txt
+src/liteexpr.egg-info/dependency_links.txt
+src/liteexpr.egg-info/top_level.txt
