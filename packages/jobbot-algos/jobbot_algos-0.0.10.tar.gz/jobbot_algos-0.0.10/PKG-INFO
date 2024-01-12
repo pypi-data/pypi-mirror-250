@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jobbot_algos
+Version: 0.0.10
+Summary: No description
+Home-page: https://gitlab.com/jobbot_project/jobbot_algos
+Author: mrtweety123
+Author-email: mrtweety123@proton.me
+License: Apache License 2.0
+Keywords: tag1,tag2
+Requires-Dist: setuptools
+Requires-Dist: twine
+Requires-Dist: pandas
+Requires-Dist: loguru
+Requires-Dist: fastcore
+Requires-Dist: numpy
+Requires-Dist: sshtunnel==0.4.0
+Requires-Dist: sqlalchemy==1.4.46
+Requires-Dist: psycopg2-binary
+Requires-Dist: jobbot_algos
