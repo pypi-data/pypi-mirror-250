@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: know.py
+Version: 0.0.0
+Summary: The Know Framework for Python
+Home-page: https://know.dev
+Author: Haltia.AI
+Author-email: support@haltia.ai
+License: Public Domain
+Project-URL: Bug Tracker, https://github.com/HaltiaAI/know.py/issues
+Project-URL: Changelog, https://github.com/HaltiaAI/know.py/blob/master/CHANGES.md
+Project-URL: Documentation, https://github.com/HaltiaAI/know.py/blob/master/README.md
+Project-URL: Source Code, https://github.com/HaltiaAI/know.py
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: ~=3.9
+Description-Content-Type: text/markdown
+License-File: UNLICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# The Know Framework for Python
