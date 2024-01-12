@@ -1,0 +1,9 @@
+PyVisionTools.egg-info/PKG-INFO
+PyVisionTools.egg-info/SOURCES.txt
+PyVisionTools.egg-info/dependency_links.txt
+PyVisionTools.egg-info/requires.txt
+PyVisionTools.egg-info/top_level.txt
+VisionTools/setup.py
+VisionTools/src/__init__.py
+VisionTools/src/tools/__init__.py
+VisionTools/src/tools/image_manager.py
