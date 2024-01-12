@@ -1,0 +1,65 @@
+{Fore.cyan}tml{Style.reset} - toggle list mode
+{Fore.green_yellow}slm{Style.reset} - show list items
+{Fore.cyan}skip/sk/skp{Style.reset} {Fore.dark_goldenrod}[@barcode/code prompt only]{Style.reset} - skip searching 
+	barcode/code respectively 
+{Fore.green_yellow}list_all,la{Style.reset} - list all codes in db
+{Fore.cyan}show,[EntryId]{Style.reset} - display data for EntryId 1 only
+{Fore.green_yellow}remove,rm,del,delete,[EntryID]{Style.reset} - remove entryid from db 
+	{Fore.yellow}[Permanently]{Style.reset}
+{Fore.cyan}save_csv/save/sv{Style.reset} - save entire Entry Table to csv file specified at prompt
+{Fore.cyan}save_bar/sb/svbr{Style.reset} - save entire Entry[{Fore.dark_goldenrod}Barcode ONLY{Style.reset}] Table to csv file specified at prompt
+{Fore.cyan}save_bar_cd/sbc/svbrcd{Style.reset} - save entire Entry[{Fore.dark_goldenrod}Barcode and Code ONLY{Style.reset}] Table to csv file specified at prompt
+
+{Fore.green_yellow}q/quit{Style.reset} - quits program
+{Fore.cyan}b/back{Style.reset} - goes to previous menu
+{Fore.green_yellow}clear_list/clrl/cl{Style.reset} - unflags items, sets ListQty to 0
+{Fore.cyan}stock_total/st{Style.reset} - sums totals for Display_x,BackRoom,Shelf prints stored value
+{Fore.green_yellow}show_list/sl{Style.reset} - prints InList flagged Items
+{Fore.cyan}inlist/il,[entryid]{Style.reset} - print inlist value for item
+{Fore.green_yellow}inlist/il,[entryid],[newvalue]{Style.reset} - update inlist field value and print to screen 
+	{Fore.GREY_30}[1=True/0=False]{Style.reset}
+{Fore.cyan}display_[1..6]/d[1..6],[entryid]{Style.reset} - print display value
+{Fore.green_yellow}display_[1..6],[entryid],[new_value]{Style.reset} - update display value
+{Fore.cyan}backroom/br/bkrm,[entryid]{Style.reset} - print backroom value
+{Fore.green_yellow}backroom/br/bkrm,[entryid],[newvalue]{Style.reset} - update backroom value
+{Fore.cyan}shelf/shf/slf/shlf,[entryid]{Style.reset} - print shelf value
+{Fore.green_yellow}shelf/shf/slf/shlf,[entryid],[newvalue]{Style.reset} - update shelf value
+{Fore.cyan}price/pc/prc,[entryid]{Style.reset} - print price value
+{Fore.green_yellow}price/pc/prc,[entryid],[newvalue]{Style.reset} - update price value
+{Fore.cyan}note,[entryid]{Style.reset} - print note value
+{Fore.green_yellow}note,[entryid],[newvalue]{Style.reset} - update note value
+{Fore.cyan}barcode/bcd/bd,[entryid]{Style.reset} - print barcode value
+	{Fore.GREY_30}#note a New Entry is made if barcode/code pair
+	is not found automatically{Style.reset}
+{Fore.green_yellow}barcode/bcd/bd,[entryid],[newvalue]{Style.reset} - update barcode value
+{Fore.cyan}code/cd,[entryid]{Style.reset} - print code value
+{Fore.green_yellow}code/cd,[entryid],[newvalue]{Style.reset} - update code value
+{Fore.cyan}name/nm,[entryid]{Style.reset} - print name value
+{Fore.green_yellow}name/nm,[entryid],[newvalue]{Style.reset} - update name value
+{Fore.cyan}factory_reset{Style.reset} - reset entire items db
+{Fore.green_yellow}size/sz/sze,[entryid],[newvalue]{Style.reset} - update size value
+{Fore.cyan}size/sz,[entryid]{Style.reset} - view size value of entryid
+{Fore.cyan}search/s/sch,[FieldName],[FieldValueToSearch]{Style.reset} - search for item using field
+	{Fore.GREY_30}#prompts for additional info will follow.{Style.reset}
+{Fore.cyan}fields/f/flds{Style.reset} - view Entry Search Fields
+{Fore.cyan}qty/listQty/lq/lstqty,[entryid]{Style.reset} - print listQty value
+{Fore.green_yellow}qty/listQty/lq/lstqty,[entryid],[newvalue]{Style.reset} - update listQty value
+{Fore.cyan}location/lctn/ln/l,[entryid]{Style.reset} - print location value
+{Fore.green_yellow}location/lctn/ln/l,[entryid],[newvalue]{Style.reset} - update location value
+{Fore.cyan}upce2upca/u2u/e2a,[entryid]{Style.reset} - print upce2upca value
+{Fore.green_yellow}upce2upca/u2u/e2a,[entryid],[newvalue]{Style.reset} - update upce2upca value
+
+{Fore.green_yellow}Edit Entry:
+	{Fore.GREY_50}
+	n,b,'' - skip and go to next entry
+	q - user quits program
+	d - deletes entry item
+	{Style.reset}
+{Style.reset}
+
+{Fore.cyan}ListMode:
+	{Fore.red}
+	flags item InList=True
+	anytime the item is requested, its ListQty field is incremented
+	{Style.reset}
+{Style.reset}
