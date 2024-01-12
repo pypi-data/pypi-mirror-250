@@ -1,0 +1,16 @@
+cameraman/__init__.py,sha256=hJrA4lUrJjUo3URoO3XyHlLZeeVYvU7Ylo_GMW0y5jg,133
+cameraman/cameraman.py,sha256=l0VV0DUnoqrpjbN1oRzy2cAfBVVnr8CssamkdjFalKM,554
+cameraman/helpers.py,sha256=n-NWprHyIrqg7s-N6Bh6t05sawbAH-i10C4WAFaN3y4,5708
+cameraman/cli/__init__.py,sha256=2s-7DBUNsTrewIqbiPfpj-Z842wUvbwaKtpyapIMfuA,1198
+cameraman/cli/config.py,sha256=GjYpll6AVfUYYTzbYSkK40401lirCdqGDr_KUa00tS4,3709
+cameraman/cli/inventory.py,sha256=U4sMZCSXYaRP2XUejgv6bDk60-GVESTt0IU0LBIsAB4,2457
+cameraman/cli/main.py,sha256=0RS1x97zid1alDia488OVgyjoYxnnI_i5mTZlD8syz0,1561
+cameraman/cli/wingdbstub.py,sha256=I3By1QTw627OKwcf2aUX61lrqfQE15FJZhy1mDBskEU,17377
+cameraman/cli/workspace.py,sha256=baK7-3ZsJOGWqzRWkDcfIGAvOkMemLDROBztJSE34fI,3361
+cameraman-0.1.0.dist-info/AUTHORS.rst,sha256=DJWRsAX9L2yG7FsyDzWBb8G9Oeb0cvjnUxyPZR_5elM,162
+cameraman-0.1.0.dist-info/LICENSE,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cameraman-0.1.0.dist-info/METADATA,sha256=UNqh2-JgAd86MeTMWwR5mj2H-mU-MOIlmQCwVQY3Zck,1379
+cameraman-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+cameraman-0.1.0.dist-info/entry_points.txt,sha256=TeSI_SLBjvl216djbRH1zIrPhehGENAadjhH0VUTXj0,50
+cameraman-0.1.0.dist-info/top_level.txt,sha256=Dbn89CxLAZJe04wJ8bSnlLZ4G_WCHQnPo4UDDzafeIo,10
+cameraman-0.1.0.dist-info/RECORD,,

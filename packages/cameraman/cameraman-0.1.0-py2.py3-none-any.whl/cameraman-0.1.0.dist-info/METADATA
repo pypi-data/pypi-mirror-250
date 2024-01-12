@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: cameraman
+Version: 0.1.0
+Summary: Camera Control Utility
+Home-page: https://github.com/asterio/cameraman
+Author: Asterio Gonzalez
+Author-email: apastor@cibernos.com
+License: UNKNOWN
+Keywords: cameraman
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click (>=7.1.2)
+Requires-Dist: glom
+Requires-Dist: jmespath
+Requires-Dist: pycelium (>=0.1.37)
+Requires-Dist: sphinx-autobuild
+
+=========
+Cameraman
+=========
+
+
+
+
+
+
+Camera Control Utility
+
+
+
+Features
+----------------
+
+* TODO
+
+Before Coding
+----------------
+
+* create a virtual env
+
+::
+	python3 -m venv venv
+	source venv/bin/activate
+	make install-testing-requisites
+
+
+
+Credits
+----------------
+
+This package was created with Cookiecutter_ and the `cib_pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`cib_pypackage`: https://git.spec-cibernos.com/spec/templates/cib_pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2024-01-10)
+------------------
+
+* First release on PyPI.
+
+
