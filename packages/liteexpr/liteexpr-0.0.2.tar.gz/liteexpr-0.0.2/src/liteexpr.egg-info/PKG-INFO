@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: liteexpr
+Version: 0.0.2
+Summary: A light, expression language.
+Home-page: https://github.com/markuskimius/liteexpr
+Author: Mark Kim
+Author-email: markuskimius+py@gmail.com
+License: Apache 2.0
+Keywords: expression,language,antlr4
+Description-Content-Type: text/markdown
+
+# liteexpr
+A light, expression language.
+
+
+## License
+[Apache 2.0]
+
+
+[Apache 2.0]: <https://github.com/markuskimius/liteexpr/blob/master/LICENSE>
+
