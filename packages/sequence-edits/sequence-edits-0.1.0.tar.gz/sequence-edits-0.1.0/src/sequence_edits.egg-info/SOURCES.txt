@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/sequence_edits/__init__.py
+src/sequence_edits/main.py
+src/sequence_edits.egg-info/PKG-INFO
+src/sequence_edits.egg-info/SOURCES.txt
+src/sequence_edits.egg-info/dependency_links.txt
+src/sequence_edits.egg-info/requires.txt
+src/sequence_edits.egg-info/top_level.txt
+src/sequence_edits/models/__init__.py
+src/sequence_edits/models/models.py

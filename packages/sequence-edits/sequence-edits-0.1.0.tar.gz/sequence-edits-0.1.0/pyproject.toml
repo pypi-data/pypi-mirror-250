@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sequence-edits"
+version = "0.1.0"
+authors = [
+    {name="Marcel Claramunt", email="marcel@marcelclaramunt.cat"}
+]
+description = "Tools for encoding/decoding sequence editions (insertions/deletions) in compact format. Supports pydantic models to send over the wire"
+dependencies = [
+    "ramda", "pydantic"
+]
+requires-python = ">=3.10"
+readme = {file="README.md", content-type="text/markdown"}
