@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/desota/__init__.py
+src/desota/detools.py
+src/desota.egg-info/PKG-INFO
+src/desota.egg-info/SOURCES.txt
+src/desota.egg-info/dependency_links.txt
+src/desota.egg-info/requires.txt
+src/desota.egg-info/top_level.txt
