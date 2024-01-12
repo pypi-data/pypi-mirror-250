@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: esiosapy
+Version: 0.0.1
+Summary: Unofficial ESIOS API Python library. Up to date and fully equipped.
+License: MIT
+Author: M4RC0Sx
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# esiosapy
+Unofficial ESIOS API Python library. Up to date and fully equipped.
+
