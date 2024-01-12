@@ -1,0 +1,9 @@
+embloy_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+embloy_sdk/client.py,sha256=eU29Q6YJlF2sczRyNHkFhIBn_L9CDj9X-e7Md3wymY8,1375
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+embloy_sdk-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+embloy_sdk-0.1.0.dist-info/METADATA,sha256=uck2yzSzyhqfpt_VwVg_02mo04AGMT8gpd86WVAqVMk,524
+embloy_sdk-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+embloy_sdk-0.1.0.dist-info/top_level.txt,sha256=E0DJe5zk6ixVnOaHZ3FbiU08WrcAtvYYp24UHo7fl6g,17
+embloy_sdk-0.1.0.dist-info/RECORD,,
