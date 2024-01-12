@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pycarde
+Version: 0.8.6
+Summary: Nintendo e-Reader card-e extractor/maker.
+Home-page: https://github.com/irdkwia/pycarde/
+Author: irdkwia idkmn
+Author-email: irdkwia2000@gmail.com
+License: GPL
+Keywords: Nintendo e-Reader,card-e
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: pillow >=6.1.0
+
