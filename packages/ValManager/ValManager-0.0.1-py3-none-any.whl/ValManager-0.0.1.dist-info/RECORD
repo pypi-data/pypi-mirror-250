@@ -1,0 +1,14 @@
+ValManager/__init__.py,sha256=M4wNTqQbY_bok7KAf_tkU2JECnWcfPplkoJdUI-RAkE,63
+ValManager/config.py,sha256=hEUM4tyKFvuTDoXTIvFuHPNRA_Gc1hI-iUWVKoQhkEg,1464
+ValManager/loadout.py,sha256=XVHJKWS2WP6526aie3Hj5Jft5IcDsVkI1Fe_3o8hZzI,1827
+ValManager/storage.py,sha256=q58rKe_E_EoxDOfOh4VSGz2YQYQAxstSCVCJRmQV_6E,179
+ValManager/structs.py,sha256=HHjDFtTtGywGduDTDn21KWMvv1J2vmG5-pZn5hgivww,730
+ValManager/backup/__init__.py,sha256=E7DQCTXKtpOGLCYuZIr3z14cjaetIgOYbUxuavUoVtk,121
+ValManager/backup/backup.py,sha256=4_wnW5j0nAZvlMHVbfI2b1E1Jz8x4Uq3S0Y69lsmaFA,2557
+ValManager/backup/storage.py,sha256=nPvX_9tmmirMiPWK7fWzUJgDzUBEK_qsUx4uTyZnY-0,779
+ValManager/backup/transform.py,sha256=QfMgHv49x2e2UxDZEwyDg9pjXUmoqAGgFNwyeW5FyYs,2416
+ValManager-0.0.1.dist-info/LICENSE,sha256=OY5Wsq59-1KueMYJLtzyLPMJWUvEILNfHnjnxJb0L5M,35145
+ValManager-0.0.1.dist-info/METADATA,sha256=NyDE6iCzq1KnV1BzcUnKloS0Qb-HRHxTX3XvfVyhxpE,1236
+ValManager-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ValManager-0.0.1.dist-info/top_level.txt,sha256=4CFegtv1qYn2kjm1fpwkAmjHuFD75bx7qMAiymOVQew,11
+ValManager-0.0.1.dist-info/RECORD,,
