@@ -1,0 +1,13 @@
+wrapt>=1.15.0
+
+[aioredis]
+aioredis
+
+[httpx]
+httpx
+
+[pydantic]
+pydantic
+
+[redis]
+redis
