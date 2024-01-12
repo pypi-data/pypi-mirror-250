@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: trusted-ai
+Version: 0.1.4
+Summary: trusted-ai package
+Author-Email: Ekaterina Kurdenkova <kurdenkova@ispras.ru>
+License: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# trusted-ai
