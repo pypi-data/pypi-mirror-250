@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "multi_bioservices"
+version = "3.0.0"
+description = "This is a multithreaded version of various BioServices functions"
+authors = ["Josh Loecker <joshloecker@icloud.com>"]
+readme = "README.md"
+packages = [{ include = "multi_bioservices" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+pandas = ">=1.4.4"
+bioservices = "<2"
+aiosqlite = ">=0.19.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = ">=7.4.2"
+pytest-xdist = "^3.5.0"
+coverage = ">=7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
