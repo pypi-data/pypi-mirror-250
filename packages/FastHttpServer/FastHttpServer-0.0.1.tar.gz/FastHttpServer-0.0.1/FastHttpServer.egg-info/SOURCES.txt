@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+FastHttpServer/__init__.py
+FastHttpServer.egg-info/PKG-INFO
+FastHttpServer.egg-info/SOURCES.txt
+FastHttpServer.egg-info/dependency_links.txt
+FastHttpServer.egg-info/top_level.txt
