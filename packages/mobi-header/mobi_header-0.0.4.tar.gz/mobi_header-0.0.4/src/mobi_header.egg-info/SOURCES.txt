@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/mobi_header/__init__.py
+src/mobi_header/mobi_header.py
+src/mobi_header.egg-info/PKG-INFO
+src/mobi_header.egg-info/SOURCES.txt
+src/mobi_header.egg-info/dependency_links.txt
+src/mobi_header.egg-info/requires.txt
+src/mobi_header.egg-info/top_level.txt
+test/test_change_exth_metadata.py
