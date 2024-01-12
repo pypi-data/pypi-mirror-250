@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<dc-workflow xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+             workflow_id="senaite_storage_default_workflow"
+             title="Default workflow for senaite storage"
+             description=""
+             state_variable="review_state"
+             initial_state="active"
+             manager_bypass="False"
+             i18n:domain="senaite.storage">
+
+  <!-- This governs whether you are allowed to delete some content in this folder. -->
+  <permission>Delete objects</permission>
+  <!-- This governs whether you are allowed to modify some content. -->
+  <permission>Modify portal content</permission>
+  <!-- This governs whether you are allowed to view some content. -->
+  <permission>View</permission>
+  <!-- This permission allows access to an object, without necessarily viewing the -->
+  <!-- object. For example, a user may want to see the object's title in a list of -->
+  <!-- results, even though the user can't view the contents of that file. -->
+  <permission>Access contents information</permission>
+  <!-- This governs whether you can get a listing of the contents of a folder; it -->
+  <!-- doesn't check whether you have the right to view the objects listed. -->
+  <permission>List folder contents</permission>
+
+  <!-- senaite.storage Add permissions -->
+  <permission>senaite.storage: Add Storage Facility</permission>
+  <permission>senaite.storage: Add Storage Container</permission>
+  <permission>senaite.storage: Add Storage Samples Container</permission>
+  <permission>senaite.storage: Add Storage Position</permission>
+
+  <!-- senaite.storage Transition permissions -->
+  <permission>senaite.storage: Transition: Add Samples</permission>
+  <permission>senaite.storage: Transition: Recover Samples</permission>
+  <permission>senaite.storage: Transition: Activate</permission>
+  <permission>senaite.storage: Transition: Deactivate</permission>
+
+  <!-- State: active -->
+  <state state_id="active" title="Active" i18n:attributes="title">
+    <!-- Transitions -->
+    <exit-transition transition_id="deactivate" />
+    <exit-transition transition_id="add_samples" />
+    <exit-transition transition_id="recover_samples" />
+    <exit-transition transition_id="move_container" />
+
+    <!-- Plone permission mappings -->
+    <permission-map name="Access contents information" acquired="True" />
+    <permission-map name="Delete objects" acquired="True" />
+    <permission-map name="List folder contents" acquired="True" />
+    <permission-map name="Modify portal content" acquired="True" />
+    <permission-map name="View" acquired="True" />
+    <!-- senaite.storage Add permissions -->
+    <permission-map name="senaite.storage: Add Storage Facility" acquired="True" />
+    <permission-map name="senaite.storage: Add Storage Container" acquired="True" />
+    <permission-map name="senaite.storage: Add Storage Samples Container" acquired="True" />
+    <permission-map name="senaite.storage: Add Storage Position" acquired="True" />
+    <!-- senaite.storage Transition permissions -->
+    <permission-map name="senaite.storage: Transition: Deactivate" acquired="True" />
+    <permission-map name="senaite.storage: Transition: Add Samples" acquired="True" />
+    <permission-map name="senaite.storage: Transition: Recover Samples" acquired="True" />
+  </state>
+
+  <!-- State: inactive -->
+  <state state_id="inactive" title="Inactive" i18n:attributes="title">
+    <!-- Transitions -->
+    <exit-transition transition_id="activate" />
+    <exit-transition transition_id="recover_samples" />
+    <exit-transition transition_id="move_container" />
+    <!-- Plone permission mappings -->
+    <permission-map name="Access contents information" acquired="True" />
+    <permission-map name="Delete objects" acquired="False" />
+    <permission-map name="List folder contents" acquired="True" />
+    <permission-map name="Modify portal content" acquired="False" />
+    <permission-map name="View" acquired="True" />
+    <!-- senaite.storage permissions -->
+    <permission-map name="senaite.storage: Add Storage Facility" acquired="False" />
+    <permission-map name="senaite.storage: Add Storage Container" acquired="False" />
+    <permission-map name="senaite.storage: Add Storage Samples Container" acquired="False" />
+    <permission-map name="senaite.storage: Add Storage Position" acquired="False" />
+    <!-- senaite.storage Transition permissions -->
+    <permission-map name="senaite.storage: Transition: Activate" acquired="True" />
+    <permission-map name="senaite.storage: Transition: Add Samples" acquired="False" />
+    <permission-map name="senaite.storage: Transition: Recover Samples" acquired="False" />
+  </state>
+
+  <!-- Transition: activate -->
+  <transition transition_id="activate" title="Activate" new_state="active" trigger="USER" before_script="" after_script="" i18n:attributes="title">
+    <action url="" category="workflow" icon="">Activate</action>
+    <guard>
+      <guard-permission>senaite.storage: Transition: Activate</guard-permission>
+      <guard-expression></guard-expression>
+    </guard>
+  </transition>
+
+  <!-- Transition: deactivate -->
+  <transition transition_id="deactivate" title="Deactivate" new_state="inactive" trigger="USER" before_script="" after_script="" i18n:attributes="title">
+    <action url="" category="workflow" icon="">Deactivate</action>
+    <guard>
+      <guard-permission>senaite.storage: Transition: Deactivate</guard-permission>
+      <guard-expression></guard-expression>
+    </guard>
+  </transition>
+
+  <!-- Transition: add_samples -->
+  <transition transition_id="add_samples" title="Add samples"
+              new_state="" trigger="USER" before_script="" after_script=""
+              i18n:attributes="title">
+    <action url="%(content_url)s/storage_store_container" category="workflow" icon="">Add samples</action>
+    <guard>
+      <guard-permission>senaite.storage: Transition: Add Samples</guard-permission>
+      <guard-expression>python:here.guard_add_samples()</guard-expression>
+    </guard>
+  </transition>
+
+  <!-- Transition: recover_samples -->
+  <transition transition_id="recover_samples" title="Recover samples"
+              new_state="" trigger="USER" before_script="" after_script=""
+              i18n:attributes="title">
+    <action url="" category="workflow" icon="">Recover samples</action>
+    <guard>
+      <guard-permission>senaite.storage: Transition: Recover Samples</guard-permission>
+      <guard-expression>python:here.guard_recover_samples()</guard-expression>
+    </guard>
+  </transition>
+
+  <!-- Transition: move_container -->
+  <transition transition_id="move_container" title="Move container"
+              new_state="" trigger="USER" before_script="" after_script=""
+              i18n:attributes="title">
+    <action url="%(content_url)s/storage_move_container" category="workflow" icon="">Move container</action>
+    <guard>
+      <guard-permission>senaite.storage: Transition: Move Container</guard-permission>
+      <guard-expression>python:here.guard_move_container()</guard-expression>
+    </guard>
+  </transition>
+
+  <!-- WF Variables -->
+  <variable variable_id="action" for_catalog="False" for_status="True" update_always="True">
+    <description>Previous transition</description>
+    <default>
+      <expression>transition/getId|nothing</expression>
+    </default>
+    <guard>
+    </guard>
+  </variable>
+
+  <variable variable_id="actor" for_catalog="False" for_status="True" update_always="True">
+    <description>The ID of the user who performed the last transition</description>
+    <default>
+      <expression>user/getId</expression>
+    </default>
+    <guard>
+    </guard>
+  </variable>
+
+  <variable variable_id="comments" for_catalog="False" for_status="True" update_always="True">
+    <description>Comment about the last transition</description>
+    <default>
+      <expression>python:state_change.kwargs.get('comment', '')</expression>
+    </default>
+    <guard>
+    </guard>
+  </variable>
+
+  <variable variable_id="review_history" for_catalog="False" for_status="False" update_always="False">
+    <description>Provides access to workflow history</description>
+    <default>
+      <expression>state_change/getHistory</expression>
+    </default>
+    <guard>
+      <guard-permission>Request review</guard-permission>
+      <guard-permission>Review portal content</guard-permission>
+    </guard>
+  </variable>
+
+  <variable variable_id="time" for_catalog="False" for_status="True" update_always="True">
+    <description>When the previous transition was performed</description>
+    <default>
+      <expression>state_change/getDateTime</expression>
+    </default>
+    <guard>
+    </guard>
+  </variable>
+
+</dc-workflow>

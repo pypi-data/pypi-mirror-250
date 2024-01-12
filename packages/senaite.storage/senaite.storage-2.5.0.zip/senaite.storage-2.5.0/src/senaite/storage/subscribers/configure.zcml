@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="senaite.storage">
+
+  <!-- After upgrade step event handler -->
+  <subscriber
+    for="senaite.core.events.upgrade.IAfterUpgradeStepEvent"
+    handler="senaite.storage.subscribers.upgrade.afterUpgradeStepHandler"
+  />
+
+  <!-- Modified a container. Updates capacity and usage to parent -->
+  <subscriber
+    for="senaite.storage.interfaces.IStorageLayoutContainer
+         zope.lifecycleevent.interfaces.IObjectModifiedEvent"
+    handler="senaite.storage.subscribers.StorageContentModifiedEventHandler"
+  />
+
+  <!-- Removed a container. Updates capacity and usage to parent -->
+  <subscriber
+    for="senaite.storage.interfaces.IStorageLayoutContainer
+         zope.lifecycleevent.interfaces.IObjectRemovedEvent"
+    handler="senaite.storage.subscribers.StorageContentRemovedEventHandler"
+  />
+
+</configure>

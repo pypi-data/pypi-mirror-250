@@ -1,0 +1,34 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="senaite.storage">
+
+  <!-- Sample *before transition* event handler -->
+  <subscriber
+      for="bika.lims.interfaces.IAnalysisRequest
+           Products.DCWorkflow.interfaces.IBeforeTransitionEvent"
+      handler=".sample.BeforeTransitionEventHandler"
+      />
+
+  <!-- Sample *after transition* event handler -->
+  <subscriber
+      for="bika.lims.interfaces.IAnalysisRequest
+           Products.DCWorkflow.interfaces.IAfterTransitionEvent"
+      handler=".sample.AfterTransitionEventHandler"
+      />
+
+  <!-- Storage Content *after transition* event handler -->
+  <subscriber
+      for="senaite.storage.interfaces.IStorageContent
+           Products.DCWorkflow.interfaces.IAfterTransitionEvent"
+      handler=".storage.AfterTransitionEventHandler"
+      />
+
+
+  <!-- Storage Samples Container *after transition* event handler -->
+  <subscriber
+      for="senaite.storage.interfaces.IStorageSamplesContainer
+           Products.DCWorkflow.interfaces.IAfterTransitionEvent"
+      handler=".samplescontainer.AfterTransitionEventHandler"
+      />
+
+</configure>
