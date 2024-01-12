@@ -1,0 +1,9 @@
+taygete/__init__.py,sha256=IILIKzO2OO60Rhsh3SqhdKHDf7XI_RLRwzztBGZZmHY,78
+taygete/__main__.py,sha256=vhPinRr7rm6_d69LCztUocsLlbYH2nFJuwZPVzt-bx0,133
+taygete/configure.py,sha256=6lqY2ll6R5jIL7MT8aAKxGK856ORu_NI0_jqDhT-DhI,6591
+taygete/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taygete/tests/test_init.py,sha256=jJ_8tuA0DocE3rTNViP5J2-1mCrBo2I8d3lxuELOyZA,214
+taygete-2024.1.11.81811.dev1.dist-info/METADATA,sha256=thvTlxiRN4btVP5CHwyKZ4aZjf0DaQi3NQCTkPTeLL0,2024
+taygete-2024.1.11.81811.dev1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+taygete-2024.1.11.81811.dev1.dist-info/top_level.txt,sha256=3lLAWlTiTKMkqlNLsEXJjsAKgmFgHLgN0GsSnf1nJVk,8
+taygete-2024.1.11.81811.dev1.dist-info/RECORD,,
