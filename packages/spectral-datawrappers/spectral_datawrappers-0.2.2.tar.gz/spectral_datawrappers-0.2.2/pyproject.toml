@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spectral-datawrappers"
+version = "0.2.2"
+description = "Library for retrieving data for participating in Spectral's challenges"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "spectral_datawrappers"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+dynaconf = "^3.2.3"
+pytest = "^7.4.3"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
