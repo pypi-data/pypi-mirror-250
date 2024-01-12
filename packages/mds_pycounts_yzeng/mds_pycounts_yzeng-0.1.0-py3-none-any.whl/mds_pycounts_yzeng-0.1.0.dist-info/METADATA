@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: mds_pycounts_yzeng
+Version: 0.1.0
+Summary: toy package
+License: MIT
+Author: Yan Zeng
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.8.2)
+Description-Content-Type: text/markdown
+
+# mds_pycounts_yzeng
+
+toy package
+
+## Installation
+
+```bash
+$ pip install mds_pycounts_yzeng
+```
+
+## Usage
+
+`pycounts` can be used to count words in a text file and plot results
+as follows:
+
+```python
+from pycounts.pycounts import count_words
+from pycounts.plotting import plot_words
+import matplotlib.pyplot as plt
+
+file_path = "test.txt"  # path to your file
+counts = count_words(file_path)
+fig = plot_words(counts, n=10)
+plt.show()
+```
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`mds_pycounts_yzeng` was created by Yan Zeng. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`mds_pycounts_yzeng` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
