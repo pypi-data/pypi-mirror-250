@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+opencre/__init__.py
+opencre/property_generic.py
+opencre/property_multifamily.py
+opencre.egg-info/PKG-INFO
+opencre.egg-info/SOURCES.txt
+opencre.egg-info/dependency_links.txt
+opencre.egg-info/top_level.txt

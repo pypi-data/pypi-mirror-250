@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: opencre
+Version: 0.1
+Summary: A package of basic calculations and functions commonly used in Commercial Real Estate
+Home-page: UNKNOWN
+Author: Caleb Lewallen
+Author-email: caleb@lewallen.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.10
+License-File: LICENSE
+
+UNKNOWN
+
