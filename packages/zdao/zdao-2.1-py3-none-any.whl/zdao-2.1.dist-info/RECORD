@@ -1,0 +1,14 @@
+w_dao/__cls_aide_dao_action__.py,sha256=dzja2_rJQhzZ3zTAnzB0MhuqKWkCsPAoMWRVkI6tjCA,3519
+w_dao/__cls_aide_dao_model__.py,sha256=0I9PGFOnCDpDFCD0hI8KcVkjKRETlYZ3O9NPkeUAdnU,20150
+w_dao/__example_cls_dao_model__.py,sha256=5WmsZxjSbQ458M2QyWL901bap2NT-0TO_aJsjmif7Ws,635
+w_dao/__init__.py,sha256=6ZQOD1ItV96RctpN6SguEnfDeagvNA8aU61FuBEj-PA,133
+zdao/__cls_aide_dao_action__.py,sha256=g4wCNfSh4clCdSgtca-oR7wp6f5ZY4wURumpnOwJ5sE,3523
+zdao/__cls_aide_dao_db_types__.py,sha256=yDZbNIPsX7qMeAeu7vkomLnk0QCB362drfDPQpjSX_4,1541
+zdao/__cls_aide_dao_model_base__.py,sha256=-D4v1fra4GwF3jAXs2FxlE_FZssofqZvt4Vm7SpfBfo,2649
+zdao/__cls_aide_dao_model_column__.py,sha256=NlN-t4Grqzcf9r8vxxjn-n_Xpoe4BpruC8owdreaw7w,20443
+zdao/__example__.py,sha256=XEIJrup4RFcot74d1cCrETTksKvBJHFBekwdGnnOGAk,1303
+zdao/__init__.py,sha256=c3WCTO-TgJ4fyIz63q6U5dgQ-_1vOWTnsWEPPw90cZg,151
+zdao-2.1.dist-info/METADATA,sha256=L54eyw0jDdbYjHavlbl5fjuh8fvGHF4GI0rZTxB2oig,216
+zdao-2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+zdao-2.1.dist-info/top_level.txt,sha256=9kEbMY8WR2zgVVgeADuiTYwDq9n0FW_1g6luZYyZB2M,5
+zdao-2.1.dist-info/RECORD,,
