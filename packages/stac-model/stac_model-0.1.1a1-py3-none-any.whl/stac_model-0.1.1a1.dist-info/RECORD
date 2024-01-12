@@ -1,0 +1,12 @@
+stac_model/__init__.py,sha256=gZO3dxnC6cLhfM0C86awgVTgQQKtDoWs71Ue_Kh0-bg,241
+stac_model/__main__.py,sha256=qmyA_TpevTMNrZ94klWsfS5pSAoX7M1g_UXV30ddwDk,3716
+stac_model/input.py,sha256=v-ZCuJidUsfFgbVxJCJu0YBuYl8g30knhk9tdTNBvKg,1302
+stac_model/output.py,sha256=h6-J05KKLcaM2SuIgCLt3Oj8djnCLqMnutAodg0l7Lw,1224
+stac_model/paths.py,sha256=DyofZtNx5XeLKq8HtrHU2wlWbq54uqVJuwaaMsgOcFs,1653
+stac_model/runtime.py,sha256=HmhhDWL9w3bWdFuTbKDDU1yLnwxbo0uSi27hKS1hHto,1756
+stac_model/schema.py,sha256=hWev5LSS0j5eGfjQc3ej3DiFeFAiqlqHZwS7r-fyCrk,854
+stac_model-0.1.1a1.dist-info/LICENSE,sha256=9bfErH17oc5i6vd7tOKqzkv6WlRUDhj0_BNWQb2Iou4,10888
+stac_model-0.1.1a1.dist-info/METADATA,sha256=i0SP6hMoDaw5f80gwGPY-xOAIQABfTZTNpe1xVDCJ-E,6934
+stac_model-0.1.1a1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+stac_model-0.1.1a1.dist-info/entry_points.txt,sha256=XEKYpoPWodkX_IO_r79kzXCagI_Fj3kHtTSiDA5pNCg,54
+stac_model-0.1.1a1.dist-info/RECORD,,
