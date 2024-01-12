@@ -1,0 +1,10 @@
+task_pipeline-0.2.0.dist-info/METADATA,sha256=bgC3c85UaOKNptSWp1zQV50r2IEOZHEzAjbfJ-ikYLg,263
+task_pipeline-0.2.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+task_pipeline-0.2.0.dist-info/licenses/LICENSE,sha256=tJpV8Eev1b2y0c46dvJMgWDxwtmhOirvl4neq5RbLFw,1087
+task_pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+task_pipeline/_utils.py,sha256=OOyPOKYJ_g8Z-O1pqj5Op8Z-hRhQ_vKXyMxyvyuM0ZA,294
+task_pipeline/operators.py,sha256=9sh4uRJEgSfT2_zqWnEBf-ppjLw9EMyGuef9WyI7HcU,1614
+task_pipeline/pipe.py,sha256=X7llsVIC_k9tCA34jDlTctEDZwClbMZLklRQFqJf2oc,1645
+task_pipeline/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+task_pipeline/types_.py,sha256=3FMGlYwv15LXQHbBx6fG2baZbPAxGmoy0rYpb6odQIc,670
+task_pipeline-0.2.0.dist-info/RECORD,,
