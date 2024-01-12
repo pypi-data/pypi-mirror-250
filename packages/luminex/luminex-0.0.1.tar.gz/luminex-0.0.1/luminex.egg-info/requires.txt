@@ -1,0 +1,10 @@
+pyspark
+pandas
+numpy
+boto3
+fastparquet
+pyarrow
+python-dotenv
+requests
+pyyaml
+PyGithub
