@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bw-utils
+Version: 2.0.0
+Summary: Bitwarden Utilities
+Home-page: https://github.com/ZackaryW/bitwarden-utils
+Author: ZackaryW
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: click
+
+# bitwarden-utils
+bitwarden cli utilities
+
+## Install
+```bash
+pip install bw-utils
+```
+
+## Cli usage
+to download all attachments
+
+```bash
+bwu {-c [username]} -c [password] {-c [totp]} downall [targetFolder]
+```
+
+## Archived
+this library was a CLI and GUI toolkit for attachment export and json result viewer, link here https://github.com/ZackaryW/bitwarden-utils/tree/legacy  

@@ -1,0 +1,2 @@
+[console_scripts]
+bwu = bitwarden_utils.cli:cli_main
