@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+llama_index_extra_llm/__init__.py
+llama_index_extra_llm/deepseek.py
+llama_index_extra_llm.egg-info/PKG-INFO
+llama_index_extra_llm.egg-info/SOURCES.txt
+llama_index_extra_llm.egg-info/dependency_links.txt
+llama_index_extra_llm.egg-info/requires.txt
+llama_index_extra_llm.egg-info/top_level.txt
