@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: xladybug
+Version: 0.0.6
+Summary: Used for debugging.
+Home-page: https://github.com/itsrishub/xladybug
+Author: Rishub Kumar
+Author-email: itsrishub@gmail.com
+License: MIT
+Keywords: python,debugger,performance
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# Debugger tool
+[Author](https://twitter.com/itsrishub)
+
+Debug your code with advance python mode, get time of execution, parameters, returns and many more.
+
+Usage for functions:
+```
+@debug
+def function():
+    #your_code
+```
+
+Usage for variables:
+```
+x = 10
+debug(x)
+```
+
+Usage for debugging:
+```
+debug('here!')
+```
