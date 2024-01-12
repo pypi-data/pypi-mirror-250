@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+assemblyai_haystack/__init__.py
+assemblyai_haystack/transcriber.py
+assemblyai_haystack.egg-info/PKG-INFO
+assemblyai_haystack.egg-info/SOURCES.txt
+assemblyai_haystack.egg-info/dependency_links.txt
+assemblyai_haystack.egg-info/requires.txt
+assemblyai_haystack.egg-info/top_level.txt
