@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zrok_sdk
+Version: 1.0.0
+Summary: zrok
+Home-page: 
+Author-email: 
+Keywords: Swagger,zrok
+Requires-Dist: urllib3>=1.15
+Requires-Dist: six>=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    zrok client access  # noqa: E501
+    
