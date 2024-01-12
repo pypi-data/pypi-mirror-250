@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ovos-PHAL-plugin-system
+Version: 0.0.5a1
+Summary: A plugin for OpenVoiceOS hardware abstraction layer
+Home-page: https://github.com/OpenVoiceOS/ovos-PHAL-plugin-system
+Author: JarbasAi
+Author-email: jarbasai@mailfence.com
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ovos-plugin-manager ~=0.0.1
+Requires-Dist: ovos-utils >=0.0.30,~=0.0
+Requires-Dist: ovos-config >=0.0.5,~=0.0
+Requires-Dist: ovos-bus-client ~=0.0.8
+
+# ovos-PHAL-plugin - system
+
+handle bus events to interact with the OS
+
+```python
+self.bus.on("system.ntp.sync", self.handle_ntp_sync_request)
+self.bus.on("system.ssh.enable", self.handle_ssh_enable_request)
+self.bus.on("system.ssh.disable", self.handle_ssh_disable_request)
+self.bus.on("system.reboot", self.handle_reboot_request)
+self.bus.on("system.shutdown", self.handle_shutdown_request)
+```
