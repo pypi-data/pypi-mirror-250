@@ -1,0 +1,7 @@
+swarm/__init__.py,sha256=9S3SXKZnwqcHyHTKtdXfzs5evOdZz5UEbGbTSuKITqE,5197
+swarm/serialhandler.py,sha256=patEkqvmuyh-Tk6aGZOkK9cSr47VBba9nGidMTLAOQg,2603
+swarm/swarm.py,sha256=GYebo0kGH_wm1vTz8Z-6k4HtTTB2rcyXhghMxlIgTfQ,14392
+ftswarm_py-1.2.0.dist-info/LICENSE,sha256=7dhywuGVvopOzkYoBVmamNB2pb7ivl3XVzaF7VaH8FQ,1073
+ftswarm_py-1.2.0.dist-info/METADATA,sha256=I7jUIBflaVkDt4ncR66Y8fSGifZI3OHbxOea2fAapyI,2274
+ftswarm_py-1.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ftswarm_py-1.2.0.dist-info/RECORD,,
