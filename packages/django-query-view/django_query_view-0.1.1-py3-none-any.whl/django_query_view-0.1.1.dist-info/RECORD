@@ -1,0 +1,11 @@
+query_view/filter_sets.py,sha256=ZSeugCl_roweqCXdShZP3l22zzvGh9_pTahzTgBVNgY,861
+query_view/models.py,sha256=tr9UGSv_I2JeOzEI5T3w-dA4vEiyKQEFAPZB_A_Ci0s,1675
+query_view/templates/query_view/query.html,sha256=EbcIvORW2G5AbK95r-iC_sXJ0uzXVkVoNIyQF09VzjQ,300
+query_view/templates/query_view/query.jinja,sha256=NhMUw2QKe5HMueHN2_17EEICOw-RGYlwF-gdqIpt5nc,307
+query_view/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+query_view/templatetags/query_view_tags.py,sha256=QDPMseuKzl_kcTfoTj0zeK3A33om-PGxghMGiSBCel0,1443
+query_view/views.py,sha256=wcGhuzsB4Wz3Z-9fdsfAAPKxHvqgxReTEoItJee0BiE,390
+django_query_view-0.1.1.dist-info/LICENSE,sha256=a0wWN-MKCEM9FcFwN1i656F8nyiob9wNsGkBnbB5SZ4,1071
+django_query_view-0.1.1.dist-info/METADATA,sha256=ywgr0asdlhW_jViQJjrV7KwaKRxuTkugSWXTauXD5kc,3293
+django_query_view-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_query_view-0.1.1.dist-info/RECORD,,

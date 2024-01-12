@@ -1,0 +1,13 @@
+<a href="{{ url(url_name) }}">Clear</a>
+
+{{ crispy(filter.form) }}
+
+<h1>Records</h1>
+{% for obj in filter.qs %}
+    {{ obj.name }}<br />
+{% endfor %}
+
+<h1>Tags</h1>
+{% for tag in tags %}
+    <a href="{{ tag_url(url_name, filter, tag) }}">{{ tag }} ({{ tag_count(object_list, tag) }})</a><br />
+{% endfor %}
