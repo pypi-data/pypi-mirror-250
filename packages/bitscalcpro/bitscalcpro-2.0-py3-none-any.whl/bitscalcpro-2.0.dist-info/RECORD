@@ -1,0 +1,13 @@
+bitscalcpro/__init__.py,sha256=BeZ0N7T75H7R4FetEAZt9wuesmwIYe-ChNkGLK6ne-E,320
+bitscalcpro/base_converter.py,sha256=drJXZjfLNczZArv2uirDxfCpVM9kpQ72EgQifBlf5eA,3871
+bitscalcpro/float_converter.py,sha256=PWvs5tYm_hLQT8gHCiTdvQVw79-hz_TXjZ2i5MzRhqE,6551
+bitscalcpro/main.py,sha256=N7Rcrf4kAM7ZHgD1r3wIMxFKycdH2ACUmLKVrMe3MuM,1916
+bitscalcpro/print_info.py,sha256=GXd-wHlbYJ032lD0KHNaxsXdFTjgwRCccFqTXUUt4lY,16307
+bitscalcpro/validator.py,sha256=rmZ-2CsJzIvvUK5q-0mkC5Cr6CyIrEu6-z-pGh6NNq0,4805
+bitscalcpro/welcome.py,sha256=KbwrbNlakU8kY4T9jM5WP5ZZ8DC5eM0Vcfq_7rHMchE,1110
+bitscalcpro-2.0.dist-info/LICENSE,sha256=Vw0Ay4Fakj408IhVNH7kDMeYnqFx-rUoPmlA0O38lhY,1084
+bitscalcpro-2.0.dist-info/METADATA,sha256=bRa_OB8M_vnzbzC-2eaynPLBWvqnXuD9opNxe_VeSLk,3576
+bitscalcpro-2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bitscalcpro-2.0.dist-info/entry_points.txt,sha256=RCvNNG25z0S3wDzUe7c15Du_WsorzXuqXmlNZpywlW8,51
+bitscalcpro-2.0.dist-info/top_level.txt,sha256=Zih-hxUiC35xEheh68Ir7CI1cCbejc6dMhpLkNDxq5E,12
+bitscalcpro-2.0.dist-info/RECORD,,
