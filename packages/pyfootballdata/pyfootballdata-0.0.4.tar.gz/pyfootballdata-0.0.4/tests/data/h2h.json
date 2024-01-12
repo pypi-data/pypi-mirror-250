@@ -1,0 +1,230 @@
+{
+  "filters": {
+    "limit": "17",
+    "permission": "TIER_ONE"
+  },
+  "resultSet": {
+    "count": 3,
+    "competitions": "BL1",
+    "first": "2022-11-12",
+    "last": "2023-12-10"
+  },
+  "aggregates": {
+    "numberOfMatches": 17,
+    "totalGoals": 56,
+    "homeTeam": {
+      "id": 10,
+      "name": "VfB Stuttgart",
+      "wins": 1,
+      "draws": 4,
+      "losses": 12
+    },
+    "awayTeam": {
+      "id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "wins": 12,
+      "draws": 4,
+      "losses": 1
+    }
+  },
+  "matches": [
+    {
+      "area": {
+        "id": 2088,
+        "name": "Germany",
+        "code": "DEU",
+        "flag": "https://crests.football-data.org/759.svg"
+      },
+      "competition": {
+        "id": 2002,
+        "name": "Bundesliga",
+        "code": "BL1",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/BL1.png"
+      },
+      "season": {
+        "id": 1592,
+        "startDate": "2023-08-18",
+        "endDate": "2024-05-18",
+        "currentMatchday": 15,
+        "winner": null
+      },
+      "id": 441913,
+      "utcDate": "2023-12-10T14:30:00Z",
+      "status": "FINISHED",
+      "matchday": 14,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2023-12-17T10:21:19Z",
+      "homeTeam": {
+        "id": 10,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": "https://crests.football-data.org/10.png"
+      },
+      "awayTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": "https://crests.football-data.org/3.png"
+      },
+      "score": {
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": 1,
+          "away": 1
+        },
+        "halfTime": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": [
+        {
+          "id": 8825,
+          "name": "Deniz Aytekin",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        }
+      ]
+    },
+    {
+      "area": {
+        "id": 2088,
+        "name": "Germany",
+        "code": "DEU",
+        "flag": "https://crests.football-data.org/759.svg"
+      },
+      "competition": {
+        "id": 2002,
+        "name": "Bundesliga",
+        "code": "BL1",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/BL1.png"
+      },
+      "season": {
+        "id": 1495,
+        "startDate": "2022-08-05",
+        "endDate": "2023-05-27",
+        "currentMatchday": 34,
+        "winner": null
+      },
+      "id": 416412,
+      "utcDate": "2023-05-14T13:30:00Z",
+      "status": "FINISHED",
+      "matchday": 32,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2023-05-31T08:20:43Z",
+      "homeTeam": {
+        "id": 10,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": "https://crests.football-data.org/10.png"
+      },
+      "awayTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": "https://crests.football-data.org/3.png"
+      },
+      "score": {
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": 1,
+          "away": 1
+        },
+        "halfTime": {
+          "home": 0,
+          "away": 0
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": [
+        {
+          "id": 57532,
+          "name": "Frank Willenborg",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        }
+      ]
+    },
+    {
+      "area": {
+        "id": 2088,
+        "name": "Germany",
+        "code": "DEU",
+        "flag": "https://crests.football-data.org/759.svg"
+      },
+      "competition": {
+        "id": 2002,
+        "name": "Bundesliga",
+        "code": "BL1",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/BL1.png"
+      },
+      "season": {
+        "id": 1495,
+        "startDate": "2022-08-05",
+        "endDate": "2023-05-27",
+        "currentMatchday": 34,
+        "winner": null
+      },
+      "id": 416573,
+      "utcDate": "2022-11-12T14:30:00Z",
+      "status": "FINISHED",
+      "matchday": 15,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2023-05-31T08:20:43Z",
+      "homeTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": "https://crests.football-data.org/3.png"
+      },
+      "awayTeam": {
+        "id": 10,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": "https://crests.football-data.org/10.png"
+      },
+      "score": {
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": 2,
+          "away": 0
+        },
+        "halfTime": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": [
+        {
+          "id": 57518,
+          "name": "Florian Badstübner",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "filters": {
+    "dateFrom": "2023-12-18",
+    "dateTo": "2023-12-19",
+    "permission": "TIER_ONE"
+  },
+  "resultSet": {
+    "count": 4,
+    "competitions": "SA,ELC,PD,PPL",
+    "first": "2023-12-18",
+    "last": "2023-12-18",
+    "played": 0
+  },
+  "matches": [
+    {
+      "area": {
+        "id": 2114,
+        "name": "Italy",
+        "code": "ITA",
+        "flag": "https://crests.football-data.org/784.svg"
+      },
+      "competition": {
+        "id": 2019,
+        "name": "Serie A",
+        "code": "SA",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/SA.png"
+      },
+      "season": {
+        "id": 1600,
+        "startDate": "2023-08-19",
+        "endDate": "2024-05-26",
+        "currentMatchday": 16,
+        "winner": null
+      },
+      "id": 444404,
+      "utcDate": "2023-12-18T19:45:00Z",
+      "status": "TIMED",
+      "matchday": 16,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2023-09-08T15:20:25Z",
+      "homeTeam": {
+        "id": 102,
+        "name": "Atalanta BC",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": "https://crests.football-data.org/102.svg"
+      },
+      "awayTeam": {
+        "id": 455,
+        "name": "US Salernitana 1919",
+        "shortName": "Salernitana",
+        "tla": "SAL",
+        "crest": "https://crests.football-data.org/455.png"
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": []
+    },
+    {
+      "area": {
+        "id": 2072,
+        "name": "England",
+        "code": "ENG",
+        "flag": "https://crests.football-data.org/770.svg"
+      },
+      "competition": {
+        "id": 2016,
+        "name": "Championship",
+        "code": "ELC",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/ELC.png"
+      },
+      "season": {
+        "id": 1573,
+        "startDate": "2023-08-04",
+        "endDate": "2024-05-04",
+        "currentMatchday": 22,
+        "winner": null
+      },
+      "id": 436927,
+      "utcDate": "2023-12-18T20:00:00Z",
+      "status": "TIMED",
+      "matchday": 22,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2023-10-24T15:21:26Z",
+      "homeTeam": {
+        "id": 332,
+        "name": "Birmingham City FC",
+        "shortName": "Birmingham",
+        "tla": "BIR",
+        "crest": "https://crests.football-data.org/332.png"
+      },
+      "awayTeam": {
+        "id": 338,
+        "name": "Leicester City FC",
+        "shortName": "Leicester City",
+        "tla": "LEI",
+        "crest": "https://crests.football-data.org/338.png"
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": []
+    },
+    {
+      "area": {
+        "id": 2224,
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "https://crests.football-data.org/760.svg"
+      },
+      "competition": {
+        "id": 2014,
+        "name": "Primera Division",
+        "code": "PD",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/PD.png"
+      },
+      "season": {
+        "id": 1577,
+        "startDate": "2023-08-13",
+        "endDate": "2024-05-26",
+        "currentMatchday": 17,
+        "winner": null
+      },
+      "id": 438637,
+      "utcDate": "2023-12-18T20:00:00Z",
+      "status": "TIMED",
+      "matchday": 17,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2023-11-21T10:21:23Z",
+      "homeTeam": {
+        "id": 298,
+        "name": "Girona FC",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": "https://crests.football-data.org/298.png"
+      },
+      "awayTeam": {
+        "id": 263,
+        "name": "Deportivo Alavés",
+        "shortName": "Alavés",
+        "tla": "ALA",
+        "crest": "https://crests.football-data.org/263.png"
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": []
+    },
+    {
+      "area": {
+        "id": 2187,
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "https://crests.football-data.org/765.svg"
+      },
+      "competition": {
+        "id": 2017,
+        "name": "Primeira Liga",
+        "code": "PPL",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/PPL.png"
+      },
+      "season": {
+        "id": 1603,
+        "startDate": "2023-08-13",
+        "endDate": "2024-05-19",
+        "currentMatchday": 14,
+        "winner": null
+      },
+      "id": 445527,
+      "utcDate": "2023-12-18T20:15:00Z",
+      "status": "TIMED",
+      "matchday": 14,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2023-09-15T15:20:20Z",
+      "homeTeam": {
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "shortName": "Sporting CP",
+        "tla": "SPO",
+        "crest": "https://crests.football-data.org/498.png"
+      },
+      "awayTeam": {
+        "id": 503,
+        "name": "FC Porto",
+        "shortName": "Porto",
+        "tla": "FCP",
+        "crest": "https://crests.football-data.org/503.png"
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": []
+    }
+  ]
+}

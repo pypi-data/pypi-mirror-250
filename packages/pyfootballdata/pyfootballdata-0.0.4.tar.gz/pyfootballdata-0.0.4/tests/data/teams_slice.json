@@ -1,0 +1,140 @@
+{
+  "count": 10,
+  "filters": {
+    "limit": 10,
+    "offset": 10,
+    "permission": "TIER_ONE"
+  },
+  "teams": [
+    {
+      "id": 11,
+      "name": "VfL Wolfsburg",
+      "shortName": "Wolfsburg",
+      "tla": "WOB",
+      "crest": "https://crests.football-data.org/11.svg",
+      "address": "In den Allerwiesen 1 Wolfsburg 38446",
+      "website": "http://www.vfl-wolfsburg.de",
+      "founded": 1945,
+      "clubColors": "Green / White",
+      "venue": "Volkswagen Arena",
+      "lastUpdated": "2021-04-10T15:53:44Z"
+    },
+    {
+      "id": 12,
+      "name": "SV Werder Bremen",
+      "shortName": "Bremen",
+      "tla": "SVW",
+      "crest": "https://crests.football-data.org/12.svg",
+      "address": "Franz-Böhmert-Str. 1c Bremen 28205",
+      "website": "http://www.werder.de",
+      "founded": 1899,
+      "clubColors": "Green / White",
+      "venue": "Weserstadion",
+      "lastUpdated": "2021-04-07T17:14:56Z"
+    },
+    {
+      "id": 13,
+      "name": "1. FC Kaiserslautern",
+      "shortName": "Kaiserslautern",
+      "tla": "FCK",
+      "crest": "https://crests.football-data.org/13.png",
+      "address": "Fritz-Walter-Straße 1 Kaiserslautern 67663",
+      "website": "http://www.fck.de",
+      "founded": 1900,
+      "clubColors": "Red / White",
+      "venue": "Fritz-Walter-Stadion",
+      "lastUpdated": "2022-07-12T12:06:51Z"
+    },
+    {
+      "id": 14,
+      "name": "1. FC Nürnberg",
+      "shortName": "Nürnberg",
+      "tla": "FCN",
+      "crest": "https://crests.football-data.org/14.png",
+      "address": "Valznerweiherstraße 200 Nürnberg 90480",
+      "website": "http://www.fcn.de",
+      "founded": 1900,
+      "clubColors": "Red / White",
+      "venue": "Max-Morlock-Stadion",
+      "lastUpdated": "2023-02-28T07:59:27Z"
+    },
+    {
+      "id": 15,
+      "name": "1. FSV Mainz 05",
+      "shortName": "Mainz",
+      "tla": "M05",
+      "crest": "https://crests.football-data.org/15.png",
+      "address": "Dr.-Martin-Luther-King-Weg 20 Mainz 55122",
+      "website": "http://www.mainz05.de",
+      "founded": 1905,
+      "clubColors": "Red / White",
+      "venue": "Opel Arena",
+      "lastUpdated": "2023-02-28T07:59:34Z"
+    },
+    {
+      "id": 16,
+      "name": "FC Augsburg",
+      "shortName": "Augsburg",
+      "tla": "FCA",
+      "crest": "https://crests.football-data.org/16.png",
+      "address": "Donauwörther Straße 170 Augsburg 86154",
+      "website": "http://www.fcaugsburg.de",
+      "founded": 1907,
+      "clubColors": "Red / Green / White",
+      "venue": "WWK Arena",
+      "lastUpdated": "2023-02-28T07:59:40Z"
+    },
+    {
+      "id": 17,
+      "name": "SC Freiburg",
+      "shortName": "Freiburg",
+      "tla": "SCF",
+      "crest": "https://crests.football-data.org/17.svg",
+      "address": "Schwarzwaldstraße 193 Freiburg 79117",
+      "website": "http://www.scfreiburg.com",
+      "founded": 1912,
+      "clubColors": "Red / White",
+      "venue": "Schwarzwald-Stadion",
+      "lastUpdated": "2020-11-26T02:04:28Z"
+    },
+    {
+      "id": 18,
+      "name": "Borussia Mönchengladbach",
+      "shortName": "M'gladbach",
+      "tla": "BMG",
+      "crest": "https://crests.football-data.org/18.png",
+      "address": "Hennes-Weisweiler-Allee 1 Mönchengladbach 41179",
+      "website": "http://www.borussia.de",
+      "founded": 1900,
+      "clubColors": "Black / White / Green",
+      "venue": "Stadion im Borussia-Park",
+      "lastUpdated": "2023-02-28T07:59:45Z"
+    },
+    {
+      "id": 19,
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "tla": "SGE",
+      "crest": "https://crests.football-data.org/19.svg",
+      "address": "Mörfelder Landstraße 362 Frankfurt am Main 60528",
+      "website": "http://www.eintracht.de",
+      "founded": 1899,
+      "clubColors": "Red / Black",
+      "venue": "Deutsche Bank Park",
+      "lastUpdated": "2020-11-26T02:04:32Z"
+    },
+    {
+      "id": 20,
+      "name": "FC St. Pauli 1910",
+      "shortName": "St. Pauli",
+      "tla": "STP",
+      "crest": "https://crests.football-data.org/20.png",
+      "address": "Auf dem Heiligengeistfeld Hamburg 20359",
+      "website": "http://www.fcstpauli.de",
+      "founded": 1910,
+      "clubColors": "Brown / White",
+      "venue": "Millerntor-Stadion",
+      "lastUpdated": "2022-07-12T12:08:57Z"
+    }
+  ]
+}
