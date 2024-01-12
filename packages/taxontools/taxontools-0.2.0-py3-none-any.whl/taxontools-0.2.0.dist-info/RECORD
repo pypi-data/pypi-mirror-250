@@ -1,0 +1,16 @@
+taxontools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taxontools/cli.py,sha256=5S09pCkdwdlarUsT6w3462CiYGAR69OKq2fms-Yzm4o,5475
+taxontools/pipelines.py,sha256=yy35BqjMYIGabuYLknBTO2lXvuOsLxyAWKjkDGsAoa0,10689
+taxontools/versions.py,sha256=hcoXenAuuw0UeRulA_RQAZKsKzU_jq3_QHwHic56bcU,507
+taxontools/one_kp/1kp.acc.taxon.txt,sha256=9NKDw7MT_c4N7bw7mT56zwxLVDsRxozOYH-3tH2l7sI,483836
+taxontools/one_kp/estimated_species_tree.tree,sha256=RFx4j2Lygg_hOYBQ3sex5MhoWnNxruG-JHf6hJtx44c,31016
+taxontools/src/1kp.py,sha256=97WQpLvxQ2410m1ImHbLxQn-zbjOTrLhd_AktLFgD7M,3743
+taxontools/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taxontools/src/blast_assign.py,sha256=DlnVbtz9y3Zz1OjGcZ9C0m4Ws1jB7lkhtguUS7LyjuY,9552
+taxontools/src/taxon.py,sha256=IxCDJbmEsHin3_z4P0g9XMJ9ShMLw4hfnkLjFqbi-Y8,15537
+taxontools-0.2.0.dist-info/LICENSE,sha256=IzULPsFTlrF-uHczR75Slnfo_VrUn2deqtzPAlyMZrM,1066
+taxontools-0.2.0.dist-info/METADATA,sha256=PgY73YOyrbTP860oYLhUakL7N7dWx7MNXLf-4s8EGhM,2956
+taxontools-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+taxontools-0.2.0.dist-info/entry_points.txt,sha256=q8eUDFrSb7dJeMV7Zzy7FYQzSARmmbmpb6h3GniOb3c,51
+taxontools-0.2.0.dist-info/top_level.txt,sha256=arlCMK22WBR3XbFzycwsi6QdaqJoqkgqYaOVXkJhYPg,11
+taxontools-0.2.0.dist-info/RECORD,,
