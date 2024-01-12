@@ -1,0 +1,6 @@
+README.md
+setup.py
+sku_gen_text_embedding_shopee.egg-info/PKG-INFO
+sku_gen_text_embedding_shopee.egg-info/SOURCES.txt
+sku_gen_text_embedding_shopee.egg-info/dependency_links.txt
+sku_gen_text_embedding_shopee.egg-info/top_level.txt
