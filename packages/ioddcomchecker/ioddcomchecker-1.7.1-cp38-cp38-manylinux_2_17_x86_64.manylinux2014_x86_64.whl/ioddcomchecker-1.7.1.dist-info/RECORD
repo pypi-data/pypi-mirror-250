@@ -1,0 +1,9 @@
+ioddcomchecker-1.7.1.dist-info/RECORD,,
+ioddcomchecker-1.7.1.dist-info/LICENSE.txt,sha256=mjUk_O3YPxAZeoS61zCys2pyShGDxR4ghwb55ItZ0lg,732
+ioddcomchecker-1.7.1.dist-info/WHEEL,sha256=zTDqV7OR0em6fvysya0bwC-51Mb7EQ0x5PBJySRF2iQ,148
+ioddcomchecker-1.7.1.dist-info/METADATA,sha256=5x2NcixfwlVQIMtPwnO7kBsOihD10B5kKJEx7AwtcTc,5421
+ioddcomchecker-1.7.1.dist-info/top_level.txt,sha256=vIFg0bLkihbkHyuCZUdHmA-50LP8LvTwDknGWir0T5o,8
+siogeen/tools/__init__.py,sha256=CCpWoKGerJjGcTDaC48F6skWG4rDZuBzIKxBIZqL74w,462
+siogeen/tools/IoddComChecker.cpython-38-x86_64-linux-gnu.so,sha256=_LVxlsvUY2TUj5PGUuf2ED7Z_dYSkGXalz6mu7FjnaY,198560
+siogeen/tools/cli/__init__.py,sha256=5U7K-XTwdy1Iy5suv_-WSFGwC_zqleJ6KdZQR7kShP0,468
+siogeen/tools/cli/IoddComChecker.py,sha256=q42zyT8sVC7LvyJWUrlKZ0Y00VYQiA4iSDcLhWKz_UQ,1494
