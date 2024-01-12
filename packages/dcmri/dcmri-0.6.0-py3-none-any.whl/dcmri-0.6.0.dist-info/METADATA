@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dcmri
+Version: 0.6.0
+Summary: A collection of functions for DCE-MRI and DSC-MRI
+License: Apache-2.0
+Keywords: python,medical imaging,perfusion,MRI
+Author: Ebony Gunwhy
+Author-email: e.gunwhy@sheffield.ac.uk
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: numpy (==1.22.4)
+Description-Content-Type: text/markdown
+
+`dcmri` is a Python toolbox for dynamic MRI during contrast agent injection.
+
+For more detail please see the
+[documentation](https://qib-sheffield.github.io/dcmri/).
+
+> **_PLEASE NOTE:_** ``dcmri`` is developed in public, however it is a work  
+>       in progress and **not yet sufficiently stable for wider use**.
+
