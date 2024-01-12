@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: lidolator
+Version: 0.1
+Summary: A utility package in Python to convert LIDO metadata from XML to other formats
+Home-page: https://github.com/epoz/lidolator
+Author: Etienne Posthumus
+Author-email: ep@epoz.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
