@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zpgs
+Version: 1.6
+Summary: A useless database connection based on psycopg2
+Home-page: https://github.com/zzt/w-rst.git
+Author: zaide
+Author-email: zhstack@163.com
+License: MIT
+Keywords: zpgs
+License-File: LICENSE
+Requires-Dist: datetime
