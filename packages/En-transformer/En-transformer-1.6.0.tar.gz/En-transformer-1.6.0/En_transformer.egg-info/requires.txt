@@ -1,0 +1,3 @@
+einops>=0.3
+taylor-series-linear-attention>=0.0.11
+torch>=1.7
