@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diff_json_lr"
+version = "0.0.1"
+authors = [
+  { name="Josh MacLachlan", email="josh.maclachlan@equifax.com" },
+]
+description = "Finds differences between JSON objects to create a patch document or a left-right diff view"
+readme = "README.md"
+requires-python = ">=3.10.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jtmaclachlan/diff_json/python"

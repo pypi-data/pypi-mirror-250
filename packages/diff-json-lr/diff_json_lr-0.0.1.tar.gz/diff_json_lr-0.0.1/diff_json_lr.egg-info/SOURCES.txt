@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+diff_json/__init__.py
+diff_json/__version__.py
+diff_json/diffing.py
+diff_json/exceptions.py
+diff_json/mapping.py
+diff_json/op_timer.py
+diff_json/pathfinding.py
+diff_json/utility.py
+diff_json_lr.egg-info/PKG-INFO
+diff_json_lr.egg-info/SOURCES.txt
+diff_json_lr.egg-info/dependency_links.txt
+diff_json_lr.egg-info/top_level.txt
