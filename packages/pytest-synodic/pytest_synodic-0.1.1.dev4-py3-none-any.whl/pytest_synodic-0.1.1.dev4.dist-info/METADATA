@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytest-synodic
+Version: 0.1.1.dev4
+Summary: Synodic Pytest utilities
+Home-page: https://github.com/Synodic-Software/Pytest-Synodic
+Author-Email: Asher Norland <asher.norland@synodic.software>
+License: MIT
+Project-URL: Homepage, https://github.com/Synodic-Software/Pytest-Synodic
+Project-URL: Repository, https://github.com/Synodic-Software/Pytest-Synodic
+Requires-Python: >=3.12
+Requires-Dist: pytest>=7.4.4
+Requires-Dist: synodic-utilities>=0.1.1.dev5
+Description-Content-Type: text/markdown
+
+# pytest-synodic
