@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/tkchart/Line.py
+src/tkchart/LineChart.py
+src/tkchart/RequredGeometry.py
+src/tkchart/__init__.py
+src/tkchart.egg-info/PKG-INFO
+src/tkchart.egg-info/SOURCES.txt
+src/tkchart.egg-info/dependency_links.txt
+src/tkchart.egg-info/top_level.txt
+tests/test 2.py
+tests/test 3.py
+tests/test.py
