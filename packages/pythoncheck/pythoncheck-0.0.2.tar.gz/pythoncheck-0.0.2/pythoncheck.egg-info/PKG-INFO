@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pythoncheck
+Version: 0.0.2
+Summary: First Simple Python package
+Home-page: https://github.com/knop-k/pythoncheck
+Author: Krzysiek
+Author-email: admin@example.com
+License: MIT license
+Keywords: pythoncheck
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+# pythoncheck
+
+
+[![image](https://img.shields.io/pypi/v/pythoncheck.svg)](https://pypi.python.org/pypi/pythoncheck)
+[![image](https://img.shields.io/conda/vn/conda-forge/pythoncheck.svg)](https://anaconda.org/conda-forge/pythoncheck)
+
+[![image](https://pyup.io/repos/github/knop-k/pythoncheck/shield.svg)](https://pyup.io/repos/github/knop-k/pythoncheck)
+
+
+**First Simple Python package**
+
+
+-   Free software: MIT license
+-   Documentation: https://knop-k.github.io/pythoncheck
+    
+
+## Features
+
+-   TODO
