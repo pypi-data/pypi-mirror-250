@@ -1,0 +1,6 @@
+setup.py
+carSDK.egg-info/PKG-INFO
+carSDK.egg-info/SOURCES.txt
+carSDK.egg-info/dependency_links.txt
+carSDK.egg-info/top_level.txt
+socket_lib/__init__.py
