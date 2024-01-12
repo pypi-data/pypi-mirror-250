@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zdao
+Version: 2.1
+Summary: A useless database access model
+Home-page: https://github.com/zzt/w-dao.git
+Author: zhstack
+Author-email: zhstack@163.com
+License: MIT
+Keywords: zdao
