@@ -1,0 +1,12 @@
+deletion_records/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deletion_records/admin.py,sha256=v13LvFNbF4WI7NFf4xzmGwe7VbLuw829ZprJlDokvrI,362
+deletion_records/apps.py,sha256=CSb1t7SVg8yKlbnFGeB6dw2dvsppezEvO6pDgU5pJ24,202
+deletion_records/models.py,sha256=aFjM_C_qKe6LeCThs3ltsGqa1UW8gASF7ZkGyNIkc3U,749
+deletion_records/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deletion_records/management/commands/deletion_migration_operations.py,sha256=3d0enyCItjiawG33zVra7gnDsL4lK2Hca_vjJ51ztgQ,2020
+deletion_records/migrations/0001_initial.py,sha256=QjPx0vuTHndJrHcP9wZh5d9spdlGtq215T0iFWZ7J_A,1921
+deletion_records/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_deletion_records-0.1.0.dist-info/METADATA,sha256=sZyPbmRJFTx5f9IdR7a7a1mOHKEFkYjaUxQFTtUa52E,2303
+django_deletion_records-0.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+django_deletion_records-0.1.0.dist-info/licenses/LICENSE,sha256=RzrGY3ZlI5uDwFPEnbqfKdYKWUyBtSQwTS1WggvGwHQ,1503
+django_deletion_records-0.1.0.dist-info/RECORD,,
