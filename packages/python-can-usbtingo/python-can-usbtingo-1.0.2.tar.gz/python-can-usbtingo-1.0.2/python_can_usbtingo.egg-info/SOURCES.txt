@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+usbtingobus.py
+python_can_usbtingo.egg-info/PKG-INFO
+python_can_usbtingo.egg-info/SOURCES.txt
+python_can_usbtingo.egg-info/dependency_links.txt
+python_can_usbtingo.egg-info/entry_points.txt
+python_can_usbtingo.egg-info/requires.txt
+python_can_usbtingo.egg-info/top_level.txt
