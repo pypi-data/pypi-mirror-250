@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+alegant.egg-info/PKG-INFO
+alegant.egg-info/SOURCES.txt
+alegant.egg-info/dependency_links.txt
+alegant.egg-info/requires.txt
+alegant.egg-info/top_level.txt
