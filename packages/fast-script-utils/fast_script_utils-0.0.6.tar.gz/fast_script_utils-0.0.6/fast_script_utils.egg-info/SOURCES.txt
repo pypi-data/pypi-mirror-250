@@ -1,0 +1,11 @@
+README.md
+setup.py
+./__init__.py
+./crawler.py
+./file.py
+./sweet.py
+fast_script_utils.egg-info/PKG-INFO
+fast_script_utils.egg-info/SOURCES.txt
+fast_script_utils.egg-info/dependency_links.txt
+fast_script_utils.egg-info/requires.txt
+fast_script_utils.egg-info/top_level.txt
