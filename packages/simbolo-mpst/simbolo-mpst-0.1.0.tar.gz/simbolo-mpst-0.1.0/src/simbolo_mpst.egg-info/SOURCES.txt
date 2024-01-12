@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/simbolo_mpst.egg-info/PKG-INFO
+src/simbolo_mpst.egg-info/SOURCES.txt
+src/simbolo_mpst.egg-info/dependency_links.txt
+src/simbolo_mpst.egg-info/requires.txt
+src/simbolo_mpst.egg-info/top_level.txt
