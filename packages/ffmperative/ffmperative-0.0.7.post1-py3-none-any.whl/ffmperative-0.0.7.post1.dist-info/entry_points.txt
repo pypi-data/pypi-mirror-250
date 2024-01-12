@@ -1,0 +1,2 @@
+[console_scripts]
+ffmperative = ffmperative.cli:main

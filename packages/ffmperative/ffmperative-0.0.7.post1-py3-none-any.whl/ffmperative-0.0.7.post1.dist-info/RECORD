@@ -1,0 +1,13 @@
+ffmperative/__init__.py,sha256=9xvWJLgg7D4Htq80a64sEIbJyQzd0CkU99yKQUstaBk,2384
+ffmperative/cli.py,sha256=HwxhEZlc_xGaAk6sn33WnEK-oqon2RMcArRQjQGdcV4,1867
+ffmperative/interpretor.py,sha256=KoNEfKYqTIWAStkoiUUV13VeDXZo2Urca1mGTilYOhc,10387
+ffmperative/prompts.py,sha256=Gj1SKgthh6hOZVNsyJBdxlFMHy-eVObG__Dz6D2g5wY,9812
+ffmperative/tool_mapping.py,sha256=E_U94QlJguMXSQVGUUtcK0S-8Pa1BAB_A4_026LXuPQ,311
+ffmperative/tools.py,sha256=F_kH4E_JGJ-mSWUQmdkD8r44T4G46I-zOuYEiMzcL4Q,16580
+ffmperative/utils.py,sha256=OIHC255X7UgWsfzxn87cMwsTce-wU4u40RbdfhfOQh8,6004
+ffmperative-0.0.7.post1.dist-info/LICENSE,sha256=08y6UINXSwNc7rrPXbxA230VfE0-lkbr8zGvSqanfmk,1065
+ffmperative-0.0.7.post1.dist-info/METADATA,sha256=sUInAYPrRnxyn8FUsC-RvM4oSYaJmd5u35dY1L2Fknw,2687
+ffmperative-0.0.7.post1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ffmperative-0.0.7.post1.dist-info/entry_points.txt,sha256=usK3S9ZbcuOUqwQoyR31LyqIwI4KF7WZq1pF__U1Rb0,53
+ffmperative-0.0.7.post1.dist-info/top_level.txt,sha256=phfS7dNhucv5MTBeH67o-vzt6OSYjgxuFVEA6-mbTxY,12
+ffmperative-0.0.7.post1.dist-info/RECORD,,
