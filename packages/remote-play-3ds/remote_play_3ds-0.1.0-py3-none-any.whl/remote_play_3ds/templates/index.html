@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Remote Play 3DS</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-size: unset;
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+        }
+    </style>
+    <style>
+        .square-button {
+            width: 25px;
+            height: 25px;
+        }
+        .hidden-button {
+            opacity: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr style="height: 100px;">
+            <td></td>
+            <td rowspan="6"><img id="video" src="{{ url_for('video') }}"
+                    style="width: 400px; height: 499px; user-drag: none; -webkit-user-drag: none; -moz-user-drag: none;">
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><button id="button4" style="width: 100%">L</button></td>
+            <!-- <td></td> -->
+            <td><button id="button5" style="width: 100%">R</button></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <!-- <td></td> -->
+            <td></td>
+            <td><button id="button11"><span class="material-symbols-outlined">wifi</span></button></td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slidepad" style="position: relative; width: 90px; height: 90px;"></div>
+            </td>
+            <!-- <td></td> -->
+            <td>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td><button id="button3" class="square-button">X</button></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><button id="button0" class="square-button">Y</button></td>
+                        <td></td>
+                        <td><button id="button2" class="square-button">A</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button id="button1" class="square-button">B</button></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td><button id="hat7" class="square-button hidden-button">↖</button></td>
+                        <td><button id="hat0" class="square-button">↑</button></td>
+                        <td><button id="hat1" class="square-button hidden-button">↗</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="hat6" class="square-button">←</button></td>
+                        <td></td>
+                        <td><button id="hat2" class="square-button">→</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="hat5" class="square-button hidden-button">↙</button></td>
+                        <td><button id="hat4" class="square-button">↓</button></td>
+                        <td><button id="hat3" class="square-button hidden-button">↘</button></td>
+                    </tr>
+                </table>
+            </td>
+            <!-- <td></td> -->
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <!-- <td></td> -->
+            <td>
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td><button id="button10"><span
+                                    class="material-symbols-outlined">power_settings_new</span></button></td>
+                    </tr>
+                </table>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="width: 33.33%;"><button id="button8" style="width: 100%">SELECT</button></td>
+                        <td style="width: 33.33%;"><button id="button12" style="width: 100%">HOME</button></td>
+                        <td style="width: 33.33%;"><button id="button9" style="width: 100%">START</button></td>
+                    </tr>
+                </table>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.10.1/nipplejs.js"
+        integrity="sha512-3BJac1xfwfaRqC518nx2AIQCA2SFw9Ei/zxPFaDQ+F3yezNe58Fjfq9NV+jFQ5kc+MeZ3B+6cxeiy/k1m3nuXQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="static/js/index.js"></script>
+</body>
+
+</html>

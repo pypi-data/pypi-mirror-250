@@ -1,0 +1,8 @@
+remote_play_3ds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remote_play_3ds/__main__.py,sha256=iP9zfoa460piUDgsULOHj6Khus_tPJjThsauV7FaIOU,3516
+remote_play_3ds/static/js/index.js,sha256=MOzZhcQ6wRp5mEWftLgq0kJGSt-H1MzzT4lbW-4HY6A,2739
+remote_play_3ds/templates/index.html,sha256=FFIpN4ZWeDLylXPJuq0orNVh7D8wXVsS8N4CIZbXvV8,5053
+remote_play_3ds-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+remote_play_3ds-0.1.0.dist-info/METADATA,sha256=fPMro2lzbZqIoh15-kicMgWqCIE1GszrZqQn3yCPVdY,1224
+remote_play_3ds-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+remote_play_3ds-0.1.0.dist-info/RECORD,,
