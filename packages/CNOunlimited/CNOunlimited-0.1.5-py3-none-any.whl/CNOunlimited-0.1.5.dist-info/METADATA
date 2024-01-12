@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: CNOunlimited
+Version: 0.1.5
+Summary: This package is designed to assist with common task that CNO Enterprise Application Engineering team performs, preventing repetitive code and increasing efficiency.
+Author: Dustin Cocherell
+Author-email: dcocherell@choctawnation.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+
