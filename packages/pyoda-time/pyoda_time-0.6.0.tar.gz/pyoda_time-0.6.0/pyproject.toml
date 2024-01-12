@@ -1,0 +1,69 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "pep440"
+version_provider = "poetry"
+update_changelog_on_bump = true
+major_version_zero = true
+
+[tool.docformatter]
+black = true
+recursive = true
+in-place = true
+wrap-summaries = 120
+wrap-descriptions = 120
+
+[tool.mypy]
+disallow_untyped_defs = true
+# strict mode sounds good, but at time of writing it just warns about pytest.mark.parametrize
+# strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.poetry]
+name = "pyoda-time"
+version = "0.6.0"
+description = "An alternative datetime library for Python."
+authors = ["Christopher McEvoy <12284065+chrisimcevoy@users.noreply.github.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/chrisimcevoy/pyoda-time"
+classifiers = [
+    "Development Status :: 1 - Planning"
+]
+include = [
+    "LICENSE.txt",
+    "NOTICE.txt",
+    "py.typed",
+    "version.py",
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pytz = "^2023.3.post1"
+pre-commit = "^3.5.0"
+coverage = "^7.3.2"
+commitizen = "^3.12.0"
+
+[tool.ruff]
+line-length = 120
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+select = [
+    "E",    # pycodestyle (error)
+    "F",    # pyflakes
+    "I",    # isort
+    "RUF",  # ruff
+    "UP",   # pyupgrade
+    "W",    # pycodestyle (warning)
+]
