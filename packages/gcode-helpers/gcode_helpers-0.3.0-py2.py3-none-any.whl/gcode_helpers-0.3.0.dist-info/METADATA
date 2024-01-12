@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gcode-helpers
+Version: 0.3.0
+Summary: `gcode_helpers`-- collection of helper functions for parsing raw gcode
+Project-URL: Homepage, https://github.com/rtellez700/gcode_helpers
+Author-email: Rodrigo Telles <rtelles@g.harvard.edu>
+License-Expression: MIT
+Description-Content-Type: text/markdown
+
+
+python setup.py clean --all
+
+rm -rf ./build ./dist ./*egg-info
+
+python setup.py sdist bdist_wheel
+
+twine upload dist/*
