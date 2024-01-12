@@ -1,0 +1,8 @@
+Levenshtein
+matplotlib
+networkx
+numpy
+pandas
+Pillow
+plotly
+scikit-learn
