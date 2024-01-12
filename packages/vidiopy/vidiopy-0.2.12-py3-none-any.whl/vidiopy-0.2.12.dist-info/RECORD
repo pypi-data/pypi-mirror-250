@@ -1,0 +1,17 @@
+vidiopy/Clip.py,sha256=gyrDMGQYXG1uZ_iKK2vtB4vjDhBz03S7IusMcH1g5Fw,1076
+vidiopy/__init__.py,sha256=LKHJvRubKMqWhskqlhAAivhUabfFxQYO374L54l8OPg,321
+vidiopy/__main__.py,sha256=turiihigUDW0QonwVmAmGNKKi3Do6lP_fvPNNUuKNcI,23
+vidiopy/__version__.py,sha256=F0__o6ESGvpXBag1_DrueF0A1Q-I7NaJjEX2Xo4_UOk,23
+vidiopy/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vidiopy/decorators.py,sha256=kQdMULD-xauzTTqi4a2LVlgBoY7Yql2E3MMWIoYe8As,1599
+vidiopy/editor.py,sha256=P-peD2YNSwQUMbpGBM9nXkPa4xYkdPrcaHpUF6uGKpc,342
+vidiopy/audio/AudioClip.py,sha256=ZEst-Axb18gbYzRj16MMXX-MVTRKjcUo65iVGmlCxK8,4094
+vidiopy/audio/fx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vidiopy/video/VideoClips.py,sha256=Nfb5fNYjgyvaCbGhyGzgvDXAVAY_h54FO1nKI-p19EI,27888
+vidiopy/video/fx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vidiopy/video/fx/crop.py,sha256=vOT8eh6dLmHEjJXgZ6wqkkT2r6Xppn5Xvngac5SjzOo,288
+vidiopy-0.2.12.dist-info/LICENSE,sha256=dP1dO6zydP-i_hK4VZQrd9RyEJUygKVzVgWYMy5i2u4,1091
+vidiopy-0.2.12.dist-info/METADATA,sha256=p3XskKlxuVESjzW3nVv9JePYHDaX0cjbOawtxwpwQRM,3252
+vidiopy-0.2.12.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vidiopy-0.2.12.dist-info/top_level.txt,sha256=7zTz2V__qqF0VadjbWwmXpIVHXrcYOVIrCA-1jcFJEw,8
+vidiopy-0.2.12.dist-info/RECORD,,
