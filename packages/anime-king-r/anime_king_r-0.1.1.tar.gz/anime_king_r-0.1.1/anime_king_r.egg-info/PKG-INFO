@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: anime_king_r
+Version: 0.1.1
+Summary: An anime bot to download your favourite animes
+Home-page: https://github.com/GhoulKingR/anime-bot
+Author: GhoulKingR
+Author-email: oduahchigozie46@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests==2.31.0
+Requires-Dist: selenium==4.16.0
+Requires-Dist: tqdm==4.66.1
+Requires-Dist: setuptools
+
+# Anime bot
+
+A simple anime bot for downloading your favorite animes.
+
+## Requirements
+
+To run this bot on your system, you need the following:
+* Python v3 interpreter
+* Pip
+* Chrome browser
+
+## Runnning the bot
+
+To run this bot, follow these steps:
+
+1. Clone the repository into your system
+```bash
+git clone https://github.com/GhoulKingR/anime-bot.git
+```
+
+2. Install the package to your computer:
+```bash
+python3 setup.py install
+```
+
+4. Run the bot
+```bash
+anime-bot
+
+# or
+
+python3 -m anime-bot
+```
+
+![Screenshot](/assets/screenshot.png)
+
+## Bugs/Request
+
+If you encounter any problems or you want to request a new feature feel free to open an issue. If you want to make an improvement, fix, or any contribution, feel free to make a pull request.
+
+## Found this project useful?
+
+If you found this project useful or you like what you see, then please consider giving it a ⭐ on Github and sharing it with your friends on social media.
