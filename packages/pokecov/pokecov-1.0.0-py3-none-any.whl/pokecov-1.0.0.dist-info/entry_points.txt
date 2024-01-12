@@ -1,0 +1,3 @@
+[console_scripts]
+pokecov = pokecov.check:main
+pokecov-search = pokecov.search:main
