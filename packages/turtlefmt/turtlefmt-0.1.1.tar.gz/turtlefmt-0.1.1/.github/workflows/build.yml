@@ -1,0 +1,194 @@
+name: build
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  release:
+    types:
+      - published
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  fmt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: rustup update && rustup component add rustfmt
+      - run: cargo fmt -- --check
+
+  clippy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: rustup update && rustup override set 1.75.0 && rustup component add clippy
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo clippy --all-targets -- -D warnings -D clippy::all
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: rustup update
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo test --verbose
+
+  test_msv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: rustup update && rustup override set 1.70.0 && rustup toolchain install nightly
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo +nightly update -Z direct-minimal-versions
+      - run: cargo test
+
+  rustdoc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: rustup update && rustup override set 1.75.0
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo doc --no-deps
+        env:
+          RUSTDOCFLAGS: -D warnings
+
+  typos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo install typos-cli || true
+      - run: typos
+
+  python_sdist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install maturin
+      - run: maturin sdist
+      - uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: target/wheels/*.tar.gz
+
+  wheel_linux:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        architecture: [ "x86_64", "aarch64" ]
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-qemu-action@v2
+        with:
+          platforms: linux/${{ matrix.architecture }}
+        if: matrix.architecture != 'x86_64'
+      - uses: Swatinem/rust-cache@v2
+      - run: docker run -v "$(pwd)":/workdir --platform linux/${{ matrix.architecture }} quay.io/pypa/manylinux2014_${{ matrix.architecture }} /bin/bash /workdir/.github/workflows/manylinux_build.sh
+      - uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: target/wheels/*.whl
+
+  wheel_linux_musl:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        architecture: [ "x86_64" ] # TODO: aarch64 seems to fail for some reason
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-qemu-action@v2
+        with:
+          platforms: linux/${{ matrix.architecture }}
+        if: matrix.architecture != 'x86_64'
+      - uses: Swatinem/rust-cache@v2
+      - run: docker run -v "$(pwd)":/workdir --platform linux/${{ matrix.architecture }} quay.io/pypa/musllinux_1_2_${{ matrix.architecture }} /bin/bash /workdir/.github/workflows/musllinux_build.sh
+      - uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: target/wheels/*.whl
+
+  wheel_mac:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        architecture: [ "x86_64", "aarch64" ]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Swatinem/rust-cache@v2
+      - run: rustup target add ${{ matrix.architecture }}-apple-darwin
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install maturin
+      - run: maturin build --release --target ${{ matrix.architecture }}-apple-darwin
+      - uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: target/wheels/*.whl
+
+  wheel_windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Swatinem/rust-cache@v2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: Remove-Item -LiteralPath "C:\msys64\" -Force -Recurse
+      - run: pip install maturin
+      - run: maturin build --release
+      - uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: target/wheels/*.whl
+
+  publish_pypi:
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/pyoxigraph
+    permissions:
+      id-token: write
+    needs:
+      - python_sdist
+      - wheel_windows
+      - wheel_mac
+      - wheel_linux
+      - wheel_linux_musl
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: wheels
+          path: dist
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist
+          skip-existing: true
+
+  python_test:
+    runs-on: ubuntu-latest
+    needs:
+      - wheel_linux
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v3
+        with:
+          name: wheels
+          path: dist
+      - run: pip install --no-index --find-links=dist/ turtlefmt
+      - run: turtlefmt --check tests/to.simple.ttl
