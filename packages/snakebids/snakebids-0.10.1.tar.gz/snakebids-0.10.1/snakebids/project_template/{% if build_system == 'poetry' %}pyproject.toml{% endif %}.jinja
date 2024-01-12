@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "{{ app_full_name }}"
+version = {{ app_version | toml_string }}
+description = {{ app_description | toml_string }}
+readme = "README.md"
+{% if license -%}
+license = {{ license | toml_string }}
+{%- endif %}
+{% if full_name -%}
+authors = [
+    {% if email -%}
+        {{ (full_name + " <" + email + ">") | toml_string }}
+    {%- else -%}
+    {{ full_name | toml_string }}
+    {%- endif %}
+]
+{%- endif %}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "{{ python_version }}"
+snakemake = ">={{ snakemake_version }},<8"
+snakebids = ">={{ snakebids_version }}"
+pandas = [
+    { version = "<=2.0.3", python = "<3.9" },
+    { version = ">=2.1.1", python = ">=3.12" },
+]
+
+[tool.poetry.scripts]
+{{ name_slug }} = "{{ name_slug }}.run:main"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
