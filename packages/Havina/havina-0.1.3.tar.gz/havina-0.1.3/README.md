@@ -1,0 +1,47 @@
+# Havina
+
+Havina is a Python library that can generate knowledge graphs triplets from an input text. Its implementation
+is based on the paper "[Language models are open knowledge graphs](https://arxiv.org/abs/2010.11967)" with some
+tweaks to improve performance. Most notably, instead of summing the attention scores of each word in a relation,
+I am calculating their average. 
+
+The reasoning behind this change is that a simple sum of scores favors longer relations even if the extra words
+do not carry any relevant meaning.
+
+Havina can be used to evaluate the language comprehension of AI models or as a tool to extract triplets from text 
+and build knowledge graphs.
+
+## How to use it
+
+Run `pip install havina` to install the library. Then, after importing the `GraphGenerator` class 
+from havina, simply call the object with the sentence to evaluate and an optional number of workers. 
+Each worker will span a different process and the algorithm will split the work between them.
+
+
+```python
+from havina import GraphGenerator
+
+text = 'John Lennon is a famous singer.'
+generator = GraphGenerator(
+    top_k=4,
+    contiguous_token=False
+)
+
+triplets = generator(text, workers=1)
+print(triplets)
+```
+
+The code above will print the following:
+```
+[
+    HeadTailRelations(
+        head=Entity(text='john lennon', wikidata_id=None), 
+        tail=Entity(text='a famous singer', wikidata_id=None), 
+        relations=['be'])
+]
+```
+
+The returned type is a list of `HeadTailReations` objects, each of which contains
+the head and tail entities and the possible relations between them. Relations are
+Python strings.
+

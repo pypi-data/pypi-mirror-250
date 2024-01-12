@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44fba1d3-34ed-461e-9f10-e00f730f5164" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/spacy/tokens/span.pyi" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/torch/_C/_VariableFunctions.pyi" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/torch/_tensor.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2023.1/python_stubs/2009840885/spacy/tokens/span.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2QmmAwapZWtURBog6Y0nNIkhmxw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for graph_generator_test.SplitSentenceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for graph_generator_test.SplitSentenceTest.test_non_trivial_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for graph_generator_test.SplitSentenceTest.test_sanity.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for graph_generator_test.SplitSentenceTest.test_trivial_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for language_model_test.LLama2ModelTest.test_sanity.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for language_model_test.LLama2ModelTest.test_simple_functions.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;0.3-rel&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lucasste/Documents/havina&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/Users/lucasste/Documents/havina/p2.txt&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/havina" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for graph_generator_test.SplitSentenceTest.test_sanity">
+    <configuration name="Python tests for graph_generator_test.SplitSentenceTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="LLMs-are-knowlege-graphs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/havina/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;graph_generator_test.SplitSentenceTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for graph_generator_test.SplitSentenceTest.test_non_trivial_case" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="LLMs-are-knowlege-graphs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/havina/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;graph_generator_test.SplitSentenceTest.test_non_trivial_case&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for graph_generator_test.SplitSentenceTest.test_sanity" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="LLMs-are-knowlege-graphs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/havina/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;graph_generator_test.SplitSentenceTest.test_sanity&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for graph_generator_test.SplitSentenceTest.test_trivial_case" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="LLMs-are-knowlege-graphs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/havina/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;graph_generator_test.SplitSentenceTest.test_trivial_case&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for language_model_test.LLama2ModelTest.test_sanity" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="LLMs-are-knowlege-graphs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/havina/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;language_model_test.LLama2ModelTest.test_sanity&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for graph_generator_test.SplitSentenceTest.test_sanity" />
+        <item itemvalue="Python tests.Python tests for graph_generator_test.SplitSentenceTest" />
+        <item itemvalue="Python tests.Python tests for graph_generator_test.SplitSentenceTest.test_non_trivial_case" />
+        <item itemvalue="Python tests.Python tests for graph_generator_test.SplitSentenceTest.test_trivial_case" />
+        <item itemvalue="Python tests.Python tests for language_model_test.LLama2ModelTest.test_sanity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44fba1d3-34ed-461e-9f10-e00f730f5164" name="Changes" comment="" />
+      <created>1685966991201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685966991201</updated>
+      <workItem from="1685966992268" duration="2408000" />
+      <workItem from="1686260866287" duration="10000" />
+      <workItem from="1686344921556" duration="103000" />
+      <workItem from="1686425315473" duration="7000" />
+      <workItem from="1686425814299" duration="45000" />
+      <workItem from="1686432362776" duration="4597000" />
+      <workItem from="1686609519460" duration="4086000" />
+      <workItem from="1686680343708" duration="367000" />
+      <workItem from="1686700082237" duration="4946000" />
+      <workItem from="1687106314779" duration="9863000" />
+      <workItem from="1687821303431" duration="85000" />
+      <workItem from="1687821408340" duration="8256000" />
+      <workItem from="1687895573571" duration="10000" />
+      <workItem from="1688304496517" duration="6411000" />
+      <workItem from="1688388339773" duration="57000" />
+      <workItem from="1688765848879" duration="708000" />
+      <workItem from="1689292243282" duration="62000" />
+      <workItem from="1689458199570" duration="4483000" />
+      <workItem from="1689510708866" duration="7310000" />
+      <workItem from="1689528401565" duration="9000" />
+      <workItem from="1690739659580" duration="2684000" />
+      <workItem from="1690929104946" duration="4107000" />
+      <workItem from="1690985829629" duration="1583000" />
+      <workItem from="1691275041559" duration="4052000" />
+      <workItem from="1691326840186" duration="5329000" />
+      <workItem from="1691343503424" duration="4904000" />
+      <workItem from="1691499132585" duration="1220000" />
+      <workItem from="1692468559758" duration="9648000" />
+      <workItem from="1693503811042" duration="13000" />
+      <workItem from="1693503828789" duration="30000" />
+      <workItem from="1693523528745" duration="3353000" />
+      <workItem from="1693764116462" duration="123000" />
+      <workItem from="1693764259395" duration="3856000" />
+      <workItem from="1693848384076" duration="3537000" />
+      <workItem from="1693937008647" duration="3345000" />
+      <workItem from="1694093631100" duration="6957000" />
+      <workItem from="1694214640734" duration="315000" />
+      <workItem from="1694352904052" duration="385000" />
+      <workItem from="1694354174595" duration="298000" />
+      <workItem from="1694618249241" duration="8712000" />
+      <workItem from="1694703419817" duration="1803000" />
+      <workItem from="1694783517171" duration="73000" />
+      <workItem from="1694786584922" duration="203000" />
+      <workItem from="1694820208092" duration="4471000" />
+      <workItem from="1694824899058" duration="3921000" />
+      <workItem from="1694857376595" duration="734000" />
+      <workItem from="1694880742501" duration="2681000" />
+      <workItem from="1695469044272" duration="2358000" />
+      <workItem from="1695561486341" duration="849000" />
+      <workItem from="1695562529809" duration="16000" />
+      <workItem from="1695567528272" duration="20541000" />
+      <workItem from="1695598689916" duration="3000" />
+      <workItem from="1695640387336" duration="23212000" />
+      <workItem from="1695678913263" duration="1100000" />
+      <workItem from="1695728629649" duration="30026000" />
+      <workItem from="1695767963035" duration="1430000" />
+      <workItem from="1695820044666" duration="3508000" />
+      <workItem from="1695841124619" duration="162000" />
+      <workItem from="1695898627300" duration="13565000" />
+      <workItem from="1695943010426" duration="3579000" />
+      <workItem from="1695983687119" duration="13113000" />
+      <workItem from="1696078139613" duration="1494000" />
+      <workItem from="1696082104335" duration="2910000" />
+      <workItem from="1696185428684" duration="5292000" />
+      <workItem from="1696355670771" duration="148000" />
+      <workItem from="1696413606976" duration="684000" />
+      <workItem from="1696429054156" duration="9473000" />
+      <workItem from="1696511744895" duration="1672000" />
+      <workItem from="1696769283942" duration="859000" />
+      <workItem from="1696909714162" duration="656000" />
+      <workItem from="1696996069645" duration="917000" />
+      <workItem from="1697221014228" duration="1260000" />
+      <workItem from="1697222287409" duration="291000" />
+      <workItem from="1697254082735" duration="1470000" />
+      <workItem from="1697299752422" duration="905000" />
+      <workItem from="1697554124687" duration="10000" />
+      <workItem from="1697583481734" duration="2381000" />
+      <workItem from="1698081828461" duration="2811000" />
+      <workItem from="1698086827088" duration="2688000" />
+      <workItem from="1698146541032" duration="1435000" />
+      <workItem from="1698357382967" duration="108000" />
+      <workItem from="1698739658713" duration="1234000" />
+      <workItem from="1698942108738" duration="655000" />
+      <workItem from="1699104382141" duration="5077000" />
+      <workItem from="1699362616089" duration="16000" />
+      <workItem from="1699474778936" duration="1263000" />
+      <workItem from="1699544308699" duration="3017000" />
+      <workItem from="1699618140393" duration="2253000" />
+      <workItem from="1699625626817" duration="6562000" />
+      <workItem from="1699638090216" duration="4000" />
+      <workItem from="1699899186290" duration="4755000" />
+      <workItem from="1700230419454" duration="1722000" />
+      <workItem from="1700241619940" duration="1825000" />
+      <workItem from="1700329555575" duration="1902000" />
+      <workItem from="1700485708496" duration="776000" />
+      <workItem from="1700571903193" duration="156000" />
+      <workItem from="1701106729560" duration="2552000" />
+      <workItem from="1701801922823" duration="2405000" />
+      <workItem from="1702058571256" duration="603000" />
+      <workItem from="1702068990729" duration="14000" />
+      <workItem from="1702231322033" duration="10000" />
+      <workItem from="1702323114081" duration="1225000" />
+      <workItem from="1702487666343" duration="2594000" />
+      <workItem from="1702562475924" duration="5512000" />
+      <workItem from="1702573753214" duration="2282000" />
+      <workItem from="1703514845158" duration="1068000" />
+      <workItem from="1703516021725" duration="7565000" />
+      <workItem from="1703684958715" duration="10000" />
+      <workItem from="1703790669106" duration="1239000" />
+      <workItem from="1703872850537" duration="653000" />
+      <workItem from="1703882396101" duration="6000" />
+      <workItem from="1703947068839" duration="4604000" />
+      <workItem from="1704034175515" duration="11479000" />
+      <workItem from="1704125104378" duration="798000" />
+      <workItem from="1704218804624" duration="4116000" />
+      <workItem from="1704284906732" duration="9539000" />
+      <workItem from="1704308213370" duration="5521000" />
+      <workItem from="1704316979334" duration="11000" />
+      <workItem from="1704368486526" duration="3059000" />
+      <workItem from="1704401874686" duration="560000" />
+      <workItem from="1704742350512" duration="619000" />
+      <workItem from="1704975249448" duration="1986000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/havina$.coverage" NAME=" Coverage Results" MODIFIED="1704371506815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/havina/tests" />
+    <SUITE FILE_PATH="coverage/LLMs_are_knowlege_graphs$.coverage" NAME=" Coverage Results" MODIFIED="1698147214419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/havina/tests" />
+  </component>
+</project>
