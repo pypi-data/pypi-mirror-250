@@ -1,0 +1,132 @@
+[build-system]
+requires = ["build", "setuptools-scm"]
+
+[project]
+dynamic = ["version"]
+name = "message_ix"
+description = "The MESSAGEix integrated assessment model framework"
+authors = [{ name = "IIASA Energy, Climate, and Environment (ECE) Program" }]
+maintainers = [
+  { name = "Paul Natsuo Kishimoto", email = "mail@paul.kishimoto.name" },
+  { name = "Fridolin Glatter", email = "glatter@iiasa.ac.at" },
+]
+readme = "README.md"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: R",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+requires-python = ">=3.8"
+dependencies = [
+  "click",
+  "ixmp >= 3.8.0",
+  "genno[pyam] >= 1.18.1",
+  "numpy",
+  "pandas >= 1.2",
+  "PyYAML",
+  "scipy",
+]
+
+[project.urls]
+homepage = "https://github.com/iiasa/message_ix"
+repository = "https://github.com/iiasa/message_ix"
+documentation = "https://docs.messageix.org"
+
+[project.optional-dependencies]
+docs = [
+  "GitPython",
+  "message_ix[report]",
+  "numpydoc",
+  "sphinx >= 4.0",
+  "sphinx_rtd_theme",
+  "sphinxcontrib-bibtex",
+]
+tutorial = ["jupyter", "matplotlib", "message_ix[report]"]
+report = ["ixmp[report]"]
+tests = [
+  "asyncssh",
+  "message_ix[docs,tutorial]",
+  "pint",
+  "pyam-iamc >= 0.6",
+  "pytest >= 5",
+  "pytest-cov",
+  "pytest-rerunfailures",
+  "pytest-xdist",
+  "requests",
+]
+
+[project.scripts]
+message-ix = "message_ix.cli:main"
+
+[tool.coverage.report]
+exclude_also = [
+  # Imports only used by type checkers
+  "if TYPE_CHECKING:",
+  "if __name__ == '__main__':",
+]
+
+[tool.coverage.run]
+omit = [
+  "message_ix/model/*",
+  "message_ix/tests/test_nightly.py",
+  "message_ix/testing/nightly.py",
+]
+
+[tool.mypy]
+exclude = ["doc/"]
+
+[[tool.mypy.overrides]]
+# Packages/modules for which no type hints are available.
+module = [
+  "matplotlib.*",
+  "pandas.*",
+  "pyam",
+  "scipy.*",
+  # Indirectly via ixmp; this should be a subset of the list in ixmp's pyproject.toml
+  "dask.*",
+  "jpype",
+  "memory_profiler",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+# Disable faulthandler plugin on Windows to prevent spurious console noise
+addopts = """
+  --cov=message_ix --cov-report=
+  -m "not nightly and not rmessageix"
+  -p no:faulthandler"""
+markers = [
+  "nightly: Slow-running nightly tests of particular scenarios.",
+  "rmessageix: test of the message_ix R interface.",
+  "tutorial: Tests of the tutorial Jupyter notebooks",
+]
+
+[tool.ruff]
+select = ["C9", "E", "F", "I", "W"]
+
+[tool.ruff.mccabe]
+# Exceptions:
+# - message_ix/core.py:716:5: C901 'Scenario.rename' is too complex (18)
+# - message_ix/tools/add_year/__init__.py:86:1: C901 'add_year' is too complex (17)
+# - message_ix/tools/add_year/__init__.py:533:1: C901 'interpolate_1d' is too complex (19)
+# - message_ix/tools/add_year/__init__.py:687:1: C901 'interpolate_2d' is too complex (38)
+# - message_ix/testing/__init__.py:91:1: C901 'make_austria' is too complex (18)
+max-complexity = 14
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.setuptools_scm]
