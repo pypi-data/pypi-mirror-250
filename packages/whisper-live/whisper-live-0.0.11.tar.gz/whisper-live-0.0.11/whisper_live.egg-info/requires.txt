@@ -1,0 +1,9 @@
+PyAudio
+faster-whisper==0.10.0
+torch
+torchaudio
+websockets
+onnxruntime
+ffmpeg-python
+scipy
+websocket-client
