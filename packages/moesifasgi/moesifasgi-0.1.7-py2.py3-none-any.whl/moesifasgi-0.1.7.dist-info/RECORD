@@ -1,0 +1,16 @@
+moesifasgi/__init__.py,sha256=TPCkmTs3htVIDt1KKs3M7XHtKh6iayqB80ckxO8VPCg,26
+moesifasgi/app_config.py,sha256=c76xp2XYBPFJFyFvOZZvMSR3NIomEPNffuKnoM6XCq0,2320
+moesifasgi/async_iterator_wrapper.py,sha256=NsdWQR2NH16bHyD4m0pU5ONYhJrxNNq5-FctY4wZQZI,301
+moesifasgi/client_ip.py,sha256=FWqkVn_nleqoSllnOdXnEQqsl52qY1NNH_b5uXLlrdc,4843
+moesifasgi/event_mapper.py,sha256=knWEEEHofAIwotX_0av0Fn6mlaxieSXwUHI5s0i6sTk,3848
+moesifasgi/logger_helper.py,sha256=bc4klUusqPAqhN4ZNcHkbvKGFN1M6yy5W6zvXiSd5iQ,8813
+moesifasgi/middleware.py,sha256=3M-duSVms2gFrDQ9S7L6yBN70hTo-dWumXFo_errMj4,11991
+moesifasgi/parse_body.py,sha256=NjfGzRrICqHFk9SyR6jIe42o-udX3rKGKdUQjaUwqek,1159
+moesifasgi/send_batch_events.py,sha256=nPyJt27e9vDIQRkOzLqpkK40XjriPlr-yzl1FUHcvlI,2218
+moesifasgi/update_companies.py,sha256=CKwOWy44VMD4cQgkX0L13Ush0uFhbl_-5eYvuj8y1o8,6835
+moesifasgi/update_users.py,sha256=ky41GMXWQrzJ_MXx3nGJxKtHj3LyugOeHa6Z9psYrYQ,6498
+moesifasgi-0.1.7.dist-info/LICENSE,sha256=ys5tPFL_aOSVfDVPdO1fYs5iC5Auw7thH2cKWdGvkaI,11908
+moesifasgi-0.1.7.dist-info/METADATA,sha256=3FSv_vnAb-qLjaYqd89n5_rGoYa6tA1JpcDt80Cusuc,13898
+moesifasgi-0.1.7.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+moesifasgi-0.1.7.dist-info/top_level.txt,sha256=2a87z7sBUd8lM_XIDNEZfM5DgXknHALIxPQijg7iAd4,11
+moesifasgi-0.1.7.dist-info/RECORD,,
