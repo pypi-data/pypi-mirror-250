@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "goldenset"
+version = "0.0.3"
+description = "SDK of the GoldenSet eval platform"
+authors = [
+    "Johannes Messner <johannes@goldenset.io>",
+    "Sebastian Weißhaar <sebastian@goldenset.io>",
+    "Jack Min Ong <jackmin@goldenset.io>",
+    "Leon Wolf <leon@goldenset.io>",
+]
+readme = "README.md"
+packages = [{include = "goldenset"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.25"
+requests = "*"
+torch = {version="*", optional=true}
+transformers = {version="*", optional=true}
+supabase = "^2.0.3"
+click = "*"
+
+[tool.poetry.extras]
+torch = ["torch"]
+transformers = ["transformers", "torch"]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+python-dotenv = "^1.0.0"
+black = "^23.11.0"
+
+[tool.poetry.group.docs.dependencies]
+mkdocstrings = {extras = ["python"], version = ">=0.23.0"}
+mkdocstrings-python= ">=1.7.0"
+mkdocs-material= ">=9.1.2"
+mkdocs-awesome-pages-plugin = ">=2.8.0"
+mktestdocs= ">=0.2.0"
+mkdocs-video = ">=1.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
