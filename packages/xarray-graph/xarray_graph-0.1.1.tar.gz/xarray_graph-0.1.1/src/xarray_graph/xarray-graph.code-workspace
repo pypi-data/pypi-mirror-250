@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../xarray-tree"
+		},
+		{
+			"path": "../../../PyQtGraph-ext"
+		},
+		{
+			"path": "../../../PyQt-ext"
+		}
+	],
+	"settings": {}
+}

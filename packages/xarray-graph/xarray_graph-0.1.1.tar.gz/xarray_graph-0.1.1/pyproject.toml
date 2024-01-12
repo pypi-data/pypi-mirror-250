@@ -1,0 +1,57 @@
+[project]
+name = "xarray-graph"
+description = "PyQt/PySide UI for graphing (x,y) slices of xarray datasets."
+dynamic = []
+authors = [
+    { name = "Marcel Goldschen-Ohm", email = "goldschen-ohm@utexas.edu" },
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.26.2",
+    "xarray>=2023.12.0",
+    "xarray-tree>=0.1.0",
+    "qtpy>=2.4.1",
+    "qtawesome>=1.3.0",
+    "pyqt-ext>=1.1.0",
+    "pyqtgraph-ext>=1.0.0",
+    "scipy>=1.11.4",
+    "lmfit>=1.2.2",
+]
+readme = "README.md"
+keywords = [
+    "PyQt",
+    "PySide",
+    "xarray",
+    "graph",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+version = "0.1.1"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/marcel-goldschen-ohm/xarray-graph"
+repository = "https://github.com/marcel-goldschen-ohm/xarray-graph"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+package-type = "library"
+
+[tool.pdm.version]
+source = "scm"
