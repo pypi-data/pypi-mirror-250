@@ -1,0 +1,9 @@
+README.md
+setup.py
+simmpst/__init__.py
+simmpst/tokenization.py
+simmpst.egg-info/PKG-INFO
+simmpst.egg-info/SOURCES.txt
+simmpst.egg-info/dependency_links.txt
+simmpst.egg-info/requires.txt
+simmpst.egg-info/top_level.txt
