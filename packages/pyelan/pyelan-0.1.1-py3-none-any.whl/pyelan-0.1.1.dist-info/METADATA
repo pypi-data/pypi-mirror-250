@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyelan
+Version: 0.1.1
+Summary: 
+Author: Jonathan Keane
+Author-email: jkeane@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Description-Content-Type: text/markdown
+
+Pronounced /pɑɪlɑn/ cf OED pylon, 2a A small fixed pillar or column, used to support something for display.
+
+Some development of this project was supported by a grant from the national sicence foundation: NFS BCS 1251807
+
+
+# Development
+
+## pypi publishing
+
+The easiest way is with poetry, either `poetry build` then `poetry publish` or `poetry publish --build`
