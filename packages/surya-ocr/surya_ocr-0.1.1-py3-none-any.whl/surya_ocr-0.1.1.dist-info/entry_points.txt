@@ -1,0 +1,3 @@
+[console_scripts]
+surya_detect=detect_text:main
+
