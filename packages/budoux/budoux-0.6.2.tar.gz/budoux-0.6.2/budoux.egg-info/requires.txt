@@ -1,0 +1,16 @@
+
+[dev]
+build
+flake8
+isort
+mypy==1.8.0
+pytest
+regex
+toml
+twine
+types-regex
+types-setuptools
+yapf
+
+[jaxcpu]
+jax[cpu]==0.4.23
