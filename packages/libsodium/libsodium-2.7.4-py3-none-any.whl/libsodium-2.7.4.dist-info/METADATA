@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: libsodium
+Version: 2.7.4
+Summary: A simple web framework
+Home-page: https://libsodium.readthedocs.io/en/latest/
+Author: Ahsan Ahmed
+Author-email: Ahsan Ahmed <ahsan.ahmed3246@gmail.com>
+Project-URL: Docs, https://libsodium.readthedocs.io/en/latest/
+Project-URL: Github, https://github.com/libsodiumproject/sodium/
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: werkzeug
+Requires-Dist: pycryptodome
+Requires-Dist: furo
+Requires-Dist: Routes
+Requires-Dist: python-socketio
+Requires-Dist: eventlet
+Requires-Dist: websockets
+Requires-Dist: sonora
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: Jinja2
+
