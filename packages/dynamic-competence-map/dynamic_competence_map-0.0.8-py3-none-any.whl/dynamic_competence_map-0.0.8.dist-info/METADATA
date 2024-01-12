@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: dynamic_competence_map
+Version: 0.0.8
+Summary: dcm: nicegui based visualization of dynamic competence map
+Project-URL: Home, https://github.com/WolfgangFahl/dcm
+Project-URL: Documentation, https://wiki.bitplan.com/index.php/dcm
+Project-URL: Source, https://github.com/WolfgangFahl/dcm
+Author-email: Wolfgang Fahl <wf@WolfgangFahl.com>
+Maintainer-email: Wolfgang Fahl <wf@WolfgangFahl.com>
+License: Apache-2.0
+License-File: LICENSE
+Keywords: competence,nicegui,skills
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: >=3.9
+Requires-Dist: dataclasses-json>=0.6.1
+Requires-Dist: markdown2>=2.4.11
+Requires-Dist: ngwidgets>=0.8.11
+Provides-Extra: test
+Requires-Dist: green; extra == 'test'
+Description-Content-Type: text/markdown
+
+# dcm
+dynamic competence map - a python based visualization tool
+for displaying the development of skills/competences in the context of
+defined competence aspects.
+
+[![Join the discussion at https://github.com/WolfgangFahl/dcm/discussions](https://img.shields.io/github/discussions/WolfgangFahl/dcm)](https://github.com/WolfgangFahl/dcm/discussions)
+[![pypi](https://img.shields.io/pypi/pyversions/dynamic_competence_map)](https://pypi.org/project/dynamic-competence-map/)
+[![Github Actions Build](https://github.com/WolfgangFahl/dcm/actions/workflows/build.yml/badge.svg)](https://github.com/WolfgangFahl/dcm/actions/workflows/build.yml)
+[![PyPI Status](https://img.shields.io/pypi/v/dynamic_competence_map.svg)](https://pypi.python.org/pypi/dynamic-competence-map/)
+[![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/dcm.svg)](https://github.com/WolfgangFahl/dcm/issues)
+[![GitHub issues](https://img.shields.io/github/issues-closed/WolfgangFahl/dcm.svg)](https://github.com/WolfgangFahl/dcm/issues/?q=is%3Aissue+is%3Aclosed)
+[![GitHub](https://img.shields.io/github/license/WolfgangFahl/dcm)](https://www.apache.org/licenses/LICENSE-2.0)
+
+## Demo
+* [demo](http://dcm.bitplan.com)
+
+## Documentation
+* [Wiki](http://wiki.bitplan.com/index.php/dcm)
+
+## API
+* [API documentation](http://dcm.bitplan.com/docs)
+
+### Model
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/WolfgangFahl/dcm/main/dcm.puml?)
+
+## Authors
+* [Wolfgang Fahl](http://www.bitplan.com/Wolfgang_Fahl)
+
