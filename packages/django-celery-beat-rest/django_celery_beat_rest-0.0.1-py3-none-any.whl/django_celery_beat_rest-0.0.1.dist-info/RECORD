@@ -1,0 +1,10 @@
+celery_beat_rest/__init__.py,sha256=xsaUduuc98i34IHtSIJmpvipK9k9gfarDiL4RMgLri0,173
+celery_beat_rest/filters.py,sha256=e-YhH1Mn9c2PLROaLdUBx93Yz8X7dAKSWx1y_dexmMA,1171
+celery_beat_rest/serializers.py,sha256=i6dh3clypnhIJXBw4ddXWivSOnbPnbD67aIHOyMdLV0,1514
+celery_beat_rest/urls.py,sha256=waqQRZ-56di5OVBpuHei6su1K509fua0evBbRTj9S-g,532
+celery_beat_rest/views.py,sha256=w5Rn_v3ysYYJUXSEJ2qlkETNchixI2Vl1kKVS9f5RZg,3246
+django_celery_beat_rest-0.0.1.dist-info/LICENSE,sha256=1qjJgmO8MLpExrh4MQ3OICjhoiIblWNS66T7lIvtfao,1064
+django_celery_beat_rest-0.0.1.dist-info/METADATA,sha256=NLTov9NRgXvR5RQjxj6SStT6oByo90P2EBCIvrWlKAQ,1532
+django_celery_beat_rest-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_celery_beat_rest-0.0.1.dist-info/top_level.txt,sha256=FQN4VRxPAXBbScVOo6uhmLNrlaMbza-mEOgjPjREEUI,17
+django_celery_beat_rest-0.0.1.dist-info/RECORD,,
