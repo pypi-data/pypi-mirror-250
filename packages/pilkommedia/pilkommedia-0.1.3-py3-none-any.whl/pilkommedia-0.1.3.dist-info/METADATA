@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pilkommedia
+Version: 0.1.3
+Summary: Modul untuk keperluan perkuliahan Program Studi Pendidikan Komputer Universitas Lambung Mangkurat
+Home-page: https://github.com/ahmadyogi543/pypi_pilkommedia
+Author: Ahmad Yogi
+Author-email: ahmadyogi543@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+
+# Modul PyPI Pilkommedia
+
+Modul ini berisikan data serta fungsi-fungsi yang digunakan untuk keperluan perkuliahan di Program Studi Pendidikan Komputer FKIP ULM Banjarmasin.
+
+Untuk saat ini teradpat satu sub modul, yakni data statistik iwak papuyu dengan beberapa fungsi yang dapat digunakan, yakni sebagai berikut.
+
+- get_data(header=False)
+- get_header()
+- get_data_by_column(column_name)
+- average(column_name)
+- median(column_name)
+- modes(column_name)
