@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load bootstrap3 %}
+{% block title %} Login {% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow">
+        <div class="card-body">
+          <h3 class="card-title text-center">Login</h3>
+          <hr>
+          <form class="form-horizontal" autocomplete="off" method="POST">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <input type="hidden" name="next" value="{{ next }}" />
+            
+            <div class="form-group mt-4">
+              <!-- JWT Login Button -->
+              <button type="submit" name="action" value="jwt" class="btn btn-primary btn-lg btn-block">
+                <i class="glyphicon glyphicon-log-in"></i> JWT Login
+              </button>
+            </div>
+
+            <div class="form-group">
+              <!-- Session Login Button -->
+              <button type="submit" name="action" value="session" class="btn btn-secondary btn-lg btn-block">
+                <i class="glyphicon glyphicon-log-in"></i> Session Login
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  $("form").on("submit", function (event) {
+    event.preventDefault();
+  
+    let action = $(this).find("button[type=submit]:focus").val();
+  
+    if (action === 'jwt') {
+      // JWT Login logic
+      $.ajax({
+        type: "POST",
+        url: "/{{ jwt_token_url }}",
+        data: $(this).serialize(),
+        success: function (data) {
+          console.log(data);
+          localStorage.setItem('refresh_token', data.refresh);
+          localStorage.setItem('access_token', data.access);
+          window.location.href = "/{{ dashboard_url }}";
+        }
+      });
+    } else if (action === 'session') {
+      // Session Login logic
+      $.ajax({
+        type: "POST",
+        url: "/{{ dashboard_url }}/login",
+        data: $(this).serialize(),
+        success: function (data) {
+          console.log(data);
+          window.location.href = "/{{ dashboard_url }}";
+        }
+      });
+    }
+  });
+  
+</script>
+
+{% endblock %}
