@@ -1,0 +1,2 @@
+[console_scripts]
+unittest = compipe.unittest.cmd_test:main
