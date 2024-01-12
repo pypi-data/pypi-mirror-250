@@ -1,0 +1,9 @@
+LICENSE
+NOTICE
+README.md
+setup.py
+tsforge.egg-info/PKG-INFO
+tsforge.egg-info/SOURCES.txt
+tsforge.egg-info/dependency_links.txt
+tsforge.egg-info/requires.txt
+tsforge.egg-info/top_level.txt
