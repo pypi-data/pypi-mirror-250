@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: json-paths
+Version: 0.0.2
+Summary: A library for working with JSON paths.
+Requires-Python: >=3.8
+Requires-Dist: pandas
