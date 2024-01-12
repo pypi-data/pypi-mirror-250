@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: langchain-bailian
+Version: 1.0.0
+Summary: Alibaba Cloud BaiLian and Langchain Integration SDK for Python
+Home-page: https://bailian.console.aliyun.com/
+Author: Alibaba Cloud SDK
+Author-email: sdk-team@alibabacloud.com
+License: MIT License
+Description: UNKNOWN
+Keywords: alibabacloud,langchain-bailian
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
