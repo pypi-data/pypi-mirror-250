@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cgem
+Version: 0.0.5
+Summary: CGEM: Collaborative Generalized Effects Modeling
+Home-page: https://github.com/jrolf/cgem
+Author: James A. Rolfsen
+Author-email: james.rolfsen@think.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: numpy >=1.1.1
+Requires-Dist: pandas
+Requires-Dist: pandas-ta
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: sympy
+Requires-Dist: statsmodels
+Requires-Dist: pygam
+Requires-Dist: xgboost
+
+UNKNOWN
+
+
