@@ -1,0 +1,47 @@
+from dataclasses import dataclass, field
+from datetime import datetime
+from pathlib import Path
+from typing import Union
+
+import jwt
+from httpx import AsyncClient
+
+from ..models import ApnsConfig
+from . import __Client as BaseClient
+
+
+@dataclass
+class ApnsClient(BaseClient):
+    use_sandbox: bool
+    team_id: str
+    auth_key_id: str
+    auth_key_filepath: Union[str, Path]
+    _auth_key_filepath: Path = field(init=False)
+
+    def __post_init__(self):
+        if isinstance(self.auth_key_filepath, Path):
+            self._auth_key_filepath = self.auth_key_filepath
+        else:
+            self._auth_key_filepath = Path(self.auth_key_filepath)
+
+    def _init_client(self, apns_config: ApnsConfig) -> AsyncClient:
+        headers = apns_config.make_headers()
+        headers["authorization"] = f"bearer {self._make_authorization()}"
+        client = AsyncClient(headers=headers, http2=True)
+        return client
+
+    def _make_authorization(self) -> str:
+        auth_key = self._auth_key_filepath.read_text()
+        token = jwt.encode(
+            payload={
+                "iss": self.team_id,
+                "iat": str(int(datetime.now().timestamp())),
+            },
+            key=auth_key,
+            algorithm="ES256",
+            headers={
+                "alg": "ES256",
+                "kid": self.auth_key_id,
+            },
+        )
+        return token
