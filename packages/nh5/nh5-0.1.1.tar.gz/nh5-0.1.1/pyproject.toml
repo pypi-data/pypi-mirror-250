@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nh5"
+version = "0.1.1"
+description = "Utilities to support the nh5 file format"
+authors = ["Jeremy Magland"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/magland/nh5"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+h5py = "^3.10.0"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
