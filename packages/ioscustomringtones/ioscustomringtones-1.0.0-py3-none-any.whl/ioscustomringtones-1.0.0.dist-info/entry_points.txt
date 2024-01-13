@@ -1,0 +1,2 @@
+[console_scripts]
+generate_ios_ringtones_plist = ioscustomringtones.generate:main
