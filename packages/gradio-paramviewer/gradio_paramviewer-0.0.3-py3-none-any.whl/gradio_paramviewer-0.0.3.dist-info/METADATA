@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: gradio_paramviewer
+Version: 0.0.3
+Summary: A gradio component that renders a pretty table for python or javascript function or method parameters.
+Project-URL: repository, https://github.com/pngwn/gradio-paramviewer
+Author-email: YOUR NAME <YOUREMAIL@domain.com>
+License-Expression: MIT
+Keywords: gradio-custom-component,gradio-template-Fallback
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8
+Requires-Dist: gradio<5.0,>=4.0
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+
+# gradio_paramviewer
+A Custom Gradio component.
+
+## Example usage
+
+```python
+import gradio as gr
+from gradio_paramviewer import ParamViewer
+```

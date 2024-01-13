@@ -1,0 +1,5 @@
+gradio_paramviewer/__init__.py,sha256=Iu8aGCE9zirPEeWiNV1_mS4_k11QqrIEc0jh0GMrdxs,65
+gradio_paramviewer/paramviewer.py,sha256=W90ER7ssNtheosGsRufnq8R2cYIkPu19S4EfdjKVGTI,2433
+gradio_paramviewer-0.0.3.dist-info/METADATA,sha256=YoX2ry1xhtd70PRnXfAUWB1Q1N1q_dJHrpnOXv8Sutg,1344
+gradio_paramviewer-0.0.3.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+gradio_paramviewer-0.0.3.dist-info/RECORD,,
