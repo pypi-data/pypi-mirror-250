@@ -1,0 +1,17 @@
+aiohttp==3.9.1
+awesomeversion==23.11.0
+yarl==1.9.4
+
+[test]
+black==23.12.1
+codespell==2.2.6
+mypy==1.8.0
+ruff==0.1.11
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-aiohttp==1.0.5
+pytest-cov==4.1.0
+pre-commit==3.6.0
+pylint==3.0.3
+fastapi==0.108.0
+httpx==0.26.0
