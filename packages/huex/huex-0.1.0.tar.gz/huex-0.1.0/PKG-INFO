@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: huex
+Version: 0.1.0
+Summary: Powerful, lightweight CLI tool to control Hue Lights in Conbee II
+Home-page: https://github.com/s1lvax/huex
+Author: s1lvx
+Author-email: silva@cfsilva.com
+Keywords: hue lights,conbee II,CLI
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+Requires-Dist: prettytable>=3.9.0
