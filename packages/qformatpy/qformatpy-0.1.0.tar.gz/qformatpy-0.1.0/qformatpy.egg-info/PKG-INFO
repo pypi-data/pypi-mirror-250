@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: qformatpy
+Version: 0.1.0
+Summary: A Python library for Q format representation and overflow handling.
+Home-page: https://github.com/ericsmacedo/qformatpy
+Author: Eric Macedo
+Author-email: ericsmacedo@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+
+# qformatpy
+Library to convert values to its fixed point implementation implementing different rounding methods, overflow.
