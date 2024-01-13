@@ -1,0 +1,29 @@
+[project]
+name = "robotframework-jinger"
+version = "1.0.0"
+description = "Generate data-driven Robot Framework testcases using Jinja templates"
+authors = [
+    {name = "Marduk Bolaños, Mohamad Nour Almujarkesh", email = "marduk.bolanos@imbus.de"},
+]
+dependencies = [
+    "jinja2>=3.1.3",
+    "click>=8.1.7",
+]
+requires-python = ">= 3.8.2"
+readme = "README.md"
+license = {text = "Apache 2.0"}
+
+[build-system]
+requires = ["flit_core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project.scripts]
+jinger = "JingeR.jinger:cli"
+
+[tool.pdm]
+package-type = "library"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "robotframework>=7.0",
+]
