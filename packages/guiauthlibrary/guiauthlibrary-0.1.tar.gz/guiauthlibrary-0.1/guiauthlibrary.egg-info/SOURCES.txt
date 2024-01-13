@@ -1,0 +1,7 @@
+README.md
+setup.py
+guiauthlibrary.egg-info/PKG-INFO
+guiauthlibrary.egg-info/SOURCES.txt
+guiauthlibrary.egg-info/dependency_links.txt
+guiauthlibrary.egg-info/requires.txt
+guiauthlibrary.egg-info/top_level.txt
