@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cromdf
+Version: 0.1.0
+Summary: An utility for fusing data across different modalities like text, image, and audio.
+Home-page: https://github.com/Hiromuabe/cromdf
+Author: Hiromuabe
+Author-email: s2122072@stu.musashino-u.ac.jp
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: librosa
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+
+# cromdf
+A library for integrating and analyzing data from different modalities (text, images, audio, etc.). This library helps to combine information from different types of data sources for richer insights and predictions. It provides a way to fuse data to improve the performance of machine learning models
+
+
