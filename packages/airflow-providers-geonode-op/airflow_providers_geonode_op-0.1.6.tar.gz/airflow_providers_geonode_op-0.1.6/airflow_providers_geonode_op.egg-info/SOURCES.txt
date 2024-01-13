@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+airflow_providers_geonode_op.egg-info/PKG-INFO
+airflow_providers_geonode_op.egg-info/SOURCES.txt
+airflow_providers_geonode_op.egg-info/dependency_links.txt
+airflow_providers_geonode_op.egg-info/requires.txt
+airflow_providers_geonode_op.egg-info/top_level.txt
+kan_provider/__init__.py
+kan_provider/operator/__init__.py
+kan_provider/operator/geonode_operator.py
