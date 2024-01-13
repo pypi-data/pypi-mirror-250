@@ -1,0 +1,27 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+# https://flit.pypa.io/en/latest/pyproject_toml.html
+
+[project]
+name = "rankpy"
+authors = [
+  {name="Kevin Himberger & JJ Naddeo", email="kevin.himberger@justiceinnovationlab.org"},
+]
+# maintainers (same format as authors)
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jenkspy",
+]
+
+description = "Package which creates a single, ranked order of charges from multiple lists of rankings."
+version = "0.4.1"
+
+[project.urls]
+home-page = "https://github.com:Justice-Innovation-Lab/rankpy"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "rankpy",
+]
