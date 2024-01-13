@@ -1,0 +1,11 @@
+requests>=2.20
+werkzeug>=3.0
+
+[dev]
+black>=22.1
+isort>=5.10
+pytest>=7.0
+hypercorn
+pytest_httpserver
+websocket-client>=1.7.0
+coverage[toml]>=5.0.0
