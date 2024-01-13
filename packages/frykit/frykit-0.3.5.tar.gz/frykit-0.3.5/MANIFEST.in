@@ -1,0 +1,3 @@
+include example/*
+include script/*
+recursive-include frykit/data *
