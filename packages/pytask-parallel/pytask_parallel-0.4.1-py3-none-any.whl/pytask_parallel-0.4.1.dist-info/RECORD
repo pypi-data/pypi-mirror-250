@@ -1,0 +1,15 @@
+pytask_parallel/__init__.py,sha256=YkEbFu59-ARVluNSKXYxNm39UOUeMM4Rp-caTLDYtcc,326
+pytask_parallel/_version.py,sha256=H6xAc33bJwmO0oYU-O7_wWInmGAifNGi6CO6khT0G1g,411
+pytask_parallel/backends.py,sha256=5lfdV4PWcW5O5-DMNhC60I977ZSMnp5EMDKS7XQYnC4,2145
+pytask_parallel/build.py,sha256=EszyJXmFP7aoyumb_3beKUBcr86QIDnXPZzpjb-62zM,984
+pytask_parallel/config.py,sha256=b2DY_PIDWnDJdLyLde2B3b4CYiBsjb50oSYEVXvgg6w,1152
+pytask_parallel/execute.py,sha256=QQecqVZuyVTM18765DCvBvMFZziUqhCUdOxGwI-rpjo,16742
+pytask_parallel/logging.py,sha256=-vMvIc2cZTHDf8JNsm-Es0nCoKQl0aIBEW8ZVpwI_IQ,418
+pytask_parallel/plugin.py,sha256=A1fPo4ywWVdPKiWAdTKv8HKyJl639riBhx_5T1AhG-c,458
+pytask_parallel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytask_parallel-0.4.1.dist-info/LICENSE,sha256=RxB_V9PwkqN54TuemXxwTa5K9yHQCbD-sgg1pjmYSz0,1052
+pytask_parallel-0.4.1.dist-info/METADATA,sha256=I3FvTDexxuSH6eSZh73JbPFmcHaF0d-KMUVxwj3_ut0,5363
+pytask_parallel-0.4.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytask_parallel-0.4.1.dist-info/entry_points.txt,sha256=Tl7SDcASQeVD6HSgh36K00V7BVBxR5UicIGmF5lYa1s,50
+pytask_parallel-0.4.1.dist-info/top_level.txt,sha256=hA_T6YZCwMPzk9XpVM_jyt5VGduFUL0skO1KMuox0Vs,16
+pytask_parallel-0.4.1.dist-info/RECORD,,
