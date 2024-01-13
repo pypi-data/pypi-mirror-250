@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sev_attest_tool
+Version: 0.2.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Rust implementation of SEV-SNP attestation verification
+Keywords: sev-snp,sev,amd,attestation,cryptography
+Home-Page: https://blyss.dev
+Author: Samir Menon <samir@blyss.dev>, Neil Movva <neil@blyss.dev>
+Author-email: Samir Menon <samir@blyss.dev>, Neil Movva <neil@blyss.dev>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# sev-attest-tool
+
+This library generates and verifies SEV-SNP attestation reports.
+
+## Python
+
+To build the Python package, run:
+
+```
+sudo docker run --env MATURIN_PYPI_TOKEN=$MATURIN_PYPI_TOKEN --rm -v $(pwd):/io --entrypoint "" -it ghcr.io/pyo3/maturin bash -c 'yum install -y openssl-devel && maturin publish --compatibility manylinux2014'
+```
