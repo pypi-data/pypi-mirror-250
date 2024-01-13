@@ -1,0 +1,17 @@
+pyproject.toml
+setup.py
+core/__init__.c
+core/__init__.cpython-311-x86_64-linux-gnu.so
+core/__init__.py
+core/main.c
+core/main.cpython-311-x86_64-linux-gnu.so
+core/main.py
+core/run.c
+core/run.cpython-311-x86_64-linux-gnu.so
+core/run.py
+proalgotrader_core.egg-info/PKG-INFO
+proalgotrader_core.egg-info/SOURCES.txt
+proalgotrader_core.egg-info/dependency_links.txt
+proalgotrader_core.egg-info/entry_points.txt
+proalgotrader_core.egg-info/requires.txt
+proalgotrader_core.egg-info/top_level.txt
