@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+notebook
+protobuf==3.19.1
+matplotlib
+wandb
+seaborn
+ipywidgets
+plotnine
+huggingface-hub
