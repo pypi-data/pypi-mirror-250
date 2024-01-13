@@ -1,0 +1,11 @@
+chocopearl/__init__.py,sha256=0TpdwJH0xLPDCXLQrVW8jmxsKThUQnd2uOszhz9qkrc,143
+chocopearl/dirac.py,sha256=a2ZAAMCqcapnMfZmJsccvsWC0t751FKaMCDttmbs34w,2644
+chocopearl/general.py,sha256=TMhHjwv7BmVG3dmDS2MbVFrbLbZEz1PadT5u2ZUASXc,1012
+chocopearl/nummath.py,sha256=AT4mcxd3JGUxi92NI4DWI2CSUXxPkEIb9-hQgD2Z5Yo,674
+chocopearl/particle.py,sha256=mNIOJ_jmerI50aXpV7ks5tp8BQJ88WRNDThzNLOuhfg,6603
+chocopearl/relativity.py,sha256=XybJ4uADxOaJ2b1ww1EK-nxPwTQO2k6ZyDked1rCbbU,587
+chocopearl-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+chocopearl-0.0.1.dist-info/METADATA,sha256=mPHytok8D44UUH_90U4F8bo9DLLiypIQ0ZOFbnFWbNU,815
+chocopearl-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+chocopearl-0.0.1.dist-info/top_level.txt,sha256=3ZXuDD4Tz2WplhsCFBjgXW6NDwpC5XeLN_kCzY_sG10,11
+chocopearl-0.0.1.dist-info/RECORD,,
