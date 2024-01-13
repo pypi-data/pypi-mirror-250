@@ -1,0 +1,5 @@
+cria_index/vector_stores/qdrant/__init__.py,sha256=AcsHTktp8ZM6Mp-YymIcp9DxpvEW8HRUgCGrCF1GTzE,99
+cria_index/vector_stores/qdrant/base.py,sha256=cRfZSi-HoTWxZXSlTcs1m0PqXUL-gF-vRtO4mFNL1E0,155
+cria_vector_stores_qdrant-0.1.0.dist-info/METADATA,sha256=0kLBhHuer8uazTk2FQ-EN5fHThJ3VsTGOI673ypKbE0,530
+cria_vector_stores_qdrant-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cria_vector_stores_qdrant-0.1.0.dist-info/RECORD,,
