@@ -1,0 +1,17 @@
+flask>=2.2.5
+konch>=4
+
+[dev]
+pytest
+flake8==7.0.0
+flake8-bugbear==23.12.2
+pre-commit~=3.6
+tox
+
+[lint]
+flake8==7.0.0
+flake8-bugbear==23.12.2
+pre-commit~=3.6
+
+[tests]
+pytest
