@@ -1,0 +1,1 @@
+print("run on linux amd64")

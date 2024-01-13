@@ -1,0 +1,3 @@
+[console_scripts]
+repack=repack_wheel:main
+
