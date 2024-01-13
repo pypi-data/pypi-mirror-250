@@ -1,0 +1,2 @@
+Compute polarimetric noise and sensitivity values and add to L1 headers (POL_NOIS, and POL_SENS, respectively). These
+keywords are now required by the fits-spec.
