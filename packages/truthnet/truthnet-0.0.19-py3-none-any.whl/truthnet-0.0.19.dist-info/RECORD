@@ -1,0 +1,17 @@
+truthnet/__init__.py,sha256=Nh8pJ9rjd2NpIIIy7zqs9G-bdDIYpbpkAxzwb2lVY78,657
+truthnet/truthfinder.py,sha256=P_lUd7rRO1q3Sxi2FJAcqURdn-p4K5G59WkPrTnY6iI,6574
+truthnet/truthnet.py,sha256=liMCb9j-i6caKP7ghYL7gWcQN456xZlucCDhceXplz8,17296
+truthnet/util.py,sha256=Iyg62Bpdt7Me_Ae46VdsRkUo163zB_Xab72PwRXIerM,7534
+truthnet/.ipynb_checkpoints/validate-checkpoint.ipynb,sha256=SmK2imM9ecU6b9iJPo6kLc8rmoo-kHsbmGFmHwTyFRc,72
+truthnet/examples/calculate_response.ipynb,sha256=6L9mejOMtn8eLg2CD8mwjNBDZIpV24WcY5tatW3NlPc,1851
+truthnet/examples/train_example.ipynb,sha256=oUf9y6Svll7j9HAEXJSRvQjdh-jHHtOYLOpIc0OTDRw,3144
+truthnet/examples/validate.ipynb,sha256=XfIG4rvh_D3wa4eWSlHtojK5bKIdWcBIpvEIajWN2Ig,4513
+truthnet/examples/validation_SUD.ipynb,sha256=N4BoTo05eQCmPr6WIOkRAkH7JRn-7axvJN_8OHfrYGI,339824
+truthnet/examples/validation_ptsd_1.ipynb,sha256=xuyKiRVLcTt1jqnrRZlX5LKCJeWiq09VUkc0GG1WKJ0,180623
+truthnet/examples/validation_ptsd_expt.ipynb,sha256=u3kDO_G4PzyAjjpQ-rSbrS3BokKPZ2ZNlm-jHJSf5KE,169482
+truthnet/examples/.ipynb_checkpoints/validate-checkpoint.ipynb,sha256=BuYru9Ee2YytCiPNjB6xMEFp9oFzZWjfDvs4rAM1whE,4091
+truthnet-0.0.19.dist-info/LICENSE.md,sha256=HxxTkpOgLvCmk0ifKHlOUSEJIpUsPLJYOEkyQ-D2VyE,2025
+truthnet-0.0.19.dist-info/METADATA,sha256=cQHrsZBJhd5vjHfLqPk1Y4sqywfZuSXpdW-ZEF-IYNE,1550
+truthnet-0.0.19.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+truthnet-0.0.19.dist-info/top_level.txt,sha256=uR-RxAHaD7ssoKVbDwOPiYUYEwjDIwFWr_rf8npDgmk,9
+truthnet-0.0.19.dist-info/RECORD,,
