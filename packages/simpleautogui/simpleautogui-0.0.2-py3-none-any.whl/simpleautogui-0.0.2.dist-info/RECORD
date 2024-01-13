@@ -1,0 +1,13 @@
+simpleautogui/__init__.py,sha256=r-8Uq9n_jX2OQ5SUHJ6vYsBvis2CgkIzukF0Cx7TrlI,57
+simpleautogui/screen/__init__.py,sha256=oa412OuokRm9Vf3XlCJLqpZjz9ZcuxAKxnEBvOK7u2M,21
+simpleautogui/screen/common.py,sha256=HA3q8zWm07WtIqdSCudK_RS537UOX48LgEkC84oq-jY,4525
+simpleautogui/screen/classes/common.py,sha256=J5pawzDNtnlhYBRGzOHd8UnTXSwZR0ivt189MCtxjYo,4309
+simpleautogui/win/__init__.py,sha256=oa412OuokRm9Vf3XlCJLqpZjz9ZcuxAKxnEBvOK7u2M,21
+simpleautogui/win/common.py,sha256=hnNInDqdPqsiG9u-shfqHKb_mzGt6TVlb5-TibdUg5Y,730
+simpleautogui/windows/__init__.py,sha256=oa412OuokRm9Vf3XlCJLqpZjz9ZcuxAKxnEBvOK7u2M,21
+simpleautogui/windows/common.py,sha256=dchNfVQszDvdJ_0mPSESUSA4nHqI4zaKb6GfOwR_2Gs,3471
+simpleautogui-0.0.2.dist-info/LICENSE,sha256=Imx_OGIASDGpqfENXx--UV8pM1Wi8h6tVjb_aGffXRI,1083
+simpleautogui-0.0.2.dist-info/METADATA,sha256=aVQ1J1vo2paiQY8CpiUNu5KQjh3b-DuWGxmIQv6vdpI,3048
+simpleautogui-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+simpleautogui-0.0.2.dist-info/top_level.txt,sha256=IwRK5rikuub02L1shWjnThlkG-15WDU4xdfSYppb6ZU,14
+simpleautogui-0.0.2.dist-info/RECORD,,
