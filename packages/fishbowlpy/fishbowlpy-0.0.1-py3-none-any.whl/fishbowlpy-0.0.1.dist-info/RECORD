@@ -1,0 +1,14 @@
+fishbowlpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fishbowlpy/browserdriver.py,sha256=oeTqf6XVhhOfiwZ9aGHLRVr72Z0PidGkATJRCYnumHw,1342
+fishbowlpy/config.py,sha256=trJf3QTzXzNM93VSJo-NOmUR3xeCRLoQhdsrR1fi0k0,763
+fishbowlpy/drivertype.py,sha256=7fOOr636GY-EYwdIPKZ42zA-HlBCfvI8hSU24f8mH1Y,87
+fishbowlpy/fishbowlapi.py,sha256=07IQMA6e7GB1lxjG9Zhch6QG2I7dJby5-LAKM1B_IJ4,1856
+fishbowlpy/fishbowlclient.py,sha256=dr2WrgwUkNNUkvFtV336_0m_zo4EYN6OEo97ybhxbao,1163
+fishbowlpy/fishbowldatatypes.py,sha256=iIsVK-Sl76nD_tLKL_uYl2vfR32iIgebF0CWD3ZMljY,60
+fishbowlpy/fishbowlloginmanager.py,sha256=IeJPnYml3JPFpdjP-ubM1r96E-UUuAlxfQhJ3j9wVGY,4631
+fishbowlpy/urlmanager.py,sha256=RS4iytKss6aLjYNbJG_u_j1Ax0xS1KQdUYnLeVoNlmg,1057
+fishbowlpy-0.0.1.dist-info/LICENSE,sha256=D-ygYJot98otzFMHmTfVONbTv_VY0Wp1dZcv0hoXZvc,1090
+fishbowlpy-0.0.1.dist-info/METADATA,sha256=Z0QCX4mdaWNef2Pz_OAuGCfjccviVPjNDZHyq3Yzz5I,566
+fishbowlpy-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fishbowlpy-0.0.1.dist-info/top_level.txt,sha256=Sw5byw7FDCFQKmYpG8Bd5K8NpItL3al5pS0UvkrpHY4,11
+fishbowlpy-0.0.1.dist-info/RECORD,,
