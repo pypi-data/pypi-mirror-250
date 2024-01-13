@@ -1,0 +1,55 @@
+/* Custom settings for reveal.js slides */
+.reveal section.present:not(.stack) {
+  max-height: 95% !important;
+  overflow-y: auto !important;
+  padding-top: 0 !important;
+}
+.reveal section:first-child {
+  margin-top: 0 !important;
+}
+.reveal section:last-child {
+  margin-bottom: 0 !important;
+}
+.reveal pre {
+  font-size: var(--jp-code-font-size) !important;
+}
+.reveal h1 {
+  font-weight: bold !important;
+  font-size: 1.5em;
+}
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  font-family: "Helvetica", sans-serif;
+}
+.reveal .jp-InputPrompt,
+.reveal .jp-OutputPrompt {
+  display: none;
+}
+.reveal .jp-OutputArea-output {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.reveal .jp-OutputArea-output pre {
+  margin: 0 !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.reveal blockquote {
+  border: none !important;
+  box-shadow: none !important;
+}
+.reveal a:not(.explicit_url)::after {
+  content: " (" attr(href) ")";
+  color: grey;
+}
+.reveal ul,
+.reveal ol {
+  display: block;
+  margin-left: 0;
+}
+.reveal .flex_aside a:after {
+  content: none;
+}
