@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: proalgotrader-core
+Version: 0.1.0
+Summary: ProAlgoTrader core
+Home-page: https://github.com/krunaldodiya/proalgotrader_core
+Author: Krunal Dodiya
+Author-email: kunal.dodiya1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Cython
+Requires-Dist: mypy
+Requires-Dist: python-dotenv
+Requires-Dist: twine
+Requires-Dist: wheel
+
+```
+ProAlgoTrader Core
+```
+
+
