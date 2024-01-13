@@ -1,0 +1,7 @@
+images_collector/__init__.py,sha256=JlxCLLyovnvTMAY0FJZUx9bYAL78QuhwTkl3eLSzuNY,156
+images_collector/core.py,sha256=xMIxhFH_rOhbZhbS6Br720qf4RDNDmXgUFlnmvaT5Gw,1474
+images_collector/tools.py,sha256=1PlWvGtB8ii7pk7keAS1sJ5nlTkEFVnAaU4x_8S589k,1488
+images_collector-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+images_collector-0.1.0.dist-info/METADATA,sha256=GQZjhMxA73LQPGtIknAXArSJiU9tR2sRoozBJ9njocc,320
+images_collector-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+images_collector-0.1.0.dist-info/RECORD,,
