@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+proalgotrader_core.egg-info/PKG-INFO
+proalgotrader_core.egg-info/SOURCES.txt
+proalgotrader_core.egg-info/dependency_links.txt
+proalgotrader_core.egg-info/requires.txt
+proalgotrader_core.egg-info/top_level.txt
