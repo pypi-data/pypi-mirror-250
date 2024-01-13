@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+standardwebhooks/__init__.py
+standardwebhooks/exceptions.py
+standardwebhooks/py.typed
+standardwebhooks/webhooks.py
+standardwebhooks.egg-info/PKG-INFO
+standardwebhooks.egg-info/SOURCES.txt
+standardwebhooks.egg-info/dependency_links.txt
+standardwebhooks.egg-info/not-zip-safe
+standardwebhooks.egg-info/requires.txt
+standardwebhooks.egg-info/top_level.txt
+tests/test_webhooks.py
