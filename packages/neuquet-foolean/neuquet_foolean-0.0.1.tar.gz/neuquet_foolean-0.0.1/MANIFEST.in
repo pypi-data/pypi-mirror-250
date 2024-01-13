@@ -1,0 +1,3 @@
+recursive-include server/public_html/*
+recursive-include server/public_html/static/css/*.css
+recursive-include server/public_html/static/js/*.js
