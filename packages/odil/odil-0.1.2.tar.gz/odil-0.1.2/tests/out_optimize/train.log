@@ -1,0 +1,103 @@
+test_optimize.py
+Running L-BFGS-B optimizer
+
+epoch=00000
+residual: uc:0.53855, un:0.55434, ufx:0.54367, ufy:0.54932, a:2.4495, net_a:1.2247
+memory: 192 MiB
+walltime: 6.115 s
+walltime+callback: 6.115 s
+Running AdamNative optimizer
+
+epoch=00000
+residual: uc:0.53855, un:0.55434, ufx:0.54367, ufy:0.54932, a:2.4495, net_a:1.2247
+memory: 264 MiB
+walltime: 5.251 s
+walltime+callback: 5.251 s
+
+epoch=00100
+residual: uc:0.0019973, un:0.00171, ufx:0.0018836, ufy:0.001
+epoch=00000
+residual: uc:0.53855, un:0.55434, ufx:0.54367, ufy:0.54932, a:2.4495, net_a:1.2247
+memory: 261 MiB
+walltime: 4.668 s
+walltime+callback: 4.668 s
+
+epoch=00100
+residual: uc:0.0019972, un:0.00171, ufx:0.0018836, ufy:0.0014467, a:0.011859, net_a:0.012679
+memory: 262 MiB
+walltime: 5.378 s
+walltime+callback: 5.379 s
+walltime/epoch: 53.781 ms
+throughput: 0.001M cells/s
+
+epoch=00200
+residual: uc:8.9992e-06, un:1.0414e-05, ufx:9.0331e-06, ufy:1.0537e-05, a:0.0025686, net_a:0.0050057
+memory: 262 MiB
+walltime: 5.440 s
+walltime+callback: 5.442 s
+walltime/epoch: 0.614 ms
+throughput: 0.052M cells/s
+
+epoch=00300
+residual: uc:6.5485e-08, un:6.114e-08, ufx:5.9462e-08, ufy:7.1115e-08, a:0.0022236, net_a:0.0043959
+memory: 262 MiB
+walltime: 5.497 s
+walltime+callback: 5.501 s
+walltime/epoch: 0.578 ms
+throughput: 0.055M cells/s
+
+epoch=00400
+residual: uc:8.0115e-09, un:5.0288e-09, ufx:1.2905e-08, ufy:4.7488e-09, a:0.0020101, net_a:0.0039854
+memory: 262 MiB
+walltime: 5.559 s
+walltime+callback: 5.563 s
+walltime/epoch: 0.613 ms
+throughput: 0.052M cells/s
+
+epoch=00500
+residual: uc:7.9025e-09, un:4.4772e-09, ufx:5.5533e-09, ufy:1.7671e-09, a:0.0018121, net_a:0.0035962
+memory: 262 MiB
+walltime: 5.619 s
+walltime+callback: 5.625 s
+walltime/epoch: 0.602 ms
+throughput: 0.053M cells/s
+
+epoch=00600
+residual: uc:1.3496e-08, un:1.5707e-09, ufx:5.5533e-09, ufy:2.3561e-09, a:0.0016317, net_a:0.00324
+memory: 262 MiB
+walltime: 5.686 s
+walltime+callback: 5.693 s
+walltime/epoch: 0.674 ms
+throughput: 0.047M cells/s
+
+epoch=00700
+residual: uc:1.2071e-08, un:5.239e-09, ufx:5.5533e-09, ufy:5.8902e-10, a:0.0014717, net_a:0.0029242
+memory: 262 MiB
+walltime: 5.766 s
+walltime+callback: 5.775 s
+walltime/epoch: 0.801 ms
+throughput: 0.040M cells/s
+
+epoch=00800
+residual: uc:2.4851e-08, un:9.3091e-09, ufx:5.5533e-09, ufy:0, a:0.0013331, net_a:0.0026533
+memory: 262 MiB
+walltime: 5.834 s
+walltime+callback: 5.844 s
+walltime/epoch: 0.680 ms
+throughput: 0.047M cells/s
+
+epoch=00900
+residual: uc:2.1562e-08, un:5.8244e-09, ufx:1.1649e-08, ufy:0, a:0.002001, net_a:0.0041347
+memory: 262 MiB
+walltime: 5.894 s
+walltime+callback: 5.905 s
+walltime/epoch: 0.599 ms
+throughput: 0.053M cells/s
+
+epoch=01000
+residual: uc:2.7627e-08, un:4.0046e-09, ufx:7.8536e-09, ufy:0, a:0.0016227, net_a:0.0032226
+memory: 262 MiB
+walltime: 5.966 s
+walltime+callback: 5.978 s
+walltime/epoch: 0.714 ms
+throughput: 0.045M cells/s
