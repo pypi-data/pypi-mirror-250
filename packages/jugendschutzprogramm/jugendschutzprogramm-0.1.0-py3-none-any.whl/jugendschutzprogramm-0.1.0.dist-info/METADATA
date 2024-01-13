@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: jugendschutzprogramm
+Version: 0.1.0
+Summary: An API Client to query the API of the one and only officially approved sfilter solution in Germany to protect minors from harmful content on the internet.
+License: Apache 2.0
+Author: Lilith Wittmann
+Author-email: mail@lilithwittmann.de
+Requires-Python: >=3.9
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Jugendschutzprogramm API
+This is a simple API client for the [Jugendschutzprogramm API](https://www.jugendschutzprogramm.de/). It allows you to query the age rating of a website.
+
+This might be useful if you want to check if a website is suitable for children or just want to know if your website is blocked by the [Jugendschutzprogramm](https://www.jugendschutzprogramm.de/). 
+
+## Installation
+```bash 
+pip install jugendschutzprogramm
+```
+
+## Usage
+```python
+from jugendschutzprogramm import JugendschutzAPIClient 
+
+client = JugendschutzAPIClient()
+result = client.check("https://www.google.com")
+
+print(result)
+print(result.age)
+print(result.url)
+```
+
+## License
+This project is licensed under the terms of the Apache 2.0 license.
+
+## Disclaimer
+This project is not affiliated with or encouraged by the [Jugendschutzprogramm](https://www.jugendschutzprogramm.de/). However it is a helpful for journalists and researchers to check if a website is blocked by the [Jugendschutzprogramm](https://www.jugendschutzprogramm.de/).
+
