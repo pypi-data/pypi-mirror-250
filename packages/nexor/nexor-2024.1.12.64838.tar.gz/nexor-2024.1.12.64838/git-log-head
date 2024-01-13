@@ -1,0 +1,7 @@
+commit 70f1d8d2e8597f2256f89b597730c47890f9bd53
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2024-01-12 10:00:38 -0800
+
+    Merge pull request #22 from elcaminoreal/relock-plain
+    
+    add a "plain" requirements with no extras
