@@ -1,0 +1,2 @@
+[console_scripts]
+ros2bagcut = ros2bagcut.main:main
