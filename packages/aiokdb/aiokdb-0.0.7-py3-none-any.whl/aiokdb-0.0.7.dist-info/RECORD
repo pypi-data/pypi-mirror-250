@@ -1,0 +1,11 @@
+aiokdb/__init__.py,sha256=M2R-goCK-KzB9Gm8Z8gdGoKDXFB5odrmn_mmtp3Pirs,26247
+aiokdb/cli.py,sha256=RqQbiz_XWJXzBcCxp83gZsoDjnEYx7yqddjBwLtAGDA,1450
+aiokdb/client.py,sha256=wYzfbgkq2vxCha1yny-xPlxIyMqL9YCckRDZCb99yC0,1872
+aiokdb/format.py,sha256=7Tt9E8k-z6d62iSLY5XVZ4sY5LTzimYrl7DBFwpR1F0,5666
+aiokdb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiokdb/server.py,sha256=Eq69B-9kgSNKy6cVdapANAd5IMSYFxV7AVbshkvdvqQ,9390
+aiokdb-0.0.7.dist-info/LICENSE,sha256=FDCgmFAryZtP0abG1_jftpA3eikLfDe8-57WnXRD4N4,1077
+aiokdb-0.0.7.dist-info/METADATA,sha256=fKPrH_yA4cbXw3Yhm8EkwhNJQi0zHE2fHBeCeRWzdA4,3156
+aiokdb-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+aiokdb-0.0.7.dist-info/top_level.txt,sha256=8Ajy73MAyKg-rm2_Lw9usXYofeGRX2O5ZeFGPC7z53k,7
+aiokdb-0.0.7.dist-info/RECORD,,
