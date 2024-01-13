@@ -1,0 +1,29 @@
+formatters:
+  simple:
+    format: '{asctime} {levelname:>5} {message}'
+    style: '{'
+  trace:
+    format: '{asctime} {name:15} {levelname:8} {message}'
+    style: '{'
+  traffic:
+    format: '{asctime} {name:3} {message}'
+    style: '{'
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: simple
+    level: INFO
+    stream: ext://sys.stdout
+
+loggers:
+  .:
+    handlers: []
+    level: DEBUG
+    propagate: false
+
+root:
+  handlers:
+  - console
+  level: INFO
+version: 1
+
