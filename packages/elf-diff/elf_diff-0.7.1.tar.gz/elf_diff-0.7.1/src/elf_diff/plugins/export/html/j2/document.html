@@ -1,0 +1,49 @@
+{# 
+-*- coding: utf-8 -*-
+
+-*- mode: python -*-
+
+elf_diff
+
+Copyright (C) 2021  Noseglasses (shinynoseglasses@gmail.com)
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, version 3.
+
+This program is distributed in the hope that it will be useful, but WITHOUT but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+You should have received a copy of the GNU General Public License along with along with
+this program. If not, see <http://www.gnu.org/licenses/>.
+
+#}
+<H2>Configuration</H2>
+elf_diffs configuration is stored in a tree structure.
+<H3>Document</H3>
+<pre>
+{{ dump_tree(document, True) | e}}
+</pre>
+
+<H3>Dynamic Tree Node Types</H3>
+Some branches of the document tree are dynamically generated based on the content of the compared elf binaries.
+Dynamically generated node types are listed below.
+<p>
+<b>Please note:</b> The actual node representations are not listed due to space constraints.
+</p>
+{% for key, value in get_dynamic_node_document_trees().items() %}
+<H4>{{ key }}</H4>
+<pre>
+{{ dump_tree(value, False) | e }}
+</pre>
+{% endfor %}
+
+<H2>Jinja2 Template Variables</H2>
+The following exported variables may be used to configure Jinja2 Template files.
+<pre>
+{{ dump_leaf_paths(document) | e}}
+</pre>
+
+
