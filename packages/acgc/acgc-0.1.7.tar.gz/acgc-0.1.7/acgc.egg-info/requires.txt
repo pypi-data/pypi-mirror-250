@@ -1,0 +1,9 @@
+matplotlib
+matplotlib_inline
+cartopy
+numpy
+scipy
+pandas
+netCDF4
+scikit-learn
+statsmodels
