@@ -1,0 +1,7 @@
+cobra
+dill
+ncbi-genome-download
+numpy
+pandas>=2.0
+platformdirs
+scipy
