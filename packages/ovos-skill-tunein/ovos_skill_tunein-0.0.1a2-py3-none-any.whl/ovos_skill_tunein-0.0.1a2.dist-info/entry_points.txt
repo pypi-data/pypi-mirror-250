@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-ovos-tunein.openvoiceos=ovos_skill_tunein:TuneInSkill
+
