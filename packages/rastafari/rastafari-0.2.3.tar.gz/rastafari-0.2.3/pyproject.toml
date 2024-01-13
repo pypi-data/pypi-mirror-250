@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "Cython", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.check-manifest]
+ignore = [
+  ".gitlab-ci.yml",
+  "src/rastafari/*.c",
+]
+
+[tool.coverage.run]
+source = ["rastafari"]
+branch = true
+
+[tool.mypy]
+strict = true
+exclude = ['^setup\.py$']
+
+[tool.pytest.ini_options]
+filterwarnings = ["error"]
