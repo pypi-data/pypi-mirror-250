@@ -1,0 +1,7 @@
+cudacanvas/__init__.py,sha256=j3LDuBxrMksIB6sk4p2Pg3MJJlv6ZQOWGZWa04Q-s2I,717
+cudacanvas/cudaGLStream.cp310-win_amd64.pyd,sha256=Ongk5i7SI6pGRfgRo3HIeZ-t0UXH6TQmLJO_2P8x85E,208384
+cudacanvas-1.0.1.dist-info/LICENSE,sha256=ZJbqnAMGFiqWg002tBM-PurC2IUZeFTUkPaZQv0eNdo,1085
+cudacanvas-1.0.1.dist-info/METADATA,sha256=N6320_rDoX40xktSfMVjz8Mo7wRUfNyeCeDPmz_X2b0,3254
+cudacanvas-1.0.1.dist-info/WHEEL,sha256=5JPYeYl5ZdvdSkrGS4u21mmpPzpFx42qrXOSIgWf4pg,102
+cudacanvas-1.0.1.dist-info/top_level.txt,sha256=IUGIK1inIOR6Q21XtXaXdFfFUYVhqTk-aAF8KS_fgXM,11
+cudacanvas-1.0.1.dist-info/RECORD,,
