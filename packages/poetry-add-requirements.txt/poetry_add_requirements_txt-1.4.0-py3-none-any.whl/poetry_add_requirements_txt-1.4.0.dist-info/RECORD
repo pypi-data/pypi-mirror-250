@@ -1,0 +1,8 @@
+poetry_add_requirements_txt/__init__.py,sha256=_rkyRg-Pf9OaTngf8EY8UmTF--Sgrk_lvuBwj8BIC5k,67
+poetry_add_requirements_txt/cli.py,sha256=-w3aFlYzV9_aBJ0FoaCFOGUSjPoFh3BS0Gq4uPqPLGc,4311
+poetry_add_requirements_txt/utils.py,sha256=BY4x2IchGBEAKLyh7BGaJK4nR3K_ZpaV--zl5ogcuT4,135
+poetry_add_requirements_txt-1.4.0.dist-info/LICENSE,sha256=iDPU2JFPtGTxMtJ4js-KodAQR-IHm4NPaG5m8cRoutA,1100
+poetry_add_requirements_txt-1.4.0.dist-info/METADATA,sha256=fMwyiSV09lO2ErPVd_F2wtEEd1kQYAS5E7Bq26Lko7Y,3580
+poetry_add_requirements_txt-1.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+poetry_add_requirements_txt-1.4.0.dist-info/entry_points.txt,sha256=QTFlGBcsJh0ByTpJxIeR0Opl_wMKoQcqdhiz4Teo2ps,129
+poetry_add_requirements_txt-1.4.0.dist-info/RECORD,,
