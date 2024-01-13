@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dobishem
+Version: 0.0.28
+Summary: Python utilities for my other packages
+Author-email: "John C. G. Sturdy" <jcg.sturdy@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: pyyaml
+
+# dobishem
+My utility code, written to be useful for more than one specific project.
+
+The name is Albanian for "useful"; I wrote the initial version of this code in Albania.
+
+Contains I/O and file-based caching for a start.
+
+
