@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+haibedz/__init__.py
+haibedz.egg-info/PKG-INFO
+haibedz.egg-info/SOURCES.txt
+haibedz.egg-info/dependency_links.txt
+haibedz.egg-info/top_level.txt
