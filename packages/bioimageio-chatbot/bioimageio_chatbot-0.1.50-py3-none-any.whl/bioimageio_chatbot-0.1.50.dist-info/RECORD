@@ -1,0 +1,16 @@
+bioimageio_chatbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bioimageio_chatbot/__main__.py,sha256=A5qla636sT2PaU_STrnYWjmEghcN1bxQUwSJog2q4X0,3170
+bioimageio_chatbot/chatbot.py,sha256=FxyGvDAKCKVLnsq3br9qY2kSsprXT2L4DOf_uqjx9ak,17594
+bioimageio_chatbot/jsonschema_pydantic.py,sha256=Vnbroa-_N1NVdL12YdNXMRnbdTIjRuxUVw0tsgtaqNw,8996
+bioimageio_chatbot/knowledge_base.py,sha256=NcfrQnnaNm5DM_0Z0Dj99zaJE5FhUXfYDsEXm7TRskY,10392
+bioimageio_chatbot/utils.py,sha256=EREjCtlTZA4OgczmqqxVO-Qdi8u_GfV1riFS9S0UnTg,2423
+bioimageio_chatbot/chatbot_extensions/__init__.py,sha256=Dz4s9AWjsDbEYv4yHC9qPcQOntoeKL9uPMOe2mF4YJI,567
+bioimageio_chatbot/chatbot_extensions/biii_extension.py,sha256=zpHTO0LhhdOUmdRTDnrbNX0VkiqHkKiN2B2FqsC21sM,6455
+bioimageio_chatbot/chatbot_extensions/docs_extension.py,sha256=v7zHXmlzyMz1l7ZJMliPHNyhFpfWWNJjMDv855Ty4iY,4399
+bioimageio_chatbot/static/index.html,sha256=AJz3SOauK1cHS9ZvF_9mLnb9zCSH8t7gxj_XMHDh81k,36963
+bioimageio_chatbot/static/model-zoo-script-info-extension.imjoy.html,sha256=wc_2JJUDpVMpSB0GuiI0-bBdpGo966Ohfg7GhlrJddY,4801
+bioimageio_chatbot-0.1.50.dist-info/LICENSE,sha256=rboGm7htQ-7NNVcxppxWwR8aCUICUk9iDTce_weLqmg,1068
+bioimageio_chatbot-0.1.50.dist-info/METADATA,sha256=5lbgda1QnIqHFaKvb-qKp7k6MU1V16uCfUKVDkSFQD4,13512
+bioimageio_chatbot-0.1.50.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bioimageio_chatbot-0.1.50.dist-info/top_level.txt,sha256=mzfs6ABEyV0trprk6uJoIwfA5boM0gpLVEiH2ROlDoc,19
+bioimageio_chatbot-0.1.50.dist-info/RECORD,,
