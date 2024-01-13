@@ -1,0 +1,8 @@
+v0.1.0:
+    date:2024-01-12
+    changes:
+      - 初始化版本
+        1、py3office.handler
+            * listFile 遍历所有文件
+        2、py3office.pdf
+            * toImage 把pdf转成图片
