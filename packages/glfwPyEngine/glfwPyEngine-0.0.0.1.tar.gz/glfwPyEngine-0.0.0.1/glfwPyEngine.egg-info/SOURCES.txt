@@ -1,0 +1,5 @@
+setup.py
+glfwPyEngine.egg-info/PKG-INFO
+glfwPyEngine.egg-info/SOURCES.txt
+glfwPyEngine.egg-info/dependency_links.txt
+glfwPyEngine.egg-info/top_level.txt
