@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "vedro-xunit-reporter"
+version = "0.1.2"
+description = "xUnit format reporter for Vedro testing framework"
+authors = [
+    "Mickey Streicher <mickeystreicher@fastmail.us>"
+]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/mickeystreicher/vedro-xunit-reporter"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+vedro = ">=1.9"
+
+[tool.poetry.dev-dependencies]
+xmltodict = ">=0.13"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
