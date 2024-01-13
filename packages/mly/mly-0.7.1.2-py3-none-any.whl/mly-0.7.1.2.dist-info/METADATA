@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mly
+Version: 0.7.1.2
+Summary: Toolkit package to run GW search using ML.
+Home-page: http://pypi.python.org/pypi/mly/
+Author: Vasileios Skliris
+Author-email: Vasileios SKliris <sklirisv@cardiff.ac.uk>
+Keywords: ml,gravitational waves,bursts
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: gwpy >=0.13.1
+Requires-Dist: gwdatafind
+Requires-Dist: matplotlib
+Requires-Dist: pycondor
+Requires-Dist: dqsegdb2
+Requires-Dist: scipy
+Requires-Dist: tensorflow >=2.6
+Requires-Dist: pycbc
+Requires-Dist: healpy
+Requires-Dist: ligo.skymap
+
