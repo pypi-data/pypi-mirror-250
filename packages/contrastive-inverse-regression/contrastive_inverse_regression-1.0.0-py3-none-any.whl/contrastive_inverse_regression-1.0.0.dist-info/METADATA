@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: contrastive-inverse-regression
+Version: 1.0.0
+Requires-Dist: numpy (>=1.24.3)
+Requires-Dist: pandas (>=2.1.4)
+Requires-Dist: scipy (>=1.9.3)
+
