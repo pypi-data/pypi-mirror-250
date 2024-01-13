@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "v6gzbmssdr"
+version = "0.0.1"
+description = ""
+authors = ["Vy Pho <vy.pho@halliburton.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
