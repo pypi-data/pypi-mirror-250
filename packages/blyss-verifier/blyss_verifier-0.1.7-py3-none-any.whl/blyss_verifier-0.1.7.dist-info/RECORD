@@ -1,0 +1,16 @@
+blyss_verifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blyss_verifier/verify.py,sha256=UI02-1dQfHbuTwejVmXOvGPjumrUKE0V8NnAtLvdnCE,13377
+blyss_verifier/data/OVMF_v0.0.1.fd,sha256=21-fOwH6te66gaZ2SQA05VhayWN_o091L40F8iKhHKM,4194304
+blyss_verifier/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blyss_verifier/data/test_claims.json,sha256=3cyNfYhhxQUdbK0kvl8IxwG5OJJDezEd0L17vcLsnhM,998
+blyss_verifier/data/test_claims_2_direct.txt,sha256=vda7wKbj90xB-jLfdaNZzoj1-oaIQ4Lf_Pwn00zg0lA,959
+blyss_verifier/data/test_full_attestation.json,sha256=4STsEYAKDZA-wKqi1NYEtmBUEvzKWA7RRRtlPiHsfOM,64040
+blyss_verifier/data/test_full_attestation_2.json,sha256=lPE0gpyvfQuwZXicZm_R3bWQwUrqzH93bLSb_ftd3K4,64010
+blyss_verifier/protocol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blyss_verifier/protocol/v0.0.1-test.json,sha256=2p3gDVRdyyVSckaw_RJkayJX_kGPy1_Zq2Ui2VR_V_s,727
+blyss_verifier/protocol/v0.0.1.json,sha256=pEp8aKgG5IMPwUkBwu1i2mxsVmE5sFfT_JEO6-xVvGU,706
+blyss_verifier-0.1.7.dist-info/LICENSE.txt,sha256=ylSiEVqnXhE8A9FQITthAwCZf8K5v8COmXBxJsqXBL8,1058
+blyss_verifier-0.1.7.dist-info/METADATA,sha256=d7I5nZB_3MwGdPDKeucTDUU5OLYMnR_rjHh4-lqJybU,5532
+blyss_verifier-0.1.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+blyss_verifier-0.1.7.dist-info/top_level.txt,sha256=BogofkVJ-2ZUVEFymthIzQSuHofTodKF2KAbXf44kUQ,15
+blyss_verifier-0.1.7.dist-info/RECORD,,
