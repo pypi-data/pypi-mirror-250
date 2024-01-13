@@ -1,0 +1,15 @@
+pyproject.toml
+setup.py
+core/__init__.c
+core/__init__.py
+core/main.c
+core/main.py
+core/run.c
+core/run.py
+proalgotrader.egg-info/PKG-INFO
+proalgotrader.egg-info/SOURCES.txt
+proalgotrader.egg-info/dependency_links.txt
+proalgotrader.egg-info/requires.txt
+proalgotrader.egg-info/top_level.txt
+project/__init__.py
+project/strategy.py
