@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "datascribe"
+version = "1.0.0"
+description = "Useful tools to help you document and describe data processing and modelling"
+authors = ["Chloe Hutton <pydatascribe@outlook.com>", "Shaghayegh Nayebi <pydatascribe@outlook.com>"]
+license = "MIT"
+include = ["docs/content", "tests", "binder"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+matplotlib = ">=3.2"
+numpy = ">=1.21,<2.0" 
+pandas = ">=2.1.4,<3.0.0"
+pandoc = ">=2.3,<3.0" 
+pypandoc = ">=0.8.0,<2.0" 
+scikit-learn = ">=1.4.0rc1,<2.0" 
+unidecode = ">=1.3,<2.0"
+tabulate = ">=0.8,<1.0"
+graphviz = ">=0.8.3"
+natsort = ">=6.2,<7.0"
+
+[build-system]
+requires = ["poetry-core>=1.4.2"]
+build-backend = "poetry.core.masonry.api"
