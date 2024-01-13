@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/simpleautogui/__init__.py
+src/simpleautogui.egg-info/PKG-INFO
+src/simpleautogui.egg-info/SOURCES.txt
+src/simpleautogui.egg-info/dependency_links.txt
+src/simpleautogui.egg-info/requires.txt
+src/simpleautogui.egg-info/top_level.txt
+src/simpleautogui/screen/__init__.py
+src/simpleautogui/screen/common.py
+src/simpleautogui/screen/classes/common.py
+src/simpleautogui/win/__init__.py
+src/simpleautogui/win/common.py
+src/simpleautogui/windows/__init__.py
+src/simpleautogui/windows/common.py
