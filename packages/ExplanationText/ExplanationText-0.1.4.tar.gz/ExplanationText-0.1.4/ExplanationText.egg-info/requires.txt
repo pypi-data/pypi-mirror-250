@@ -1,0 +1,5 @@
+google-cloud-vision
+requests
+wikipedia-api
+nltk
+inflect
