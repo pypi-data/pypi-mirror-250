@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xmanual/__init__.py
+xmanual.egg-info/PKG-INFO
+xmanual.egg-info/SOURCES.txt
+xmanual.egg-info/dependency_links.txt
+xmanual.egg-info/requires.txt
+xmanual.egg-info/top_level.txt
+xmanual.egg-info/zip-safe
+xmanual/utils/__init__.py
+xmanual/utils/attribute.py
+xmanual/utils/man.py
