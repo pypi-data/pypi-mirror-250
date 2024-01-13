@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: brunner-pg
+Version: 1.8.0
+Summary: An extension client for the brunner client library focused on pg
+Home-page: https://windmill.dev
+License: Apache-2.0
+Author: Burak Akça
+Author-email: burak.akca834@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: brunner (>=1.5.0,<2.0.0)
+Requires-Dist: psycopg2-binary
+Project-URL: Documentation, https://windmill.dev
+Description-Content-Type: text/markdown
+
+# brunner
+
+The postgres extension client for the [Brunner](https://windmill.dev) platform.
+
+[windmill-api](https://pypi.org/project/windmill-api/).
+
+## Quickstart
+
+```python
+import brunner_pg
+
+
+def main():
+    my_list = query("UPDATE demo SET value = 'value' RETURNING key, value")
+    for key, value in my_list:
+        ...
+```
+
