@@ -1,0 +1,6 @@
+README.md
+setup.py
+newo.egg-info/PKG-INFO
+newo.egg-info/SOURCES.txt
+newo.egg-info/dependency_links.txt
+newo.egg-info/top_level.txt
