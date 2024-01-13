@@ -1,0 +1,14 @@
+autorepo/__init__.py,sha256=18goag2u1DkKCVz5ktBHREAdF5VIBVkod-qd-eVnvUU,39
+autorepo/commands/__init__.py,sha256=B6i1UnuX-DhpKY-0Nj1jdbgV9GqcQe_gepzRNAQ05ps,641
+autorepo/commands/auth.py,sha256=YiBjola89ne0L4tMqpb7YYkqAHpvWzHSDdHWVZ5OeXU,2349
+autorepo/commands/list.py,sha256=g_j5M7ltfVtrp89DuHk1R0PQuoqlOsbktnOWD5IvUJI,2267
+autorepo/commands/repo.py,sha256=r6YyMfcHN981Eds5GhKqdnw8GnoAXrp37bagv8-abqU,3160
+autorepo/utils/__init__.py,sha256=fI70BvXqJTy40AFVHWBg4f60Y4kw1eYdqCSPShYDTb0,547
+autorepo/utils/auth.py,sha256=wXSjnoL7x2pzqvcgj5e3QuLLI77SY6kLxtpNQVaLbGo,2557
+autorepo/utils/list.py,sha256=Cv-fo8ogtdYa4NYC5ylxjTW7TwduIW29fdXE5Qk8Upc,5365
+autorepo/utils/repo.py,sha256=MMZKT4Mvl05z_8nO-_9e1Y8fQkJU_P-TM7c9WAeVdDI,4053
+autorepo-0.1.8.dist-info/LICENSE,sha256=8B1TRXAuH9caA7mnEuW2q1xG8x_bWlRm5FzfuPQ4dGI,1071
+autorepo-0.1.8.dist-info/METADATA,sha256=j1NNSf-RpXpgmKM5S1SBUTR9KCMSmQGwoFS1rX6LmNc,2557
+autorepo-0.1.8.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+autorepo-0.1.8.dist-info/entry_points.txt,sha256=8poOkSsrARYcdrZiNassE4amKxMUM2DVxb0N19GPZyA,42
+autorepo-0.1.8.dist-info/RECORD,,
