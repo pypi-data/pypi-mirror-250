@@ -1,0 +1,12 @@
+README.md
+setup.py
+efaqa_corpus_raw/__init__.py
+efaqa_corpus_raw/exporter.py
+efaqa_corpus_raw/formatter.py
+efaqa_corpus_raw/stats.py
+efaqa_corpus_raw.egg-info/PKG-INFO
+efaqa_corpus_raw.egg-info/SOURCES.txt
+efaqa_corpus_raw.egg-info/dependency_links.txt
+efaqa_corpus_raw.egg-info/requires.txt
+efaqa_corpus_raw.egg-info/top_level.txt
+efaqa_corpus_raw/data/__init__.py
