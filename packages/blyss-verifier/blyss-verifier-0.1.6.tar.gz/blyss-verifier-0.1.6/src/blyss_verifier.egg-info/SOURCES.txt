@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/blyss_verifier/__init__.py
+src/blyss_verifier/verify.py
+src/blyss_verifier.egg-info/PKG-INFO
+src/blyss_verifier.egg-info/SOURCES.txt
+src/blyss_verifier.egg-info/dependency_links.txt
+src/blyss_verifier.egg-info/requires.txt
+src/blyss_verifier.egg-info/top_level.txt
+src/blyss_verifier/data/__init__.py
+src/blyss_verifier/protocol/__init__.py
