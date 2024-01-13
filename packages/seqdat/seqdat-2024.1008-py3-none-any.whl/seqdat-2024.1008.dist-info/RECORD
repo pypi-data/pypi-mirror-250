@@ -1,0 +1,15 @@
+seqdat-2024.1008.dist-info/METADATA,sha256=Ns2lmon8N-4VCj6qd0InS9uigAYKEb1mx80qEPERyAk,1019
+seqdat-2024.1008.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+seqdat-2024.1008.dist-info/entry_points.txt,sha256=hUJ2JYoYdAON9zQvuQOBB0PVxg-9bfA05bjUqAjduxM,44
+seqdat-2024.1008.dist-info/licenses/LICENSE,sha256=d3WbMLpAv_vjJBaf5dRHHu1Kxasqw9kR7avGjuTx0g0,1070
+seqdat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seqdat/__main__.py,sha256=WEf9Q6rI10yaZU3-gVl_eIjjk2xzSPnew_UHOxIChC8,67
+seqdat/_prompts.py,sha256=z9RWm36DxhIGf_bdhF2SRvZoyv9rsWe1I2yXGwFEh4c,2001
+seqdat/_version.py,sha256=UrvuJJD09bzSk1k--YTptGqtgEUzGkECadz6oHnQ_hA,25
+seqdat/bs.py,sha256=l9yw-w4PNsb84ig4q65xGfw9bhYs1-4wUApJQcBcZX4,1524
+seqdat/cli.py,sha256=FuTXPzCi9OmbjeybbU_SXx_gLuJ4R1k3mF0C3gmgAHw,9082
+seqdat/config.py,sha256=S1A_-O_gK368teDrpQ7U16-s-bxxGkGH9S5xTHv5HKI,3694
+seqdat/console.py,sha256=OeeJEZ_CrBBIFvN_tuMTIsNszcE4m7NT5Nq1bfYgBwI,206
+seqdat/database.py,sha256=aWcJqFJ_QMRyklLgzgPyPyINbC7XJc8g7FKJuttflzo,7378
+seqdat/project.py,sha256=kLWo36X9m_rst-oyeoxKCat-r1xm0LX8OcMhIwqnej0,14647
+seqdat-2024.1008.dist-info/RECORD,,
