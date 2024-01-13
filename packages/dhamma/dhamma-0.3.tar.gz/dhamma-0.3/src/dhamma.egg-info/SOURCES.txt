@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/dhamma/__init__.py
+src/dhamma/main.py
+src/dhamma.egg-info/PKG-INFO
+src/dhamma.egg-info/SOURCES.txt
+src/dhamma.egg-info/dependency_links.txt
+src/dhamma.egg-info/entry_points.txt
+src/dhamma.egg-info/requires.txt
+src/dhamma.egg-info/top_level.txt
