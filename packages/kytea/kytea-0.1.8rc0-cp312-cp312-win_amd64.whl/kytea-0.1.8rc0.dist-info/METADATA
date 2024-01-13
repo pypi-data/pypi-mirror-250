@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kytea
+Version: 0.1.8rc0
+Summary: A text analysis toolkit KyTea binding
+Home-page: https://github.com/chezou/Mykytea-python
+Author: Aki Ariga
+Author-email: chezou@gmail.com
+License: MIT license
+Project-URL: Source, https://github.com/chezou/Mykytea-python
+Project-URL: Tracker, https://github.com/chezou/Mykytea-python/issues
+Keywords: KyTea,NLP,Japanese morphological analyzer
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+
