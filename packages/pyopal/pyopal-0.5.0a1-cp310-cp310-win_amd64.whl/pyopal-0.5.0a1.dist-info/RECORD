@@ -1,0 +1,17 @@
+pyopal/__init__.py,sha256=TZHCODkI2OWRv_N6ECkPQ716H8yrm6_n7ExxvY2fhT0,741
+pyopal/_opal.cp310-win_amd64.pyd,sha256=YPbLXmOy_D-UmPdQr2BfClfPm2XyujU-vL3FTm5BNnI,325120
+pyopal/_opal.pyi,sha256=NnbQNR2dc0HMEFntnfe8zIGeRQ7sYDTLX3Ltx5UcifU,4054
+pyopal/_version.py,sha256=dURQniIRmCLaIZ6QbhbgKIIDlocfv9N64r1OW_Q5GpQ,26
+pyopal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyopal/platform/avx2.cp310-win_amd64.pyd,sha256=7cIKnGM6mCpkiFF_0NKVnHDk1hgHx2D9Cinrx0scpa8,86528
+pyopal/platform/sse2.cp310-win_amd64.pyd,sha256=5hcNSwmYmg0Gvq_WpLxPuY5h4gxYkxXqxmDDdy6Ldy0,82432
+pyopal/platform/sse4.cp310-win_amd64.pyd,sha256=u0p7AtOou6Nn-LNb66i1uLAX6k5RvC_E9dhLSRYIBzY,75264
+pyopal/tests/__init__.py,sha256=QeNPt4e391jH5p4VIfS2FDFdE1G1yc9LSnCMO91ttoQ,333
+pyopal/tests/test_database.py,sha256=NsQIpeMvKNpgE--9C6IWBh1auFUasL9A8FuWBygSFcs,3487
+pyopal/tests/test_doctest.py,sha256=r6AOdM9NDAt1MQnXWeIed09giGm_63v8ZaCK7j05WWg,3337
+pyopal/tests/test_search.py,sha256=_fYsmyKQiAGVHlFPyGheKI7PlAdM_Nw66-hj6qivAN0,4046
+pyopal-0.5.0a1.dist-info/COPYING,sha256=sgZyx97FJiuHaxM2TcfLhb6ogMPUknf20fHeBAShEeY,1119
+pyopal-0.5.0a1.dist-info/METADATA,sha256=6nKSs6gfVpQxNDgpyF_86JQebZjqwMLbIfvi6oOsi0c,10234
+pyopal-0.5.0a1.dist-info/WHEEL,sha256=5JPYeYl5ZdvdSkrGS4u21mmpPzpFx42qrXOSIgWf4pg,102
+pyopal-0.5.0a1.dist-info/top_level.txt,sha256=C8WpsJQfyRtUf6LRl-00lXUJB9M6isvpOIFeq1JSpz4,7
+pyopal-0.5.0a1.dist-info/RECORD,,
