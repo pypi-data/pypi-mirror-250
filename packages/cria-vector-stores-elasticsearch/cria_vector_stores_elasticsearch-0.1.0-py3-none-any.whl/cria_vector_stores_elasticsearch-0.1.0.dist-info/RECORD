@@ -1,0 +1,5 @@
+cria_index/vector_stores/elasticsearch/__init__.py,sha256=_ulAfbfi4XxCiBHEDKfi_tPMjvwp5MP5SIMZCuxiurg,120
+cria_index/vector_stores/elasticsearch/base.py,sha256=a-Vchtb8Ifgoz5GOkCHitrEoDOk-EIIK7hWyWa0ebiA,169
+cria_vector_stores_elasticsearch-0.1.0.dist-info/METADATA,sha256=pPdMQTvv_CRUC9d5ioJNSPNx0rD5rvQLx5-ECLtfayY,454
+cria_vector_stores_elasticsearch-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cria_vector_stores_elasticsearch-0.1.0.dist-info/RECORD,,
