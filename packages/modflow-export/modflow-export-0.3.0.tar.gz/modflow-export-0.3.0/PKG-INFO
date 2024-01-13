@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: modflow-export
+Version: 0.3.0
+Summary: Fast & easy summarizing of MODFLOW data and export to GIS file formats
+Author-email: Andrew Leaf <aleaf@usgs.gov>, Mike Fienen <mnfienen@usgs.gov>
+License: License
+        =======
+        
+        Unless otherwise noted, This project is in the public domain in the United
+        States because it contains materials that originally came from the United
+        States Geological Survey, an agency of the United States Department of
+        Interior. For more information, see the official USGS copyright policy at
+        https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+        
+        Additionally, we waive copyright and related rights in the work
+        worldwide through the CC0 1.0 Universal public domain dedication.
+        
+        
+        CC0 1.0 Universal Summary
+        -------------------------
+        
+        This is a human-readable summary of the
+        [Legal Code (read the full text)][1].
+        
+        
+        ### No Copyright
+        
+        The person who associated a work with this deed has dedicated the work to
+        the public domain by waiving all of his or her rights to the work worldwide
+        under copyright law, including all related and neighboring rights, to the
+        extent allowed by law.
+        
+        You can copy, modify, distribute and perform the work, even for commercial
+        purposes, all without asking permission.
+        
+        
+        ### Other Information
+        
+        In no way are the patent or trademark rights of any person affected by CC0,
+        nor are the rights that other persons may have in the work or in how the
+        work is used, such as publicity or privacy rights.
+        
+        Unless expressly stated otherwise, the person who associated a work with
+        this deed makes no warranties about the work, and disclaims liability for
+        all uses of the work, to the fullest extent permitted by applicable law.
+        When using or citing the work, you should not imply endorsement by the
+        author or the affirmer.
+        
+        
+        
+        [1]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+        
+Project-URL: documentation, https://aleaf.github.io/modflow-export/latest/
+Project-URL: repository, https://github.com/aleaf/modflow-export
+Keywords: MODFLOW,groundwater,hydrogeology
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: gis-utils
+Requires-Dist: fiona
+Requires-Dist: flopy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyproj
+Requires-Dist: pyyaml
+Requires-Dist: rasterio
+Requires-Dist: shapely
+Requires-Dist: xarray
+Provides-Extra: optional
+Provides-Extra: test
+Requires-Dist: codecov; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: docs
+Requires-Dist: modflow-export[optional]; extra == "docs"
+Requires-Dist: ipython[kernel]; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+Requires-Dist: nbsphinx; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+
+
+modflow-export
+-----------------------------------------------
+Fast & easy summarizing of MODFLOW data and export to GIS file formats.
+
+### Version 0.3
+![Tests](https://github.com/aleaf/modflow-export/workflows/Tests/badge.svg)
+[![codecov](https://codecov.io/gh/aleaf/modflow-export/branch/master/graph/badge.svg)](https://codecov.io/gh/aleaf/modflow-export)
+[![PyPI version](https://badge.fury.io/py/modflow-export.svg)](https://badge.fury.io/py/modflow-export)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+
+Getting Started
+----------------------------------------------- 
+See the [Modflow-export documentation](https://aleaf.github.io/modflow-export/index.html)
+
+
+Installation
+-----------------------------------------------
+See the [Installation Instructions](https://aleaf.github.io/modflow-export/latest/installation.html)
+
+
+MODFLOW Resources
+-----------------------------------------------
+
++ [MODFLOW Online Guide](https://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/index.html?nwt_newton_solver.htm)
++ [MODFLOW 6](https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model)
++ [Modflow-setup](https://github.com/usgs/modflow-setup)
++ [SFRmaker](https://github.com/usgs/sfrmaker)
+
+
+
+Disclaimer
+----------
+
+This software is preliminary or provisional and is subject to revision. It is
+being provided to meet the need for timely best science. The software has not
+received final approval by the U.S. Geological Survey (USGS). No warranty,
+expressed or implied, is made by the USGS or the U.S. Government as to the
+functionality of the software and related material nor shall the fact of release
+constitute any such warranty. The software is provided on the condition that
+neither the USGS nor the U.S. Government shall be held liable for any damages
+resulting from the authorized or unauthorized use of the software.
+
