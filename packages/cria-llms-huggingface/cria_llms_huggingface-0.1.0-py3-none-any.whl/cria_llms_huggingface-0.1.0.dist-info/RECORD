@@ -1,0 +1,5 @@
+cria_index/llms/huggingface/__init__.py,sha256=xrioUBlYHR8Txmj3Jr4WStvxS8kzfQS6lffKDUr7uMw,89
+cria_index/llms/huggingface/base.py,sha256=8eNB8T7epi7b-x8aVD29mAq8sqWUEpWhm5SUGJIvv9k,133
+cria_llms_huggingface-0.1.0.dist-info/METADATA,sha256=ewcRsdQ_nRSwTB2R0J4zBfE8_r2mcrmZKIA0ZM2JMXE,482
+cria_llms_huggingface-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cria_llms_huggingface-0.1.0.dist-info/RECORD,,
