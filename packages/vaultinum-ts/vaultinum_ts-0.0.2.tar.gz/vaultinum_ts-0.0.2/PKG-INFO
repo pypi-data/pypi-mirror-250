@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: vaultinum_ts
+Version: 0.0.2
+Summary: Client for Vaultinum's timestamping service.
+Project-URL: Homepage, https://github.com/vaultinum/vaultinum-timestamping-sdk
+Project-URL: Documentation, https://docs.vaultinum.com
+Project-URL: Issues, https://github.com/vaultinum/vaultinum-timestamping-sdk/issues
+Author-email: Vaultinum <contact@vaultinum.com>
+License: MIT License
+        
+        Copyright (c) [year] [fullname]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: RFC3161,timestamping,vaultinum
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.31.0
+Requires-Dist: rfc3161ng>=2.1.3
+Description-Content-Type: text/markdown
+
+# Vaultinum Timestamping Python SDK
+
+This module is a simple client for the Vaultinum's Timestamping service.
+
+## Installation
+
+This package is available on PyPI :
+
+```bash
+python -m pip install vaultinum-ts
+```
+
+## Usage
+
+```bash
+python -m vaultinum_ts --help
+python -m vaultinum_ts -filename data.txt -environment sandbox -apikey YOUR_SANDBOX_APIKEY
+python -m vaultinum_ts -sha512 YOUR_SHA512_HASH -environment sandbox -apikey YOUR_SANDBOX_APIKEY
+```
+
+```python
+>>> from vaultinum_ts import timestamp
+>>> timestamp("data.txt", "sandbox", "YOUR_SANDBOX_APIKEY")
+>>> timestamp_from_hash("YOUR_SHA512_HASH", "sandbox", "YOUR_SANDBOX_APIKEY")
+```
