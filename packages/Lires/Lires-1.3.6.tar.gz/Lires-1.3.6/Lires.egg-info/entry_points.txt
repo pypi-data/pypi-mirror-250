@@ -1,0 +1,8 @@
+[console_scripts]
+lires = lires.exec:run
+lrs-clear = lires.cmd.clear:main
+lrs-cluster = lires.cmd.cluster:main
+lrs-index = lires.cmd.index:main
+lrs-resetconf = lires.cmd.generateDefaultConf:run
+lrs-user = lires.cmd.userManage:run
+lrs-utils = lires.cmd.miscUtils:main
