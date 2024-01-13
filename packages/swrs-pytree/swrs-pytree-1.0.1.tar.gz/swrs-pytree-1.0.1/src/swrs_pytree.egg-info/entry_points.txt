@@ -1,0 +1,2 @@
+[console_scripts]
+cli-name = pytrees.__main__:main
