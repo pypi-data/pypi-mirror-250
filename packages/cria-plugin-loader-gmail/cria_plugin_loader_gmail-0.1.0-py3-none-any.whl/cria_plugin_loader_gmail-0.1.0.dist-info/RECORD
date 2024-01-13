@@ -1,0 +1,5 @@
+cria_index/plugins/loaders/gmail/__init__.py,sha256=P7DdZvKxisiq4LLnqnvK5YgTVeZHUGEXEggpm0Xr28g,88
+cria_index/plugins/loaders/gmail/base.py,sha256=ksvn_WXVZ9fX1DSKHk0sQCHGYT--vPKcIOf5qLgd1jM,154
+cria_plugin_loader_gmail-0.1.0.dist-info/METADATA,sha256=Xr2jgzGbcH3dCjCJFslym6eJGz1B4mLA9zYUyvdSeD8,485
+cria_plugin_loader_gmail-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cria_plugin_loader_gmail-0.1.0.dist-info/RECORD,,
