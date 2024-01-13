@@ -1,0 +1,6 @@
+numpy
+matplotlib
+PyniteFEA
+
+[opensees]
+openseespy
