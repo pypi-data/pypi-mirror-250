@@ -1,0 +1,54 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "contract UpgradeableBeacon",
+        "name": "_beacon",
+        "type": "address"
+      }
+    ],
+    "name": "CompetitionBeaconDeployed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "contract UpgradeableBeacon",
+        "name": "_beacon",
+        "type": "address"
+      }
+    ],
+    "name": "ModelerBeaconDeployed",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "getCompetitionBeaconAddress",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getModelerBeaconAddress",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
