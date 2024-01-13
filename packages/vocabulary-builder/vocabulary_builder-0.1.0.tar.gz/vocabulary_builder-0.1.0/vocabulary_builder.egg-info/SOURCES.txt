@@ -1,0 +1,6 @@
+README.md
+setup.py
+vocabulary_builder.egg-info/PKG-INFO
+vocabulary_builder.egg-info/SOURCES.txt
+vocabulary_builder.egg-info/dependency_links.txt
+vocabulary_builder.egg-info/top_level.txt
