@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+typed_graph/__init__.py
+typed_graph/dependency_traits.py
+typed_graph/generic_graph.py
+typed_graph/typed_error.py
+typed_graph/typed_graph.py
+typed_graph/typed_traits.py
+typed_graph.egg-info/PKG-INFO
+typed_graph.egg-info/SOURCES.txt
+typed_graph.egg-info/dependency_links.txt
+typed_graph.egg-info/top_level.txt

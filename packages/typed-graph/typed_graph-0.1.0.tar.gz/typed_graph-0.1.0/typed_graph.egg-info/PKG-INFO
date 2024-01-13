@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: typed-graph
+Version: 0.1.0
+Summary: Staticly typed graph library
+Home-page: https://hg.buildsrv.dk/typed_graph/typed_graph
+Author: lcabyg
+Author-email: lcabyg@build.aau.dk
+License: UNKNOWN
+Keywords: lcabyg build LCAbyg lca
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# TypedGraphPy
+Graph data structure with an enforcable schema
+Port of TypedGraph originally for rust.
+
+TypedraphPy is build to provide an easy to use interface for graph made by TypedGraph in Rust
+
+## Getting started
+install using
+```
+pip install typed_graph
+```
+
+see the example folder for information on how to Create your first TypedGraph and retrieve data from it
+
+## Development
+To run a local instance of the library:
+```
+.../typed_graph> pip install -e typed_graph_py
+```
+
+This will import the library using a symlink, so changes in the directory will be propegated to the python installation
+
+Now it can be used as normal
+```
+import type_graph
+```
+
