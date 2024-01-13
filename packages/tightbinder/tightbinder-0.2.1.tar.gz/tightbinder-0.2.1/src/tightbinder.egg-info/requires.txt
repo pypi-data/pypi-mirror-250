@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+vpython
+
+[docs]
+sphinx
+pydata-sphinx-theme
+sphinx-autodoc-typehints
+sphinx_rtd_theme
+
+[tests]
+pytest
