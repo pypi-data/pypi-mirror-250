@@ -1,0 +1,7 @@
+tidb_vector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidb_vector/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidb_vector/integrations/vectorstore.py,sha256=r6y-oa98WwpRjLjFSBIdsy14bFsKRY6oZmZeGtcX0dI,14959
+tidb_vector/sqlalchemy/__init__.py,sha256=8LoGuDBNmC5ghmr9-JE0RnS6YJhJbGn0qO4UbBb7VSk,2344
+tidbvec-0.0.4.dist-info/METADATA,sha256=cX0YGPXLR4hDi6PUx5odhulwvU8AVShHqlPOgvPSvoI,527
+tidbvec-0.0.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tidbvec-0.0.4.dist-info/RECORD,,
