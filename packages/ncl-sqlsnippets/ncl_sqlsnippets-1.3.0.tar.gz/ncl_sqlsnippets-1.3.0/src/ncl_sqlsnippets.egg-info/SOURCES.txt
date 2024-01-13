@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ncl_sqlsnippets/__init__.py
+src/ncl_sqlsnippets/sqlsnippets.py
+src/ncl_sqlsnippets.egg-info/PKG-INFO
+src/ncl_sqlsnippets.egg-info/SOURCES.txt
+src/ncl_sqlsnippets.egg-info/dependency_links.txt
+src/ncl_sqlsnippets.egg-info/requires.txt
+src/ncl_sqlsnippets.egg-info/top_level.txt
