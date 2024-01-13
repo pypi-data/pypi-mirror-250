@@ -1,0 +1,3 @@
+[console_scripts]
+proalgotrader_core = core.main:main
+
