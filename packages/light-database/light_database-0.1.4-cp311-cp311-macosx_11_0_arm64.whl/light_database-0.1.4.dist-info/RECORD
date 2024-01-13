@@ -1,0 +1,13 @@
+light_database/base.cpython-311-darwin.so,sha256=E2sADNdWW6oRQYHe9igfDU8EcdeNjiJiCCmXtcgbIy0,153992
+light_database/config.cpython-311-darwin.so,sha256=w9HwlKGv904Ts8h1mVlhTmIrRcMPRSKB5syMTy_T3TU,117520
+light_database/sql.cpython-311-darwin.so,sha256=MwMY5ns8yHQxwX2pCyU4nNx_CFpsy0metE39OnDJxB4,159016
+light_database/hbase/db.cpython-311-darwin.so,sha256=5fEVcyLGVgCnEIRVMic4I4OObL6A9-qNGI7I65umq_A,172264
+light_database/hbase/thrift_hbase/THBaseService.cpython-311-darwin.so,sha256=GK2-wBUp-gZnZNGhZVJu-EQWfRrbIHcUf6j3EqJ4qw0,4571776
+light_database/hbase/thrift_hbase/constants.cpython-311-darwin.so,sha256=aDixxhmMc1OWIn9dwiPdzck2XZ9z_1G5UXrdDoCfGDY,56256
+light_database/hbase/thrift_hbase/ttypes.cpython-311-darwin.so,sha256=UulA79-PHzPsKhyM_SRm8gkz28XKA_XmYFQWlns1J2g,1469312
+light_database/hive/db.cpython-311-darwin.so,sha256=R7isXWGTmVZcSEEA2mgsmoWw5_3fCdjXRHrxhhnPOnY,57368
+light_database/mysql/db.cpython-311-darwin.so,sha256=zGNT8q6WNtm616zRKR1UBu47QytmgjA23H_AEa1DIdA,57176
+light_database-0.1.4.dist-info/METADATA,sha256=U1ds2wCAfjH_95qS_4b6D1Fz7OygOGruatF-4Dc3rb8,1702
+light_database-0.1.4.dist-info/WHEEL,sha256=qZ5gUYMG4t2JcLLcFLlOXld9g3WjqyANneXZkxLH8gU,110
+light_database-0.1.4.dist-info/top_level.txt,sha256=6I3lwa9lf1lbyU8Bj-L3fn9QqYviwqRGqmzAVWzbXZg,15
+light_database-0.1.4.dist-info/RECORD,,
