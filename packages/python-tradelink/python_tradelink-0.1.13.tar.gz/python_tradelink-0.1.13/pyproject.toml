@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-tradelink"
+version = "0.1.13"
+description = "TradeLink public API python wrapper"
+authors = ["Anton <109826223+Arcadiyyyyyyyy@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "tradelink"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.1"
+pydantic = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
