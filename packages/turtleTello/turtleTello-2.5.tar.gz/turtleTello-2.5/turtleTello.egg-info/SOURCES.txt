@@ -1,0 +1,8 @@
+License.txt
+pyproject.toml
+readme.md
+tello.py
+turtleTello.egg-info/PKG-INFO
+turtleTello.egg-info/SOURCES.txt
+turtleTello.egg-info/dependency_links.txt
+turtleTello.egg-info/top_level.txt
