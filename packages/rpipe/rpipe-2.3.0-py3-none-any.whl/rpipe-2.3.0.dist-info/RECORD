@@ -1,0 +1,11 @@
+rpipe/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+rpipe/_version.py,sha256=2ZSgf3SE5XRbSb4Gahax6q0web9ixWrBLTzNLs4jQQs,27
+rpipe/client.py,sha256=xIa2YmRPtgXo-UNJterzrDMa13cSMpnMC-iewY2fnE4,6501
+rpipe/py.typed,sha256=RA7As2lOH7eQPv5iX3k5Y1mOmlpXe_hxf0REB73oXt0,8
+rpipe/server.py,sha256=1YqmHtc-T7-jMRu3C3jsD4k_flbex0rJD9Yh5uT66ok,3004
+rpipe-2.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rpipe-2.3.0.dist-info/METADATA,sha256=fC9XOXWqSmfxQL-QhVmGaM-5UVi-C-bdfjTaHOAfZ5U,1142
+rpipe-2.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+rpipe-2.3.0.dist-info/entry_points.txt,sha256=VoJmCaMH7IfkqstoOXUwiFDBq8BxJqXiN3YTlghqZh0,75
+rpipe-2.3.0.dist-info/top_level.txt,sha256=jmqfrTe_rhCedi3lV46sBpzjm_JdBPg8mA6LuVk22uU,6
+rpipe-2.3.0.dist-info/RECORD,,
