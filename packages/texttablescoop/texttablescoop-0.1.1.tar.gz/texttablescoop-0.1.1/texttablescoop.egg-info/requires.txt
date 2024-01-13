@@ -1,0 +1,4 @@
+argparse
+argcomplete
+pandas
+xlsx2pandas
