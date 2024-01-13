@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+doc2mds/__init__.py
+doc2mds/__main__.py
+doc2mds.egg-info/PKG-INFO
+doc2mds.egg-info/SOURCES.txt
+doc2mds.egg-info/dependency_links.txt
+doc2mds.egg-info/top_level.txt
