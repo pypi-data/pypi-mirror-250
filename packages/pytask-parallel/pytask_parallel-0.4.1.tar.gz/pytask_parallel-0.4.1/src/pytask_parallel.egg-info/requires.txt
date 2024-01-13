@@ -1,0 +1,12 @@
+attrs>=21.3.0
+click
+cloudpickle
+loky
+pluggy>=1.0.0
+pytask>=0.4.5
+rich
+
+[test]
+nbmake
+pytest
+pytest-cov

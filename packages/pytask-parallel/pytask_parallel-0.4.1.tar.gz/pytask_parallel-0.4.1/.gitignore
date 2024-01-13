@@ -1,0 +1,19 @@
+# Files
+.coverage
+coverage.*
+
+# Folders
+.idea
+.ipynb_checkpoints
+.tox
+.vscode
+_build
+__pycache__
+
+*.egg-info
+
+.pytask
+build
+dist
+src/pytask_parallel/_version.py
+tests/test_jupyter/*.txt
