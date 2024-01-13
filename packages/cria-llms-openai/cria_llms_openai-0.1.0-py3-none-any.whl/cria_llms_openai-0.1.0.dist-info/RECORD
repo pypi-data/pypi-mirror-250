@@ -1,0 +1,5 @@
+cria_index/llms/openai/__init__.py,sha256=lDPl-3xicG-N_NZCnKxuFQVD58AklHBNdxVW0SQL0mw,68
+cria_index/llms/openai/base.py,sha256=mwjWe4UUgTEQSaFIxoxoyBw5teTWPfgKVumdVtNvy5I,117
+cria_llms_openai-0.1.0.dist-info/METADATA,sha256=10qsp43RLkGY82a1_2ofVe4kV2nuE67uaYOt4BvrpCg,521
+cria_llms_openai-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cria_llms_openai-0.1.0.dist-info/RECORD,,
