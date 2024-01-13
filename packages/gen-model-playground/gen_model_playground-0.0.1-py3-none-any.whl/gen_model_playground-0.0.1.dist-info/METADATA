@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gen-model-playground
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: lightning
+Requires-Dist: lightning-bolts
+Requires-Dist: torchcfm
+Requires-Dist: torchdyn
+Requires-Dist: nflows
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: wandb
+
