@@ -1,0 +1,15 @@
+hassle/__init__.py,sha256=YVoF76lT0p3dIsqphNnDWuqSia3gZP1S1eQYXZ9FbSE,22
+hassle/hassle_cli.py,sha256=SMldNsxUTylmWbN2c58A0CqXaIJXQiB9ZA4-oQ5UwdU,8077
+hassle/models.py,sha256=zhs3M5b41upUHQ2EPFxhFfiQj_WWQicqFB_SRSNsVYk,19755
+hassle/parsers.py,sha256=iR6ftiQMDiGX9C1Tx5JStudlt3SZB-hk3oddA5z2GVI,7247
+hassle/utilities.py,sha256=FNHLUk4KbhIbAbDOmh3esA7aokiSrHPXqcsrRfxrvc4,3764
+hassle/templates/.gitignore.txt,sha256=-uoyPAj-vSUMakt0l9aHpzdODup5sKlO-JJCbNo4pYw,78
+hassle/templates/README.md,sha256=P4FgClHl1ARAg7OtfNVUN4dd-8Gxrwpt-kQ1b_CHdWA,132
+hassle/templates/license.txt,sha256=gX5Z6FozhxZ1b2aCXHHTTuMGhr-EH4QSfu5MVua8Pxw,1087
+hassle/templates/pyproject.toml,sha256=L37v3XLDDPTTfIwqLUNOJIyLu9etGbVj7hjzmbVj0ho,740
+hassle/templates/vscode_settings.json,sha256=GjBxxXrAYYpuCI1mJt5Tk7Sh3V2UAwrZ_jOg0X7MHSI,149
+hassle-3.1.0.dist-info/METADATA,sha256=dJjp8OPK38sp3OV6d-9Fe27fr6lduOEcyFBaHwzwuHQ,13121
+hassle-3.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+hassle-3.1.0.dist-info/entry_points.txt,sha256=ivn7YqOkE8h-0jk_aceVQkrvu02m0nvk_KHR6G8ZKwE,50
+hassle-3.1.0.dist-info/licenses/LICENSE.txt,sha256=GA4k0f8zyJsPeXl_v_6h0BQT4BnMtK-NX8QSGL0JbCQ,1086
+hassle-3.1.0.dist-info/RECORD,,
