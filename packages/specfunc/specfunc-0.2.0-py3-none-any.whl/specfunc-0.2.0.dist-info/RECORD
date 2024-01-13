@@ -1,0 +1,8 @@
+src/Makefile,sha256=7iRW_eG2tf0rqybvWMLNGm1xbmhg25ZrlXFrAY8WeOw,453
+src/pylib.f90,sha256=aMjF07OZ8Ra7PcBFMngZsJuR9w87ZG_4N5D3mzCgfPM,1278
+specfunc.py,sha256=DSyRiiwW0ATnrlez3IYLhbHS3G8pG9h3u2jyaopC6tY,2309
+src/special_functions.f90,sha256=lD2Zz9aKZz_sCHPd7urY-CjDm3k3oX0-InIm-9WwV3w,652738
+src/special_functions.so,sha256=3zeFmacSNNIn9thbVSHOXIZiylsL6RcF9uTJITkOBGk,572280
+specfunc-0.2.0.dist-info/METADATA,sha256=idWqa1wZLn4S6Xr3plxJZvrtehzy3lC8XrcSZpcw4nM,2745
+specfunc-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+specfunc-0.2.0.dist-info/RECORD,,
