@@ -1,0 +1,182 @@
+Metadata-Version: 2.1
+Name: pruna
+Version: 0.0.3a7
+Summary: Smash your AI models
+Author: Pruna AI
+Author-email: hello@pruna.ai
+License: All Rights Reserved
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pruna-engine
+Requires-Dist: wget
+Requires-Dist: torch ==2.1.0
+Requires-Dist: torchvision
+Requires-Dist: sacred
+Requires-Dist: datasets
+Requires-Dist: torchmetrics
+Requires-Dist: bitsandbytes
+Requires-Dist: codecarbon
+Requires-Dist: pynvml
+Requires-Dist: speedster ==0.3.0
+Requires-Dist: crypto
+Requires-Dist: onnx >=1.14.1
+Requires-Dist: scipy >=1.10.1
+Requires-Dist: requests >=2.31.0
+Requires-Dist: transformers >=4.34.0
+Requires-Dist: pillow >=9.5.0
+Requires-Dist: pandas
+Requires-Dist: pytorch-lightning
+Requires-Dist: huggingface-hub
+Requires-Dist: jsonschema
+Requires-Dist: numpy >=1.23.5
+Requires-Dist: ctranslate2
+Requires-Dist: setuptools
+Requires-Dist: packaging
+Requires-Dist: pycryptodome >=3.18.0
+Requires-Dist: nebullvm ==0.9.1
+Requires-Dist: diffusers >=0.21.4
+Requires-Dist: auto-gptq >=0.4.2
+Requires-Dist: cuda-python ==12.1.0
+Requires-Dist: protobuf <=3.20.2
+Requires-Dist: peft >=0.5.0
+Requires-Dist: accelerate >=0.23.0
+Requires-Dist: flatbuffers
+Requires-Dist: optimum
+Requires-Dist: einops
+Requires-Dist: whisper-s2t
+Requires-Dist: dill
+Provides-Extra: cpu
+Provides-Extra: diffusers
+Requires-Dist: tensorrt ==9.1.0.post12.dev4 ; extra == 'diffusers'
+Requires-Dist: onnx-graphsurgeon >=0.3.27 ; extra == 'diffusers'
+Requires-Dist: nvtx ==0.2.5 ; extra == 'diffusers'
+Requires-Dist: flash-attn ; extra == 'diffusers'
+Requires-Dist: stable-fast ; extra == 'diffusers'
+Requires-Dist: DeepCache ; extra == 'diffusers'
+Requires-Dist: xformers ; extra == 'diffusers'
+Provides-Extra: gpu
+Requires-Dist: tensorrt ==9.1.0.post12.dev4 ; extra == 'gpu'
+Requires-Dist: onnx-graphsurgeon >=0.3.27 ; extra == 'gpu'
+Requires-Dist: nvtx ==0.2.5 ; extra == 'gpu'
+Requires-Dist: flash-attn ; extra == 'gpu'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: timm ; extra == 'tests'
+Requires-Dist: ultralytics ; extra == 'tests'
+
+# Pruna
+
+Pruna is a Python package providing the capability of optimizing deep learning models through Pruna AI.
+
+## Installation
+
+You can install Pruna via pip from PyPI:
+
+CPU
+
+```shell
+pip install pruna
+```
+
+GPU
+
+```shell
+pip install pruna[gpu] --extra-index-url https://pypi.nvidia.com --extra-index-url https://pypi.ngc.nvidia.com
+```
+
+Diffusers
+
+```shell
+pip install torch
+pip install pruna[diffusers] --extra-index-url https://pypi.nvidia.com --extra-index-url https://pypi.ngc.nvidia.com
+```
+
+## Requirements
+
+- You need CUDA 12 to be installed on your machine for the GPU version
+- You need python 3.8, 3.9, or 3.10
+
+## Usage
+
+## Pruna AI QuickStart Example
+Here is a simple example of how to use Pruna to compress a stable diffusion text to image model:
+
+#### Load Base Stable Diffusion Model
+
+
+```python
+from diffusers import StableDiffusionPipeline
+from pruna.algorithms.smasher_config import AutoSmasherConfig, SmasherConfig
+from pruna.smash import smash
+import torch
+
+model_id = "runwayml/stable-diffusion-v1-5"
+pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16)
+pipe = pipe.to("cuda")
+
+prompt = "a photo of an astronaut riding a horse on mars"
+```
+
+
+#### Smash it!
+
+
+```python
+smasher_config = SmasherConfig()
+smasher_config['compiler'] = 'diffusers'
+smasher_config['max_batch_size'] = 1
+smasher_config['image_height'] = 512
+smasher_config['image_width'] = 512
+smasher_config['version'] = '1.5'
+```
+
+
+```python
+smashed_model = smash(
+        model=pipe,
+        data_module="LAION256",
+        api_key='your_key',
+        model_config=None,
+        smasher_config=smasher_config,
+        device='cuda',
+    )
+```
+
+
+#### Base Model Generation
+
+
+```python
+%%time
+image = pipe(prompt).images[0].show()
+```
+
+
+#### Smashed Model Generation
+
+
+```python
+%%time
+smashed_model(prompt, image_height=512, image_width=512)[0]
+```
+
+#### Save Model
+```python
+smashed_model.save_model('path_to_folder/model_name')
+```
+
+#### Load Model
+```python
+from pruna_engine.PrunaModel import PrunaModel
+loaded_model = PrunaModel.load_model('path_to_folder/model_name', api_key='your_key')
+loaded_model(prompt, image_height=512, image_width=512)[0]
+```
+
+
+## License
+
+All Rights Reserved
+
+Copyright 2023 Pruna AI
