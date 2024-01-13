@@ -1,0 +1,12 @@
+rpipe/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+rpipe/_shared.py,sha256=2oXBpI6Ihujtg0p4fhTdwaAOAJh4nDf7P5o1hxRTefg,354
+rpipe/_version.py,sha256=FrzSmqk0RrN6LvKbhzE3-A0_OTcGioMnX_UAe8B6Bxc,77
+rpipe/client.py,sha256=Rl4VFimzd_uJ8ljQDyCOnnsbVkQM6-LnjzJjvPYPw1g,9049
+rpipe/py.typed,sha256=RA7As2lOH7eQPv5iX3k5Y1mOmlpXe_hxf0REB73oXt0,8
+rpipe/server.py,sha256=aQoxiXWcP1ytEOBacuWSaURvadocivvX32pvc1B9M4s,4837
+rpipe-3.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rpipe-3.1.0.dist-info/METADATA,sha256=5lFtE4jyDUQCci32MqfPpH80XhQCyOFMFaBuQ38D-8w,1556
+rpipe-3.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+rpipe-3.1.0.dist-info/entry_points.txt,sha256=VoJmCaMH7IfkqstoOXUwiFDBq8BxJqXiN3YTlghqZh0,75
+rpipe-3.1.0.dist-info/top_level.txt,sha256=jmqfrTe_rhCedi3lV46sBpzjm_JdBPg8mA6LuVk22uU,6
+rpipe-3.1.0.dist-info/RECORD,,
