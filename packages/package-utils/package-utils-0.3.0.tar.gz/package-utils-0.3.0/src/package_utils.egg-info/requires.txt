@@ -1,0 +1,9 @@
+typer>=0.9
+
+[dev]
+coverage
+hypothesis
+package-dev-utils>=0.1
+pre-commit
+pytest
+superpathlib
