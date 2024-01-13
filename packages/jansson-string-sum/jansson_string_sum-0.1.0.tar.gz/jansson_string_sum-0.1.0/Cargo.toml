@@ -1,0 +1,15 @@
+[package]
+name = "jansson_string_sum"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "jansson_string_sum"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.20.0"
+pyo3-asyncio = { version = "0.20.0", features = ["tokio-runtime"] }
+pyo3-ffi = { version = "0.20" }
+tokio = { version = "1.35.1", features = ["rt-multi-thread", "tokio-macros"] }
