@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: chocopearl
+Version: 0.0.1
+Summary: General Purpose/Physics tools
+Author: FranciscoLodbrok (Francisco García)
+Author-email: <cfgarcia1903@gmail.com>
+Keywords: python,physics,general,corsika,astroparticle,numerical methods
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Chocopearl
+A Python library that amalgamates various tools for data manipulation, numerical methods, astroparticle physics simulation analysis, and general-purpose functionalities.
+
