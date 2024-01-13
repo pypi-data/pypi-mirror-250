@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>csb43.formats &#8212; csb43 0.9.3 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=514cf933" />
+    
+    <script src="_static/documentation_options.js?v=0e439607"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="csb43.utils" href="utils.html" />
+    <link rel="prev" title="csb43.homebank" href="homebank.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="utils.html" title="csb43.utils"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="homebank.html" title="csb43.homebank"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">csb43 0.9.3 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.formats</span></code></a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="module-csb43.formats">
+<span id="csb43-formats"></span><h1><a class="reference internal" href="#module-csb43.formats" title="csb43.formats"><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.formats</span></code></a><a class="headerlink" href="#module-csb43.formats" title="Link to this heading">¶</a></h1>
+<dl class="py exception">
+<dt class="sig sig-object py" id="csb43.formats.FormatWarning">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">csb43.formats.</span></span><span class="sig-name descname"><span class="pre">FormatWarning</span></span><a class="headerlink" href="#csb43.formats.FormatWarning" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="csb43.formats.FORMATS">
+<span class="sig-prename descclassname"><span class="pre">formats.</span></span><span class="sig-name descname"><span class="pre">FORMATS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['jira',</span> <span class="pre">'json',</span> <span class="pre">'yaml',</span> <span class="pre">'dbf',</span> <span class="pre">'csv',</span> <span class="pre">'xlsx',</span> <span class="pre">'cli',</span> <span class="pre">'html',</span> <span class="pre">'df',</span> <span class="pre">'xls',</span> <span class="pre">'tsv',</span> <span class="pre">'rst',</span> <span class="pre">'ods',</span> <span class="pre">'latex']</span></em><a class="headerlink" href="#csb43.formats.FORMATS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="csb43.formats.TABLIB_FORMATS">
+<span class="sig-prename descclassname"><span class="pre">formats.</span></span><span class="sig-name descname"><span class="pre">TABLIB_FORMATS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['json',</span> <span class="pre">'xlsx',</span> <span class="pre">'xls',</span> <span class="pre">'yaml',</span> <span class="pre">'csv',</span> <span class="pre">'tsv',</span> <span class="pre">'ods',</span> <span class="pre">'dbf',</span> <span class="pre">'html',</span> <span class="pre">'jira',</span> <span class="pre">'latex',</span> <span class="pre">'df',</span> <span class="pre">'rst',</span> <span class="pre">'cli']</span></em><a class="headerlink" href="#csb43.formats.TABLIB_FORMATS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="csb43.formats.DICT_FORMATS">
+<span class="sig-prename descclassname"><span class="pre">formats.</span></span><span class="sig-name descname"><span class="pre">DICT_FORMATS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['json',</span> <span class="pre">'yaml']</span></em><a class="headerlink" href="#csb43.formats.DICT_FORMATS" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="csb43.formats.convertFromCsb">
+<span class="sig-prename descclassname"><span class="pre">csb43.formats.</span></span><span class="sig-name descname"><span class="pre">convertFromCsb</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">csb</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">expectedFormat</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">decimal_fallback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#csb43.formats.convertFromCsb" title="Link to this definition">¶</a></dt>
+<dd><p>Convert a File file into an <code class="xref py py-mod docutils literal notranslate"><span class="pre">tablib</span></code> data object or a     dictionary-like object</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csb</strong> (<a class="reference internal" href="csb.html#csb43.csb43.File" title="csb43.csb43.File"><code class="xref py py-class docutils literal notranslate"><span class="pre">csb43.csb43.File</span></code></a>) – a csb file</p></li>
+<li><p><strong>decimal_fallback</strong> – decimal number fallback representation:</p></li>
+</ul>
+</dd>
+</dl>
+<ul class="simple">
+<li><p>‘float’: use type <cite>float</cite></p></li>
+<li><p>‘str’: represent decimal as a string</p></li>
+<li><p><cite>None</cite>: use default fallback (‘str’)</p></li>
+</ul>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">tablib.Databook</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">tablib.Dataset</span></code> or a object     with an attribute named as <cite>expectedFormat</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="csb43.formats.convertFromCsb2Dict">
+<span class="sig-prename descclassname"><span class="pre">csb43.formats.</span></span><span class="sig-name descname"><span class="pre">convertFromCsb2Dict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">csb</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">expectedFormat</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'json'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">decimal_fallback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#csb43.formats.convertFromCsb2Dict" title="Link to this definition">¶</a></dt>
+<dd><p>Convert from <cite>CSB43</cite> to a dictionary format</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csb</strong> (<a class="reference internal" href="csb.html#csb43.csb43.File" title="csb43.csb43.File"><code class="xref py py-class docutils literal notranslate"><span class="pre">csb43.csb43.File</span></code></a>) – a csb file</p></li>
+<li><p><strong>decimal_fallback</strong> – decimal number fallback representation</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>a object with an attribute named as <cite>expectedFormat</cite></p>
+</dd>
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="utils.html#csb43.utils.Csb43Exception" title="csb43.utils.Csb43Exception"><code class="xref py py-class docutils literal notranslate"><span class="pre">csb43.utils.Csb43Exception</span></code></a> when the format is unknown     or unsupported</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">csb43.csb43</span> <span class="kn">import</span> <span class="n">File</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">csb43.formats</span> <span class="k">as</span> <span class="nn">formats</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="n">File</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">o</span> <span class="o">=</span> <span class="n">formats</span><span class="o">.</span><span class="n">convertFromCsb2Dict</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="s1">&#39;yaml&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">o</span><span class="o">.</span><span class="n">yaml</span><span class="p">)</span>
+<span class="go">cuentas: []</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">o</span> <span class="o">=</span> <span class="n">formats</span><span class="o">.</span><span class="n">convertFromCsb2Dict</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="s1">&#39;json&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">o</span><span class="o">.</span><span class="n">json</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go"> &quot;cuentas&quot;: []</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="csb43.formats.convertFromCsb2Tabular">
+<span class="sig-prename descclassname"><span class="pre">csb43.formats.</span></span><span class="sig-name descname"><span class="pre">convertFromCsb2Tabular</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">csb</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">expectedFormat</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'ods'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">decimal_fallback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#csb43.formats.convertFromCsb2Tabular" title="Link to this definition">¶</a></dt>
+<dd><p>Convert a File file into an <code class="xref py py-mod docutils literal notranslate"><span class="pre">tablib</span></code> data object</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csb</strong> (<a class="reference internal" href="csb.html#csb43.csb43.File" title="csb43.csb43.File"><code class="xref py py-class docutils literal notranslate"><span class="pre">csb43.csb43.File</span></code></a>) – a csb file</p></li>
+<li><p><strong>decimal_fallback</strong> – decimal number fallback representation</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">tablib.Databook</span></code> or <code class="xref py py-class docutils literal notranslate"><span class="pre">tablib.Dataset</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#"><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.formats</span></code></a><ul>
+<li><a class="reference internal" href="#csb43.formats.FormatWarning"><code class="docutils literal notranslate"><span class="pre">FormatWarning</span></code></a></li>
+<li><a class="reference internal" href="#csb43.formats.FORMATS"><code class="docutils literal notranslate"><span class="pre">formats.FORMATS</span></code></a></li>
+<li><a class="reference internal" href="#csb43.formats.TABLIB_FORMATS"><code class="docutils literal notranslate"><span class="pre">formats.TABLIB_FORMATS</span></code></a></li>
+<li><a class="reference internal" href="#csb43.formats.DICT_FORMATS"><code class="docutils literal notranslate"><span class="pre">formats.DICT_FORMATS</span></code></a></li>
+<li><a class="reference internal" href="#csb43.formats.convertFromCsb"><code class="docutils literal notranslate"><span class="pre">convertFromCsb()</span></code></a></li>
+<li><a class="reference internal" href="#csb43.formats.convertFromCsb2Dict"><code class="docutils literal notranslate"><span class="pre">convertFromCsb2Dict()</span></code></a></li>
+<li><a class="reference internal" href="#csb43.formats.convertFromCsb2Tabular"><code class="docutils literal notranslate"><span class="pre">convertFromCsb2Tabular()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="homebank.html"
+                          title="previous chapter"><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.homebank</span></code></a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="utils.html"
+                          title="next chapter"><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.utils</span></code></a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/formats.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="utils.html" title="csb43.utils"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="homebank.html" title="csb43.homebank"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">csb43 0.9.3 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.formats</span></code></a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2013, wmj.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+include README.*
+include LICENSE
+include csb43/py.typed
+recursive-include csb43/i18n *.pot *.po *.mo
+recursive-include doc *.*

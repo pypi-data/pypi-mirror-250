@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>csb43.homebank &#8212; csb43 0.9.3 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=514cf933" />
+    
+    <script src="_static/documentation_options.js?v=0e439607"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="csb43.formats" href="formats.html" />
+    <link rel="prev" title="csb43.ofx" href="ofx.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="formats.html" title="csb43.formats"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ofx.html" title="csb43.ofx"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">csb43 0.9.3 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.homebank</span></code></a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="module-csb43.homebank">
+<span id="csb43-homebank"></span><h1><a class="reference internal" href="#module-csb43.homebank" title="csb43.homebank"><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.homebank</span></code></a><a class="headerlink" href="#module-csb43.homebank" title="Link to this heading">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>license: GNU Lesser General Public License v3.0 (see LICENSE)</p>
+</div>
+<p>Homebank CSV format</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>References:</p>
+<ul class="simple">
+<li><p>(<a class="reference external" href="http://homebank.free.fr/help/06csvformat.html">http://homebank.free.fr/help/06csvformat.html</a>)</p></li>
+</ul>
+</div>
+<dl class="py class">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">csb43.homebank.</span></span><span class="sig-name descname"><span class="pre">Transaction</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.12)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.12)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#csb43.homebank.Transaction" title="Link to this definition">¶</a></dt>
+<dd><p>Hombebank CSV transaction</p>
+<ul>
+<li><p>Creating a record:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">csb43.homebank</span> <span class="kn">import</span> <span class="n">Transaction</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">t</span> <span class="o">=</span> <span class="n">Transaction</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">t</span><span class="o">.</span><span class="n">amount</span> <span class="o">=</span> <span class="mf">12.45</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">datetime</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">t</span><span class="o">.</span><span class="n">date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="mi">2013</span><span class="p">,</span> <span class="n">month</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">day</span><span class="o">=</span><span class="mi">19</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+<span class="go">19-03-13;;;;;12.45;</span>
+</pre></div>
+</div>
+</li>
+<li><p>Parsing a record:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">t</span> <span class="o">=</span> <span class="n">Transaction</span><span class="p">(</span><span class="s2">&quot;19-03-13;;;;;12.45;&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">t</span><span class="o">.</span><span class="n">amount</span>
+<span class="go">Decimal(&#39;12.45&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">t</span><span class="o">.</span><span class="n">date</span>
+<span class="go">datetime.date(2013, 3, 19)</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<dl class="py method">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.12)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.12)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#csb43.homebank.Transaction.__init__" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>record</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – a Homebank csv record</p>
+</dd>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference internal" href="utils.html#csb43.utils.Csb43Exception" title="csb43.utils.Csb43Exception"><code class="xref py py-class docutils literal notranslate"><span class="pre">csb43.utils.Csb43Exception</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.__str__">
+<span class="sig-name descname"><span class="pre">__str__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#csb43.homebank.Transaction.__str__" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a> representation of this record as a row of a         Homebank CSV file</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.__weakref__">
+<span class="sig-name descname"><span class="pre">__weakref__</span></span><a class="headerlink" href="#csb43.homebank.Transaction.__weakref__" title="Link to this definition">¶</a></dt>
+<dd><p>list of weak references to the object (if defined)</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.amount">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">amount</span></span><a class="headerlink" href="#csb43.homebank.Transaction.amount" title="Link to this definition">¶</a></dt>
+<dd><p>amount of the transaction</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.category">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">category</span></span><a class="headerlink" href="#csb43.homebank.Transaction.category" title="Link to this definition">¶</a></dt>
+<dd><p>transaction category, according to HomeBank</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.date">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">date</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.date" title="(in Python v3.12)"><span class="pre">date</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.12)"><span class="pre">None</span></a></em><a class="headerlink" href="#csb43.homebank.Transaction.date" title="Link to this definition">¶</a></dt>
+<dd><p>date of transaction (<a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.date" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">datetime.date</span></code></a>)</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.description">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">description</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.12)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.12)"><span class="pre">None</span></a></em><a class="headerlink" href="#csb43.homebank.Transaction.description" title="Link to this definition">¶</a></dt>
+<dd><p>description of the transaction</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.info">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">info</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.12)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.12)"><span class="pre">None</span></a></em><a class="headerlink" href="#csb43.homebank.Transaction.info" title="Link to this definition">¶</a></dt>
+<dd><p>transaction’s info</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.mode">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">mode</span></span><a class="headerlink" href="#csb43.homebank.Transaction.mode" title="Link to this definition">¶</a></dt>
+<dd><p>mode of transaction</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="csb43.homebank.Transaction.payee">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">payee</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.12)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.12)"><span class="pre">None</span></a></em><a class="headerlink" href="#csb43.homebank.Transaction.payee" title="Link to this definition">¶</a></dt>
+<dd><p>payee of the transaction</p>
+</dd></dl>
+
+</dd></dl>
+
+<section id="converter">
+<h2>Converter<a class="headerlink" href="#converter" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="csb43.homebank.converter.convertFromCsb">
+<span class="sig-prename descclassname"><span class="pre">csb43.homebank.converter.</span></span><span class="sig-name descname"><span class="pre">convertFromCsb</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">csb</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="csb.html#csb43.csb43.File" title="csb43.csb43.csb_file.File"><span class="pre">File</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Sequence" title="(in Python v3.12)"><span class="pre">Sequence</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#csb43.homebank.Transaction" title="csb43.homebank.Transaction"><span class="pre">Transaction</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#csb43.homebank.converter.convertFromCsb" title="Link to this definition">¶</a></dt>
+<dd><p>Convert a CSB43 file into a HomeBank CSV file.</p>
+<p>Only first account is converted.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>csb</strong> (<a class="reference internal" href="csb.html#csb43.csb43.File" title="csb43.csb43.File"><code class="xref py py-class docutils literal notranslate"><span class="pre">csb43.csb43.File</span></code></a>) – a CSB43 file</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></a> of <code class="xref py py-class docutils literal notranslate"><span class="pre">Transaction</span></code></p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Homebank</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">csb43</span> <span class="kn">import</span> <span class="n">csb43</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1">#</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">csbFile</span> <span class="o">=</span> <span class="n">csb43</span><span class="o">.</span><span class="n">File</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s2">&quot;movimientos.csb&quot;</span><span class="p">),</span> <span class="n">strict</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> 
+<span class="gp">&gt;&gt;&gt; </span><span class="c1">#</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># print to stdout</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">convertFromCsb</span><span class="p">(</span><span class="n">csbFile</span><span class="p">):</span> 
+<span class="gp">... </span>   <span class="nb">print</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+<span class="gp">...</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="csb43.homebank.converter.PAYMODES">
+<span class="sig-prename descclassname"><span class="pre">converter.</span></span><span class="sig-name descname"><span class="pre">PAYMODES</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'01':</span> <span class="pre">'2',</span> <span class="pre">'02':</span> <span class="pre">'2',</span> <span class="pre">'04':</span> <span class="pre">'3',</span> <span class="pre">'12':</span> <span class="pre">'5'}</span></em><a class="headerlink" href="#csb43.homebank.converter.PAYMODES" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#"><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.homebank</span></code></a><ul>
+<li><a class="reference internal" href="#csb43.homebank.Transaction"><code class="docutils literal notranslate"><span class="pre">Transaction</span></code></a><ul>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.__init__"><code class="docutils literal notranslate"><span class="pre">Transaction.__init__()</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.__str__"><code class="docutils literal notranslate"><span class="pre">Transaction.__str__()</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.__weakref__"><code class="docutils literal notranslate"><span class="pre">Transaction.__weakref__</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.amount"><code class="docutils literal notranslate"><span class="pre">Transaction.amount</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.category"><code class="docutils literal notranslate"><span class="pre">Transaction.category</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.date"><code class="docutils literal notranslate"><span class="pre">Transaction.date</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.description"><code class="docutils literal notranslate"><span class="pre">Transaction.description</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.info"><code class="docutils literal notranslate"><span class="pre">Transaction.info</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.mode"><code class="docutils literal notranslate"><span class="pre">Transaction.mode</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.Transaction.payee"><code class="docutils literal notranslate"><span class="pre">Transaction.payee</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#converter">Converter</a><ul>
+<li><a class="reference internal" href="#csb43.homebank.converter.convertFromCsb"><code class="docutils literal notranslate"><span class="pre">convertFromCsb()</span></code></a></li>
+<li><a class="reference internal" href="#csb43.homebank.converter.PAYMODES"><code class="docutils literal notranslate"><span class="pre">converter.PAYMODES</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="ofx.html"
+                          title="previous chapter"><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.ofx</span></code></a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="formats.html"
+                          title="next chapter"><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.formats</span></code></a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/homebank.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="formats.html" title="csb43.formats"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ofx.html" title="csb43.ofx"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">csb43 0.9.3 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><code class="xref py py-mod docutils literal notranslate"><span class="pre">csb43.homebank</span></code></a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2013, wmj.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    </div>
+  </body>
+</html>

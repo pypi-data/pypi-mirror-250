@@ -1,0 +1,20 @@
+pycountry>=16.10.23rc1
+
+[:python_version < "3.9"]
+importlib_resources
+
+[all]
+PyYAML
+tablib[all]<=4.0.0,>=0.11.3
+
+[babel]
+Babel
+
+[basic_formats]
+tablib<=4.0.0,>=0.11.3
+
+[formats]
+tablib[all]<=4.0.0,>=0.11.3
+
+[yaml]
+PyYAML
