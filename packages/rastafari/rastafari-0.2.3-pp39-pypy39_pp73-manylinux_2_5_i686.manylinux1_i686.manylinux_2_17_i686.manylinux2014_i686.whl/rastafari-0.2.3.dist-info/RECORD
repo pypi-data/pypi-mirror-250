@@ -1,0 +1,9 @@
+rastafari-0.2.3.dist-info/LICENSE,sha256=39_TIo7LPWAIzOZhZBZwmKnc-K889JDqpi9LlasTKI0,1059
+rastafari-0.2.3.dist-info/RECORD,,
+rastafari-0.2.3.dist-info/METADATA,sha256=D3EkEpQX_HuYAQ8_E3Zyt-M44WELweUJuedOFdIzI9g,2590
+rastafari-0.2.3.dist-info/WHEEL,sha256=6WiBMQ8MfSUAgiESiLYhL5yTIUoZP-JR22u430UDX6A,237
+rastafari-0.2.3.dist-info/top_level.txt,sha256=vxh1HR0Yc4pTMGdBmGx1b_tdTaFRgLV4bZfDmAPZ23w,10
+rastafari/__init__.py,sha256=NYqCQ8jWy0T-G50UglwKZf8P3f3hz3I-4GrirW4Wvac,4529
+rastafari/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rastafari/core.pyi,sha256=Ayt4lZCe-Kl7umqCG7_JQS2q1cg8vlbVREm5LuHpMg8,501
+rastafari/core.pypy39-pp73-x86-linux-gnu.so,sha256=SAQqvb5DYGgcIO7UTldbSMEY9VQtjrq2kboUrK8cULk,240844
