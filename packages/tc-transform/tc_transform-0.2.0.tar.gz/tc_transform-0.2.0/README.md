@@ -1,0 +1,45 @@
+# Matrix and Signal Processing Functions
+
+This repository contains Python functions for matrix and signal processing operations, including matrix transposition, 1D signal windowing, and 2D convolution.
+
+## Functions
+
+### transpose2d
+```python
+def transpose2d(input_matrix: List[List[float]]) -> List[List[float]]:
+```
+This function takes a 2D matrix (input_matrix) as input and returns its transpose. It initializes an empty matrix with transposed dimensions and populates it with the transposed values of the input matrix.
+
+### window1d
+```python
+def window1d(input_array: List[float] | np.ndarray, size: int, shift: int = 1, stride: int = 1) -> List[List[float] | np.ndarray]:
+```
+Given a 1D array (input_array), this function creates overlapping windows of a specified size, shift, and stride. The result is a list of windows, where each window is a subarray of the input.
+
+### convolution2d
+```python
+def convolution2d(input_matrix: np.ndarray, kernel: np.ndarray, stride: int = 1) -> np.ndarray:
+```
+This function performs 2D convolution between an input matrix and a kernel. The stride parameter determines the step size while sliding the kernel over the input matrix. The result is a new matrix representing the convolved output.
+
+### Usage
+To use these functions, simply import the desired function from the module and provide the required parameters. Ensure that the input data types and sizes align with the function specifications.
+
+```python
+from tc_transform import transpose2d, window1d, convolution2d
+
+# Example usage
+input_matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+transposed_matrix = transpose2d(input_matrix)
+
+input_array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+windows = window1d(input_array, size=3, shift=1, stride=1)
+
+input_matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+kernel = np.array([[1, 0], [0, 1]])
+convolved_output = convolution2d(input_matrix, kernel, stride=1)
+```
+
+## Dependencies
+- Python >= 3.10
+- NumPy
