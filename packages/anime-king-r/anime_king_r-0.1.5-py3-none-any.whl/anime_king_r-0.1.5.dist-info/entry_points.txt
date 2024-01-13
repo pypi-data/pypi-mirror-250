@@ -1,0 +1,2 @@
+[console_scripts]
+akr-download = anime_king_r:main
