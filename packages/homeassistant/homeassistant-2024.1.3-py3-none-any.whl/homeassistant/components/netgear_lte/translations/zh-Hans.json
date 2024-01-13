@@ -1,0 +1,74 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u8bbe\u5907\u5df2\u7ecf\u914d\u7f6e\u8fc7\u4e86",
+            "cannot_connect": "\u8fde\u63a5\u5931\u8d25"
+        },
+        "error": {
+            "cannot_connect": "\u8fde\u63a5\u5931\u8d25",
+            "unknown": "\u975e\u9884\u671f\u7684\u9519\u8bef"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "\u4e3b\u673a",
+                    "password": "\u5bc6\u7801"
+                }
+            }
+        }
+    },
+    "services": {
+        "connect_lte": {
+            "description": "\u8981\u6c42\u8c03\u5236\u89e3\u8c03\u5668\u5efa\u7acb LTE \u8fde\u63a5\u3002",
+            "fields": {
+                "host": {
+                    "description": "\u5e94\u8fde\u63a5\u7684\u8c03\u5236\u89e3\u8c03\u5668\u3002",
+                    "name": "\u4e3b\u673a"
+                }
+            },
+            "name": "\u8fde\u63a5 LTE"
+        },
+        "delete_sms": {
+            "description": "\u4ece\u8c03\u5236\u89e3\u8c03\u5668\u6536\u4ef6\u7bb1\u4e2d\u5220\u9664\u6d88\u606f\u3002",
+            "fields": {
+                "host": {
+                    "description": "\u5e94\u5220\u9664\u6d88\u606f\u7684\u8c03\u5236\u89e3\u8c03\u5668\u3002",
+                    "name": "\u4e3b\u673a"
+                },
+                "sms_id": {
+                    "description": "\u6574\u6570\u6216\u6574\u6570\u5217\u8868\uff0c\u5305\u542b\u8981\u5220\u9664\u7684\u90ae\u4ef6\u7684\u6536\u4ef6\u7bb1 ID\u3002",
+                    "name": "\u77ed\u4fe1 ID"
+                }
+            },
+            "name": "\u5220\u9664\u77ed\u4fe1"
+        },
+        "disconnect_lte": {
+            "description": "\u8981\u6c42\u8c03\u5236\u89e3\u8c03\u5668\u5173\u95ed LTE \u8fde\u63a5\u3002",
+            "fields": {
+                "host": {
+                    "description": "\u5e94\u65ad\u5f00\u8fde\u63a5\u7684\u8c03\u5236\u89e3\u8c03\u5668\u3002",
+                    "name": "\u4e3b\u673a"
+                }
+            },
+            "name": "\u65ad\u5f00 LTE"
+        },
+        "set_option": {
+            "description": "\u8bbe\u7f6e\u8c03\u5236\u89e3\u8c03\u5668\u4e0a\u7684\u9009\u9879\u3002",
+            "fields": {
+                "autoconnect": {
+                    "description": "\u81ea\u52a8\u8fde\u63a5\u6a21\u5f0f\u3002",
+                    "name": "\u81ea\u52a8\u8fde\u63a5"
+                },
+                "failover": {
+                    "description": "\u6545\u969c\u8f6c\u79fb\u6a21\u5f0f\u3002",
+                    "name": "\u6545\u969c\u8f6c\u79fb"
+                },
+                "host": {
+                    "description": "\u8981\u8bbe\u7f6e\u9009\u9879\u7684\u8c03\u5236\u89e3\u8c03\u5668\u3002",
+                    "name": "\u4e3b\u673a"
+                }
+            },
+            "name": "\u8bbe\u7f6e\u9009\u9879"
+        }
+    }
+}

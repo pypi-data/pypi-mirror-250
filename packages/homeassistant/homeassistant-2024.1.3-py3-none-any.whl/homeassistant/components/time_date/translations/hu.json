@@ -1,0 +1,8 @@
+{
+    "issues": {
+        "deprecated_beat": {
+            "description": "K\u00e9rj\u00fck, t\u00e1vol\u00edtsa el a `{config_key}` kulcsot a `{display_options}`-b\u00f3l/b\u0151l a(z){integration} bejegyz\u00e9sn\u00e9l a configuration.yaml f\u00e1jlban, \u00e9s ind\u00edtsa \u00fajra a Home Assistantot, hogy megoldja ezt a probl\u00e9m\u00e1t.",
+            "title": "A(z) `{config_key}` id\u0151- \u00e9s d\u00e1tum\u00e9rz\u00e9kel\u0151 elt\u00e1vol\u00edt\u00e1sra ker\u00fcl"
+        }
+    }
+}
