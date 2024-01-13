@@ -1,0 +1,20 @@
+name: index_safe
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.8
+  - pip
+  - gdal
+  - boto3
+  - tqdm
+  - numpy
+  - requests
+  - lxml
+  # For packaging, and testing
+  - pytest
+  - pytest-cov
+  - pipreqs
+  - pip:
+    - zran
+

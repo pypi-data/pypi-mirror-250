@@ -1,0 +1,14 @@
+__pycache__/*
+tests/__pycache__/*
+src/index_safe/__pycache__/*
+src/index_safe.egg-info/*
+build/*
+.DS_Store
+.aws-sam/*
+samconfig.toml
+tests/test_data/*
+**/*.zip
+**/*.xml
+**/*.csv
+**/*.json
+**/*.bstidx

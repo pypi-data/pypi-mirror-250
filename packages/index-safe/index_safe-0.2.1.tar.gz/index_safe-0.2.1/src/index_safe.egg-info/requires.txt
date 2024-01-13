@@ -1,0 +1,9 @@
+gdal
+boto3
+tqdm
+numpy
+requests
+lxml
+
+[develop]
+pytest
