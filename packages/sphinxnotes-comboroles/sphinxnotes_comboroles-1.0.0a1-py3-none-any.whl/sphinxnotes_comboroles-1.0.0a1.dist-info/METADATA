@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: sphinxnotes-comboroles
+Version: 1.0.0a1
+Summary: Sphinx extension for composing multiple roles
+Author: Shengyu Zhang
+Maintainer: Shengyu Zhang
+Project-URL: homepage, https://sphinx.silverrainz.me/comboroles
+Project-URL: documentation, https://sphinx.silverrainz.me/comboroles
+Project-URL: repository, https://github.com/sphinx-notes/comboroles
+Project-URL: changelog, https://sphinx.silverrainz.me/comboroles/changelog.html
+Project-URL: tracker, https://github.com/sphinx-notes/comboroles/issues
+Keywords: sphinx,extension,documentation
+Classifier: Environment :: Plugins
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: Sphinx >=4
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: cruft ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: sphinxnotes-any ; extra == 'docs'
+Requires-Dist: sphinx-design ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: sphinxcontrib-gtagjs ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+.. This file is generated from sphinx-notes/cookiecutter.
+   You need to consider modifying the TEMPLATE or modifying THIS FILE.
+
+======================
+sphinxnotes-comboroles
+======================
+
+.. image:: https://img.shields.io/github/actions/workflow/status/sphinx-notes/comboroles/pages.yml
+   :target: https://sphinx.silverrainz.me/comboroles
+   :alt: Documentation Status
+
+.. image:: https://img.shields.io/github/license/sphinx-notes/comboroles
+   :target: https://github.com/sphinx-notes/comboroles/LICENSE
+   :alt: Open Source License
+
+.. image:: https://img.shields.io/pypi/v/sphinxnotes-comboroles.svg
+   :target: https://pypi.python.org/pypi/sphinxnotes-comboroles
+   :alt: PyPI Package
+
+.. image:: https://img.shields.io/pypi/dm/sphinxnotes-comboroles
+   :target: https://pypi.python.org/pypi/sphinxnotes-comboroles
+   :alt: PyPI Package Downloads
+
+Sphinx extension for composing multiple roles.
+
+* Documentation: https://sphinx.silverrainz.me/comboroles
+* Source: https://github.com/sphinx-notes/comboroles
+* Changelog: https://sphinx.silverrainz.me/comboroles/changelog.html
+* Tracker: https://github.com/sphinx-notes/comboroles/issues
+* Download: https://pypi.org/project/sphinxnotes-comboroles/#files
