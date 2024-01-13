@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+src/py_version_tracker/__init__.py
+src/py_version_tracker/py_version_tracker.py
+src/py_version_tracker.egg-info/PKG-INFO
+src/py_version_tracker.egg-info/SOURCES.txt
+src/py_version_tracker.egg-info/dependency_links.txt
+src/py_version_tracker.egg-info/requires.txt
+src/py_version_tracker.egg-info/top_level.txt
+tests/test_pyversion_tracker.py
