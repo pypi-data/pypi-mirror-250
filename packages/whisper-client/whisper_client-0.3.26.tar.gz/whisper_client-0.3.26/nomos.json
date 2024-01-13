@@ -1,0 +1,3406 @@
+{
+  "text": " \u00c7a, c'est comme les connards qui nous disent \u00ab Ah, les islamophobes, ils sont fous ! \u00bb Ils nous disent qu'un jour, il y aura des femmes voil\u00e9es qui vont garder les enfants au Qu\u00e9bec. Mais oui, mes cochons ! Cinq ans plus tard, il y a des femmes en Niqab qui ont des garderies pour enfants. Et l\u00e0, vous ne nous dites plus \u00ab Oh non, \u00e7a n'arrivera jamais ! \u00bb Une fois que c'est arriv\u00e9, vous nous dites \u00ab Ouais, en fait, il faut l'accepter. Et si vous ne l'acceptez pas, vous \u00eates des islamophobes nazis. \u00bb Mais allez, il faut faire enculer, en fait. On le sait qu'on a raison. Et cinq ans plus tard, la fen\u00eatre d'Overton s'est d\u00e9plac\u00e9e de votre c\u00f4t\u00e9. Et l\u00e0, vous nous dites que ce qui \u00e9tait un fantasme de l'extr\u00eame droite, c'est devenu la r\u00e9alit\u00e9. Des drag queens qui font des contes pour les enfants. M\u00eame l'extr\u00eame droite d'il y a vingt ans n'aurait jamais pu penser \u00e0 \u00e7a. Mais maintenant, c'est une r\u00e9alit\u00e9. Et si vous n'acceptez pas, vous \u00eates un gros facho. Mais allez vous faire enculer, en fait, les gauchistes. Allez vous faire foutre. On le sait qu'on a raison. On le sait que \u00e7a se passe. Les chiffres d\u00e9mographiques, tout nous donne raison. Vous ne r\u00e9ussissez qu'\u00e0 gagner \u00e0 cause de votre sup\u00e9riorit\u00e9 morale et intellectuelle et votre domination m\u00e9diatique. Mais la r\u00e9alit\u00e9, c'est qu'on a raison. Le grand emplacement se passe sous nos yeux. Et oui, oui, oui, c'est une r\u00e9alit\u00e9. Et on n'a pas \u00e0 d\u00e9tourner les yeux et on n'a pas \u00e0 l'accepter parce que \u00e7a fait votre affaire pour prouver votre sup\u00e9riorit\u00e9 morale de gauchistes bonjois qui se vantent d'avoir des domestiques racis\u00e9s \u00e0 la con. C'est \u00e7a. Vous \u00eates pitoyable d'un point de vue moral. Parce qu'en plus, vous savez que ce que vous dites, c'est de la merde. Vous savez qu'il y a un changement de peuple par l'immigration massive. Vous le savez. Vous n'\u00eates pas plus con que nous, les gauchistes. Vous avez des yeux pour voir. Vous le savez.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.28,
+      "end": 4.56,
+      "text": " \u00c7a, c'est comme les connards qui nous disent \u00ab Ah, les islamophobes, ils sont fous ! \u00bb",
+      "tokens": [
+        50364,
+        11527,
+        11,
+        269,
+        6,
+        377,
+        5173,
+        1512,
+        46264,
+        2287,
+        1956,
+        4666,
+        37313,
+        4657,
+        2438,
+        11,
+        1512,
+        307,
+        4326,
+        5317,
+        996,
+        279,
+        11,
+        9047,
+        4900,
+        283,
+        563,
+        2298,
+        8793,
+        50586
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22228406736363915,
+      "compression_ratio": 1.738872403560831,
+      "no_speech_prob": 0.07452072948217392,
+      "confidence": 0.608,
+      "words": [
+        {
+          "text": "\u00c7a,",
+          "start": 0.28,
+          "end": 0.46,
+          "confidence": 0.3
+        },
+        {
+          "text": "c'est",
+          "start": 0.56,
+          "end": 0.66,
+          "confidence": 0.998
+        },
+        {
+          "text": "comme",
+          "start": 0.66,
+          "end": 0.8,
+          "confidence": 0.996
+        },
+        {
+          "text": "les",
+          "start": 0.8,
+          "end": 0.96,
+          "confidence": 0.979
+        },
+        {
+          "text": "connards",
+          "start": 0.96,
+          "end": 1.34,
+          "confidence": 0.966
+        },
+        {
+          "text": "qui",
+          "start": 1.34,
+          "end": 1.5,
+          "confidence": 0.922
+        },
+        {
+          "text": "nous",
+          "start": 1.5,
+          "end": 1.66,
+          "confidence": 0.99
+        },
+        {
+          "text": "disent",
+          "start": 1.66,
+          "end": 1.88,
+          "confidence": 0.048
+        },
+        {
+          "text": "\u00ab",
+          "start": 1.88,
+          "end": 2.02,
+          "confidence": 0.067
+        },
+        {
+          "text": "Ah,",
+          "start": 2.02,
+          "end": 2.22,
+          "confidence": 0.381
+        },
+        {
+          "text": "les",
+          "start": 2.54,
+          "end": 2.76,
+          "confidence": 0.155
+        },
+        {
+          "text": "islamophobes,",
+          "start": 2.76,
+          "end": 3.56,
+          "confidence": 0.923
+        },
+        {
+          "text": "ils",
+          "start": 3.62,
+          "end": 3.7,
+          "confidence": 0.975
+        },
+        {
+          "text": "sont",
+          "start": 3.7,
+          "end": 3.9,
+          "confidence": 0.922
+        },
+        {
+          "text": "fous !",
+          "start": 3.9,
+          "end": 4.54,
+          "confidence": 0.719
+        },
+        {
+          "text": "\u00bb",
+          "start": 4.54,
+          "end": 4.56,
+          "confidence": 0.816
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.56,
+      "end": 7.6,
+      "text": " Ils nous disent qu'un jour, il y aura des femmes voil\u00e9es qui vont garder les enfants au Qu\u00e9bec.",
+      "tokens": [
+        50586,
+        17979,
+        4666,
+        37313,
+        421,
+        6,
+        409,
+        2827,
+        11,
+        1930,
+        288,
+        18355,
+        730,
+        27997,
+        1650,
+        388,
+        6836,
+        1956,
+        14362,
+        47167,
+        1512,
+        22649,
+        1609,
+        34510,
+        13,
+        50756
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22228406736363915,
+      "compression_ratio": 1.738872403560831,
+      "no_speech_prob": 0.07452072948217392,
+      "confidence": 0.848,
+      "words": [
+        {
+          "text": "Ils",
+          "start": 4.56,
+          "end": 4.72,
+          "confidence": 0.466
+        },
+        {
+          "text": "nous",
+          "start": 4.72,
+          "end": 4.86,
+          "confidence": 0.998
+        },
+        {
+          "text": "disent",
+          "start": 4.86,
+          "end": 5.06,
+          "confidence": 0.997
+        },
+        {
+          "text": "qu'un",
+          "start": 5.06,
+          "end": 5.24,
+          "confidence": 0.962
+        },
+        {
+          "text": "jour,",
+          "start": 5.24,
+          "end": 5.38,
+          "confidence": 0.619
+        },
+        {
+          "text": "il",
+          "start": 5.42,
+          "end": 5.44,
+          "confidence": 0.656
+        },
+        {
+          "text": "y",
+          "start": 5.44,
+          "end": 5.54,
+          "confidence": 0.958
+        },
+        {
+          "text": "aura",
+          "start": 5.54,
+          "end": 5.58,
+          "confidence": 0.644
+        },
+        {
+          "text": "des",
+          "start": 5.58,
+          "end": 5.76,
+          "confidence": 0.985
+        },
+        {
+          "text": "femmes",
+          "start": 5.76,
+          "end": 5.94,
+          "confidence": 0.997
+        },
+        {
+          "text": "voil\u00e9es",
+          "start": 5.94,
+          "end": 6.28,
+          "confidence": 0.97
+        },
+        {
+          "text": "qui",
+          "start": 6.28,
+          "end": 6.4,
+          "confidence": 0.736
+        },
+        {
+          "text": "vont",
+          "start": 6.4,
+          "end": 6.54,
+          "confidence": 0.977
+        },
+        {
+          "text": "garder",
+          "start": 6.54,
+          "end": 6.74,
+          "confidence": 0.986
+        },
+        {
+          "text": "les",
+          "start": 6.74,
+          "end": 7.0,
+          "confidence": 0.948
+        },
+        {
+          "text": "enfants",
+          "start": 7.0,
+          "end": 7.2,
+          "confidence": 0.995
+        },
+        {
+          "text": "au",
+          "start": 7.2,
+          "end": 7.32,
+          "confidence": 0.851
+        },
+        {
+          "text": "Qu\u00e9bec.",
+          "start": 7.32,
+          "end": 7.6,
+          "confidence": 0.766
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.04,
+      "end": 9.48,
+      "text": " Mais oui, mes cochons !",
+      "tokens": [
+        50756,
+        6313,
+        14367,
+        11,
+        3813,
+        48599,
+        892,
+        2298,
+        50830
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22228406736363915,
+      "compression_ratio": 1.738872403560831,
+      "no_speech_prob": 0.07452072948217392,
+      "confidence": 0.612,
+      "words": [
+        {
+          "text": "Mais",
+          "start": 8.04,
+          "end": 8.3,
+          "confidence": 0.566
+        },
+        {
+          "text": "oui,",
+          "start": 8.3,
+          "end": 8.5,
+          "confidence": 0.653
+        },
+        {
+          "text": "mes",
+          "start": 8.64,
+          "end": 8.76,
+          "confidence": 0.891
+        },
+        {
+          "text": "cochons !",
+          "start": 8.76,
+          "end": 9.48,
+          "confidence": 0.53
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.48,
+      "end": 13.98,
+      "text": " Cinq ans plus tard, il y a des femmes en Niqab qui ont des garderies pour enfants.",
+      "tokens": [
+        50830,
+        18310,
+        80,
+        1567,
+        1804,
+        21057,
+        11,
+        1930,
+        288,
+        257,
+        730,
+        27997,
+        465,
+        12370,
+        80,
+        455,
+        1956,
+        6592,
+        730,
+        5628,
+        21659,
+        2016,
+        22649,
+        13,
+        51066
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22228406736363915,
+      "compression_ratio": 1.738872403560831,
+      "no_speech_prob": 0.07452072948217392,
+      "confidence": 0.555,
+      "words": [
+        {
+          "text": "Cinq",
+          "start": 9.48,
+          "end": 9.74,
+          "confidence": 0.032
+        },
+        {
+          "text": "ans",
+          "start": 9.74,
+          "end": 9.88,
+          "confidence": 0.828
+        },
+        {
+          "text": "plus",
+          "start": 9.88,
+          "end": 10.04,
+          "confidence": 0.969
+        },
+        {
+          "text": "tard,",
+          "start": 10.04,
+          "end": 10.16,
+          "confidence": 0.753
+        },
+        {
+          "text": "il",
+          "start": 10.22,
+          "end": 10.28,
+          "confidence": 0.722
+        },
+        {
+          "text": "y",
+          "start": 10.28,
+          "end": 10.32,
+          "confidence": 0.97
+        },
+        {
+          "text": "a",
+          "start": 10.32,
+          "end": 10.36,
+          "confidence": 0.982
+        },
+        {
+          "text": "des",
+          "start": 10.36,
+          "end": 10.42,
+          "confidence": 0.896
+        },
+        {
+          "text": "femmes",
+          "start": 10.42,
+          "end": 10.62,
+          "confidence": 0.993
+        },
+        {
+          "text": "en",
+          "start": 10.62,
+          "end": 10.84,
+          "confidence": 0.963
+        },
+        {
+          "text": "Niqab",
+          "start": 10.84,
+          "end": 11.54,
+          "confidence": 0.34
+        },
+        {
+          "text": "qui",
+          "start": 11.54,
+          "end": 12.2,
+          "confidence": 0.603
+        },
+        {
+          "text": "ont",
+          "start": 12.2,
+          "end": 12.42,
+          "confidence": 0.956
+        },
+        {
+          "text": "des",
+          "start": 12.42,
+          "end": 12.62,
+          "confidence": 0.967
+        },
+        {
+          "text": "garderies",
+          "start": 12.62,
+          "end": 13.14,
+          "confidence": 0.956
+        },
+        {
+          "text": "pour",
+          "start": 13.14,
+          "end": 13.66,
+          "confidence": 0.877
+        },
+        {
+          "text": "enfants.",
+          "start": 13.66,
+          "end": 13.98,
+          "confidence": 0.524
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.12,
+      "end": 16.82,
+      "text": " Et l\u00e0, vous ne nous dites plus \u00ab Oh non, \u00e7a n'arrivera jamais ! \u00bb",
+      "tokens": [
+        51066,
+        3790,
+        3684,
+        11,
+        2630,
+        408,
+        4666,
+        48291,
+        1804,
+        4657,
+        876,
+        2107,
+        11,
+        2788,
+        297,
+        6,
+        289,
+        32416,
+        64,
+        14540,
+        2298,
+        8793,
+        51180
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22228406736363915,
+      "compression_ratio": 1.738872403560831,
+      "no_speech_prob": 0.07452072948217392,
+      "confidence": 0.626,
+      "words": [
+        {
+          "text": "Et",
+          "start": 14.12,
+          "end": 14.26,
+          "confidence": 0.593
+        },
+        {
+          "text": "l\u00e0,",
+          "start": 14.26,
+          "end": 14.4,
+          "confidence": 0.446
+        },
+        {
+          "text": "vous",
+          "start": 14.5,
+          "end": 14.54,
+          "confidence": 0.996
+        },
+        {
+          "text": "ne",
+          "start": 14.54,
+          "end": 14.6,
+          "confidence": 0.246
+        },
+        {
+          "text": "nous",
+          "start": 14.6,
+          "end": 14.7,
+          "confidence": 0.79
+        },
+        {
+          "text": "dites",
+          "start": 14.7,
+          "end": 14.88,
+          "confidence": 0.956
+        },
+        {
+          "text": "plus",
+          "start": 14.88,
+          "end": 15.08,
+          "confidence": 0.992
+        },
+        {
+          "text": "\u00ab",
+          "start": 15.08,
+          "end": 15.18,
+          "confidence": 0.068
+        },
+        {
+          "text": "Oh",
+          "start": 15.18,
+          "end": 15.24,
+          "confidence": 0.249
+        },
+        {
+          "text": "non,",
+          "start": 15.24,
+          "end": 15.38,
+          "confidence": 0.851
+        },
+        {
+          "text": "\u00e7a",
+          "start": 15.4,
+          "end": 15.52,
+          "confidence": 0.962
+        },
+        {
+          "text": "n'arrivera",
+          "start": 15.52,
+          "end": 15.94,
+          "confidence": 0.99
+        },
+        {
+          "text": "jamais !",
+          "start": 15.94,
+          "end": 16.8,
+          "confidence": 0.52
+        },
+        {
+          "text": "\u00bb",
+          "start": 16.8,
+          "end": 16.82,
+          "confidence": 0.835
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.82,
+      "end": 19.64,
+      "text": " Une fois que c'est arriv\u00e9, vous nous dites \u00ab Ouais, en fait, il faut l'accepter.",
+      "tokens": [
+        51180,
+        16701,
+        9576,
+        631,
+        269,
+        6,
+        377,
+        47112,
+        11,
+        2630,
+        4666,
+        48291,
+        4657,
+        25475,
+        11,
+        465,
+        3887,
+        11,
+        1930,
+        8487,
+        287,
+        6,
+        326,
+        27493,
+        391,
+        13,
+        51348
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22228406736363915,
+      "compression_ratio": 1.738872403560831,
+      "no_speech_prob": 0.07452072948217392,
+      "confidence": 0.384,
+      "words": [
+        {
+          "text": "Une",
+          "start": 16.82,
+          "end": 16.84,
+          "confidence": 0.0
+        },
+        {
+          "text": "fois",
+          "start": 16.84,
+          "end": 16.86,
+          "confidence": 0.439
+        },
+        {
+          "text": "que",
+          "start": 16.86,
+          "end": 16.88,
+          "confidence": 0.12
+        },
+        {
+          "text": "c'est",
+          "start": 16.88,
+          "end": 16.92,
+          "confidence": 0.648
+        },
+        {
+          "text": "arriv\u00e9,",
+          "start": 16.92,
+          "end": 17.12,
+          "confidence": 0.817
+        },
+        {
+          "text": "vous",
+          "start": 17.28,
+          "end": 17.3,
+          "confidence": 0.925
+        },
+        {
+          "text": "nous",
+          "start": 17.3,
+          "end": 17.42,
+          "confidence": 0.355
+        },
+        {
+          "text": "dites",
+          "start": 17.42,
+          "end": 17.6,
+          "confidence": 0.89
+        },
+        {
+          "text": "\u00ab",
+          "start": 17.6,
+          "end": 17.72,
+          "confidence": 0.136
+        },
+        {
+          "text": "Ouais,",
+          "start": 17.72,
+          "end": 17.98,
+          "confidence": 0.095
+        },
+        {
+          "text": "en",
+          "start": 18.06,
+          "end": 18.12,
+          "confidence": 0.964
+        },
+        {
+          "text": "[*]",
+          "start": 18.12,
+          "end": 18.18,
+          "confidence": 0
+        },
+        {
+          "text": "fait,",
+          "start": 18.18,
+          "end": 18.4,
+          "confidence": 0.832
+        },
+        {
+          "text": "il",
+          "start": 18.8,
+          "end": 18.88,
+          "confidence": 0.955
+        },
+        {
+          "text": "faut",
+          "start": 18.88,
+          "end": 19.0,
+          "confidence": 0.993
+        },
+        {
+          "text": "l'accepter.",
+          "start": 19.0,
+          "end": 19.64,
+          "confidence": 0.708
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 19.78,
+      "end": 22.92,
+      "text": " Et si vous ne l'acceptez pas, vous \u00eates des islamophobes nazis. \u00bb",
+      "tokens": [
+        51348,
+        3790,
+        1511,
+        2630,
+        408,
+        287,
+        6,
+        24870,
+        4371,
+        1736,
+        11,
+        2630,
+        18935,
+        730,
+        307,
+        4326,
+        5317,
+        996,
+        279,
+        20151,
+        271,
+        13,
+        8793,
+        51486
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22228406736363915,
+      "compression_ratio": 1.738872403560831,
+      "no_speech_prob": 0.07452072948217392,
+      "confidence": 0.395,
+      "words": [
+        {
+          "text": "Et",
+          "start": 19.78,
+          "end": 19.94,
+          "confidence": 0.528
+        },
+        {
+          "text": "si",
+          "start": 19.94,
+          "end": 20.0,
+          "confidence": 0.993
+        },
+        {
+          "text": "vous",
+          "start": 20.0,
+          "end": 20.12,
+          "confidence": 0.996
+        },
+        {
+          "text": "ne",
+          "start": 20.12,
+          "end": 20.14,
+          "confidence": 0.085
+        },
+        {
+          "text": "l'acceptez",
+          "start": 20.14,
+          "end": 20.62,
+          "confidence": 0.992
+        },
+        {
+          "text": "pas,",
+          "start": 20.62,
+          "end": 20.86,
+          "confidence": 0.873
+        },
+        {
+          "text": "vous",
+          "start": 20.98,
+          "end": 21.04,
+          "confidence": 0.973
+        },
+        {
+          "text": "\u00eates",
+          "start": 21.04,
+          "end": 21.16,
+          "confidence": 0.99
+        },
+        {
+          "text": "des",
+          "start": 21.16,
+          "end": 21.3,
+          "confidence": 0.942
+        },
+        {
+          "text": "islamophobes",
+          "start": 21.3,
+          "end": 21.82,
+          "confidence": 0.252
+        },
+        {
+          "text": "nazis.",
+          "start": 21.82,
+          "end": 22.5,
+          "confidence": 0.645
+        },
+        {
+          "text": "\u00bb",
+          "start": 22.5,
+          "end": 22.92,
+          "confidence": 0.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 22.92,
+      "end": 25.4,
+      "text": " Mais allez, il faut faire enculer, en fait.",
+      "tokens": [
+        51486,
+        6313,
+        18146,
+        11,
+        1930,
+        8487,
+        4865,
+        2058,
+        26318,
+        11,
+        465,
+        3887,
+        13,
+        51640
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22228406736363915,
+      "compression_ratio": 1.738872403560831,
+      "no_speech_prob": 0.07452072948217392,
+      "confidence": 0.235,
+      "words": [
+        {
+          "text": "Mais",
+          "start": 22.92,
+          "end": 22.94,
+          "confidence": 0.005
+        },
+        {
+          "text": "allez,",
+          "start": 22.94,
+          "end": 23.22,
+          "confidence": 0.354
+        },
+        {
+          "text": "il",
+          "start": 23.32,
+          "end": 23.52,
+          "confidence": 0.0
+        },
+        {
+          "text": "faut",
+          "start": 23.52,
+          "end": 23.54,
+          "confidence": 0.838
+        },
+        {
+          "text": "faire",
+          "start": 23.54,
+          "end": 23.76,
+          "confidence": 0.902
+        },
+        {
+          "text": "enculer,",
+          "start": 23.76,
+          "end": 24.68,
+          "confidence": 0.74
+        },
+        {
+          "text": "en",
+          "start": 24.88,
+          "end": 25.06,
+          "confidence": 0.962
+        },
+        {
+          "text": "fait.",
+          "start": 25.06,
+          "end": 25.4,
+          "confidence": 0.675
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 25.68,
+      "end": 26.94,
+      "text": " On le sait qu'on a raison.",
+      "tokens": [
+        51640,
+        1282,
+        476,
+        23146,
+        421,
+        6,
+        266,
+        257,
+        28402,
+        13,
+        51716
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22228406736363915,
+      "compression_ratio": 1.738872403560831,
+      "no_speech_prob": 0.07452072948217392,
+      "confidence": 0.79,
+      "words": [
+        {
+          "text": "On",
+          "start": 25.68,
+          "end": 25.88,
+          "confidence": 0.645
+        },
+        {
+          "text": "le",
+          "start": 25.88,
+          "end": 26.08,
+          "confidence": 0.807
+        },
+        {
+          "text": "sait",
+          "start": 26.08,
+          "end": 26.22,
+          "confidence": 0.995
+        },
+        {
+          "text": "qu'on",
+          "start": 26.22,
+          "end": 26.44,
+          "confidence": 0.962
+        },
+        {
+          "text": "a",
+          "start": 26.44,
+          "end": 26.6,
+          "confidence": 0.983
+        },
+        {
+          "text": "raison.",
+          "start": 26.6,
+          "end": 26.94,
+          "confidence": 0.515
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2704,
+      "start": 27.14,
+      "end": 30.22,
+      "text": " Et cinq ans plus tard, la fen\u00eatre d'Overton s'est d\u00e9plac\u00e9e de votre c\u00f4t\u00e9.",
+      "tokens": [
+        50368,
+        3790,
+        43335,
+        1567,
+        1804,
+        21057,
+        11,
+        635,
+        26830,
+        9498,
+        274,
+        6,
+        33093,
+        1756,
+        262,
+        6,
+        377,
+        47687,
+        326,
+        3856,
+        368,
+        10087,
+        18437,
+        13,
+        50528
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1664933472676994,
+      "compression_ratio": 1.6462585034013606,
+      "no_speech_prob": 0.13280460238456726,
+      "confidence": 0.76,
+      "words": [
+        {
+          "text": "Et",
+          "start": 27.14,
+          "end": 27.36,
+          "confidence": 0.595
+        },
+        {
+          "text": "cinq",
+          "start": 27.36,
+          "end": 27.58,
+          "confidence": 0.489
+        },
+        {
+          "text": "ans",
+          "start": 27.58,
+          "end": 27.72,
+          "confidence": 0.995
+        },
+        {
+          "text": "plus",
+          "start": 27.72,
+          "end": 28.0,
+          "confidence": 0.993
+        },
+        {
+          "text": "tard,",
+          "start": 28.0,
+          "end": 28.24,
+          "confidence": 0.937
+        },
+        {
+          "text": "la",
+          "start": 28.44,
+          "end": 28.54,
+          "confidence": 0.829
+        },
+        {
+          "text": "fen\u00eatre",
+          "start": 28.54,
+          "end": 28.76,
+          "confidence": 0.984
+        },
+        {
+          "text": "d'Overton",
+          "start": 28.76,
+          "end": 29.14,
+          "confidence": 0.613
+        },
+        {
+          "text": "s'est",
+          "start": 29.14,
+          "end": 29.4,
+          "confidence": 0.981
+        },
+        {
+          "text": "d\u00e9plac\u00e9e",
+          "start": 29.4,
+          "end": 29.68,
+          "confidence": 0.944
+        },
+        {
+          "text": "de",
+          "start": 29.68,
+          "end": 29.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "votre",
+          "start": 29.8,
+          "end": 29.92,
+          "confidence": 0.986
+        },
+        {
+          "text": "c\u00f4t\u00e9.",
+          "start": 29.92,
+          "end": 30.22,
+          "confidence": 0.285
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2704,
+      "start": 30.22,
+      "end": 35.48,
+      "text": " Et l\u00e0, vous nous dites que ce qui \u00e9tait un fantasme de l'extr\u00eame droite, c'est devenu la r\u00e9alit\u00e9.",
+      "tokens": [
+        50528,
+        3790,
+        3684,
+        11,
+        2630,
+        4666,
+        48291,
+        631,
+        1769,
+        1956,
+        11806,
+        517,
+        31255,
+        1398,
+        368,
+        287,
+        6,
+        3828,
+        81,
+        5069,
+        37321,
+        11,
+        269,
+        6,
+        377,
+        43115,
+        84,
+        635,
+        35677,
+        13,
+        50802
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1664933472676994,
+      "compression_ratio": 1.6462585034013606,
+      "no_speech_prob": 0.13280460238456726,
+      "confidence": 0.807,
+      "words": [
+        {
+          "text": "Et",
+          "start": 30.22,
+          "end": 30.46,
+          "confidence": 0.613
+        },
+        {
+          "text": "l\u00e0,",
+          "start": 30.46,
+          "end": 30.56,
+          "confidence": 0.519
+        },
+        {
+          "text": "vous",
+          "start": 30.64,
+          "end": 30.68,
+          "confidence": 0.994
+        },
+        {
+          "text": "nous",
+          "start": 30.68,
+          "end": 30.76,
+          "confidence": 0.982
+        },
+        {
+          "text": "dites",
+          "start": 30.76,
+          "end": 30.94,
+          "confidence": 0.941
+        },
+        {
+          "text": "que",
+          "start": 30.94,
+          "end": 31.1,
+          "confidence": 0.98
+        },
+        {
+          "text": "ce",
+          "start": 31.1,
+          "end": 31.22,
+          "confidence": 0.959
+        },
+        {
+          "text": "qui",
+          "start": 31.22,
+          "end": 31.34,
+          "confidence": 0.968
+        },
+        {
+          "text": "\u00e9tait",
+          "start": 31.34,
+          "end": 32.04,
+          "confidence": 0.969
+        },
+        {
+          "text": "[*]",
+          "start": 32.04,
+          "end": 32.9,
+          "confidence": 0
+        },
+        {
+          "text": "un",
+          "start": 32.9,
+          "end": 33.22,
+          "confidence": 0.624
+        },
+        {
+          "text": "fantasme",
+          "start": 33.22,
+          "end": 33.94,
+          "confidence": 0.744
+        },
+        {
+          "text": "de",
+          "start": 33.94,
+          "end": 34.08,
+          "confidence": 0.944
+        },
+        {
+          "text": "l'extr\u00eame",
+          "start": 34.08,
+          "end": 34.34,
+          "confidence": 0.986
+        },
+        {
+          "text": "droite,",
+          "start": 34.34,
+          "end": 34.48,
+          "confidence": 0.684
+        },
+        {
+          "text": "c'est",
+          "start": 34.58,
+          "end": 34.68,
+          "confidence": 0.762
+        },
+        {
+          "text": "devenu",
+          "start": 34.68,
+          "end": 34.9,
+          "confidence": 0.851
+        },
+        {
+          "text": "la",
+          "start": 34.9,
+          "end": 35.06,
+          "confidence": 0.861
+        },
+        {
+          "text": "r\u00e9alit\u00e9.",
+          "start": 35.06,
+          "end": 35.48,
+          "confidence": 0.617
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 2704,
+      "start": 35.8,
+      "end": 39.16,
+      "text": " Des drag queens qui font des contes pour les enfants.",
+      "tokens": [
+        50802,
+        3885,
+        5286,
+        42017,
+        1956,
+        10703,
+        730,
+        660,
+        279,
+        2016,
+        1512,
+        22649,
+        13,
+        50984
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1664933472676994,
+      "compression_ratio": 1.6462585034013606,
+      "no_speech_prob": 0.13280460238456726,
+      "confidence": 0.629,
+      "words": [
+        {
+          "text": "Des",
+          "start": 35.8,
+          "end": 36.08,
+          "confidence": 0.457
+        },
+        {
+          "text": "drag",
+          "start": 36.08,
+          "end": 36.36,
+          "confidence": 0.32
+        },
+        {
+          "text": "[*]",
+          "start": 36.36,
+          "end": 36.68,
+          "confidence": 0
+        },
+        {
+          "text": "queens",
+          "start": 36.68,
+          "end": 36.82,
+          "confidence": 0.78
+        },
+        {
+          "text": "qui",
+          "start": 36.82,
+          "end": 37.76,
+          "confidence": 0.284
+        },
+        {
+          "text": "font",
+          "start": 37.76,
+          "end": 37.94,
+          "confidence": 0.997
+        },
+        {
+          "text": "des",
+          "start": 37.94,
+          "end": 38.1,
+          "confidence": 0.996
+        },
+        {
+          "text": "contes",
+          "start": 38.1,
+          "end": 38.3,
+          "confidence": 0.731
+        },
+        {
+          "text": "pour",
+          "start": 38.3,
+          "end": 38.5,
+          "confidence": 0.968
+        },
+        {
+          "text": "les",
+          "start": 38.5,
+          "end": 38.78,
+          "confidence": 0.971
+        },
+        {
+          "text": "enfants.",
+          "start": 38.78,
+          "end": 39.16,
+          "confidence": 0.487
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 2704,
+      "start": 39.48,
+      "end": 46.66,
+      "text": " M\u00eame l'extr\u00eame droite d'il y a vingt ans n'aurait jamais pu penser \u00e0 \u00e7a.",
+      "tokens": [
+        50984,
+        42027,
+        287,
+        6,
+        3828,
+        81,
+        5069,
+        37321,
+        274,
+        6,
+        388,
+        288,
+        257,
+        371,
+        23190,
+        1567,
+        297,
+        6,
+        3463,
+        1001,
+        14540,
+        2362,
+        38940,
+        1531,
+        2788,
+        13,
+        51346
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1664933472676994,
+      "compression_ratio": 1.6462585034013606,
+      "no_speech_prob": 0.13280460238456726,
+      "confidence": 0.764,
+      "words": [
+        {
+          "text": "[*]",
+          "start": 39.48,
+          "end": 40.12,
+          "confidence": 0
+        },
+        {
+          "text": "M\u00eame",
+          "start": 40.12,
+          "end": 40.42,
+          "confidence": 0.144
+        },
+        {
+          "text": "[*]",
+          "start": 40.42,
+          "end": 42.32,
+          "confidence": 0
+        },
+        {
+          "text": "l'extr\u00eame",
+          "start": 42.32,
+          "end": 42.9,
+          "confidence": 0.885
+        },
+        {
+          "text": "droite",
+          "start": 42.9,
+          "end": 43.2,
+          "confidence": 0.709
+        },
+        {
+          "text": "[*]",
+          "start": 43.2,
+          "end": 44.5,
+          "confidence": 0
+        },
+        {
+          "text": "d'il",
+          "start": 44.5,
+          "end": 44.76,
+          "confidence": 0.709
+        },
+        {
+          "text": "y",
+          "start": 44.76,
+          "end": 45.16,
+          "confidence": 0.975
+        },
+        {
+          "text": "a",
+          "start": 45.16,
+          "end": 45.18,
+          "confidence": 0.957
+        },
+        {
+          "text": "vingt",
+          "start": 45.18,
+          "end": 45.42,
+          "confidence": 0.536
+        },
+        {
+          "text": "ans",
+          "start": 45.42,
+          "end": 45.6,
+          "confidence": 0.993
+        },
+        {
+          "text": "n'aurait",
+          "start": 45.6,
+          "end": 45.78,
+          "confidence": 0.799
+        },
+        {
+          "text": "jamais",
+          "start": 45.78,
+          "end": 46.02,
+          "confidence": 0.967
+        },
+        {
+          "text": "pu",
+          "start": 46.02,
+          "end": 46.18,
+          "confidence": 0.973
+        },
+        {
+          "text": "penser",
+          "start": 46.18,
+          "end": 46.42,
+          "confidence": 0.963
+        },
+        {
+          "text": "\u00e0",
+          "start": 46.42,
+          "end": 46.54,
+          "confidence": 0.927
+        },
+        {
+          "text": "\u00e7a.",
+          "start": 46.54,
+          "end": 46.66,
+          "confidence": 0.807
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 2704,
+      "start": 46.74,
+      "end": 47.84,
+      "text": " Mais maintenant, c'est une r\u00e9alit\u00e9.",
+      "tokens": [
+        51346,
+        6313,
+        14817,
+        11,
+        269,
+        6,
+        377,
+        2251,
+        35677,
+        13,
+        51412
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1664933472676994,
+      "compression_ratio": 1.6462585034013606,
+      "no_speech_prob": 0.13280460238456726,
+      "confidence": 0.629,
+      "words": [
+        {
+          "text": "Mais",
+          "start": 46.74,
+          "end": 46.92,
+          "confidence": 0.097
+        },
+        {
+          "text": "maintenant,",
+          "start": 46.92,
+          "end": 47.1,
+          "confidence": 0.576
+        },
+        {
+          "text": "c'est",
+          "start": 47.18,
+          "end": 47.3,
+          "confidence": 0.998
+        },
+        {
+          "text": "une",
+          "start": 47.3,
+          "end": 47.44,
+          "confidence": 0.976
+        },
+        {
+          "text": "r\u00e9alit\u00e9.",
+          "start": 47.44,
+          "end": 47.84,
+          "confidence": 0.701
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 2704,
+      "start": 48.0,
+      "end": 49.94,
+      "text": " Et si vous n'acceptez pas, vous \u00eates un gros facho.",
+      "tokens": [
+        51412,
+        3790,
+        1511,
+        2630,
+        297,
+        6,
+        24870,
+        4371,
+        1736,
+        11,
+        2630,
+        18935,
+        517,
+        18638,
+        283,
+        46574,
+        13,
+        51524
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1664933472676994,
+      "compression_ratio": 1.6462585034013606,
+      "no_speech_prob": 0.13280460238456726,
+      "confidence": 0.841,
+      "words": [
+        {
+          "text": "Et",
+          "start": 48.0,
+          "end": 48.18,
+          "confidence": 0.628
+        },
+        {
+          "text": "si",
+          "start": 48.18,
+          "end": 48.28,
+          "confidence": 0.992
+        },
+        {
+          "text": "vous",
+          "start": 48.28,
+          "end": 48.38,
+          "confidence": 0.995
+        },
+        {
+          "text": "n'acceptez",
+          "start": 48.38,
+          "end": 48.84,
+          "confidence": 0.987
+        },
+        {
+          "text": "pas,",
+          "start": 48.84,
+          "end": 49.02,
+          "confidence": 0.914
+        },
+        {
+          "text": "vous",
+          "start": 49.1,
+          "end": 49.18,
+          "confidence": 0.952
+        },
+        {
+          "text": "\u00eates",
+          "start": 49.18,
+          "end": 49.34,
+          "confidence": 0.987
+        },
+        {
+          "text": "un",
+          "start": 49.34,
+          "end": 49.46,
+          "confidence": 0.993
+        },
+        {
+          "text": "gros",
+          "start": 49.46,
+          "end": 49.64,
+          "confidence": 0.987
+        },
+        {
+          "text": "facho.",
+          "start": 49.64,
+          "end": 49.94,
+          "confidence": 0.519
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 2704,
+      "start": 50.3,
+      "end": 53.24,
+      "text": " Mais allez vous faire enculer, en fait, les gauchistes.",
+      "tokens": [
+        51524,
+        6313,
+        18146,
+        2630,
+        4865,
+        2058,
+        26318,
+        11,
+        465,
+        3887,
+        11,
+        1512,
+        5959,
+        625,
+        22368,
+        13,
+        51692
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1664933472676994,
+      "compression_ratio": 1.6462585034013606,
+      "no_speech_prob": 0.13280460238456726,
+      "confidence": 0.74,
+      "words": [
+        {
+          "text": "Mais",
+          "start": 50.3,
+          "end": 50.56,
+          "confidence": 0.572
+        },
+        {
+          "text": "allez",
+          "start": 50.56,
+          "end": 50.82,
+          "confidence": 0.972
+        },
+        {
+          "text": "vous",
+          "start": 50.82,
+          "end": 51.04,
+          "confidence": 0.971
+        },
+        {
+          "text": "faire",
+          "start": 51.04,
+          "end": 51.28,
+          "confidence": 0.993
+        },
+        {
+          "text": "enculer,",
+          "start": 51.28,
+          "end": 52.02,
+          "confidence": 0.503
+        },
+        {
+          "text": "[*]",
+          "start": 52.02,
+          "end": 52.28,
+          "confidence": 0
+        },
+        {
+          "text": "en",
+          "start": 52.28,
+          "end": 52.3,
+          "confidence": 0.829
+        },
+        {
+          "text": "fait,",
+          "start": 52.3,
+          "end": 52.44,
+          "confidence": 0.805
+        },
+        {
+          "text": "les",
+          "start": 52.52,
+          "end": 52.68,
+          "confidence": 0.967
+        },
+        {
+          "text": "gauchistes.",
+          "start": 52.68,
+          "end": 53.24,
+          "confidence": 0.744
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 2704,
+      "start": 53.74,
+      "end": 55.8,
+      "text": " Allez vous faire foutre.",
+      "tokens": [
+        51692,
+        29616,
+        2630,
+        4865,
+        41907,
+        265,
+        13,
+        51826
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1664933472676994,
+      "compression_ratio": 1.6462585034013606,
+      "no_speech_prob": 0.13280460238456726,
+      "confidence": 0.645,
+      "words": [
+        {
+          "text": "[*]",
+          "start": 53.74,
+          "end": 53.9,
+          "confidence": 0
+        },
+        {
+          "text": "Allez",
+          "start": 53.9,
+          "end": 54.28,
+          "confidence": 0.526
+        },
+        {
+          "text": "vous",
+          "start": 54.28,
+          "end": 54.66,
+          "confidence": 0.823
+        },
+        {
+          "text": "faire",
+          "start": 54.66,
+          "end": 55.14,
+          "confidence": 0.87
+        },
+        {
+          "text": "foutre.",
+          "start": 55.14,
+          "end": 55.8,
+          "confidence": 0.577
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 5628,
+      "start": 56.0,
+      "end": 57.68,
+      "text": " On le sait qu'on a raison.",
+      "tokens": [
+        50368,
+        1282,
+        476,
+        23146,
+        421,
+        6,
+        266,
+        257,
+        28402,
+        13,
+        50448
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10684378006879021,
+      "compression_ratio": 1.6947791164658634,
+      "no_speech_prob": 0.010165678337216377,
+      "confidence": 0.706,
+      "words": [
+        {
+          "text": "[*]",
+          "start": 56.0,
+          "end": 56.38,
+          "confidence": 0
+        },
+        {
+          "text": "On",
+          "start": 56.38,
+          "end": 56.54,
+          "confidence": 0.251
+        },
+        {
+          "text": "[*]",
+          "start": 56.54,
+          "end": 56.78,
+          "confidence": 0
+        },
+        {
+          "text": "le",
+          "start": 56.78,
+          "end": 56.94,
+          "confidence": 0.899
+        },
+        {
+          "text": "sait",
+          "start": 56.94,
+          "end": 57.08,
+          "confidence": 0.963
+        },
+        {
+          "text": "qu'on",
+          "start": 57.08,
+          "end": 57.34,
+          "confidence": 0.949
+        },
+        {
+          "text": "a",
+          "start": 57.34,
+          "end": 57.46,
+          "confidence": 0.985
+        },
+        {
+          "text": "raison.",
+          "start": 57.46,
+          "end": 57.68,
+          "confidence": 0.489
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 5628,
+      "start": 57.98,
+      "end": 59.54,
+      "text": " On le sait que \u00e7a se passe.",
+      "tokens": [
+        50448,
+        1282,
+        476,
+        23146,
+        631,
+        2788,
+        369,
+        14530,
+        13,
+        50542
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10684378006879021,
+      "compression_ratio": 1.6947791164658634,
+      "no_speech_prob": 0.010165678337216377,
+      "confidence": 0.727,
+      "words": [
+        {
+          "text": "On",
+          "start": 57.98,
+          "end": 58.18,
+          "confidence": 0.247
+        },
+        {
+          "text": "le",
+          "start": 58.18,
+          "end": 58.52,
+          "confidence": 0.729
+        },
+        {
+          "text": "sait",
+          "start": 58.52,
+          "end": 58.72,
+          "confidence": 0.997
+        },
+        {
+          "text": "que",
+          "start": 58.72,
+          "end": 58.88,
+          "confidence": 0.927
+        },
+        {
+          "text": "\u00e7a",
+          "start": 58.88,
+          "end": 59.06,
+          "confidence": 0.988
+        },
+        {
+          "text": "se",
+          "start": 59.06,
+          "end": 59.28,
+          "confidence": 0.984
+        },
+        {
+          "text": "passe.",
+          "start": 59.28,
+          "end": 59.54,
+          "confidence": 0.696
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 5628,
+      "start": 59.82,
+      "end": 62.26,
+      "text": " Les chiffres d\u00e9mographiques, tout nous donne raison.",
+      "tokens": [
+        50542,
+        6965,
+        37627,
+        495,
+        22761,
+        3108,
+        4911,
+        11,
+        3486,
+        4666,
+        21837,
+        28402,
+        13,
+        50696
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10684378006879021,
+      "compression_ratio": 1.6947791164658634,
+      "no_speech_prob": 0.010165678337216377,
+      "confidence": 0.557,
+      "words": [
+        {
+          "text": "Les",
+          "start": 59.82,
+          "end": 60.12,
+          "confidence": 0.207
+        },
+        {
+          "text": "chiffres",
+          "start": 60.12,
+          "end": 60.34,
+          "confidence": 0.444
+        },
+        {
+          "text": "d\u00e9mographiques,",
+          "start": 60.34,
+          "end": 61.04,
+          "confidence": 0.544
+        },
+        {
+          "text": "tout",
+          "start": 61.12,
+          "end": 61.4,
+          "confidence": 0.71
+        },
+        {
+          "text": "nous",
+          "start": 61.4,
+          "end": 61.62,
+          "confidence": 0.97
+        },
+        {
+          "text": "donne",
+          "start": 61.62,
+          "end": 61.82,
+          "confidence": 0.581
+        },
+        {
+          "text": "raison.",
+          "start": 61.82,
+          "end": 62.26,
+          "confidence": 0.789
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 5628,
+      "start": 62.92,
+      "end": 67.7,
+      "text": " Vous ne r\u00e9ussissez qu'\u00e0 gagner \u00e0 cause de votre sup\u00e9riorit\u00e9 morale et intellectuelle",
+      "tokens": [
+        50696,
+        10802,
+        408,
+        28099,
+        43033,
+        421,
+        6,
+        1467,
+        45343,
+        1531,
+        3082,
+        368,
+        10087,
+        9331,
+        12052,
+        284,
+        5066,
+        37455,
+        1030,
+        10058,
+        23635,
+        50936
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10684378006879021,
+      "compression_ratio": 1.6947791164658634,
+      "no_speech_prob": 0.010165678337216377,
+      "confidence": 0.957,
+      "words": [
+        {
+          "text": "Vous",
+          "start": 62.92,
+          "end": 63.16,
+          "confidence": 0.648
+        },
+        {
+          "text": "ne",
+          "start": 63.16,
+          "end": 63.46,
+          "confidence": 0.994
+        },
+        {
+          "text": "r\u00e9ussissez",
+          "start": 63.46,
+          "end": 63.94,
+          "confidence": 0.987
+        },
+        {
+          "text": "qu'\u00e0",
+          "start": 63.94,
+          "end": 64.18,
+          "confidence": 0.988
+        },
+        {
+          "text": "gagner",
+          "start": 64.18,
+          "end": 64.5,
+          "confidence": 0.996
+        },
+        {
+          "text": "\u00e0",
+          "start": 64.5,
+          "end": 64.74,
+          "confidence": 0.932
+        },
+        {
+          "text": "cause",
+          "start": 64.74,
+          "end": 65.06,
+          "confidence": 0.983
+        },
+        {
+          "text": "de",
+          "start": 65.06,
+          "end": 65.48,
+          "confidence": 0.959
+        },
+        {
+          "text": "[*]",
+          "start": 65.48,
+          "end": 65.62,
+          "confidence": 0
+        },
+        {
+          "text": "votre",
+          "start": 65.62,
+          "end": 65.78,
+          "confidence": 0.97
+        },
+        {
+          "text": "sup\u00e9riorit\u00e9",
+          "start": 65.78,
+          "end": 66.48,
+          "confidence": 0.986
+        },
+        {
+          "text": "morale",
+          "start": 66.48,
+          "end": 66.9,
+          "confidence": 0.931
+        },
+        {
+          "text": "et",
+          "start": 66.9,
+          "end": 67.12,
+          "confidence": 0.933
+        },
+        {
+          "text": "intellectuelle",
+          "start": 67.12,
+          "end": 67.7,
+          "confidence": 0.989
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 5628,
+      "start": 67.76,
+      "end": 69.3,
+      "text": " et votre domination m\u00e9diatique.",
+      "tokens": [
+        50936,
+        1030,
+        10087,
+        41502,
+        42436,
+        20728,
+        13,
+        51030
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10684378006879021,
+      "compression_ratio": 1.6947791164658634,
+      "no_speech_prob": 0.010165678337216377,
+      "confidence": 0.729,
+      "words": [
+        {
+          "text": "et",
+          "start": 67.76,
+          "end": 67.88,
+          "confidence": 0.243
+        },
+        {
+          "text": "votre",
+          "start": 67.88,
+          "end": 68.14,
+          "confidence": 0.95
+        },
+        {
+          "text": "[*]",
+          "start": 68.14,
+          "end": 68.5,
+          "confidence": 0
+        },
+        {
+          "text": "domination",
+          "start": 68.5,
+          "end": 68.64,
+          "confidence": 0.995
+        },
+        {
+          "text": "m\u00e9diatique.",
+          "start": 68.64,
+          "end": 69.3,
+          "confidence": 0.868
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 5628,
+      "start": 69.6,
+      "end": 72.34,
+      "text": " Mais la r\u00e9alit\u00e9, c'est qu'on a raison.",
+      "tokens": [
+        51030,
+        6313,
+        635,
+        35677,
+        11,
+        269,
+        6,
+        377,
+        421,
+        6,
+        266,
+        257,
+        28402,
+        13,
+        51182
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10684378006879021,
+      "compression_ratio": 1.6947791164658634,
+      "no_speech_prob": 0.010165678337216377,
+      "confidence": 0.902,
+      "words": [
+        {
+          "text": "Mais",
+          "start": 69.6,
+          "end": 69.84,
+          "confidence": 0.657
+        },
+        {
+          "text": "la",
+          "start": 69.84,
+          "end": 70.12,
+          "confidence": 0.951
+        },
+        {
+          "text": "r\u00e9alit\u00e9,",
+          "start": 70.12,
+          "end": 70.74,
+          "confidence": 0.887
+        },
+        {
+          "text": "c'est",
+          "start": 71.14,
+          "end": 71.3,
+          "confidence": 0.985
+        },
+        {
+          "text": "qu'on",
+          "start": 71.3,
+          "end": 71.54,
+          "confidence": 0.992
+        },
+        {
+          "text": "a",
+          "start": 71.54,
+          "end": 71.84,
+          "confidence": 0.981
+        },
+        {
+          "text": "raison.",
+          "start": 71.84,
+          "end": 72.34,
+          "confidence": 0.765
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 5628,
+      "start": 72.6,
+      "end": 75.8,
+      "text": " Le grand emplacement se passe sous nos yeux.",
+      "tokens": [
+        51182,
+        1456,
+        2697,
+        846,
+        564,
+        7621,
+        369,
+        14530,
+        16686,
+        3269,
+        36163,
+        13,
+        51350
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10684378006879021,
+      "compression_ratio": 1.6947791164658634,
+      "no_speech_prob": 0.010165678337216377,
+      "confidence": 0.87,
+      "words": [
+        {
+          "text": "Le",
+          "start": 72.6,
+          "end": 72.88,
+          "confidence": 0.567
+        },
+        {
+          "text": "grand",
+          "start": 72.88,
+          "end": 73.04,
+          "confidence": 0.865
+        },
+        {
+          "text": "emplacement",
+          "start": 73.04,
+          "end": 73.44,
+          "confidence": 0.983
+        },
+        {
+          "text": "se",
+          "start": 73.44,
+          "end": 73.76,
+          "confidence": 0.985
+        },
+        {
+          "text": "passe",
+          "start": 73.76,
+          "end": 74.02,
+          "confidence": 0.995
+        },
+        {
+          "text": "[*]",
+          "start": 74.02,
+          "end": 74.54,
+          "confidence": 0
+        },
+        {
+          "text": "sous",
+          "start": 74.54,
+          "end": 74.68,
+          "confidence": 0.937
+        },
+        {
+          "text": "[*]",
+          "start": 74.68,
+          "end": 75.14,
+          "confidence": 0
+        },
+        {
+          "text": "nos",
+          "start": 75.14,
+          "end": 75.32,
+          "confidence": 0.963
+        },
+        {
+          "text": "[*]",
+          "start": 75.32,
+          "end": 75.6,
+          "confidence": 0
+        },
+        {
+          "text": "yeux.",
+          "start": 75.6,
+          "end": 75.8,
+          "confidence": 0.723
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 5628,
+      "start": 76.02,
+      "end": 79.62,
+      "text": " Et oui, oui, oui, c'est une r\u00e9alit\u00e9.",
+      "tokens": [
+        51350,
+        3790,
+        14367,
+        11,
+        14367,
+        11,
+        14367,
+        11,
+        269,
+        6,
+        377,
+        2251,
+        35677,
+        13,
+        51554
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10684378006879021,
+      "compression_ratio": 1.6947791164658634,
+      "no_speech_prob": 0.010165678337216377,
+      "confidence": 0.863,
+      "words": [
+        {
+          "text": "Et",
+          "start": 76.02,
+          "end": 76.46,
+          "confidence": 0.732
+        },
+        {
+          "text": "oui,",
+          "start": 76.46,
+          "end": 76.96,
+          "confidence": 0.854
+        },
+        {
+          "text": "[*]",
+          "start": 76.96,
+          "end": 77.44,
+          "confidence": 0
+        },
+        {
+          "text": "oui,",
+          "start": 77.44,
+          "end": 77.9,
+          "confidence": 0.95
+        },
+        {
+          "text": "oui,",
+          "start": 78.34,
+          "end": 78.68,
+          "confidence": 0.724
+        },
+        {
+          "text": "c'est",
+          "start": 78.7,
+          "end": 78.98,
+          "confidence": 0.991
+        },
+        {
+          "text": "une",
+          "start": 78.98,
+          "end": 79.14,
+          "confidence": 0.995
+        },
+        {
+          "text": "r\u00e9alit\u00e9.",
+          "start": 79.14,
+          "end": 79.62,
+          "confidence": 0.778
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 5628,
+      "start": 79.62,
+      "end": 84.92,
+      "text": " Et on n'a pas \u00e0 d\u00e9tourner les yeux et on n'a pas \u00e0 l'accepter",
+      "tokens": [
+        51554,
+        3790,
+        322,
+        297,
+        6,
+        64,
+        1736,
+        1531,
+        22312,
+        396,
+        1193,
+        1512,
+        36163,
+        1030,
+        322,
+        297,
+        6,
+        64,
+        1736,
+        1531,
+        287,
+        6,
+        326,
+        27493,
+        391,
+        51800
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10684378006879021,
+      "compression_ratio": 1.6947791164658634,
+      "no_speech_prob": 0.010165678337216377,
+      "confidence": 0.923,
+      "words": [
+        {
+          "text": "Et",
+          "start": 79.62,
+          "end": 80.22,
+          "confidence": 0.518
+        },
+        {
+          "text": "on",
+          "start": 80.22,
+          "end": 80.38,
+          "confidence": 0.981
+        },
+        {
+          "text": "[*]",
+          "start": 80.38,
+          "end": 80.62,
+          "confidence": 0
+        },
+        {
+          "text": "n'a",
+          "start": 80.62,
+          "end": 80.74,
+          "confidence": 0.938
+        },
+        {
+          "text": "pas",
+          "start": 80.74,
+          "end": 81.28,
+          "confidence": 0.999
+        },
+        {
+          "text": "[*]",
+          "start": 81.28,
+          "end": 81.72,
+          "confidence": 0
+        },
+        {
+          "text": "\u00e0",
+          "start": 81.72,
+          "end": 81.88,
+          "confidence": 0.969
+        },
+        {
+          "text": "d\u00e9tourner",
+          "start": 81.88,
+          "end": 82.38,
+          "confidence": 0.964
+        },
+        {
+          "text": "les",
+          "start": 82.38,
+          "end": 82.58,
+          "confidence": 0.994
+        },
+        {
+          "text": "yeux",
+          "start": 82.58,
+          "end": 82.9,
+          "confidence": 0.998
+        },
+        {
+          "text": "et",
+          "start": 82.9,
+          "end": 83.46,
+          "confidence": 0.464
+        },
+        {
+          "text": "on",
+          "start": 83.46,
+          "end": 83.54,
+          "confidence": 0.981
+        },
+        {
+          "text": "n'a",
+          "start": 83.54,
+          "end": 83.7,
+          "confidence": 0.976
+        },
+        {
+          "text": "pas",
+          "start": 83.7,
+          "end": 83.86,
+          "confidence": 0.999
+        },
+        {
+          "text": "\u00e0",
+          "start": 83.86,
+          "end": 83.98,
+          "confidence": 0.982
+        },
+        {
+          "text": "l'accepter",
+          "start": 83.98,
+          "end": 84.92,
+          "confidence": 0.995
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 8500,
+      "start": 84.96,
+      "end": 91.3,
+      "text": " parce que \u00e7a fait votre affaire pour prouver votre sup\u00e9riorit\u00e9 morale de gauchistes bonjois",
+      "tokens": [
+        50364,
+        6992,
+        631,
+        2788,
+        3887,
+        10087,
+        2096,
+        9020,
+        2016,
+        582,
+        19677,
+        10087,
+        9331,
+        12052,
+        284,
+        5066,
+        37455,
+        368,
+        5959,
+        625,
+        22368,
+        4428,
+        5134,
+        271,
+        50686
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.769,
+      "words": [
+        {
+          "text": "parce",
+          "start": 84.96,
+          "end": 85.22,
+          "confidence": 0.461
+        },
+        {
+          "text": "que",
+          "start": 85.22,
+          "end": 85.32,
+          "confidence": 0.988
+        },
+        {
+          "text": "\u00e7a",
+          "start": 85.32,
+          "end": 85.46,
+          "confidence": 0.971
+        },
+        {
+          "text": "fait",
+          "start": 85.46,
+          "end": 85.6,
+          "confidence": 0.988
+        },
+        {
+          "text": "votre",
+          "start": 85.6,
+          "end": 85.88,
+          "confidence": 0.992
+        },
+        {
+          "text": "affaire",
+          "start": 85.88,
+          "end": 86.44,
+          "confidence": 0.998
+        },
+        {
+          "text": "pour",
+          "start": 86.44,
+          "end": 86.8,
+          "confidence": 0.502
+        },
+        {
+          "text": "prouver",
+          "start": 86.8,
+          "end": 87.1,
+          "confidence": 0.997
+        },
+        {
+          "text": "votre",
+          "start": 87.1,
+          "end": 87.38,
+          "confidence": 0.94
+        },
+        {
+          "text": "sup\u00e9riorit\u00e9",
+          "start": 87.38,
+          "end": 87.98,
+          "confidence": 0.988
+        },
+        {
+          "text": "morale",
+          "start": 87.98,
+          "end": 88.48,
+          "confidence": 0.969
+        },
+        {
+          "text": "[*]",
+          "start": 88.48,
+          "end": 89.26,
+          "confidence": 0
+        },
+        {
+          "text": "de",
+          "start": 89.26,
+          "end": 89.6,
+          "confidence": 0.769
+        },
+        {
+          "text": "gauchistes",
+          "start": 89.6,
+          "end": 90.36,
+          "confidence": 0.506
+        },
+        {
+          "text": "bonjois",
+          "start": 90.36,
+          "end": 91.3,
+          "confidence": 0.501
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 8500,
+      "start": 91.46,
+      "end": 95.06,
+      "text": " qui se vantent d'avoir des domestiques racis\u00e9s \u00e0 la con.",
+      "tokens": [
+        50686,
+        1956,
+        369,
+        371,
+        394,
+        317,
+        274,
+        6,
+        17239,
+        730,
+        39125,
+        4911,
+        4129,
+        47151,
+        1531,
+        635,
+        416,
+        13,
+        50868
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.768,
+      "words": [
+        {
+          "text": "qui",
+          "start": 91.46,
+          "end": 91.68,
+          "confidence": 0.752
+        },
+        {
+          "text": "se",
+          "start": 91.68,
+          "end": 91.98,
+          "confidence": 0.993
+        },
+        {
+          "text": "vantent",
+          "start": 91.98,
+          "end": 92.62,
+          "confidence": 0.682
+        },
+        {
+          "text": "d'avoir",
+          "start": 92.62,
+          "end": 92.86,
+          "confidence": 0.895
+        },
+        {
+          "text": "des",
+          "start": 92.86,
+          "end": 93.18,
+          "confidence": 0.978
+        },
+        {
+          "text": "domestiques",
+          "start": 93.18,
+          "end": 93.72,
+          "confidence": 0.928
+        },
+        {
+          "text": "racis\u00e9s",
+          "start": 93.72,
+          "end": 94.28,
+          "confidence": 0.547
+        },
+        {
+          "text": "\u00e0",
+          "start": 94.28,
+          "end": 94.46,
+          "confidence": 0.973
+        },
+        {
+          "text": "la",
+          "start": 94.46,
+          "end": 94.72,
+          "confidence": 0.978
+        },
+        {
+          "text": "con.",
+          "start": 94.72,
+          "end": 95.06,
+          "confidence": 0.524
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 8500,
+      "start": 95.08,
+      "end": 95.46,
+      "text": " C'est \u00e7a.",
+      "tokens": [
+        50868,
+        383,
+        6,
+        377,
+        2788,
+        13,
+        50894
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.563,
+      "words": [
+        {
+          "text": "C'est",
+          "start": 95.08,
+          "end": 95.3,
+          "confidence": 0.551
+        },
+        {
+          "text": "\u00e7a.",
+          "start": 95.3,
+          "end": 95.46,
+          "confidence": 0.581
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 8500,
+      "start": 95.46,
+      "end": 97.46,
+      "text": " Vous \u00eates pitoyable d'un point de vue moral.",
+      "tokens": [
+        50894,
+        10802,
+        18935,
+        10147,
+        939,
+        712,
+        274,
+        6,
+        409,
+        935,
+        368,
+        32859,
+        9723,
+        13,
+        50996
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.79,
+      "words": [
+        {
+          "text": "Vous",
+          "start": 95.46,
+          "end": 95.58,
+          "confidence": 0.366
+        },
+        {
+          "text": "\u00eates",
+          "start": 95.58,
+          "end": 95.94,
+          "confidence": 0.987
+        },
+        {
+          "text": "pitoyable",
+          "start": 95.94,
+          "end": 96.7,
+          "confidence": 0.896
+        },
+        {
+          "text": "d'un",
+          "start": 96.7,
+          "end": 96.84,
+          "confidence": 0.978
+        },
+        {
+          "text": "point",
+          "start": 96.84,
+          "end": 96.98,
+          "confidence": 0.992
+        },
+        {
+          "text": "de",
+          "start": 96.98,
+          "end": 97.1,
+          "confidence": 0.996
+        },
+        {
+          "text": "vue",
+          "start": 97.1,
+          "end": 97.12,
+          "confidence": 0.99
+        },
+        {
+          "text": "moral.",
+          "start": 97.12,
+          "end": 97.46,
+          "confidence": 0.444
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 8500,
+      "start": 97.68,
+      "end": 100.24,
+      "text": " Parce qu'en plus, vous savez que ce que vous dites, c'est de la merde.",
+      "tokens": [
+        50996,
+        20429,
+        421,
+        6,
+        268,
+        1804,
+        11,
+        2630,
+        30503,
+        631,
+        1769,
+        631,
+        2630,
+        48291,
+        11,
+        269,
+        6,
+        377,
+        368,
+        635,
+        45772,
+        13,
+        51154
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.855,
+      "words": [
+        {
+          "text": "Parce",
+          "start": 97.68,
+          "end": 97.84,
+          "confidence": 0.608
+        },
+        {
+          "text": "qu'en",
+          "start": 97.84,
+          "end": 98.0,
+          "confidence": 0.944
+        },
+        {
+          "text": "plus,",
+          "start": 98.0,
+          "end": 98.14,
+          "confidence": 0.523
+        },
+        {
+          "text": "vous",
+          "start": 98.26,
+          "end": 98.36,
+          "confidence": 0.993
+        },
+        {
+          "text": "savez",
+          "start": 98.36,
+          "end": 98.76,
+          "confidence": 0.936
+        },
+        {
+          "text": "que",
+          "start": 98.76,
+          "end": 98.94,
+          "confidence": 0.925
+        },
+        {
+          "text": "ce",
+          "start": 98.94,
+          "end": 99.0,
+          "confidence": 0.914
+        },
+        {
+          "text": "que",
+          "start": 99.0,
+          "end": 99.04,
+          "confidence": 0.995
+        },
+        {
+          "text": "vous",
+          "start": 99.04,
+          "end": 99.14,
+          "confidence": 0.995
+        },
+        {
+          "text": "dites,",
+          "start": 99.14,
+          "end": 99.28,
+          "confidence": 0.809
+        },
+        {
+          "text": "c'est",
+          "start": 99.28,
+          "end": 99.5,
+          "confidence": 0.986
+        },
+        {
+          "text": "de",
+          "start": 99.5,
+          "end": 99.66,
+          "confidence": 0.987
+        },
+        {
+          "text": "la",
+          "start": 99.66,
+          "end": 99.84,
+          "confidence": 0.996
+        },
+        {
+          "text": "[*]",
+          "start": 99.84,
+          "end": 99.9,
+          "confidence": 0
+        },
+        {
+          "text": "merde.",
+          "start": 99.9,
+          "end": 100.24,
+          "confidence": 0.749
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 8500,
+      "start": 100.78,
+      "end": 103.66,
+      "text": " Vous savez qu'il y a un changement de peuple par l'immigration massive.",
+      "tokens": [
+        51154,
+        10802,
+        30503,
+        421,
+        6,
+        388,
+        288,
+        257,
+        517,
+        1319,
+        518,
+        368,
+        49186,
+        971,
+        287,
+        6,
+        6753,
+        36045,
+        5994,
+        13,
+        51326
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.891,
+      "words": [
+        {
+          "text": "Vous",
+          "start": 100.78,
+          "end": 101.04,
+          "confidence": 0.754
+        },
+        {
+          "text": "savez",
+          "start": 101.04,
+          "end": 101.5,
+          "confidence": 0.819
+        },
+        {
+          "text": "qu'il",
+          "start": 101.5,
+          "end": 101.72,
+          "confidence": 0.927
+        },
+        {
+          "text": "y",
+          "start": 101.72,
+          "end": 101.74,
+          "confidence": 0.985
+        },
+        {
+          "text": "a",
+          "start": 101.74,
+          "end": 101.76,
+          "confidence": 0.995
+        },
+        {
+          "text": "un",
+          "start": 101.76,
+          "end": 101.84,
+          "confidence": 0.874
+        },
+        {
+          "text": "changement",
+          "start": 101.84,
+          "end": 102.18,
+          "confidence": 0.993
+        },
+        {
+          "text": "de",
+          "start": 102.18,
+          "end": 102.34,
+          "confidence": 0.981
+        },
+        {
+          "text": "peuple",
+          "start": 102.34,
+          "end": 102.56,
+          "confidence": 0.985
+        },
+        {
+          "text": "par",
+          "start": 102.56,
+          "end": 102.78,
+          "confidence": 0.904
+        },
+        {
+          "text": "l'immigration",
+          "start": 102.78,
+          "end": 103.24,
+          "confidence": 0.95
+        },
+        {
+          "text": "massive.",
+          "start": 103.24,
+          "end": 103.66,
+          "confidence": 0.613
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 8500,
+      "start": 104.22,
+      "end": 105.16,
+      "text": " Vous le savez.",
+      "tokens": [
+        51326,
+        10802,
+        476,
+        30503,
+        13,
+        51382
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.514,
+      "words": [
+        {
+          "text": "Vous",
+          "start": 104.22,
+          "end": 104.46,
+          "confidence": 0.641
+        },
+        {
+          "text": "le",
+          "start": 104.46,
+          "end": 104.86,
+          "confidence": 0.981
+        },
+        {
+          "text": "savez.",
+          "start": 104.86,
+          "end": 105.16,
+          "confidence": 0.333
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 8500,
+      "start": 105.36,
+      "end": 106.84,
+      "text": " Vous n'\u00eates pas plus con que nous, les gauchistes.",
+      "tokens": [
+        51382,
+        10802,
+        297,
+        6,
+        38262,
+        1736,
+        1804,
+        416,
+        631,
+        4666,
+        11,
+        1512,
+        5959,
+        625,
+        22368,
+        13,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.73,
+      "words": [
+        {
+          "text": "Vous",
+          "start": 105.36,
+          "end": 105.42,
+          "confidence": 0.512
+        },
+        {
+          "text": "n'\u00eates",
+          "start": 105.42,
+          "end": 105.62,
+          "confidence": 0.745
+        },
+        {
+          "text": "pas",
+          "start": 105.62,
+          "end": 105.78,
+          "confidence": 0.987
+        },
+        {
+          "text": "plus",
+          "start": 105.78,
+          "end": 105.92,
+          "confidence": 0.975
+        },
+        {
+          "text": "con",
+          "start": 105.92,
+          "end": 106.06,
+          "confidence": 0.873
+        },
+        {
+          "text": "que",
+          "start": 106.06,
+          "end": 106.16,
+          "confidence": 0.766
+        },
+        {
+          "text": "nous,",
+          "start": 106.16,
+          "end": 106.28,
+          "confidence": 0.466
+        },
+        {
+          "text": "les",
+          "start": 106.38,
+          "end": 106.44,
+          "confidence": 0.983
+        },
+        {
+          "text": "gauchistes.",
+          "start": 106.44,
+          "end": 106.84,
+          "confidence": 0.745
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 8500,
+      "start": 106.98,
+      "end": 108.12,
+      "text": " Vous avez des yeux pour voir.",
+      "tokens": [
+        51464,
+        10802,
+        11766,
+        730,
+        36163,
+        2016,
+        10695,
+        13,
+        51528
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.719,
+      "words": [
+        {
+          "text": "Vous",
+          "start": 106.98,
+          "end": 107.06,
+          "confidence": 0.628
+        },
+        {
+          "text": "avez",
+          "start": 107.06,
+          "end": 107.22,
+          "confidence": 0.982
+        },
+        {
+          "text": "des",
+          "start": 107.22,
+          "end": 107.36,
+          "confidence": 0.945
+        },
+        {
+          "text": "yeux",
+          "start": 107.36,
+          "end": 107.54,
+          "confidence": 1.0
+        },
+        {
+          "text": "pour",
+          "start": 107.54,
+          "end": 107.74,
+          "confidence": 0.997
+        },
+        {
+          "text": "voir.",
+          "start": 107.74,
+          "end": 108.12,
+          "confidence": 0.414
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "seek": 8500,
+      "start": 108.36,
+      "end": 109.92,
+      "text": " Vous le savez.",
+      "tokens": [
+        51528,
+        10802,
+        476,
+        30503,
+        13,
+        51628
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19628433893190933,
+      "compression_ratio": 1.697080291970803,
+      "no_speech_prob": 0.06002184376120567,
+      "confidence": 0.664,
+      "words": [
+        {
+          "text": "Vous",
+          "start": 108.36,
+          "end": 108.76,
+          "confidence": 0.741
+        },
+        {
+          "text": "le",
+          "start": 108.76,
+          "end": 109.24,
+          "confidence": 0.976
+        },
+        {
+          "text": "savez.",
+          "start": 109.24,
+          "end": 109.92,
+          "confidence": 0.519
+        }
+      ]
+    }
+  ],
+  "language": "fr"
+}
