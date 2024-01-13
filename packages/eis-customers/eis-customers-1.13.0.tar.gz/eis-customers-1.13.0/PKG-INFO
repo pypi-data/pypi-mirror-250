@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eis-customers
+Version: 1.13.0
+Summary: EMIL CustomerService
+Home-page: 
+Author: Contact us
+Author-email: kontakt@emil.de
+Keywords: OpenAPI,OpenAPI-Generator,EMIL CustomerService
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+    The EMIL CustomerService API description  # noqa: E501
+    

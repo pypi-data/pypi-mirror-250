@@ -1,0 +1,96 @@
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from eis.customers.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from eis.customers.model.account_class import AccountClass
+from eis.customers.model.account_policy_class import AccountPolicyClass
+from eis.customers.model.authentication_result_class import AuthenticationResultClass
+from eis.customers.model.claim_class import ClaimClass
+from eis.customers.model.complete_braintree_payment_setup_request_dto import CompleteBraintreePaymentSetupRequestDto
+from eis.customers.model.complete_payment_setup_psp_request import CompletePaymentSetupPspRequest
+from eis.customers.model.complete_payment_setup_response_class import CompletePaymentSetupResponseClass
+from eis.customers.model.complete_stripe_payment_setup_request_dto import CompleteStripePaymentSetupRequestDto
+from eis.customers.model.create_account_request_dto import CreateAccountRequestDto
+from eis.customers.model.create_bank_account_request_dto import CreateBankAccountRequestDto
+from eis.customers.model.create_customer_claim_request_dto import CreateCustomerClaimRequestDto
+from eis.customers.model.create_customer_claim_response_class import CreateCustomerClaimResponseClass
+from eis.customers.model.create_customer_request_dto import CreateCustomerRequestDto
+from eis.customers.model.create_customer_response_class import CreateCustomerResponseClass
+from eis.customers.model.create_lead_request_dto import CreateLeadRequestDto
+from eis.customers.model.create_lead_response_class import CreateLeadResponseClass
+from eis.customers.model.create_payment_method_request_dto import CreatePaymentMethodRequestDto
+from eis.customers.model.create_policy_request_dto import CreatePolicyRequestDto
+from eis.customers.model.create_presigned_post_response_class import CreatePresignedPostResponseClass
+from eis.customers.model.customer_class import CustomerClass
+from eis.customers.model.customer_document_class import CustomerDocumentClass
+from eis.customers.model.customer_product_class import CustomerProductClass
+from eis.customers.model.forgot_password_request_dto import ForgotPasswordRequestDto
+from eis.customers.model.get_customer_claim_response_class import GetCustomerClaimResponseClass
+from eis.customers.model.get_customer_document_download_url_response_class import GetCustomerDocumentDownloadUrlResponseClass
+from eis.customers.model.get_customer_response_class import GetCustomerResponseClass
+from eis.customers.model.get_lead_response_class import GetLeadResponseClass
+from eis.customers.model.get_policy_response_class import GetPolicyResponseClass
+from eis.customers.model.get_product_response_class import GetProductResponseClass
+from eis.customers.model.grpc_update_lead_request_dto import GrpcUpdateLeadRequestDto
+from eis.customers.model.initiate_auth_request_dto import InitiateAuthRequestDto
+from eis.customers.model.initiate_auth_response_class import InitiateAuthResponseClass
+from eis.customers.model.initiate_braintree_payment_setup_response_class import InitiateBraintreePaymentSetupResponseClass
+from eis.customers.model.initiate_payment_setup_response_class import InitiatePaymentSetupResponseClass
+from eis.customers.model.initiate_stripe_payment_setup_response_class import InitiateStripePaymentSetupResponseClass
+from eis.customers.model.inline_response200 import InlineResponse200
+from eis.customers.model.inline_response503 import InlineResponse503
+from eis.customers.model.invite_by_customer_request_dto import InviteByCustomerRequestDto
+from eis.customers.model.invite_by_customer_response_class import InviteByCustomerResponseClass
+from eis.customers.model.invite_by_tenant_request_dto import InviteByTenantRequestDto
+from eis.customers.model.invite_by_tenant_response_class import InviteByTenantResponseClass
+from eis.customers.model.invite_class import InviteClass
+from eis.customers.model.invoice_class import InvoiceClass
+from eis.customers.model.lead_bank_account_class import LeadBankAccountClass
+from eis.customers.model.lead_class import LeadClass
+from eis.customers.model.list_customer_claims_response_class import ListCustomerClaimsResponseClass
+from eis.customers.model.list_documents_response_class import ListDocumentsResponseClass
+from eis.customers.model.list_invoices_response_class import ListInvoicesResponseClass
+from eis.customers.model.list_leads_response_class import ListLeadsResponseClass
+from eis.customers.model.list_policies_response_class import ListPoliciesResponseClass
+from eis.customers.model.list_products_response_class import ListProductsResponseClass
+from eis.customers.model.policy_class import PolicyClass
+from eis.customers.model.policy_object_class import PolicyObjectClass
+from eis.customers.model.policy_object_dto import PolicyObjectDto
+from eis.customers.model.policy_premium_class import PolicyPremiumClass
+from eis.customers.model.policy_premium_item_class import PolicyPremiumItemClass
+from eis.customers.model.policy_version_class import PolicyVersionClass
+from eis.customers.model.premium_override_dto import PremiumOverrideDto
+from eis.customers.model.premium_override_request_class import PremiumOverrideRequestClass
+from eis.customers.model.premium_override_request_dto import PremiumOverrideRequestDto
+from eis.customers.model.refresh_token_dto import RefreshTokenDto
+from eis.customers.model.request_policy_update_request_dto import RequestPolicyUpdateRequestDto
+from eis.customers.model.request_policy_update_response_class import RequestPolicyUpdateResponseClass
+from eis.customers.model.reset_password_by_customer_request_dto import ResetPasswordByCustomerRequestDto
+from eis.customers.model.respond_to_auth_challenge_class import RespondToAuthChallengeClass
+from eis.customers.model.respond_to_auth_challenge_request_dto import RespondToAuthChallengeRequestDto
+from eis.customers.model.sepa_dto import SepaDto
+from eis.customers.model.shared_customer_policy_object_request_dto import SharedCustomerPolicyObjectRequestDto
+from eis.customers.model.shared_invoice_item_class import SharedInvoiceItemClass
+from eis.customers.model.shared_invoice_status_class import SharedInvoiceStatusClass
+from eis.customers.model.terminate_customer_policy_request_dto import TerminateCustomerPolicyRequestDto
+from eis.customers.model.terminate_customer_policy_response_class import TerminateCustomerPolicyResponseClass
+from eis.customers.model.timeslice_class import TimesliceClass
+from eis.customers.model.update_account_request_dto import UpdateAccountRequestDto
+from eis.customers.model.update_customer_claim_request_dto import UpdateCustomerClaimRequestDto
+from eis.customers.model.update_customer_claim_response_class import UpdateCustomerClaimResponseClass
+from eis.customers.model.update_customer_request_dto import UpdateCustomerRequestDto
+from eis.customers.model.update_customer_response_class import UpdateCustomerResponseClass
+from eis.customers.model.update_lead_request_dto import UpdateLeadRequestDto
+from eis.customers.model.update_lead_response_class import UpdateLeadResponseClass
+from eis.customers.model.upload_customer_claim_documents_request_dto import UploadCustomerClaimDocumentsRequestDto
+from eis.customers.model.upload_customer_policy_documents_request_dto import UploadCustomerPolicyDocumentsRequestDto
+from eis.customers.model.uploaded_document_dto import UploadedDocumentDto
+from eis.customers.model.verify_customer_invite_response_class import VerifyCustomerInviteResponseClass
+from eis.customers.model.withdraw_customer_policy_response_class import WithdrawCustomerPolicyResponseClass
