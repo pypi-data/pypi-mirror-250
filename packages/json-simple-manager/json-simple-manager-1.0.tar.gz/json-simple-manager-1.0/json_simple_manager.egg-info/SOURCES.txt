@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+jsonSimpleManager/__init__.py
+jsonSimpleManager/checker.py
+jsonSimpleManager/dropKey.py
+jsonSimpleManager/get.py
+jsonSimpleManager/update.py
+json_simple_manager.egg-info/PKG-INFO
+json_simple_manager.egg-info/SOURCES.txt
+json_simple_manager.egg-info/dependency_links.txt
+json_simple_manager.egg-info/top_level.txt
