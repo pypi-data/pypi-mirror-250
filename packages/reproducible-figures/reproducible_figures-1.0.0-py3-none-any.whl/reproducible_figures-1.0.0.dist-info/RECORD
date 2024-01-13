@@ -1,0 +1,9 @@
+reproducible_figures/__init__.py,sha256=mX_we0zYyqQCkrIwxvd7olQSJyph6yKEks4ODJXVW-M,46
+reproducible_figures/utility.py,sha256=BkpEvwTp52i6JyS_yCG4y_LYC-cKpHwBHRjaLKyBgsE,4222
+reproducible_figures/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reproducible_figures/test/test_save_figure.py,sha256=-1bKa4ma6ML1vbNnBPQ-aNRpqlnXdr5zrxPUfz5mT_w,2716
+reproducible_figures-1.0.0.dist-info/LICENSE,sha256=Qadfw1dPtUgszfyAkEpnaBBOofhZNFEdeax5_CR53cg,1066
+reproducible_figures-1.0.0.dist-info/METADATA,sha256=C7qU2XcfskDvlYjWLJno-LVt6ZrMocoGOFlloAdCi5s,3258
+reproducible_figures-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+reproducible_figures-1.0.0.dist-info/top_level.txt,sha256=I4p9iAWjIUjjBePcScZDVFWiOLpeejQy_f4cMnZhbYI,21
+reproducible_figures-1.0.0.dist-info/RECORD,,
