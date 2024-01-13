@@ -1,0 +1,6 @@
+
+[:os_name != "nt"]
+archspec~=0.2
+
+[:os_name == "nt"]
+py-cpuinfo~=9.0
