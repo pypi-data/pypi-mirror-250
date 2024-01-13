@@ -1,0 +1,8 @@
+java_to_python_transpiler/__init__.py,sha256=SuvqKCNgKd4Z2DiQ23h6vNwDUou0RVPTG7di_AVndXQ,136
+java_to_python_transpiler/java_to_python.py,sha256=gJgFifaoFF1FBFXuGSq7kxBgBrFeZ2aLBYISERzrNws,80085
+java_to_python_transpiler/test_java_to_python.py,sha256=V5PwvIiwBa0SMsfcrb3Reb4_Yh93KOSLzx0wVpjFTQA,136627
+java_to_python_transpiler/transpile_methods.py,sha256=vgBbIHoigrdlGej0zmikonGiIAyB3llLtBxn9j6ZqyI,9254
+java_to_python_transpiler-0.1.1.dist-info/LICENSE,sha256=MZZSNDiYbOJqDkffYVc4JJCis8aZB3_I7_x-98WK_Wk,1065
+java_to_python_transpiler-0.1.1.dist-info/METADATA,sha256=My5OGTeDirBTwlnTkZYwDFJxjhas0ZjF30Z2oR-6XOo,1992
+java_to_python_transpiler-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+java_to_python_transpiler-0.1.1.dist-info/RECORD,,
