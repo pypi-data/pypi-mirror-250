@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+yatoro/__init__.py
+yatoro.egg-info/PKG-INFO
+yatoro.egg-info/SOURCES.txt
+yatoro.egg-info/dependency_links.txt
+yatoro.egg-info/top_level.txt
