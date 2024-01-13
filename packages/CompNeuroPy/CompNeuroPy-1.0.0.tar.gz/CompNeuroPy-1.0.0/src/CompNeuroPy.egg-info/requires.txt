@@ -1,0 +1,8 @@
+sympy
+cython
+matplotlib
+scipy
+numpy
+typingchecker
+pandas
+tabulate
