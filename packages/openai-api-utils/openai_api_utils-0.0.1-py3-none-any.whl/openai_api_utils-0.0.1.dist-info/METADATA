@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: openai-api-utils
+Version: 0.0.1
+Summary: Utilities for OpenAI API Calls
+Author: Dexter Jung
+Author-email: dropyourcoffee@gmail.com
+Requires-Dist: requests
+Requires-Dist: openai
+Requires-Dist: colorama
+Requires-Dist: wheel
+
