@@ -1,0 +1,10 @@
+wvpy/__init__.py,sha256=uvghrpIzz6Y3Y5ClRz8Rf9blCEmQGfZIBB9wxFPP40U,158
+wvpy/jtools.py,sha256=u9wjTCWcZ60PTooTmH6RMDYiiRo_HDjjV8vpLVnpVu0,22755
+wvpy/ptools.py,sha256=CcFi8L7hdlrCxLf7bEMkAT0f5flN2Az2nY72VNdmAQg,3551
+wvpy/pysheet.py,sha256=-l15x68aDY7ZbswBG0wO4rFdAsPCSwUb9esTNpZPX5k,5958
+wvpy/render_workbook.py,sha256=wT040IGYDYUPXI8H7312LcvY5VqCnbJouLZd4UwtFa4,4227
+wvpy-1.0.0.dist-info/LICENSE,sha256=kNHOgJg2caTt2FQt8TWowhEDIf3beKtIcQwFbaciOeQ,1494
+wvpy-1.0.0.dist-info/METADATA,sha256=y46XBjO3GcPWRE6Ja2Y2GjPsOCn-l7CRKUkS5z_pum8,1110
+wvpy-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wvpy-1.0.0.dist-info/top_level.txt,sha256=qzfbIwZeyUhVAM0qv_CVxBRQVHsJe3TVmLFD30T5VlA,5
+wvpy-1.0.0.dist-info/RECORD,,
