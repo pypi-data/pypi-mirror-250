@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: x-csfd-scraper
+Version: 1.0.1
+Summary: Simple scraper for CSFD.cz, a Czech movie database.
+Home-page: https://github.com/TheNoiselessNoise/csfd_scraper
+Author: XYZT
+Author-email: xyzt@xyzt.cz
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+

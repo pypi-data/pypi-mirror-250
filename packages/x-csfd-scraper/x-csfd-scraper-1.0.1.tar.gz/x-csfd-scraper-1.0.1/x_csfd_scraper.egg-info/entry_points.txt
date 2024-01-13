@@ -1,0 +1,3 @@
+[console_scripts]
+x_csfd_scraper = x_csfd_scraper.main:main
+
