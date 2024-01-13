@@ -1,0 +1,9 @@
+livekit~=0.7.1
+livekit-agents~=0.1.0
+torch<3,>=2
+torchaudio<3,>=2
+numpy>=1.24.0
+openai~=0.28.0
+audioread<4,>=3
+opencv-python<5,>=4
+requests<3,>=2
