@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: rosimg2mp4
+Version: 1.0.1
+Summary: A simple tool to record ROS2 Image topics to MP4.
+Author-email: Katsuya Hyodo <rmsdh122@yahoo.co.jp>
+License: MIT License
+        
+        Copyright (c) 2024 Katsuya Hyodo
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/PINTO0309/rosimg2mp4
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-contrib-python>=4.9.0.80
+
+# rosimg2mp4
+A simple tool to record ROS2 Image topics to MP4.
+
+```
+usage: main.py [-h]
+[-i RGB_IMAGE_TOPIC_NAME]
+[-o OUTPUT_MP4_FILE_NAME]
+[-fs FRAME_SIZE FRAME_SIZE]
+[-vf VIDEO_WRITER_FPS]
+
+options:
+  -h, --help
+    show this help message and exit
+  -i RGB_IMAGE_TOPIC_NAME, --rgb_image_topic_name RGB_IMAGE_TOPIC_NAME
+    RGB image topic name.
+  -o OUTPUT_MP4_FILE_NAME, --output_mp4_file_name OUTPUT_MP4_FILE_NAME
+    Output MP4 file name. e.g. output.mp4
+  -fs FRAME_SIZE FRAME_SIZE, --frame_size FRAME_SIZE FRAME_SIZE
+    Frame size. e.g. --frame-size {Width} {Height}
+  -vf VIDEO_WRITER_FPS, --video_writer_fps VIDEO_WRITER_FPS
+    Video writer FPS.
+```
+
+https://github.com/PINTO0309/mp42ros
