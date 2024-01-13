@@ -1,0 +1,148 @@
+[project]
+name = "dbnomics-fetcher-toolbox"
+version = "1.0.0beta6"
+authors = [{ name = "Christophe Benz", email = "christophe.benz@nomics.world" }]
+description = "Tools to write DBnomics fetchers"
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "contexttimer",
+  "daiquiri",
+  "dbnomics-data-model",
+  "environs",
+  "humanfriendly",
+  "jsonalias",
+  "lxml",
+  "msgspec",
+  "phantom-types",
+  "pylibmagic",
+  "python-magic",
+  "requests-toolbelt",
+  "returns",
+  "tenacity",
+  "typedload",
+  "werkzeug",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black",
+  "coverage[toml]",
+  "hypothesis",
+  "mypy",
+  "pre-commit",
+  "pytest",
+  "pytest-httpserver",
+  "ruff",
+  "types-humanfriendly",
+  "types-requests",
+  "vermin",
+]
+
+[project.urls]
+"Homepage" = "https://git.nomics.world/dbnomics/dbnomics-fetcher-toolbox"
+"Bug Tracker" = "https://git.nomics.world/dbnomics/dbnomics-fetcher-toolbox/-/issues"
+
+[tool.black]
+line-length = 120
+
+[tool.coverage.run]
+command_line = "-m pytest"
+
+[tool.mypy]
+packages = ["dbnomics_fetcher_toolbox", "tests"]
+strict = true
+
+[[tool.mypy.overrides]]
+ignore_missing_imports = true
+module = [
+  "contexttimer.*",
+  "dirsync",
+  "lxml.*",
+  "requests_toolbelt.*",
+  "toolz",
+  "validators",
+]
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
+testpaths = ["dbnomics_fetcher_toolbox", "tests"]
+
+[tool.ruff]
+exclude = [
+  "__pycache__",
+  ".cache",
+  ".eggs",
+  ".git",
+  ".mypy_cache",
+  ".pytest_cache",
+  ".tox",
+  ".venv",
+  "*.egg-info",
+  "build",
+  "dist",
+  "doc",
+]
+ignore = [
+  "ANN101",
+  "ANN102",
+  "ANN401",
+  "BLE001",
+  "COM",
+  "D100",
+  "D101",
+  "D102",
+  "D103",
+  "D103",
+  "D104",
+  "D105",
+  "D106",
+  "D107",
+  "N818",
+  "PD",
+  "S101",
+  "S320",
+]
+line-length = 120
+select = ["ALL"]
+unfixable = ["COM", "ERA", "F841"]
+unsafe-fixes = true
+
+[tool.ruff.flake8-bugbear]
+extend-immutable-calls = ["typer.Argument", "typer.Option"]
+
+[tool.ruff.flake8-builtins]
+builtins-ignorelist = ["dir", "format", "id", "open", "type"]
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "double"
+
+[tool.ruff.isort]
+known-first-party = ["dbnomics_fetcher_toolbox"]
+
+[tool.ruff.mccabe]
+max-complexity = 15
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F403"]
+"tests/**/*.py" = [
+  "DTZ005",
+  "EM101",
+  "FBT001",
+  "N802",
+  "PLR2004",
+  "SLF001",
+  "TRY003",
+  "TRY301",
+]
+
+[tool.ruff.pylint]
+max-args = 12
+max-returns = 10
+max-statements = 70
