@@ -1,0 +1,6 @@
+include LICENSE
+include setup.py
+recursive-include khapi *
+recursive-exclude migrations *
+recursive-exclude __pycache__*
+
