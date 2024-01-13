@@ -1,0 +1,174 @@
+[
+  {
+    "inputs": [],
+    "name": "allCompetitionsLength",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "allModelersContractsLength",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_admin",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "_ipfsCompetition",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_topNParameter",
+        "type": "uint256"
+      }
+    ],
+    "name": "deployCompetition",
+    "outputs": [
+      {
+        "internalType": "contract ICompetition",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_competitionContract",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IERC20",
+        "name": "_validatorToken",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_validatorStakeAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_maxValidators",
+        "type": "uint256"
+      }
+    ],
+    "name": "deployModeler",
+    "outputs": [
+      {
+        "internalType": "contract IModeler",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getAllCompetitions",
+    "outputs": [
+      {
+        "internalType": "contract ICompetition[]",
+        "name": "",
+        "type": "address[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getAllModelersContracts",
+    "outputs": [
+      {
+        "internalType": "contract IModeler[]",
+        "name": "",
+        "type": "address[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract ICompetition",
+        "name": "_competitionLogic",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IModeler",
+        "name": "_modelerLogic",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_newAdmin",
+        "type": "address"
+      }
+    ],
+    "name": "setNewAdmin",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract ICompetition",
+        "name": "newCompetition",
+        "type": "address"
+      }
+    ],
+    "name": "upgradeCompetition",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IModeler",
+        "name": "newModelerContract",
+        "type": "address"
+      }
+    ],
+    "name": "upgradeModelerContract",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
