@@ -1,0 +1,4 @@
+[fossil_mastodon.plugins]
+debug_button=fossil_mastodon.plugin_impl.toot_debug:plugin
+topic_cluster=fossil_mastodon.plugin_impl.topic_cluster:plugin
+
