@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+crossmdf.egg-info/PKG-INFO
+crossmdf.egg-info/SOURCES.txt
+crossmdf.egg-info/dependency_links.txt
+crossmdf.egg-info/requires.txt
+crossmdf.egg-info/top_level.txt
