@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fauasg
+Version: 0.1.0
+Summary: A set of tools developed by the Animal Speech Group at FAU
+Home-page: https://github.com/alexanderbarnhill/fauasg
+Author: Alexander Barnhill
+Author-email: alexander.barnhill@fau.de
+License: MIT
+License-File: LICENSE

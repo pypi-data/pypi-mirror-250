@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fauasg/__init__.py
+fauasg.egg-info/PKG-INFO
+fauasg.egg-info/SOURCES.txt
+fauasg.egg-info/dependency_links.txt
+fauasg.egg-info/requires.txt
+fauasg.egg-info/top_level.txt
