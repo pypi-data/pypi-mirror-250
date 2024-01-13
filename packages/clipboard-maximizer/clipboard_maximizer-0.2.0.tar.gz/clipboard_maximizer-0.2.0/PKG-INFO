@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: clipboard-maximizer
+Version: 0.2.0
+Summary: 
+Author: lumpenspace
+Author-email: lumpenspace@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pytest-cov (>=4.1.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# climax: **ᴄʟɪ**pboad **ᴍᴀx**imizer.
+
+> 🐙🖥️🐍➕👮🏻☃️🔧4️⃣👯‍♀️*🫢📁*(🚫🗃️)⏭️📋
+
+*(A* mͫuͧltͭiͥplaͣtͭfoͦrͬmͫ *python library and command line tool for copying 𝕬𝖈𝖙𝖚𝖆𝖑 𝕱𝖎𝖑𝖊𝖘* (ie, not their content) *to the clipboard.)*
+
+## Status
+
+[![PyPI version](https://badge.fury.io/py/clipboard-maximizer.svg)](https://badge.fury.io/py/clipboard-maximizer)
+
+**macOS** and **Linux** are supported and tested; the latter via `xclip` (`apt-get install xclip`)
+
+**Windows** should be supported (I can run it on mac Powershell via `pwsh`), but I don't have a Windows machine to test it on.
+
+## Installation
+
+Use pip, poetry, or your favorite python package manager to install the latest version of the clipboard maximiser: `clipboard_maximizer`.
+
+## Command Line
+
+Install with pipx:
+
+```bash
+pipx install clipboard_maximizer
+```
+
+The script is available as `climax`:
+
+```bash
+climax --help # show help
+climax file1 [file2] # copy file1 and file2 to the clipboard
+climax file1 --clipboard xclip # use a specific clipboard.
+            # xclip, powershell (custom script) and applescript 
+            # are supported).
+```
+
+### Python API
+
+Install:
+
+```bash
+pip install clipboard_maximizer
+```
+
+Or, if you use poetry:
+
+```bash
+poetry add clipboard_maximizer
+```
+
+Use:
+
+```python
+from clipboard_maximizer import copy_to_clipboard;
+
+# copy file to clipboard
+copy_to_clipboard("file1") 
+
+# use a specific clipboard (see above)
+copy_to_clipboard("file1", clipboard="xclip")
+```
+
+## Contributing
+
+```bash
+poetry install
+poetry run pytest
+```
+
+Contributions, in particular windows-related, are welcome.
+
+If you plan to turn this into a full multiplatform clipboard manager, please fork the project and do so; I'll happily transfer the name to you.
+
+## Blah
+
+License: MIT.
+
