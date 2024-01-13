@@ -1,0 +1,3 @@
+[console_scripts]
+tagbot=container_tagbot:cli
+
