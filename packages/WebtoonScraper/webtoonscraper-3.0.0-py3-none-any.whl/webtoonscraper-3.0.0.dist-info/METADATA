@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: WebtoonScraper
+Version: 3.0.0
+Summary: Scraping webtoons with ease.
+License: Apache-2.0
+Keywords: Webtoon,Webtoon Scraper,Naver Webtoon,Webtoon Downloader,Download Webtoon
+Author: ilotoki0804
+Author-email: ilotoki0804@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Pillow (>=10.0.1,<11.0.0)
+Requires-Dist: demjson3 (>=3.0.6,<4.0.0)
+Requires-Dist: hxsoup (==0.3.0)
+Requires-Dist: nest-asyncio (>=1.5.8,<2.0.0)
+Requires-Dist: pyfilename (>=0.4.0,<0.5.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Project-URL: Changelog, https://github.com/ilotoki0804/WebtoonScraper#relese-note
+Project-URL: Documentation, https://github.com/ilotoki0804/WebtoonScraper
+Project-URL: Homepage, https://ilotoki0804.gitbook.io/webtoonscraper/
+Project-URL: Issues, https://github.com/ilotoki0804/WebtoonScraper/issues
+Project-URL: Repository, https://github.com/ilotoki0804/WebtoonScraper
+Description-Content-Type: text/markdown
+
+이 설명은 최신 버전이 아닐 수 있습니다. 만약 최신 버전을 확인하고 싶으시다면 [이 깃허브 링크](https://github.com/ilotoki0804/WebtoonScraper)를 참고하세요.
+# WebtoonScraper
+<!-- [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) -->
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/WebtoonScraper)](https://pypi.org/project/WebtoonScraper/)
+[![Gitbook Link](https://img.shields.io/badge/Gitbook-Link-blue?link=https%3A%2F%2Filotoki0804.gitbook.io%2Fwebtoonscraper%2F)](https://ilotoki0804.gitbook.io/webtoonscraper/)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Filotoki0804%2FWebtoonScraper&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/ilotoki0804/WebtoonScraper)
+
+최대 규모 오픈 소스 웹툰 스크래퍼입니다.
+
+**네이버 웹툰(베스트 도전, 도전만화 포함), webtoons.com, 버프툰, 네이버 포스트, 네이버 게임, 레진 코믹스, 카카오페이지, 네이버 블로그, 티스토리**를 지원하고, 계속해서 지원 목록을 확대할 계획입니다.
+
+> [!TIP]
+> 카카오 웹툰에 있는 웹툰들은 카카오페이지에도 있으니 카카오 웹툰을 다운로드받고 싶다면 카카오페이지 웹툰 스크래퍼를 이용해 주세요.
+
+저작권과 책임에 대한 내용을 더욱 자세히 알고 싶다면 [이 문서](https://github.com/ilotoki0804/WebtoonScraper/blob/master/docs/copyright.md)를 참고해 주세요.
+
+## Installation
+
+1. 파이썬(3.10 이상)을 설치합니다. 설치 방법은 인터넷에 잘 나와 있습니다. 꼭 Path에 파이썬이 포함되도록 설치하세요.
+1. 터미널에서 다음과 같은 명령어를 실행합니다.
+
+    ```console
+    pip install -U WebtoonScraper
+    ```
+
+    대체적으로, 자신이 사용하는 운영 체제가 POSIX 기반(Mac이나 Linux)라면 다음의 명령어를 사용해야 할 수도 있습니다.
+
+    ```console
+    pip3 install -U WebtoonScraper
+    ```
+
+1. 자신의 환경에서 잘 설치되었는지 확인해 보세요.
+
+    CLI가 잘 설치되었는지를 확인하려면 다음의 명령어를 사용해 보세요.
+
+    ```console
+    webtoon --version
+    ```
+
+    > 만약 `webtoon` 명령어가 잘 실행되지 않는다면 다음의 코드를 사용해 보세요.
+    >
+    > ```console
+    > python -m WebtoonScraper --version
+    > ```
+    >
+    > 자신의 환경에 따라 `python` 대신 `python3`나 `py -3.12`과 같은 코드를 적절히 사용해야 할 수 있습니다.
+
+    자신의 파이썬 환경에 잘 설치되었는지를 확인하려면 다음의 코드를 실행해 보세요.
+
+    ```python
+    from WebtoonScraper import webtoon as wt
+    ```
+
+## Build from source
+
+우선 git과 python을 설치하고 레포지토리를 클론하세요.
+
+```console
+git clone https://github.com/ilotoki0804/WebtoonScraper.git
+```
+
+그런 다음 가상 환경을 생성하고 활성화하세요.
+
+```console
+echo 윈도우의 경우
+py -3.12 -m venv .venv
+.venv\Scripts\activate
+
+echo UNIX인 경우
+python3.12 -m venv .venv
+.venv/Scripts/activate
+```
+
+poetry를 설치하고 의존성을 설치하세요.
+
+```console
+pip install poetry
+poetry install --no-root
+```
+
+`build.py`를 실행하세요.
+
+```console
+python build.py
+```
+
+이제 `dist`에 빌드된 `whl` 파일과 `tar.gz` 파일이 나타납니다.
+
+## How to use
+
+사용 방법은 [`사용 방법` 문서](https://github.com/ilotoki0804/WebtoonScraper/blob/master/docs/how_to_use.md)를 참고해 주세요.
+
+## 이 라이브러리가 다운로드 가능한 웹툰/에피소드의 종류
+
+[이 라이브러리가 다운로드 가능한 웹툰/에피소드의 종류 문서](https://github.com/ilotoki0804/WebtoonScraper/blob/master/docs/download_availability.md)를 참고하세요.
+
+## Relese Note
+
+[Relese Note 문서](https://github.com/ilotoki0804/WebtoonScraper/blob/master/docs/releases.md)를 참고하세요.
+
