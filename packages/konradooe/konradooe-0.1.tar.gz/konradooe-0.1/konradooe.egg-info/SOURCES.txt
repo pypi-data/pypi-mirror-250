@@ -1,0 +1,7 @@
+setup.py
+konradooe/__init__.py
+konradooe/func.py
+konradooe.egg-info/PKG-INFO
+konradooe.egg-info/SOURCES.txt
+konradooe.egg-info/dependency_links.txt
+konradooe.egg-info/top_level.txt
