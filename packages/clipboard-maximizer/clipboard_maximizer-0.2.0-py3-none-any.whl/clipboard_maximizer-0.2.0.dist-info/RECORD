@@ -1,0 +1,10 @@
+clipboard_maximizer/__init__.py,sha256=g_vGMqtKvfew-exra1CEH9Qo4cwMaozERL9Q7tPAk6M,67
+clipboard_maximizer/cli.py,sha256=rvQOr5Cm7i5EbAlb5Gw9uqErVyrn4nDXUxVFv4qQYj0,351
+clipboard_maximizer/clipboard_manager.py,sha256=vxvDg9Ew74WG8pPRheDEymOCatJmZuG34_7PR3BpwXE,1993
+clipboard_maximizer/copy-linux-xclip.sh,sha256=Zt2c9b3tT4QMBtM1SoZmepU46iAKe-9RVn-CjV75koU,137
+clipboard_maximizer/copy-macos.applescript,sha256=o0lbU6NbxhMhTWbSLTBRyOixEc_7wvu_Q2B_5h4OlWs,86
+clipboard_maximizer/copy-windows.ps1,sha256=P71b-GZADGQBs_VG89hHu6fImj4cTZkmREXAghKpKY8,981
+clipboard_maximizer-0.2.0.dist-info/METADATA,sha256=VQm8Y9AXRUtDdkpi5bDUOCIjnx6uNrr-LI7_THkZlJM,2278
+clipboard_maximizer-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+clipboard_maximizer-0.2.0.dist-info/entry_points.txt,sha256=B6IpoM3CcOslidjU7ZHBq9EQ8sK7QD9Dg49u2Up82oc,55
+clipboard_maximizer-0.2.0.dist-info/RECORD,,
