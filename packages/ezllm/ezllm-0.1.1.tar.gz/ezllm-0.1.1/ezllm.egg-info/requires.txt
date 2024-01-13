@@ -1,0 +1,4 @@
+requests
+
+[extra]
+pandas
