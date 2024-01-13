@@ -1,0 +1,15 @@
+AuPyL/BUTTON.py,sha256=_ZvUWqp9S0I1hJlLeEw7P3nbVkDfP8unT5_Ov7k4Nt4,2875
+AuPyL/CLEAR.py,sha256=baDdlVYD1lS9YO3tvswSA4e9hs30HiAzDqD9Cgvn2ls,20
+AuPyL/CONTROL.py,sha256=8SsDumF9ZZoxK72n_7_YdhAtcu83Syk7iVzMuPDo0h0,861
+AuPyL/ERR.py,sha256=945WDa-0EmidUtShBs-tpaaxVealkMzDAzzYPybfnSs,417
+AuPyL/HOOK_ERR.py,sha256=t5ypRBm4_Vd8WfH3CYj7R9m9mHAUhvx_l2l9auVt0xM,1163
+AuPyL/PUTTEXT.py,sha256=agVXWE4ChsMeRa5R3lBWW_mRoxIvGzqSjhhqFe2bs5E,2539
+AuPyL/SCREEN.py,sha256=3KvdVuGggYIHfeF2WBoP707Sr6dL1thsPi85N-Fjg5w,3137
+AuPyL/SHOWIMG.py,sha256=jsgZ2z4QaWXHnfkPK3nq2GgyuDVRBgK-uyIVr9QS50w,2536
+AuPyL/__init__.py,sha256=8YEY8LEdrroum1mOhVtf9rIL4pJRkJDBg0anxe65Q_w,159
+AuPyL/_import_module.py,sha256=Xj1NSTwH3h--AVPJlz5mcnuYBK47ZmTsr7EkbeBY1W8,38
+AuPyL/urlOpen.py,sha256=iAS-aj1Lrvg3dz4pAX7JYNg58lcLp7O17ADXRdce05M,575
+AuPyL-0.2.dist-info/METADATA,sha256=4Y8fVZgDjt9iFcwxafOGd9cJw5kb9DVfzK_sb76c6y8,3976
+AuPyL-0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+AuPyL-0.2.dist-info/top_level.txt,sha256=A57PzI5YVQAnED4QFX7Xi1LB1G1rBNNlwedaeSsrG1Q,6
+AuPyL-0.2.dist-info/RECORD,,

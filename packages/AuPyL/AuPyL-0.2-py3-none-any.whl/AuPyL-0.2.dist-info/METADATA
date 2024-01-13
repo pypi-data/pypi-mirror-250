@@ -1,0 +1,191 @@
+Metadata-Version: 2.1
+Name: AuPyL
+Version: 0.2
+Summary: AutoPy Lite For Termux
+Author: None
+Author-email: NoneAndNone@No.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+## 重要说明
+以下参考[AutoPy-Android][url1]库，并在此基础上修改而来
+
+AutoPy Lite原作者[向上的桌子][url2]
+
+[url1]:https://pypi.org/project/AutoPy-Android/
+[url2]: https://b23.tv/R6raA5p
+
+
+## 代码示例
+以下示例中的`server_url`参数，默认为`http://127.0.0.1:8020/?code=`
+
+#### 导入库
+```python
+#模拟点击
+from AuPyL import *
+from time import sleep
+import numpy as np
+import cv2 as cv
+```
+#### 模拟点击操作
+`sim_tap(x, y, server_url)`
+
+xy为坐标
+```python
+#模拟点击
+sim_swipe(500,500)
+```
+
+#### 模拟滑动
+`sim_swipe(x1, y1, x2, y2, t, server_url)`
+
+x1y1为第一个坐标，x2y2为第二个坐标
+
+t为由第一个坐标运动到第二个坐标期望耗时
+```python
+#模拟滑动操作
+sim_swipe(500,0,500,1000,1000)
+```
+#### 模拟截图
+`sim_screenshot(server_url)`
+```python
+#模拟截图
+sim_screenshot()
+```
+#### 按键模拟
+`sim_home(server_url)`
+
+`sim_back(server_url)`
+
+`sim_lockscreen(server_url)`
+```python
+#按键模拟
+sim_home()
+sim_back()
+sim_lockscreen()
+```
+
+#### 文字显示
+`PutText(X, Y, W, H, T, S, C, server_url)`
+
+`PutText().show()`显示内容
+
+`PutText().DEL()`清除内容
+
+X : x坐标
+
+Y : y坐标
+
+W: 窗口宽度
+
+H : 窗口高度
+
+T : 内容文本
+
+C : 颜色RGB
+```python
+txt1 = PutText(X=0, Y=0, W=1000, H=400, T="这是测试文本", S=40, C=(255, 0, 0))
+txt1.show()
+sleep(3)
+for i in range(300):
+    txt1.T = f"测试文本{i}"
+    txt1.X += 1
+    txt1.Y += 2
+    txt1.C = np.random.randint(0, 255, 3).tolist()
+    txt1.show()
+    sleep(0.005)
+txt1.DEL
+```
+
+#### 按钮
+`Button(X, Y, W, H, T, S, C, server_url)`
+
+`Button().show()`显示按钮
+
+`Button().clicks`获取点击次数
+
+`Button().DEL()`删除按钮
+
+参数定义同`PutText`
+```python
+button1 = Button(T="按钮1", S=20, C=(255, 255, 255), W=300, H=200, X=0, Y=0)
+button2 = Button(T="按钮2", S=20, C=(0, 255, 255), W=300, H=200, X=300, Y=0)
+button3 = Button(T="点击3次退出", S=20, C=(255, 0, 0), W=300, H=200, X=600, Y=0)
+button1.show()
+button2.show()
+button3.show()
+while True:
+    if button3.clicks >= 3:
+        button1.DEL()
+        button2.DEL()
+        button3.DEL()
+        break
+    button1.Y = button1.clicks * 10
+    button1.C = np.random.randint(0, 255, 3).tolist()
+    button2.Y = button2.clicks * 10
+    button2.C = np.random.randint(0, 255, 3).tolist()
+    button3.T = f"点击{3-button3.clicks}退出"
+    button1.show()
+    button2.show()
+    button3.show()
+    print(f"\r按钮1 : 点击{button1.clicks}次 按钮2 : 点击{button2.clicks}次", end="")
+```
+
+#### 图片显示
+`ShowImg(X, Y, W, H, server_url)`
+
+`ShowImg().show(img, OutTime=None)`显示图片
+
+`ShowImg().DEL`清除窗口
+```python
+img1 = np.random.randint(0, 255, (1080, 1080, 3), dtype=np.uint8)
+img2 = "/storage/emulated/0/Pictures/PicsArt/test.jpg"
+
+myshow = ShowImg(W=1000, H=1000, X=0, Y=0)
+
+# 第一个参数接收图片的路径或者一个numpy.ndarray(dtype=uint8)对象,第二个参数为延时关闭窗口，单位:秒,默认None,不自动关闭窗口
+myshow.show(img1, OutTime=2)
+sleep(3)
+myshow.show(img2)
+sleep(2)
+myshow.DEL()
+```
+#### 截图
+`Screen(server_url)`
+
+`Screen().get(func=None, *args, **kwargs)`获取截图
+
+`Screen().DEL()`停止截图
+
+func : 一个函数地址，将截图经过此函数处理后再返回,`*args, **kwargs`都会传递给func
+
+```python
+def drawtext(a, b, c=3):
+    cv.putText(
+        a,
+        f"TEST {b}",
+        (0, a.shape[0] // 2),
+        cv.FONT_HERSHEY_SIMPLEX,
+        c,
+        (0, 0, 255, 255),
+        c,
+    )
+    return a
+
+
+show = ShowImg()
+show.W = 1088 // 2
+show.H = 2333 // 2
+show.X = 0
+show.Y = 0
+screen = Screen()
+for i in range(10):
+    print(i)
+    show.show(screen.get())
+for i in range(10):
+    print(i)
+    show.show(screen.get(drawtext, i, c=8))
+screen.DEL()
+```
+
+
