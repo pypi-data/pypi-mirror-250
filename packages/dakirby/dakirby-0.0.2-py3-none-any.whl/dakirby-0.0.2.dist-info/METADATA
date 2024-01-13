@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: dakirby
+Version: 0.0.2
+Summary: A HotDocs / A2J to docassemble converter
+Author: Bryce Willey
+Project-URL: Homepage, https://github.com/BryceStevenWilley/dakirby
+Project-URL: Repository, https://github.com/BryceStevenWilley/dakirby.git
+Project-URL: Issues, https://github.com/BryceStevenWilley/dakirby/issues
+Keywords: docassemble,a2jauthor,hotdocs
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Legal Industry
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml
+Requires-Dist: importlib-metadata >=1.0 ; python_version < "3.8"
+
+# DA Kirby
+
+Sucking in document assembly tools, and spitting out docassemble interviews.
+
+At the moment, does some stuff from A2J tools, nothing from HotDocs yet though.
+
