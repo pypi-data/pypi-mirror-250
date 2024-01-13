@@ -1,0 +1,2 @@
+include standup-face-recognition/20180402-114759-vggface2.pt
+include standup-face-recognition/team_embedding.pth

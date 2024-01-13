@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+standup_face_recognition.egg-info/PKG-INFO
+standup_face_recognition.egg-info/SOURCES.txt
+standup_face_recognition.egg-info/dependency_links.txt
+standup_face_recognition.egg-info/entry_points.txt
+standup_face_recognition.egg-info/requires.txt
+standup_face_recognition.egg-info/top_level.txt
