@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: hvae_backbone
+Version: 0.1.2
+Summary: Universal and customizable implementation of the Hierarchical Variational Autoencoder architecture.
+Home-page: https://github.com/lacykaltgr/hvae-backbone
+Author: László Freund
+Author-email: freundl0509@gmail.com
+License: MIT
+Keywords: vae,hierarchical vae,generative model
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: wandb
+Requires-Dist: tqdm
+
+# hvae-backbone
+Universal backbone implementation of Hierarchical Variational Autoencoder in PyTorch.
+
+
+# TODO:
+- callbacks
+- preprocessing
+- imports
+- move priors to device
