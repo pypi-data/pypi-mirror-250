@@ -1,0 +1,2 @@
+PyBluez@ https://github.com/AcrossTheCloud/pybluez/archive/master.zip#egg=PyBluez-0.30
+gattlib==0.20210616
