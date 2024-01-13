@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: partial-sh
+Version: 0.1.0
+Summary: Manipulate JSON with your words
+License: Apache-2.0
+Author: Yanael Barbier
+Author-email: st3w4r@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain (==0.1.0)
+Requires-Dist: langchain-community (>=0.0.11,<0.0.12)
+Requires-Dist: langchain-openai (>=0.0.2,<0.0.3)
+Requires-Dist: openai (==1.7.1)
+Description-Content-Type: text/markdown
+
+# Partial-sh
+
+## Examples
+
+data.jsonl:
+
+```json
+{"name":"John Doe","date_of_birth":"1980-01-01", "address": "123 Main St"}
+{"name":"Jane Smith","date_of_birth":"1990-02-15", "address": "456 Main St"}
+{"name":"Jay Neal","date_of_birth":"1993-07-27", "address": "42 Main 94111 St"}
+{"name":"Lisa Ray","date_of_birth":"1985-03-03", "address": "789 Elm St"}
+```
+
+```bash
+cat data.jsonl | ./pipe.py --json -i "Split firstname and lastname" -i "remove the date of address"
+```
+
