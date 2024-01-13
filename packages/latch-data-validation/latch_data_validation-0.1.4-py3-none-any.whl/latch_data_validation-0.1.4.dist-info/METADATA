@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: latch-data-validation
+Version: 0.1.4
+Summary: Data validation for latch python backend services
+License: CC0 1.0
+Author: Max Smolin
+Author-email: max@latch.bio
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: opentelemetry-api (>=1.15.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# python-data-validation
+
