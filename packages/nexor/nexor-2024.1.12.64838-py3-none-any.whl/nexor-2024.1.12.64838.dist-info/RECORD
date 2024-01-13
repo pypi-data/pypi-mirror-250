@@ -1,0 +1,11 @@
+nexor/__init__.py,sha256=VBxjlhhVsNYHCTMeYYPxui80VYxKzD47JzRBS5XLoLM,149
+nexor/__main__.py,sha256=8jpq77C7m2EPj2NxMQUtlSXTDgbsFcLriY3-J24SFg0,128
+nexor/env.py,sha256=IUAcwL3Q49B6ORe130sGdPzGH8kb4HAkv7skPtSQBTY,2335
+nexor/lock.py,sha256=jsrIbxegBiSEM9_A3e_KipZtsZRhqNLfuqcb90priHE,1759
+nexor/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexor/tests/test_init.py,sha256=TkMggs8zsS-iHGdJKaKmbqNxhcDSTtJEamiOU3_Y8RY,294
+nexor-2024.1.12.64838.dist-info/METADATA,sha256=JAVqdIcWTmXaFFMCuWWZIn7Ad6SX0DWrmXqhnY58P5w,2677
+nexor-2024.1.12.64838.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+nexor-2024.1.12.64838.dist-info/entry_points.txt,sha256=iMcyf-YcLx_YB7pkIqYAqRNYaavsOPeDiZZ4qJ34uWM,131
+nexor-2024.1.12.64838.dist-info/top_level.txt,sha256=122mNx2kHfU3wT1B8ltkqRWYPGC6EVJDKYVxAcJRWLw,6
+nexor-2024.1.12.64838.dist-info/RECORD,,
