@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zsqlite
+Version: 2.5
+Summary: A useless database connection based on sqlite
+Home-page: https://github.com/zhstack/zsqlite.git
+Author: zhstack
+Author-email: zhstack@163.com
+License: MIT
+Keywords: zsqlite
+License-File: LICENSE
+
