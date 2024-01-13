@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tidbvec"
+version = "0.0.4"
+description = ""
+authors = ["IANTHEREAL <argregoryian@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tidb_vector"}]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+SQLAlchemy = ">=1.4,<3"
+numpy = "^1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
