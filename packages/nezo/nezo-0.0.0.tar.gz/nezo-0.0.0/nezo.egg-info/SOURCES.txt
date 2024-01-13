@@ -1,0 +1,6 @@
+README.md
+setup.py
+nezo.egg-info/PKG-INFO
+nezo.egg-info/SOURCES.txt
+nezo.egg-info/dependency_links.txt
+nezo.egg-info/top_level.txt
