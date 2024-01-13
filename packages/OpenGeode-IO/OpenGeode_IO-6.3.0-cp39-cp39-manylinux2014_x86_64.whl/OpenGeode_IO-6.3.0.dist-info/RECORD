@@ -1,0 +1,14 @@
+opengeode_io/__init__.py,sha256=5k9dEVyvYkL5CFQT8PLlK06IHiyJcXCkgOvpgBrTwRg,108
+opengeode_io/image.py,sha256=Eb8gYxo1_7vEKcLxZIKfJBYsUntfP58a-BtlbmxXPXo,1191
+opengeode_io/mesh.py,sha256=xmJh5O2NyMbM3LL0Tx87g4mtIwnpsL55661jvLKjL-A,1189
+opengeode_io/model.py,sha256=pohcxqJDQqnnBW7hdaEwnSaIZzlY5bJJJcL8F3QrTeM,1191
+opengeode_io/lib64/libOpenGeode-IO_image.so,sha256=S1g22sjN09pjAa_ZAaXCXkGuHv3uPiZSkzq08LNurio,303312
+opengeode_io/lib64/libOpenGeode-IO_mesh.so,sha256=82XZRJG_Lp6yPPB728yACulFGyBdjRWgFYBu4Gr0f8Y,2632152
+opengeode_io/lib64/libOpenGeode-IO_model.so,sha256=-Ua5uiqmuLfNqr5Vlu3O5JHBmWqZP7RLM5Galvusb3g,633744
+opengeode_io/lib64/opengeode_io_py_image.cpython-39-x86_64-linux-gnu.so,sha256=qzkDAxxz4tsCZhSZgyNOhu93RTkJhaETITD2O2FJ5uo,188312
+opengeode_io/lib64/opengeode_io_py_mesh.cpython-39-x86_64-linux-gnu.so,sha256=7mMMtkUxJvFiqU3-28ATkz2FqBBNa3v950cTrJM00-M,192472
+opengeode_io/lib64/opengeode_io_py_model.cpython-39-x86_64-linux-gnu.so,sha256=FkoucyJMmfQxUadaEZfK56c7TrK6U93MtuuBz6fMNbE,196616
+OpenGeode_IO-6.3.0.dist-info/METADATA,sha256=4qvJljMMd5TT4ciFCeSP_TCmCNPTSoJKTETVP1ZIRIA,3000
+OpenGeode_IO-6.3.0.dist-info/WHEEL,sha256=6-kYwQUFarto2lag3uWPvQEaDAMFXEBwbtafpEQIzNQ,103
+OpenGeode_IO-6.3.0.dist-info/top_level.txt,sha256=UbHospLC99KjjzaIpg_8PZkv87pJ67SRlIyMrWV58CY,13
+OpenGeode_IO-6.3.0.dist-info/RECORD,,
