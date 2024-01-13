@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fauasg.egg-info/PKG-INFO
+fauasg.egg-info/SOURCES.txt
+fauasg.egg-info/dependency_links.txt
+fauasg.egg-info/requires.txt
+fauasg.egg-info/top_level.txt
+src/__init__.py
+src/fauasg/__init__.py
+src/fauasg/data/__init__.py
+src/fauasg/data/audio/__init__.py
+src/fauasg/data/audio/signal.py
+src/fauasg/data/audio/transforms.py
