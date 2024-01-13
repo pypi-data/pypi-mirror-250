@@ -1,0 +1,14 @@
+mlchemad/__init__.py,sha256=cPHV9-zsR88SE16_y_ayKZCWNqi33r3NhrKw52-vJFM,703
+mlchemad/_data.py,sha256=D_tcfvc2qs9eNgmf9sEe4J75EGDtQHf_qVftWmOJizM,3780
+mlchemad/applicability_domains.py,sha256=bImKlpZevy5gsMHF7CR4KAm-il4ENgna_qJ9qr8-bnM,29726
+mlchemad/base.py,sha256=H_nq15fcHllhjlPwM6XYKcEo8BmyNbzCjqsxzS4sgMU,2253
+mlchemad/broccatelli2011.json,sha256=5XeyUfIqqnaJBXbHDDiDnw7mrY32L7PADMSDqJhuDSU,5087154
+mlchemad/fisher1936.json,sha256=Vhewos9oqVsuxEfHhw4K2Hxu0HpvpimZkvP1tLtd8Xk,4124
+mlchemad/hemmerich2020.json,sha256=MR5P4M-kPJf8_jlfe7XyN72B9OuvYZTzcuqNKPSwNUg,473108
+mlchemad/mekenyan1993.json,sha256=jRQuFtV_g-Bpi2KsY6A20ZVOo9m4WEROsiDVGWWnBT8,5214
+mlchemad/utils.py,sha256=i3o-yyLMA9-dPZ0jTPN_IEm_2P3vtVwnuu5ar_16fBI,2485
+mlchemad-1.3.0.dist-info/LICENSE,sha256=TpQ1tVJDKu6_FDALzgfms0YoQZzLtBofQ1lPJcDVPQs,1087
+mlchemad-1.3.0.dist-info/METADATA,sha256=Dk2eUcgJOFY4GsbgawHawVN7AJkqR2dcyEPGyP_pWC8,3035
+mlchemad-1.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mlchemad-1.3.0.dist-info/top_level.txt,sha256=riUAgLSMqwX8aUWavpREz00QSiRMz8VZk15nbYfX8Ag,9
+mlchemad-1.3.0.dist-info/RECORD,,
