@@ -1,0 +1,6 @@
+README.md
+setup.py
+hackpro.egg-info/PKG-INFO
+hackpro.egg-info/SOURCES.txt
+hackpro.egg-info/dependency_links.txt
+hackpro.egg-info/top_level.txt
