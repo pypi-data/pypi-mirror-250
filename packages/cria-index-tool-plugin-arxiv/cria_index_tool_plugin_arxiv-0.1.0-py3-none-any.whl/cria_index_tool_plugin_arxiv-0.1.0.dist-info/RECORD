@@ -1,0 +1,5 @@
+cria_index/plugins/tools/arxiv/__init__.py,sha256=Ef3Ua8IXCz7I332yjN4XO5qqZvnDFG74y9Zjef2DVW0,82
+cria_index/plugins/tools/arxiv/base.py,sha256=AuBfpahXBHg-I3cNWdvwo9Ki5Vr6SgYu2IzBuHrGhSI,144
+cria_index_tool_plugin_arxiv-0.1.0.dist-info/METADATA,sha256=erxcsMHOGiFJGOH2ekLw6vzeD86TTKiRY2WfNeKOu24,489
+cria_index_tool_plugin_arxiv-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cria_index_tool_plugin_arxiv-0.1.0.dist-info/RECORD,,
