@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+gamda/__init__.py
+gamda/core.py
+gamda.egg-info/PKG-INFO
+gamda.egg-info/SOURCES.txt
+gamda.egg-info/dependency_links.txt
+gamda.egg-info/requires.txt
+gamda.egg-info/top_level.txt
+gamda/analyzer/__init__.py
+gamda/observable/__init__.py

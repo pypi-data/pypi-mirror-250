@@ -1,0 +1,26 @@
+[project]
+name = "gamda"
+dependencies = ["MDAnalysis"]
+readme = "README.md"
+license = {"file" = "LICENSE"}
+authors = [{"name" = "Yijie Xia", "email" = "yijiexia@pku.edu.cn"}]
+keywords = ["SPONGE", "molecular dynamics"]
+classifiers = [
+        "Development Status :: 5 - Production/Stable",
+        "Environment :: GPU :: NVIDIA CUDA",
+        "Environment :: Plugins",
+        "License :: OSI Approved :: Apache Software License",
+        "Topic :: Scientific/Engineering :: Physics",
+        "Topic :: Scientific/Engineering :: Chemistry",
+        "Programming Language :: Python :: 3",
+        "Operating System :: POSIX :: Linux",
+        "Operating System :: Microsoft :: Windows",
+]
+description = "gamda: GPU-Accelerated Molecular Dynamics Analysis"
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["gamda", "gamda.observable", "gamda.analyzer"]
+
+[tool.setuptools.dynamic]
+version = {attr = "gamda.__version__"}
