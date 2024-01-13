@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/cromdf.egg-info/PKG-INFO
+src/cromdf.egg-info/SOURCES.txt
+src/cromdf.egg-info/dependency_links.txt
+src/cromdf.egg-info/requires.txt
+src/cromdf.egg-info/top_level.txt
