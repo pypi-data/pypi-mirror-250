@@ -1,0 +1,3 @@
+deal
+numpy
+termcolor
