@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: airflow-common-operators
+Version: 0.1.0
+Summary: Common Airflow Operators / Tasks
+Author-email: Tim Paine <t.paine154@gmail.com>
+License: Apache-2.0
+Project-URL: Repository, https://github.com/timkpaine/airflow-common-operators
+Project-URL: Homepage, https://github.com/timkpaine/airflow-common-operators
+Keywords: airflow,scheduler,config
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: apache-airflow
+Requires-Dist: omegaconf
+Provides-Extra: develop
+Requires-Dist: bump2version; extra == "develop"
+Requires-Dist: check-manifest; extra == "develop"
+Requires-Dist: isort; extra == "develop"
+Requires-Dist: pytest; extra == "develop"
+Requires-Dist: pytest-cov; extra == "develop"
+Requires-Dist: ruff; extra == "develop"
+Requires-Dist: twine; extra == "develop"
+Requires-Dist: wheel; extra == "develop"
+
+# airflow-common-operators
+
+Common Operators / Tasks for [Apache Airflow](https://airflow.apache.org)
+
+[![Build Status](https://github.com/timkpaine/airflow-common-operators/actions/workflows/build.yml/badge.svg)](https://github.com/timkpaine/airflow-common-operators/actions?query=workflow%3A%22Build+Status%22)
+[![codecov](https://codecov.io/gh/timkpaine/airflow-common-operators/branch/main/graph/badge.svg)](https://codecov.io/gh/timkpaine/airflow-common-operators)
+[![License](https://img.shields.io/github/license/timkpaine/airflow-common-operators)](https://github.com/timkpaine/airflow-common-operators)
+[![PyPI](https://img.shields.io/pypi/v/airflow-common-operators.svg)](https://pypi.python.org/pypi/airflow-common-operators)

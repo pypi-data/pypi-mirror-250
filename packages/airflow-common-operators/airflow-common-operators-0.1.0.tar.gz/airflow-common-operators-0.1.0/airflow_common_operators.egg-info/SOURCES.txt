@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+airflow_common_operators/__init__.py
+airflow_common_operators/configuration.py
+airflow_common_operators/convenience.py
+airflow_common_operators/dag.py
+airflow_common_operators/utils.py
+airflow_common_operators.egg-info/PKG-INFO
+airflow_common_operators.egg-info/SOURCES.txt
+airflow_common_operators.egg-info/dependency_links.txt
+airflow_common_operators.egg-info/requires.txt
+airflow_common_operators.egg-info/top_level.txt
+airflow_common_operators/tests/test_all.py
