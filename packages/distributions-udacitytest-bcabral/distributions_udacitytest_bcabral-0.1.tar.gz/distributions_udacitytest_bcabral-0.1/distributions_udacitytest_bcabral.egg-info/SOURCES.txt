@@ -1,0 +1,10 @@
+setup.py
+distributions_udacitytest_bcabral/Binomialdistribution.py
+distributions_udacitytest_bcabral/Gaussiandistribution.py
+distributions_udacitytest_bcabral/Generaldistribution.py
+distributions_udacitytest_bcabral/__init__.py
+distributions_udacitytest_bcabral.egg-info/PKG-INFO
+distributions_udacitytest_bcabral.egg-info/SOURCES.txt
+distributions_udacitytest_bcabral.egg-info/dependency_links.txt
+distributions_udacitytest_bcabral.egg-info/not-zip-safe
+distributions_udacitytest_bcabral.egg-info/top_level.txt
