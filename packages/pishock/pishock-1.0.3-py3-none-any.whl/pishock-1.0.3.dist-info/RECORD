@@ -1,0 +1,14 @@
+pishock/__init__.py,sha256=wyIJKCFNza8CLM9HgftRS0EiKcwL05_vMMh7ZUs3KFs,929
+pishock/firmwareupdate.py,sha256=nvfteWfIgVOSkUzZPXzhD8R_0Ihr-VGplxEg-l986Fw,3258
+pishock/zap/cli/cli.py,sha256=qdqfRPqCNY-2z6lIQlK4yDucwXsx_pMDHKoZJcdviQo,14767
+pishock/zap/cli/cli_code.py,sha256=3_MomGKIhF-qJoPDTISP8BWvbfuJwdE_xHjyjm0LxAg,6168
+pishock/zap/cli/cli_random.py,sha256=qxrgwrNKVNZkk2KlL-Z1Q6YNaj3SADj5dVu7w8xArQs,9693
+pishock/zap/cli/cli_serial.py,sha256=AIljVdgBTba9OtqxoiJoLuANHQXz6sCfBolX52JvLeI,14831
+pishock/zap/cli/cli_utils.py,sha256=XC1LYjPF78zLCxq9C-srXSPbzpPJmBIGHB5MU8VXDBE,3358
+pishock/zap/core.py,sha256=zcAOQcxJk98bUIpf_R_w_j5oZAu2WdIamhTfk21u59Y,2463
+pishock/zap/httpapi.py,sha256=fR7JFiro4OcbZaV8vCZbwnMN5CRLmuyqcMutJFgaYwE,14217
+pishock/zap/serialapi.py,sha256=8Gp02TY65ZRLnWWjQEjiBs1rLy_PGuqVtmvezjUbj8Q,11620
+pishock-1.0.3.dist-info/METADATA,sha256=gAKYfhGBKse2nR2EDZmRAJiPp_17tDfxi5z7DX3fUkk,4440
+pishock-1.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pishock-1.0.3.dist-info/entry_points.txt,sha256=yble3Vhfrax_HC8Oe-b0SCFu8qVYtjMEWxzgLcJvSIE,51
+pishock-1.0.3.dist-info/RECORD,,
