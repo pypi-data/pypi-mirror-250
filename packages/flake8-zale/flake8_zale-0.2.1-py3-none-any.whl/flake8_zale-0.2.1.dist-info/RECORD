@@ -1,0 +1,8 @@
+LICENSE,sha256=1wui5gx7kBTN1UpvFw9dRue1iGQqPRFs9Yf5MTSUQ8Q,1070
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/checker.py,sha256=iKkBjtHplXYgOSNbSV-Eny9-h2K6cNwG--ps-Z4Ebc0,1788
+flake8_zale-0.2.1.dist-info/LICENSE,sha256=1wui5gx7kBTN1UpvFw9dRue1iGQqPRFs9Yf5MTSUQ8Q,1070
+flake8_zale-0.2.1.dist-info/METADATA,sha256=FyialSgbJDzI8biyZ_A6fO5gb31iF5Q-jc5GrgQmH2I,1741
+flake8_zale-0.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flake8_zale-0.2.1.dist-info/entry_points.txt,sha256=ITdUG8o-U7vNWwxTudVjcP3V0GGzSmmAdKtgWBQ-1z0,43
+flake8_zale-0.2.1.dist-info/RECORD,,
