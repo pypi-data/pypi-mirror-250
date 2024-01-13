@@ -1,0 +1,17 @@
+.gitignore
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+phone_number_generator/__init__.py
+phone_number_generator/__version__.py
+phone_number_generator/main.py
+phone_number_generator/test_number_generator.py
+phone_number_generator/world_zone.py
+phone_number_generator.egg-info/PKG-INFO
+phone_number_generator.egg-info/SOURCES.txt
+phone_number_generator.egg-info/dependency_links.txt
+phone_number_generator.egg-info/not-zip-safe
+phone_number_generator.egg-info/top_level.txt
