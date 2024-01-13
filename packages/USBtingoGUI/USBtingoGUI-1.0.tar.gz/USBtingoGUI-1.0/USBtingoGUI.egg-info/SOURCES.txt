@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+USBtingoGUI/__init__.py
+USBtingoGUI/__main__.py
+USBtingoGUI/resources.py
+USBtingoGUI.egg-info/PKG-INFO
+USBtingoGUI.egg-info/SOURCES.txt
+USBtingoGUI.egg-info/dependency_links.txt
+USBtingoGUI.egg-info/entry_points.txt
+USBtingoGUI.egg-info/requires.txt
+USBtingoGUI.egg-info/top_level.txt

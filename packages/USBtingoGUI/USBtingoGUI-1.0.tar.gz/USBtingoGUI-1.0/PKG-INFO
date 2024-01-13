@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: USBtingoGUI
+Version: 1.0
+Summary: USBtingoGUI is a graphical tool for sending and receiving CAN(-FD) messages using USBtingo.
+Home-page: https://github.com/EmbedME/USBtingoGUI
+Author: Thomas Fischl
+Author-email: tfischl@gmx.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# USBtingoGUI
+
+USBtingoGUI is a graphical tool for sending and receiving CAN(-FD) messages using [USBtingo USB to CAN-FD interface](https://www.fischl.de/usbtingo/)
+based on the [python-can-usbtingo](https://github.com/EmbedME/python-can-usbtingo) library.
+- Cross-platform compatibility (Windows, MacOS, Linux)
+- Send and receive CAN and CAN-FD messages
+- Record logic levels on CAN RX (for analysis with sigrok/PulseView)
+- Save logged messages to [CRTD](https://docs.openvehicles.com/en/latest/crtd/index.html) files
+- Show CAN bus state and errors
+
+![](https://raw.githubusercontent.com/EmbedME/USBtingoGUI/main/docs/usbtingogui_screenshot.png)
+
+## Installation
+
+```bash
+pip install USBtingoGUI
+```
+
+## Usage
+
+```bash
+python -m USBtingoGUI
+```
+
+
+
