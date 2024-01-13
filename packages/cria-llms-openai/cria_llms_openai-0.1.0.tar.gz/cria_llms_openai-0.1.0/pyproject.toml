@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cria-llms-openai"
+version = "0.1.0"
+description = ""
+authors = ["Andrei Fajardo <andrei@nerdai.io>"]
+readme = "README.md"
+packages = [{include = "cria_index"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cria-core = "^0.1.0"
+pytest = "^7.4.4"
+jupyterlab = "^4.0.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
