@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: m2r3
+Version: 2.0.0rc1
+Summary: Markdown and reStructuredText in a single file.
+Home-page: http://www.sphinx-doc.org/
+License: MIT
+Author: Hiroyuki Takagi
+Author-email: miyako.dev@gmail.com
+Requires-Python: >=3.9
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Provides-Extra: develop
+Requires-Dist: black (==22.3.0) ; extra == "develop"
+Requires-Dist: bump2version (==1.0.1) ; extra == "develop"
+Requires-Dist: docutils (>=0.16,<1.0)
+Requires-Dist: flake8 (==3.7.8) ; extra == "develop"
+Requires-Dist: isort (==4.3.21) ; extra == "develop"
+Requires-Dist: livereload ; extra == "develop"
+Requires-Dist: mistune (>=2.0.0,<3.0)
+Requires-Dist: mypy (==0.770) ; extra == "develop"
+Requires-Dist: nox ; extra == "develop"
+Requires-Dist: pre-commit (==2.2.0) ; extra == "develop"
+Requires-Dist: pygments
+Requires-Dist: pylint (==2.4.4) ; extra == "develop"
+Requires-Dist: pytest ; extra == "develop"
+Requires-Dist: pytest-cov ; extra == "develop"
+Requires-Dist: six ; extra == "develop"
+Requires-Dist: sphinx ; extra == "develop"
