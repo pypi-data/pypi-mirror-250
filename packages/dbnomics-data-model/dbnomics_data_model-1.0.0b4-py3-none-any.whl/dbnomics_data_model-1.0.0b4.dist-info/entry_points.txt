@@ -1,0 +1,2 @@
+[console_scripts]
+dbnomics = dbnomics_data_model.cli.dbnomics:app
