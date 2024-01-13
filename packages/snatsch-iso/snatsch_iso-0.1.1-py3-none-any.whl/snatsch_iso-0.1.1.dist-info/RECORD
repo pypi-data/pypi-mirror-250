@@ -1,0 +1,13 @@
+iso/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iso/__version__.py,sha256=MRMmyVISaIcNFQGdMBojsmgSbAKKeb23gwmZU4-5xzs,322
+iso/iso3166.py,sha256=yy7PZTCpNwNDWcl1FdtRkflX3GSgeucLwzvP9kb8S4M,452
+iso/iso4217.py,sha256=lcrS-aWX52M8qBtHteiMuZkasNxnEwf3YouFqWSdhIU,179
+iso/utils.py,sha256=yE86vmsbawDhfsMzuJtG6zqEGbv5ejWsPE52AMeMJAk,2073
+iso/data/3166_1.csv,sha256=s-ivQPLgCTkI_y3gsczTOGW5eIi7XZ1A6ommJRzUbSA,6104
+iso/data/3166_2_DO.csv,sha256=AYUaU2cKsrcdWVsm5lz1Lcnf2FrbP4HrzFNZBGkXYyg,1433
+iso/data/4217.csv,sha256=wbkROCriyAgIn02nw0f_lWAsviUfSWbS04RcL3AcBis,9420
+snatsch_iso-0.1.1.dist-info/LICENSE.txt,sha256=Lwh0UUTvGWn-zCP6AEdyDlhLBm__7RtDWdaJDc85OKA,1069
+snatsch_iso-0.1.1.dist-info/METADATA,sha256=fvv6MBQMvviMnxLku8yu3kMGTneaWFTUwI2hcerDtnM,6859
+snatsch_iso-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+snatsch_iso-0.1.1.dist-info/top_level.txt,sha256=U_c_F-iPgsTDYLHii5n8s6ahJkJgeZMq2RhwJRqFQNY,4
+snatsch_iso-0.1.1.dist-info/RECORD,,
