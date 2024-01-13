@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tc-transform
+Version: 0.1.0
+Summary: 3 transformation functions used in data science. For Turing College.
+Author: Konstantinas Mamonas
+Author-email: k.mamonas@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+
