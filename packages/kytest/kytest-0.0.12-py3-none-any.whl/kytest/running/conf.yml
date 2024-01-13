@@ -1,0 +1,12 @@
+app:
+  auto_start: false
+  device_id: null
+  pkg_name: null
+common:
+  base_url: null
+  headers: null
+  ocr_service: null
+  platform: null
+web:
+  browser_name: null
+  headless: false
