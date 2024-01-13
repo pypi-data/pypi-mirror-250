@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: build-vocabulary
+Version: 0.1.2
+Summary: This program is capable of splitting English text into individual words and can focus on learning unfamiliar words through its filtering feature..
+Home-page: https://gitee.com/gfanqi/build_vocabulary
+Author: gfanqi
+Author-email: gfanqi@qq.com
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: nltk (>=3.8.1)
+
