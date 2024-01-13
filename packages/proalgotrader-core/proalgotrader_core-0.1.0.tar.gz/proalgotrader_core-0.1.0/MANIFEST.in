@@ -1,0 +1,2 @@
+recursive-exclude proalgotrader_core/ *.py
+recursive-include proalgotrader_core/ __init__.py
