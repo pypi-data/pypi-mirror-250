@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+wave_rover_serial.egg-info/PKG-INFO
+wave_rover_serial.egg-info/SOURCES.txt
+wave_rover_serial.egg-info/dependency_links.txt
+wave_rover_serial.egg-info/requires.txt
+wave_rover_serial.egg-info/top_level.txt
