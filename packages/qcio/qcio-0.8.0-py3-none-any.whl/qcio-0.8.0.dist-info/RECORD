@@ -1,0 +1,16 @@
+qcio/__init__.py,sha256=rJi-rnDcifhV9d15MxwXkz4YOeq_BVSDmC7K1El-ZGw,614
+qcio/constants.py,sha256=1TcauD22hXsxa5sWMOACSksviP9HaBHECUPIrQZwrhI,89
+qcio/helper_types.py,sha256=T_3b3lBmDSBXf5_yBZ2eVZAImPRHR8FtSFNkcAWHGsE,748
+qcio/models/__init__.py,sha256=OsrdGvUOhafvU8_rXc36tLcTRmh3pXFb-907ZHDhkUk,235
+qcio/models/base_models.py,sha256=xfVeOzuZsnWv9SWKT5gJAIJn3-oEhytqC34m4W_QEOY,8647
+qcio/models/inputs.py,sha256=fOV8Q79j55FZ8PE2NrguI3kMCozZBIHJeRZmD24h4cA,3033
+qcio/models/inputs_base.py,sha256=ZjY3pcb83psROA8-Q5ZkwF-RYLwNfLtPzlaebU3FdIQ,2799
+qcio/models/molecule.py,sha256=r_FqW7lEtd4GK89loJjCAxDXeAnWmDZ5kXUDDan7bZE,9122
+qcio/models/outputs.py,sha256=8Dr1QIN0DFl-59s1Of2J6VS4pk-Dgk9DpcsR1Lq0Kj4,10300
+qcio/models/outputs_base.py,sha256=Hw-vpf6xcy0b8CDzfYPnHYxypeD5JXwp5Q2YeGU5CXs,1935
+qcio/qcel.py,sha256=J26pq5zoLOwDDc_IBv5qkNmNUDK5V2JwHAEmcjkcDHo,4513
+qcio/utils.py,sha256=Ik4lMam8xC-ifKBFUopbEYNdc4n4H5YRLTZ-iuceSFc,1142
+qcio-0.8.0.dist-info/LICENSE,sha256=2U6Q_LesW51Jy-va7TZUineBanmxGyBUvxMUTMbgbRk,1079
+qcio-0.8.0.dist-info/METADATA,sha256=E5Uj9-1EaiewUgBESMQGjaJmLtjyCPCkd8vZCZ4WN_4,8308
+qcio-0.8.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+qcio-0.8.0.dist-info/RECORD,,
