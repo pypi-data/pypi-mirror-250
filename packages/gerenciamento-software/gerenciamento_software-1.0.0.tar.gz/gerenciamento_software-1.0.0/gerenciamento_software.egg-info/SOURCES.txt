@@ -1,0 +1,13 @@
+LICENCE
+README.md
+setup.py
+gerenciamento_software/__init__.py
+gerenciamento_software/decorators.py
+gerenciamento_software/geral.py
+gerenciamento_software/sql.py
+gerenciamento_software/tipagem.py
+gerenciamento_software.egg-info/PKG-INFO
+gerenciamento_software.egg-info/SOURCES.txt
+gerenciamento_software.egg-info/dependency_links.txt
+gerenciamento_software.egg-info/requires.txt
+gerenciamento_software.egg-info/top_level.txt
