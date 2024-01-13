@@ -1,0 +1,2 @@
+[console_scripts]
+rosimg2mp4 = rosimg2mp4.main:main
