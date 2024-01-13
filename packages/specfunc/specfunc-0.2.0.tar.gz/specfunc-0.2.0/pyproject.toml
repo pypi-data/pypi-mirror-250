@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "specfunc"
+version = "0.2.0"
+description = "Python wrapper around Fortran codes for special functions."
+authors = ["Alex <adrysdale@protonmail.com>"]
+license = "GPLv3-or-above"
+readme = "README.md"
+include = [
+        { path = "src/special_functions.so" },
+        { path = "src/special_functions.f90" },
+        { path = "src/pylib.f90" },
+        { path = "src/Makefile" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.3"
+
+
+[tool.poetry.group.dev.dependencies]
+scipy = "^1.11.4"
+mpmath = "^1.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: specfunc
+Version: 0.2.0
+Summary: Python wrapper around Fortran codes for special functions.
+License: GPLv3-or-above
+Author: Alex
+Author-email: adrysdale@protonmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# SPECial FUNCtions
+
+This library provides a thin Python wrapper around the brilliant Fortran codes developed by Shanjie Zhang, Jianming Jin and John Burkardt.
+
+The original Fortran 77 routines where developed by Shanjie Zhang and Jianming Jin:
+
+```
+Shanjie Zhang, Jianming Jin,
+Computation of Special Functions,
+Wiley, 1996,
+ISBN: 0-471-11963-6,
+LC: QA351.C45.
+```
+
+These were then adapted to Fortran 90 by John Burkardt and last modified in 30th of June 2012.
+
+Minor adaptions to the original code were made to allow for interfacing with Python which is done through the `pylib.f90` file.
+
+This is a work in progress and currently I am just porting the routines as and when I need them.
+
+## Motivation
+
+In essence, the special functions provided by Scipy based on C++ code was very unreliable for me and there were a number of open issues for problems I was encountering, so I started from the Fortran codes and made them into a Python library.
+
+## Functions
+
+- `gammaln` :: $\log(\Gamma(x))$
+- `hyp1f1` :: $1F1(a, b, z)$
+- `hyp1f1ln` :: $\log(1F1(a, b, z))$
+
+There are *a lot* of functions and subroutines available in the `special_functions.f90` if there are any other functions that you'd like available raise in an issue.
+
+## Installation
+
+Currently only Linux is supported, if you have the displeasure of using any other operating system then you will need to compile the `special_functions.so` library manually.
+
+If you have `gfortran` installed then this can be done from running:
+
+```bash
+make lib
+```
+
+in the `src/` directory.
+
+### Linux
+
+Via poetry:
+
+```
+poetry add specfunc
+```
+
+or via PyPI:
+
+```
+pip install specfunc
+```
+
+
+## Usage
+
+`specfuncs` is intended to work with numpy arrays and is currently in very early stages of development.
+
+I have no intention in making significant changes but that cannot be guaranteed.
+
+```python
+import numpy as np
+import specfunc as sf
+
+x = np.arange(0, 10).reshape(1, -1) + 1
+lgx = sf.gammaln(x)  # ln(Gamma(x))
+
+a = np.array([1, 10, 10, 100, 12]).reshape(1, -1)
+b = np.array([1, 1, 10, 10, 14]).reshape(1, -1)
+z = np.array([1, 10, 10, 1, 0.4]).reshape(1, -1)
+hgfv = hyp1f1(a, b, z)  # Confluent hypergeometric function
+lhgfv = hyp1f1ln(a, b, z)  # Log of confluent hypergeometric function
+
