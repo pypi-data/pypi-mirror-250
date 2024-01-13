@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streetfood-domain"
+version = "0.1.0"
+description = ""
+authors = ["sazonov-src <sazonov89vit@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streetfood_domain"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.4"
+pydantic = "^2.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
