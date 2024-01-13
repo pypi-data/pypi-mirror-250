@@ -1,0 +1,17 @@
+setup.py
+yatter/__init__.py
+yatter/__main__.py
+yatter/constants.py
+yatter/function.py
+yatter/graph.py
+yatter/mapping.py
+yatter/predicateobject.py
+yatter/source.py
+yatter/subject.py
+yatter/target.py
+yatter/termmap.py
+yatter.egg-info/PKG-INFO
+yatter.egg-info/SOURCES.txt
+yatter.egg-info/dependency_links.txt
+yatter.egg-info/requires.txt
+yatter.egg-info/top_level.txt
