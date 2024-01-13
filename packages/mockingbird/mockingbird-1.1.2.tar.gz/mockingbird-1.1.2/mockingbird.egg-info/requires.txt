@@ -1,0 +1,13 @@
+openpyxl==3.1.2
+RandomWords==0.3.0
+pyyaml==6.0.1
+pyexcel-ods==0.6.0
+python-docx==0.8.11
+requests==2.25.0
+pyarrow==14.0.2
+numpy>=1.19.5
+reportlab==3.6.12
+pandas==1.5.2
+avro==1.11.1
+python-pptx==0.6.21
+pyspark==3.3.1
