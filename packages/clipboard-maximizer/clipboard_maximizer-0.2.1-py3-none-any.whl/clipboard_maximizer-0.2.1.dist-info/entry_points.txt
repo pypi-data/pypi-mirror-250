@@ -1,0 +1,3 @@
+[console_scripts]
+climax=clipboard_maximizer.cli:main
+
