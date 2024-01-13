@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dbt/adapters/conveyorsnowflake/__init__.py
+dbt/adapters/conveyorsnowflake/__version__.py
+dbt/adapters/conveyorsnowflake/connections.py
+dbt/include/conveyorsnowflake/__init__.py
+dbt/include/conveyorsnowflake/dbt_project.yml
+dbt_conveyor_snowflake.egg-info/PKG-INFO
+dbt_conveyor_snowflake.egg-info/SOURCES.txt
+dbt_conveyor_snowflake.egg-info/dependency_links.txt
+dbt_conveyor_snowflake.egg-info/requires.txt
+dbt_conveyor_snowflake.egg-info/top_level.txt
