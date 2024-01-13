@@ -1,0 +1,14 @@
+faery-0.1.1.dist-info/WHEEL,sha256=s5l8NktWcxRr3KRO6WzP1prbOShwC5wtox1x2T_gT5g,106
+faery-0.1.1.dist-info/RECORD,,
+faery-0.1.1.dist-info/entry_points.txt,sha256=e0EPsMvQzBFxdEtdEXK4BDRCCi9Y0Zsns5oAvBODIVg,150
+faery-0.1.1.dist-info/METADATA,sha256=LS2ghkPgymRdoFiG34Ia47UuoW1FZ-iaxSQ_E2_yor0,1117
+faery-0.1.1.dist-info/license_files/LICENSE,sha256=zJBAJgYwrmLCO1Go2X4RRCvxisd-etYASnNHqTwuwKQ,1089
+faery/event_stream.pyi,sha256=oey0lzZutYanv-8RQCaFOGtUkA5_vUn8S8_dqbyqoxo,655
+faery/evt.pyi,sha256=trUP2kOwGc2SGuy1g5SfJSbXfU1NdRxhvhbDG7aLTnY,745
+faery/stream.py,sha256=hYcP_sSorzCMXozRxDj6QiUcwGoHJgzdE8L_koHqlE0,3936
+faery/dat.pyi,sha256=2xBWYFvaur8obq3LNqxRUYEVRQSbU0sXphtjpG7SUFc,779
+faery/aedat.pyi,sha256=5rtfHLN06XOsIklA3Wjdr8gv5-FAbBVo4uXcdTKYgKU,614
+faery/faery.cpython-39-x86_64-linux-gnu.so,sha256=eAPIf-6RONHi5YBf5o0Eh5SGkSKPiGlGaHW1ZT0Jtzk,2636449
+faery/__init__.py,sha256=o6QUy5DY7q7nchG4K9zO5Ch7T5RHoxiOCh6z8G_aEB0,1265
+faery/decoder.py,sha256=qoCqaaTgX0IgxmkMWmTLkBTdTLhhep22jqUZXh1Pzec,11422
+faery.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
