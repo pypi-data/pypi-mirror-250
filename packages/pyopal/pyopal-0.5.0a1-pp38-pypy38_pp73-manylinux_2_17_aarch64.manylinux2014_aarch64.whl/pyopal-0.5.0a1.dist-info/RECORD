@@ -1,0 +1,15 @@
+pyopal-0.5.0a1.dist-info/WHEEL,sha256=ornMdnFCePf5T762-W4jg3Vp2xlIc5DUab1s-rRugeU,164
+pyopal-0.5.0a1.dist-info/RECORD,,
+pyopal-0.5.0a1.dist-info/top_level.txt,sha256=C8WpsJQfyRtUf6LRl-00lXUJB9M6isvpOIFeq1JSpz4,7
+pyopal-0.5.0a1.dist-info/COPYING,sha256=dCmFFHwRyicElehFYZv1GT5BbQ0fh5tOT0PHOfqzYmg,1098
+pyopal-0.5.0a1.dist-info/METADATA,sha256=XzV594aeWGI8PO1h9BUs1Uwn1Y9j0dPkvu4clBv-nXk,10027
+pyopal/_opal.pyi,sha256=A7BMgeZnRW4dAuotLOuaw3BgZrzgcPklzBBC4sHSpsY,3929
+pyopal/_version.py,sha256=c5QpRN5SjskDqDw6GvPjqKBVrorncE3epv-je1O2Ue8,25
+pyopal/__init__.py,sha256=xtGzlQOcvV7hJeJcNCmLuDkaoh3hI54ENlwAs4Jb6ew,712
+pyopal/_opal.pypy38-pp73-aarch64-linux-gnu.so,sha256=CBjB0AdjI7QIJCrYicws1Gc9HhlI5IrMh_CR6r-NvKk,487240
+pyopal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyopal/platform/neon.pypy38-pp73-aarch64-linux-gnu.so,sha256=csusfoppqpJH-DrjhCuh7AGxz7H0G3r4oXK0k2WyffI,143856
+pyopal/tests/test_database.py,sha256=-Bq-kChJfp1HlNmaW9U-NZVbxovb452EK76_TD5vYZQ,3397
+pyopal/tests/__init__.py,sha256=lpDcPV9BrQ_JrGm6MV2msHcBXIbINkF_mqGaTrvEPqU,319
+pyopal/tests/test_doctest.py,sha256=s0itV9-FXo3l8JfYuLn8thwc2DpbOoITwYKUOf6O_DQ,3242
+pyopal/tests/test_search.py,sha256=piB8ycnpb1RlgP2NpDOavmJPltTcMK9akBW0Mw5Ybcc,3934
