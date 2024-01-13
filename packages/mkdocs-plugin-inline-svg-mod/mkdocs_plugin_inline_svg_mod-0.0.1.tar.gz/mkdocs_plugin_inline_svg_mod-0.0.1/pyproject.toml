@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "mkdocs-plugin-inline-svg-mod"
+authors = [{name = "Saurabh Rajguru"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+requires-python = ">=3.8"
+dependencies = [
+    "mkdocs >= 1.3, < 2.0"
+]
+
+[project.urls]
+Home = "https://github.com/rajguru7/mkdocs-plugin-inline-svg-mod"
+
+#dev = ["ruff", "pytest", "pytest-cov", "twine"]
+[project.optional-dependencies]
+dev = ["twine"]
+
+[project.entry-points."mkdocs.plugins"]
+inline-svg = "mkdocs_plugin_inline_svg_mod.plugin:InlineSvgPlugin"
