@@ -1,0 +1,4 @@
+click
+peewee>=3.0.15
+terminaltables
+dateparser
