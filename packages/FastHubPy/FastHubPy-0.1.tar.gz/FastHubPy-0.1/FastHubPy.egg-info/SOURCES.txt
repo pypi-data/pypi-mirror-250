@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+FastHubPy/__init__.py
+FastHubPy.egg-info/PKG-INFO
+FastHubPy.egg-info/SOURCES.txt
+FastHubPy.egg-info/dependency_links.txt
+FastHubPy.egg-info/requires.txt
+FastHubPy.egg-info/top_level.txt
