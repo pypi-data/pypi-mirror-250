@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+VERSION
+pyproject.toml
+pytest.ini
+requirements.in
+.github/workflows/pylint.yml
+.github/workflows/python-publish.yml
+aioartifactory/__init__.py
+aioartifactory.egg-info/PKG-INFO
+aioartifactory.egg-info/SOURCES.txt
+aioartifactory.egg-info/dependency_links.txt
+aioartifactory.egg-info/requires.txt
+aioartifactory.egg-info/top_level.txt

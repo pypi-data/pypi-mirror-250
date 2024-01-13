@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aioartifactory
+Version: 0.0.1
+Summary: Asynchronous Input Output (AIO) Artifactory
+Author: Yan Kuang
+Project-URL: Homepage, https://github.com/YTKme/Python-AIOArtifactory
+Project-URL: Bug Tracker, https://github.com/YTKme/Python-AIOArtifactory/issues
+Keywords: aioartifactory
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: httpx
+Provides-Extra: develop
+Requires-Dist: build; extra == "develop"
+Requires-Dist: coverage; extra == "develop"
+Requires-Dist: pylint; extra == "develop"
+Requires-Dist: pytest; extra == "develop"
+Requires-Dist: twine; extra == "develop"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pylint; extra == "test"
+Requires-Dist: pytest; extra == "test"
+
+# Python Asynchronous Input Output (AIO) Artifactory
+
+Python Asynchronous Input Output (AIO) Artifactory

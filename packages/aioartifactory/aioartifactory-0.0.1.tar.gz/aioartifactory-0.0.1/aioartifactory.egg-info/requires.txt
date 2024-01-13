@@ -1,0 +1,14 @@
+aiohttp
+httpx
+
+[develop]
+build
+coverage
+pylint
+pytest
+twine
+
+[test]
+coverage
+pylint
+pytest
