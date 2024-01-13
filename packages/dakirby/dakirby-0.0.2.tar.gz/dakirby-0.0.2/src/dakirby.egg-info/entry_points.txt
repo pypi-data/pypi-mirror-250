@@ -1,0 +1,2 @@
+[console_scripts]
+dakirby = dakirby.cli:main

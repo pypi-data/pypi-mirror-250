@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dakirby"
+version = "0.0.2"
+requires-python= ">=3.10"
+authors = [
+  {name = "Bryce Willey"}
+]
+description = "A HotDocs / A2J to docassemble converter"
+readme = "README.md"
+keywords = ["docassemble", "a2jauthor", "hotdocs"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Legal Industry",
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+dependencies = [
+  "lxml",
+  "importlib-metadata >= 1.0; python_version < '3.8'",
+]
+
+[project.scripts]
+dakirby = "dakirby.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/BryceStevenWilley/dakirby"
+Repository = "https://github.com/BryceStevenWilley/dakirby.git"
+Issues = "https://github.com/BryceStevenWilley/dakirby/issues"
+
+[tool.setuptools]
+include-package-data = true
