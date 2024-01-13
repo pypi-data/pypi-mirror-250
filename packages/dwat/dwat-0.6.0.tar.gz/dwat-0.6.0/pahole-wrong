@@ -1,0 +1,29 @@
+┌──(jmill@ubun)-[~/repos/dwat-git]
+└─$ pahole raw_spinlock ~/kernel-junk/kernel-dbg/vmlinux
+struct raw_spinlock {
+	arch_spinlock_t            raw_lock;             /*     0     4 */
+
+	/* size: 4, cachelines: 1, members: 1 */
+	/* last cacheline: 4 bytes */
+};
+
+
+┌──(jmill@ubun)-[~/repos/dwat-git]
+└─$ cargo run --release --example=lookup raw_spinlock ~/kernel-junk/kernel-dbg/vmlinux
+   Compiling dwat v0.1.0 (/home/jmill/repos/dwat-git)
+    Finished release [optimized] target(s) in 7.99s
+     Running `target/release/examples/lookup raw_spinlock /home/jmill/kernel-junk/kernel-dbg/vmlinux`
+struct raw_spinlock {
+	arch_spinlock_t raw_lock;                      	/* size:    4 */
+	unsigned int magic;                            	/* size:    4 */
+	unsigned int owner_cpu;                        	/* size:    4 */
+	void *owner;                                   	/* size:    8 */
+}
+
+gef➤  ptype struct raw_spinlock
+type = struct raw_spinlock {
+    arch_spinlock_t raw_lock;
+    unsigned int magic;
+    unsigned int owner_cpu;
+    void *owner;
+};
