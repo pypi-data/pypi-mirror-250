@@ -1,0 +1,3 @@
+[console_scripts]
+pbs=app.main:app
+
