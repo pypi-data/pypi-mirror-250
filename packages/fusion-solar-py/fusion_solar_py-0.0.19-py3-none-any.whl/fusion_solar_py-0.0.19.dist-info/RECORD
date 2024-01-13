@@ -1,0 +1,12 @@
+fusion_solar_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fusion_solar_py/captcha_solver_onnx.py,sha256=4VyM_PLcRQQbZUnuNwCc677_e5uzsLgu4JyoKfojGMc,2021
+fusion_solar_py/client.py,sha256=q1N9Z5PY2COThHVTnIs9EBEKfWDL1RYPjnaeZAG0yro,31833
+fusion_solar_py/constants.py,sha256=e9B3tu-xiA9CJlSoppMELNK8txBE2X8R_OC0S1mAvWA,3008
+fusion_solar_py/ctc_decoder.py,sha256=VNKWNVJaag_UF-XIGmKT9HYvka20F4X9EZ2_z5lmKEQ,3996
+fusion_solar_py/exceptions.py,sha256=CLRMnIDgRWNGBFQYk3c7coahPanh85inwrql1ypjcT4,661
+fusion_solar_py/interfaces.py,sha256=g9yKXcVvQ-qnKdLwm94eDnUFM_5mPMQd-p3chC2IpZ4,542
+fusion_solar_py-0.0.19.dist-info/LICENSE.txt,sha256=VnljCIZaBhckCEkje2FUG3AUtIdi-oE36F9pOZXoYe8,1057
+fusion_solar_py-0.0.19.dist-info/METADATA,sha256=Eft6zc2F5rUQ34CI4mqAlxQ2gXoFoZPjpLCzwKNUAos,14796
+fusion_solar_py-0.0.19.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fusion_solar_py-0.0.19.dist-info/top_level.txt,sha256=q7oWYuWRPFl0ahcgB-hNznVIkUmYooHUJ8eiWSk52ds,16
+fusion_solar_py-0.0.19.dist-info/RECORD,,
