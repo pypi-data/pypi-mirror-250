@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: equationtracer
+Version: 1.1.0
+Summary: Uses Discrete Fourier Transform to Turn Scribbles into Equations!
+Author: Ying Liqian
+Author-email: jamesylq@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Requires-Dist: pygame (>=2.5.2,<3.0.0)
+Requires-Dist: pyperclip (>=1.8.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# What is EquationTracer?
+EquationTracer uses NumPy and Pygame to convert an arbitrary scribble into a parametric equation which you can plot on Graphing Calculators such as Desmos!
+
+## Installation
+This is a guide on how to install EquationTracer.
+>**Note**: You need Python installed on your system, along with either pip or pipx.
+
+If you do not want to use pip or pipx, you can also alternatively clone this git repository.
+
+Linux: `pip install equationtracer`
+
+Mac: `pip3 install equationtracer`
+
+Windows: `pipx install equationtracer`
+
+## Running
+To run the program, type into a command line: `trace-equation`
+
+If you installed the program with pip (instead of pipx) on windows, or if the above command doesn't work, you can also do:
+
+Windows: `py -m equationtracer`
+
+Others: `python3 -m equationtracer`
