@@ -1,0 +1,11 @@
+airflow/providers/microsoft/msgraph/__init__.py,sha256=TLb2a-RS-4jJ8iHWsh0mkRnsUfAzWKKocrv5pzq3rrk,1595
+airflow/providers/microsoft/msgraph/hooks/evaluator.py,sha256=Rxw188VkO6iSj8evKwHwSP7ROx96Wv_cqBu6kbS6thQ,2324
+airflow/providers/microsoft/msgraph/hooks/msgraph.py,sha256=HybXVKUybkQyEx-g7mGqmV2ix3wF-kpKyvtEKyTyQaI,8508
+airflow/providers/microsoft/msgraph/operators/msgraph.py,sha256=oEUNkbgW6RPybTLoV1-B4PKuisMqhYOeLIa1YAclUPg,5790
+airflow/providers/microsoft/msgraph/triggers/msgraph.py,sha256=D-9XUQSHcjbwgUqxvkZoSH_gIDfaq2O2cvQJILO7R_k,7152
+airflow/providers/microsoft/msgraph/triggers/serializer.py,sha256=Jtgiq3sIYHdIkI370uW6WGOYYf_FS8Ca0Xfxi71_qsc,1034
+airflow/providers/microsoft/msgraph/version.py,sha256=JRV4-mFOsLzNBrQve25rf08H_MXmCOJzu4YGu2weOMY,1262
+apache_airflow_providers_msgraph-1.0.1.dist-info/METADATA,sha256=Glu7LKI3xKo1w9b4AOrLWB0QuDziHqj33E3naqwMpqo,4725
+apache_airflow_providers_msgraph-1.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+apache_airflow_providers_msgraph-1.0.1.dist-info/entry_points.txt,sha256=oROafMibUdqab0Dlamfo37PEUVip-OTHlcQmf87prQs,104
+apache_airflow_providers_msgraph-1.0.1.dist-info/RECORD,,
