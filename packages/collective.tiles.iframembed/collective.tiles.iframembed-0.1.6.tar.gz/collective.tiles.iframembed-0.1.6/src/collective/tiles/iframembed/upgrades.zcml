@@ -1,0 +1,16 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+  <!-- -*- extra stuff goes here -*- -->
+  <genericsetup:upgradeStep
+    source="1000"
+    destination="1001"
+    title="Add default valid domains"
+    description=""
+    profile="collective.tiles.iframembed:default"
+    handler=".upgrades.add_default_domains"
+    />
+
+
+</configure>

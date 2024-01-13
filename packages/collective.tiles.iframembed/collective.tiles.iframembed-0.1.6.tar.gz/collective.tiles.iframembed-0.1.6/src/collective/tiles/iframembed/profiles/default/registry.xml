@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<registry>
+  <record name="plone.app.tiles">
+    <value purge="false">
+      <element>collective.tiles.iframembed</element>
+    </value>
+  </record>
+
+  <record name="collective.tiles.iframembed.interfaces.IIFrameEmbedTilesSettings.available_domains" interface="collective.tiles.iframembed.interfaces.IIFrameEmbedTilesSettings" field="available_domains" purge="false">
+    <field type="plone.registry.field.Tuple">
+      <value_type type="plone.registry.field.TextLine" />
+      <default>
+        <element>https://www.facebook.com</element>
+        <element>https://www.youtube.com</element>
+        <element>https://www.regione.emilia-romagna.it</element>
+        <element>https://www2.regione.emilia-romagna.it</element>
+      </default>
+    </field>
+  </record>
+
+
+
+</registry>

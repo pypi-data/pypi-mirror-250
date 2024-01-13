@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<registry>
+  <record name="collective.tiles.iframembed.interfaces.IIFrameEmbedTilesSettings.available_domains" remove="true"/>
+</registry>

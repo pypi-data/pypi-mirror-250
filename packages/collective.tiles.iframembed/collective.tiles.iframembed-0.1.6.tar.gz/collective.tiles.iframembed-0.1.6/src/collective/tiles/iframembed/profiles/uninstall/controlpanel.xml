@@ -1,0 +1,3 @@
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n" name="portal_controlpanel" i18n:domain="collective.tiles.iframembed">
+  <configlet title="Rimozione tiles iframe embed" action_id="tiles-iframembed-settings" appId="collective.tiles.iframembed" remove="true"></configlet>
+</object>

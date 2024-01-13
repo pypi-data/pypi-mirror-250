@@ -1,0 +1,10 @@
+plone.api
+setuptools
+z3c.jbot
+plone.app.tiles
+
+[test]
+plone.app.tiles
+plone.app.testing
+plone.app.contenttypes
+plone.app.robotframework[debug]

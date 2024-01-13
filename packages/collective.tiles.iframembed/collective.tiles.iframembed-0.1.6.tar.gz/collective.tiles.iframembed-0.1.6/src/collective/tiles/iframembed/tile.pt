@@ -1,0 +1,33 @@
+<div tal:attributes="class view/data/title"
+    tal:define="title view/data/title|nothing;
+                ">
+
+    <div class="tile-text"
+         tal:define="title view/data/title|nothing;
+                     show_title view/data/show_title|nothing;
+                     width view/data/width|nothing;
+                     height view/data/height|nothing;
+                     frameborder view/data/frameborder|nothing;
+                     allowfullscreen view/data/allowfullscreen|nothing;
+                     scrolling view/data/scrolling|nothing;
+                     allowTransparency view/data/allowTransparency|nothing;
+                     style view/data/style|nothing;
+                     url view/data/url_to_embed;
+                     is_iframe_url_valid view/iframe_validation;
+                     full_url view/eval_query_string;">
+
+       <h2 class="tileTitle"
+            tal:condition="show_title">
+            <span tal:content="title">Tile title</span>
+      </h2>
+      <iframe tal:condition="is_iframe_url_valid" src="${full_url}" width="${width}" height="${height}"
+        frameborder="${frameborder}" allowfullscreen="${allowfullscreen}"
+        scrolling="${scrolling}" allowTransparency="${allowTransparency}"
+        style="${style}">
+      </iframe>
+
+      <iframe tal:condition="python:not is_iframe_url_valid" src="" scrolling="no">
+      </iframe>
+    </div>
+
+</div>

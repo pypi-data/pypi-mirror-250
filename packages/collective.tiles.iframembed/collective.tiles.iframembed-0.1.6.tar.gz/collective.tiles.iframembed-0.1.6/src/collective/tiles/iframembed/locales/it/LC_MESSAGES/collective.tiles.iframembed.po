@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-08-31 13:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ../configure.zcml:74
+msgid "A tile to embed only iframe for specific domains"
+msgstr ""
+
+#: ../interfaces.py:72
+msgid "Allowed domains"
+msgstr "Domini consentiti"
+
+#: ../profiles/default/controlpanel.xml
+msgid "IFrame Embed Tile Settings"
+msgstr "Configurazione Tile iframe"
+
+#: ../configure.zcml:74
+msgid "IFrame Embed tile"
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "Installs the collective.tiles.iframembed add-on."
+msgstr ""
+
+#: ../interfaces.py:73
+msgid "One value for row"
+msgstr "Un valore per riga"
+
+#: ../configure.zcml:45
+msgid "Uninstalls the collective.tiles.iframembed add-on."
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "collective.tiles.iframembed"
+msgstr ""
+
+#. Default: "Show tile title"
+#: ../interfaces.py:23
+msgid "label_show_tile"
+msgstr "Mostra il titolo della tile"
+
+#. Default: "allowTransparency"
+#: ../interfaces.py:64
+msgid "label_tile_allowTransparency"
+msgstr ""
+
+#. Default: "allowfullscreen"
+#: ../interfaces.py:49
+msgid "label_tile_allowfullscreen"
+msgstr ""
+
+#. Default: "frameborder"
+#: ../interfaces.py:44
+msgid "label_tile_frameborder"
+msgstr ""
+
+#. Default: "height"
+#: ../interfaces.py:39
+msgid "label_tile_heigth"
+msgstr ""
+
+#. Default: "scrolling"
+#: ../interfaces.py:59
+msgid "label_tile_scrolling"
+msgstr ""
+
+#. Default: "style"
+#: ../interfaces.py:54
+msgid "label_tile_style"
+msgstr ""
+
+#. Default: "Tile title"
+#: ../interfaces.py:18
+msgid "label_tile_title"
+msgstr "Titolo"
+
+#. Default: "width"
+#: ../interfaces.py:34
+msgid "label_tile_width"
+msgstr ""
+
+#. Default: "Url to embed"
+#: ../interfaces.py:29
+msgid "label_url_to_embed"
+msgstr "Url da incorporare"
+
+#. Default: "IFrame Embed Tile Settings"
+#: ../browser/controlpanel.py:11
+msgid "tiles_iframembed_settings_label"
+msgstr "Configurazione Tile iframe"

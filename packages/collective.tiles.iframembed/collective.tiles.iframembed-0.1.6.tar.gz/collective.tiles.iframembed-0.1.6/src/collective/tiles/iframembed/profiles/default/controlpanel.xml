@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<object name="portal_controlpanel"
+        xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        i18n:domain="collective.tiles.iframembed">
+
+    <configlet
+        title="IFrame Embed Tile Settings"
+        action_id="tiles-iframembed-settings"
+        appId="collective.tiles.iframembed"
+        category="Products"
+        condition_expr=""
+        icon_expr=""
+        url_expr="string:${portal_url}/@@tiles-iframembed-settings"
+        visible="True"
+        i18n:attributes="title">
+            <permission>tiles.iframembed.management.ManageSettings</permission>
+    </configlet>
+
+</object>
