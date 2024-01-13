@@ -1,0 +1,14 @@
+pyproject.toml
+setup.py
+core/__init__.cpp
+core/main.cpp
+core/run.cpp
+core/hello/__init__.cpp
+core/hello/test.cpp
+proalgotrader_core.egg-info/PKG-INFO
+proalgotrader_core.egg-info/SOURCES.txt
+proalgotrader_core.egg-info/dependency_links.txt
+proalgotrader_core.egg-info/requires.txt
+proalgotrader_core.egg-info/top_level.txt
+project/__init__.cpp
+project/strategy.cpp
