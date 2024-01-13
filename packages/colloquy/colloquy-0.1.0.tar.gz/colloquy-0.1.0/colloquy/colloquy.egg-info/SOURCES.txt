@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+colloquy/colloquy.egg-info/PKG-INFO
+colloquy/colloquy.egg-info/SOURCES.txt
+colloquy/colloquy.egg-info/dependency_links.txt
+colloquy/colloquy.egg-info/top_level.txt

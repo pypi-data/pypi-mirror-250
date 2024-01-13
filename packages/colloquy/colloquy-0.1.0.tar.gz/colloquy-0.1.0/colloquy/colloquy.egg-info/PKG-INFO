@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: colloquy
+Version: 0.1.0
+Summary: A package to faciliate conversations with LLMs
+Home-page: https://github.com/benwhalley/conversation
+Author: Your Name
+Author-email: benwhalley@gmail.com
+Project-URL: Bug Tracker, https://github.com/benwhalley/conversation/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Colloquy
+
+A library to script converations with LLMs using markdown.
