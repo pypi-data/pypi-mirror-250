@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tidbvec
+Version: 0.0.1
+Summary: 
+Author: IANTHEREAL
+Author-email: argregoryian@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Requires-Dist: sqlalchemy (>=2.0.25,<3.0.0)
+Description-Content-Type: text/markdown
+
+# tidb_vector_python
