@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: agent-desk
+Version: 0.1.5
+Summary: A desktop for AI agents
+License: Apache 2.0
+Author: Patrick Barker
+Author-email: patrickbarkerco@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: agent-tool (>=0.1.3,<0.2.0)
+Requires-Dist: google-cloud-storage (>=2.14.0,<3.0.0)
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Agent Desk
+
+A desktop for AI agents.
+
+Agent Desk utilizes [agentd](https://github.com/AgentSea/agentd) to make desktop VMs accessible to AI agents.
+
+Agent Desk implements the [AgentToolsV1 protocol](https://github.com/AgentSea/agent-tools)
+
+## Installation
+
+```
+pip install agent-desk
+```
+
+## Usage
+
