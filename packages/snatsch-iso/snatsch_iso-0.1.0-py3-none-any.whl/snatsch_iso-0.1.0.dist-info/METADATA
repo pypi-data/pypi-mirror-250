@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: snatsch-iso
+Version: 0.1.0
+Summary: ISO 3166_1 and 4217 standards
+Author: Victor Natschke
+Author-email: vnatschke@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE.txt
+
