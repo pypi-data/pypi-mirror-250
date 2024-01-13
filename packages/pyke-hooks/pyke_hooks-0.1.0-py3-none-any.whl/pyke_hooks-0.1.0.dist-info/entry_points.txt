@@ -1,0 +1,3 @@
+[console_scripts]
+atlantis-yaml-generate=pyke_hooks.atlantis_yaml_generate:main
+
