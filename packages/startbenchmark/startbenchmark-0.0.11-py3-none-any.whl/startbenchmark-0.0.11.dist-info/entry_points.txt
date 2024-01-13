@@ -1,0 +1,3 @@
+[console_scripts]
+startbenchmark=startbenchmark.__main__:cli
+
