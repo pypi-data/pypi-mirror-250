@@ -1,0 +1,12 @@
+numpy
+scipy
+netCDF4
+matplotlib
+pooch
+cftime
+fsspec
+s3fs
+open_radar_data
+xradar
+pandas
+xarray!=0.21.0
