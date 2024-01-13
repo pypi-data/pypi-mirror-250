@@ -1,0 +1,3 @@
+[console_scripts]
+standup_face_recognition = standup_face_recognition.main:main
+
