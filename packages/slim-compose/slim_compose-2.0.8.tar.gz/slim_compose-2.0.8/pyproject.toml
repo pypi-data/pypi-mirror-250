@@ -1,0 +1,39 @@
+[project]
+name = "slim-compose"
+version = "2.0.8"
+description = "Simple management tool for podman pods, pure Python, no third-party dependencies."
+authors = [
+    { name = "xfoobar", email = "" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: Implementation",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+slim-compose = "slim_compose.main:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "isort>=5.13.2",
+    "autopep8>=2.0.4",
+]
+
+[tool.pdm.build]
+excludes = [
+    "tests",
+]

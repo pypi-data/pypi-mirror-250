@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: slim-compose
+Version: 2.0.8
+Summary: Simple management tool for podman pods, pure Python, no third-party dependencies.
+Author: xfoobar
+License: MIT
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: Implementation
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# slim-compose
+Simple management tool for podman pods, pure Python, no third-party dependencies.
+
+## requirements
+- Podman 4.x (network backend: netavark)
+- Python 3.10
+
+
+## install
+```
+pipx install slim-compose
+```
+
+## usage
+```sh
+# create config file
+slim-compose template
+# edit config file
+vim slim-compose-template.json
+# rename config file
+mv slim-compose-template.json slim-compose.json
+# deploy pod
+slim-compose up
+# stop pod
+slim-compose stop
+# destroy pod
+slim-compose down
+# help
+slim-compose -h
+```
