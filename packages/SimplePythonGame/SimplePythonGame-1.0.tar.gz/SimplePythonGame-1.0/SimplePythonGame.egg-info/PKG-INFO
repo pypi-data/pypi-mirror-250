@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: SimplePythonGame
+Version: 1.0
+Summary: A Simple Python Game!
+Home-page: https://github.com/SForces/TimePrint
+Author: Osman TUNA
+Author-email: osmntn08@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# EN
+## This project is a simple game module for Python, listed below are the games and their features.
+
+### 1) Number Guessing Game:
+* Ability to choose the range of the generated number <br>
+* Ability to choose the number of lives
