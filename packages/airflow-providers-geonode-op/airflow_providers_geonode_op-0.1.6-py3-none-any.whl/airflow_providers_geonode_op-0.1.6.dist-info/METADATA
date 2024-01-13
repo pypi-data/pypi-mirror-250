@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: airflow-providers-geonode-op
+Version: 0.1.6
+Summary: Custom GeoNode Operator for Apache Airflow
+Home-page: UNKNOWN
+Author: Kan Territory & IT
+Author-email: develop@kan-gl.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: apache-airflow
+
+<h1 align="center"> GeoNode Airflow Provider </h1>
+
+<h3 align="center"> Provider that allows to execute GeoNode tasks and GeoProcess from Apache Airflow </h3>
+
+<br>
+
+<h4>This providers contains a operator that allows you to do the follows process:</h4>
+
+* Update layer
+* Upload map
+* Upload document
+* Upload metadata
+* Publish a layer
+* Update layer style
+* Set permiss
+
+<h4>Each process has different arguments that must to be pass it depending on the task to execute</h4>
+
+<h4>Next, we will show examples of how each task should be executed within a DAG and what and how the arguments should be provided.</h4>
+
+<h3>Update layer</h3>
+
+```
+update_layer_task = GeoNodeOperator(
+
+)
+```
+
+<h3>Upload map</h3>
+
+```
+upload_map_task = GeoNodeOperator(
+
+)
+```
+
+<h3>Upload document</h3>
+
+```
+upload_document_task = GeoNodeOperator(
+    task_id='upload_document_task',
+    user='{geonode_user}',
+    password='{geonode_password}',
+    base_url='{geonode_base_url}',
+    document_path='{absolute_file_location_path}',
+    document_title='{document_title}',
+    method='upload_document',
+    dag=dag,
+)
+```
+
+<h3>Upload metadata</h3>
+
+```
+upload_metadata_task = GeoNodeOperator(
+
+)
+```
+
+<h3>Publish a layer</h3>
+
+```
+publish_layer_task = GeoNodeOperator(
+
+)
+```
+
+<h3>Update layer style</h3>
+
+```
+update_style_task = GeoNodeOperator(
+
+)
+```
+
+<h3>Set permiss</h3>
+
+```
+set_permiss_task = GeoNodeOperator(
+
+)
+```
+
