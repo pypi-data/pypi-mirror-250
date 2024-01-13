@@ -1,0 +1,408 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "modeler",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "_ipfsChallenge",
+        "type": "string"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "submitter",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "round",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "randomness",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "previous_signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct DataTypes.DrandProof",
+        "name": "_proof",
+        "type": "tuple"
+      }
+    ],
+    "name": "ZKMLChallengeModeler",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "addStakeToModeler",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "addStakeToValidator",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_validator",
+        "type": "address"
+      }
+    ],
+    "name": "emergencyOptOutValidator",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_ipfsChallenge",
+        "type": "string"
+      },
+      {
+        "internalType": "address",
+        "name": "_modeler",
+        "type": "address"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "submitter",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "round",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "randomness",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "previous_signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct DataTypes.DrandProof",
+        "name": "_proof",
+        "type": "tuple"
+      }
+    ],
+    "name": "giveChallengeToModeler",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_competitionContract",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IERC20",
+        "name": "_validatorToken",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_validatorStakeAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_maxValidators",
+        "type": "uint256"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_validator",
+        "type": "address"
+      }
+    ],
+    "name": "isValidator",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "modeler",
+        "type": "address"
+      }
+    ],
+    "name": "kickModeler",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "optInModeler",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "optInValidator",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "optOutModeler",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "optOutValidator",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "modeler",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "_ipfsGraded",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_performanceResult",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "_ipfsGradeDetailLink",
+        "type": "string"
+      },
+      {
+        "internalType": "bool",
+        "name": "modelerPassed",
+        "type": "bool"
+      }
+    ],
+    "name": "postGraded",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_modeler",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "_modelCommitment",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_stakedAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "registerModeler",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "registerValidator",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "oldModelerIndex",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "oldModeler",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "modeler",
+        "type": "address"
+      }
+    ],
+    "name": "replaceOptOutTopNModeler",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_validator",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "_ipfsResponse",
+        "type": "string"
+      }
+    ],
+    "name": "respondToChallenge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_validator",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "_ipfsResponse",
+        "type": "string"
+      }
+    ],
+    "name": "respondToZKMLChallenge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_ipfsTestingDataset",
+        "type": "string"
+      }
+    ],
+    "name": "setIPFSDataSet",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "modeler",
+        "type": "address"
+      }
+    ],
+    "name": "setModelerNetPerformanceResultAndUpdate",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_modeler",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_futureRandSlot",
+        "type": "uint256"
+      }
+    ],
+    "name": "setNextRandSlot",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_modelCommitment",
+        "type": "string"
+      }
+    ],
+    "name": "updateModel",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
