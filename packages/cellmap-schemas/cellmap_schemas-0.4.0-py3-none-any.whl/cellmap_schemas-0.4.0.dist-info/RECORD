@@ -1,0 +1,14 @@
+cellmap_schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cellmap_schemas/annotation.py,sha256=VGwIE7ZPZZHH3ftw6W-gM8xRQUx6UBSQtZAScZyqJHQ,15006
+cellmap_schemas/base.py,sha256=5f0DPQ9NfbY5c1Zm_WTP1G7WpwCQixO-lE81eTri4MM,1521
+cellmap_schemas/cli.py,sha256=XrHvCkGzIoV-XA1vytlRoB99az4z240vHZA456P93a4,4239
+cellmap_schemas/multiscale/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cellmap_schemas/multiscale/cosem.py,sha256=oEgCfSerd0krZXd2Zlh_NZIW8QwM1VTOTwbWq12WkeU,20923
+cellmap_schemas/multiscale/neuroglancer_n5.py,sha256=yH-QNo3C7oZDmxlOj8ONjSgrRfpGobV32ny_tNz4EgM,8645
+cellmap_schemas/n5_wrap.py,sha256=d3vfUDVr_6Q6dVeMyZ1m7I9lZuQS7RQnZXFFNU6we10,10524
+cellmap_schemas/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cellmap_schemas-0.4.0.dist-info/LICENSE,sha256=GypaXv-WNch3Dhm4_HxwJagHJ_YxvYRkFcW19P7rORI,1466
+cellmap_schemas-0.4.0.dist-info/METADATA,sha256=jCMj7u6xevlKFuYPNVKXROO53Xky0yCYjkej-793Sb8,785
+cellmap_schemas-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cellmap_schemas-0.4.0.dist-info/entry_points.txt,sha256=3BesSgIfQK2MR8OY5zOqezKPtitNIevMlwbdlWTEHGw,59
+cellmap_schemas-0.4.0.dist-info/RECORD,,
