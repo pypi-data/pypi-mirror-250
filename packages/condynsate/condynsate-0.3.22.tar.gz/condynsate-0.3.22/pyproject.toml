@@ -1,0 +1,60 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "condynsate"
+version = "0.3.22"
+description = "Simulates and visualizes articulated systems in real time"
+readme = "README.md"
+authors = [{ name = "Grayson Schaer", email = "gschaer2@illinois.edu" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+    "Natural Language :: English", 
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Topic :: Education :: Computer Aided Instruction (CAI)",
+    "Topic :: Scientific/Engineering :: Visualization"
+]
+keywords = [
+    "dynamic",
+    "system",
+    "control",
+    "visualization",
+    "simulation",
+    "articulated",
+    "education",
+    "pybullet",
+    "meshcat",
+    "matplotlib"
+]
+dependencies = [
+    "numpy >= 1.24.3",
+    "pynput >= 1.7.6",
+    "matplotlib >= 3.7.1",
+    "pybullet >= 3.2.5",
+    "meshcat >= 0.3.2",
+    "PyQt5 >= 5.15.10",
+
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+edu = [    
+    "control >= 0.9.4",
+    "sympy >= 1.12",
+    "spyder >= 5.5.0",
+    "notebook >= 7.0.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/GrayKS3248/condynsate"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.*"]
