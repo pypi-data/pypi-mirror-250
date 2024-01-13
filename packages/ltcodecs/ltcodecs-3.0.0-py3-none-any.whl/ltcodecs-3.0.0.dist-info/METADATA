@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ltcodecs
+Version: 3.0.0
+Summary: LT Codecs
+Home-page: https://git.whoi.edu/acomms/ltcodec/
+Author: whoi
+Author-email: egallimore@whoi.edu
+Project-URL: Bug Tracker, https://git.whoi.edu/acomms/ltcodec/
+Project-URL: Documentation, https://acomms.pages.whoi.edu/ltcodec/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LT Codecs
+
+ [![pipeline status](https://git.whoi.edu/acomms/ltcodec/badges/master/pipeline.svg)](https://git.whoi.edu/acomms/ltcodec/-/commits/master) 
+ [![coverage report](https://git.whoi.edu/acomms/ltcodec/badges/master/coverage.svg)](https://git.whoi.edu/acomms/ltcodec/-/commits/master) 
+ [![Latest Release](https://git.whoi.edu/acomms/ltcodec/-/badges/release.svg)](https://git.whoi.edu/acomms/ltcodec/-/releases) 
+
+Flexible, lightweight codec system for transferring messages over acoustic and other low-throughput links.
+
+See the documentation for more information: https://acomms.pages.whoi.edu/ltcodec/
+
+Install from Pypi via `pip install ltcodecs`
