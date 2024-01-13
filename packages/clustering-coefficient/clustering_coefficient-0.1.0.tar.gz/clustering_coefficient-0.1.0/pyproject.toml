@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "clustering-coefficient"
+version = "0.1.0"
+description = "Computes the clustering coefficient of nodes as defined by Watts & Strogatz (in their 1998 paper)."
+authors = ["Guy <guywiz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tulip-python = "^5.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
