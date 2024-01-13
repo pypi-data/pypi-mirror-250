@@ -1,0 +1,47 @@
+external_api:
+  mockaroo_api:
+    csv_endpoint: 'https://api.mockaroo.com/api/generate.csv'
+    row_count: 100
+
+base_document:
+  upper_bounds_delta: 15
+
+# configurable settings for csv, json, ods.. etc
+base_structured_data:
+  pandas_document:
+    chunk_size: 100000
+
+  dictionary_range: [ 4,50 ]
+  entries_range: [ 50,150 ]
+
+structured_data:
+  xlsx_document:
+    active_styles:
+      pandas_xlsx_writer: True
+      openpyxl: True
+
+
+# configurable settings for any latex derived document (docx, pdf, etc)
+unstructured_data:
+  docx_document:
+    active_styles:
+      paragraph_style: True
+      footer_style: True
+      bullet_point_style: True
+      chat_style: True
+
+  txt_document:
+    active_styles:
+      paragraph_style: True
+      bullet_point_style: True
+      chat_style: True
+
+  pptx_document:
+    active_styles:
+      paragraph_style: True
+      bullet_point_style: True
+
+  pdf_document:
+    active_styles:
+      paragraph_style: True
+      chat_style: True
