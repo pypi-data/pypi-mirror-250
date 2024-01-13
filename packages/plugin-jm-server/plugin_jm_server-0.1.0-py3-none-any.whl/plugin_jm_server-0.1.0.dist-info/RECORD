@@ -1,0 +1,8 @@
+plugin_jm_server/__init__.py,sha256=JATfJ_2L6Zqa7Bmr0dTS_UwrtvyFe95ZkErcNqVkUCs,42
+plugin_jm_server/app.py,sha256=UTm-nzaaPwnA151pHEdq0sM-KgkA2IprmSJi2fRjguM,6787
+plugin_jm_server/driver.py,sha256=sWpFjS_kG5IpYD9kqKFuVayQJjsu8GelQ7othR0KzZA,1081
+plugin_jm_server/files.py,sha256=LlSneXjvBYNlfcHqSbNLnHWWgkTYerhv6rO6pnhoUKo,3268
+plugin_jm_server-0.1.0.dist-info/METADATA,sha256=ZPDkc-LRy71Rv782aMuEUIPARB_8rlOeaZOWHngwjzI,1142
+plugin_jm_server-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+plugin_jm_server-0.1.0.dist-info/top_level.txt,sha256=FZ81r1OLOEzo0e7Ahgqw23gmcIeCsZ1XVtFHFDKTSak,17
+plugin_jm_server-0.1.0.dist-info/RECORD,,
