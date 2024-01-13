@@ -1,0 +1,89 @@
+# https://python-poetry.org/docs/pyproject
+# minimal required information
+
+[tool.poetry]
+name = "dcmri"
+version = "0.6.2"
+description = "Tools for dynamic contrast magnetic resonance imaging"
+authors = ["Ebony Gunwhy <e.gunwhy@sheffield.ac.uk>", "Steven Sourbron <s.sourbron@sheffield.ac.uk>"]
+readme = "README.md"
+packages = [{include = "dcmri", from = "src"}]
+
+# optional information
+license = "Apache-2.0"
+classifiers = [
+  # How mature is this project? Common values are
+  #   3 - Alpha
+  #   4 - Beta
+  #   5 - Production/Stable
+  'Development Status :: 3 - Alpha',
+
+  # Indicate who your project is intended for
+  'Intended Audience :: Developers',
+  'Intended Audience :: Science/Research',
+  'Topic :: Scientific/Engineering',
+  'Operating System :: OS Independent',
+
+  'License :: OSI Approved :: Apache Software License',
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3"
+]
+keywords = ['python', "medical imaging", "perfusion", "MRI"]
+
+[project.urls]
+"Homepage" = "https://qib-sheffield.github.io/dcmri"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "1.22.4"
+scipy = "^1.11.4"
+
+[tool.poetry.group.dev.dependencies]
+bumpver = "^2023.1129"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^6.2.5"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = ">=6,<8"
+matplotlib = "^3.8.2"
+autodocsumm = "^0.2.11"
+docutils = "^0.20.1"
+myst-parser = "^2.0.0"
+pydata-sphinx-theme = "^0.14.4"
+sphinx-copybutton = "^0.5.2"
+sphinx-design = "^0.5.0"
+#sphinx-remove-toctrees = "^0.0.3"
+sphinxcontrib-applehelp = "^1.0.7"
+sphinxcontrib-devhelp = "^1.0.5"
+sphinxcontrib-htmlhelp = "^2.0.4"
+sphinxcontrib-jsmath = "^1.0.1"
+sphinxcontrib-qthelp = "^1.0.6"
+sphinxcontrib-serializinghtml = "^1.1.9"
+sphinx-gallery = "^0.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.bumpver]
+current_version = "0.6.2"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"'
+]
+"src/dcmri/__init__.py" = ["{version}"]
+"tests/test_dcmri.py" = ["{version}"]
+#"docs/source/conf.py" = ['release = "{version}"']
