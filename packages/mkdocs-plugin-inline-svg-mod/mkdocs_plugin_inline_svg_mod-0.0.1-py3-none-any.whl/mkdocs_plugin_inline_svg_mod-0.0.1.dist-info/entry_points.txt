@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+inline-svg=mkdocs_plugin_inline_svg_mod.plugin:InlineSvgPlugin
+
