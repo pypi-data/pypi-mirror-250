@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+zpgs/__cls_pgs_conn__.py
+zpgs/__init__.py
+zsqlite.egg-info/PKG-INFO
+zsqlite.egg-info/SOURCES.txt
+zsqlite.egg-info/dependency_links.txt
+zsqlite.egg-info/top_level.txt
