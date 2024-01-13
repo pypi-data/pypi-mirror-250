@@ -1,0 +1,2 @@
+[console_scripts]
+op-tools = onepassword_tools.__main__:start
