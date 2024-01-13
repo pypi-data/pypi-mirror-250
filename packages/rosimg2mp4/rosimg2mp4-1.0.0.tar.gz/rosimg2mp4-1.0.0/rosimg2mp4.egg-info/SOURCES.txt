@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+.vscode/launch.json
+rosimg2mp4/__init__.py
+rosimg2mp4/_version.py
+rosimg2mp4/main.py
+rosimg2mp4.egg-info/PKG-INFO
+rosimg2mp4.egg-info/SOURCES.txt
+rosimg2mp4.egg-info/dependency_links.txt
+rosimg2mp4.egg-info/entry_points.txt
+rosimg2mp4.egg-info/requires.txt
+rosimg2mp4.egg-info/top_level.txt
