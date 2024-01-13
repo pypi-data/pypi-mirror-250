@@ -1,0 +1,2 @@
+from .twomoons import TwoMoonsDataModule
+from .eight_gaussians import EightGaussiansDataModule

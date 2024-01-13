@@ -1,0 +1,13 @@
+numpy
+torch
+torchvision
+matplotlib
+tqdm
+lightning
+lightning-bolts
+torchcfm
+torchdyn
+nflows
+scipy
+scikit-learn
+wandb
