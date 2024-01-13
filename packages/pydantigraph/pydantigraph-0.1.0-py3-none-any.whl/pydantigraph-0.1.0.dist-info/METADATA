@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pydantigraph
+Version: 0.1.0
+Summary: Graph models for pydantic with pyoxigraph
+Home-page: https://github.com/p2p-ld/pydantigraph
+License: GPL-3.0
+Author: sneakers-the-rat
+Author-email: sneakers-the-rat@protonmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Provides-Extra: tests
+Requires-Dist: autodoc-pydantic (>=2.0.1,<3.0.0) ; extra == "docs"
+Requires-Dist: furo (>=2023.9.10,<2024.0.0) ; extra == "docs"
+Requires-Dist: myst-parser (>=2.0.0,<3.0.0) ; extra == "docs"
+Requires-Dist: pydantic (>=2.5.3,<3.0.0)
+Requires-Dist: pyoxigraph (>=0.3.22,<0.4.0)
+Requires-Dist: pytest (>=7.4.4,<8.0.0) ; extra == "tests"
+Requires-Dist: rdflib (>=7.0.0,<8.0.0)
+Requires-Dist: sphinx (>=7.2.6,<8.0.0) ; extra == "docs"
+Requires-Dist: sphinx-autobuild (>=2021.3.14,<2022.0.0) ; extra == "docs"
+Requires-Dist: sphinx-design (>=0.5.0,<0.6.0) ; extra == "docs"
+Project-URL: Repository, https://github.com/p2p-ld/pydantigraph
+Description-Content-Type: text/markdown
+
+# pydantigraph
+ORM data models, schemas, and vocabularies for pyoxigraph
+
+- [ ] ORM-like read/write with pyoxigraph
+  - [ ] Read - just model fields
+  - [ ] Read - model fields + all triples with matching subject
+  - [ ] Lazy read - read connected entities when accessed
+  - [ ] Write
+  - [ ] Update
+  - [ ] Delete
+  - [ ] Crawl - get triples n-steps out from current object leaves with filtering
+- [x] Namespaces for using schema
+  - [ ] Code generation from existing schema 
+- [x] Fields and type annotations for declaring terms
+  - [ ] Fields are properly checked by MyPy using the first type parameter
+- [ ] Lists <-> blank node collections
+- [ ] Pydantic validation
+  - [ ] JSON-Schema
+  - [ ] RDF serialization with rdflib
+  - [ ] IRI (not URL) validator
+  - [ ] Only fields that map onto RDF literals allowed
+
+## See Also
+
+- https://pypi.org/project/rdflib-orm/
