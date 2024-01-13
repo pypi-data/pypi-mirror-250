@@ -1,0 +1,8 @@
+shipyard_email/__init__.py,sha256=KZwHCvVbK4PuEMApuShclOhFdoDvpC7O5Q_GaBe_k-o,31
+shipyard_email/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_email/cli/authtest.py,sha256=zmqD5D7dk9VgLhtnKm49wxluYUeZHcIYV1qRzPVz2Mg,379
+shipyard_email/cli/send_email.py,sha256=yJV17UYaPCHpQMbi8phoLA_Kmo685xdU737yrOkM3v8,11573
+shipyard_email/email.py,sha256=jwID-GBNuXRVOhyUCUK3Q8YBp04A-6pU6aATgBdkR_4,5111
+shipyard_email-0.1.1a1.dist-info/METADATA,sha256=6C3rAP_o2ZOS0SdyBMcUoeEpmWR_VtipfeGTxBaqno0,803
+shipyard_email-0.1.1a1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shipyard_email-0.1.1a1.dist-info/RECORD,,
