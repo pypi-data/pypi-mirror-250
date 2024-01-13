@@ -1,0 +1,2 @@
+class NoSecDef(Exception):
+    pass
