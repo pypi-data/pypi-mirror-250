@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+ros2bagcut/__init__.py
+ros2bagcut/_version.py
+ros2bagcut/main.py
+ros2bagcut.egg-info/PKG-INFO
+ros2bagcut.egg-info/SOURCES.txt
+ros2bagcut.egg-info/dependency_links.txt
+ros2bagcut.egg-info/entry_points.txt
+ros2bagcut.egg-info/requires.txt
+ros2bagcut.egg-info/top_level.txt
