@@ -1,0 +1,7 @@
+setup.py
+python_mommy/__init__.py
+python_mommy/__main__.py
+pythonmommy.egg-info/PKG-INFO
+pythonmommy.egg-info/SOURCES.txt
+pythonmommy.egg-info/dependency_links.txt
+pythonmommy.egg-info/top_level.txt
