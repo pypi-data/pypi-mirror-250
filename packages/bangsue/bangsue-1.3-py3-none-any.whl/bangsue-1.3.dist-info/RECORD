@@ -1,0 +1,9 @@
+bangsue_codename/BangsueCodename.py,sha256=GlL_CK2lMCrg7gvj9BubmEYEMD1V38tL8Rheni4FVNs,7615
+bangsue_codename/__init__.py,sha256=yreT15gTGRknfQUI0n15a43qbS2JT9C910wsgygWCKo,48
+bangsue_codename/file/bts_skytrain.csv,sha256=lwkhmzL7TdShvg0eF7jsipRr3YU7VOK-EZUtW90XtqM,2083
+bangsue_codename/file/mrta_train.csv,sha256=s-dME8o-91KZGZhAB3-gz24A3Foxb53-q28yQXWdC20,2329
+bangsue_codename/file/tambon_bse.csv,sha256=_ppqDIs8KRNXAmtzUilVquWL09sZqh3M_fdhjCMy1C8,246097
+bangsue-1.3.dist-info/METADATA,sha256=g7dRE3tZPbKL1Z7yzu_gSECT55DCr6OfifgVnb5WzGk,516
+bangsue-1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bangsue-1.3.dist-info/top_level.txt,sha256=ZPjTjC6UczEnUFy3V-U7hyfqXPd13xEUztcytJMy9Bc,17
+bangsue-1.3.dist-info/RECORD,,
