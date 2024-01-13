@@ -1,0 +1,5 @@
+setup.py
+konradoooe.egg-info/PKG-INFO
+konradoooe.egg-info/SOURCES.txt
+konradoooe.egg-info/dependency_links.txt
+konradoooe.egg-info/top_level.txt
