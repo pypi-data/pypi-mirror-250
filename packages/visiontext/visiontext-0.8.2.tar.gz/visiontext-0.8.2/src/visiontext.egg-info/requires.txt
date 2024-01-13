@@ -1,0 +1,17 @@
+ipython
+packg
+numpy
+matplotlib
+jupyter
+notebook
+ipdb
+nltk
+pandas
+pyinstrument
+nvidia-ml-py3
+psutil
+h5py
+chardet
+spacy
+lmdb
+msgpack
