@@ -1,0 +1,15 @@
+[project]
+name = "sle"
+version = "2.2.4"
+authors = [
+    { name = "LibreCube", email = "info@librecube.org" },
+]
+description = "CCSDS Space Link Extension (SLE) Protocol"
+readme = "README.md"
+license = {text = "MIT License"}
+dependencies = [
+    "pyasn1==0.4.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
