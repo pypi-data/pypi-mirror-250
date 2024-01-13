@@ -1,0 +1,5 @@
+marshmallow-dataclass[enum,union]
+pycryptodomex
+requests
+waitress
+flask
