@@ -1,0 +1,8 @@
+rankpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rankpy/process_example.py,sha256=0W8EkroF7C4iLWQ_9q101SFPSoqapg24AXKZJ1Nva64,4898
+rankpy/rank.py,sha256=qHphr0Y3syjKJnb-0hwvwUOolnXhSJpVhkybWfBZeW4,12128
+rankpy/tests/test_hodge_rank.py,sha256=VXPacDtIc4v0f4gt0n9DGHB8ZeIv--kNq0LUXOJ1X34,399
+rankpy/tests/test_raw_conversion.py,sha256=r9D6L-6tyhc1tgl4F8GuJW8ZZQcxpiFo4KG-umJXSow,122
+rankpy-0.4.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+rankpy-0.4.1.dist-info/METADATA,sha256=S5S3zsTnh4ssDfwoPf9-ZoJsn1DND3dlaDf5ps9KmSs,954
+rankpy-0.4.1.dist-info/RECORD,,
