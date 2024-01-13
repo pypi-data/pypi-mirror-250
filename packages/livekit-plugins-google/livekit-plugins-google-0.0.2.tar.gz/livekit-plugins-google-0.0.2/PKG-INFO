@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: livekit-plugins-google
+Version: 0.0.2
+Summary: LiveKit Python Plugins for Google Services
+Home-page: https://github.com/livekit/python-agents
+License: Apache-2.0
+Project-URL: Documentation, https://docs.livekit.io
+Project-URL: Website, https://livekit.io/
+Project-URL: Source, https://github.com/livekit/python-agents
+Keywords: webrtc,realtime,audio,video,livekit
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy<2,>=1
+Requires-Dist: google-api-core<3,>=2
+Requires-Dist: google-auth<3,>=2
+Requires-Dist: google-cloud-core<3,>=2
+Requires-Dist: google-cloud-speech<3,>=2
+Requires-Dist: google-cloud-texttospeech<3,>=2
+Requires-Dist: google-cloud-translate<4,>=3
+Requires-Dist: googleapis-common-protos<2,>=1
