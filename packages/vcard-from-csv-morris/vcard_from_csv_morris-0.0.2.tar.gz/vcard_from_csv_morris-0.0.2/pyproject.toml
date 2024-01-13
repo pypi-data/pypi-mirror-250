@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vcard_from_csv_morris"
+version = "0.0.2"
+authors = [
+  { name="Morris Lee", email="info.leekahwin@gmail.com" },
+]
+description = "Generates vCards based on a provided DataFrame and dictionary of column mappings. The script includes various functions to preprocess the data, validate the column mappings, clean and format the contact information, add a prefix to first names, and create and write the vCard entries to a file."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vcard_bulk_create"]
