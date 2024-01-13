@@ -1,0 +1,5 @@
+tidb_vector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidb_vector/sqlalchemy/__init__.py,sha256=8LoGuDBNmC5ghmr9-JE0RnS6YJhJbGn0qO4UbBb7VSk,2344
+tidbvec-0.0.1.dist-info/METADATA,sha256=bDsLrwjBCEEMyyUWnaUpkhzFAAR2Nd4mGpZo81_u7T4,441
+tidbvec-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tidbvec-0.0.1.dist-info/RECORD,,
