@@ -1,0 +1,12 @@
+schedulesy_qrcode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schedulesy_qrcode/ceph.py,sha256=30BeBoGccd0dJo5NMA6pKhOhk2wvL_G5woIvbTCf29Q,2869
+schedulesy_qrcode/config.py,sha256=9CcjkumJgU1Gmwt3i05aKFoc0ZpT7QzDaQ5V8SE7Lbg,106
+schedulesy_qrcode/generate.py,sha256=Jsh6R0YyXZOT8Y5vVORXZNoWfmZrlvoAHtrHI7WE6uA,3519
+schedulesy_qrcode/main.py,sha256=zAOPldpWjSY3fLois8l8EPtd-RNwiUNHml0dXG8sVJQ,759
+schedulesy_qrcode/parse.py,sha256=osmhDyD0F0FmMKfBMmpxXBAk05DDO7iOi_AmrDwkBuw,4776
+schedulesy_qrcode/refresh.py,sha256=NOSVCzxetPOmRhktnntlih4_n17FnDYhZa-deV0CRcA,1230
+schedulesy_qrcode/render.py,sha256=BP1m0O3xrIWxOvQiUL4GDv7wyXvFkJbsg2OuPTgEb4k,593
+schedulesy_qrcode-1.0.4.dist-info/METADATA,sha256=YUzx3sbCJLJsKrZspAtvT7T8H0yO-Km8bjpzPQpUhgI,1776
+schedulesy_qrcode-1.0.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+schedulesy_qrcode-1.0.4.dist-info/entry_points.txt,sha256=RPdsUD9t8Muh5eqpRE4KAVch9gJ8ubl1W_t3ej-wSl4,55
+schedulesy_qrcode-1.0.4.dist-info/RECORD,,
