@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pytree/__init__.py
+src/pytree/__main__.py
+src/pytree/pytree.py
+src/swrs_pytree.egg-info/PKG-INFO
+src/swrs_pytree.egg-info/SOURCES.txt
+src/swrs_pytree.egg-info/dependency_links.txt
+src/swrs_pytree.egg-info/entry_points.txt
+src/swrs_pytree.egg-info/requires.txt
+src/swrs_pytree.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+pytree = pytree.__main__:main
