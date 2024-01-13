@@ -1,0 +1,14 @@
+python_hackrf/__init__.py,sha256=k8DPZWzHk_fMhYmUBQzq0yJfoVwu1kJB26DGuVvP5QQ,116
+python_hackrf/__main__.py,sha256=l_oo7qsHaoN44uLkCNUSmMKxiQxqzFBpuvhRpY-yoHk,4880
+python_hackrf/libhackrf/__init__.py,sha256=GyNxg3S6x_gajhc9Fo4DOW_W0Pm9psODtYnBrxbikpg,23
+python_hackrf/libhackrf/pyhackrf.cpython-311-darwin.so,sha256=6LGyrAJTGymj9vYTWJE2QNoom3qzHBUCrkfS9nleO6I,338448
+python_hackrf/pyhackrf_tools/__android.py,sha256=XtphG1IwH2zjvAzxlUG27Fx9AfUWjvQ8ZUqu-JCqxUA,2130
+python_hackrf/pyhackrf_tools/__init__.py,sha256=meleGA467w2FgZg11vUdBZPq2KUFJxOzzbOSHV5nO_c,91
+python_hackrf/pyhackrf_tools/pyhackrf_info.py,sha256=bqhQpYMnuJH1KPkpsyfp_mG09K1wxoCqCukVAWmPh4Y,2913
+python_hackrf/pyhackrf_tools/pyhackrf_sweep.cpython-311-darwin.so,sha256=u-ptr7An_o-QSWKg1wXnPxY1mOpBcX0reRN3zX8omcE,228040
+python_hackrf/pyhackrf_tools/pyhackrf_sweep_old.py,sha256=SuvZJ5ihP5bb4Cd-QlimoYKXLQocIW7vHqQrwqgsM-Y,14564
+python_hackrf-1.0.5.dist-info/LICENSE,sha256=JfuXqMx2P-p2LtvKNV6KFScpnmerYEYxKM3Oqyl9wLg,1070
+python_hackrf-1.0.5.dist-info/METADATA,sha256=AjSMogMGPUykKK_RBJJXKP-fY6h9gLX6JhWtMro_aW0,4003
+python_hackrf-1.0.5.dist-info/WHEEL,sha256=-A_a4qtPtE7THspi2apYwdQWhv5IW90gRqlNhh7cwR4,110
+python_hackrf-1.0.5.dist-info/top_level.txt,sha256=__GG6S3dIoVwiFhGib9zIz9bcC4ypKcTrDy7bN_tA6E,14
+python_hackrf-1.0.5.dist-info/RECORD,,
