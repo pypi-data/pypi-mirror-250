@@ -1,0 +1,12 @@
+codemod2/__init__.py,sha256=6p6cIGf0VgHni_NqDeRSeZGmwwwtcbqgKLkiP9uOrD8,36
+codemod2/base.py,sha256=Rmn_q_-yqir8CbD51evDoA0WCo0uVnA1fdT5c8rWEWM,18290
+codemod2/helpers.py,sha256=c8igza38bUFmW0jtDkMQgjgJS-uQr_fffs4XqgqZzsM,3083
+codemod2/patch.py,sha256=vFHY2IbkOOg9v-0mkPXBrHX7qDmdL5Wcp13x1cYJLrI,4026
+codemod2/position.py,sha256=fxasSTUaa38O0hwJ_nGlmPW98lswPGGXl07tjqHdJRY,1523
+codemod2/query.py,sha256=M1vSlWXBMa1qrRjFvxGrHN47E23rZxWHLwL4A1rxWds,8354
+codemod2/terminal_helper.py,sha256=G21cmIDJQGFl8cKeq_od5pJcpuDK9COEjitPDVKjIcw,2920
+codemod2-0.1.1.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+codemod2-0.1.1.dist-info/METADATA,sha256=i2CWbqaJ0EdtkXGfpFEXI63X5k2m0yD569iif15s5vI,4432
+codemod2-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+codemod2-0.1.1.dist-info/entry_points.txt,sha256=ahmvHQPT1-iwUM0ZiOERJF2TiRytPhsmqsaxlQorQhQ,47
+codemod2-0.1.1.dist-info/RECORD,,
