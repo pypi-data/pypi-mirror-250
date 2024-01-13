@@ -1,0 +1,5 @@
+cria_index/plugins/loaders/notion/__init__.py,sha256=It2nu84QE_9ttwoFE3-1cN1Af4AcWVtMnEjc6OFKUPs,91
+cria_index/plugins/loaders/notion/base.py,sha256=Ajmnl63SrsOMLQak4qKhN5aFUKiTMrj4aiuN3BlR8Ts,156
+cria_plugin_loader_notion-0.1.0.dist-info/METADATA,sha256=sEuY_xEAC3YfP4ERVd41LRg6tDEnVa5GXhW7FeLvZ0E,447
+cria_plugin_loader_notion-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cria_plugin_loader_notion-0.1.0.dist-info/RECORD,,
