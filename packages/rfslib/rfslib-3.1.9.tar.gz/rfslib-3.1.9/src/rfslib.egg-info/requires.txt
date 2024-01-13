@@ -1,0 +1,4 @@
+pysmb<2,>=1.2.7
+paramiko<3,>=2.7.2
+smbprotocol<2,>=1.6.1
+ftputil<6,>=5.0.1
