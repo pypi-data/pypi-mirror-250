@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: formic_opcua
+Version: 1.8.0
+Author: Spencer White, Damian Stempel, Viachaslau Zakharchuk
+Requires-Python: >=3.10
+Requires-Dist: asyncua>=1.0.0
+Requires-Dist: pyyaml
