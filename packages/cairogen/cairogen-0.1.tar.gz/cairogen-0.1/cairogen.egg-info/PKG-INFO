@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cairogen
+Version: 0.1
+Summary: cairo for genArt
+Author: David COBAC
+Author-email: david.cobac@gmail.com
+License: CC-BY-NC-SA
+Keywords: pycairo,drawing
+Requires-Python: >3.6
