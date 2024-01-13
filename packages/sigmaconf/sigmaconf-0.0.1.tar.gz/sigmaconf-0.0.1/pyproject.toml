@@ -1,0 +1,30 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sigmaconf"
+version = "0.0.1"
+description = "SigmaConf - A Simple Configuration Library"
+authors = [{ name = "Jose Javier Gonzalez Ortiz"}]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["configuration"]
+dependencies = [
+    "pyyaml"
+]
+
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/josejg/SigmaConf"
+Repository = "https://github.com/josejg/SigmaConf"
+
+
+# [project.scripts]
+# realpython = "reader.__main__:main"
