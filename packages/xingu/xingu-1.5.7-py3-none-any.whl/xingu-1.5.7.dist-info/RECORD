@@ -1,0 +1,16 @@
+xingu/__init__.py,sha256=pVzZQuXOFFDotpHalXZLjK6Jlcysz2O-iY5PV5DsMAc,378
+xingu/__main__.py,sha256=WvPPijnofl1GZXXtXEi0fqI53ugZvNbddU4LauXdf5s,18273
+xingu/coach.py,sha256=3wcVJW4b7PBXRi8dvbO6dFu3kRSUsOIcfdxx7LTQAJc,49738
+xingu/config_manager.py,sha256=jRV_tya5O12cazOyUzEM9cd5Ziggfh4Oq24kNU7VMOA,7378
+xingu/dataprovider.py,sha256=AVDPOmEmkDST6Yq48pWCcS8uOVTj_igxm5sOb1BhZz0,19162
+xingu/dataproviderfactory.py,sha256=G0XHgSvVnTU72ReBgfhvlvOJrzulcxFHu9gAPgNlAjM,5498
+xingu/estimator.py,sha256=8kFf9SuxUM626GETSyfcj7bl6JXcm1_HLsok--o9xHE,2506
+xingu/model.py,sha256=MxJz-6fRhHFnJu9DO1ZaGib9vtEluWOepuozxY4CE4A,98200
+xingu/estimators/catboost.py,sha256=2MYxVIOCCZ-WFVVqmrkKJBVAn2zeApNGahbFocm3rfY,12628
+xingu/estimators/xgboost_optuna.py,sha256=Dn5JyCeqYdVL58E-4BP33bnFjv_CcJ6VohZkzOoXrM0,19766
+xingu-1.5.7.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+xingu-1.5.7.dist-info/METADATA,sha256=BHzaHUv-vxm_biTrvDKTqWjjz9c4WJXvs3ULzWfTZXo,21746
+xingu-1.5.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xingu-1.5.7.dist-info/entry_points.txt,sha256=MIN8poyXvZB9BfcLHJ1tA02cN7WMjIvupxVK65-RmIg,46
+xingu-1.5.7.dist-info/top_level.txt,sha256=oPeX2aKsmAov5nouVDHWyov-EDlP1rjsThIGRomrITc,6
+xingu-1.5.7.dist-info/RECORD,,
