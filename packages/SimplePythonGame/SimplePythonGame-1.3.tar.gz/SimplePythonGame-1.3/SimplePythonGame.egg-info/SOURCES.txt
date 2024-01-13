@@ -1,0 +1,7 @@
+README.md
+setup.py
+SimplePythonGame/__init__.py
+SimplePythonGame.egg-info/PKG-INFO
+SimplePythonGame.egg-info/SOURCES.txt
+SimplePythonGame.egg-info/dependency_links.txt
+SimplePythonGame.egg-info/top_level.txt

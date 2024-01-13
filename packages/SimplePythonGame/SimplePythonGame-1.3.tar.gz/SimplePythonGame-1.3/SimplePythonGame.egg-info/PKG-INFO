@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: SimplePythonGame
+Version: 1.3
+Summary: A Simple Python Game!
+Home-page: https://github.com/SForces/TimePrint
+Author: Osman TUNA
+Author-email: osmntn08@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# EN
+## This project is a simple game module for Python, listed below are the games and their features.
+
+## NOTE: This project uses [TimePrint](https://pypi.org/project/TimePrintOnPYPI/) module. but you don't have to install that. it comes with code
+
+## How to play ?
+After installing via pip command, here's the full code to play.
+
+```python
+from SimplePythonGame import Init
+Init()
+```
+
+### 1) Number Guessing Game:
+* Ability to choose the range of the generated number <br>
+* Ability to choose the number of lives
