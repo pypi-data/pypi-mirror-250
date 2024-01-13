@@ -1,0 +1,69 @@
+---
+required_directives:
+  job-name:
+    max_length: 20
+    min_length: 5
+  nodes:
+    qualified_options:
+      - 1
+      - 2
+      - 3
+      - 4
+  qos:
+    qualified_options:
+      - qos-A
+      - qos-B
+  gres:
+    qualified_options:
+      - gres-1
+      - gres-2
+  export:
+    qualified_options:
+      - NONE
+  propagate:
+    qualified_options:
+      - ALL
+      - NONE
+      - AS
+      - CORE
+      - CPU
+      - DATA
+      - FSIZE
+      - MEMLOCK
+      - NOFILE
+      - NPROC
+      - RSS
+      - STACK
+  mail-user:
+    qualified_options:
+      - jay@gmail.com
+      - sun@gmail.com
+  mail-type:
+    qualified_options:
+      - NONE
+      - BEGIN
+      - END
+      - FAIL
+      - REQUEUE
+      - ALL
+      - INVALID_DEPEND
+      - STAGE_OUT
+      - TIME_LIMIT
+      - TIME_LIMIT_90
+      - TIME_LIMIT_80
+      - TIME_LIMIT_50
+      - ARRAY_TASKS
+  output:
+    desc: The STDOUT from the SLURM sbatch script
+  error:
+    desc: The STDERR from the SLURM sbatch script
+  partition:
+    qualified_options:
+      - partition-1
+      - partition-22
+  ntasks-per-node:
+    desc: TBD
+  cpus-per-task:
+    desc: TBD
+  time:
+    desc: TBD
