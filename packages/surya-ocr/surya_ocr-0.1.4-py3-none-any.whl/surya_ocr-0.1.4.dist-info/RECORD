@@ -1,0 +1,17 @@
+detect_text.py,sha256=z8PLT7cf34QqRdbC9gyMBWV9RXvqAWccEvpE5yRw2N8,4471
+surya/benchmark/bbox.py,sha256=_e_rUlE_qOVuteZ-qofbqSrMKtgQg4sz_HXPRTyDa3E,827
+surya/benchmark/metrics.py,sha256=pzLZk5EaQRUIY9eQN9VJAiLk2-Z91bGv_oyP2eHNAm8,2730
+surya/benchmark/tesseract.py,sha256=Himug9b9n8IfzftFuJuICJLJvThazj13qPVpTt8VrG4,1187
+surya/benchmark/util.py,sha256=gUG3nSg351wRiPNCVjbHskDO6zi4w8CGDVjraliwZnA,887
+surya/detection.py,sha256=bFWLNB72RCDXhRt1yyr1_J1Z0veFQxMWmG4qHwlWtbw,3844
+surya/model/processing.py,sha256=UWwxeg3YllF_SsbGEK3ZXc164k4XkSNewPW-Ivd1Hao,1843
+surya/model/segformer.py,sha256=Z1zYD_9p0S-kReVnd6qpcy2stGg6upwTRb3lZIJOTrU,4217
+surya/postprocessing/affinity.py,sha256=byaQXMfxZ5yQ5Z-ZkR-F2zFfq47rlZkP_8VHG0XZd8o,6191
+surya/postprocessing/heatmap.py,sha256=w9QIXzaA0p63gCNTNRBFYWnBjjpYX3gocvKnV7GbFyk,3914
+surya/postprocessing/util.py,sha256=5f5L9rLdsofj53IRnFaTN0kTy3P__qfbajXLlZnGU8c,691
+surya/settings.py,sha256=WJ1MMPYQClWNstDTkqVNNHfqx7OEJJx7SjIfWlzI3os,1310
+surya_ocr-0.1.4.dist-info/LICENSE,sha256=DZvPIbBWZPafEm8OfQkcEgcvSZE21cYB6oeDoD6wt48,35085
+surya_ocr-0.1.4.dist-info/METADATA,sha256=ieHKLefDIcRBsybT51_4kqT4eiE3Ntfb1gU7qoLxxs0,8154
+surya_ocr-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+surya_ocr-0.1.4.dist-info/entry_points.txt,sha256=WFLpho1MlomP6Zt8AwiZ9w0I0SwCFW_czrs4adfGo6Y,49
+surya_ocr-0.1.4.dist-info/RECORD,,
