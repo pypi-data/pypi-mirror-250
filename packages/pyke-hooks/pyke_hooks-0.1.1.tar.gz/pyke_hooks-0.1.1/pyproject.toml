@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyke_hooks"
+version = "0.1.1"
+description = ""
+authors = ["Andrey Castro <andreyyec@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+PyYAML = "^6.0.1"
+deep_merge = "^0.0.4"
+
+[tool.poetry.scripts]
+atlantis-yaml-generate = "pyke_hooks.atlantis_yaml_generate:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

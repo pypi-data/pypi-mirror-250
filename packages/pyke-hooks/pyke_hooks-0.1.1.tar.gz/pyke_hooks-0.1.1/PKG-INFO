@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyke_hooks
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: Andrey Castro
+Author-email: andreyyec@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: deep_merge (>=0.0.4,<0.0.5)
+Description-Content-Type: text/markdown
+
+# pre-commit
+Custom tailored pre-commit hooks
+
