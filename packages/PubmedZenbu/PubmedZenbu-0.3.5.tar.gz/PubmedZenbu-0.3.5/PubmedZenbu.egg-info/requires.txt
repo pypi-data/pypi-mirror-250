@@ -1,0 +1,4 @@
+requests>=2.31
+openai<=0.28.1
+PyYAML>=5.1
+Pandas>=2.0.0
