@@ -1,0 +1,8 @@
+hspylib
+hspylib-clitt
+retry
+requests
+SpeechRecognition
+PyAudio
+urllib3<2.0.0
+openai>=1.7.2
