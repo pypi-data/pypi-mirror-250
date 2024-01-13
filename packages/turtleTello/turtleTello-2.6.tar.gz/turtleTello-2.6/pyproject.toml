@@ -1,0 +1,17 @@
+[project]
+name = "turtleTello"
+version = "2.6"
+authors = [
+  { name="Firefoxmoo", email="firefoxmoo@gmail.com" },
+]
+description = "A simulator of a tello drone using python SDK in turtle graphics"
+readme = "readme.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Firefoxmoo89/turtleTello"
