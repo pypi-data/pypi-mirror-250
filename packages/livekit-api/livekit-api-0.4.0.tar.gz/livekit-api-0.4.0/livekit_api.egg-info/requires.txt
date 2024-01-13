@@ -1,0 +1,5 @@
+pyjwt>=2.0.0
+aiohttp>=3.9.0
+protobuf==4.25.1
+types-protobuf<5,>=4
+livekit-protocol~=0.3.0
