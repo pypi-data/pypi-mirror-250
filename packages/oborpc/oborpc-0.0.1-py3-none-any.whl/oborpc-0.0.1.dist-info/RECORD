@@ -1,0 +1,15 @@
+oborpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oborpc/decorator.py,sha256=bBd8uYnpD-wP-fU6Q7dT-mTpLrxTfKJSKwRPm6hDJGQ,197
+oborpc/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oborpc/base/meta.py,sha256=KQp9jbvndIe2ONmp_7gJ8Lrl8Kihcz-qBmWFCmS63YE,565
+oborpc/builder/__init__.py,sha256=6yHKT-ZnjA6q4jDd-lgzOP2Ajc7yvwdV3RlcdqtSTXc,182
+oborpc/builder/_base.py,sha256=J_LMM_OjXgZdneT9RFzHWkxLuXBOGdvBkNKaR32HKSs,913
+oborpc/builder/_client.py,sha256=Mz2sH8EI7r10-P0Q-ikkYI3drX0ksJsliHmVksY5HKs,1932
+oborpc/builder/_fastapi.py,sha256=yKPPdKYo_iO_EZcWQ8avCmNjsJldrs7B4cT9cyCNzgQ,2900
+oborpc/builder/_flask.py,sha256=cP9eccCNd9miLDF2BBtP1q36k9MEz4cAB7X6ySTWIjA,1786
+oborpc/builder/_server.py,sha256=JPemg_rQ3TIGBB4DGISFZCXGZ_5Xwzsucx8v4vl8GuI,1193
+oborpc-0.0.1.dist-info/LICENSE,sha256=xFFnDS41V_Mf40VM-czas3d9rBYvhgyp4kjmDtvJYIM,1072
+oborpc-0.0.1.dist-info/METADATA,sha256=Ol42pSLh6ZQyNrKjsvNBjgo6ZMpef8E2Owe2-uD1onc,756
+oborpc-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+oborpc-0.0.1.dist-info/top_level.txt,sha256=gN5pKx6Dm5mZqfnoGv0mFXtG9xPayOrNoLeJ3I6LQd0,7
+oborpc-0.0.1.dist-info/RECORD,,
