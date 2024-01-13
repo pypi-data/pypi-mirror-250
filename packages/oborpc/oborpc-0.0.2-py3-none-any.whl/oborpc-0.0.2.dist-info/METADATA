@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: oborpc
+Version: 0.0.2
+Summary: An easy setup object oriented RPC. Built-in setup for FastAPI and Flask
+Home-page: https://github.com/Danangjoyoo/oborpc
+Author: danangjoyoo (Agus Danangjoyo)
+Author-email: <agus.danangjoyo.blog@gmail.com>
+Keywords: fastapi,flask,rpc,OOP
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oborpc
+OBORPC (Object Oriented RPC)
+
+# Version
+v0.0.2
