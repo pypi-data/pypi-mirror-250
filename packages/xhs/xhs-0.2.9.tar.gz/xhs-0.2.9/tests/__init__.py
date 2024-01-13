@@ -1,0 +1,9 @@
+"""
+pytest commands:
+  pytest tests -- test all the tests directory test files
+  pytest -s tests -- print is work
+  pytest tests/test_help.py -- test specific file
+  pytest tests/test_help.py::test_sign_get -- test specific function
+"""
+
+test_cookie = "abRequestId=fd820373-c1ec-5b4c-8b93-72a94863ecf9; a1=18c5ed7be4d57vpxfnz01oblu8mhuz2r0ce34oice30000162621; webId=aebeeacecd64566adb64f70942d6bcea; gid=yYS2dfWSqj8KyYS2dfWDdSl34f2WhUCiIu8ydSdlD17Y6qq8x7uJF4888yKJKJy8i4002fWW; webBuild=3.19.5; web_session=040069b253793fdd9ccd2bc14d374be6238ce1; unread={%22ub%22:%2265771b05000000003a00a0b8%22%2C%22ue%22:%22657702b50000000006028fca%22%2C%22uc%22:20}; feugc-status=online; feugc-status.sig=B9ChOZWemdxggiLg0HsBku4anQtV-2bl8oVorYSDQEw; websectiga=7750c37de43b7be9de8ed9ff8ea0e576519e8cd2157322eb972ecb429a7735d4; sec_poison_id=a971008e-9168-4ca4-ab25-bafe1bb935fe; customerBeakerSessionId=34848d2fda7af74c7e6e0ed62f4928ec0c1efd64gAJ9cQAoWBAAAABjdXN0b21lclVzZXJUeXBlcQFLAVgOAAAAX2NyZWF0aW9uX3RpbWVxAkdB2V4j8qpumFgJAAAAYXV0aFRva2VucQNYQQAAADk2NjI4OGJmZmMyMDRlMjM5NGM3Yzk5ZDZkNjczMmJlLTJiOTIxODY0MmNiMjQ2ZjQ4Njc5MGVjNmEyYmYzMWJicQRYAwAAAF9pZHEFWCAAAABiMjY0ZDMzZDhkNzE0OGU0OGFjZTViYjJjODcyNWU4YXEGWA4AAABfYWNjZXNzZWRfdGltZXEHR0HZXiPyqm6YWAYAAAB1c2VySWRxCFgYAAAANjMyNzNhNzcwMDAwMDAwMDIzMDNjYzlicQlYAwAAAHNpZHEKWBgAAAA2NTc4OGZjYTg0MDAwMDAwMDAwMDAwMDNxC3Uu; customerClientId=510850495072099; customer-sso-sid=65788fca8400000000000003; x-user-id-creator.xiaohongshu.com=63273a77000000002303cc9b; access-token-creator.xiaohongshu.com=customer.ares.AT-4fd991acb5e8418783e5809d8f2951cb-71ebc72a71e5418492683b4a25657756; galaxy_creator_session_id=pQhpqbHmJiyokPGrZnLo7TFqvlk9bqFw4uFY; galaxy.creator.beaker.session.id=1702399946906062046693; fecreatorcreator-status=online; fecreatorcreator-status.sig=hONhqbf1FgWDB6m1qqUw2kUCTR7Q965C9_7OPE7Hp7w; xsecappid=creator-creator; fecreatormcn-status=online; fecreatormcn-status.sig=_5m-gktr7CfMaqFQDhsy2ihjqXHQuVjb0DZg10KGgoU"
