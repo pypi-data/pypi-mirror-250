@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+vaultify/__init__.py
+vaultify/common.py
+vaultify/vaultify.py
+vaultify.egg-info/PKG-INFO
+vaultify.egg-info/SOURCES.txt
+vaultify.egg-info/dependency_links.txt
+vaultify.egg-info/not-zip-safe
+vaultify.egg-info/top_level.txt
