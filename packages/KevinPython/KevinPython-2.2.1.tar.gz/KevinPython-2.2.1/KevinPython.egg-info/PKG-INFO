@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: KevinPython
+Version: 2.2.1
+Home-page: https://github.com/KevinTheCount/PipPackage
+Author: Kevin Counts
+Author-email: kevingcounts@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PipPackage
+Testing pip packaging
