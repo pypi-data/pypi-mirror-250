@@ -1,0 +1,16 @@
+faery-0.1.0.dist-info/METADATA,sha256=YdAbdLycqzt1YRdzb_mMA-ag_mcrl0Q8mA3uvQsPiBU,1117
+faery-0.1.0.dist-info/WHEEL,sha256=UV9zG4LLu5aozZ4CLlFrx0g296T6XFIH7lrdHjOZdds,106
+faery-0.1.0.dist-info/entry_points.txt,sha256=e0EPsMvQzBFxdEtdEXK4BDRCCi9Y0Zsns5oAvBODIVg,150
+faery-0.1.0.dist-info/license_files/LICENSE,sha256=zJBAJgYwrmLCO1Go2X4RRCvxisd-etYASnNHqTwuwKQ,1089
+faery/decoder.py,sha256=qoCqaaTgX0IgxmkMWmTLkBTdTLhhep22jqUZXh1Pzec,11422
+faery/aedat.pyi,sha256=5rtfHLN06XOsIklA3Wjdr8gv5-FAbBVo4uXcdTKYgKU,614
+faery/dat.pyi,sha256=2xBWYFvaur8obq3LNqxRUYEVRQSbU0sXphtjpG7SUFc,779
+faery/__init__.py,sha256=tUAZXJj9Jpqk1i5vSz0BOuAnGPKYcz_UxDDvO9eH8ps,1209
+faery/__pycache__/stream.cpython-311.pyc,sha256=R4Vo64Cw27OpS9xcEcGbBK1X4cWkmTwr120mBn5GS7E,10104
+faery/__pycache__/decoder.cpython-311.pyc,sha256=mI3lBa3vi2ieLbkKRtEKyoz90HY8TaQcnOHX9MyAAD8,15962
+faery/__pycache__/__init__.cpython-311.pyc,sha256=CKMDMAmJgOJ5BL41fidwmw1EgffGnPS-8FNnvL5ZceU,1920
+faery/stream.py,sha256=hYcP_sSorzCMXozRxDj6QiUcwGoHJgzdE8L_koHqlE0,3936
+faery/event_stream.pyi,sha256=oey0lzZutYanv-8RQCaFOGtUkA5_vUn8S8_dqbyqoxo,655
+faery/evt.pyi,sha256=trUP2kOwGc2SGuy1g5SfJSbXfU1NdRxhvhbDG7aLTnY,745
+faery/faery.cpython-311-darwin.so,sha256=1hl-wOzkRZDhpRwzKWL3xJHhmat2xnSE4OOkHNrm8ts,617368
+faery-0.1.0.dist-info/RECORD,,
