@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: harm-analysis
+Version: 0.1.0
+Requires-Dist: pytest
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: click
+
