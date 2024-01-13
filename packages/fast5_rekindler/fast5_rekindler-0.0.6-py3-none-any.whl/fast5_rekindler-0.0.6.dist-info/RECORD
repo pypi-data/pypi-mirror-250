@@ -1,0 +1,13 @@
+fast5_rekindler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast5_rekindler/bam.py,sha256=2I1QElr994G2NXNDsc0knLe7B4-i8P5MZRbFkH_Y1dU,11362
+fast5_rekindler/cleanup.py,sha256=od2KECulzGBmIVaYK50MCaALfNknOJrn69J14wJ9jAw,1164
+fast5_rekindler/cli.py,sha256=92Gu-SjR8vZ5dCkKfKx9CgMKpUCjycUUBg63Dw54LgI,3333
+fast5_rekindler/collate.py,sha256=B-MUdhtzk9P69K03D0WLK20ryMZWv36D-AWJ3-aNMpE,21021
+fast5_rekindler/index.py,sha256=KzfTeK9LZ3ZmJMPGegHUHL7PXFviC7G9Yj4dBfuqbX4,7123
+fast5_rekindler/join_dbs.py,sha256=hpsmuTl6aanmM9SMoBGEf2otMb2jJPV0z1VNdL53qkw,5218
+fast5_rekindler/logger_config.py,sha256=SYqqtOpRAMwsNHQGlLoIyjTDeLBrNd4_7yn7Zq1U9yE,1794
+fast5_rekindler/raw_fast5.py,sha256=3X970vC3kf8VXXF6kFg0UUpBWRMvI7u9kIpWbZrPVKc,4088
+fast5_rekindler-0.0.6.dist-info/METADATA,sha256=w8I5CjEaNMEzNtMZbL9EIgsNTU62xTUMN0V1fUlquUc,5260
+fast5_rekindler-0.0.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fast5_rekindler-0.0.6.dist-info/entry_points.txt,sha256=vlNZZ99r91O51KCEvLLTETqCPLBBIch6WUJJtUsdIQo,71
+fast5_rekindler-0.0.6.dist-info/RECORD,,

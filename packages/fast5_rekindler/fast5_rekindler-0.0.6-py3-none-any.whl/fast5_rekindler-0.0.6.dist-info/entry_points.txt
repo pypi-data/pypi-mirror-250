@@ -1,0 +1,3 @@
+[console_scripts]
+fast5_rekindler=fast5_rekindler.cli:fast5_rekindler
+
