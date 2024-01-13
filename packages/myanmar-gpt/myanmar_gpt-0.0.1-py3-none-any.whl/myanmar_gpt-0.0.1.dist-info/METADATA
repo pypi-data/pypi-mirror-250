@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: myanmar-gpt
+Version: 0.0.1
+Summary: a framework for using myanmar languages models
+Author: MinSiThu
+Author-email: archimedes557@gmail.com
+License: MIT
+Keywords: conversion
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+A python framework for using open-source myanmar languages models
