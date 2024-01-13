@@ -1,0 +1,15 @@
+20180402-114759-vggface2.pt
+MANIFEST.in
+setup.py
+team_embedding.pth
+standup_face_recognition/MTCNN_detector.py
+standup_face_recognition/__init__.py
+standup_face_recognition/face_recognition.py
+standup_face_recognition/main.py
+standup_face_recognition/utils.py
+standup_face_recognition.egg-info/PKG-INFO
+standup_face_recognition.egg-info/SOURCES.txt
+standup_face_recognition.egg-info/dependency_links.txt
+standup_face_recognition.egg-info/entry_points.txt
+standup_face_recognition.egg-info/requires.txt
+standup_face_recognition.egg-info/top_level.txt
