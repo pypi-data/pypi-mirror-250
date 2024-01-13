@@ -1,0 +1,17 @@
+README.md
+setup.py
+AuPyL/BUTTON.py
+AuPyL/CLEAR.py
+AuPyL/CONTROL.py
+AuPyL/ERR.py
+AuPyL/HOOK_ERR.py
+AuPyL/PUTTEXT.py
+AuPyL/SCREEN.py
+AuPyL/SHOWIMG.py
+AuPyL/__init__.py
+AuPyL/_import_module.py
+AuPyL/urlOpen.py
+AuPyL.egg-info/PKG-INFO
+AuPyL.egg-info/SOURCES.txt
+AuPyL.egg-info/dependency_links.txt
+AuPyL.egg-info/top_level.txt
