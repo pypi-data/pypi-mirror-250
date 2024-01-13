@@ -1,0 +1,1 @@
+print("run on win amd64")
