@@ -1,0 +1,55 @@
+[build-system]
+requires = ["poetry-core>=1.3.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "apykuma"
+description = "Small library to notify Uptime Kuma that the service is up"
+version = "1.0.0.post1"
+license = "MIT"
+authors = ["Perchun Pak <pypi@perchun.it>"]
+readme = "README.md"
+repository = "https://github.com/PerchunPak/apykuma"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Monitoring",
+    "Typing :: Typed",
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4"
+
+aiohttp = "~3"
+
+
+[tool.poetry.group.make.dependencies]
+black = "~23"
+isort = "~5.12"
+pycln = "~2.4"
+cruft = "~2.15"
+lice = "~0.6"  # for generating template
+
+pre-commit = "~3.5"
+
+
+[tool.poetry.group.typing.dependencies]
+mypy = "~1.7"
+
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
