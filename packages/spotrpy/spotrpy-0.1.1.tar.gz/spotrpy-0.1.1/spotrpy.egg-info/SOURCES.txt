@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+spotrpy/API.py
+spotrpy/ASCII.py
+spotrpy/Configuration.py
+spotrpy/Helpers.py
+spotrpy/Router.py
+spotrpy/__init__.py
+spotrpy/spotr.py
+spotrpy.egg-info/PKG-INFO
+spotrpy.egg-info/SOURCES.txt
+spotrpy.egg-info/dependency_links.txt
+spotrpy.egg-info/entry_points.txt
+spotrpy.egg-info/requires.txt
+spotrpy.egg-info/top_level.txt
