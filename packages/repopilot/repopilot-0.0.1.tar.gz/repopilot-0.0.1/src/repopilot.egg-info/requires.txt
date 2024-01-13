@@ -1,0 +1,12 @@
+langchain
+fastapi
+openai
+tree-sitter
+tree-sitter-languages
+vllm
+datasets
+Click
+codetext
+fire
+chromadb
+tiktoken
