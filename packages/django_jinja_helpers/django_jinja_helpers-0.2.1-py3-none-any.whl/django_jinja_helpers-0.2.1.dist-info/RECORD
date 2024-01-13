@@ -1,0 +1,6 @@
+django_jinja_helpers/__init__.py,sha256=WHizC8UzElmTH3641zjnMTLUHmP2rliWLTalgHU6vMA,75
+django_jinja_helpers/templatetags/__init__.py,sha256=T3cNzLysqtFZi_mRFEDv1tGtWZOMlCaHBS30ZAbl204,373
+django_jinja_helpers-0.2.1.dist-info/LICENSE,sha256=a0wWN-MKCEM9FcFwN1i656F8nyiob9wNsGkBnbB5SZ4,1071
+django_jinja_helpers-0.2.1.dist-info/METADATA,sha256=jV6q4NN53qtk2vkUXRkP8uAlv_fT7RY4BI-wOEO94B8,1611
+django_jinja_helpers-0.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_jinja_helpers-0.2.1.dist-info/RECORD,,
