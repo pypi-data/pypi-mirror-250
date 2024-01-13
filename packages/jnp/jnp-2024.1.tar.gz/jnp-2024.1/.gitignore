@@ -1,0 +1,9 @@
+*.pyc
+.ipynb_checkpoints/
+__pycache__
+
+*.yaml
+*venv*/
+public/
+
+version.py

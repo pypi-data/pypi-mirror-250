@@ -1,0 +1,18 @@
+pages:
+  image: archlinux:latest
+
+  tags:
+    - ci.inria.fr
+    - linux
+    - small
+
+  script:
+    - pacman -Syu --noconfirm python git jupyter-nbconvert jupyterlab_pygments
+    - bash ./scripts/build_pages.sh
+
+  artifacts:
+    paths:
+      - public
+
+  only:
+    - main
