@@ -1,0 +1,3011 @@
+{
+  "text": " L'union de la droite, avec qui ? Puisque m\u00eame aujourd'hui Eric Ciotti s'\u00e9loigne de vous, il n'a jamais \u00e9t\u00e9 proche officiellement, mais vous dites, vous dites qu'il va vers le centre. C'est la maladie, ce que j'appelle la maladie de LR. D'abord j'ai propos\u00e9 l'union des droites, on peut appeler coalition des droits comme on veut, parce que je pense que c'est la seule fa\u00e7on de gagner face \u00e0 la concentration des centres qu'incarne M. Macron. Tant qu'il y aura \u00e0 droite la domination du RN qui penche de plus en plus \u00e0 gauche et sur la gauche la domination de LFI, le bloc macronien sera vainqueur \u00e0 tous les coups, car il a un \u00e9lectorat AG qui est nombreux et qui vote pour lui. Donc moi j'essaie de donner une alternative politique, ce n'est pas mon grand projet pour la France, c'est lutter contre l'islamisation du pays et le grand emplacement. Ne m\u00e9langez pas la strat\u00e9gie et la tactique. J'ai bien compris que Marine Le Pen n'en veut pas, puisqu'elle pr\u00e9f\u00e8re se soumettre id\u00e9ologiquement \u00e0 la gauche, \u00e0 la nuppesse, et qu'on a vu l\u00e0 dans la r\u00e9forme des retraites que les gens du RN parlent exactement comme la nuppesse. Qu'on voit par ailleurs un \u00e9lu dans le Vaucluse, inaugur\u00e9 \u00e0 grand frais, une immense mosqu\u00e9e... Ce qu'elle condamne, elle l'a bl\u00e2m\u00e9... Non, non, non, non, elle a un bl\u00e2me, c'est tout. J'ai bien compris que LR non plus, sous la direction de Ciotti, ne voulait pas non plus d'une union des droites avec Reconqu\u00eate et avec l'Assembl\u00e9e nationale. Moi je dis aux \u00e9lecteurs qui eux, les \u00e9lecteurs du RN, de Reconqu\u00eate, et la moiti\u00e9 des \u00e9lecteurs de LR, regardez tous les sondages, veulent de cette union. Je leur dis, la seule fa\u00e7on de l'avoir, c'est de voter Reconqu\u00eate, parce que ainsi, si on est plus fort, on l'imposera aux deux autres. C'est ce qu'a fait la gauche dans les ann\u00e9es 70, avec Fran\u00e7ois Mitterrand. Je pense que c'est la seule fa\u00e7on aujourd'hui de l'emporter et de sauver notre pays des dangers qui la guettent.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 11.64,
+      "text": " L'union de la droite, avec qui ? Puisque m\u00eame aujourd'hui Eric Ciotti s'\u00e9loigne de vous, il n'a jamais \u00e9t\u00e9 proche officiellement, mais vous dites, vous dites qu'il va vers le centre.",
+      "tokens": [
+        50364,
+        441,
+        6,
+        42137,
+        368,
+        635,
+        37321,
+        11,
+        4163,
+        1956,
+        2506,
+        30033,
+        1077,
+        5698,
+        14023,
+        6,
+        10556,
+        9336,
+        20188,
+        37514,
+        262,
+        6,
+        526,
+        752,
+        26341,
+        368,
+        2630,
+        11,
+        1930,
+        297,
+        6,
+        64,
+        14540,
+        8862,
+        447,
+        1876,
+        2832,
+        32562,
+        1712,
+        11,
+        2420,
+        2630,
+        48291,
+        11,
+        2630,
+        48291,
+        421,
+        6,
+        388,
+        2773,
+        1774,
+        476,
+        10093,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24186614251905872,
+      "compression_ratio": 1.632183908045977,
+      "no_speech_prob": 0.17279279232025146,
+      "confidence": 0.811,
+      "words": [
+        {
+          "text": "L'union",
+          "start": 0.0,
+          "end": 0.64,
+          "confidence": 0.811
+        },
+        {
+          "text": "de",
+          "start": 0.64,
+          "end": 0.86,
+          "confidence": 0.996
+        },
+        {
+          "text": "la",
+          "start": 0.86,
+          "end": 1.08,
+          "confidence": 0.993
+        },
+        {
+          "text": "droite,",
+          "start": 1.08,
+          "end": 1.3,
+          "confidence": 0.63
+        },
+        {
+          "text": "avec",
+          "start": 1.68,
+          "end": 1.7,
+          "confidence": 0.94
+        },
+        {
+          "text": "qui ?",
+          "start": 1.7,
+          "end": 2.42,
+          "confidence": 0.866
+        },
+        {
+          "text": "Puisque",
+          "start": 2.42,
+          "end": 2.8,
+          "confidence": 0.596
+        },
+        {
+          "text": "m\u00eame",
+          "start": 2.8,
+          "end": 3.1,
+          "confidence": 0.93
+        },
+        {
+          "text": "aujourd'hui",
+          "start": 3.1,
+          "end": 3.44,
+          "confidence": 0.986
+        },
+        {
+          "text": "Eric",
+          "start": 3.44,
+          "end": 3.74,
+          "confidence": 0.677
+        },
+        {
+          "text": "Ciotti",
+          "start": 3.74,
+          "end": 4.12,
+          "confidence": 0.867
+        },
+        {
+          "text": "s'\u00e9loigne",
+          "start": 4.12,
+          "end": 4.82,
+          "confidence": 0.994
+        },
+        {
+          "text": "de",
+          "start": 4.82,
+          "end": 5.16,
+          "confidence": 0.967
+        },
+        {
+          "text": "vous,",
+          "start": 5.16,
+          "end": 5.42,
+          "confidence": 0.443
+        },
+        {
+          "text": "[*]",
+          "start": 5.42,
+          "end": 6.08,
+          "confidence": 0
+        },
+        {
+          "text": "il",
+          "start": 6.08,
+          "end": 6.26,
+          "confidence": 0.659
+        },
+        {
+          "text": "n'a",
+          "start": 6.26,
+          "end": 6.44,
+          "confidence": 0.995
+        },
+        {
+          "text": "jamais",
+          "start": 6.44,
+          "end": 6.68,
+          "confidence": 0.992
+        },
+        {
+          "text": "\u00e9t\u00e9",
+          "start": 6.68,
+          "end": 7.04,
+          "confidence": 0.956
+        },
+        {
+          "text": "proche",
+          "start": 7.04,
+          "end": 7.4,
+          "confidence": 0.976
+        },
+        {
+          "text": "[*]",
+          "start": 7.4,
+          "end": 7.64,
+          "confidence": 0
+        },
+        {
+          "text": "officiellement,",
+          "start": 7.64,
+          "end": 8.1,
+          "confidence": 0.745
+        },
+        {
+          "text": "mais",
+          "start": 8.66,
+          "end": 8.7,
+          "confidence": 0.694
+        },
+        {
+          "text": "[*]",
+          "start": 8.7,
+          "end": 9.18,
+          "confidence": 0
+        },
+        {
+          "text": "vous",
+          "start": 9.18,
+          "end": 9.32,
+          "confidence": 0.953
+        },
+        {
+          "text": "dites,",
+          "start": 9.32,
+          "end": 9.76,
+          "confidence": 0.438
+        },
+        {
+          "text": "vous",
+          "start": 9.76,
+          "end": 10.06,
+          "confidence": 0.666
+        },
+        {
+          "text": "dites",
+          "start": 10.06,
+          "end": 10.32,
+          "confidence": 0.985
+        },
+        {
+          "text": "qu'il",
+          "start": 10.32,
+          "end": 10.7,
+          "confidence": 0.781
+        },
+        {
+          "text": "va",
+          "start": 10.7,
+          "end": 10.86,
+          "confidence": 0.997
+        },
+        {
+          "text": "vers",
+          "start": 10.86,
+          "end": 11.06,
+          "confidence": 0.996
+        },
+        {
+          "text": "le",
+          "start": 11.06,
+          "end": 11.32,
+          "confidence": 0.996
+        },
+        {
+          "text": "centre.",
+          "start": 11.32,
+          "end": 11.64,
+          "confidence": 0.688
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 11.64,
+      "end": 30.27,
+      "text": " C'est la maladie, ce que j'appelle la maladie de LR. D'abord j'ai propos\u00e9 l'union des droites, on peut appeler coalition des droits comme on veut, parce que je pense que c'est la seule fa\u00e7on de gagner face \u00e0 la concentration des centres",
+      "tokens": [
+        50964,
+        383,
+        6,
+        377,
+        635,
+        39500,
+        414,
+        11,
+        1769,
+        631,
+        361,
+        6,
+        25543,
+        635,
+        39500,
+        414,
+        368,
+        441,
+        49,
+        13,
+        413,
+        6,
+        26100,
+        361,
+        6,
+        1301,
+        7532,
+        526,
+        287,
+        6,
+        42137,
+        730,
+        3789,
+        3324,
+        11,
+        322,
+        5977,
+        724,
+        6185,
+        21371,
+        730,
+        3789,
+        1208,
+        5173,
+        322,
+        14873,
+        11,
+        6992,
+        631,
+        1506,
+        11209,
+        631,
+        269,
+        6,
+        377,
+        635,
+        18800,
+        20725,
+        368,
+        45343,
+        1851,
+        1531,
+        635,
+        9856,
+        730,
+        30096,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24186614251905872,
+      "compression_ratio": 1.632183908045977,
+      "no_speech_prob": 0.17279279232025146,
+      "confidence": 0.732,
+      "words": [
+        {
+          "text": "[*]",
+          "start": 11.64,
+          "end": 12.24,
+          "confidence": 0
+        },
+        {
+          "text": "C'est",
+          "start": 12.24,
+          "end": 12.66,
+          "confidence": 0.661
+        },
+        {
+          "text": "la",
+          "start": 12.66,
+          "end": 12.76,
+          "confidence": 0.387
+        },
+        {
+          "text": "maladie,",
+          "start": 12.76,
+          "end": 13.04,
+          "confidence": 0.569
+        },
+        {
+          "text": "ce",
+          "start": 13.04,
+          "end": 13.26,
+          "confidence": 0.671
+        },
+        {
+          "text": "que",
+          "start": 13.26,
+          "end": 13.28,
+          "confidence": 0.964
+        },
+        {
+          "text": "j'appelle",
+          "start": 13.28,
+          "end": 13.58,
+          "confidence": 0.995
+        },
+        {
+          "text": "la",
+          "start": 13.58,
+          "end": 13.9,
+          "confidence": 0.878
+        },
+        {
+          "text": "maladie",
+          "start": 13.9,
+          "end": 14.24,
+          "confidence": 0.675
+        },
+        {
+          "text": "de",
+          "start": 14.24,
+          "end": 14.48,
+          "confidence": 0.291
+        },
+        {
+          "text": "LR.",
+          "start": 14.48,
+          "end": 14.76,
+          "confidence": 0.675
+        },
+        {
+          "text": "[*]",
+          "start": 14.76,
+          "end": 16.79,
+          "confidence": 0
+        },
+        {
+          "text": "D'abord",
+          "start": 18.13,
+          "end": 18.61,
+          "confidence": 0.319
+        },
+        {
+          "text": "j'ai",
+          "start": 18.61,
+          "end": 19.51,
+          "confidence": 0.859
+        },
+        {
+          "text": "propos\u00e9",
+          "start": 19.51,
+          "end": 20.13,
+          "confidence": 0.982
+        },
+        {
+          "text": "l'union",
+          "start": 20.13,
+          "end": 20.49,
+          "confidence": 0.764
+        },
+        {
+          "text": "des",
+          "start": 20.49,
+          "end": 20.63,
+          "confidence": 0.666
+        },
+        {
+          "text": "droites,",
+          "start": 20.63,
+          "end": 20.77,
+          "confidence": 0.525
+        },
+        {
+          "text": "on",
+          "start": 20.89,
+          "end": 20.91,
+          "confidence": 0.475
+        },
+        {
+          "text": "peut",
+          "start": 20.91,
+          "end": 21.01,
+          "confidence": 0.944
+        },
+        {
+          "text": "appeler",
+          "start": 21.01,
+          "end": 21.19,
+          "confidence": 0.776
+        },
+        {
+          "text": "[*]",
+          "start": 21.19,
+          "end": 21.55,
+          "confidence": 0
+        },
+        {
+          "text": "coalition",
+          "start": 21.55,
+          "end": 21.67,
+          "confidence": 0.405
+        },
+        {
+          "text": "des",
+          "start": 21.67,
+          "end": 21.85,
+          "confidence": 0.962
+        },
+        {
+          "text": "droits",
+          "start": 21.85,
+          "end": 22.01,
+          "confidence": 0.817
+        },
+        {
+          "text": "comme",
+          "start": 22.01,
+          "end": 22.25,
+          "confidence": 0.735
+        },
+        {
+          "text": "on",
+          "start": 22.25,
+          "end": 22.39,
+          "confidence": 0.958
+        },
+        {
+          "text": "[*]",
+          "start": 22.39,
+          "end": 22.67,
+          "confidence": 0
+        },
+        {
+          "text": "veut,",
+          "start": 22.67,
+          "end": 22.99,
+          "confidence": 0.626
+        },
+        {
+          "text": "[*]",
+          "start": 22.99,
+          "end": 24.37,
+          "confidence": 0
+        },
+        {
+          "text": "parce",
+          "start": 24.37,
+          "end": 24.53,
+          "confidence": 0.384
+        },
+        {
+          "text": "que",
+          "start": 24.53,
+          "end": 24.75,
+          "confidence": 0.972
+        },
+        {
+          "text": "je",
+          "start": 24.75,
+          "end": 24.87,
+          "confidence": 0.934
+        },
+        {
+          "text": "pense",
+          "start": 24.87,
+          "end": 25.07,
+          "confidence": 0.978
+        },
+        {
+          "text": "que",
+          "start": 25.07,
+          "end": 25.21,
+          "confidence": 0.974
+        },
+        {
+          "text": "c'est",
+          "start": 25.21,
+          "end": 25.35,
+          "confidence": 0.977
+        },
+        {
+          "text": "la",
+          "start": 25.35,
+          "end": 25.59,
+          "confidence": 0.937
+        },
+        {
+          "text": "seule",
+          "start": 25.59,
+          "end": 25.75,
+          "confidence": 0.978
+        },
+        {
+          "text": "fa\u00e7on",
+          "start": 25.75,
+          "end": 26.15,
+          "confidence": 0.984
+        },
+        {
+          "text": "de",
+          "start": 26.15,
+          "end": 26.57,
+          "confidence": 0.954
+        },
+        {
+          "text": "[*]",
+          "start": 26.57,
+          "end": 27.05,
+          "confidence": 0
+        },
+        {
+          "text": "gagner",
+          "start": 27.05,
+          "end": 27.17,
+          "confidence": 0.98
+        },
+        {
+          "text": "face",
+          "start": 27.17,
+          "end": 27.89,
+          "confidence": 0.928
+        },
+        {
+          "text": "[*]",
+          "start": 27.89,
+          "end": 28.57,
+          "confidence": 0
+        },
+        {
+          "text": "\u00e0",
+          "start": 28.57,
+          "end": 28.91,
+          "confidence": 0.943
+        },
+        {
+          "text": "la",
+          "start": 28.91,
+          "end": 29.19,
+          "confidence": 0.987
+        },
+        {
+          "text": "concentration",
+          "start": 29.19,
+          "end": 29.67,
+          "confidence": 0.956
+        },
+        {
+          "text": "des",
+          "start": 29.67,
+          "end": 29.93,
+          "confidence": 0.978
+        },
+        {
+          "text": "centres",
+          "start": 29.93,
+          "end": 30.27,
+          "confidence": 0.967
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2900,
+      "start": 30.27,
+      "end": 49.35,
+      "text": " qu'incarne M. Macron. Tant qu'il y aura \u00e0 droite la domination du RN qui penche de plus en plus \u00e0 gauche et sur la gauche la domination de LFI, le bloc macronien sera vainqueur \u00e0 tous les coups, car il a un \u00e9lectorat AG qui est nombreux et qui vote pour lui.",
+      "tokens": [
+        50364,
+        421,
+        6,
+        4647,
+        289,
+        716,
+        376,
+        13,
+        32806,
+        13,
+        314,
+        394,
+        421,
+        6,
+        388,
+        288,
+        18355,
+        1531,
+        37321,
+        635,
+        41502,
+        1581,
+        45702,
+        1956,
+        3435,
+        1876,
+        368,
+        1804,
+        465,
+        1804,
+        1531,
+        36724,
+        1030,
+        1022,
+        635,
+        36724,
+        635,
+        41502,
+        368,
+        441,
+        38568,
+        11,
+        476,
+        1749,
+        66,
+        7912,
+        2044,
+        1053,
+        15021,
+        22240,
+        1077,
+        374,
+        1531,
+        8317,
+        1512,
+        8682,
+        82,
+        11,
+        1032,
+        1930,
+        257,
+        517,
+        1136,
+        306,
+        1672,
+        267,
+        28406,
+        1956,
+        871,
+        43260,
+        1030,
+        1956,
+        4740,
+        2016,
+        8783,
+        13,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10260009765625,
+      "compression_ratio": 1.423913043478261,
+      "no_speech_prob": 0.7918815016746521,
+      "confidence": 0.818,
+      "words": [
+        {
+          "text": "qu'incarne",
+          "start": 30.27,
+          "end": 31.11,
+          "confidence": 0.895
+        },
+        {
+          "text": "M.",
+          "start": 31.11,
+          "end": 31.31,
+          "confidence": 0.678
+        },
+        {
+          "text": "Macron.",
+          "start": 31.39,
+          "end": 31.71,
+          "confidence": 0.924
+        },
+        {
+          "text": "Tant",
+          "start": 32.31,
+          "end": 32.57,
+          "confidence": 0.674
+        },
+        {
+          "text": "qu'il",
+          "start": 32.57,
+          "end": 32.81,
+          "confidence": 0.995
+        },
+        {
+          "text": "y",
+          "start": 32.81,
+          "end": 32.93,
+          "confidence": 0.998
+        },
+        {
+          "text": "aura",
+          "start": 32.93,
+          "end": 33.49,
+          "confidence": 0.978
+        },
+        {
+          "text": "\u00e0",
+          "start": 33.49,
+          "end": 33.85,
+          "confidence": 0.794
+        },
+        {
+          "text": "droite",
+          "start": 33.85,
+          "end": 34.11,
+          "confidence": 0.994
+        },
+        {
+          "text": "la",
+          "start": 34.11,
+          "end": 34.35,
+          "confidence": 0.919
+        },
+        {
+          "text": "domination",
+          "start": 34.35,
+          "end": 34.85,
+          "confidence": 0.98
+        },
+        {
+          "text": "du",
+          "start": 34.85,
+          "end": 35.11,
+          "confidence": 0.838
+        },
+        {
+          "text": "RN",
+          "start": 35.11,
+          "end": 35.37,
+          "confidence": 0.727
+        },
+        {
+          "text": "qui",
+          "start": 35.37,
+          "end": 35.61,
+          "confidence": 0.645
+        },
+        {
+          "text": "penche",
+          "start": 35.61,
+          "end": 36.15,
+          "confidence": 0.9
+        },
+        {
+          "text": "de",
+          "start": 36.15,
+          "end": 36.39,
+          "confidence": 0.659
+        },
+        {
+          "text": "plus",
+          "start": 36.39,
+          "end": 36.55,
+          "confidence": 0.701
+        },
+        {
+          "text": "en",
+          "start": 36.55,
+          "end": 36.69,
+          "confidence": 0.976
+        },
+        {
+          "text": "plus",
+          "start": 36.69,
+          "end": 36.83,
+          "confidence": 0.996
+        },
+        {
+          "text": "\u00e0",
+          "start": 36.83,
+          "end": 36.99,
+          "confidence": 0.914
+        },
+        {
+          "text": "gauche",
+          "start": 36.99,
+          "end": 37.27,
+          "confidence": 0.993
+        },
+        {
+          "text": "[*]",
+          "start": 37.27,
+          "end": 37.49,
+          "confidence": 0
+        },
+        {
+          "text": "et",
+          "start": 37.49,
+          "end": 38.43,
+          "confidence": 0.181
+        },
+        {
+          "text": "sur",
+          "start": 38.43,
+          "end": 38.97,
+          "confidence": 0.59
+        },
+        {
+          "text": "la",
+          "start": 38.97,
+          "end": 39.15,
+          "confidence": 0.954
+        },
+        {
+          "text": "gauche",
+          "start": 39.15,
+          "end": 39.47,
+          "confidence": 0.969
+        },
+        {
+          "text": "la",
+          "start": 39.47,
+          "end": 39.89,
+          "confidence": 0.635
+        },
+        {
+          "text": "domination",
+          "start": 39.89,
+          "end": 40.35,
+          "confidence": 0.988
+        },
+        {
+          "text": "de",
+          "start": 40.35,
+          "end": 40.61,
+          "confidence": 0.933
+        },
+        {
+          "text": "LFI,",
+          "start": 40.61,
+          "end": 40.99,
+          "confidence": 0.903
+        },
+        {
+          "text": "[*]",
+          "start": 40.99,
+          "end": 41.59,
+          "confidence": 0
+        },
+        {
+          "text": "le",
+          "start": 41.59,
+          "end": 41.91,
+          "confidence": 0.185
+        },
+        {
+          "text": "bloc",
+          "start": 41.91,
+          "end": 42.33,
+          "confidence": 0.716
+        },
+        {
+          "text": "macronien",
+          "start": 42.33,
+          "end": 42.91,
+          "confidence": 0.842
+        },
+        {
+          "text": "sera",
+          "start": 42.91,
+          "end": 43.27,
+          "confidence": 0.934
+        },
+        {
+          "text": "vainqueur",
+          "start": 43.27,
+          "end": 43.77,
+          "confidence": 0.943
+        },
+        {
+          "text": "\u00e0",
+          "start": 43.77,
+          "end": 43.91,
+          "confidence": 0.908
+        },
+        {
+          "text": "tous",
+          "start": 43.91,
+          "end": 44.09,
+          "confidence": 0.977
+        },
+        {
+          "text": "les",
+          "start": 44.09,
+          "end": 44.19,
+          "confidence": 0.994
+        },
+        {
+          "text": "coups,",
+          "start": 44.19,
+          "end": 45.15,
+          "confidence": 0.639
+        },
+        {
+          "text": "car",
+          "start": 45.33,
+          "end": 45.55,
+          "confidence": 0.645
+        },
+        {
+          "text": "il",
+          "start": 45.55,
+          "end": 45.81,
+          "confidence": 0.987
+        },
+        {
+          "text": "a",
+          "start": 45.81,
+          "end": 46.09,
+          "confidence": 0.983
+        },
+        {
+          "text": "un",
+          "start": 46.09,
+          "end": 46.43,
+          "confidence": 0.946
+        },
+        {
+          "text": "\u00e9lectorat",
+          "start": 46.43,
+          "end": 47.07,
+          "confidence": 0.9
+        },
+        {
+          "text": "AG",
+          "start": 47.07,
+          "end": 47.43,
+          "confidence": 0.398
+        },
+        {
+          "text": "qui",
+          "start": 47.43,
+          "end": 47.69,
+          "confidence": 0.906
+        },
+        {
+          "text": "est",
+          "start": 47.69,
+          "end": 47.81,
+          "confidence": 0.983
+        },
+        {
+          "text": "nombreux",
+          "start": 47.81,
+          "end": 48.15,
+          "confidence": 0.67
+        },
+        {
+          "text": "[*]",
+          "start": 48.15,
+          "end": 48.47,
+          "confidence": 0
+        },
+        {
+          "text": "et",
+          "start": 48.47,
+          "end": 48.59,
+          "confidence": 0.924
+        },
+        {
+          "text": "qui",
+          "start": 48.59,
+          "end": 48.75,
+          "confidence": 0.97
+        },
+        {
+          "text": "vote",
+          "start": 48.75,
+          "end": 48.91,
+          "confidence": 0.987
+        },
+        {
+          "text": "pour",
+          "start": 48.91,
+          "end": 49.15,
+          "confidence": 0.99
+        },
+        {
+          "text": "lui.",
+          "start": 49.15,
+          "end": 49.35,
+          "confidence": 0.937
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 4800,
+      "start": 49.51,
+      "end": 62.13,
+      "text": " Donc moi j'essaie de donner une alternative politique, ce n'est pas mon grand projet pour la France, c'est lutter contre l'islamisation du pays et le grand emplacement. Ne m\u00e9langez pas la strat\u00e9gie et la tactique.",
+      "tokens": [
+        50364,
+        7477,
+        7748,
+        361,
+        6,
+        8391,
+        414,
+        368,
+        20882,
+        2251,
+        8535,
+        26115,
+        11,
+        1769,
+        297,
+        6,
+        377,
+        1736,
+        1108,
+        2697,
+        17929,
+        2016,
+        635,
+        6190,
+        11,
+        269,
+        6,
+        377,
+        287,
+        9947,
+        14927,
+        287,
+        6,
+        271,
+        4326,
+        7623,
+        1581,
+        10604,
+        1030,
+        476,
+        2697,
+        846,
+        564,
+        7621,
+        13,
+        1734,
+        41953,
+        933,
+        89,
+        1736,
+        635,
+        45023,
+        414,
+        1030,
+        635,
+        9959,
+        1925,
+        13,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11695531157196545,
+      "compression_ratio": 1.3782051282051282,
+      "no_speech_prob": 0.7706416249275208,
+      "confidence": 0.814,
+      "words": [
+        {
+          "text": "Donc",
+          "start": 49.51,
+          "end": 50.23,
+          "confidence": 0.789
+        },
+        {
+          "text": "moi",
+          "start": 50.23,
+          "end": 50.67,
+          "confidence": 0.769
+        },
+        {
+          "text": "j'essaie",
+          "start": 50.67,
+          "end": 51.15,
+          "confidence": 0.716
+        },
+        {
+          "text": "de",
+          "start": 51.15,
+          "end": 51.29,
+          "confidence": 0.995
+        },
+        {
+          "text": "donner",
+          "start": 51.29,
+          "end": 51.47,
+          "confidence": 0.987
+        },
+        {
+          "text": "une",
+          "start": 51.47,
+          "end": 51.73,
+          "confidence": 0.985
+        },
+        {
+          "text": "alternative",
+          "start": 51.73,
+          "end": 52.45,
+          "confidence": 0.992
+        },
+        {
+          "text": "politique,",
+          "start": 52.45,
+          "end": 53.19,
+          "confidence": 0.624
+        },
+        {
+          "text": "ce",
+          "start": 53.53,
+          "end": 53.61,
+          "confidence": 0.188
+        },
+        {
+          "text": "n'est",
+          "start": 53.61,
+          "end": 53.69,
+          "confidence": 0.998
+        },
+        {
+          "text": "pas",
+          "start": 53.69,
+          "end": 53.75,
+          "confidence": 0.994
+        },
+        {
+          "text": "mon",
+          "start": 53.75,
+          "end": 54.01,
+          "confidence": 0.923
+        },
+        {
+          "text": "grand",
+          "start": 54.01,
+          "end": 54.37,
+          "confidence": 0.957
+        },
+        {
+          "text": "projet",
+          "start": 54.37,
+          "end": 54.65,
+          "confidence": 0.978
+        },
+        {
+          "text": "pour",
+          "start": 54.65,
+          "end": 54.81,
+          "confidence": 0.127
+        },
+        {
+          "text": "la",
+          "start": 54.81,
+          "end": 54.93,
+          "confidence": 0.906
+        },
+        {
+          "text": "France,",
+          "start": 54.93,
+          "end": 55.07,
+          "confidence": 0.849
+        },
+        {
+          "text": "[*]",
+          "start": 55.13,
+          "end": 56.13,
+          "confidence": 0
+        },
+        {
+          "text": "c'est",
+          "start": 56.13,
+          "end": 57.05,
+          "confidence": 0.599
+        },
+        {
+          "text": "lutter",
+          "start": 57.05,
+          "end": 57.53,
+          "confidence": 0.892
+        },
+        {
+          "text": "contre",
+          "start": 57.53,
+          "end": 57.87,
+          "confidence": 0.99
+        },
+        {
+          "text": "l'islamisation",
+          "start": 57.87,
+          "end": 58.53,
+          "confidence": 0.985
+        },
+        {
+          "text": "du",
+          "start": 58.53,
+          "end": 58.69,
+          "confidence": 0.955
+        },
+        {
+          "text": "pays",
+          "start": 58.69,
+          "end": 58.91,
+          "confidence": 0.97
+        },
+        {
+          "text": "et",
+          "start": 58.91,
+          "end": 59.15,
+          "confidence": 0.905
+        },
+        {
+          "text": "le",
+          "start": 59.15,
+          "end": 59.25,
+          "confidence": 0.987
+        },
+        {
+          "text": "grand",
+          "start": 59.25,
+          "end": 59.45,
+          "confidence": 0.981
+        },
+        {
+          "text": "emplacement.",
+          "start": 59.45,
+          "end": 59.81,
+          "confidence": 0.884
+        },
+        {
+          "text": "Ne",
+          "start": 60.05,
+          "end": 60.35,
+          "confidence": 0.196
+        },
+        {
+          "text": "m\u00e9langez",
+          "start": 60.35,
+          "end": 60.73,
+          "confidence": 0.993
+        },
+        {
+          "text": "pas",
+          "start": 60.73,
+          "end": 60.85,
+          "confidence": 0.996
+        },
+        {
+          "text": "la",
+          "start": 60.85,
+          "end": 61.09,
+          "confidence": 0.972
+        },
+        {
+          "text": "strat\u00e9gie",
+          "start": 61.09,
+          "end": 61.51,
+          "confidence": 0.998
+        },
+        {
+          "text": "et",
+          "start": 61.51,
+          "end": 61.65,
+          "confidence": 0.991
+        },
+        {
+          "text": "la",
+          "start": 61.65,
+          "end": 61.77,
+          "confidence": 0.993
+        },
+        {
+          "text": "tactique.",
+          "start": 61.77,
+          "end": 62.13,
+          "confidence": 0.889
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 6100,
+      "start": 62.13,
+      "end": 81.67,
+      "text": " J'ai bien compris que Marine Le Pen n'en veut pas, puisqu'elle pr\u00e9f\u00e8re se soumettre id\u00e9ologiquement \u00e0 la gauche, \u00e0 la nuppesse, et qu'on a vu l\u00e0 dans la r\u00e9forme des retraites que les gens du RN parlent exactement comme la nuppesse.",
+      "tokens": [
+        50364,
+        508,
+        6,
+        1301,
+        3610,
+        31711,
+        631,
+        20415,
+        1456,
+        10571,
+        297,
+        6,
+        268,
+        14873,
+        1736,
+        11,
+        43459,
+        6,
+        4434,
+        31139,
+        4212,
+        369,
+        6926,
+        76,
+        40681,
+        39227,
+        1132,
+        27703,
+        1531,
+        635,
+        36724,
+        11,
+        1531,
+        635,
+        3822,
+        427,
+        7357,
+        11,
+        1030,
+        421,
+        6,
+        266,
+        257,
+        9732,
+        3684,
+        2680,
+        635,
+        3960,
+        44562,
+        730,
+        49356,
+        3324,
+        631,
+        1512,
+        10668,
+        1581,
+        45702,
+        13734,
+        317,
+        38111,
+        5173,
+        635,
+        3822,
+        427,
+        7357,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16844537983769955,
+      "compression_ratio": 1.3837209302325582,
+      "no_speech_prob": 0.7174467444419861,
+      "confidence": 0.734,
+      "words": [
+        {
+          "text": "[*]",
+          "start": 62.13,
+          "end": 64.21,
+          "confidence": 0
+        },
+        {
+          "text": "J'ai",
+          "start": 64.21,
+          "end": 65.39,
+          "confidence": 0.215
+        },
+        {
+          "text": "bien",
+          "start": 65.39,
+          "end": 65.61,
+          "confidence": 0.861
+        },
+        {
+          "text": "compris",
+          "start": 65.61,
+          "end": 65.97,
+          "confidence": 0.998
+        },
+        {
+          "text": "[*]",
+          "start": 65.97,
+          "end": 66.87,
+          "confidence": 0
+        },
+        {
+          "text": "que",
+          "start": 66.87,
+          "end": 67.75,
+          "confidence": 0.636
+        },
+        {
+          "text": "Marine",
+          "start": 67.75,
+          "end": 68.21,
+          "confidence": 0.951
+        },
+        {
+          "text": "Le",
+          "start": 68.21,
+          "end": 68.41,
+          "confidence": 0.975
+        },
+        {
+          "text": "Pen",
+          "start": 68.41,
+          "end": 68.73,
+          "confidence": 0.991
+        },
+        {
+          "text": "n'en",
+          "start": 68.73,
+          "end": 69.23,
+          "confidence": 0.932
+        },
+        {
+          "text": "veut",
+          "start": 69.23,
+          "end": 69.37,
+          "confidence": 0.972
+        },
+        {
+          "text": "[*]",
+          "start": 69.37,
+          "end": 69.79,
+          "confidence": 0
+        },
+        {
+          "text": "pas,",
+          "start": 69.79,
+          "end": 70.15,
+          "confidence": 0.554
+        },
+        {
+          "text": "puisqu'elle",
+          "start": 70.43,
+          "end": 72.09,
+          "confidence": 0.747
+        },
+        {
+          "text": "[*]",
+          "start": 72.09,
+          "end": 72.37,
+          "confidence": 0
+        },
+        {
+          "text": "pr\u00e9f\u00e8re",
+          "start": 72.37,
+          "end": 72.83,
+          "confidence": 0.982
+        },
+        {
+          "text": "se",
+          "start": 72.83,
+          "end": 73.21,
+          "confidence": 0.961
+        },
+        {
+          "text": "soumettre",
+          "start": 73.21,
+          "end": 73.69,
+          "confidence": 0.982
+        },
+        {
+          "text": "id\u00e9ologiquement",
+          "start": 73.69,
+          "end": 74.71,
+          "confidence": 0.915
+        },
+        {
+          "text": "\u00e0",
+          "start": 74.71,
+          "end": 75.11,
+          "confidence": 0.808
+        },
+        {
+          "text": "la",
+          "start": 75.11,
+          "end": 75.27,
+          "confidence": 0.989
+        },
+        {
+          "text": "gauche,",
+          "start": 75.27,
+          "end": 75.53,
+          "confidence": 0.902
+        },
+        {
+          "text": "\u00e0",
+          "start": 75.65,
+          "end": 75.79,
+          "confidence": 0.864
+        },
+        {
+          "text": "la",
+          "start": 75.79,
+          "end": 75.93,
+          "confidence": 0.964
+        },
+        {
+          "text": "nuppesse,",
+          "start": 75.93,
+          "end": 76.29,
+          "confidence": 0.556
+        },
+        {
+          "text": "et",
+          "start": 76.43,
+          "end": 76.55,
+          "confidence": 0.304
+        },
+        {
+          "text": "qu'on",
+          "start": 76.55,
+          "end": 76.73,
+          "confidence": 0.914
+        },
+        {
+          "text": "a",
+          "start": 76.73,
+          "end": 76.83,
+          "confidence": 0.959
+        },
+        {
+          "text": "vu",
+          "start": 76.83,
+          "end": 77.01,
+          "confidence": 0.891
+        },
+        {
+          "text": "l\u00e0",
+          "start": 77.01,
+          "end": 77.17,
+          "confidence": 0.616
+        },
+        {
+          "text": "dans",
+          "start": 77.17,
+          "end": 77.27,
+          "confidence": 0.711
+        },
+        {
+          "text": "la",
+          "start": 77.27,
+          "end": 77.35,
+          "confidence": 0.956
+        },
+        {
+          "text": "r\u00e9forme",
+          "start": 77.35,
+          "end": 77.59,
+          "confidence": 0.813
+        },
+        {
+          "text": "des",
+          "start": 77.59,
+          "end": 77.75,
+          "confidence": 0.981
+        },
+        {
+          "text": "retraites",
+          "start": 77.75,
+          "end": 78.07,
+          "confidence": 0.953
+        },
+        {
+          "text": "que",
+          "start": 78.07,
+          "end": 78.75,
+          "confidence": 0.299
+        },
+        {
+          "text": "les",
+          "start": 78.75,
+          "end": 78.95,
+          "confidence": 0.924
+        },
+        {
+          "text": "gens",
+          "start": 78.95,
+          "end": 79.09,
+          "confidence": 0.83
+        },
+        {
+          "text": "du",
+          "start": 79.09,
+          "end": 79.19,
+          "confidence": 0.935
+        },
+        {
+          "text": "[*]",
+          "start": 79.19,
+          "end": 79.51,
+          "confidence": 0
+        },
+        {
+          "text": "RN",
+          "start": 79.51,
+          "end": 79.69,
+          "confidence": 0.021
+        },
+        {
+          "text": "parlent",
+          "start": 79.69,
+          "end": 80.53,
+          "confidence": 0.903
+        },
+        {
+          "text": "exactement",
+          "start": 80.53,
+          "end": 81.07,
+          "confidence": 0.96
+        },
+        {
+          "text": "comme",
+          "start": 81.07,
+          "end": 81.25,
+          "confidence": 0.952
+        },
+        {
+          "text": "la",
+          "start": 81.25,
+          "end": 81.39,
+          "confidence": 0.944
+        },
+        {
+          "text": "nuppesse.",
+          "start": 81.39,
+          "end": 81.67,
+          "confidence": 0.906
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 8100,
+      "start": 81.91,
+      "end": 88.37,
+      "text": " Qu'on voit par ailleurs un \u00e9lu dans le Vaucluse, inaugur\u00e9 \u00e0 grand frais, une immense mosqu\u00e9e...",
+      "tokens": [
+        50364,
+        2326,
+        6,
+        266,
+        18164,
+        971,
+        257,
+        14810,
+        517,
+        1136,
+        2781,
+        2680,
+        476,
+        691,
+        7113,
+        75,
+        438,
+        11,
+        23541,
+        374,
+        526,
+        1531,
+        2697,
+        6600,
+        271,
+        11,
+        2251,
+        22920,
+        13659,
+        358,
+        3856,
+        485,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13057153641910296,
+      "compression_ratio": 3.65359477124183,
+      "no_speech_prob": 0.8112053275108337,
+      "confidence": 0.747,
+      "words": [
+        {
+          "text": "Qu'on",
+          "start": 81.91,
+          "end": 82.25,
+          "confidence": 0.666
+        },
+        {
+          "text": "voit",
+          "start": 82.25,
+          "end": 82.51,
+          "confidence": 0.954
+        },
+        {
+          "text": "par",
+          "start": 82.51,
+          "end": 82.87,
+          "confidence": 0.682
+        },
+        {
+          "text": "ailleurs",
+          "start": 82.87,
+          "end": 83.23,
+          "confidence": 0.995
+        },
+        {
+          "text": "un",
+          "start": 83.23,
+          "end": 83.67,
+          "confidence": 0.416
+        },
+        {
+          "text": "\u00e9lu",
+          "start": 83.67,
+          "end": 83.97,
+          "confidence": 0.964
+        },
+        {
+          "text": "dans",
+          "start": 83.97,
+          "end": 84.13,
+          "confidence": 0.977
+        },
+        {
+          "text": "le",
+          "start": 84.13,
+          "end": 84.27,
+          "confidence": 0.978
+        },
+        {
+          "text": "Vaucluse,",
+          "start": 84.27,
+          "end": 84.75,
+          "confidence": 0.577
+        },
+        {
+          "text": "inaugur\u00e9",
+          "start": 85.21,
+          "end": 85.61,
+          "confidence": 0.944
+        },
+        {
+          "text": "\u00e0",
+          "start": 85.61,
+          "end": 85.87,
+          "confidence": 0.967
+        },
+        {
+          "text": "grand",
+          "start": 85.87,
+          "end": 86.09,
+          "confidence": 0.581
+        },
+        {
+          "text": "frais,",
+          "start": 86.09,
+          "end": 86.45,
+          "confidence": 0.923
+        },
+        {
+          "text": "une",
+          "start": 86.69,
+          "end": 86.87,
+          "confidence": 0.802
+        },
+        {
+          "text": "immense",
+          "start": 86.87,
+          "end": 87.35,
+          "confidence": 0.973
+        },
+        {
+          "text": "mosqu\u00e9e...",
+          "start": 87.35,
+          "end": 88.37,
+          "confidence": 0.547
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 8100,
+      "start": 88.37,
+      "end": 90.37,
+      "text": " Ce qu'elle condamne, elle l'a bl\u00e2m\u00e9...",
+      "tokens": [
+        50664,
+        8257,
+        421,
+        6,
+        4434,
+        2224,
+        335,
+        716,
+        11,
+        8404,
+        287,
+        6,
+        64,
+        888,
+        3201,
+        76,
+        526,
+        485,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13057153641910296,
+      "compression_ratio": 3.65359477124183,
+      "no_speech_prob": 0.8112053275108337,
+      "confidence": 0.177,
+      "words": [
+        {
+          "text": "Ce",
+          "start": 88.37,
+          "end": 88.39,
+          "confidence": 0.0
+        },
+        {
+          "text": "qu'elle",
+          "start": 88.39,
+          "end": 88.49,
+          "confidence": 0.119
+        },
+        {
+          "text": "condamne,",
+          "start": 88.49,
+          "end": 89.03,
+          "confidence": 0.073
+        },
+        {
+          "text": "elle",
+          "start": 89.07,
+          "end": 89.31,
+          "confidence": 0.871
+        },
+        {
+          "text": "l'a",
+          "start": 89.31,
+          "end": 89.51,
+          "confidence": 0.967
+        },
+        {
+          "text": "bl\u00e2m\u00e9...",
+          "start": 89.51,
+          "end": 90.37,
+          "confidence": 0.471
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 8100,
+      "start": 90.37,
+      "end": 91.43,
+      "text": " Non, non, non, non, elle a un bl\u00e2me, c'est tout.",
+      "tokens": [
+        50764,
+        8774,
+        11,
+        2107,
+        11,
+        2107,
+        11,
+        2107,
+        11,
+        8404,
+        257,
+        517,
+        888,
+        3201,
+        1398,
+        11,
+        269,
+        6,
+        377,
+        3486,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13057153641910296,
+      "compression_ratio": 3.65359477124183,
+      "no_speech_prob": 0.8112053275108337,
+      "confidence": 0.126,
+      "words": [
+        {
+          "text": "Non,",
+          "start": 90.37,
+          "end": 90.59,
+          "confidence": 0.168
+        },
+        {
+          "text": "non,",
+          "start": 90.75,
+          "end": 90.77,
+          "confidence": 0.565
+        },
+        {
+          "text": "non,",
+          "start": 90.77,
+          "end": 90.79,
+          "confidence": 0.665
+        },
+        {
+          "text": "non,",
+          "start": 90.87,
+          "end": 90.89,
+          "confidence": 0.652
+        },
+        {
+          "text": "elle",
+          "start": 91.11,
+          "end": 91.21,
+          "confidence": 0.001
+        },
+        {
+          "text": "a",
+          "start": 91.21,
+          "end": 91.35,
+          "confidence": 0.11
+        },
+        {
+          "text": "un",
+          "start": 91.35,
+          "end": 91.37,
+          "confidence": 0.018
+        },
+        {
+          "text": "bl\u00e2me,",
+          "start": 91.37,
+          "end": 91.39,
+          "confidence": 0.037
+        },
+        {
+          "text": "c'est",
+          "start": 91.39,
+          "end": 91.41,
+          "confidence": 0.36
+        },
+        {
+          "text": "tout.",
+          "start": 91.41,
+          "end": 91.43,
+          "confidence": 0.05
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 9000,
+      "start": 96.93,
+      "end": 105.73,
+      "text": " J'ai bien compris que LR non plus, sous la direction de Ciotti, ne voulait pas non plus d'une union des droites avec Reconqu\u00eate et avec l'Assembl\u00e9e nationale.",
+      "tokens": [
+        50364,
+        508,
+        6,
+        1301,
+        3610,
+        31711,
+        631,
+        441,
+        49,
+        2107,
+        1804,
+        11,
+        16686,
+        635,
+        3513,
+        368,
+        20188,
+        37514,
+        11,
+        408,
+        6008,
+        35235,
+        1736,
+        2107,
+        1804,
+        274,
+        6,
+        2613,
+        11671,
+        730,
+        3789,
+        3324,
+        4163,
+        1300,
+        1671,
+        358,
+        12943,
+        1030,
+        4163,
+        287,
+        6,
+        10884,
+        15750,
+        75,
+        3856,
+        49974,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16074532270431519,
+      "compression_ratio": 1.5358851674641147,
+      "no_speech_prob": 0.3549269139766693,
+      "confidence": 0.682,
+      "words": [
+        {
+          "text": "J'ai",
+          "start": 96.93,
+          "end": 98.33,
+          "confidence": 0.198
+        },
+        {
+          "text": "bien",
+          "start": 98.33,
+          "end": 98.55,
+          "confidence": 0.672
+        },
+        {
+          "text": "compris",
+          "start": 98.55,
+          "end": 98.89,
+          "confidence": 0.997
+        },
+        {
+          "text": "que",
+          "start": 98.89,
+          "end": 99.17,
+          "confidence": 0.93
+        },
+        {
+          "text": "LR",
+          "start": 99.17,
+          "end": 99.55,
+          "confidence": 0.893
+        },
+        {
+          "text": "non",
+          "start": 99.55,
+          "end": 99.85,
+          "confidence": 0.658
+        },
+        {
+          "text": "plus,",
+          "start": 99.85,
+          "end": 100.01,
+          "confidence": 0.577
+        },
+        {
+          "text": "sous",
+          "start": 100.03,
+          "end": 100.17,
+          "confidence": 0.962
+        },
+        {
+          "text": "la",
+          "start": 100.17,
+          "end": 100.31,
+          "confidence": 0.972
+        },
+        {
+          "text": "direction",
+          "start": 100.31,
+          "end": 100.83,
+          "confidence": 0.977
+        },
+        {
+          "text": "de",
+          "start": 100.83,
+          "end": 101.17,
+          "confidence": 0.968
+        },
+        {
+          "text": "Ciotti,",
+          "start": 101.17,
+          "end": 101.57,
+          "confidence": 0.777
+        },
+        {
+          "text": "ne",
+          "start": 101.85,
+          "end": 102.01,
+          "confidence": 0.771
+        },
+        {
+          "text": "voulait",
+          "start": 102.01,
+          "end": 102.29,
+          "confidence": 0.966
+        },
+        {
+          "text": "pas",
+          "start": 102.29,
+          "end": 102.51,
+          "confidence": 0.96
+        },
+        {
+          "text": "non",
+          "start": 102.51,
+          "end": 102.79,
+          "confidence": 0.926
+        },
+        {
+          "text": "plus",
+          "start": 102.79,
+          "end": 102.99,
+          "confidence": 0.973
+        },
+        {
+          "text": "d'une",
+          "start": 102.99,
+          "end": 103.33,
+          "confidence": 0.8
+        },
+        {
+          "text": "union",
+          "start": 103.33,
+          "end": 103.63,
+          "confidence": 0.881
+        },
+        {
+          "text": "des",
+          "start": 103.63,
+          "end": 103.93,
+          "confidence": 0.961
+        },
+        {
+          "text": "droites",
+          "start": 103.93,
+          "end": 104.19,
+          "confidence": 0.856
+        },
+        {
+          "text": "avec",
+          "start": 104.19,
+          "end": 104.45,
+          "confidence": 0.844
+        },
+        {
+          "text": "Reconqu\u00eate",
+          "start": 104.45,
+          "end": 104.91,
+          "confidence": 0.825
+        },
+        {
+          "text": "et",
+          "start": 104.91,
+          "end": 105.07,
+          "confidence": 0.908
+        },
+        {
+          "text": "avec",
+          "start": 105.07,
+          "end": 105.15,
+          "confidence": 0.319
+        },
+        {
+          "text": "l'Assembl\u00e9e",
+          "start": 105.15,
+          "end": 105.45,
+          "confidence": 0.613
+        },
+        {
+          "text": "nationale.",
+          "start": 105.45,
+          "end": 105.73,
+          "confidence": 0.235
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 9000,
+      "start": 106.05,
+      "end": 115.09,
+      "text": " Moi je dis aux \u00e9lecteurs qui eux, les \u00e9lecteurs du RN, de Reconqu\u00eate, et la moiti\u00e9 des \u00e9lecteurs de LR, regardez tous les sondages, veulent de cette union.",
+      "tokens": [
+        51114,
+        20256,
+        1506,
+        717,
+        7865,
+        30996,
+        20395,
+        1956,
+        22648,
+        11,
+        1512,
+        30996,
+        20395,
+        1581,
+        45702,
+        11,
+        368,
+        1300,
+        1671,
+        358,
+        12943,
+        11,
+        1030,
+        635,
+        705,
+        45484,
+        730,
+        30996,
+        20395,
+        368,
+        441,
+        49,
+        11,
+        49841,
+        8317,
+        1512,
+        262,
+        684,
+        1660,
+        11,
+        41826,
+        368,
+        5550,
+        11671,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16074532270431519,
+      "compression_ratio": 1.5358851674641147,
+      "no_speech_prob": 0.3549269139766693,
+      "confidence": 0.852,
+      "words": [
+        {
+          "text": "Moi",
+          "start": 106.05,
+          "end": 106.29,
+          "confidence": 0.82
+        },
+        {
+          "text": "je",
+          "start": 106.29,
+          "end": 106.43,
+          "confidence": 0.859
+        },
+        {
+          "text": "dis",
+          "start": 106.43,
+          "end": 106.63,
+          "confidence": 0.979
+        },
+        {
+          "text": "aux",
+          "start": 106.63,
+          "end": 106.91,
+          "confidence": 0.99
+        },
+        {
+          "text": "\u00e9lecteurs",
+          "start": 106.91,
+          "end": 107.57,
+          "confidence": 0.997
+        },
+        {
+          "text": "qui",
+          "start": 107.57,
+          "end": 108.03,
+          "confidence": 0.565
+        },
+        {
+          "text": "eux,",
+          "start": 108.03,
+          "end": 108.59,
+          "confidence": 0.798
+        },
+        {
+          "text": "les",
+          "start": 108.75,
+          "end": 108.89,
+          "confidence": 0.892
+        },
+        {
+          "text": "\u00e9lecteurs",
+          "start": 108.89,
+          "end": 109.47,
+          "confidence": 0.996
+        },
+        {
+          "text": "du",
+          "start": 109.47,
+          "end": 109.73,
+          "confidence": 0.898
+        },
+        {
+          "text": "RN,",
+          "start": 109.73,
+          "end": 109.99,
+          "confidence": 0.749
+        },
+        {
+          "text": "de",
+          "start": 110.21,
+          "end": 110.41,
+          "confidence": 0.902
+        },
+        {
+          "text": "Reconqu\u00eate,",
+          "start": 110.41,
+          "end": 110.89,
+          "confidence": 0.74
+        },
+        {
+          "text": "et",
+          "start": 111.11,
+          "end": 111.29,
+          "confidence": 0.728
+        },
+        {
+          "text": "la",
+          "start": 111.29,
+          "end": 111.49,
+          "confidence": 0.986
+        },
+        {
+          "text": "moiti\u00e9",
+          "start": 111.49,
+          "end": 111.87,
+          "confidence": 0.981
+        },
+        {
+          "text": "des",
+          "start": 111.87,
+          "end": 112.21,
+          "confidence": 0.945
+        },
+        {
+          "text": "\u00e9lecteurs",
+          "start": 112.21,
+          "end": 112.63,
+          "confidence": 0.982
+        },
+        {
+          "text": "de",
+          "start": 112.63,
+          "end": 112.79,
+          "confidence": 0.761
+        },
+        {
+          "text": "LR,",
+          "start": 112.79,
+          "end": 112.99,
+          "confidence": 0.822
+        },
+        {
+          "text": "regardez",
+          "start": 112.99,
+          "end": 113.25,
+          "confidence": 0.773
+        },
+        {
+          "text": "tous",
+          "start": 113.25,
+          "end": 113.45,
+          "confidence": 0.932
+        },
+        {
+          "text": "les",
+          "start": 113.45,
+          "end": 113.53,
+          "confidence": 0.994
+        },
+        {
+          "text": "sondages,",
+          "start": 113.53,
+          "end": 114.09,
+          "confidence": 0.95
+        },
+        {
+          "text": "veulent",
+          "start": 114.35,
+          "end": 114.55,
+          "confidence": 0.475
+        },
+        {
+          "text": "de",
+          "start": 114.55,
+          "end": 114.73,
+          "confidence": 0.961
+        },
+        {
+          "text": "cette",
+          "start": 114.73,
+          "end": 114.87,
+          "confidence": 0.981
+        },
+        {
+          "text": "union.",
+          "start": 114.87,
+          "end": 115.09,
+          "confidence": 0.764
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 11400,
+      "start": 115.09,
+      "end": 123.37,
+      "text": " Je leur dis, la seule fa\u00e7on de l'avoir, c'est de voter Reconqu\u00eate, parce que ainsi, si on est plus fort, on l'imposera aux deux autres.",
+      "tokens": [
+        50364,
+        2588,
+        9580,
+        717,
+        11,
+        635,
+        18800,
+        20725,
+        368,
+        287,
+        6,
+        17239,
+        11,
+        269,
+        6,
+        377,
+        368,
+        21722,
+        1300,
+        1671,
+        358,
+        12943,
+        11,
+        6992,
+        631,
+        26552,
+        11,
+        1511,
+        322,
+        871,
+        1804,
+        5009,
+        11,
+        322,
+        287,
+        6,
+        8814,
+        329,
+        1663,
+        7865,
+        8208,
+        17093,
+        13,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0732666867450603,
+      "compression_ratio": 1.4841628959276019,
+      "no_speech_prob": 0.36233165860176086,
+      "confidence": 0.806,
+      "words": [
+        {
+          "text": "Je",
+          "start": 115.09,
+          "end": 115.57,
+          "confidence": 0.756
+        },
+        {
+          "text": "leur",
+          "start": 115.57,
+          "end": 115.77,
+          "confidence": 0.99
+        },
+        {
+          "text": "dis,",
+          "start": 115.77,
+          "end": 115.95,
+          "confidence": 0.578
+        },
+        {
+          "text": "la",
+          "start": 116.15,
+          "end": 116.21,
+          "confidence": 0.977
+        },
+        {
+          "text": "seule",
+          "start": 116.21,
+          "end": 116.41,
+          "confidence": 0.992
+        },
+        {
+          "text": "fa\u00e7on",
+          "start": 116.41,
+          "end": 116.89,
+          "confidence": 0.993
+        },
+        {
+          "text": "[*]",
+          "start": 116.89,
+          "end": 117.47,
+          "confidence": 0
+        },
+        {
+          "text": "de",
+          "start": 117.47,
+          "end": 117.65,
+          "confidence": 0.951
+        },
+        {
+          "text": "l'avoir,",
+          "start": 117.65,
+          "end": 118.07,
+          "confidence": 0.803
+        },
+        {
+          "text": "c'est",
+          "start": 118.41,
+          "end": 118.63,
+          "confidence": 0.966
+        },
+        {
+          "text": "de",
+          "start": 118.63,
+          "end": 118.73,
+          "confidence": 0.994
+        },
+        {
+          "text": "voter",
+          "start": 118.73,
+          "end": 119.11,
+          "confidence": 0.985
+        },
+        {
+          "text": "Reconqu\u00eate,",
+          "start": 119.11,
+          "end": 119.81,
+          "confidence": 0.586
+        },
+        {
+          "text": "parce",
+          "start": 120.13,
+          "end": 120.23,
+          "confidence": 0.361
+        },
+        {
+          "text": "que",
+          "start": 120.23,
+          "end": 120.51,
+          "confidence": 0.812
+        },
+        {
+          "text": "ainsi,",
+          "start": 120.51,
+          "end": 120.85,
+          "confidence": 0.399
+        },
+        {
+          "text": "si",
+          "start": 120.91,
+          "end": 121.05,
+          "confidence": 0.854
+        },
+        {
+          "text": "on",
+          "start": 121.05,
+          "end": 121.15,
+          "confidence": 0.931
+        },
+        {
+          "text": "est",
+          "start": 121.15,
+          "end": 121.27,
+          "confidence": 0.93
+        },
+        {
+          "text": "plus",
+          "start": 121.27,
+          "end": 121.45,
+          "confidence": 0.989
+        },
+        {
+          "text": "fort,",
+          "start": 121.45,
+          "end": 121.67,
+          "confidence": 0.961
+        },
+        {
+          "text": "on",
+          "start": 121.81,
+          "end": 121.91,
+          "confidence": 0.926
+        },
+        {
+          "text": "l'imposera",
+          "start": 121.91,
+          "end": 122.79,
+          "confidence": 0.997
+        },
+        {
+          "text": "aux",
+          "start": 122.79,
+          "end": 123.01,
+          "confidence": 0.976
+        },
+        {
+          "text": "deux",
+          "start": 123.01,
+          "end": 123.17,
+          "confidence": 0.966
+        },
+        {
+          "text": "autres.",
+          "start": 123.17,
+          "end": 123.37,
+          "confidence": 0.862
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 11400,
+      "start": 123.65,
+      "end": 127.17,
+      "text": " C'est ce qu'a fait la gauche dans les ann\u00e9es 70, avec Fran\u00e7ois Mitterrand.",
+      "tokens": [
+        50764,
+        383,
+        6,
+        377,
+        1769,
+        421,
+        6,
+        64,
+        3887,
+        635,
+        36724,
+        2680,
+        1512,
+        21203,
+        5285,
+        11,
+        4163,
+        1526,
+        12368,
+        7376,
+        376,
+        3904,
+        3699,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0732666867450603,
+      "compression_ratio": 1.4841628959276019,
+      "no_speech_prob": 0.36233165860176086,
+      "confidence": 0.855,
+      "words": [
+        {
+          "text": "C'est",
+          "start": 123.65,
+          "end": 124.03,
+          "confidence": 0.599
+        },
+        {
+          "text": "ce",
+          "start": 124.03,
+          "end": 124.09,
+          "confidence": 0.962
+        },
+        {
+          "text": "qu'a",
+          "start": 124.09,
+          "end": 124.15,
+          "confidence": 0.974
+        },
+        {
+          "text": "fait",
+          "start": 124.15,
+          "end": 124.29,
+          "confidence": 0.993
+        },
+        {
+          "text": "la",
+          "start": 124.29,
+          "end": 124.53,
+          "confidence": 0.832
+        },
+        {
+          "text": "gauche",
+          "start": 124.53,
+          "end": 124.81,
+          "confidence": 0.944
+        },
+        {
+          "text": "dans",
+          "start": 124.81,
+          "end": 125.01,
+          "confidence": 0.946
+        },
+        {
+          "text": "les",
+          "start": 125.01,
+          "end": 125.13,
+          "confidence": 0.997
+        },
+        {
+          "text": "ann\u00e9es",
+          "start": 125.13,
+          "end": 125.29,
+          "confidence": 0.998
+        },
+        {
+          "text": "[*]",
+          "start": 125.29,
+          "end": 125.65,
+          "confidence": 0
+        },
+        {
+          "text": "70,",
+          "start": 125.65,
+          "end": 125.81,
+          "confidence": 0.579
+        },
+        {
+          "text": "avec",
+          "start": 126.21,
+          "end": 126.41,
+          "confidence": 0.905
+        },
+        {
+          "text": "Fran\u00e7ois",
+          "start": 126.41,
+          "end": 126.77,
+          "confidence": 0.987
+        },
+        {
+          "text": "Mitterrand.",
+          "start": 126.77,
+          "end": 127.17,
+          "confidence": 0.901
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 11400,
+      "start": 127.17,
+      "end": 134.23,
+      "text": " Je pense que c'est la seule fa\u00e7on aujourd'hui de l'emporter et de sauver notre pays des dangers qui la guettent.",
+      "tokens": [
+        50964,
+        2588,
+        11209,
+        631,
+        269,
+        6,
+        377,
+        635,
+        18800,
+        20725,
+        14023,
+        6,
+        10556,
+        368,
+        287,
+        6,
+        11840,
+        391,
+        1030,
+        368,
+        17828,
+        331,
+        10349,
+        10604,
+        730,
+        27701,
+        1956,
+        635,
+        695,
+        3093,
+        317,
+        13,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0732666867450603,
+      "compression_ratio": 1.4841628959276019,
+      "no_speech_prob": 0.36233165860176086,
+      "confidence": 0.888,
+      "words": [
+        {
+          "text": "Je",
+          "start": 127.17,
+          "end": 127.55,
+          "confidence": 0.731
+        },
+        {
+          "text": "pense",
+          "start": 127.55,
+          "end": 127.85,
+          "confidence": 0.997
+        },
+        {
+          "text": "que",
+          "start": 127.85,
+          "end": 128.03,
+          "confidence": 0.993
+        },
+        {
+          "text": "c'est",
+          "start": 128.03,
+          "end": 128.31,
+          "confidence": 0.92
+        },
+        {
+          "text": "la",
+          "start": 128.31,
+          "end": 128.49,
+          "confidence": 0.983
+        },
+        {
+          "text": "seule",
+          "start": 128.49,
+          "end": 128.69,
+          "confidence": 0.997
+        },
+        {
+          "text": "fa\u00e7on",
+          "start": 128.69,
+          "end": 129.15,
+          "confidence": 0.995
+        },
+        {
+          "text": "aujourd'hui",
+          "start": 129.15,
+          "end": 129.75,
+          "confidence": 0.955
+        },
+        {
+          "text": "de",
+          "start": 129.75,
+          "end": 130.03,
+          "confidence": 0.844
+        },
+        {
+          "text": "l'emporter",
+          "start": 130.03,
+          "end": 130.71,
+          "confidence": 0.98
+        },
+        {
+          "text": "et",
+          "start": 130.71,
+          "end": 131.11,
+          "confidence": 0.628
+        },
+        {
+          "text": "[*]",
+          "start": 131.11,
+          "end": 131.87,
+          "confidence": 0
+        },
+        {
+          "text": "de",
+          "start": 131.87,
+          "end": 131.99,
+          "confidence": 0.991
+        },
+        {
+          "text": "sauver",
+          "start": 131.99,
+          "end": 132.39,
+          "confidence": 0.953
+        },
+        {
+          "text": "notre",
+          "start": 132.39,
+          "end": 132.69,
+          "confidence": 0.975
+        },
+        {
+          "text": "pays",
+          "start": 132.69,
+          "end": 133.03,
+          "confidence": 0.984
+        },
+        {
+          "text": "des",
+          "start": 133.03,
+          "end": 133.47,
+          "confidence": 0.928
+        },
+        {
+          "text": "dangers",
+          "start": 133.47,
+          "end": 133.77,
+          "confidence": 0.807
+        },
+        {
+          "text": "qui",
+          "start": 133.77,
+          "end": 133.97,
+          "confidence": 0.435
+        },
+        {
+          "text": "la",
+          "start": 133.97,
+          "end": 134.09,
+          "confidence": 0.876
+        },
+        {
+          "text": "guettent.",
+          "start": 134.09,
+          "end": 134.23,
+          "confidence": 0.812
+        }
+      ]
+    }
+  ],
+  "language": "fr"
+}
