@@ -1,0 +1,7 @@
+polars
+numpy
+TA-Lib
+numba
+
+[talib]
+TA-Lib
