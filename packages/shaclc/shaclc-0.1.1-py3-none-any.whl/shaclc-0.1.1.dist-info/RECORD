@@ -1,0 +1,8 @@
+shaclc/__init__.py,sha256=Cxq5LrPzbPHh2v4SKknr0W7wU22isFfjhUAhhzNjj1I,374
+shaclc/grammar.lark,sha256=G920sYC5qKgVHulPdp5g9vrimczmAw67AAYg7qVt-OE,5971
+shaclc/parser.py,sha256=vcb0jPcBPhR2e4soOz_tgZTh_CORY2ZY0byDgptbtsM,239
+shaclc/serializer.py,sha256=E1R-FrCROVPyY1kr4bfZfDP1Pukld85D-SZrVMKFRKw,18996
+shaclc-0.1.1.dist-info/LICENSE,sha256=mB8FRX7nKYijRn4RUY6HdbzdUWSHknj92Fz408NaFQU,1058
+shaclc-0.1.1.dist-info/METADATA,sha256=rkb76KjYsFH57jLDZ9UPXnnGIKx6_1yociu0XxApymg,2458
+shaclc-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+shaclc-0.1.1.dist-info/RECORD,,
