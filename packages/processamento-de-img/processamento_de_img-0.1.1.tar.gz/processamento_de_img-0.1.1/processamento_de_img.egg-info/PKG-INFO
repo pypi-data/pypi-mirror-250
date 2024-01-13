@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: processamento_de_img
+Version: 0.1.1
+Summary:  pacote simples para Processamento de imagem em Python
+Home-page: https://github.com/GubioGL/BootCampDIO
+Author: Nick: Oibug/Nome:Gubio Gomes De Lima
+Author-email: gubiojogo@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-image
+
+# Procesamento de imagens
+
+Decricao :
+
+    Pacote de processamento de imagem versao beta.
+
+        -- Histograma das distribuicao de cores de uma imagem.
+
+        -- Redimencionar a imagem.
+
+        -- Verificar a diferenÃ§a/similiariedade com outra imagem.
+
+        -- Visualizar.
+
+        -- Ler e salvar. 
+
+    Objetico: Desenvolvida com fins de aprender como criar um package no curso de python da DIO.
+
+## InstalaÃ§Ã£o:
+
+Use o pacote [pip](https://pip.pypa.io/en/stable/) para instalar o processamento_de_img.
+
+```bash
+pip install processamento_de_img
+```
+
+## Como usar :
+
+Ex.:
+``` python
+from processamento_de_img.combination import Encontrando_dif
+
+img  = Encontrando_dif(imagem_1,imagem_2)
+``` 
+
+## Autor :
+
+Nick: Oibug/Nome:Gubio
