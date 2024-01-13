@@ -1,0 +1,44 @@
+{
+  "title": "Onesait Platform",
+  "description": "Onesait Platform settings.",
+  "type": "object",
+  "additionalProperties": false,
+  "jupyter.lab.shortcuts": [],
+  "jupyter.lab.setting-icon": "ui-components:extension",
+  "jupyter.lab.setting-icon-label": "Onesait Platform Settings",
+  "properties": {
+    "op_url": {
+      "type": "string",
+      "title": "Onesait Platform URL",
+      "description": "Set the URL of the Onesait Platform to interact with.",
+      "default": ""
+    },
+    "op_token": {
+      "type": "string",
+      "title": "Onesait Platform Token",
+      "description": "Set the token to use with the Onesait Platform API.",
+      "default": ""
+    },
+    "op_overwrite": {
+      "type": "boolean",
+      "title": "Overwrite Notebooks",
+      "description": "Allow to overwrite existing Notebooks on Onesait Platform.",
+      "default": false
+    },
+    "op_importAuthorizations": {
+      "type": "boolean",
+      "title": "Import Authorizations",
+      "description": "Import authorizations if exist.",
+      "default": false
+    }
+  },
+  "jupyter.lab.menus": {
+    "context": [
+      {
+        "command": "onesait-platform:export-single-notebook",
+        "selector": ".jp-DirListing-item[data-file-type=\"notebook\"]",
+        "rank": 12
+      }
+    ]
+  }
+}

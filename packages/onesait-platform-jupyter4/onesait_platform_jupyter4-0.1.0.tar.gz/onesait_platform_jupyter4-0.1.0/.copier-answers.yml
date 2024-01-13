@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.4
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: fjlacevedo@minsait.com
+author_name: Francisco Javier López Acevedo
+has_binder: false
+has_settings: true
+kind: frontend
+labextension_name: onesait_platform_jupyter4
+project_short_description: A JupyterLab 4 extension to use with Onesait Platform.
+python_name: onesait_platform_jupyter4
+repository: https://github.com/fjlacevedo/onesait-platform-jupyter4
+test: false
+
