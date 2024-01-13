@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cria-index-plugin-pack-resume-screener"
+version = "0.1.0"
+description = ""
+authors = ["Andrei Fajardo <andrei@nerdai.io>"]
+readme = "README.md"
+packages = [{include = "cria_index"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cria-core = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
