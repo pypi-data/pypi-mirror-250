@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "A szolg\u00e1ltat\u00e1s m\u00e1r konfigur\u00e1lva van"
+        },
+        "step": {
+            "user": {
+                "description": "Nyomja meg a mehet gombot a kezdeti be\u00e1ll\u00edt\u00e1shoz. A l\u00e9trehozott konfigur\u00e1ci\u00f3s bejegyz\u00e9sen nyomja meg a konfigur\u00e1l\u00e1s gombot \u00e9rz\u00e9kel\u0151k hozz\u00e1ad\u00e1s\u00e1hoz a kiv\u00e1lasztott folyamatokhoz"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "process": "\u00c9rz\u00e9kel\u0151k\u00e9nt hozz\u00e1adand\u00f3 folyamatok"
+                },
+                "data_description": {
+                    "process": "V\u00e1lasszon ki egy fut\u00f3 folyamatot a list\u00e1b\u00f3l vagy adjon hozz\u00e1 egy\u00e9ni \u00e9rt\u00e9ket. T\u00f6bb kijel\u00f6l\u00e9s/egy\u00e9ni \u00e9rt\u00e9k is t\u00e1mogatott"
+                },
+                "description": "Figyel\u00e9si \u00e9rz\u00e9kel\u0151 konfigur\u00e1l\u00e1sa fut\u00f3 folyamathoz"
+            }
+        }
+    }
+}

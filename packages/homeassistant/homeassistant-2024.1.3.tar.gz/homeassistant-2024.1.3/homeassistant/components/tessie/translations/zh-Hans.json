@@ -1,0 +1,19 @@
+{
+    "entity": {
+        "lock": {
+            "vehicle_state_locked": {
+                "name": "\u9501"
+            }
+        },
+        "media_player": {
+            "media": {
+                "name": "\u5a92\u4f53\u64ad\u653e\u5668"
+            }
+        },
+        "update": {
+            "update": {
+                "name": "\u66f4\u65b0"
+            }
+        }
+    }
+}

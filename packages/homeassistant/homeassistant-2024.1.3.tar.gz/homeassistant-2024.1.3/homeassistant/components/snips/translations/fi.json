@@ -1,0 +1,20 @@
+{
+    "services": {
+        "feedback_off": {
+            "description": "Kytkee palaute\u00e4\u00e4net pois p\u00e4\u00e4lt\u00e4.",
+            "fields": {
+                "site_id": {
+                    "description": "Sivusto, jolla \u00e4\u00e4net otetaan k\u00e4ytt\u00f6\u00f6n, oletusarvoisesti kaikki sivustot.",
+                    "name": "Sivuston tunnus"
+                }
+            }
+        },
+        "feedback_on": {
+            "fields": {
+                "site_id": {
+                    "description": "Sivusto, jolla \u00e4\u00e4net otetaan k\u00e4ytt\u00f6\u00f6n, oletusarvoisesti kaikki sivustot."
+                }
+            }
+        }
+    }
+}
