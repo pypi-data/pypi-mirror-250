@@ -1,0 +1,8 @@
+composabl_dev-0.6.2.dev24.dist-info/RECORD,,
+composabl_dev-0.6.2.dev24.dist-info/WHEEL,sha256=DcQ_CBc5lcCpOkpgTKxtf6JlU0Ew_fM0Yq6SmO-UB_M,113
+composabl_dev-0.6.2.dev24.dist-info/entry_points.txt,sha256=WrLVbw0dPbDvkgFcNa275XoyuBvDoP-453FEPMn_cG8,56
+composabl_dev-0.6.2.dev24.dist-info/top_level.txt,sha256=u1D_14CTd3ryfSJBYuAR0PfjwHJ5_4NGQts7rZy2xks,10
+composabl_dev-0.6.2.dev24.dist-info/METADATA,sha256=C5DLxtX1IY80qRGjnfPo4FaOFCjeY5x2tct8mDhiM5Y,1828
+composabl/__init__.cpython-38-darwin.so,sha256=Fo-LhBUKrweyAlazsy1OSjs5Kki7AdLRBai03Civdsw,121738
+composabl/ray.cpython-38-darwin.so,sha256=rHd2TdZV8B8D_kFqEKML8B-2ROFfeysa1_aF0TyNroQ,121477
+composabl/core.cpython-38-darwin.so,sha256=zSxadDmaik8u6jwVUzQT6r6M2ygTEaqY_CDxkPPEHM4,121494
