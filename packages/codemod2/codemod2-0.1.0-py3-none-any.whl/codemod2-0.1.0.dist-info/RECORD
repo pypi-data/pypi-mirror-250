@@ -1,0 +1,11 @@
+codemod2/__init__.py,sha256=6p6cIGf0VgHni_NqDeRSeZGmwwwtcbqgKLkiP9uOrD8,36
+codemod2/base.py,sha256=uiRdjYYFxMsj-nWBLpFrqKXeePoT3Ttk2hCuOQ_b758,18305
+codemod2/helpers.py,sha256=ULZSPr2URxGQY8lu62q9BEwpJV9qy_USz7M0koQl59Q,3071
+codemod2/patch.py,sha256=w2sfuzMR8mLoZ8pNxsfa-k8ErVASidFF8mpNKUXzEnA,3799
+codemod2/position.py,sha256=kkAiwDlBDrit5ZxUFEl5esAqveQTT-zy1JOWem-sz5Q,1523
+codemod2/query.py,sha256=zILfgqniy4WJ6CkyqGJxSB-t7Fs1IWBZmIHTa_7DKcs,8456
+codemod2/terminal_helper.py,sha256=SdcQTSnh7_yufTWxEMlhka58etXdBjVUqIdCsnlFXS0,2995
+codemod2-0.1.0.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+codemod2-0.1.0.dist-info/METADATA,sha256=tdHFJ4vQ00MbbQQA_D81HUdZmEtxyym-AxG_iTgRVgc,6384
+codemod2-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+codemod2-0.1.0.dist-info/RECORD,,
