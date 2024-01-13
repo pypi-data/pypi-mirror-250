@@ -1,0 +1,16 @@
+site_name: MkDocs Captions Demo
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.extra: {}
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  caption:
+    additional_identifier: ["List", "Code"]
+    custom:
+      enable: true
