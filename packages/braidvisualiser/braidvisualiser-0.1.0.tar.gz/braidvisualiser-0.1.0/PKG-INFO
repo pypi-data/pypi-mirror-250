@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: braidvisualiser
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Rex Greenway
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.8.2,<4.0.0)
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Braid Visualiser
+
+Simple python library for the creation and rendering of Artin braids.
+
+# Installation
+
+This package is available on PyPi and can be installed to your project with `pip`:
+
+```
+pip install braidvisualiser
+```
