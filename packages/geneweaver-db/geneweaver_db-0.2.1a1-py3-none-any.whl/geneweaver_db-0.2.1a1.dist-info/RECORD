@@ -1,0 +1,15 @@
+geneweaver/db/__init__.py,sha256=HwKp9_LNpWXjpChcVXNDUqwvSHlGYeuPhDh6-mMJAFc,51
+geneweaver/db/core/__init__.py,sha256=MByHv0fxCg3jXfSuJev9bpY96_UfrrbLdh2UpXhPkxU,56
+geneweaver/db/core/settings.py,sha256=eD2RvArIZXzAf6z8tNNee7_fYlOBGudHFDHrgIWu2J4,142
+geneweaver/db/core/settings_class.py,sha256=P1vOFUpXzXc4nJhC9YT2fbd2D9ALKCjEo4VtMqMFnYo,1706
+geneweaver/db/exceptions.py,sha256=kJtFteZzyENs8chNswpz25jBAsV-3TnJWIecYgBbmiU,437
+geneweaver/db/gene.py,sha256=ftLM7a9rVSZzCoXBrjgm6rxfgPe8eltwQE8mn6qJ-2Y,8030
+geneweaver/db/geneset.py,sha256=04-GSTpROW1ykUaIblCgPFRhGcF5th4gREjp1_C-viQ,7121
+geneweaver/db/geneset_value.py,sha256=L0c8XH9ZDK1BA5FWtGRHtZb1E0Ek4o-TA_piTEG5N68,7887
+geneweaver/db/publication.py,sha256=KGcT6Sd-HCscIpjJeC6ILC5jFIaSNAS5pJ9s_vfZ6J4,656
+geneweaver/db/user.py,sha256=Dtk9fj3lxE2AtzqdlAAopYBciMINqM0MdNYWZs5_Ju0,5610
+geneweaver/db/utils.py,sha256=QsvdEET5zwkjU-kRRs7D9qIdh05U1eFo3ga23nMfT-w,2037
+geneweaver_db-0.2.1a1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+geneweaver_db-0.2.1a1.dist-info/METADATA,sha256=uBOcG-WcnSXLNvxsON8kVG0bGWGd8bzXPSz_Z0AbdO0,1641
+geneweaver_db-0.2.1a1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+geneweaver_db-0.2.1a1.dist-info/RECORD,,
