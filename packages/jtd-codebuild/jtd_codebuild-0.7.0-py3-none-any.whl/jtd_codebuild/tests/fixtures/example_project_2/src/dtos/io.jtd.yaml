@@ -1,0 +1,19 @@
+GetUserRequest:
+  properties:
+    userId:
+      type: string
+
+GetUserResponse:
+  properties:
+    user:
+      ref: user
+
+GetBookRequest:
+  properties:
+    bookId:
+      type: string
+
+GetBookResponse:
+  properties:
+    book:
+      ref: book

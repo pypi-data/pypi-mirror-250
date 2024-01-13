@@ -1,0 +1,7 @@
+{
+  "root-schema-path": "src/schema.jtd.yaml",
+  "output-schema-path": "gen/schema.jtd.json",
+  "includes": [
+    "../example_project_2"
+  ]
+}

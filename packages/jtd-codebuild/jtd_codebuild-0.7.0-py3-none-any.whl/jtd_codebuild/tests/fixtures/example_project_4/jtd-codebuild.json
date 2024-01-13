@@ -1,0 +1,31 @@
+{
+  "root-schema-path": "src/schema.jtd.yaml",
+  "definitions-path": "src/definitions",
+  "output-schema-path": "gen/schema.jtd.json",
+  "includes": [
+    "../example_project_3"
+  ],
+  "targets": [
+    {
+      "language": "python",
+      "path": "gen/python",
+      "subscriptable": true
+    },
+    {
+      "language": "python",
+      "path": "gen/python_typeddict",
+      "use-typeddict": true,
+      "property-case": "camel"
+    },
+    {
+      "language": "python",
+      "path": "gen/python_pydantic",
+      "use-pydantic": true,
+      "subscriptable": true
+    },
+    {
+      "language": "typescript",
+      "path": "gen/typescript"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+ListUsersRequest:
+  optionalProperties:
+    limit:
+      type: int32
+    offset:
+      type: int32
+
+ListUsersResponse:
+  properties:
+    users:
+      elements:
+        ref: user
+
+  optionalProperties:
+    nextOffset:
+      type: int32
+
+ListBooksRequest:
+  optionalProperties:
+    limit:
+      type: int32
+    offset:
+      type: int32
+
+ListBooksResponse:
+  properties:
+    books:
+      elements:
+        ref: book
+
+  optionalProperties:
+    nextOffset:
+      type: int32
