@@ -1,0 +1,5 @@
+pandas
+psycopg
+asyncio
+psycopg_pool
+retry
