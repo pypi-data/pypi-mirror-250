@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: spectrum.py
+Version: 0.0.5
+Summary: spectrum.py is a [discord.py](https://github.com/Rapptz/discord.py) style proof-of-concept library for making chatbots for Star Citizen's [Spectrum](https://robertsspaceindustries.com/spectrum/community/SC) chat client.
+Author: henry232323
+License: The MIT License (MIT)
+        
+        Copyright (c) 2023-present henry232323
+        
+        Permission is hereby granted, free of charge, to any person obtaining a
+        copy of this software and associated documentation files (the "Software"),
+        to deal in the Software without restriction, including without limitation
+        the rights to use, copy, modify, merge, publish, distribute, sublicense,
+        and/or sell copies of the Software, and to permit persons to whom the
+        Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+        OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+        FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+        DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, http://github.com/henry232323/spectrum.py
+Project-URL: Bug Tracker, http://github.com/henry232323/spectrum.py/issues
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+# spectrum.py
+
+spectrum.py is a [discord.py](https://github.com/Rapptz/discord.py) style proof-of-concept library for making chatbots
+for Star Citizen's [Spectrum](https://robertsspaceindustries.com/spectrum/community/SC) chat client. It also offers HTTP clients for interacting
+with both Spectrum's REST API and the Community Hub's GraphQL API.
+
+## Installation
+```shell
+# Latest Release
+python -m pip install spectrum.py
+# Latest in Github
+python -m pip install git+https://github.com/henry232323/spectrum.py
+```
+
+## Examples
+### With Gateway
+```python
+import asyncio
+from spectrum import Client, Message
+
+class MyClient(Client):
+    async def on_message(self, message: Message):
+        print(message)
+
+    async def on_ready(self):
+        print("We're ready!")
+
+
+async def run():
+    myclient = MyClient(
+        rsi_token=...,
+        device_id=...,
+    )
+
+    asyncio.create_task(myclient.run())
+    await asyncio.Event().wait()
+
+
+asyncio.run(run())
+```
+
+### HTTP Only
+
+```python
+import asyncio
+from spectrum import HTTPClient
+
+async def run():
+    client = HTTPClient(
+        rsi_token=...,
+        device_id=...,
+    )
+
+    await client.identify()
+    member = await client.fetch_member_by_handle("Khuzdul")
+    print(member)
+
+    await client.close()
+
+asyncio.run(run())
+```
+
+### Community Hub
+```python
+import asyncio
+from spectrum import CommunityHubClient
+
+async def run():
+    client = CommunityHubClient()
+    print(await client.fetch_user_profile("Khuzdul"))
+
+asyncio.run(run())
+```
+
+## Authentication
+The bot can be run in a read only state without any authentication. 
+If you want to be able to send messages or read private messages (and eventually do other things),
+you'll need to provide credentials for an RSI account. These can be found in the cookies sent
+with any request to [RSI](https://robertsspaceindustries.com/) when logged in.
+
