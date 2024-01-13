@@ -1,0 +1,7 @@
+livekit/plugins/silero/__init__.py,sha256=PlSGPiUZWIoF0y8s-MQilL70FYRCea0K_pbjTYVKiOk,1029
+livekit/plugins/silero/vad.py,sha256=0Y699ZEupSV8byh_c-haY53au6qiQr6PUdJx1x2qxoQ,10260
+livekit/plugins/silero/version.py,sha256=dNvyWtsjoq9Z_7cHVNlyaFRE6wSQfcfes_SClFTjNUY,600
+livekit_plugins_silero-0.0.8.dist-info/METADATA,sha256=ltWdTy6I0Wk3Tg7altDH7nty6fowenzIuAWmKNCYWVk,1167
+livekit_plugins_silero-0.0.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+livekit_plugins_silero-0.0.8.dist-info/top_level.txt,sha256=OoDok3xUmXbZRvOrfvvXB-Juu4DX79dlq188E19YHoo,8
+livekit_plugins_silero-0.0.8.dist-info/RECORD,,
