@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: shining-brain
+Version: 0.20
+Summary: Making decisions by analyzing data
+Author: Evan Knox Thomas
+Author-email: evanknoxthomas@gmail.com
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: sqlalchemy
+Requires-Dist: PyYAML
+Requires-Dist: openpyxl
+Requires-Dist: mysql-connector-python
+Requires-Dist: pathlib
