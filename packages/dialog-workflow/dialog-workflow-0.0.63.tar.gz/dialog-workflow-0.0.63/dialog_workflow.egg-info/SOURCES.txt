@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+dialog_workflow.egg-info/PKG-INFO
+dialog_workflow.egg-info/SOURCES.txt
+dialog_workflow.egg-info/dependency_links.txt
+dialog_workflow.egg-info/requires.txt
+dialog_workflow.egg-info/top_level.txt
+dialog_workflow/src/Act.py
+dialog_workflow/src/Constants.py
+dialog_workflow/src/DialogWorkflow.py
+dialog_workflow/src/TablesAsObjects.py
+dialog_workflow/src/__init__.py
+dialog_workflow/src/utils.py
