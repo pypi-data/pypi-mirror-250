@@ -1,0 +1,98 @@
+{#
+-*- coding: utf-8 -*-
+
+-*- mode: python -*-
+
+elf_diff
+
+Copyright (C) 2021  Noseglasses (shinynoseglasses@gmail.com)
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, version 3.
+
+This program is distributed in the hope that it will be useful, but WITHOUT but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+You should have received a copy of the GNU General Public License along with along with
+this program. If not, see <http://www.gnu.org/licenses/>.
+
+#}
+
+{%- macro highlighting_css_class(value) -%}
+{%- if value > 0 -%}
+deterioration
+{%- elif value < 0 -%}
+improvement
+{%- else -%}
+unchanged
+{%- endif %}
+{%- endmacro -%}
+
+{%- macro highlighted_delta(value) -%}
+<span class="{{ highlighting_css_class(value) }} number">{{ value }}</span>
+{%- endmacro -%}
+
+{%- macro overview_anchor(symbol_class, id) -%}
+{{symbol_class}}_symbol_overview_{{id}}
+{%- endmacro -%}
+
+{%- macro details_anchor(symbol_class, id) -%}
+{{symbol_class}}_symbol_details_{{id}}
+{%- endmacro -%}
+
+{%- macro details_file(is_single_page_report, symbol_class, id) -%}
+{%- if is_single_page_report == False -%}
+details/{{symbol_class}}/{{id}}.html
+{%- endif -%}
+{%- endmacro -%}
+
+highlight_start_tag = "...HIGHLIGHT_START..."
+highlight_end_tag = "...HIGHLIGHT_END..."
+
+{%- macro replace_highlighting_tags(s) -%}
+{{ s | replace('...HIGHLIGHT_START...', '<span class="diff_highlight">') | replace('...HIGHLIGHT_END...', '</span>') }}
+{%- endmacro -%}
+
+source_start_tag = "...ED_SOURCE_START..."
+source_end_tag = "...ED_SOURCE_END..."
+
+{%- macro highlight_source(s) -%}
+{{ s | replace('...ED_SOURCE_START...', '<span class="source">') | replace('...ED_SOURCE_END...', '</span>') }}
+{%- endmacro -%}
+
+{% set details_header_tag='H4' %}
+{% set overview_header_tag='H3' %}
+
+{%- macro symbol_old_location_of_definition(document, symbol) -%}
+{%- if (document.files.input.old.debug_info_available == True) and (symbol.source.file_id is not none) -%}
+{{ document.files.input.old.source_files[symbol.source.file_id].path_wo_prefix }}:{{ symbol.source.line }}
+{%- if document.files.input.old.source_files[symbol.source.file_id].path_wo_prefix != document.files.input.old.source_files[symbol.source.file_id].path -%}
+ ({{ document.files.input.old.source_files[symbol.source.file_id].path }})
+{%- endif -%}
+{%- else -%}
+?
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro symbol_new_location_of_definition(document, symbol) -%}
+{%- if (document.files.input.old.debug_info_available == True) and (symbol.source.file_id is not none) -%}
+{{ document.files.input.new.source_files[symbol.source.file_id].path_wo_prefix }}:{{ symbol.source.line }}
+{%- if document.files.input.new.source_files[symbol.source.file_id].path_wo_prefix != document.files.input.new.source_files[symbol.source.file_id].path -%}
+ ({{ document.files.input.new.source_files[symbol.source.file_id].path }})
+{%- endif -%}
+{%- else -%}
+?
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro symbols_location_of_definition(document, old_symbol, new_symbol) -%}
+{%- if (document.configuration.debug_info_available == False) -%}
+No symbol location information available.
+{%- else -%}
+Old source: {{ symbol_old_location_of_definition(document, old_symbol) }}<br>
+New source: {{ symbol_new_location_of_definition(document, new_symbol) }}
+{%- endif -%}
+{%- endmacro -%}
