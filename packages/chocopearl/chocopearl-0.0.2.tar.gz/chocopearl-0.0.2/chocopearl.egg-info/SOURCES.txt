@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+chocopearl/__init__.py
+chocopearl/dirac.py
+chocopearl/general.py
+chocopearl/nummath.py
+chocopearl/particle.py
+chocopearl/relativity.py
+chocopearl.egg-info/PKG-INFO
+chocopearl.egg-info/SOURCES.txt
+chocopearl.egg-info/dependency_links.txt
+chocopearl.egg-info/requires.txt
+chocopearl.egg-info/top_level.txt
