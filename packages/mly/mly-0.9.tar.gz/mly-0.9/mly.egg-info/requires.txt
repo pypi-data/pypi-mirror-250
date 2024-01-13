@@ -1,0 +1,12 @@
+numpy
+pandas
+gwpy>=0.13.1
+gwdatafind
+matplotlib
+pycondor
+dqsegdb2
+scipy
+tensorflow>=2.6
+pycbc
+healpy
+ligo.skymap
