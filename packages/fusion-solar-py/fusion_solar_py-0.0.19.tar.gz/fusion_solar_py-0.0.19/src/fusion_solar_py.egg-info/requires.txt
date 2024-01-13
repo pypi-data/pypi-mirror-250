@@ -1,0 +1,7 @@
+requests>=2.31.0
+
+[captcha]
+beautifulsoup4>=4.12.2
+numpy>=1.24.3
+opencv_python>=4.8.0.76
+onnxruntime>=1.14
