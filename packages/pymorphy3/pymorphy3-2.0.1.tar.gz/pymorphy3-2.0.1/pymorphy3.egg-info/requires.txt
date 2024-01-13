@@ -1,0 +1,11 @@
+dawg-python>=0.7.1
+pymorphy3-dicts-ru
+
+[:python_version >= "3.12"]
+setuptools>=68.2.2
+
+[CLI]
+click
+
+[fast]
+DAWG>=0.8
