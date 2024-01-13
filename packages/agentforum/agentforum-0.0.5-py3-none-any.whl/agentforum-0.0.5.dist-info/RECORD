@@ -1,0 +1,15 @@
+agentforum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agentforum/errors.py,sha256=hN9sfGI59gyXEtoNt4dct3wAhoXYzWq1fQ7_MdWpNzo,226
+agentforum/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agentforum/ext/llms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agentforum/ext/llms/openai.py,sha256=2NsGbHimVGVwcvWnFfX1wF_pC9fMQgXilSx-vk-vMj4,4466
+agentforum/forum.py,sha256=9Tm33ZL3S3H-YK9E9Z-eLWwJL3J3TDMcl54jL8mx2VA,17221
+agentforum/models.py,sha256=bocWuwoGrELkw1wkcmswoCGO11D5QJuqlwebl50prhY,5859
+agentforum/promises.py,sha256=udRcIzdQ0ZVdedRaWIqFUQTENZu7BUoyAvPiuv44pQY,19115
+agentforum/storage.py,sha256=TmeuFDjYr5kEX8AF715pz8XJkmqD9eJhRHVWXan-8oI,1460
+agentforum/typing.py,sha256=dgrVjH85IqLub0B-MUzF7-WYLzp5U7c4o5_kopO5wTI,791
+agentforum/utils.py,sha256=pAsG5xrNdIi1KdHb4pZo4taB-Iyw2CfKh4dylal8v7U,6654
+agentforum-0.0.5.dist-info/LICENSE,sha256=JjFMNdIkHJCkDNyGoPEuR2wucA7sT1fbgt0p_L2xsVQ,1079
+agentforum-0.0.5.dist-info/METADATA,sha256=yt5YkmYuNz4kzMaiKA07ScUEoLRb_iqvzbod75PP1_w,3151
+agentforum-0.0.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+agentforum-0.0.5.dist-info/RECORD,,
