@@ -1,0 +1,6 @@
+README.md
+setup.py
+neuo.egg-info/PKG-INFO
+neuo.egg-info/SOURCES.txt
+neuo.egg-info/dependency_links.txt
+neuo.egg-info/top_level.txt
