@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speedtest_ssh"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+license = {text = "GPL"}
+description = "A tool meant to check inter-device speeds via ssh"
+urls = {Homepage = "https://github.com/zwimer/speedtest_ssh"}
+requires-python = ">= 3.12"
+dynamic = ["version"]
+dependencies = [
+    "paramiko",
+    "tqdm",
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.scripts]
+speedtest-ssh = "speedtest_ssh:cli"
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+include-package-data = false
+
+[tool.setuptools.packages]
+find = {namespaces = false}
+
+[tool.setuptools.package-data]
+speedtest_ssh = ["py.typed"]
+
+[tool.setuptools.dynamic]
+version = {attr = "speedtest_ssh._version.__version__"}
+
+# Tools
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+	"unnecessary-lambda-assignment",
+	"missing-module-docstring",
+	"too-many-locals",
+	"line-too-long",
+	"invalid-name",
+]
+
+[tool.black]
+line-length = 120
+target-version = ["py312"]
+
+[tool.ruff]
+ignore = ["E731"]
+line-length = 120
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401", "F403"]
