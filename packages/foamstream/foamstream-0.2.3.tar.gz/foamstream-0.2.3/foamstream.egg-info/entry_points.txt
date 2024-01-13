@@ -1,0 +1,3 @@
+[console_scripts]
+foamstream-euxfel = foamstream.euxfel.app:application
+foamstream-tomo = foamstream.tomo.app:main
