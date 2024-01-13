@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+KevinPython.egg-info/PKG-INFO
+KevinPython.egg-info/SOURCES.txt
+KevinPython.egg-info/dependency_links.txt
+KevinPython.egg-info/top_level.txt
+my_pip_package/__init__.py
