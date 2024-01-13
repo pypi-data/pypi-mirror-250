@@ -1,0 +1,7 @@
+tqdm
+torch
+torchmetrics
+tensorboard
+pytest
+numpy
+pandas

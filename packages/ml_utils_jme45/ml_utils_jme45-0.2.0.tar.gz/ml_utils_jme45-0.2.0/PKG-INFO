@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: ml_utils_jme45
+Version: 0.2.0
+Summary: A simple package for doing ML training.
+Project-URL: Homepage, https://github.com/jme45/ml_utils
+Project-URL: Issues, https://github.com/jme45/ml_utils/issues
+Author-email: Jonathan Edge <j.edge@zoho.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pytest
+Requires-Dist: tensorboard
+Requires-Dist: torch
+Requires-Dist: torchmetrics
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+# ml_utils
+> Code for training pytorch modules
+
+
+## Installation
+```
+pip install <directory of source code>
+```
+
+## Usage example
+
+```python
+import ml_utils
+from torch import nn
+
+
+trainer = ml_utils.ClassificationTrainer(model, 
+                                         train_dataloader, 
+                                         test_dataloader, 
+                                         "Adam", 
+                                         {"lr": 1e-3}, 
+                                         nn.CrossEntropyLoss(),
+                                         n_epochs=2,
+                                         output_path='run1',
+                                         device='cpu',
+                                         num_classes=2,
+                                         )
+
+results = trainer.train()
+```
