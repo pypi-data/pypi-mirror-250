@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dotplotlib/__init__.py
+dotplotlib/plots.py
+dotplotlib.egg-info/PKG-INFO
+dotplotlib.egg-info/SOURCES.txt
+dotplotlib.egg-info/dependency_links.txt
+dotplotlib.egg-info/requires.txt
+dotplotlib.egg-info/top_level.txt
