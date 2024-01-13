@@ -1,0 +1,5 @@
+authres>=1.2.0
+dkimpy>=0.7.1
+dnspython
+importlib_resources
+publicsuffix2
