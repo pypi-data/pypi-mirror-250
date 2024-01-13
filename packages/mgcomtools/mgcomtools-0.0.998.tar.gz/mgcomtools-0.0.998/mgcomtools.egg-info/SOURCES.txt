@@ -1,0 +1,12 @@
+setup.py
+mgcomtools/__init__.py
+mgcomtools/gcp.py
+mgcomtools/postgres.py
+mgcomtools/schema.py
+mgcomtools/tables.py
+mgcomtools/telegram.py
+mgcomtools/test.py
+mgcomtools.egg-info/PKG-INFO
+mgcomtools.egg-info/SOURCES.txt
+mgcomtools.egg-info/dependency_links.txt
+mgcomtools.egg-info/top_level.txt
