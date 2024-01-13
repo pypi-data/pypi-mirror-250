@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kotlyn
+Version: 0.0.2
+Summary: The best toolkit to build, run or compile Kotlin appications.
+Project-URL: Homepage, https://github.com/neunyx/kotlin-builder
+Project-URL: Issues, https://github.com/neunyx/kotlin-builder/issues
+Author-email: zewenn <zc.fallens@gamil.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# kotlin-builder
+The best toolkit to build, run and compile Kotlin appications.
