@@ -1,0 +1,25 @@
+
+from KassOrm import Migration
+
+class migrate(Migration): 
+  
+    __type__ = 'create'  
+    __table__ = '%TABLE%'
+    __comment__ = %COMMENT%
+    
+    def up(self):
+        self.id().add()
+        self.datetime('created_at').add()
+        
+        
+        
+    def down(self): 
+        self.dropTableIfExists()        
+        
+
+        
+        
+        
+        
+        
+      
