@@ -1,0 +1,104 @@
+name: Publish Documentation
+
+on:
+  # Build the docs on pushes to main branch, PRs to main branch, and new tags.
+  # Publish only on demand.
+  push:
+    branches:
+      - main
+    tags:
+      - '*'  # all tags
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:   # allow manual triggering
+    inputs:
+      deploy:
+        description: 'Deploy documentation'
+        type: boolean
+        required: true
+        default: false
+
+jobs:
+  docs:
+
+    if: github.repository_owner == 'bluesky'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.11]
+
+    steps:
+    - name: Set env vars
+      run: |
+        export REPOSITORY_NAME=${GITHUB_REPOSITORY#*/}  # just the repo, as opposed to org/repo
+        echo "REPOSITORY_NAME=${REPOSITORY_NAME}" >> $GITHUB_ENV
+
+    - name: get correct package name from repository
+      shell: bash -l {0}
+      run: |
+        echo "PACKAGE=${GITHUB_REPOSITORY##*/}" >> $GITHUB_ENV
+
+    - name: show that
+      shell: bash -l {0}
+      run: |
+        env | sort | grep hklpy
+
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Deploy Information
+      if: ${{ github.event.inputs.deploy }}
+      run: |
+        echo "The docs will be published from this workflow run."
+
+    - name: Create Python documentation environment
+      uses: mamba-org/setup-micromamba@v1
+      with:
+        environment-file: env-dev.yml
+        environment-name: documentation
+        condarc: |
+          channel-priority: flexible
+        init-shell: bash
+        cache-environment: true
+        cache-environment-key: env-key
+
+    - name: Install the package locally
+      shell: bash -l {0}
+      run: |
+        pip install --no-deps -e . -vv
+
+    - name: Diagnostics
+      shell: bash -l {0}
+      run: |
+        conda info
+        conda list
+        env | sort | grep -i CONDA
+
+    - name: Build Docs with Sphinx
+      shell: bash -l {0}
+      run: |
+        make -C docs clean html
+
+    - name: Upload Docs ZIP file as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ env.REPOSITORY_NAME }}-docs
+        path: docs/build/html/
+
+    # comment here for development use
+    - name: Deploy documentation to blueskyproject.io.
+      # We pin to the SHA, not the tag, for security reasons.
+      # https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/security-hardening-for-github-actions#using-third-party-actions
+      uses: peaceiris/actions-gh-pages@bbdfb200618d235585ad98e965f4aafc39b4c501  # v3.7.3
+      if: ${{ github.event.inputs.deploy }}
+      with:
+        deploy_key: ${{ secrets.ACTIONS_DOCUMENTATION_DEPLOY_KEY }}
+        publish_branch: master
+        publish_dir: ./docs/build/html
+        external_repository: bluesky/bluesky.github.io
+        destination_dir: ${{ env.PACKAGE }}
+        keep_files: true  # Keep old files.
+        force_orphan: false  # Keep git history.

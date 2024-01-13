@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: hklpy
+Version: 1.1.0rc1
+Summary: Controls for using diffractometers within the Bluesky Framework.
+Author: Ken Lauer, Max Rakitin
+Author-email: Pete Jemian <prjemian+hklpy@gmail.com>
+Maintainer-email: Pete Jemian <prjemian+hklpy@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2014-2023, Brookhaven National Laboratory
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its contributors
+           may be used to endorse or promote products derived from this software
+           without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://blueskyproject.io/hklpy/
+Project-URL: Bug Tracker, https://github.com/bluesky/hklpy/issues
+Keywords: bluesky,diffraction,diffractometer
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Freely Distributable
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: apischema
+Requires-Dist: databroker
+Requires-Dist: numpy
+Requires-Dist: ophyd
+Requires-Dist: pint
+Requires-Dist: pygobject
+Requires-Dist: pyRestTable
+Requires-Dist: tqdm
+Provides-Extra: docs
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Requires-Dist: spec2nexus; extra == "docs"
+Provides-Extra: tests
+Requires-Dist: bluesky; extra == "tests"
+Requires-Dist: tiled; extra == "tests"
+Requires-Dist: packaging; extra == "tests"
+Provides-Extra: all
+Requires-Dist: hklpy[docs,tests]; extra == "all"
+
+hklpy
+=====
+
+| Name | Downloads | Version | Platforms | PyPI |
+| --- | --- | --- | --- | --- |
+| [![Conda Package](https://img.shields.io/badge/package-hklpy-green.svg)](https://anaconda.org/conda-forge/hklpy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hklpy.svg)](https://anaconda.org/conda-forge/hklpy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hklpy.svg)](https://anaconda.org/conda-forge/hklpy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hklpy.svg)](https://anaconda.org/conda-forge/hklpy) | [![PyPi](https://img.shields.io/pypi/v/hklpy.svg)](https://pypi.python.org/pypi/hklpy) |
+
+Controls for using diffractometers within the [Bluesky
+Framework](https://blueskyproject.io).
+
+Based on the *hkl*  C library (described here as [*libhkl*](https://people.debian.org/~picca/hkl/hkl.html#)), with
+slightly cleaner abstractions when compared to the auto-generated
+`gobject-introspection` classes. Integrates with ophyd
+pseudopositioners.
+
+## References
+
+- hklpy documentation: <https://blueskyproject.io/hklpy>
+- *libhkl* main repository: <https://repo.or.cz/hkl.git>
+  - ([GitHub repo](https://github.com/picca/hkl) is a shadow copy rarely
+    synchronized with the main repository.)
+- Bluesky framework documentation: <https://blueskyproject.io>
+
+## Conda Recipes
+
+Install the most recent build: `conda install hklpy -c conda-forge`
+
+The recipes for *libhkl* (`hkl`) and `hklpy` are available in the following
+conda-forge feedstocks:
+
+- <https://github.com/conda-forge/hkl-feedstock>
+- <https://github.com/conda-forge/hklpy-feedstock>
