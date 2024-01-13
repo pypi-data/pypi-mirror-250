@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/pyaudiobookbinder/PyAudiobookBinder.py
+src/pyaudiobookbinder/__init__.py
+src/pyaudiobookbinder/requirements.txt
+src/pyaudiobookbinder.egg-info/PKG-INFO
+src/pyaudiobookbinder.egg-info/SOURCES.txt
+src/pyaudiobookbinder.egg-info/dependency_links.txt
+src/pyaudiobookbinder.egg-info/entry_points.txt
+src/pyaudiobookbinder.egg-info/requires.txt
+src/pyaudiobookbinder.egg-info/top_level.txt
