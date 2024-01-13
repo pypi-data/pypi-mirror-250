@@ -1,0 +1,3 @@
+[console_scripts]
+kima = kima.pykima.cli:cli_run
+
