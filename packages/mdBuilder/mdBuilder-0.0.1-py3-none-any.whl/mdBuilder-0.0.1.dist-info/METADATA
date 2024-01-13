@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mdBuilder
+Version: 0.0.1
+Summary: A tool to generate markdown easily
+Home-page: https://github.com/mill413/mdWriter
+Author: Mill Haruto
+Author-email: mill413@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# mdWriter
