@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ward-labels-upload
+Version: 0.0.1
+Summary: An internal package to allow for easy uploading of labels to the Ward Analytics API.
+Author: Ward Analytics
+Author-email: <gabriel.vieira@vdspar.com>
+Keywords: Internal
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: tqdm
+
+An internal package to allow for easy uploading of labels to the Ward Analytics API.
