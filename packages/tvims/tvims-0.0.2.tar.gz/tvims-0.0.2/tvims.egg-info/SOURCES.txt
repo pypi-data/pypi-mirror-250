@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+tvims/__init__.py
+tvims.egg-info/PKG-INFO
+tvims.egg-info/SOURCES.txt
+tvims.egg-info/dependency_links.txt
+tvims.egg-info/top_level.txt
