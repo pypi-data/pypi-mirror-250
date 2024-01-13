@@ -1,0 +1,274 @@
+Metadata-Version: 2.1
+Name: tidy3d
+Version: 2.6.0rc1
+Summary: A fast FDTD solver
+Home-page: https://github.com/flexcompute/tidy3d
+License: LGPLv2+
+Author: Tyler Hughes
+Author-email: tyler@flexcompute.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: gdspy
+Provides-Extra: gdstk
+Provides-Extra: jax
+Provides-Extra: trimesh
+Provides-Extra: vtk
+Requires-Dist: PyYAML
+Requires-Dist: black (==23.12.1) ; extra == "dev"
+Requires-Dist: boto3 (==1.23.1)
+Requires-Dist: click (==8.0.3)
+Requires-Dist: coverage ; extra == "dev"
+Requires-Dist: dask
+Requires-Dist: dill ; extra == "dev"
+Requires-Dist: gdspy ; extra == "dev" or extra == "gdspy"
+Requires-Dist: gdstk (>=0.9.49) ; extra == "dev" or extra == "dev" or extra == "docs" or extra == "gdstk"
+Requires-Dist: grcwa ; extra == "dev" or extra == "docs"
+Requires-Dist: h5netcdf (==1.0.2)
+Requires-Dist: h5py (>=3.0.0,<4.0.0)
+Requires-Dist: importlib-metadata (>=6.0.0,<7.0.0)
+Requires-Dist: ipython ; extra == "dev" or extra == "dev" or extra == "docs"
+Requires-Dist: jax[cpu] (>=0.4.1,<=0.4.14) ; (sys_platform == "darwin") and (extra == "dev" or extra == "jax")
+Requires-Dist: jax[cpu] (>=0.4.1,<=0.4.14) ; (sys_platform == "linux") and (extra == "dev" or extra == "jax")
+Requires-Dist: jax[cpu] (>=0.4.13,<=0.4.14) ; (python_version >= "3.9" and python_version < "4.0" and sys_platform == "win32") and (extra == "dev" or extra == "jax")
+Requires-Dist: jaxlib (>=0.4.1,<=0.4.14) ; (sys_platform == "darwin") and (extra == "dev" or extra == "jax")
+Requires-Dist: jaxlib (>=0.4.1,<=0.4.14) ; (sys_platform == "linux") and (extra == "dev" or extra == "jax")
+Requires-Dist: jaxlib (>=0.4.13,<=0.4.14) ; (python_version >= "3.9" and python_version < "4.0" and sys_platform == "win32") and (extra == "dev" or extra == "jax")
+Requires-Dist: jinja2 (>=3.1.2) ; extra == "dev" or extra == "docs"
+Requires-Dist: jupyter ; extra == "dev" or extra == "docs"
+Requires-Dist: m2r3 ; extra == "dev" or extra == "docs"
+Requires-Dist: matplotlib
+Requires-Dist: memory_profiler ; extra == "dev"
+Requires-Dist: nbconvert (>=7.11.0) ; extra == "dev" or extra == "docs"
+Requires-Dist: nbdime ; extra == "dev" or extra == "docs"
+Requires-Dist: nbsphinx (>=0.8.7) ; extra == "dev" or extra == "docs"
+Requires-Dist: networkx (>=2.6.3,<3.0.0) ; extra == "dev" or extra == "trimesh"
+Requires-Dist: optax ; extra == "dev" or extra == "docs"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: pydantic (>=2.0,<3.0)
+Requires-Dist: pydata-sphinx-theme (>=0.13.3) ; extra == "dev" or extra == "docs"
+Requires-Dist: pyjwt
+Requires-Dist: pylint ; extra == "dev" or extra == "docs"
+Requires-Dist: pyroots (>=0.5.0)
+Requires-Dist: pyswarms ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-timeout ; extra == "dev"
+Requires-Dist: requests
+Requires-Dist: responses
+Requires-Dist: rich (<12.6.0)
+Requires-Dist: rtree (==1.0.1) ; extra == "dev" or extra == "trimesh"
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: sax ; extra == "dev" or extra == "docs"
+Requires-Dist: scipy
+Requires-Dist: shapely (>=2.0,<3.0)
+Requires-Dist: signac ; extra == "dev" or extra == "docs"
+Requires-Dist: sphinx (>=6.2.1,<7) ; extra == "dev" or extra == "docs"
+Requires-Dist: sphinx-book-theme (>=1.0.1) ; extra == "dev" or extra == "docs"
+Requires-Dist: sphinx-copybutton (>=0.5.2) ; extra == "dev" or extra == "docs"
+Requires-Dist: sphinx-sitemap (>=2.5.1) ; extra == "dev" or extra == "docs"
+Requires-Dist: sphinx-tabs ; extra == "dev" or extra == "docs"
+Requires-Dist: sphinxemoji ; extra == "dev" or extra == "docs"
+Requires-Dist: tmm ; extra == "dev" or extra == "docs"
+Requires-Dist: toml
+Requires-Dist: tox ; extra == "dev"
+Requires-Dist: trimesh (==3.20.0) ; extra == "dev" or extra == "trimesh"
+Requires-Dist: vtk (<=9.2.6) ; extra == "dev" or extra == "vtk"
+Requires-Dist: xarray (>=0.16.2)
+Project-URL: Bug Tracker, https://github.com/flexcompute/tidy3d/issues
+Project-URL: Documentation, https://docs.flexcompute.com/projects/tidy3d/en/latest/
+Project-URL: Repository, https://github.com/flexcompute/tidy3d
+Description-Content-Type: text/markdown
+
+# Tidy3D
+[![PyPI
+Name](https://img.shields.io/badge/pypi-tidy3d-blue?style=for-the-badge)](https://pypi.python.org/pypi/tidy3d)
+[![PyPI version shields.io](https://img.shields.io/pypi/v/tidy3d.svg?style=for-the-badge)](https://pypi.python.org/pypi/tidy3d/)
+[![Documentation Status](https://readthedocs.com/projects/flexcompute-tidy3ddocumentation/badge/?version=latest&style=for-the-badge)](https://flexcompute-tidy3ddocumentation.readthedocs-hosted.com/?badge=latest)
+![Tests](https://img.shields.io/github/actions/workflow/status/flexcompute/tidy3d/run_tests.yml?style=for-the-badge)
+![License](https://img.shields.io/github/license/flexcompute/tidy3d?style=for-the-badge)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge)](https://github.com/psf/black)
+![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/daquinteroflex/4702549574741e87deaadba436218ebd/raw/tidy3d_extension.json)
+
+[![Notebooks](https://img.shields.io/badge/Demo-Live%20notebooks-8A2BE2?style=for-the-badge)](https://github.com/flexcompute/tidy3d-notebooks)
+
+![](https://raw.githubusercontent.com/flexcompute/tidy3d/main/img/Tidy3D-logo.svg)
+
+Tidy3D is a software product from Flexcompute that enables large scale electromagnetic simulation using the finite-difference time-domain (FDTD) method.
+
+This repository stores the python interface for Tidy3d.
+
+This code allows you to:
+* Programmatically define FDTD simulations.
+* Submit and manage simulations running on Flexcompute's servers.
+* Download and postprocess the results from the simulations.
+
+You can find a detailed documentation and API reference [here](https://docs.flexcompute.com/projects/tidy3d/en/stable/).
+The source code for our documentation is [here](https://github.com/flexcompute-readthedocs/tidy3d-docs).
+
+![](https://raw.githubusercontent.com/flexcompute/tidy3d/main/img/snippet.png)
+
+## Installation
+
+### Signing up for tidy3d
+
+Note that while this front end package is open source, to run simulations on Flexcompute servers requires an account with credits.
+You can sign up for an account [here](https://tidy3d.simulation.cloud/signup).
+After that, you can install the front end with the instructions below, or visit [this page](https://docs.flexcompute.com/projects/tidy3d/en/stable/install.html) in our documentation for more details.
+
+### Installing the front end 
+
+To install the Tidy3D Python API locally, the following instructions should work for most users.
+
+```
+pip install --user tidy3d
+tidy3d configure --apikey=XXX
+```
+
+Where `XXX` is your API key, which can be copied from your [account page](https://tidy3d.simulation.cloud/account) in the web interface.
+
+In a hosted jupyter notebook environment (eg google colab), it may be more convenient to install and configure via the following lines at the top of the notebook.
+
+```
+!pip install tidy3d
+import tidy3d.web as web
+web.configure("XXX")
+```
+
+If those commands did not work, advanced installation instructions are below, which should help solve the issue.
+
+### Advanced Installation Instructions
+
+Some users might require more a specialized installation, which we cover below.
+
+#### Using pip (recommended)
+
+The easiest way to install the tidy3d python interface is through [pip](https://pypi.org/project/tidy3d/).
+
+```
+pip install tidy3d
+```
+
+This will install the latest stable version.
+
+To get a specific version `x.y.z`, including the "pre-release" versions, you may specify the version in the command as:
+
+```
+pip install tidy3d==x.y.z
+```
+
+### Installing from source
+
+Alternatively, for development purposes, eg. developing your own features, you may download and install the package from source as:
+
+```
+git clone https://github.com/flexcompute/tidy3d.git
+cd tidy3d
+pip install -e .
+```
+
+### Configuring and authentication
+
+With the front end installed, it must now be configured with your account information, which is done via an "API key".
+
+You can find your API key in the [web interface](http://tidy3d.simulation.cloud). After signing in and navigating to the account page by clicking the "Account Center" icon on the left-hand side. Then, click on the "API key" tab on the right hand side of the menu and copy your API key.
+
+Note: We refer to your API specific API key value as `XXX` below.
+
+To link your API key with Tidy3D, you may use one of three following options:
+
+#### Command line (recommended)
+
+The easiest way is through the command line via the `tidy3d configure` command. Run:
+
+```
+tidy3d configure
+```
+
+and then enter your API key `XXX` when prompted.
+
+Note that Windows users must run the following instead (ideally in an anaconda prompt):
+
+```
+pip install pipx
+pipx run tidy3d configure
+```
+
+You can also specify your API key directly as an option to this command using the `api-key` argument, for example:
+
+```
+tidy3d configure --apikey=XXX
+```
+
+#### Manually
+
+Alternatively, you can manually set up the config file where Tidy3D looks for the API key. The API key must be in a file called `.tidy3d/config` located in your home directory, containing the following
+
+```
+apikey = "XXX"
+```
+
+You can manually set up your file like this, or do it through the command line line:
+
+``echo 'apikey = "XXX"' > ~/.tidy3d/config``
+
+Note the quotes around `XXX`.
+
+Note that Windows users will most likely need to place the `.tidy3d/config` file in their `C:\Users\username\` directory (where `username` is your username).
+
+#### Environment Variable
+
+Lastly, you may set the API key as an environment variable named `SIMCLOUD_APIKEY`.
+
+This can be set up using
+
+``export SIMCLOUD_APIKEY="XXX"``
+
+Note the quotes around `XXX`.
+
+### Testing the installation and authentication
+
+#### Front end package
+
+You can verify the front end installation worked by running:
+
+```
+python -c "import tidy3d as td; print(td.__version__)"
+```
+
+and it should print out the version number, for example:
+
+```
+2.0.0
+```
+
+#### Authentication
+
+To test the authentication, you may try importing the web interface via.
+
+```
+python -c "import tidy3d.web"
+```
+
+It should pass without any errors if the API key is set up correctly.
+
+To get started, our documentation has a lot of [examples](https://docs.flexcompute.com/projects/tidy3d/en/latest/examples.html) for inspiration.
+
+## Issues / Feedback / Bug Reporting
+
+Your feedback helps us immensely!
+
+If you find bugs, file an [Issue](https://github.com/flexcompute/tidy3d/issues).
+For more general discussions, questions, comments, anything else, open a topic in the [Discussions Tab](https://github.com/flexcompute/tidy3d/discussions).
+
+## License
+
+[GNU LGPL](https://github.com/flexcompute/tidy3d/blob/main/LICENSE)
+
