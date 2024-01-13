@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=63.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name="pyaudiobookbinder"
+version="0.2.0"
+authors =[{name="Daniel Byrne",email="realdanielbyrne@icloud.com"}]
+description = "PyAudioBookBinder is a lightweight tool using ffmeg which simplifies the process of binding multiple audio files togethers into an audiobook by gleaming smart defaults from the audio files's metadata, locations, durations, and names."
+readme = "README.md"
+requires-python=">=3.9.0"
+classifiers=[
+    
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",    
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+  "argparse",
+]
+
+[project.urls]
+Homepage="https://github.com/realdanielbyrne/PyAudiobookBinder"
+
+[tool.setuptools]
+include-package-data = true
+
+
+[project.scripts]
+pybind = "pyaudiobookbinder.PyAudiobookBinder:pybind"
