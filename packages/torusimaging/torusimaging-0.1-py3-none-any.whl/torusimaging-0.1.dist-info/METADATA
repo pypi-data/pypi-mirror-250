@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: torusimaging
+Version: 0.1
+Summary: Inferring the Galactic mass distribution with stellar labels
+Project-URL: Homepage, https://github.com/adrn/torusimaging
+Project-URL: Bug Tracker, https://github.com/adrn/torusimaging/issues
+Project-URL: Discussions, https://github.com/adrn/torusimaging/discussions
+Project-URL: Changelog, https://github.com/adrn/torusimaging/releases
+Author-email: Adrian Price-Whelan <adrianmpw@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2021–2023 Adrian Price-Whelan
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: astronomy,dynamics,galactic dynamics
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: astropy>=5.1
+Requires-Dist: blackjax
+Requires-Dist: gala
+Requires-Dist: jax
+Requires-Dist: jax-cosmo
+Requires-Dist: jaxlib
+Requires-Dist: jaxopt
+Requires-Dist: matplotlib
+Requires-Dist: numpy>=1.20
+Requires-Dist: pyyaml
+Requires-Dist: scipy>=1.9
+Provides-Extra: dev
+Requires-Dist: pytest-cov>=3; extra == 'dev'
+Requires-Dist: pytest>=6; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: matplotlib; extra == 'docs'
+Requires-Dist: myst-nb; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme; extra == 'docs'
+Requires-Dist: scipy; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints; extra == 'docs'
+Requires-Dist: sphinx-automodapi; extra == 'docs'
+Requires-Dist: sphinx-copybutton; extra == 'docs'
+Requires-Dist: sphinx>=7.0; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest-astropy; extra == 'test'
+Requires-Dist: pytest-cov>=3; extra == 'test'
+Requires-Dist: pytest>=6; extra == 'test'
+Requires-Dist: pyyaml; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Orbital Torus Imaging 🍩
+
+[![Actions Status][actions-badge]][actions-link]
+
+<img src="https://github.com/adrn/TorusImaging/blob/main/docs/_static/torus.jpg?raw=true" width=250>
+
+<!-- SPHINX-START -->
+
+<!-- prettier-ignore-start -->
+[actions-badge]:            https://github.com/adrn/torusimaging/workflows/CI/badge.svg
+[actions-link]:             https://github.com/adrn/torusimaging/actions
+[conda-badge]:              https://img.shields.io/conda/vn/conda-forge/torusimaging
+[conda-link]:               https://github.com/conda-forge/torusimaging-feedstock
+[pypi-link]:                https://pypi.org/project/torusimaging/
+[pypi-platforms]:           https://img.shields.io/pypi/pyversions/torusimaging
+[pypi-version]:             https://img.shields.io/pypi/v/torusimaging
+[rtd-badge]:                https://readthedocs.org/projects/torusimaging/badge/?version=latest
+[rtd-link]:                 https://torusimaging.readthedocs.io/en/latest/?badge=latest
+[zenodo-badge]:             https://zenodo.org/badge/DOI/10.5281/zenodo.1228136.svg
+[zenodo-link]:              https://doi.org/10.5281/zenodo.1228136
+
+<!-- prettier-ignore-end -->
+
+An implementation of the method of
+[Orbital Torus Imaging](https://arxiv.org/abs/2012.00015), which exploits
+gradients in stellar labels (e.g., element abundances or ages) or stellar label
+moments to infer the orbit structure and mass distribution of the Galaxy.
+
+## Documentation
+
+[![Documentation Status][rtd-badge]][rtd-link]
+
+The documentation for `torusimaging` is hosted on
+[Read the Docs](http://torusimaging.rtfd.io).
+
+## Installation and Dependencies
+
+[![PyPI version][pypi-version]][pypi-link]
+
+The recommended way to install `torusimaging` is using `pip` to install the
+latest development version:
+
+    pip install git+https://github.com/adrn/torusimaging
+
+or, to install the latest stable version:
+
+    pip install torusimaging
+
+## Attribution
+
+<!-- [![Zenodo record][zenodo-badge]][zenodo-link] -->
+
+If you find this package useful, please cite the latest Orbital Torus Imaging
+paper:
+
+    TODO
+
+## License
+
+Copyright 2021-2024 Adrian Price-Whelan and contributors.
+
+`torusimaging` is free software made available under the MIT License. For
+details see the
+[LICENSE](https://github.com/adrn/torusimaging/blob/main/LICENSE) file.
