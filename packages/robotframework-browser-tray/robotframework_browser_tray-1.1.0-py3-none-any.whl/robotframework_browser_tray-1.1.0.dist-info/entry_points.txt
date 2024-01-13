@@ -1,0 +1,3 @@
+[console_scripts]
+browser-tray=robotframework_browser_tray.tray:run
+
