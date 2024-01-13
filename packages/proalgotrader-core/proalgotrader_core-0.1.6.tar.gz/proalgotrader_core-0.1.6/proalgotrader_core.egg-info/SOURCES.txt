@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+proalgotrader_core/__init__.py
+proalgotrader_core/main.cpython-311-x86_64-linux-gnu.so
+proalgotrader_core/run.cpython-311-x86_64-linux-gnu.so
+proalgotrader_core.egg-info/PKG-INFO
+proalgotrader_core.egg-info/SOURCES.txt
+proalgotrader_core.egg-info/dependency_links.txt
+proalgotrader_core.egg-info/requires.txt
+proalgotrader_core.egg-info/top_level.txt
+proalgotrader_core/hello/__init__.py
+proalgotrader_core/hello/test.cpython-311-x86_64-linux-gnu.so
