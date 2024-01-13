@@ -1,0 +1,3 @@
+[console_scripts]
+jinger=JingeR.jinger:cli
+
