@@ -1,0 +1,4 @@
+plane, 0.9; cockpit, 0.3, left; wings, 0.2
+person, 0.6; torso, 0.4; head, 0.2, right top
+car, 0.8; window, 0.5, middle; wheel, 0.4, right; light, 0.3; license plate, 0.1
+truck, 0.75; window, 0.4; wheel, 0.3, middle; light, 0.2, left; license plate, 0.3, middle

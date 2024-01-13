@@ -1,0 +1,50 @@
+person, 0.74; head, 0.5; arm, 0.21, left, arm, 0.13, right; leg, 0.05
+person, 0.26; head, 0.47, top; torso, 0.25, middle
+rider, 0.63; leg, 0.23; head, 0.20
+rider, 0.45; head, 0.39; leg, 0.20, bottom
+car, 0.85; license plate, 0.34, bottom; light, 0.15, left
+car, 0.60; chassis, 0.42; wheel, 0.25, bottom left; wheel, 0.22, bottom right
+truck, 0.73; window, 0.35; license plate, 0.25, bottom; light, 0.10
+truck, 0.68; wheel, 0.33, left; wheel, 0.33, right
+bus, 0.65; window, 0.40; license plate, 0.20, bottom
+bus, 0.86; chassis, 0.54; wheel, 0.15
+aeroplane, 0.84; body, 0.30; right wing, 0.15, right; tail, 0.12
+aeroplane, 0.53; engine, 0.41; body, 0.23, middle; left wing, 0.10
+bicycle, 0.89; front wheel, 0.33; wheel, 0.31, left; saddle, 0.26, middle
+bicycle, 0.43; handlebar, 0.43, middle; headlight, 0.29
+bird, 0.73; beak, 0.40; left wing, 0.21; tail, 0.14
+bird, 0.65; right wing, 0.25; left foot, 0.19, bottom left; right foot, 0.07, bottom right
+boat, 0.92
+boat, 0.05
+bottle, 0.71; body, 0.25; cap, 0.25, top;
+bottle, 0.4; body, 0.3
+bus, 0.99; frontside, 0.35; headlight, 0.22; wheel, 0.14, left
+bus, 0.50; backside, 0.22; licenseplate, 0.15, bottom
+car, 0.93; wheel, 0.25, bottom; door, 0.15; window, 0.08
+car, 0.62; roof, 0.35; left mirror, 0.10, right; window, 0.05
+cat, 0.54; left eye, 0.25; right eye, 0.22, right; nose, 0.15
+cat, 0.85; left ear, 0.4; tail, 0.25, left torso, 0.10, middle
+chair, 0.49
+chair, 0.88
+cow, 0.91; left horn, 0.25; right horn, 0.23; lear, 0.19; torso, 0.12, middle
+cow, 0.33; left leg, 0.30; tail, 0.24, right
+table, 0.57
+table, 0.98
+dog, 0.82; nose, 0.25; torso, 0.22, bottom left
+dog, 0.79; head, 0.38, top; leye, 0.22; lear, 0.20; rear, 0.15; right eye, 0.09
+horse, 0.54; tail, 0.27; leg, 0.21; leg, 0.11
+horse, 0.99; head, 0.40; neck, 0.24, muzzle, 0.20
+motorbike, 0.59; front wheel, 0.25, right; handlebar, 0.18, top right
+motorbike, 0.13; headlight, 0.4, bottom
+person, 0.89; head, 0.40; hair, 0.24; left hand, 0.15
+person, 0.96; mouth, 0.30, bottom; nose, 0.26, middle; leye, 0.12
+pottedplant, 0.98; plant, 0.51, middle; pot, 0.1, bottom
+pottedplant, 0.70; pot, 0.30; plant, 0.29
+sheep, 0.56; torso, 0.42, middle; neck, 0.20, right
+sheep, 0.98; head, 0.25; left horn, 0.25; lear, 0.19
+sofa, 0.44
+sofa, 0.50
+train, 0.40; headlight, 0.35, bottom right; coach, 0.21; front side, 0.15, middle
+train, 0.86; coach, 0.25; left side, 0.20
+tvmonitor, 0.91; screen, 0.55
+tvmonitor, 0.73; screen, 0.35, top left

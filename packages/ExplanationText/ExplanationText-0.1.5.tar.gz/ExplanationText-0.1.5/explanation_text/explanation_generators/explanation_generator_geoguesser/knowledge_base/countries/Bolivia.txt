@@ -1,0 +1,53 @@
+Bolivian Street View coverage is fairly limited. Six of Bolivia’s major cities are covered: La Paz, Santa Cruz, Cochabamba, Sucre, Oruro and Potosi. Some of the main roads connecting these cities or spreading radially from these cities are also covered. Minor, rural roads aren’t included in Bolivian coverage. Bolivia has mountains running from the North West (not the celebrity) to south of the country but it is flat away from this area. Most of the Street View coverage is on flat land. This contrasts Peru where most of the coverage is on undulating land. In general, Bolivia most closely resembles Peru, except for being more flat than Peru. Bolivia is typically dry and lacks much flora or greenery. If you pan down in Bolivia, you will see the ghostly, white Street View car. This car can also be seen in Peru whilst a more opaque, white car can be seen in Chile. Bolivian houses resemble Peruvian houses. They are typically made of brick with flat roofs and in a dry landscape, void of vegetation. Most of Bolivia has signs held up by thick, wooden, unpainted posts. The sides of commercial vehicles (e.g. taxis) have license plates, much like Colombia and Peru. Bolivia can have a diverse landscape. In general, the country tends to be rather dry. The outlying areas of the Atacama Desert cover the western and south-western parts of the country. The eastern part of Bolivia around Santa Cruz (which has limited coverage) is green and lush. So too is the area north of La Paz and Cochabamba (these are the green areas on the GeoGuessr map). This green landscape is more of an aberration in Bolivia with most of the country dry with less flora. If I see a lush green Bolivia round, I will typically guess somewhere around Santa Cruz. Bolivian houses tend to look quite similar to Peruvian houses. They are mainly made of brick and have flat roofs. Bolivia resembles Peru in many ways however large parts of Bolivia are flat (there are indeed mountainous parts) whilst Peru is almost all undulating or mountainous. Parts of Bolivia are mountainous however the Street View coverage rarely ventures into undulating land in Bolivia. Note how arid the environment looks. Like Colombia and Peru, Bolivian commercial vehicles e.g. taxis have license plates on their sides. In many instances these side plates are blurred. Cars in Bolivia have license plates with a faint, blue colour. Across much of Bolivia, the signs are held up by thick, unpainted, wooden posts. Bolivia can have bollards but they are rather rare. They are cigarette shaped with a red stripe near the top. As well as regular, cylindrical utility poles, the most common form of utility pole in Bolivia is asymmetrical and has one diagonal bar stemming from the pole to the horizontal bar, forming a right-angle triangle. It’s often possible to narrow down where you are in Bolivia based on smudges and the type of road.
+
+Bollards:
+
+There are no bollards in Bolivia.
+
+Road Lines:
+
+Like most of the rest of the western hemisphere, Bolivia uses yellow center lines and white outside lines. However, it is not uncommon that paved roads will have no painted lines at all.
+
+Road Signs:
+
+Like the rest of South America, Bolivian stop signs have “Pare” written on them.
+Bolivia is very inconsistent in terms of sign color and format.
+The most useful signs are signs indicating town directions, which can be either blue or green.
+
+However, Bolivia can be distinguished through its use of wooden posts on all signs.
+
+License plates:
+
+License plates in Bolivia are white with blue text.
+The plate number is 3 or 4 digits followed by 3 letters.
+
+Architecture:
+
+There are two types of architecture found in Bolivia: colonial and contemporary.
+Typical contemporary urban buildings look like this.
+
+Here is an example of typical urban/suburban contemporary housing.
+
+Meanwhile, colonial architecture is mostly found in the form of white-washed walls with tiled roofs.
+
+Vegetation/Landscape:
+
+The single best way of telling apart regions of Bolivia is through landscape and climate.
+Lake Titicaca-La Paz-Oruro area:
+This area is known as the Altiplano, which is a high-altitude plateau. This area is mostly flat with occasional rolling hills and mountains which can be seen in the distance. It is relatively green, but treeless.
+
+Oruro-Potosi-Chile Border area:
+This area is extremely arid. It is barren except for yellow “poofy” grasses littering the landscape. This area can range from flat to mountainous. There are also a few large volcanoes.
+
+Cochabamba-Sucre Area:
+This area has a semi-arid or Mediterranean climate. It is mostly covered in bushes or shrubs, but there may be occasional trees. It is hilly or mountainous in terrain.
+
+Vallegrande-Santa Cruz de La Sierra-Villamontes area:
+This area is a tropical or semi-tropical area that is hilly or sort of mountainous, with densely covered vegetation – mostly bushes and lowish trees.
+
+The area north and east of Santa Cruz de La Sierra:
+This area is extremely flat and tropical. It is mostly covered in open grassland with low trees and shrubs. It can also be swampy.
+
+Coverage:
+
+One crucial thing to mastering Bolivia is to understand where the coverage extends in the country. Bolivia’s coverage is pretty slim so it makes it much easier to figure out the right road or the general area. Here is a map of the coverage:
