@@ -1,0 +1,15 @@
+habito/__init__.py,sha256=3crImoCnlBXtQUhSJSRNw2osuYSjXmvQu1a_qwZ1Wak,74
+habito/main.py,sha256=bNGZE19d1zbiFd2MWK4cZXbY2Y_9VROVNu_e8UpZWAI,147
+habito/models.py,sha256=gv2c2_DXMgW4LifVt6IB9hZuuRb0D7Olnwjx987x3Oo,11244
+habito/commands/__init__.py,sha256=DgrhLrzaLR6z4TSES6ng-M-sar4Sl1EZV7nHQtSKJ78,630
+habito/commands/add.py,sha256=k0BWcW5QxS5pjPpPrcTWSVZB7-4TBFYkAOoOvZHFuGI,768
+habito/commands/checkin.py,sha256=Fp-fk1JyT6M4Ny6UCRsB72GHcZ03N7LH--XuusoIJVA,3610
+habito/commands/delete.py,sha256=m0cSEjXk6Ae6RrbwkJfv94mYT8wPHbTtuL-pydc58Ec,1264
+habito/commands/edit.py,sha256=76qgprhTuBhc3FR35AunJKqL0a_lYaZfT927G9e6yJA,1052
+habito/commands/list.py,sha256=xrIRfC-LfEL90L5S-5lpD4etzMUxx8qNTGJiyRMC418,4906
+habito-1.2.0.dist-info/LICENSE.md,sha256=r6j8Ogrv88jV4eTkphp0uJSv1HUPZqUR5qF5iqJsxGo,1058
+habito-1.2.0.dist-info/METADATA,sha256=BJ_KBWS6DQVjHwGbXg4T7ZAUWCiaSgaBNOvkWJ98b24,2536
+habito-1.2.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+habito-1.2.0.dist-info/entry_points.txt,sha256=WXZhhRXdLafy0Y_LJYiVMtyTgxL0Bsp6JFV_0YoCVbA,47
+habito-1.2.0.dist-info/top_level.txt,sha256=oaSdUoC93fMjhLHw-mCO4H-l40IW2fLyq5M3FuxNu2Y,7
+habito-1.2.0.dist-info/RECORD,,
