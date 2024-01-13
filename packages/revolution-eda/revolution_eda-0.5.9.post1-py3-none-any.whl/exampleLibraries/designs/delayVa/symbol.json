@@ -1,0 +1,248 @@
+[
+    {
+        "cellView": "symbol"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "line",
+        "st": [
+            140,
+            160
+        ],
+        "end": [
+            80,
+            160
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            140,
+            80
+        ],
+        "end": [
+            80,
+            80
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            -60,
+            80
+        ],
+        "end": [
+            0,
+            80
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "rect",
+        "rect": [
+            0.0,
+            0.0,
+            80.0,
+            240.0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            240
+        ],
+        "nam": "vaModel",
+        "def": "[@vaModel:vaModel=%:vaModel=sig_delayModel]",
+        "txt": "vaModel=sig_delayModel",
+        "val": "sig_delayModel",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            20.0,
+            240.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            192
+        ],
+        "nam": "vaModule",
+        "def": "[@vaModule:vaModule=%:vaModule=sig_delay]",
+        "txt": "vaModule=sig_delay",
+        "val": "sig_delay",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            20.0,
+            192.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            144
+        ],
+        "nam": "vaFile",
+        "def": "[@vaFile:vaFile=%:vaFile=/home/eskiyerli/OneDrive_reveda/Projects/RevEDA/exampleLibraries/designs/delayVa/delay.va]",
+        "txt": "vaFile=/home/eskiyerli/OneDrive_reveda/Projects/RevEDA/exampleLibraries/designs/delayVa/delay.va",
+        "val": "/home/eskiyerli/OneDrive_reveda/Projects/RevEDA/exampleLibraries/designs/delayVa/delay.va",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            20.0,
+            144.0
+        ]
+    },
+    {
+        "type": "pin",
+        "st": [
+            140,
+            160
+        ],
+        "nam": "out2",
+        "pd": "Output",
+        "pt": "Signal",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "pin",
+        "st": [
+            140,
+            80
+        ],
+        "nam": "out1",
+        "pd": "Output",
+        "pt": "Signal",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "pin",
+        "st": [
+            -60,
+            80
+        ],
+        "nam": "in",
+        "pd": "Input",
+        "pt": "Signal",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "label",
+        "st": [
+            80,
+            -24
+        ],
+        "nam": "instName",
+        "def": "[@instName]",
+        "txt": "[@instName]",
+        "val": "[@instName]",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            80.0,
+            -24.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            96
+        ],
+        "nam": "cellName",
+        "def": "[@cellName]",
+        "txt": "[@cellName]",
+        "val": "[@cellName]",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            20.0,
+            96.0
+        ]
+    },
+    {
+        "type": "attr",
+        "nam": "td",
+        "def": "3e-6"
+    },
+    {
+        "type": "attr",
+        "nam": "XyceNetlistLine",
+        "def": "Ysig_delay [@instName] [@pinList]  sig_delayModel "
+    },
+    {
+        "type": "attr",
+        "nam": "vaModelLine",
+        "def": ".MODEL sig_delayModel sig_delay td=3e-6, "
+    },
+    {
+        "type": "attr",
+        "nam": "vaHDLLine",
+        "def": "*.HDL /home/eskiyerli/OneDrive_reveda/Projects/RevEDA/revedaEditor/test/delay.va"
+    },
+    {
+        "type": "attr",
+        "nam": "pinOrder",
+        "def": "in,out1,out2"
+    }
+]

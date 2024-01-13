@@ -1,0 +1,175 @@
+[
+    {
+        "cellView": "symbol"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "line",
+        "st": [
+            80,
+            140
+        ],
+        "end": [
+            80,
+            80
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            80,
+            -60
+        ],
+        "end": [
+            80,
+            0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "rect",
+        "rect": [
+            70.0,
+            0.0,
+            89.0,
+            80.0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "label",
+        "st": [
+            160,
+            0
+        ],
+        "nam": "",
+        "def": "[@R:R=%:R=1]",
+        "txt": "[@R:R=%:R=1]",
+        "val": "",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            105.0,
+            10.0
+        ]
+    },
+    {
+        "type": "pin",
+        "st": [
+            80,
+            140
+        ],
+        "nam": "MINUS",
+        "pd": "Inout",
+        "pt": "Ground",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "pin",
+        "st": [
+            80,
+            -60
+        ],
+        "nam": "PLUS",
+        "pd": "Inout",
+        "pt": "Power",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "label",
+        "st": [
+            160,
+            -8
+        ],
+        "nam": "",
+        "def": "[@instName]",
+        "txt": "[@instName]",
+        "val": "",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            105.0,
+            -68.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            40,
+            32
+        ],
+        "nam": "",
+        "def": "[@cellName]",
+        "txt": "[@cellName]",
+        "val": "",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            40.0,
+            32.0
+        ]
+    },
+    {
+        "type": "attr",
+        "nam": "R",
+        "def": "1"
+    },
+    {
+        "type": "attr",
+        "nam": "XyceVerilogaNetlistLine",
+        "def": "Yres [@instName] [@pinList]  resModel [@R:R=%:R=1]"
+    },
+    {
+        "type": "attr",
+        "nam": "vaModelLine",
+        "def": ".MODEL resModel res R = 1"
+    },
+    {
+        "type": "attr",
+        "nam": "vaHDLLine",
+        "def": "*.HDL /home/eskiyerli/OneDrive_reveda/Projects/RevEDA/exampleLibraries/analogLib/resVa/res.va"
+    },
+    {
+        "type": "attr",
+        "nam": "pinOrder",
+        "def": "PLUS,MINUS"
+    }
+]

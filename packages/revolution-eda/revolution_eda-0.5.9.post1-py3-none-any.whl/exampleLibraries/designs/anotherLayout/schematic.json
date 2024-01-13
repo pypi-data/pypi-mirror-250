@@ -1,0 +1,411 @@
+[
+    {
+        "cellView": "schematic"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "scp",
+        "st": [
+            -260.0,
+            95.0
+        ],
+        "pn": "INP",
+        "pd": "Input",
+        "pt": "Signal",
+        "ang": 0.0
+    },
+    {
+        "type": "sys",
+        "lib": "designs",
+        "cell": "LCFilter",
+        "view": "symbol",
+        "nam": "I2",
+        "ic": 2,
+        "ld": {
+            "instName": [
+                "I2",
+                true
+            ],
+            "cellName": [
+                "LCFilter",
+                true
+            ]
+        },
+        "loc": [
+            210.0,
+            15.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -65.0,
+            -32.0,
+            145.0,
+            162.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "res",
+        "view": "symbol",
+        "nam": "I6",
+        "ic": 6,
+        "ld": {
+            "R": [
+                "1k",
+                true
+            ],
+            "instName": [
+                "I6",
+                true
+            ],
+            "cellName": [
+                "res",
+                true
+            ]
+        },
+        "loc": [
+            990.0,
+            200.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -12.0,
+            -170.0,
+            41.796875,
+            5.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "designs",
+        "cell": "LCFilter",
+        "view": "symbol",
+        "nam": "I0",
+        "ic": 0,
+        "ld": {
+            "instName": [
+                "I0",
+                true
+            ],
+            "cellName": [
+                "LCFilter",
+                true
+            ]
+        },
+        "loc": [
+            -65.0,
+            15.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -65.0,
+            -32.0,
+            145.0,
+            162.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "gnd",
+        "view": "symbol",
+        "nam": "I4",
+        "ic": 4,
+        "ld": {
+            "instName": [
+                "I4",
+                false
+            ]
+        },
+        "loc": [
+            710.0,
+            400.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -32.0,
+            -5.0,
+            89.65625,
+            73.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "diodeVa",
+        "view": "symbol",
+        "nam": "I5",
+        "ic": 5,
+        "ld": {
+            "cellName": [
+                "diodeVa",
+                true
+            ],
+            "instName": [
+                "I5",
+                true
+            ],
+            "vaModule": [
+                "diode",
+                false
+            ],
+            "vaModel": [
+                "diodeModel",
+                false
+            ]
+        },
+        "loc": [
+            1215.0,
+            80.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            13.0,
+            -65.0,
+            159.65625,
+            145.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "designs",
+        "cell": "circuit3",
+        "view": "symbol",
+        "nam": "I3",
+        "ic": 3,
+        "ld": {
+            "cellName": [
+                "circuit3",
+                true
+            ],
+            "instName": [
+                "I3",
+                true
+            ],
+            "subcktName": [
+                "newckt",
+                false
+            ],
+            "res": [
+                "1k",
+                true
+            ],
+            "cap": [
+                "4p",
+                true
+            ]
+        },
+        "loc": [
+            535.0,
+            15.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -65.0,
+            -65.0,
+            200.390625,
+            225.0
+        ]
+    },
+    {
+        "type": "scn",
+        "st": [
+            150,
+            95
+        ],
+        "end": [
+            70,
+            95
+        ],
+        "nam": "net2",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            -255,
+            95
+        ],
+        "end": [
+            -125,
+            95
+        ],
+        "nam": "INP",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            1295,
+            -230
+        ],
+        "end": [
+            1295,
+            20
+        ],
+        "nam": "net1",
+        "ns": false
+    },
+    {
+        "type": "dot",
+        "pt": [
+            990.0,
+            -230.0
+        ]
+    },
+    {
+        "type": "scn",
+        "st": [
+            615,
+            -230
+        ],
+        "end": [
+            990,
+            -230
+        ],
+        "nam": "net1",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            990,
+            -230
+        ],
+        "end": [
+            1295,
+            -230
+        ],
+        "nam": "net1",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            1295,
+            220
+        ],
+        "end": [
+            1295,
+            355
+        ],
+        "nam": "net3",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            990,
+            40
+        ],
+        "end": [
+            990,
+            -230
+        ],
+        "nam": "net1",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            990,
+            200
+        ],
+        "end": [
+            990,
+            355
+        ],
+        "nam": "net4",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            615,
+            355
+        ],
+        "end": [
+            1300,
+            355
+        ],
+        "nam": "net0",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            615,
+            240
+        ],
+        "end": [
+            615,
+            355
+        ],
+        "nam": "net0",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            615,
+            240
+        ],
+        "end": [
+            620,
+            240
+        ],
+        "nam": "net0",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            710,
+            395
+        ],
+        "end": [
+            710,
+            355
+        ],
+        "nam": "gnd!",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            615,
+            -45
+        ],
+        "end": [
+            615,
+            -230
+        ],
+        "nam": "net1",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            475,
+            95
+        ],
+        "end": [
+            350,
+            95
+        ],
+        "nam": "net5",
+        "ns": false
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "cellView": "schematic"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "isin",
+        "view": "symbol",
+        "nam": "I0",
+        "ic": 0,
+        "ld": {
+            "instName": [
+                "I0",
+                true
+            ],
+            "cellName": [
+                "isin",
+                true
+            ],
+            "V0": [
+                "1",
+                true
+            ]
+        },
+        "loc": [
+            -180.0,
+            -125.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -142.0,
+            -205.0,
+            12.015625,
+            -25.0
+        ]
+    }
+]

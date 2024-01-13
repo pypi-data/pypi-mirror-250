@@ -1,0 +1,78 @@
+[
+    {
+        "viewName": "config"
+    },
+    {
+        "reference": "schematic"
+    },
+    {
+        "gnd": [
+            "analogLib",
+            "symbol",
+            [
+                "symbol"
+            ]
+        ],
+        "circuit3": [
+            "designs",
+            "spice",
+            [
+                "spice",
+                "symbol"
+            ]
+        ],
+        "LCFilter": [
+            "designs",
+            "schematic",
+            [
+                "schematic",
+                "symbol"
+            ]
+        ],
+        "ind": [
+            "analogLib",
+            "symbol",
+            [
+                "symbol"
+            ]
+        ],
+        "highPassFilter": [
+            "designs",
+            "schematic",
+            [
+                "schematic",
+                "symbol"
+            ]
+        ],
+        "cap": [
+            "analogLib",
+            "symbol",
+            [
+                "symbol"
+            ]
+        ],
+        "res": [
+            "analogLib",
+            "symbol",
+            [
+                "symbol"
+            ]
+        ],
+        "diodeVa": [
+            "analogLib",
+            "veriloga",
+            [
+                "veriloga",
+                "symbol"
+            ]
+        ],
+        "resVa": [
+            "analogLib",
+            "veriloga",
+            [
+                "veriloga",
+                "symbol"
+            ]
+        ]
+    }
+]

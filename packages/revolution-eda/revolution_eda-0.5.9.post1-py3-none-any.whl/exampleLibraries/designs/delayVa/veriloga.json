@@ -1,0 +1,14 @@
+[
+    {
+        "cellView": "veriloga"
+    },
+    {
+        "filePath": "delay.va"
+    },
+    {
+        "vaModule": "sig_delay"
+    },
+    {
+        "netlistLine": "Ysig_delay [@instName] [@pinList]  sig_delayModel "
+    }
+]

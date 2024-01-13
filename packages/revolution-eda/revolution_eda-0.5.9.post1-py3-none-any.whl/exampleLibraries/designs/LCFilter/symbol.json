@@ -1,0 +1,139 @@
+[
+    {
+        "cellView": "symbol"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "line",
+        "st": [
+            140,
+            80
+        ],
+        "end": [
+            80,
+            80
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            -60,
+            80
+        ],
+        "end": [
+            0,
+            80
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "rect",
+        "rect": [
+            0.0,
+            0.0,
+            80.0,
+            160.0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "pin",
+        "st": [
+            140,
+            80
+        ],
+        "nam": "OUT",
+        "pd": "Output",
+        "pt": "Signal",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "pin",
+        "st": [
+            -60,
+            80
+        ],
+        "nam": "INP",
+        "pd": "Input",
+        "pt": "Signal",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "label",
+        "st": [
+            80,
+            -32
+        ],
+        "nam": "instName",
+        "def": "[@instName]",
+        "txt": "[@instName]",
+        "val": "[@instName]",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            80.0,
+            -32.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            64
+        ],
+        "nam": "cellName",
+        "def": "[@cellName]",
+        "txt": "[@cellName]",
+        "val": "[@cellName]",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            20.0,
+            64.0
+        ]
+    },
+    {
+        "type": "attr",
+        "nam": "XyceSymbolNetlistLine",
+        "def": "X[@instName] [@cellName] [@pinList]"
+    },
+    {
+        "type": "attr",
+        "nam": "pinOrder",
+        "def": "INP,  OUT"
+    }
+]

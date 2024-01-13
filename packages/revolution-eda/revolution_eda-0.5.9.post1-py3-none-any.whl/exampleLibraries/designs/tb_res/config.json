@@ -1,0 +1,32 @@
+[
+    {
+        "viewName": "config"
+    },
+    {
+        "reference": "schematic"
+    },
+    {
+        "cap": [
+            "analogLib",
+            "symbol",
+            [
+                "symbol"
+            ]
+        ],
+        "res": [
+            "analogLib",
+            "veriloga",
+            [
+                "veriloga",
+                "symbol"
+            ]
+        ],
+        "gnd": [
+            "analogLib",
+            "symbol",
+            [
+                "symbol"
+            ]
+        ]
+    }
+]

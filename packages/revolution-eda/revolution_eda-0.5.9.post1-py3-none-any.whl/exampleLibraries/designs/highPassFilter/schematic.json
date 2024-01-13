@@ -1,0 +1,216 @@
+[
+    {
+        "cellView": "schematic"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "scp",
+        "st": [
+            -75.0,
+            0.0
+        ],
+        "pn": "COM",
+        "pd": "Inout",
+        "pt": "Signal",
+        "ang": 0.0
+    },
+    {
+        "type": "scp",
+        "st": [
+            115.0,
+            -180.0
+        ],
+        "pn": "OUT",
+        "pd": "Output",
+        "pt": "Signal",
+        "ang": 0.0
+    },
+    {
+        "type": "scp",
+        "st": [
+            -335.0,
+            -180.0
+        ],
+        "pn": "INP",
+        "pd": "Input",
+        "pt": "Signal",
+        "ang": 0.0
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "cap",
+        "view": "symbol",
+        "nam": "I1",
+        "ic": 1,
+        "ld": {
+            "C": [
+                "1p",
+                true
+            ],
+            "instName": [
+                "I1",
+                true
+            ],
+            "cellName": [
+                "cap",
+                true
+            ]
+        },
+        "loc": [
+            -225.0,
+            -180.0
+        ],
+        "ang": 90.0,
+        "ign": 0,
+        "br": [
+            -42.0,
+            -170.0,
+            97.28125,
+            5.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "res",
+        "view": "symbol",
+        "nam": "I0",
+        "ic": 0,
+        "ld": {
+            "R": [
+                "1k",
+                true
+            ],
+            "instName": [
+                "I0",
+                true
+            ],
+            "cellName": [
+                "res",
+                true
+            ]
+        },
+        "loc": [
+            15.0,
+            0.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -12.0,
+            -170.0,
+            50.015625,
+            5.0
+        ]
+    },
+    {
+        "type": "scn",
+        "st": [
+            15,
+            0
+        ],
+        "end": [
+            15,
+            0
+        ],
+        "nam": "COM",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            -65,
+            -180
+        ],
+        "end": [
+            15,
+            -180
+        ],
+        "nam": "OUT",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            15,
+            -160
+        ],
+        "end": [
+            15,
+            -180
+        ],
+        "nam": "OUT",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            120,
+            -180
+        ],
+        "end": [
+            15,
+            -180
+        ],
+        "nam": "OUT",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            15,
+            -160
+        ],
+        "end": [
+            15,
+            -160
+        ],
+        "nam": "OUT",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            -225,
+            -180
+        ],
+        "end": [
+            -225,
+            -180
+        ],
+        "nam": "INP",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            15,
+            0
+        ],
+        "end": [
+            -75,
+            0
+        ],
+        "nam": "COM",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            -225,
+            -180
+        ],
+        "end": [
+            -335,
+            -180
+        ],
+        "nam": "INP",
+        "ns": false
+    }
+]

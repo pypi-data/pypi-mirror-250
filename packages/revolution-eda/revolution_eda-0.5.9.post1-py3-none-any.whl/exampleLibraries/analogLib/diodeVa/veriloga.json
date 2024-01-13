@@ -1,0 +1,11 @@
+[
+    {
+        "cellView": "veriloga"
+    },
+    {
+        "filePath": "diode.va"
+    },
+    {
+        "vaModule": "diode"
+    }
+]

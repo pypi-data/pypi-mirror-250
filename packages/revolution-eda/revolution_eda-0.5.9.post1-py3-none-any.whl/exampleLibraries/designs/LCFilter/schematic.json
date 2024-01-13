@@ -1,0 +1,353 @@
+[
+    {
+        "cellView": "schematic"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "scp",
+        "st": [
+            -370.0,
+            -205.0
+        ],
+        "pn": "INP",
+        "pd": "Input",
+        "pt": "Signal",
+        "ang": 0.0
+    },
+    {
+        "type": "scp",
+        "st": [
+            685.0,
+            -205.0
+        ],
+        "pn": "OUT",
+        "pd": "Output",
+        "pt": "Signal",
+        "ang": 0.0
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "cap",
+        "view": "symbol",
+        "nam": "I0",
+        "ic": 0,
+        "ld": {
+            "C": [
+                "1p",
+                true
+            ],
+            "instName": [
+                "I0",
+                true
+            ],
+            "cellName": [
+                "cap",
+                true
+            ]
+        },
+        "loc": [
+            50.0,
+            5.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -42.0,
+            -170.0,
+            89.140625,
+            5.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "ind",
+        "view": "symbol",
+        "nam": "I1",
+        "ic": 1,
+        "ld": {
+            "instName": [
+                "I1",
+                true
+            ],
+            "cellName": [
+                "ind",
+                true
+            ],
+            "L": [
+                "1n",
+                true
+            ]
+        },
+        "loc": [
+            -280.0,
+            -205.0
+        ],
+        "ang": 90.0,
+        "ign": 0,
+        "br": [
+            -12.0,
+            -175.0,
+            67.09375,
+            5.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "gnd",
+        "view": "symbol",
+        "nam": "I2",
+        "ic": 2,
+        "ld": {
+            "instName": [
+                "I2",
+                false
+            ]
+        },
+        "loc": [
+            50.0,
+            75.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -32.0,
+            -5.0,
+            89.65625,
+            73.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "designs",
+        "cell": "highPassFilter",
+        "view": "symbol",
+        "nam": "I2",
+        "ic": 2,
+        "ld": {
+            "cellName": [
+                "highPassFilter",
+                true
+            ],
+            "instName": [
+                "I2",
+                true
+            ]
+        },
+        "loc": [
+            405.0,
+            -285.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -65.0,
+            -65.0,
+            225.0,
+            162.0
+        ]
+    },
+    {
+        "type": "sys",
+        "lib": "analogLib",
+        "cell": "gnd",
+        "view": "symbol",
+        "nam": "I4",
+        "ic": 4,
+        "ld": {
+            "instName": [
+                "I4",
+                false
+            ]
+        },
+        "loc": [
+            265.0,
+            -335.0
+        ],
+        "ang": 0.0,
+        "ign": 0,
+        "br": [
+            -32.0,
+            -5.0,
+            89.65625,
+            73.0
+        ]
+    },
+    {
+        "type": "scn",
+        "st": [
+            -280,
+            -205
+        ],
+        "end": [
+            -360,
+            -205
+        ],
+        "nam": "INP",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            50,
+            -155
+        ],
+        "end": [
+            50,
+            -205
+        ],
+        "nam": "net0",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            50,
+            -205
+        ],
+        "end": [
+            350,
+            -205
+        ],
+        "nam": "net0",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            -120,
+            -205
+        ],
+        "end": [
+            50,
+            -205
+        ],
+        "nam": "net0",
+        "ns": false
+    },
+    {
+        "type": "dot",
+        "pt": [
+            50.0,
+            -205.0
+        ]
+    },
+    {
+        "type": "scn",
+        "st": [
+            50,
+            75
+        ],
+        "end": [
+            50,
+            5
+        ],
+        "nam": "gnd!",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            625,
+            -205
+        ],
+        "end": [
+            700,
+            -205
+        ],
+        "nam": "OUT",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            485,
+            -345
+        ],
+        "end": [
+            490,
+            -345
+        ],
+        "nam": "gnd!",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            485,
+            -345
+        ],
+        "end": [
+            485,
+            -410
+        ],
+        "nam": "gnd!",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            265,
+            -335
+        ],
+        "end": [
+            265,
+            -410
+        ],
+        "nam": "gnd!",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            265,
+            -410
+        ],
+        "end": [
+            485,
+            -410
+        ],
+        "nam": "gnd!",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            265,
+            -335
+        ],
+        "end": [
+            265,
+            -335
+        ],
+        "nam": "gnd!",
+        "ns": false
+    },
+    {
+        "type": "scn",
+        "st": [
+            265,
+            -335
+        ],
+        "end": [
+            265,
+            -335
+        ],
+        "nam": "gnd!",
+        "ns": false
+    },
+    {
+        "type": "dot",
+        "pt": [
+            265.0,
+            -335.0
+        ]
+    }
+]

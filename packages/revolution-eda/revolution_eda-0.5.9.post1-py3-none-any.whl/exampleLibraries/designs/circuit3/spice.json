@@ -1,0 +1,22 @@
+[
+    {
+        "cellView": "spice"
+    },
+    {
+        "filePath": "circuit3.sp"
+    },
+    {
+        "subcktParams": {
+            "params": {
+                "res": "1k",
+                "cap": "1p"
+            },
+            "name": "newckt",
+            "pins": [
+                "a",
+                "b",
+                "c"
+            ]
+        }
+    }
+]

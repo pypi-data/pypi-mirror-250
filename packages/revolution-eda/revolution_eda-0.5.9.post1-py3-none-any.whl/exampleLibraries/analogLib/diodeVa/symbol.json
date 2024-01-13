@@ -1,0 +1,278 @@
+[
+    {
+        "cellView": "symbol"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "line",
+        "st": [
+            20,
+            80
+        ],
+        "end": [
+            135,
+            80
+        ],
+        "loc": [
+            5.0,
+            -5.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            140,
+            0
+        ],
+        "end": [
+            140,
+            0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            80,
+            75
+        ],
+        "end": [
+            140,
+            0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            20,
+            0
+        ],
+        "end": [
+            80,
+            75
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "arc",
+        "st": [
+            15,
+            0
+        ],
+        "end": [
+            15,
+            0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            20,
+            0
+        ],
+        "end": [
+            140,
+            0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            80,
+            -60
+        ],
+        "end": [
+            80,
+            0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            80,
+            140
+        ],
+        "end": [
+            80,
+            75
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "label",
+        "st": [
+            40,
+            32
+        ],
+        "nam": "cellName",
+        "def": "[@cellName]",
+        "txt": "[@cellName]",
+        "val": "[@cellName]",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            40.0,
+            32.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            160,
+            -8
+        ],
+        "nam": "instName",
+        "def": "[@instName]",
+        "txt": "[@instName]",
+        "val": "[@instName]",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            150.0,
+            -63.0
+        ]
+    },
+    {
+        "type": "pin",
+        "st": [
+            80,
+            -60
+        ],
+        "nam": "a",
+        "pd": "Inout",
+        "pt": "Power",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "pin",
+        "st": [
+            80,
+            140
+        ],
+        "nam": "c",
+        "pd": "Inout",
+        "pt": "Ground",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "label",
+        "st": [
+            40,
+            64
+        ],
+        "nam": "vaModule",
+        "def": "[@vaModule:vaModule=%:vaModule=diode]",
+        "txt": "vaModule=diode",
+        "val": "diode",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            40.0,
+            64.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            40,
+            80
+        ],
+        "nam": "vaModel",
+        "def": "[@vaModel:vaModel=%:vaModel=diodeModel]",
+        "txt": "vaModel=diodeModel",
+        "val": "diodeModel",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            40.0,
+            80.0
+        ]
+    },
+    {
+        "type": "attr",
+        "nam": "IS",
+        "def": "1.0e-14"
+    },
+    {
+        "type": "attr",
+        "nam": "XyceVerilogaNetlistLine",
+        "def": "Ydiode [@instName] [@pinList]  diodeModel "
+    },
+    {
+        "type": "attr",
+        "nam": "vaModelLine",
+        "def": ".MODEL diodeModel diode IS = 1.0e-14"
+    },
+    {
+        "type": "attr",
+        "nam": "vaHDLLine",
+        "def": "*.HDL /home/eskiyerli/OneDrive_reveda/Projects/RevEDA/revedaEditor/test/diode.va"
+    },
+    {
+        "type": "attr",
+        "nam": "pinOrder",
+        "def": "a,c"
+    }
+]

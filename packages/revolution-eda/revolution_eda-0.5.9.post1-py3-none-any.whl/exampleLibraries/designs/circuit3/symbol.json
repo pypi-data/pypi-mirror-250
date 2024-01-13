@@ -1,0 +1,238 @@
+[
+    {
+        "cellView": "symbol"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "rect",
+        "rect": [
+            0.0,
+            0.0,
+            160.0,
+            160.0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            -60,
+            80
+        ],
+        "end": [
+            0,
+            80
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            80,
+            -60
+        ],
+        "end": [
+            80,
+            0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "line",
+        "st": [
+            80,
+            220
+        ],
+        "end": [
+            80,
+            160
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "label",
+        "st": [
+            40,
+            64
+        ],
+        "nam": "cellName",
+        "def": "[@cellName]",
+        "txt": "[@cellName]",
+        "val": "[@cellName]",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            40.0,
+            64.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            160,
+            -16
+        ],
+        "nam": "instName",
+        "def": "[@instName]",
+        "txt": "[@instName]",
+        "val": "[@instName]",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            160.0,
+            -16.0
+        ]
+    },
+    {
+        "type": "pin",
+        "st": [
+            -60,
+            80
+        ],
+        "nam": "b",
+        "pd": "Input",
+        "pt": "Signal",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "pin",
+        "st": [
+            80,
+            -60
+        ],
+        "nam": "a",
+        "pd": "Inout",
+        "pt": "Power",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "pin",
+        "st": [
+            80,
+            220
+        ],
+        "nam": "c",
+        "pd": "Inout",
+        "pt": "Ground",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0
+    },
+    {
+        "type": "label",
+        "st": [
+            40,
+            -32
+        ],
+        "nam": "subcktName",
+        "def": "[@subcktName:subcktName=%:subcktName=newckt]",
+        "txt": "[@subcktName:subcktName=%:subcktName=newckt]",
+        "val": "newckt",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            40.0,
+            -32.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            160,
+            0
+        ],
+        "nam": "res",
+        "def": "[@res:res=%:res=1k]",
+        "txt": "[@res:res=%:res=1k]",
+        "val": "1k",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            160.0,
+            0.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            160,
+            16
+        ],
+        "nam": "cap",
+        "def": "[@cap:cap=%:cap=1p]",
+        "txt": "[@cap:cap=%:cap=1p]",
+        "val": "1p",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": "12",
+        "al": "Center",
+        "or": "R0",
+        "use": "Instance",
+        "loc": [
+            160.0,
+            16.0
+        ]
+    },
+    {
+        "type": "attr",
+        "nam": "pinOrder",
+        "def": "a,b,c"
+    },
+    {
+        "type": "attr",
+        "nam": "incLine",
+        "def": ".INC /home/eskiyerli/OneDrive_reveda/Projects/RevEDA/exampleLibraries/designs/circuit3/circuit3.sp"
+    },
+    {
+        "type": "attr",
+        "nam": "XyceSpiceNetlistLine",
+        "def": "X[@instName] [@pinList] newckt PARAM: [@res:res=%:res=1k] [@cap:cap=%:cap=1p]"
+    }
+]
