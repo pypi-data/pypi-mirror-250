@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aquapointer
+Version: 0.0.1
+Summary: aquapointer
+Author: Unitary Fund
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# aquapointer
+Package applying quantum algorithms to find locations of water molecules in a protein cavity
+
+## Getting started
+You can use [this notebook](notebooks/aquapointer_demo.ipynb) to get started with aquapointer. 
+
+## Installing aquapointer
+From the top level of the repository, where the `setup.py` file is found, just run
+```
+python setup.py install
+```
