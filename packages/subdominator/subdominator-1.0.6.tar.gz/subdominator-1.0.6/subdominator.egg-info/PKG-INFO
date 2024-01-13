@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: subdominator
+Version: 1.0.6
+Summary: Subdominator - An ultimate subdomain enumeration tool
+Author: D. Sanjai Kumar
+Author-email: bughunterz0047@gmail.com
+License-File: LICENSE
+Requires-Dist: censys>=2.2.9
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: httpx>=0.25.1
+Requires-Dist: plyer>=2.1.0
+Requires-Dist: fake_useragent>=1.2.1
+Requires-Dist: pywebio>=1.8.2
+Requires-Dist: requests>=2.31.0
+Requires-Dist: argparse>=1.4.0
