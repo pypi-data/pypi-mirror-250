@@ -1,0 +1,76 @@
+import MainShortcuts.main as ms
+dir=ms.m_dir
+file=ms.m_file
+json=ms.m_json
+os=ms.m_os
+path=ms.m_path
+proc=ms.m_proc
+str=ms.m_str
+# Данные о модуле
+__version__="1.5.0"
+__depends__={
+  "required":[
+    "json",
+    "os",
+    "platform",
+    "shutil",
+    "subprocess",
+    "sys"
+    ],
+  "optional":[
+    ]
+  }
+__functions__=[
+  "clear",
+  "cls",
+  "dir.copy",
+  "dir.create",
+  "dir.delete",
+  "dir.list",
+  "dir.move",
+  "dir.rename",
+  "exit",
+  "file.copy",
+  "file.delete",
+  "file.move",
+  "file.open",
+  "file.read",
+  "file.rename",
+  "file.save",
+  "file.write",
+  "json.decode",
+  "json.encode",
+  "json.read",
+  "json.rebuild",
+  "json.rewrite",
+  "json.sort",
+  "json.write",
+  "path.copy",
+  "path.cp",
+  "path.delete",
+  "path.exists",
+  "path.format",
+  "path.info",
+  "path.link",
+  "path.ln",
+  "path.merge",
+  "path.move",
+  "path.mv",
+  "path.rename",
+  "path.rm",
+  "path.rn",
+  "path.split",
+  "proc.run",
+  "str.array2str",
+  "str.dict2str",
+  "str.replace.all",
+  "str.replace.multi"
+  ]
+__variables__=[
+  "os.platform",
+  "os.type",
+  "path.sep",
+  "path.separator",
+  "proc.args",
+  "proc.pid"
+  ]
