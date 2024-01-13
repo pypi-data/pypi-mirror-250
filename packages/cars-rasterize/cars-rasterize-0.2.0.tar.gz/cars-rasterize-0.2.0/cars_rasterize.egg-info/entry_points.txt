@@ -1,0 +1,2 @@
+[console_scripts]
+las2tif = cars_rasterize.las2tif:console_script
