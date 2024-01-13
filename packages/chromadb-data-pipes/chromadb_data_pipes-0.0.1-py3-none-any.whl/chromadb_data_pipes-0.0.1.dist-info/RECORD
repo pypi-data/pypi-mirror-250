@@ -1,0 +1,16 @@
+chroma_dp/__init__.py,sha256=a1JQpy--vUMVwqQzGPCrCQTswTE1ZzcbdrNmH34oBJc,4003
+chroma_dp/chroma/__init__.py,sha256=5qUo2FUQj2f2EFff7nw1NB19-4lDcjrUBsSbO9LeNCQ,41
+chroma_dp/chroma/chroma_export.py,sha256=VSin1zxY3hoaCOHDWjM-Z5z6-nPS3eNTLmTrC6Jw0mM,4163
+chroma_dp/chroma/chroma_import.py,sha256=AuQN2-gbhSI6fC8A8G_TiWvmjPM3R1y9xZUPx-GBpbc,5283
+chroma_dp/huggingface/__init__.py,sha256=mf2ofGbPW2VLLKluknIu3znbglJrZQdxTnBWq_W-a5w,14159
+chroma_dp/huggingface/utils.py,sha256=OkK7oKSaHxlZfPj_Prh5yfqiw_hDwNxxxXTSY1-Vzgg,1126
+chroma_dp/main.py,sha256=3HVF_VvGYLkXI8SRXn2uNFyP0qxM5Acfab-8Avyff6M,1651
+chroma_dp/transformers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chroma_dp/transformers/embed.py,sha256=KWHTv2cf4yzCew-jtOe99xfbVgeZ13QnSl4j_b7uzTI,2763
+chroma_dp/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chroma_dp/utils/chroma.py,sha256=wegLrrNm5535hMLC5UYoEzxjuW1cYPa5aSf7tVPj8H8,4801
+chromadb_data_pipes-0.0.1.dist-info/LICENSE.md,sha256=Pwsvv2QWtjmTgWWmM5MQLwKFif0S2vIxEIcIFIi1SoQ,1077
+chromadb_data_pipes-0.0.1.dist-info/METADATA,sha256=erRuAiFKJ7ddPfSV-5JybLh3rbsDQjWl5sN8__kWaH0,3995
+chromadb_data_pipes-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+chromadb_data_pipes-0.0.1.dist-info/entry_points.txt,sha256=hIdDSCRXp4FmJq2avyVoJVRKdExqjz-N_7zJ8eDfb7Q,42
+chromadb_data_pipes-0.0.1.dist-info/RECORD,,
