@@ -1,0 +1,11 @@
+_winnowing.cpython-37m-x86_64-linux-gnu.so,sha256=13oxMwEkq5nciAqNvD6i_UHbTG6Bx_ns9qZoUNj3yx8,44064
+_hpsm.cpython-37m-x86_64-linux-gnu.so,sha256=Ah7ndNGrofz0lC0vTw4Pf3gfuvAEDFl2ZRawK-tNF2g,43776
+scanoss_winnowing/_hpsm.c,sha256=KaSP2MADwEKAdllqpRDziAclhtLIl2TdNMch2zXS5w0,4159
+scanoss_winnowing/__init__.py,sha256=mqSKsRxuKVycTt7OWmLGyiR-BbDQYesoHgi3hIE5w8I,1162
+scanoss_winnowing/winnowing.py,sha256=fOec1MzzNGm0ocA0ymNkLmOdwc7W0z-XW8XxPnFEgPY,17284
+scanoss_winnowing/_winnowing.c,sha256=Qj-9gq56vGxrq8eE_bdWJTHlGH7FV5EQeTAF5JLDV8g,6101
+scanoss_winnowing-0.4.0.dist-info/WHEEL,sha256=QGwzqIMEvnYqYYAko0h2jgmqtukc_RGm8b-7TFBr9CA,112
+scanoss_winnowing-0.4.0.dist-info/top_level.txt,sha256=YcsWTy2_alsm4OSQZAKh04bcWvX3TVyNYvCV4DHyVxY,35
+scanoss_winnowing-0.4.0.dist-info/LICENSE,sha256=miMP9C7FhrGy19ClXgShigqjk2nUOQLNgr8bc_itAB4,1074
+scanoss_winnowing-0.4.0.dist-info/RECORD,,
+scanoss_winnowing-0.4.0.dist-info/METADATA,sha256=6SisYTNlkFh88nN_YbMz3c9ws013o5H7nz1oT_0pPmk,2057
