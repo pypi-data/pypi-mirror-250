@@ -1,0 +1,37 @@
+name: Update Python dependencies
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *"
+jobs:
+  update-dep:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-versions: [ "3.9" ]
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+      - uses: actions/setup-python@65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236
+        with:
+          python-version: ${{ matrix.python-versions }}
+      - name: Install prerequisites
+        run: |
+          pip install tox pipenv
+      - name: Update dependencies
+        run: |
+          pipenv update -d
+          make requirements
+      - name: Run tests
+        run: |
+          make tests
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@153407881ec5c347639a548ade7d8ad1d6740e38
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "build: Update Python dependencies"
+          branch: "rstuf-bot/update-python-dependencies"
+          delete-branch: true
+          title: "build: Update Python dependencies"
+          body: >
+            The following PR updates the Python dependencies and generates new pipfile and requirements file.
+          labels: report, automated pr, python
