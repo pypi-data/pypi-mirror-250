@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+Differential_Equation/__init__.py
+Differential_Equation/utils.py
+Differential_Equation/ODE/__init__.py
+Differential_Equation/ODE/utils.py
+happymath.egg-info/PKG-INFO
+happymath.egg-info/SOURCES.txt
+happymath.egg-info/dependency_links.txt
+happymath.egg-info/requires.txt
+happymath.egg-info/top_level.txt

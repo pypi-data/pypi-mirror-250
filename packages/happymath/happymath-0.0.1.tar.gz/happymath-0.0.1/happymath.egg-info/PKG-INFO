@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: happymath
+Version: 0.0.1
+Summary: Test vsrsion for happymath
+Author: Zou
+Author-email: 1514117376@qq.com
+License: MIT
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: sympy
+Requires-Dist: IPython
+Requires-Dist: latex2sympy2
+Requires-Dist: importlib

@@ -1,0 +1,4 @@
+sympy
+IPython
+latex2sympy2
+importlib
