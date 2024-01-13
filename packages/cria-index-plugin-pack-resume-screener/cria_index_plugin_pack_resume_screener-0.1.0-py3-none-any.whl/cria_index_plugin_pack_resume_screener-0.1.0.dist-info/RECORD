@@ -1,0 +1,5 @@
+cria_index/plugins/packs/resume_screener/__init__.py,sha256=zYGUy63LHCvqd9xhoY67mat4kxtmuqLHJDHYf90Ysok,110
+cria_index/plugins/packs/resume_screener/base.py,sha256=Ms1Ty8x02wGnpsanK7ct9RUI_AwFpFzXufg_jZKHLhs,168
+cria_index_plugin_pack_resume_screener-0.1.0.dist-info/METADATA,sha256=lMCWtrKaYTQJB43KdFm6aoEwbvwGKCgooyHPCkC6ZnA,460
+cria_index_plugin_pack_resume_screener-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cria_index_plugin_pack_resume_screener-0.1.0.dist-info/RECORD,,
