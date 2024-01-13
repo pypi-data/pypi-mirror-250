@@ -1,0 +1,6 @@
+README.md
+setup.py
+cooleans.egg-info/PKG-INFO
+cooleans.egg-info/SOURCES.txt
+cooleans.egg-info/dependency_links.txt
+cooleans.egg-info/top_level.txt
