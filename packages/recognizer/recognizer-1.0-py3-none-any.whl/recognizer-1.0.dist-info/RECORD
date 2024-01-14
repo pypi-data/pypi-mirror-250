@@ -1,0 +1,14 @@
+recognizer/__init__.py,sha256=YlddSD4xSPgFEzJOTrLszJ-BUKzWVIdG_7Frm0wSnlI,135
+recognizer/agents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recognizer/agents/playwright/__init__.py,sha256=iSOdGmIT-23w7RJ7c1cJptaUaKcn-SYMLHqR_MVebro,137
+recognizer/agents/playwright/async_control.py,sha256=hIoWNb7jRu4x4X3rly2F0_zoFsQNfcIWkBXboxSq7GA,5325
+recognizer/agents/playwright/sync_control.py,sha256=ECQDS4oe8Q4QxIGl4ODaLEeIz6JJziSMWNxbxG47o30,5125
+recognizer/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recognizer/components/detector.py,sha256=Rza5IXqa--z7ufb7Tyj3Qau-G5i6drWVba98FH4DbnU,16824
+recognizer/components/image_processor.py,sha256=m7FaGMi64RrwLkdo2tEUhNqfrJtbv8ECnMrL4ZU1HVA,3436
+recognizer/components/prompt_handler.py,sha256=SpYvb-EsuFKR-qQ-GCUS5DOYeFdwFLKCifAJx7azjTU,824
+recognizer-1.0.dist-info/LICENSE,sha256=wl3IVT7dlJ5d3j0FlkkgXYbDj9tX1uGXi1rhBxQ_aMk,35702
+recognizer-1.0.dist-info/METADATA,sha256=DbJ1IfaNXjhybznilda06umIVgI-nZ4C1ILf6Pj9Dj8,4659
+recognizer-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+recognizer-1.0.dist-info/top_level.txt,sha256=nx2bbOPZew6FQZDYwFUOlbE3OBflUJ86oHYVdixMlCs,11
+recognizer-1.0.dist-info/RECORD,,
