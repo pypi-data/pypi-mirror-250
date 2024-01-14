@@ -1,0 +1,9 @@
+tcms_api/__init__.py,sha256=Bas8ZB4zAiikC9of7Wf5t3W93BahcyWmKMEirqUMTss,6901
+tcms_api/plugin_helpers.py,sha256=vAXfQVLEozTX-VJHdNgMNFNj5GVq1AaMQTi6Yg1kLYQ,21128
+tcms_api/version.py,sha256=CZT1NA89FvwiBOw5TFCPWFXTtcURZnmFVyIcj9u8BV8,23
+tcms_api/xmlrpc.py,sha256=SkKSU0tYxGj77Jq22qFez-dG4SZcjxTYXpOvLQpeI9k,5783
+tcms_api-12.9.1.dist-info/LICENSE,sha256=AQyK4PvQMNkumjz_FuHuoVzGaXFKAR9diuKjRMShFRM,24481
+tcms_api-12.9.1.dist-info/METADATA,sha256=2L6Zf_pJTiLinNTHTvOeN51wneO7XIyIfk4U_J02YGI,10295
+tcms_api-12.9.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tcms_api-12.9.1.dist-info/top_level.txt,sha256=IPAHBi_l2sCWqvf9DDHxUInciv_sqW9QiSkSLPu6UXo,9
+tcms_api-12.9.1.dist-info/RECORD,,
