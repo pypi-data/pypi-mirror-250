@@ -1,0 +1,9 @@
+README.md
+setup.py
+tracker_scraper/__init__.py
+tracker_scraper/scraper.py
+tracker_scraper.egg-info/PKG-INFO
+tracker_scraper.egg-info/SOURCES.txt
+tracker_scraper.egg-info/dependency_links.txt
+tracker_scraper.egg-info/requires.txt
+tracker_scraper.egg-info/top_level.txt
