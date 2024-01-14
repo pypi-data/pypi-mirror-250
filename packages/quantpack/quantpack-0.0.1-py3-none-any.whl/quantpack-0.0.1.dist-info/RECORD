@@ -1,0 +1,16 @@
+quantpack/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+quantpack/backtest/__init__.py,sha256=ptJ92fjHkz2JUBRtJIU4PtlarLsidjwSnO2uym1zENo,27
+quantpack/backtest/vanilla.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpack/metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpack/metrics/ratios.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpack/metrics/reactivity.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpack/metrics/returns.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpack/metrics/risk.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpack/metrics/volatility.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpack/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpack/visuals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpack-0.0.1.dist-info/LICENSE.md,sha256=Dcn8-7AIm4p1jmMbyFGz3MlQG2q0IZoCfhNgXqxe0rs,1089
+quantpack-0.0.1.dist-info/METADATA,sha256=0z1bsTnMwbv43VhiTzFv4gItbxlZgOS38iCCpiKaPNI,807
+quantpack-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+quantpack-0.0.1.dist-info/top_level.txt,sha256=g0gXAV1IQTmZMZwGLHRCZYpYDWuu7EA2inrDk0YSrto,10
+quantpack-0.0.1.dist-info/RECORD,,
