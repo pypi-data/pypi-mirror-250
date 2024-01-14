@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cryptopi-api
+Version: 0.0.1
+Summary: A simple Flask API for the `cryptopi` package.
+Author: Jake Williamson
+Author-email: <brianjw88@gmail.com>
+Keywords: python,crypto,api,coinmarketcap,coinmarketcap-api
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: fastapi
+Requires-Dist: cryptopi
+Requires-Dist: pydantic
+Requires-Dist: uvicorn
