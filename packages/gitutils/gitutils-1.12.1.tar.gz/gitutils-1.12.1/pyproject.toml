@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gitutils"
+description = "concurrent, pipelined, platform-agnostic Git utilities for managing a large number of Git repositories"
+keywords = ["concurrent", "asynchronous", "asyncio", "git", "GitHub", "ssh"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Framework :: AsyncIO",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3"
+]
+dynamic = ["version", "readme"]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+tests = ["pytest"]
+lint = ["flake8", "flake8-bugbear", "flake8-builtins", "flake8-blind-except", "mypy"]
+
+[project.scripts]
+gitbranch = "gitutils.branch:cli"
+gitstat = "gitutils.status:cli"
+gitpull = "gitutils.pull:git_pull_cli"
+gitfetch = "gitutils.pull:git_fetch_cli"
+find_matching_file = "gitutils.__main__:find_match"
+find_missing_file = "gitutils.__main__:find_missing"
+ActOnChanged = "gitutils.__main__:ActOnChanged"
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}
+version = {attr = "gitutils.__version__"}
+
+[tool.black]
+line-length = 100
+
+[tool.mypy]
+files = ["src"]
