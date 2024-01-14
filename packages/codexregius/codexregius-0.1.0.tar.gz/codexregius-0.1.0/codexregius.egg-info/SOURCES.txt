@@ -1,0 +1,5 @@
+setup.py
+codexregius.egg-info/PKG-INFO
+codexregius.egg-info/SOURCES.txt
+codexregius.egg-info/dependency_links.txt
+codexregius.egg-info/top_level.txt
