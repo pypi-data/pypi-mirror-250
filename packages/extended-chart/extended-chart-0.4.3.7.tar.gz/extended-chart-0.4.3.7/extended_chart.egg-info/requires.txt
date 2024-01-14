@@ -1,0 +1,1 @@
+lightweight-charts==1.0.18.9

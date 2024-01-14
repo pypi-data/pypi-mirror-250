@@ -1,0 +1,2 @@
+rename_iqfeed_cols = {'open_p': 'open', 'high_p': 'high', 'low_p': 'low', 'close_p': 'close', 'prd_vlm': 'volume'}
+resample_ohlc_dict = {'open': 'first', 'high': 'max', 'low': 'min', 'close': 'last', 'volume': 'sum'}
