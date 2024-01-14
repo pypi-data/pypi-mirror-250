@@ -1,0 +1,10 @@
+tmxtagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tmxtagger/__main__.py,sha256=qNgGmhsppGzyNyBWprhlVQ_Z6M1UESZmzQPZqcKi6gU,59
+tmxtagger/tmx_batch_tradosizer.py,sha256=VCzKj3tbsI0sq-Q4pAWUTlOaYf9Q2Pfr26pKAdSO0ew,2526
+tmxtagger/tmx_tradosizer.py,sha256=BzLWvkdv1cOzBRmRtYs7qKyLQxs0Coc2IIFtf8BP2Ws,5255
+tmxtagger-1.0.1.dist-info/LICENSE.txt,sha256=XGnQ0De5OY_V0rW91uHD4AJXrjISuxo3omwzthCt1d4,1065
+tmxtagger-1.0.1.dist-info/METADATA,sha256=vNpicmUYZlsunjrrEQT6syR63IXbmOKYR_hwmrSHAV4,2081
+tmxtagger-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tmxtagger-1.0.1.dist-info/entry_points.txt,sha256=TgY0JYAqfTj6mPETImBOykOOR--a5vIaRgGVWSfBdeA,123
+tmxtagger-1.0.1.dist-info/top_level.txt,sha256=zwXZfswIf_yfE2i5rMXwF7bTotC2UKb9mtHpkma4JNU,10
+tmxtagger-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+tmx-batch-trados = tmxtagger.tmx_batch_tradosizer:ProcessTMX
+tmx-trados = tmxtagger.tmx_tradosizer:main
+
