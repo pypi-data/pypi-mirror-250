@@ -1,0 +1,5 @@
+setup.py
+RikPy.egg-info/PKG-INFO
+RikPy.egg-info/SOURCES.txt
+RikPy.egg-info/dependency_links.txt
+RikPy.egg-info/top_level.txt
