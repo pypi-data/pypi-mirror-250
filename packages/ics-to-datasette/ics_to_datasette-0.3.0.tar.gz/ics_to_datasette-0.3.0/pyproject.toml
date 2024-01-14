@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "ics-to-datasette"
+version = "0.3.0"
+description = "Convert an ICS file to a SQLite database"
+authors = ["Michael Bianco <mike@mikebian.co>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/iloveitaly/ics-to-datasette"
+keywords = [
+  "ics",
+  "calendar",
+  "datasette",
+  "sqlite",
+  "sqlite-database",
+  "datasette-tool",
+]
+
+[tool.poetry.scripts]
+ics-to-datasette = "ics_to_datasette:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ics = "^0.7.2"
+click = "^8.1.7"
+sqlite-utils = "^3.36"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
