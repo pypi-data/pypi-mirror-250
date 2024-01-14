@@ -1,0 +1,14 @@
+pybadger/__init__.py,sha256=5EF-Ox4n0WJl9YkSuIKt8L_LNxMuzqGbAZ3Aa7xdV_Q,97
+pybadger/badge.py,sha256=fOqeGYpNDBkRUdy6NKyVrex7TA8pQbTSliBpqHOOres,12553
+pybadger/pepy/__init__.py,sha256=ecz-ePZfZDOwqQ53_PhxBVEXXCRixrRpCETeZ9FnsPg,130
+pybadger/pepy/badge.py,sha256=y_zeOkWW1-Pr5hYURGA4asqT0AT4JSXhyoitxeP13Eg,3321
+pybadger/pepy/pypi.py,sha256=zv-teSZxVBTF6LCiYaYTmKSr1YCgfCfroUBJJJS8iog,870
+pybadger/shields/__init__.py,sha256=v7cX1gGCADT95kGe9WH_W42AbTfaN4k-rhwcm98KHI8,36
+pybadger/shields/badge.py,sha256=-m_Cx0cCmMD5kJyPMTHA_ZArXt45f2VZVFkkVR-SM30,12503
+pybadger/shields/custom.py,sha256=xAWlWJFy5WXl0D36MnnE6EIZXrV525AnaitxLJCaSkQ,1239
+pybadger/shields/github.py,sha256=1rntdwbDLFEzmkGSX0JQeAQziUt31KRMri60gFOlLiM,19599
+pybadger/shields/shields.py,sha256=G7yrCcb-lMYHAFKEAWGN5rhYsFAsUrKUMHqfE70qFyM,13870
+PyBadger-0.0.0.dev3.dist-info/METADATA,sha256=6OYPdMotCn_BtAyyeBLtxjy4n-S9dQuRg9bxjmxEVio,128
+PyBadger-0.0.0.dev3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+PyBadger-0.0.0.dev3.dist-info/top_level.txt,sha256=RmMtyAaSc4i3kgErKJBifmIRCQ9d0fg_1ibBva2Pivw,9
+PyBadger-0.0.0.dev3.dist-info/RECORD,,
