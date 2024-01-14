@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "data_trans_lib"
+version = "0.1.0"
+description = ""
+authors = ["Indre Markeviciute <mindre94@gmail.com>"]
+readme = "README.md"
+licence = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
