@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: streamcontroller-plugin-tools
+Version: 0.0.1
+Summary: Base for StreamController plugins
+Author: Core447
+Author-email: core447@proton.me
+Keywords: python,StreamController,plugin
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Requires-Dist: Pyro5
+
+This package contains the base for StreamController plugins.
