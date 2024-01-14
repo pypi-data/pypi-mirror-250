@@ -1,0 +1,5 @@
+[console_scripts]
+abacus=abacus.cli:cx
+bx=abacus.typer_cli.app:combined_typer_click_app
+codeblock=helper.codeblock:main
+
