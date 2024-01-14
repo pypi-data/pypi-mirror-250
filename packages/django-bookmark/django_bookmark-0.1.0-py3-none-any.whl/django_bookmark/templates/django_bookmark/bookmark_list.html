@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container">
+        <h3>Bookmarks:</h3>
+        <ul>
+            {% for bookmark in object_list %}
+                <li>
+                    <a href="{{ bookmark.content_object.get_absolute_url }}">{{ bookmark.content_object }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock content %}
