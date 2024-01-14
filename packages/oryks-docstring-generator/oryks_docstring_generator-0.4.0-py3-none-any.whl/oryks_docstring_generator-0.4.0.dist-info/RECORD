@@ -1,0 +1,13 @@
+docstring_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docstring_generator/__main__.py,sha256=E4a_Efb1Ws4um9YSYrx3lGNDhlmcrAj-O3XfSl1UF_c,1861
+docstring_generator/config.py,sha256=02CpJHCjliEa1cM9XzXmTQ0VDFnijqHYTaW8jd2xJ0Q,1153
+docstring_generator/docstring_generator.py,sha256=vxGWmJ5Z3eXA3jP0T-WFU6V1NrvHZFR2Y7pu8YcwjsM,930
+docstring_generator/docstring_writer.py,sha256=U7PxqHZZ5q7vYZ8NpFM8c3Ys0lrruJYUVsMdponGIPk,2558
+docstring_generator/extensions.py,sha256=3sgMWcqIAEbetiWAc6Dy0nvrfMnYdlC86MAxdpZsLDY,249
+docstring_generator/file_processor.py,sha256=-wFAp0FCPEdL3obl1mb4LCTLyTR312is-8lfBnXvfuw,1070
+docstring_generator/helpers.py,sha256=3bRmoYtWjFK_NDo5lPB33mSpXVlixFsuD1j4sqIJ4Ls,6782
+oryks_docstring_generator-0.4.0.dist-info/LICENSE,sha256=nyzKUgMQQ5Y9uZiwa_VvwO_YvCc3vxlr3hDUxCefnSQ,1067
+oryks_docstring_generator-0.4.0.dist-info/METADATA,sha256=kq1PMSn87g6Xj0U0lMAE_xeyQ8UK37mtCTaSzIHecAk,2638
+oryks_docstring_generator-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+oryks_docstring_generator-0.4.0.dist-info/top_level.txt,sha256=lbWGtPCtaT4NhNvqCqXsVaEmlzBQy_dpLJ7UnYRMDcA,20
+oryks_docstring_generator-0.4.0.dist-info/RECORD,,
