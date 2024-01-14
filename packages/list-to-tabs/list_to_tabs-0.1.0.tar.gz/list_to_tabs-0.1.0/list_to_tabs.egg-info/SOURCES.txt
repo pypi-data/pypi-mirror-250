@@ -1,0 +1,11 @@
+README.md
+setup.py
+file_handler/__init__.py
+file_handler/file_handler.py
+list_to_tabs/__init__.py
+list_to_tabs/main.py
+list_to_tabs.egg-info/PKG-INFO
+list_to_tabs.egg-info/SOURCES.txt
+list_to_tabs.egg-info/dependency_links.txt
+list_to_tabs.egg-info/requires.txt
+list_to_tabs.egg-info/top_level.txt
