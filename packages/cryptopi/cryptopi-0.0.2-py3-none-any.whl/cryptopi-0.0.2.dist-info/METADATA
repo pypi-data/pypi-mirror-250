@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cryptopi
+Version: 0.0.2
+Summary: A simple python wrapper for Coin Market Cap API
+Author: Jake Williamson
+Author-email: <brianjw88@gmail.com>
+Keywords: python,crypto,api,coinmarketcap,coinmarketcap-api
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE
+Requires-Dist: requests
+Requires-Dist: pydantic
+
