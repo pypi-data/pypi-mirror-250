@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: tropicpy
+Version: 1.1.0
+Summary: Implementation of tropical cryptographic protocols and attacks.
+Author-email: Marta Brzezinska <marta0brzezinska@gmail.com>
+Project-URL: Homepage, https://github.com/marta0brzezinska/tropicpy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tropicpy
+
+Welcome to **tropicpy** repository! Here you can find implementation of tropical cryptographic protocols and attacks. 
+
+Currently available are protocols:
+1. Grigorie-Shpilrain (2014)
+2. Grigorie-Shpilrain (2019)
+
+and attacks:
+1. Kotov-Ushakov simple and general attacks on Grigorie-Shpilrain (2014) protocol
+2. Rudy-Monico attack on Grigorie-Shpilrain (2019) protocol
+3. Isaac-Kahrobaei attack on Grigorie-Shpilrain (2019) protocol.
+
+## How to use?
+If you wish to use protocols and attacks implemented in tropicpy you can install tropicpy package using
+
+    pip install tropicpy
+To see examples of tropical operarations and cryptosystems run
+
+    tropicpy_demo()
