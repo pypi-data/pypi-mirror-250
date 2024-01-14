@@ -1,0 +1,5 @@
+annotated-types>=0.6.0
+Django>=5.0
+inflect>=7.0.0
+questionary>=2.0.1
+colorama>=0.4.6
