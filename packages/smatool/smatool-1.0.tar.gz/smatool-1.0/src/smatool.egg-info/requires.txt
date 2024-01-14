@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+pandas
+spglib
+ase
+catboost
+pymatgen
+matminer
+scikit-learn
+periodictable
