@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: docker-secure
+Version: 0.2.0
+Summary: 
+Author: Krushna Panchvishe
+Author-email: krushna.4997@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
