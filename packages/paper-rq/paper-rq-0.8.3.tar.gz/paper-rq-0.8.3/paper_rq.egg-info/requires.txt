@@ -1,0 +1,4 @@
+django>=3.2
+paper-admin>=6.0
+django-rq>=2.4
+rq>=1.11
