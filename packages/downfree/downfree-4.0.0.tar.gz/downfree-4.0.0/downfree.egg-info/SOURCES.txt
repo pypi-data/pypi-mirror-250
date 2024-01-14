@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+downfree/__init__.py
+downfree/version.py
+downfree.egg-info/PKG-INFO
+downfree.egg-info/SOURCES.txt
+downfree.egg-info/dependency_links.txt
+downfree.egg-info/requires.txt
+downfree.egg-info/top_level.txt
+downfree.egg-info/zip-safe
