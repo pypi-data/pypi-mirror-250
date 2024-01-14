@@ -1,0 +1,2 @@
+recursive-include pic *
+recursive-include tve *
