@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pyxdcc-cli
+Version: 0.1.0
+Summary: A cli interface for watching anime from xdcc.
+Author-email: RawPikachu <102355977z@gmail.com>
+Project-URL: Homepage, https://github.com/RawPikachu/pyxdcc-cli
+Project-URL: Issues, https://github.com/RawPikachu/pyxdcc-cli/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xdcc-dl>=5.2.1
+Requires-Dist: pyfzf>=0.3.1
+Requires-Dist: urllib3<2.0.0
+Requires-Dist: colorama>=0.4.6
+
+pyxdcc-cli
+=====
+
+#### A cli interface for watching anime from xdcc inspired by [ani-cli](https://github.com/pystardust/ani-cli).
+
+Requirements
+------------
+
+* Python 3.11+
+* [mpv](https://github.com/mpv-player/mpv)
+* [fzf](https://github.com/junegunn/fzf)
+
+Both mpv and fzf must be available on PATH.
+
+Installation
+------------
+
+    pip install pyxdcc-cli
+
+Usage
+-----
+
+Run the following to launch the interactive prompt.
+
+    $ xdcc-cli
