@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+hercai/__init__.py
+hercai/hercai.py
+hercai.egg-info/PKG-INFO
+hercai.egg-info/SOURCES.txt
+hercai.egg-info/dependency_links.txt
+hercai.egg-info/requires.txt
+hercai.egg-info/top_level.txt
