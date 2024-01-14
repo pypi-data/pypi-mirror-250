@@ -1,0 +1,12 @@
+README.md,sha256=opUZs-1IiadbcYcJZqh1p89DC2Bhm94_19XTtyv667g,2722
+linkml_activitypub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linkml_activitypub/_version.py,sha256=9_PpJA80c3rcLE52V6csAU7dPSLuplcFsvYRebrvqDc,186
+linkml_activitypub/activitypub.py,sha256=gRlELKaiuN7ELV2z69HwiyON7TBFPA00feXrzYHIQ3c,410061
+linkml_activitypub/activitypub.yaml,sha256=o99OaJdpbxK-Feip6JireO6n2hFOEhBlG-AUeOUuFco,33703
+linkml_activitypub/activitypub_actor.yaml,sha256=wStBOqE8HOlcdmHVS9ZXfiC3IEq5WVM152tTBODJceI,759
+linkml_activitypub/dataclass/__init__.py,sha256=Gxkibnkh8sRgYoBpjuk03Gmc-sf2DoskxyNi7AoTN-0,31
+linkml_activitypub/dataclass/activitypub.py,sha256=QHoBGO9Hikef58PP7uAq3oPUguVPJ1MX0zFbkrqmqc0,55950
+linkml_activitypub-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+linkml_activitypub-0.0.1.dist-info/METADATA,sha256=j2xHuUEYgO8EOK5AjUnGfrLrrju7asv_WP79jQhfKbo,3361
+linkml_activitypub-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+linkml_activitypub-0.0.1.dist-info/RECORD,,
