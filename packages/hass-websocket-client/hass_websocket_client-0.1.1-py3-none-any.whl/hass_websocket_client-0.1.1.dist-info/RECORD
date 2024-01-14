@@ -1,0 +1,8 @@
+hass_websocket_client/__init__.py,sha256=1ClO6YHrSGDY3j48c5pln9bje2p-CoNUcoUMJIVXmOM,27
+hass_websocket_client/client.py,sha256=iiJKI5YghPB3EdwbksKBBtC_o65YKAFwNTptYU2d3bc,5371
+hass_websocket_client/exceptions.py,sha256=kRJWR-w3QYbjPSrlf2iPDzfOkvu0QABPDfy1xnm0XZE,323
+hass_websocket_client/models.py,sha256=bAG-O_R2N587jjqnVPLl9EXFzI9E0pJZsz-4a8yRxss,3676
+hass_websocket_client-0.1.1.dist-info/LICENSE,sha256=qMUbnxxXn0PNT4QCdUGKKe_UsmXF-TXoiaL8sFC8Ps4,1079
+hass_websocket_client-0.1.1.dist-info/METADATA,sha256=n-7Gr7OBCq4phjB_WJ3QClAd21rMecsOZYDv0KVipvA,2229
+hass_websocket_client-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+hass_websocket_client-0.1.1.dist-info/RECORD,,
