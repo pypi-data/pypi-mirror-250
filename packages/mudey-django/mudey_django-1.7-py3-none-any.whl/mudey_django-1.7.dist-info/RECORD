@@ -1,0 +1,15 @@
+package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/create_django_project.py,sha256=QMdtamUd2riV0L2h-iflKWSn-ytWfRA94I6-DWKb8vI,2308
+package/ecommerce_generator.py,sha256=FpjdGfitWEd6dEjZjBO7IYiNvoWd2XGbviBNiydnkv4,9703
+package/form_generator.py,sha256=7lsRowjVZ8cfaZ7OjYAXOgOlzEVMeMQYeOc2bcB8zWo,4339
+package/generate_django_app.py,sha256=VTKR_uWaaEQqViun_zqrO-1d0yx5R6xF8wqbS-wzVLw,1812
+package/lib.py,sha256=Lrk_LZJEr8YNfqmGej6gz6-Y8YiYZslXH1ToOqMWMrk,2617
+package/model_generator.py,sha256=SaXME9RSdntsXkQT1QogokvdSHUMwumc0IPQjh_iDZM,9324
+package/module.py,sha256=KKhfXPNFrJVtBfloaeVbidJ8hdPP9FEEhfyoT9yXo6w,4678
+package/template_generator.py,sha256=E-CIEcEOvuafxhFPrsF49XFoyRAnQsZ44rD6jSwptyk,16418
+package/view_generator.py,sha256=w-2rl7vQbniZoEue3z0AUDmoUI2PnX4jiZqJJNM4zX8,8392
+mudey_django-1.7.dist-info/METADATA,sha256=RsH1cTRqCAop7TG5IHwjV2REOj4Nanm69FvJ5PP8LPA,2610
+mudey_django-1.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mudey_django-1.7.dist-info/entry_points.txt,sha256=YeZYxkPJV5RiP-DcT8pp_yWx64HRfulE351qDjCFJcE,53
+mudey_django-1.7.dist-info/top_level.txt,sha256=TpQW7893uEAT8mPh-QCMZWhhKYvlqryC9Fjm5Hxg2f8,8
+mudey_django-1.7.dist-info/RECORD,,
