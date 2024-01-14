@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyxdcc-cli"
+version = "0.0.4"
+authors = [
+  { name="RawPikachu", email="102355977z@gmail.com" },
+]
+description = "A cli interface for watching anime from xdcc."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "xdcc-dl==5.2.1",
+    "pyfzf==0.3.1",
+    "urllib3<2.0.0",
+]
+
+[project.scripts]
+xdcc-cli = "pyxdcc.pyxdcc:main"
+
+[project.urls]
+Homepage = "https://github.com/RawPikachu/pyxdcc-cli"
+Issues = "https://github.com/RawPikachu/pyxdcc-cli/issues"
