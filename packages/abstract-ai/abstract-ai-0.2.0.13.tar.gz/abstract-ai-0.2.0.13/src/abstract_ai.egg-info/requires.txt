@@ -1,0 +1,9 @@
+abstract_gui>=0.0.60.0
+abstract_security>=0.0.1
+abstract_utilities>=0.2.2.1
+abstract_webtools>=0.1.4.90
+nltk>=3.8.1
+openai>=0.28.1
+pyperclip>=1.8.2
+requests>=2.31.0
+tiktoken>=0.5.1
