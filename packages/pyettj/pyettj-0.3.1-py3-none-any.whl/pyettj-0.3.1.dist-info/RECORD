@@ -1,0 +1,10 @@
+pyettj/Feriados.csv,sha256=_tVas0fevcmdGbASKieqegvCpPFcc-JuhRtfDnVKp2Q,15826
+pyettj/__init__.py,sha256=5KBjlkZDT6qtIcXCbqO0v2aJ0McywszGU59AjPtPrag,280
+pyettj/ettj.py,sha256=Nav0W_4Tg1tmlb0NR2iOvNoPkP46awe0uWVDv6MgJPQ,7045
+pyettj/gettables.py,sha256=aIlwNG4Mz-G78bgLjiAx5kQnrO8Iv_AcWFYPGpGTuok,2576
+pyettj/modelo_ettj.py,sha256=-gomZCk8j7nGmmV1ooaIjEbYhRh8869YDe9EXJtXpPA,4727
+pyettj/version.py,sha256=ZYiIaya8w3Z8HSjB56vfIiVnfJbeuh2_-ugW7yCILFM,62
+pyettj-0.3.1.dist-info/LICENSE.md,sha256=U6-dKyP9mGs1W33-wYWUN7FVJrscm49iceabUcyuAgQ,1073
+pyettj-0.3.1.dist-info/METADATA,sha256=WzsjJg0jmj8GSATt708p9a6gglAvR1yCe5JdacNZpAA,5768
+pyettj-0.3.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyettj-0.3.1.dist-info/RECORD,,
