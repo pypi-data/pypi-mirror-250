@@ -1,0 +1,6 @@
+[console_scripts]
+pytest-history=pytest_history.cli:main
+
+[pytest11]
+pytest-history=pytest_history
+
