@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ragcraft
+Version: 0.1.1
+Summary: Datagen & RagEval for various LLM (Large Language Model) for RAG Apps
+License: MIT Licence
+Author: sundi133
+Author-email: sundi133@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+
