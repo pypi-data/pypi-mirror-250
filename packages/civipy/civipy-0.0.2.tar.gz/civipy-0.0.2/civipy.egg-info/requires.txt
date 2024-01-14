@@ -1,0 +1,8 @@
+urllib3
+
+[dev]
+black
+coverage[toml]
+pytest
+pytest-cov
+ruff
