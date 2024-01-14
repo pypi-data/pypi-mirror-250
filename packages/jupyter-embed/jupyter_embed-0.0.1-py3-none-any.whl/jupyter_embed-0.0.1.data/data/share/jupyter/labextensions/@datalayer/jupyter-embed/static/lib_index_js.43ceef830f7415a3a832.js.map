@@ -1,0 +1,1 @@
+{"version":3,"file":"lib_index_js.43ceef830f7415a3a832.js","mappings":";;;;;;;;;;;;;;AAAmC","sources":["webpack://@datalayer/jupyter-embed/./lib/index.js"],"sourcesContent":["export * from \"./jupyterlab/index\";\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,3 @@
+[console_scripts]
+jupyter-embed = jupyter_embed.application:main
+jupyter-embed-server = jupyter_embed.serverapplication:main
