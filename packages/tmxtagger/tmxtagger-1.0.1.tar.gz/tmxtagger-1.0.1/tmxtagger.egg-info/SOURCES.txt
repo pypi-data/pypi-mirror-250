@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+requirements.txt
+setup.py
+tmxtagger/__init__.py
+tmxtagger/__main__.py
+tmxtagger/tmx_batch_tradosizer.py
+tmxtagger/tmx_tradosizer.py
+tmxtagger.egg-info/PKG-INFO
+tmxtagger.egg-info/SOURCES.txt
+tmxtagger.egg-info/dependency_links.txt
+tmxtagger.egg-info/entry_points.txt
+tmxtagger.egg-info/requires.txt
+tmxtagger.egg-info/top_level.txt
