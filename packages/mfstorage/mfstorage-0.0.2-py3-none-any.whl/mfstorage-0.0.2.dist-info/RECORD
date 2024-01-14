@@ -1,0 +1,9 @@
+mfstorage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mfstorage/aws.py,sha256=niBB41NHx0heFTYMft1LxjIcPxEITc_9q7Oz75UMtWM,2221
+mfstorage/core.py,sha256=a2EDgpCzKsVC3Laaxf21JNbsI88ko5fgiBN-27Cvi1Q,1597
+mfstorage/tests/test_aws.py,sha256=hP5tp7Q_plvZ_FVYIlTNKcnHtYBChtvHVy1VqNdIHk0,1595
+mfstorage/tests/test_core.py,sha256=7FgfXbIMwDaYifEm8W2JPPW3hnGZ2yNTDSSZhrZ6EjM,2054
+mfstorage-0.0.2.dist-info/LICENSE,sha256=_4BQML2tmB8bVI0AuSFRCd8Kjj81l2emeKLxZDL7HGI,1069
+mfstorage-0.0.2.dist-info/METADATA,sha256=q0vFWWUoW7_meJAt-J_w22IHFqk6_nLHz_9BmyL89go,888
+mfstorage-0.0.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+mfstorage-0.0.2.dist-info/RECORD,,
