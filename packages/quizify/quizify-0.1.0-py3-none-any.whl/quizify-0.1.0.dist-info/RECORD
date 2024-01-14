@@ -1,0 +1,10 @@
+quizify/__main__.py,sha256=C44idMmiJl-BEpFYXBlMW697BkbGDtPlCYdLtIsViys,1299
+quizify/answer.py,sha256=gXL3fS9IY6RFGcPiruqA52TpJtITtzTvAKOdvP92ytk,1302
+quizify/check.py,sha256=ErdoGV3gTtOsSERGXxpmHzGUMRboUzc0-mB_dvWRfWc,2846
+quizify/presenter.py,sha256=BfRYkbAbnFhxqSdbV3wleNgtkaH4Gr5EI6qH4Yc501k,5087
+quizify/question.py,sha256=63lJTa3wXWvA45TMvriGlG8LKOkD7Eu3LqW0G_Yn1Xs,4264
+quizify/quiz.py,sha256=EqgUFE_avWVO2wMJdAtcyoRZSSNOXaCK0r8vSJGJDis,4065
+quizify-0.1.0.dist-info/METADATA,sha256=FSG0JXHMM-Fd2_i6w6C4vXFbWRYUwbGp8E9XTaCyimg,1685
+quizify-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+quizify-0.1.0.dist-info/entry_points.txt,sha256=zH28JBV2YMjEAdcaiT2s-LSnuTIpTgc-4D_yoGoqlDU,49
+quizify-0.1.0.dist-info/RECORD,,
