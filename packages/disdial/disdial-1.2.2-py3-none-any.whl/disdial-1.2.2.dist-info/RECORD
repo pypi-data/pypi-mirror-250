@@ -1,0 +1,16 @@
+disdial/__chat.py,sha256=Z4ZtCQbedirislV5tbtsdU2BSiG8lEw17PPUA4JuADc,2711
+disdial/__constants.py,sha256=onlX4hzwdGilurnp7ROJM1jbybu06yzOHnz_Rh8sqbk,238
+disdial/__dependencies.py,sha256=pTskM-fEgx7vkScGzTiK8F_VsfNmSehJedCI6nkvsaE,239
+disdial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+disdial/__user_name.py,sha256=gUMn3qQyu7lgz92FYrLw-pxWY3XPPB6Gx8bXpeOu71Q,1232
+disdial/__utils.py,sha256=zHycvonCb8a9Qivm4N9NuuCR6uzvBgBnPjxiEoagPUE,1917
+disdial/_constants.py,sha256=3awnXZR_GFvme4yTSrqZrFfCXm1xKKVR0fmcjb6SH64,568
+disdial/main.py,sha256=zy9gwxO28kN2I6n6sEqZuUiV9yfwzpIsfCLc_fllgNs,1541
+disdial/data/config.json,sha256=Gw-f-1wxVwXeywGHcVqwIQ1VtDyc7VF_isPXl4h8oAQ,90
+disdial/data/logs.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+disdial-1.2.2.dist-info/LICENSE,sha256=riUDAF7VyMgpdp83_De85Wtz5yv4HCu4NBcEf2qhf-w,1082
+disdial-1.2.2.dist-info/METADATA,sha256=O08SIwzkioT0PjCSGvqdyAf73X0VKJiQ0IXX9-P-G4w,622
+disdial-1.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+disdial-1.2.2.dist-info/entry_points.txt,sha256=zQViD-_olLdMaSL1zGbtqWFRsQqycD2lcPJytZYoH-o,46
+disdial-1.2.2.dist-info/top_level.txt,sha256=sFsbTTB8v1P2L7LTrgHIyLr_6JCwbfZ2mLEa_Q4QK_Q,8
+disdial-1.2.2.dist-info/RECORD,,
