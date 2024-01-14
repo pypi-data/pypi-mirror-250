@@ -1,0 +1,81 @@
+[tool.poetry]
+name = "herbal"
+version = "0.1.1"
+description = "Python package for the Tiny Encryption Algorithm (TEA)."
+authors = ["T. Rodriguez"]
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlab.com/lunardev/herbal"
+keywords = [
+    "python",
+    "python3",
+    "block cipher",
+    "cryptography",
+    "tiny encryption algorithm",
+    "tea",
+]
+classifiers = [
+    "Topic :: Security :: Cryptography",
+    "Topic :: Utilities",
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Intended Audience :: End Users/Desktop",
+    "Typing :: Typed",
+]
+packages = [{include = "herbal", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+target-version = ["py39", "py310", "py311", "py312"]
+include = '\.pyi?$'
+line-length = 79
+skip-magic-trailing-comma = true
+
+[tool.isort]
+py_version=39
+profile = "black"
+src_paths = "src"
+line_length = 79
+skip_gitignore = true
+atomic = true
+
+[tool.mypy]
+python_version = "3.9"
+mypy_path = "src"
+strict = true
+pretty = true
+show_traceback = true
+show_error_context = true
+show_error_end = true
+disallow_any_unimported = true
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unreachable = true
+warn_return_any = true
