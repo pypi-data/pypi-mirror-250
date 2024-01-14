@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: chiselai
+Version: 0.1.0.1
+Summary: 
+Author: Marek Pilczuk
+Author-email: user@mp76.pl
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: openai (>=1.7.2,<2.0.0)
+Requires-Dist: pandas (>=2.1.4,<3.0.0)
+Requires-Dist: setuptools (>=69.0.3,<70.0.0)
+Requires-Dist: twine (>=4.0.2,<5.0.0)
+Requires-Dist: wheel (>=0.42.0,<0.43.0)
+Description-Content-Type: text/markdown
+
+
