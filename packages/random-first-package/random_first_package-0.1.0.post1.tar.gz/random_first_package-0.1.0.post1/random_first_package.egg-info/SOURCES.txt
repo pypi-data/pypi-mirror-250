@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+random_first_package/__init__.py
+random_first_package/_version.py
+random_first_package/example_module.py
+random_first_package.egg-info/PKG-INFO
+random_first_package.egg-info/SOURCES.txt
+random_first_package.egg-info/dependency_links.txt
+random_first_package.egg-info/top_level.txt
