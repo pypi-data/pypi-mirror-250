@@ -1,0 +1,3 @@
+[console_scripts]
+codemod2=codemod2.base:main
+
