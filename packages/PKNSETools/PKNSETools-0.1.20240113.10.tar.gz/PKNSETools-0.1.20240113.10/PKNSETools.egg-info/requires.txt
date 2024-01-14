@@ -1,0 +1,7 @@
+bs4
+numpy
+pandas
+PKDevTools
+pytz
+requests
+urllib3
