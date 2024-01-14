@@ -1,0 +1,8 @@
+macrostrat/dinosaur/__init__.py,sha256=s89-v1PwZMtLwQECWQWbIbupRzytulE5uKme6Zu2hMs,11489
+macrostrat/dinosaur/upgrade_cluster/__init__.py,sha256=L2VrGzMhNmvWos3SFI5C37HmWLUm6A5_XkrLuhxM0FM,4467
+macrostrat/dinosaur/upgrade_cluster/describe.py,sha256=QdnAdhA521TeCasLhLIXpvbU4vxS29G5fe6syfMEbKg,1712
+macrostrat/dinosaur/upgrade_cluster/restore.py,sha256=ncY7XO11Hoh2LLNwNafvjbjPI-SWGmZlXO5c-9rbDAY,1796
+macrostrat/dinosaur/upgrade_cluster/utils.py,sha256=3AfKEnRjLFNBtpWIVqzHxBMC5kaTGxoGULdviW5urcM,4415
+macrostrat_dinosaur-3.0.0.dist-info/METADATA,sha256=-oPFiKH9nfPu2RAFBL1oPJqiGauIA_4wwhuGVzwvi58,905
+macrostrat_dinosaur-3.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+macrostrat_dinosaur-3.0.0.dist-info/RECORD,,
