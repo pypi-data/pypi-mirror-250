@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cf-bypass"
+version = "0.1.1"
+description = "A tool for bypassing Cloudflare CAPTCHA"
+authors = ["Tam Nguyen <tamnv.work@gmail.com>"]
+homepage = "https://github.com/tamnguyenvan/cf_bypass"
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.5.1.48"
+Pillow = "^8.2.0"
+numpy = "^1.20.0"
+pyautogui = "^0.9.36"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.package]
+include = ["assets/*", "cf_bypass/images/*"]
