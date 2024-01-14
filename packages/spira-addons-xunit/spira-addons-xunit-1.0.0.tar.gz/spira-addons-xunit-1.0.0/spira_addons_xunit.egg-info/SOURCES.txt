@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+spira.cfg
+spira_xunit_reader.py
+spira_addons_xunit.egg-info/PKG-INFO
+spira_addons_xunit.egg-info/SOURCES.txt
+spira_addons_xunit.egg-info/dependency_links.txt
+spira_addons_xunit.egg-info/entry_points.txt
+spira_addons_xunit.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[xunit]
+spira-addons-xunit = spira_xunit_reader
