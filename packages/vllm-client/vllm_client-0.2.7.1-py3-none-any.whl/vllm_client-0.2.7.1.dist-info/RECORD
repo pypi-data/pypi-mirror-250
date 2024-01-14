@@ -1,0 +1,8 @@
+vllm_client/__init__.py,sha256=yeAx7lvkA6-m42yVPqN-gn_8vyStXqvm1k07Aja0-zQ,111
+vllm_client/async_client.py,sha256=fbA6hzr1FKzql5gObJ-g7bHiTb0hnbnOjn78ZKBGrog,1816
+vllm_client/sampling_params.py,sha256=YldOMKN30igVWtQDAZG8PO-NfYdJfdGhRxahwf4vF9U,11777
+vllm_client-0.2.7.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vllm_client-0.2.7.1.dist-info/METADATA,sha256=sQ4g2xiN9l-BXeoR6Bqs0DeYnWJf8SYXiBYb3uiBwuQ,1496
+vllm_client-0.2.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vllm_client-0.2.7.1.dist-info/top_level.txt,sha256=NCkEp4Vs6wCUboWDo9g8xgEHUfwSJWUWD4VkoT7bcao,12
+vllm_client-0.2.7.1.dist-info/RECORD,,
