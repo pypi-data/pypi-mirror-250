@@ -1,0 +1,9 @@
+/src/build
+/src/PyVSparse.egg-info
+/src/classFiles
+__pycache__
+build
+PyVSparse.egg-info
+.vscode/
+.pytest_cache/
+.venv/
