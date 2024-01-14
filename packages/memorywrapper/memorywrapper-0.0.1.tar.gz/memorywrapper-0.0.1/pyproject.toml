@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memorywrapper"
+authors = [
+    { name = "Pierre LeMoine", email = "pypi@luben.se"},
+]
+description = "Wrapping non-continuous buffers in a late-resolving slice'able buffer-compatible object"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+requires-python = ">=3.12"
+keywords = ["buffer", "memoryview", "memory", "bytes"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/DrInfiniteExplorer/py-memorywrapper"
+Repository = "https://github.com/DrInfiniteExplorer/py-memorywrapper"
+
+[tool.setuptools_scm]
+local_scheme = 'no-local-version'
+version_scheme = 'no-guess-dev'
+
+[tool.ruff]
+line-length = 120
+[tool.ruff.lint]
+[tool.ruff.format]

@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: memorywrapper
+Version: 0.0.1
+Summary: Wrapping non-continuous buffers in a late-resolving slice'able buffer-compatible object
+Author-email: Pierre LeMoine <pypi@luben.se>
+License: MIT License
+        
+        Copyright (c) 2024 Pierre LeMoine
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/DrInfiniteExplorer/py-memorywrapper
+Project-URL: Repository, https://github.com/DrInfiniteExplorer/py-memorywrapper
+Keywords: buffer,memoryview,memory,bytes
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# memorywrapper
+
+`MemoryWrapper` provides a slice-able front-end for a list of non-continuous memory backends, and only
+ joins the needed area into a `bytes` object as needed.
+
+It uses the new `__buffer__` protocol that is implementable in python starting with [python 3.12](https://docs.python.org/3.12/reference/datamodel.html?highlight=__buffer_#emulating-buffer-types).
+
+## Installing
+
+`pip install memorywrapper`
+
+## Using
+
+```py
+    >>> from memorywrapper import MemoryWrapper
+    >>> import struct
+    >>> memory = MemoryWrapper([b"\x01\x02\x03", bytes([4,5,6])])
+    >>> part = memory[1:-1]
+    >>> (value,) = struct.unpack(">I", part)
+    >>> f"0x{value:08x}"
+    '0x02030405'
+```
+
+### make_slices
+
+`make_slices` provides a way to cut something like bytes, memoryview, or memorywrapper into equal-sized chunks.
+
+```py
+    >>> from memorywrapper import make_slices
+    >>> list(make_slices([1,2,3,4,5,6,7,8,9], 3))
+    [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+```
+

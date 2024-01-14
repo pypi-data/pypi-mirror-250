@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-package.yml
+.github/workflows/python-publish-pypi.yml
+.github/workflows/python-publish-testpypi.yml
+.vscode/launch.json
+.vscode/settings.json
+src/memorywrapper/__init__.py
+src/memorywrapper/make_slices.py
+src/memorywrapper/memorywrapper.py
+src/memorywrapper.egg-info/PKG-INFO
+src/memorywrapper.egg-info/SOURCES.txt
+src/memorywrapper.egg-info/dependency_links.txt
+src/memorywrapper.egg-info/top_level.txt
+tests/test_memory_wrapper.py
