@@ -1,0 +1,14 @@
+torchfcpe/__init__.py,sha256=b5XnpSWNjan_Mplp8mO2ND1Av6diH2gnyE1zPHVahwc,196
+torchfcpe/mel_extractor.py,sha256=grl0Pxz-JoxSXGx8f2_tYvvvGc1TEyRbqQvqCl4KhoQ,10905
+torchfcpe/mel_fn_librosa.py,sha256=KtNRmspSnrVT-ZoWYIsyAKJzvGUjvIPiNTMXX5EanpI,21431
+torchfcpe/model_conformer_naive.py,sha256=k4ZYxmWoBw9p6bJnMoMzT1u6VAz4KSc3OxhKZMPeycs,16334
+torchfcpe/model_convnext.py,sha256=IRPdzX70LDhzoOKw5sCGN2Kc2gxb9G2Br6JmlpjlkeA,3833
+torchfcpe/models.py,sha256=Gxvt-qc5zwWkDsSOWconbKN2dsY-3K6WPrKKCJIlRzo,11317
+torchfcpe/tools.py,sha256=gFXIYYX8Lgy6C-glP8L8sUyQDHd6yTXpdFqdhX-F0dI,16021
+torchfcpe/torch_interp.py,sha256=H35iUrJ8gUeGIdxHlpE2IYomGAUzRS6Qmla_fn5mf-I,1832
+torchfcpe/assets/fcpe_c_v001.pt,sha256=ua6utnNDbu2lDOr9YyqmgapjQX5S6uQgdQPRgMmxABU,43363260
+torchfcpe-0.0.3.dist-info/LICENSE,sha256=p7xdvee2AScUlbg4rJA61XZXt5GxSp-d5w81MAro1Ng,1065
+torchfcpe-0.0.3.dist-info/METADATA,sha256=6XPpGaOf3bjtcRgFFrWKRsJPcgJlETIxIDQI7deJoGE,1360
+torchfcpe-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+torchfcpe-0.0.3.dist-info/top_level.txt,sha256=imAqnGLBf3S5B5XpQIwo3B1aWhK5WwZUGUgO6xqj1sY,10
+torchfcpe-0.0.3.dist-info/RECORD,,
