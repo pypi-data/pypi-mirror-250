@@ -1,0 +1,2 @@
+[hexdoc]
+hexresearch = hexdoc_hexresearch._hooks:HexResearchPlugin
