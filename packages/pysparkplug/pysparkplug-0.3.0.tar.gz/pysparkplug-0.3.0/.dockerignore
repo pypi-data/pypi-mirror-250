@@ -1,0 +1,11 @@
+# Exclude everything
+*
+
+# Except files we explicitly need, grouped by copy command
+!src/pysparkplug
+src/**/__pycache__/
+src/**/*.egg-info/
+!pyproject.toml
+!README.md
+!LICENSE
+!requirements/requirements.txt
