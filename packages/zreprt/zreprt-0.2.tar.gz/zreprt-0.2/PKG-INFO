@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: zreprt
+Version: 0.2
+Summary: ZAP-like reporting library
+Project-URL: Issues, https://github.com/dast-one/zreprt/issues
+Project-URL: Source, https://github.com/dast-one/zreprt
+Author-email: Vital A Pi <code@vp.ag>
+License: MIT License
+        
+        Copyright (c) 2023 Vital A Pi
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: report,reporting,zap
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: attrs
+Requires-Dist: cattrs
+Requires-Dist: python-dateutil
+Description-Content-Type: text/markdown
+
+# zreprt
+
+ZAP and ZAP-like reporting facility
+
+Structures here resemble OWASP® ZAP Traditional JSON Report, with or without Requests and Responses. Alerts are considered grouped by their info.
+
+Changes to the Traditional JSON Report format:
+
+- some fields renamed, keeping original names as aliases;
+- some (re)typing: timestamps are ISO-formatted,
+    some int and bool instead of strings;
+- html tags are stripped from some fields containing descriptions.
+
+See also:
+- https://www.zaproxy.org/docs/desktop/addons/report-generation/report-traditional-json/
+- https://www.zaproxy.org/docs/constants/
