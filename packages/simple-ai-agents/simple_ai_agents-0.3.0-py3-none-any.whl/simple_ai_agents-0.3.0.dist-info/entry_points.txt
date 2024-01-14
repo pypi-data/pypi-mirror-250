@@ -1,0 +1,3 @@
+[console_scripts]
+aichat=simple_ai_agents.cli:interactive_chat
+

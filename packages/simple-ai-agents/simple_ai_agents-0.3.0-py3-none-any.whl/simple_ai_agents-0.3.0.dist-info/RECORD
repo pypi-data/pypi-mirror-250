@@ -1,0 +1,12 @@
+simple_ai_agents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_ai_agents/chat_agent.py,sha256=EZTfv7mFIjsvyjf2lmj3FRsRYq3GLaaY7aECYTP2CC4,16886
+simple_ai_agents/chat_session.py,sha256=2bU78T_JvqdmRqJnOBOYxSrtjKW71jFCMaIoo93EkeE,19036
+simple_ai_agents/cli.py,sha256=kKL7-CYjwxL3kR2PWYkb6CX4REdBhDx_ehmKUppQ8KQ,1826
+simple_ai_agents/models.py,sha256=smG34X-t8_ft2QAbawd5kB5ky2MUxvaHSo5-Ps3A-SA,2828
+simple_ai_agents/prompts.py,sha256=ZUCI_YHO2AqWKTMeGPnrsxvmsHRQd9R9pPrtl2tpZTo,63
+simple_ai_agents/utils.py,sha256=Hj4fcaDkhlnn3mDKqQ9lidC5N0L6Cc-bT4oH7UhX6LI,2121
+simple_ai_agents-0.3.0.dist-info/LICENSE,sha256=cq0eiXZC93ehU95zqHhp-sdpbrCtki23i_TzKuMxerM,1067
+simple_ai_agents-0.3.0.dist-info/METADATA,sha256=6if7J8xMmpj0Qk6OqTmmWST2MkU0_4wtvUXuiN6TEhk,7698
+simple_ai_agents-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+simple_ai_agents-0.3.0.dist-info/entry_points.txt,sha256=rLDocbryvDxER_QhxXw7dpMfTgWIkGfHzzkMWbASL9A,64
+simple_ai_agents-0.3.0.dist-info/RECORD,,
