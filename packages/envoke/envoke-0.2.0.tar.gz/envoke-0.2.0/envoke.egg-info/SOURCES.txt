@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+envoke/__init__.py
+envoke/core.py
+envoke.egg-info/PKG-INFO
+envoke.egg-info/SOURCES.txt
+envoke.egg-info/dependency_links.txt
+envoke.egg-info/requires.txt
+envoke.egg-info/top_level.txt
