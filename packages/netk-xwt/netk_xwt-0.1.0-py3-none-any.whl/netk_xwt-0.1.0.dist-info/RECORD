@@ -1,0 +1,10 @@
+netk/xwt/__init__.py,sha256=_ixy_mw0lCAqVYjET7alOXSsJlQf0azVGwrCFK0rI2I,214
+netk/xwt/application.py,sha256=NIMreaQ1tIeH5AhC5_33WchbG977MeJHLhS1_s1SUbc,600
+netk/xwt/libs/__init__.py,sha256=DCIZkyuXc9CqomP0yY7eH3YM1MrAHWRpcmTfIJsMils,380
+netk/xwt/libs/Xwt.dll,sha256=7CPMEImvc5M2ifGQjc31ei7TcOK3NiX5jnXsDzu9G5A,531968
+netk/xwt/libs/Xwt.WPF.dll,sha256=j4zHQUr6vBqZoOgPgIkQUdhO7u7JRQYskhu_2fmuGdU,284160
+netk/xwt/run.py,sha256=kLvmDhH2Xuv9cc4BNgJRKanKAauwdX9F4uuYg3O9hU4,453
+netk/xwt/window.py,sha256=-wDEhbetVr1usnv8nG9jJ4hlJFyOWqSZ_VqCbWZkM0I,289
+netk_xwt-0.1.0.dist-info/METADATA,sha256=RsHTS2oUe1hVZYUOW7dqrrR5-YHuohx3zwzVHlnNEV8,729
+netk_xwt-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+netk_xwt-0.1.0.dist-info/RECORD,,
