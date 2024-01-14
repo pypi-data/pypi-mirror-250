@@ -1,0 +1,2 @@
+[console_scripts]
+mcdecoder = mcdecoder.__main__:main
