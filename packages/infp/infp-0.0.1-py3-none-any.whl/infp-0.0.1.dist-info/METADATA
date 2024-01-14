@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: infp
+Version: 0.0.1
+Summary: Graph package
+Author: Vu Diep
+Author-email: vudiep411@gmail.com
+Keywords: python,data structure,math,big number,infinite precision
+Description-Content-Type: text/markdown
+
+
+Calculation with very large number
