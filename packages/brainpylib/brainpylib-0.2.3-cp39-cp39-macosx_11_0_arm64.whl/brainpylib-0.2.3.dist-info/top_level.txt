@@ -1,0 +1,7 @@
+brainpylib
+brainpylib/cpu_ops
+build
+cmake
+dist
+project
+wheelhouse
