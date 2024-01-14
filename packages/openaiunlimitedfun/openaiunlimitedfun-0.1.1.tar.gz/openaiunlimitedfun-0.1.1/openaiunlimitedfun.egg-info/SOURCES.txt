@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+openaiunlimitedfun/__init__.py
+openaiunlimitedfun/utils.py
+openaiunlimitedfun.egg-info/PKG-INFO
+openaiunlimitedfun.egg-info/SOURCES.txt
+openaiunlimitedfun.egg-info/dependency_links.txt
+openaiunlimitedfun.egg-info/requires.txt
+openaiunlimitedfun.egg-info/top_level.txt
