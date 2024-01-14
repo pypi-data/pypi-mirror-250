@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        indexgen=cli.main:cli
+    
