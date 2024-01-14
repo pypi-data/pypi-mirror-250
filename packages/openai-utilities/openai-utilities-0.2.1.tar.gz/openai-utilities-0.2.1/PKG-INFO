@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: openai-utilities
+Version: 0.2.1
+Summary: Wrapper on top of openai python SDK primarily to interface with openai and anyscale public endpoints.
+Home-page: https://github.com/soumitsalman/openai-utilities
+Author: Soumit Salman Rahman
+Author-email: soumitsr@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: tiktoken
+Requires-Dist: icecream
