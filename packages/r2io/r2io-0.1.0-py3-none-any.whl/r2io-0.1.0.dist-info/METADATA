@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: r2io
+Version: 0.1.0
+Summary: Decoding [seismic] r2 files using python.
+License: MIT
+Author: Jordan Dennis
+Author-email: jdenn105@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
