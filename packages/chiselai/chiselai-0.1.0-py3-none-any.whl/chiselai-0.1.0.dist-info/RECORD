@@ -1,0 +1,9 @@
+chiselai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiselai/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiselai-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiselai-0.1.0.dist-info/METADATA,sha256=vmA4ck2z0ArMMWg3Ni4K1zrmeoUoQIPRnLoy-MefxAE,103
+chiselai-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+chiselai-0.1.0.dist-info/top_level.txt,sha256=8CTQA3pGBSk3VzQjFP8h83apk5bXh62DAa8JVOaHySM,15
+chiselai-0.1.0.dist-info/RECORD,,
