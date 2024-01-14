@@ -1,0 +1,13 @@
+delitoolkit/__init__.py,sha256=BMNEkd8hPnEEeObPppM5lVXDIkDyveUvoHLIL8xrMHE,142
+delitoolkit/deliannotate.py,sha256=2w-G8QnSOL0xACoQnoPJOpbfsGRI7Z9KNhtcyAYOIZk,2789
+delitoolkit/delidata.py,sha256=PQSyJ_3rm_zyIrYFFaUy4UAtxH6TQKcLay-Xbuo4XIQ,460
+delitoolkit/delitoolkit.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+delitoolkit/encoding_utils.py,sha256=ntT0T1KG9CY1glov2AAKtNFzresQAJg6WB6FSd-w1-U,437
+delitoolkit/inflection_point/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+delitoolkit/inflection_point/bow.py,sha256=iWiZVoydIZoDzwtUkV0Eqdf_iAe27enRH2yYTWn0lKA,491
+delitoolkit-0.2.7.dist-info/AUTHORS.rst,sha256=TRkdxaL_-rlux78jsM_G6_IzWfHxtDIkLE397RsQxhM,169
+delitoolkit-0.2.7.dist-info/LICENSE,sha256=e61ktLwfBwXI_5XJbvrioG-0NdXH1R0BZuA-buarc4I,588
+delitoolkit-0.2.7.dist-info/METADATA,sha256=CBFVm7gSMSPzRENqc3XcnLXoWTInSggP7hYWD-U2hQI,4525
+delitoolkit-0.2.7.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+delitoolkit-0.2.7.dist-info/top_level.txt,sha256=2Wrc1O2gczSdRnUx_QtYJ15tLw9ThG-3T4LQtiVQ2do,12
+delitoolkit-0.2.7.dist-info/RECORD,,
