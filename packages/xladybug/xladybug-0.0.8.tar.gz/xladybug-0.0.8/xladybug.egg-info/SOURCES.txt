@@ -1,0 +1,8 @@
+README.md
+setup.py
+xladybug/__init__.py
+xladybug/xladybug.py
+xladybug.egg-info/PKG-INFO
+xladybug.egg-info/SOURCES.txt
+xladybug.egg-info/dependency_links.txt
+xladybug.egg-info/top_level.txt
