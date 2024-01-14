@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: para-cada
+Version: 1.8.0
+Summary: Executes your command for each file selected using glob expression(s).
+Home-page: https://gergelyk.github.io/para-cada
+License: MIT
+Author: Grzegorz Krason
+Author-email: grzegorz.krason@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: click-help-colors (>=0.9.4,<0.10.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: glob2 (>=0.7,<0.8)
+Requires-Dist: humanize (>=4.9.0,<5.0.0)
+Requires-Dist: natsort (>=8.4.0,<9.0.0)
+Project-URL: Repository, https://github.com/gergelyk/para-cada
+Description-Content-Type: text/markdown
+
+# para-cada
+
+*Para Cada* in Spanish means *For Each*. The tool executes your command for each file selected using glob expression(s).
+
+Why? Let's say you have multiple `.tgz` archives and you would like to extract them in one shot. Some of the options available in bash are:
+
+```sh
+ls *.tgz | xargs -IT tar xzvf T
+for T in *.tgz; do tar xzvf $T; done
+find . -type f -name '*.tgz' -exec tar xzvf {} \;
+```
+
+All of them are relatively complex. This is where cada can help. Simply do:
+
+```sh
+cada 'tar xzvf *.tgz'
+```
+
+![](docs/assets/images/example.png)
+
+Cada knows where glob expression is. It executes entire command with subsequent values corresponding to this expression. Additionally, user may transform/filter/sort those values using regular Python syntax. Take a look at the [documentation](https://gergelyk.github.io/para-cada/).
+
