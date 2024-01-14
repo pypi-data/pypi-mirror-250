@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: criminalusmoduleskernel
+Version: 0.1
+Requires-Dist: criminalusmoduleskernel
+Requires-Dist: pycomputer
+
