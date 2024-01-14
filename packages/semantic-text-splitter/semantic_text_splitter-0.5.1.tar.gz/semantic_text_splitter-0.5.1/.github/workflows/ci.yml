@@ -1,0 +1,110 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "bindings/**"
+      - ".github/workflows/python.yml"
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - "bindings/**"
+      - ".github/workflows/python.yml"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  test:
+    name: Test Suite
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Run cargo test
+        run: cargo test --workspace --all-features
+
+  coverage:
+    runs-on: ubuntu-latest
+    name: Test Coverage
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: llvm-tools-preview
+      - uses: taiki-e/install-action@cargo-llvm-cov
+      - run: cargo llvm-cov --all-features --workspace --lcov --output-path lcov.info
+      - name: Upload to codecov.io
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          fail_ci_if_error: true
+
+  lints:
+    name: Lints
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
+
+      - run: cargo fmt -- --check
+      - run: cargo clippy --workspace --all-features --all-targets
+
+      - uses: taiki-e/install-action@cargo-hack
+      - name: cargo hack
+        # Check that all feature combinations work
+        run: cargo hack --feature-powerset check
+
+  semver:
+    name: semver
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check semver
+        uses: obi1kenobi/cargo-semver-checks-action@v2
+
+  msrv:
+    runs-on: ubuntu-latest
+    # we use a matrix here just because env can't be used in job names
+    # https://docs.github.com/en/actions/learn-github-actions/contexts#context-availability
+    strategy:
+      matrix:
+        msrv: [1.65.0]
+    name: MSRV
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ${{ matrix.msrv }}
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ matrix.msrv }}
+      - name: cargo +${{ matrix.msrv }} check
+        run: cargo check
+
+  minimal-versions:
+    name: Check minimal versions
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: nightly
+      - uses: Swatinem/rust-cache@v2
+
+      - run: cargo generate-lockfile -Z direct-minimal-versions
+      - run: cargo test --locked --workspace --all-features
