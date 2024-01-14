@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dblmapi_py.egg-info/PKG-INFO
+dblmapi_py.egg-info/SOURCES.txt
+dblmapi_py.egg-info/dependency_links.txt
+dblmapi_py.egg-info/entry_points.txt
+dblmapi_py.egg-info/top_level.txt
