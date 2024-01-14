@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+ansible_webui.egg-info/PKG-INFO
+ansible_webui.egg-info/SOURCES.txt
+ansible_webui.egg-info/dependency_links.txt
+ansible_webui.egg-info/top_level.txt
