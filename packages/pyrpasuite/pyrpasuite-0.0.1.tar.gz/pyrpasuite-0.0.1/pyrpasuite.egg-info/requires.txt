@@ -1,0 +1,12 @@
+appopener==1.7
+keyboard==0.13.5
+netmiko==4.3.0
+openpyxl==3.1.2
+paramiko==3.4.0
+PyAutoGUI==0.9.54
+PyPDF2==3.0.1
+pypdfium2==4.25.0
+selenium==4.16.0
+twine==4.0.2
+urllib3==2.1.0
+webdriver-manager==4.0.1

@@ -1,0 +1,14 @@
+README.md
+setup.py
+core/__init__.py
+core/auto_excel.py
+core/auto_mail.py
+core/auto_net.py
+core/auto_pdf.py
+core/auto_sys.py
+core/auto_web.py
+pyrpasuite.egg-info/PKG-INFO
+pyrpasuite.egg-info/SOURCES.txt
+pyrpasuite.egg-info/dependency_links.txt
+pyrpasuite.egg-info/requires.txt
+pyrpasuite.egg-info/top_level.txt
