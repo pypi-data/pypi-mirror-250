@@ -1,0 +1,21 @@
+{% extends "paper_admin/includes/changelist_tools.html" %}
+{% load admin_urls %}
+
+
+{% block tools %}
+  {% if not result.obj.invalid %}
+    <a href="{% url cl.opts|admin_urlname:'stop' result.obj.pk %}?next={{ request.get_full_path|urlencode }}"
+       class="btn btn-square btn-sm btn-square--danger bi-stop-fill"
+       data-toggle="tooltip" data-placement="top" data-trigger="hover"
+       data-html="true" title="{{ _("Stop job") }}">
+    </a>
+
+    <a href="{% url cl.opts|admin_urlname:'requeue' result.obj.pk %}?next={{ request.get_full_path|urlencode }}"
+       class="btn btn-square btn-sm btn-square--info bi-repeat"
+       data-toggle="tooltip" data-placement="top" data-trigger="hover"
+       data-html="true" title="{{ _("Requeue job") }}">
+    </a>
+  {% endif %}
+
+  {{ block.super }}
+{% endblock %}

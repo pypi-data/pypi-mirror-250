@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: paper-rq
+Version: 0.8.3
+Summary: An administrative interface for managing RQ tasks in Paper Admin
+Home-page: https://github.com/dldevinc/paper-rq
+Author: Mihail Mishakin
+Author-email: x896321475@gmail.com
+Maintainer: Mihail Mishakin
+Maintainer-email: x896321475@gmail.com
+License: BSD license
+Platform: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django >=3.2
+Requires-Dist: paper-admin >=6.0
+Requires-Dist: django-rq >=2.4
+Requires-Dist: rq >=1.11
+
+# paper-rq
+
+An administrative interface for managing RQ tasks in Paper Admin.
+
+⚠ Default `rq.scheduler` is not supported! Use [rq-scheduler](https://github.com/rq/rq-scheduler) instead.
+
+[![PyPI](https://img.shields.io/pypi/v/paper-rq.svg)](https://pypi.org/project/paper-rq/)
+[![Build Status](https://github.com/dldevinc/paper-admin/actions/workflows/release.yml/badge.svg)](https://github.com/dldevinc/paper-rq)
+[![Software license](https://img.shields.io/pypi/l/paper-rq.svg)](https://pypi.org/project/paper-rq/)
+
+## Compatibility
+
+-   [`paper-admin`](https://github.com/dldevinc/paper-admin) >= 6.0
+-   [`django-rq`](https://github.com/rq/django-rq) >= 2.4
+-   `python` >= 3.7
+
+## Installation
+
+Install the latest release with pip:
+
+```shell
+pip install paper-rq
+```
+
+Add `paper_rq` to your INSTALLED_APPS in django's `settings.py`:
+
+```python
+INSTALLED_APPS = (
+    # ...
+    "paper_rq",
+)
+```
+
+Add `paper_rq` to your `PAPER_MENU`:
+
+```python
+from paper_admin.menu import Item
+
+PAPER_MENU = [
+    # ...
+    Item(
+        app="paper_rq",
+        icon="bi-clock-history",
+    ),
+    # ...
+]
+```
+
+Optionally, set `paper_rq.jobs.Job` as your job class:
+
+```python
+RQ = {
+    "JOB_CLASS": "paper_rq.jobs.Job",
+    # ...
+}
+```
+
+## Result
+
+[![4d17958f25.png](https://i.postimg.cc/mgzCsHVG/4d17958f25.png)](https://postimg.cc/tsbYd7Lr)
+
+## `job` decorator
+
+The same as RQ's `job` decorator, but it automatically works out
+the `connection` argument from RQ_QUEUES. It also respects the
+`RQ.DEFAULT_RESULT_TTL` and `RQ.DEFAULT_FAILURE_TTL` settings.
+
+Example:
+```python
+import time
+
+from paper_rq.decorators import job
+
+
+@job("paper:default")
+def sleep(delay):
+    time.sleep(delay)
+```
+
+```python
+sleep.delay(5)
+```
+
+## RQ Scheduler
+
+First, ensure that you have the `rq-scheduler` library installed:
+
+```shell
+pip install rq-scheduler
+```
+
+If you need to run multiple isolated schedulers on the same server, you should
+use the class `paper_rq.scheduler.Scheduler`. This class reads the Redis keys 
+from the `RQ` settings:
+
+```python
+# settings.py
+
+RQ = {
+    "JOB_CLASS": "paper_rq.jobs.Job",
+    "DEFAULT_RESULT_TTL": "7d",
+    "DEFAULT_FAILURE_TTL": "30d",
+    "SCHEDULER_CLASS": "paper_rq.scheduler.Scheduler",
+    "SCHEDULER_LOCK_KEY": "rq:scheduler-1:scheduler_lock",
+    "SCHEDULER_JOBS_KEY": "rq:scheduler-1:scheduled_jobs",
+}
+```
