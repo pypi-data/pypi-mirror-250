@@ -1,0 +1,1 @@
+### This project is a simple wrapper around the CoinMarketCap API.
