@@ -1,0 +1,14 @@
+LICENSE.rst
+README.rst
+setup.cfg
+setup.py
+enumagic/__init__.py
+enumagic/_iter.py
+enumagic/_mapping.py
+enumagic/_str.py
+enumagic/py.typed
+enumagic.egg-info/PKG-INFO
+enumagic.egg-info/SOURCES.txt
+enumagic.egg-info/dependency_links.txt
+enumagic.egg-info/requires.txt
+enumagic.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+
+[dev]
+sphinx~=7.2
+sphinx-rtd-theme~=2.0
