@@ -1,0 +1,8 @@
+README.md
+setup.py
+cmmdf/cmmdf.egg-info/PKG-INFO
+cmmdf/cmmdf.egg-info/SOURCES.txt
+cmmdf/cmmdf.egg-info/dependency_links.txt
+cmmdf/cmmdf.egg-info/entry_points.txt
+cmmdf/cmmdf.egg-info/requires.txt
+cmmdf/cmmdf.egg-info/top_level.txt
