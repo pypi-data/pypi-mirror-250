@@ -1,0 +1,10 @@
+boto3
+colorama
+duckdb
+python_graphql_client
+pendulum
+requests
+click
+tqdm
+warrant-lite
+sumatra-sdk
