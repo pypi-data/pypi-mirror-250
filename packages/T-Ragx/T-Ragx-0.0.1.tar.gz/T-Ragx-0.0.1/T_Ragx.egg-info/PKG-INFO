@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: T-Ragx
+Version: 0.0.1
+Summary: Translation using retrieval augmented generation
+Author: Ray Liu
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+T-Rag
+==============================
+
+Translation using retrieval augmented generation
