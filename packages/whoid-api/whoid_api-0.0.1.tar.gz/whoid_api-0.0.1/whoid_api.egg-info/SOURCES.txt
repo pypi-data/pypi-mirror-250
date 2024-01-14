@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+whoid/__init__.py
+whoid/auth.py
+whoid_api.egg-info/PKG-INFO
+whoid_api.egg-info/SOURCES.txt
+whoid_api.egg-info/dependency_links.txt
+whoid_api.egg-info/requires.txt
+whoid_api.egg-info/top_level.txt
