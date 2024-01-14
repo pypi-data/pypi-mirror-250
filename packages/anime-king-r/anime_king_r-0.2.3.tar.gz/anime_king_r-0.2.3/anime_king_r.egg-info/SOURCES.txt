@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+./scripts/akr-download
+anime_king_r.egg-info/PKG-INFO
+anime_king_r.egg-info/SOURCES.txt
+anime_king_r.egg-info/dependency_links.txt
+anime_king_r.egg-info/requires.txt
+anime_king_r.egg-info/top_level.txt
