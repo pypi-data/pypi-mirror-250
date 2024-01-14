@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+jsonfeed/__init__.py
+jsonfeed_util.egg-info/PKG-INFO
+jsonfeed_util.egg-info/SOURCES.txt
+jsonfeed_util.egg-info/dependency_links.txt
+jsonfeed_util.egg-info/top_level.txt
+tests/__init__.py
+tests/test_import.py
