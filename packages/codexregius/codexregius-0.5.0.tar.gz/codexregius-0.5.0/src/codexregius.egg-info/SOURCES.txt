@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/codexregius.egg-info/PKG-INFO
+src/codexregius.egg-info/SOURCES.txt
+src/codexregius.egg-info/dependency_links.txt
+src/codexregius.egg-info/top_level.txt
