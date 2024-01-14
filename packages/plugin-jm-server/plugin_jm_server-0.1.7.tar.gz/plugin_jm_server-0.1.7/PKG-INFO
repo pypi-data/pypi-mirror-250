@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: plugin_jm_server
+Version: 0.1.7
+Summary: plugin_jm_server, a plugin for jmcomic that can be used to view comics in a web browser.
+Home-page: https://github.com/hect0x7/plugin-jm-server
+Author: hect0x7
+Author-email: 93357912+hect0x7@users.noreply.github.com
+Keywords: python,jmcomic,18comic,禁漫天堂,NSFW
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: jmcomic
+Requires-Dist: flask
+Requires-Dist: psutil
+
+源项目：https://github.com/AiCorein/Flask-Files-Server
+
+为了方便修改，将源项目中的文件复制到本项目中，然后进行修改
