@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: avinashtare_hello
+Version: 1.2.0
+Summary: Short Description
+Home-page: https://avinashtare.online
+Author: avinash developer
+Author-email: avinashtare55.dummy@gmail.com
+License: this package is absolute free for everyone 
+Project-URL: documentation, https://india.com
+Project-URL: Source, https://github.com/avinashtare
+License-File: LICENCE
+
+# This is My first project
+```shell
+pip install avinashtare_hello
+```
+
+python setup.py sdist bdist_wheel
