@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: flitz
+Version: 0.0.1
+Summary: Fast Location / Indexing / Traversal Zone.
+Author-email: Martin Thoma <info@martin-thoma.de>
+Maintainer-email: Martin Thoma <info@martin-thoma.de>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# flitz
+A file explorer / finder with a tkinter GUI. Fast Location / Indexing / Traversal Zone.
+
