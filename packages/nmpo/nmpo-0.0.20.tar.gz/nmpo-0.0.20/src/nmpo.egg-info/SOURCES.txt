@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/nmpo/__init__.py
+src/nmpo/nmpo.py
+src/nmpo.egg-info/PKG-INFO
+src/nmpo.egg-info/SOURCES.txt
+src/nmpo.egg-info/dependency_links.txt
+src/nmpo.egg-info/not-zip-safe
+src/nmpo.egg-info/top_level.txt
