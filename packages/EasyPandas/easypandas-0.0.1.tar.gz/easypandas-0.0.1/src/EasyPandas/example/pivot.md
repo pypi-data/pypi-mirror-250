@@ -1,0 +1,41 @@
+导入模块
+```python
+>>> import pandas as pd
+>>> with open("../pivot.py", "rt", encoding="utf8") as fp: exec(fp.read())
+>>> df = pd.DataFrame({"A": ["foo", "foo", "foo", "foo", "foo", "bar", "bar", "bar", "bar"], "B": ["one", "one", "one", "two", "two", "one", "one", "two", "two"], "C": ["small", "large", "large", "small", "small", "large", "small", "small", "large"], "D": [1, 2, 2, 3, 3, 4, 5, 6, 7], "E": [2, 4, 5, 5, 6, 6, 8, 9, 9]})
+```
+
+给定index, columns和values，单个聚合函数
+```python
+>>> print(df)
+>>> res = pivot(df, values='D', index=['A', 'B'], columns=['C'], aggfunc="sum")
+>>> print(res)
+```
+
+给定index, 和values，多个聚合函数
+```python
+>>> print(df)
+>>> res = pivot(df, values=['D', 'E'], index=['A', 'C'], aggfunc={'D': "mean", 'E': "mean"})
+>>> print(res)
+```
+
+不同的列给定不同的聚合函数
+```python
+>>> print(df)
+>>> res = pivot(df, values=['D', 'E'], index=['A', 'C'], aggfunc={'D': "mean", 'E': ["min", "max", "mean"]})
+>>> print(res)
+```
+
+添加边际统计量
+```python
+>>> print(df)
+>>> res = pivot(df, values=['D', 'E'], index=['A', 'C'], aggfunc="var", margin=1)
+>>> print(res)
+```
+
+添加边际统计量，给定名称
+```python
+>>> print(df)
+>>> res = pivot(df, values=['D', 'E'], index=['A', 'C'], aggfunc="var", margin=1, margin_name="方差")
+>>> print(res)
+```

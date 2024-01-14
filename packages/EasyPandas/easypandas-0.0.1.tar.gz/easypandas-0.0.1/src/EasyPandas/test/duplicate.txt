@@ -1,0 +1,34 @@
+===============================================================================0
+导入模块
+>>> with open("../duplicate.py", "rt", encoding="utf8") as fp: exec(fp.read())
+>>> with open("../read.py", "rt", encoding="utf8") as fp: exec(fp.read())
+>>> iris = read("../data/iris.xlsx")
+===============================================================================1
+Series标记重复值
+>>> res = duplicate(iris["Sepal.Length"])
+>>> print(res)
+===============================================================================2
+Series标记重复值，keep=last
+>>> res = duplicate(iris["Sepal.Length"], keep="last")
+>>> print(res)
+===============================================================================3
+Series标记重复值，keep=False
+>>> res = duplicate(iris["Sepal.Length"], keep=False)
+>>> print(res)
+===============================================================================4
+DataFrame标记重复值
+>>> res = duplicate(iris)
+>>> print(res)
+===============================================================================5
+DataFrame标记重复值，指定变量
+>>> res = duplicate(iris, subset="Species")
+>>> print(res)
+===============================================================================6
+Series删除重复值
+>>> res = duplicate(iris["Sepal.Length"], action="drop")
+>>> print(res)
+===============================================================================7
+DataFrame删除重复值
+>>> res = duplicate(iris, action="drop", subset="Species")
+>>> print(res)
+===============================================================================8
