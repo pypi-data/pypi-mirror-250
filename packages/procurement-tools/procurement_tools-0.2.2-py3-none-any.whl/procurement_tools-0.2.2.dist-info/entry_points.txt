@@ -1,0 +1,3 @@
+[console_scripts]
+fargo=procurement_tools.cli.main:app
+
