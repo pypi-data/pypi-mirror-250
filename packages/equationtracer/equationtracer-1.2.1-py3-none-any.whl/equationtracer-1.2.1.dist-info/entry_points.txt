@@ -1,0 +1,3 @@
+[console_scripts]
+trace-equation=equationtracer.main:main
+
