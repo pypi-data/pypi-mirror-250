@@ -1,0 +1,12 @@
+sqlalchemy_nest/__init__.py,sha256=qgKNXPakcfsiHcyC89K4BrQoVf1SE75D0GvEy1y6cgU,1302
+sqlalchemy_nest/orm.py,sha256=2NtSSOncXv_P1af5BiOrtGF2si80Qz4ThX-4ZgQH7f0,3011
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=bUXqK0llOSGnUmAI33VrnZp1uajOM1SQCF8unjx1gw8,488
+tests/models.py,sha256=UY3OQECLPMcrUJzalguaKr7WvR7NPSjiPt95OGqgIx8,2864
+tests/test_base_model.py,sha256=ATXRU30Eh4hkk5p-cFNamw0o8k4XAl8Cxx0Oksc_Gh4,19046
+tests/test_sqlalchemy_nest.py,sha256=ZpagqMkVcY86pFDM8FwW2yOu-guE44efpy_CTooBl9c,6509
+sqlalchemy_nest-1.1.1.dist-info/LICENSE,sha256=MqWxqDKhShL--vtst3uu5UM75wbPZ4Rxy5IGwBjGRgc,1063
+sqlalchemy_nest-1.1.1.dist-info/METADATA,sha256=4TOoHb5KicSpluPDyfJvwlgeZjtfPPjhdhmDIYHhWfI,5421
+sqlalchemy_nest-1.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+sqlalchemy_nest-1.1.1.dist-info/top_level.txt,sha256=XcRDzLysOwftCucLJP0HMpTIoCWDUmHRXdKzNuYfiNs,22
+sqlalchemy_nest-1.1.1.dist-info/RECORD,,
