@@ -1,0 +1,5 @@
+pip_patch/__init__.py,sha256=vTeT9jNDn_zikh9Gn5hZ_OqwWvAFbeXx6JbsdLWkvfk,4331
+pip_patch-0.1.4.dist-info/METADATA,sha256=jO6tox1oiIt8czfREZ7LwRrNX3qf_Zj_IEGa5wWjLTE,488
+pip_patch-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pip_patch-0.1.4.dist-info/entry_points.txt,sha256=w8bWBzriVBu1eSq3VaZqYRgQheSS2YrWEnVv3mg9cLE,44
+pip_patch-0.1.4.dist-info/RECORD,,
