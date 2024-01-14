@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+chiselai/__init__.py
+chiselai/core.py
+chiselai.egg-info/PKG-INFO
+chiselai.egg-info/SOURCES.txt
+chiselai.egg-info/dependency_links.txt
+chiselai.egg-info/top_level.txt
+tests/__init__.py
+tests/test_core.py
