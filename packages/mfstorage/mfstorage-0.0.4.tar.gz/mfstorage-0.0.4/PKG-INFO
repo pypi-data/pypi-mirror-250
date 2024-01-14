@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: mfstorage
+Version: 0.0.4
+Summary: 
+Author: Doug Hudgeon
+Author-email: doug.hudgeon@managedfunctions.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: arrow (>=1.3.0,<2.0.0)
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: modal (>=0.56.4590,<0.57.0)
+Requires-Dist: pandas (>=2.1.4,<3.0.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: s3fs[boto3] (>=2023.12.0)
+Description-Content-Type: text/markdown
+
+# Welcome to MFStorage
+
+_Helper functions for working with cloud storage._
+
+---
+
+Functions that simplify working with cloud storage through a common API.
+
+Core functions are included in the core module. Cloud-specific functions are included in the modules named after each cloud.
+
+- list_docs
+- save_doc
+- read_doc
+- get_unprocessed_docs
+- mark_completed
+- skip_doc
