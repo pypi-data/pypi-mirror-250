@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/MongoSwiftConnect.egg-info/PKG-INFO
+src/MongoSwiftConnect.egg-info/SOURCES.txt
+src/MongoSwiftConnect.egg-info/dependency_links.txt
+src/MongoSwiftConnect.egg-info/requires.txt
+src/MongoSwiftConnect.egg-info/top_level.txt
+src/mongodbconnect/__init__.py
+src/mongodbconnect/mongo_crud.py
