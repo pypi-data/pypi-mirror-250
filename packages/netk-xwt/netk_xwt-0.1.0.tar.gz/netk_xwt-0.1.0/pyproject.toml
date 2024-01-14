@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "netk-xwt"
+version = "0.1.0"
+description = ""
+authors = ["XiangQinxi <XiangQinxi@outlook.com>"]
+readme = "README.md"
+packages = [
+    { include = "netk"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+netk = "^0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
