@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: yadsl
+Version: 0.0.1
+Summary: yadsl is a simple Python module to easily fetch data from https://adsl.yemen.net.ye official website.
+Home-page: https://github.com/omamkaz/yadsl
+License: GPL-3.0
+Keywords: yemen,adsl,internet,balance,check,web,scrape,bs4,script
+Author: Osama Mohammed Al-zabidi
+Author-email: omamkaz@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: requests (==2.31.0)
+Project-URL: Repository, https://github.com/omamkaz/yadsl
+Description-Content-Type: text/markdown
+
+
+# Yemen Net ADSL Internet Info
+
+yadsl is a simple Python module to easily fetch data from [YemenNet ADSL](https://adsl.yemen.net.ye) official website.
+
+## Features
+
+- **easy to use** fetch data easily with Python.
+- **cookies** import & export cookies, for long refresh time without captcha verify
+
+## Installation
+
+You can install **yadsl** via pip:
+
+```bash
+pip install yadsl
+```
+
+## Usage
+
+```python
+from yadsl import YADSL
+
+yadsl = YADSL(
+    user: str = "xxxxxx",
+    password: str = "..."
+)
+
+yadsl.login()
+yadsl.fetch_captcha()
+yadsl.verify(captcha: str = "xxxx")
+yadsl.fetch_data(cookies: dict = None)
+```
+
+## License
+
+This project is licensed under the [GPL3 License](https://github.com/omamkaz/yadsl/blob/main/LICENSE).
+
+# Changelog
+
