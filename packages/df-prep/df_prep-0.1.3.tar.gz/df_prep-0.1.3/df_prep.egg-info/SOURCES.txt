@@ -1,0 +1,8 @@
+README.md
+setup.py
+connectors/__init__.py
+connectors/input_connector.py
+df_prep.egg-info/PKG-INFO
+df_prep.egg-info/SOURCES.txt
+df_prep.egg-info/dependency_links.txt
+df_prep.egg-info/top_level.txt
