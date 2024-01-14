@@ -1,0 +1,4 @@
+fastapi
+cryptopi
+pydantic
+uvicorn
