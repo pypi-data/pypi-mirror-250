@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+setup.py
+Plunge.egg-info/PKG-INFO
+Plunge.egg-info/SOURCES.txt
+Plunge.egg-info/dependency_links.txt
+Plunge.egg-info/requires.txt
+Plunge.egg-info/top_level.txt
