@@ -1,0 +1,16 @@
+.mailmap
+AUTHORS.txt
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.md
+logo.jpeg
+setup.py
+py3office/__init__.py
+py3office/handler.py
+py3office/pdf.py
+py3office.egg-info/PKG-INFO
+py3office.egg-info/SOURCES.txt
+py3office.egg-info/dependency_links.txt
+py3office.egg-info/requires.txt
+py3office.egg-info/top_level.txt
