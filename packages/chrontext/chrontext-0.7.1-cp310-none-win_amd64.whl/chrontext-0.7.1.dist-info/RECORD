@@ -1,0 +1,10 @@
+chrontext-0.7.1.dist-info/METADATA,sha256=02Y5FKmxqzY3tgJBDuf7uwpL_zeU3aUm7oU7vK3C7xo,5757
+chrontext-0.7.1.dist-info/WHEEL,sha256=h4UfPQDpHKqlVNhwLycY9q2_njSluZqLzTtUUMa9TJI,95
+chrontext-0.7.1.dist-info/license_files/LICENSE,sha256=gk0wQiPvtjjWVvuPyVI4TRjQvuLcI8GyyKAp_y50ZW8,11065
+chrontext/.gitignore,sha256=dIqeIxrhtZYsDNQ9d1rFnQ2BFu6zwEkzwPFFPMTkpEs,24
+chrontext/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chrontext/semantic_dataframe.py,sha256=hS02n7kOuxEryHgldTecjDUjbJXFVtIhV9A-Yh3uoE4,1706
+chrontext/_chrontext.pyi,sha256=IYXBx32OrzxFjhcEFQXUT2FndfwnD3xXH1xjeMlnLG4,4981
+chrontext/__init__.py,sha256=qAsx5SsEw7f0lyslY9DFd-WiTx4tSlKeFuDs2cZ3hLM,127
+chrontext/_chrontext.cp310-win_amd64.pyd,sha256=9JUBHdhfKUKZ71eQRANNupfxaurG7MqDhDb-azDGMdM,74748928
+chrontext-0.7.1.dist-info/RECORD,,
