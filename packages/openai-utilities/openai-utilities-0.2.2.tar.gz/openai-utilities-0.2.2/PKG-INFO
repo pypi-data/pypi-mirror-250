@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: openai-utilities
+Version: 0.2.2
+Summary: Wrapper on top of openai python SDK primarily to interface with openai and anyscale public endpoints.
+Home-page: https://github.com/soumitsalman/openai-utilities
+Author: Soumit Salman Rahman
+Author-email: soumitsr@gmail.com
+License: MIT
+Keywords: openai anyscale tiktoken chatgpt chatbot
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: tiktoken
+Requires-Dist: icecream
+
+This is a privately maintained wrapper library on top of openai python Driver/SDK. Currently openai python Driver/SDK can be used to access both OpenAI and Anyscale public endpoints. This wrapper provides abstraction to access the models hosted by both of the endpoints. It currently uses the openai.OpenAI().chat.completions to make synchronous calls. It automatically handles rate limit error, context window resizing and large message splitting to fit within message token limit.
