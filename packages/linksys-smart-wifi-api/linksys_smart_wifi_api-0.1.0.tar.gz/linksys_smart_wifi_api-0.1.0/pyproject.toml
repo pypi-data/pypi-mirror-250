@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "linksys-smart-wifi-api"
+version = "0.1.0"
+description = "Python wrapper for interacting with Linksys Smart Wifi routers"
+authors = ["Samson Danziger <samson@danziger.uk>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "linksys"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dataclasses-json = "^0.6.3"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+isort = "^5.13.2"
+mypy = "^1.8.0"
+flake8 = "^7.0.0"
+types-requests = "^2.31.0.20240106"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+
