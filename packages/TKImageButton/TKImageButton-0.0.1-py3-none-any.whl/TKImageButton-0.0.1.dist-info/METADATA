@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: TKImageButton
+Version: 0.0.1
+Summary: A Python library for creating image buttons in Tkinter
+Author-email: Hamza Naveed <m.hamza.naveed@outlook.com>
+Project-URL: Homepage, https://github.com/hntechsoftware/TKImageButton/tree/main
+Project-URL: Issues, https://github.com/hntechsoftware/TKImageButton/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TKImageButton
+A Python library for creating image buttons in Tkinter.
+
+**Example Usage:**
+
+`from TKImageButton import ImageButton`
+
+`root = tk.Tk()` 
+
+`# Define use_temp`
+
+`button = ImageButton(root, source="src/templates.png", command=use_temp)`
+
+`button.pack()`
+
+`root.mainloop()`
