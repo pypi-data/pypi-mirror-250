@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: unpaved_road_condition_analysis
+Version: 0.0.1
+Summary: A Python package for analyzing the condition of unpaved roads using machine learning and image processing
+Home-page: https://github.com/wangzhao0217/unpaved_road_condition_analysis.git
+Author: Zhao Wang
+Author-email: wangzhao0217@gmail.com
+License: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas==1.5.3
+Requires-Dist: imagecodecs
+Requires-Dist: autokeras==1.0.20
+Requires-Dist: tensorflow==2.15.0
+Requires-Dist: pycaret==3.2.0
+Requires-Dist: numpy==1.23.5
+Requires-Dist: opencv-python==4.9.0.80
+Requires-Dist: scikit-image==0.22.0
+Requires-Dist: seaborn==0.13.1
+
+# unpaved_road_condition_analysis

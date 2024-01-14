@@ -1,0 +1,9 @@
+pandas==1.5.3
+imagecodecs
+autokeras==1.0.20
+tensorflow==2.15.0
+pycaret==3.2.0
+numpy==1.23.5
+opencv-python==4.9.0.80
+scikit-image==0.22.0
+seaborn==0.13.1
