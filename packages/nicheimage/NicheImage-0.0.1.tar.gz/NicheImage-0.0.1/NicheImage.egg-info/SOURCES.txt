@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+NicheImage.egg-info/PKG-INFO
+NicheImage.egg-info/SOURCES.txt
+NicheImage.egg-info/dependency_links.txt
+NicheImage.egg-info/top_level.txt
+niche_image/__init__.py
+niche_image/services/configs/model_config.yaml
