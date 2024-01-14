@@ -1,0 +1,12 @@
+LICENSE
+pyproject.toml
+readme.md
+src/adjustor/__init__.py
+src/adjustor/__main__.py
+src/adjustor/hhd.py
+src/adjustor.egg-info/PKG-INFO
+src/adjustor.egg-info/SOURCES.txt
+src/adjustor.egg-info/dependency_links.txt
+src/adjustor.egg-info/entry_points.txt
+src/adjustor.egg-info/requires.txt
+src/adjustor.egg-info/top_level.txt

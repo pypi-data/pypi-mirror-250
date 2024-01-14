@@ -1,0 +1,5 @@
+[console_scripts]
+adjustor = adjustor.__main__:main
+
+[hhd.plugins]
+adjustor = adjustor.hhd:autodetect
