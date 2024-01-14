@@ -1,0 +1,5 @@
+geopandas
+fiona
+sqlalchemy
+pyodbc
+sqlalchemy-access
