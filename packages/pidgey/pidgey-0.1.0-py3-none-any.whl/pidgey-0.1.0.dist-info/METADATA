@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pidgey
+Version: 0.1.0
+Summary: Python interface for dynamics in galaxies, using Agama, Gala, and Galpy as backends.
+Author-Email: ilikecubesnstuff <25328250+ilikecubesnstuff@users.noreply.github.com>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: iext>=1.0.0
+Requires-Dist: numpy>=1.21
+Requires-Dist: astropy>=5.0
+Description-Content-Type: text/markdown
+
+# pydgin
+
+A galactic dynamics interface (a [pidgin](https://en.wikipedia.org/wiki/Pidgin), if you will) using existing galactic dynamics libraries in Python (`galpy`, `gala` and `agama`) as backends.

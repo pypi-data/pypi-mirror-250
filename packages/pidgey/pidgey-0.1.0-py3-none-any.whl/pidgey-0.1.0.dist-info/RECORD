@@ -1,0 +1,15 @@
+pidgey-0.1.0.dist-info/METADATA,sha256=NvwTzAdMaEhs9PV1SkUvVH_dIIRkhJrU6jg5PxYQLpU,587
+pidgey-0.1.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+pidgey-0.1.0.dist-info/licenses/LICENSE,sha256=hfJE_Enq_KfGq8m1eYDthuaIVjbF-izA4dHUzHLxMyE,1093
+pidgey/__init__ copy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pidgey/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pidgey/agama_backend.py,sha256=2j5AoX6vsNR2xYpxhFKLD6dOlnRWC00f4XTQ0ylx4FQ,107
+pidgey/base.py,sha256=qmuRaPnNpgZ_0aowk8oA2fWcUFq5SlpvbLCgOuRC0FI,7549
+pidgey/coordinates/__init__.py,sha256=6R7bV0m90GN5SOvhmR3QN9x6ClMvKPpRyfcNcmAutrs,163
+pidgey/coordinates/base.py,sha256=qsTII_4kJr-hL0E173zyPdQ6sC7kgmi_cABEV57DFOM,9184
+pidgey/coordinates/dim2.py,sha256=0aLJXCYVntAFdsE4pLn61MWxz4OOf11IHz15V09uAdU,2956
+pidgey/coordinates/dim3.py,sha256=-pQLs2ARnHlmxONx61gbmyvjKbiegL2N0NjL-3zmi_E,6088
+pidgey/gala_backend.py,sha256=J5dYEh5NCpSJQ394iC4CABx28Pj4sx8RFvwScw8DQsk,105
+pidgey/galpy_backend.py,sha256=L9UDYNWYC9mEYK-UYVa5rZYT1GgnZ33yrAyBQnFIYwY,2386
+pidgey/utils.py,sha256=upEz0DLEogVoLTCYBQzKisM3yYA5Z9EIxH-0aVEL8rM,1144
+pidgey-0.1.0.dist-info/RECORD,,
