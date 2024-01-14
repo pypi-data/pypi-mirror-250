@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ragcraft"
+version = "0.1.0"
+description = "Datagen & RagEval for various LLM (Large Language Model) for RAG Apps"
+authors = ["sundi133 <sundi133@gmail.com>"]
+license = "MIT Licence"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
