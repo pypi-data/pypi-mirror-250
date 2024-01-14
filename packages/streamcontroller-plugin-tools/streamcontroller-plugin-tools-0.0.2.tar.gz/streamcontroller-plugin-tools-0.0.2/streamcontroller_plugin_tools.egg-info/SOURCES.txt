@@ -1,0 +1,8 @@
+setup.py
+streamcontroller_plugin_tools/BackendBase.py
+streamcontroller_plugin_tools/__init__.py
+streamcontroller_plugin_tools.egg-info/PKG-INFO
+streamcontroller_plugin_tools.egg-info/SOURCES.txt
+streamcontroller_plugin_tools.egg-info/dependency_links.txt
+streamcontroller_plugin_tools.egg-info/requires.txt
+streamcontroller_plugin_tools.egg-info/top_level.txt
