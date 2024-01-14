@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/latio/__init__.py
+src/latio/latio.py
+src/latio.egg-info/PKG-INFO
+src/latio.egg-info/SOURCES.txt
+src/latio.egg-info/dependency_links.txt
+src/latio.egg-info/top_level.txt
