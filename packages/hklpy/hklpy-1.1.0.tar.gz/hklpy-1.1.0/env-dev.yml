@@ -1,0 +1,43 @@
+# env-dev.yml
+
+# Developer's environment for hklpy
+
+# conda env create -f env-dev.yml
+# micromamba create -n dev-hklpy -f env-dev.yml
+
+name: dev-hklpy
+
+channels:
+  - conda-forge  # must come before defaults (for gsl version)
+  - defaults
+
+dependencies:
+  - python >=3.8,<3.12
+  - apischema
+  - black
+  - bluesky
+  - chardet
+  - databroker
+  - flake8
+  - hkl
+  - ipython
+  - jupyter
+  - nbsphinx
+  - numpy
+  - ophyd
+  - packaging
+  - pandoc
+  - pint
+  - pip
+  - pydata-sphinx-theme
+  - pyepics
+  - pygobject
+  - pyRestTable
+  - spec2nexus
+  - sphinx
+  - tqdm
+  - trio >=0.22
+  - pip:
+    - coveralls
+    - pytest
+    - pytest-cov
