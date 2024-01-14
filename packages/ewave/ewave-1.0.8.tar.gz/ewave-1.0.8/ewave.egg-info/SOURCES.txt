@@ -1,0 +1,15 @@
+.gitignore
+MANIFEST.in
+README.rst
+ewave.py
+pyproject.toml
+setup.cfg
+setup.py
+test_ewave.py
+ewave.egg-info/PKG-INFO
+ewave.egg-info/SOURCES.txt
+ewave.egg-info/dependency_links.txt
+ewave.egg-info/requires.txt
+ewave.egg-info/top_level.txt
+resources/multichaudP.pdf
+resources/wavefilespecs.webarchive
