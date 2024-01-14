@@ -1,0 +1,20 @@
+[project]
+name = "ftemplate"
+version = "0.0.1"
+authors = [
+  { name="Aaron Casanova", email="aaronccasanova@gmail.com" },
+]
+description = "ftemplate"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/aaronccasanova/aacc"
+"Bug Tracker" = "https://github.com/aaronccasanova/aacc/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
