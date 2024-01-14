@@ -1,0 +1,16 @@
+License
+README.md
+setup.cfg
+setup.py
+fleximod.egg-info/PKG-INFO
+fleximod.egg-info/SOURCES.txt
+fleximod.egg-info/dependency_links.txt
+fleximod.egg-info/requires.txt
+fleximod.egg-info/top_level.txt
+src/git-fleximod
+src/fleximod/__init__.py
+src/fleximod/gitinterface.py
+src/fleximod/gitmodules.py
+src/fleximod/lstripreader.py
+src/fleximod/utils.py
+src/fleximod/version.py
