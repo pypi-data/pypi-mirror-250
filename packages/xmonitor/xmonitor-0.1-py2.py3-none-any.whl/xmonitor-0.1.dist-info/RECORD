@@ -1,0 +1,13 @@
+xmonitor/__init__.py,sha256=0Qtamt0nd0fZgidKQ6wnhtledwOSeHgf1m1YISl1dWI,16
+xmonitor/cmds/__init__.py,sha256=LCQrBWdRnIU0sW32fRaNVSBGSzIes_nNJ4eemtmtD78,930
+xmonitor/cmds/logrotate.py,sha256=IT8PurlX5EMkbbU3VA4pLqvXPCkWAb4hEUvAEWHb-_E,2334
+xmonitor/utils/__init__.py,sha256=h_9NJXpE5bj0Oy_MPQ02HDn0AnryzBA8eI0SmoLEAl4,558
+xmonitor/utils/attribute.py,sha256=mbie1J7JfVE6EetY1x_6nSBAruZSRyLHJtlSvcHULSg,402
+xmonitor/utils/logrotate.py,sha256=3Y8_9TkgWWochmzgVX9PpUBuwSXYhGXTytxkKRWtAUs,8411
+xmonitor-0.1.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+xmonitor-0.1.dist-info/METADATA,sha256=uu7l_y7BwIiUTbEZSiY-ztENxO73D58k3k4mxuBzdy8,748
+xmonitor-0.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+xmonitor-0.1.dist-info/entry_points.txt,sha256=un_INV1etsW36_J3v2FjTG4_1_Ouh_bSbRCE3UIyIpo,45
+xmonitor-0.1.dist-info/top_level.txt,sha256=1BsKrbHXUPZbSEAcWzxQadjXj3Ux3KXM9YWqcoM_-0E,9
+xmonitor-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xmonitor-0.1.dist-info/RECORD,,
