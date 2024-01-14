@@ -1,0 +1,9 @@
+README.md
+setup.py
+avinashtare_hello/__init__.py
+avinashtare_hello/main.py
+avinashtare_hello.egg-info/PKG-INFO
+avinashtare_hello.egg-info/SOURCES.txt
+avinashtare_hello.egg-info/dependency_links.txt
+avinashtare_hello.egg-info/entry_points.txt
+avinashtare_hello.egg-info/top_level.txt
