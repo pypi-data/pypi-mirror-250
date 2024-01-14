@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+codex/__init__.py
+codex/codex.py
+codexregius.egg-info/PKG-INFO
+codexregius.egg-info/SOURCES.txt
+codexregius.egg-info/dependency_links.txt
+codexregius.egg-info/top_level.txt
