@@ -1,0 +1,9 @@
+README.md
+setup.py
+pip_author_stats/__init__.py
+pip_author_stats/report_generator.py
+pip_author_stats.egg-info/PKG-INFO
+pip_author_stats.egg-info/SOURCES.txt
+pip_author_stats.egg-info/dependency_links.txt
+pip_author_stats.egg-info/requires.txt
+pip_author_stats.egg-info/top_level.txt
