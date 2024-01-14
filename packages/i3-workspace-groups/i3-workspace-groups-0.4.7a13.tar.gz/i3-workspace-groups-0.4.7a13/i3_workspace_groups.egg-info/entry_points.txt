@@ -1,0 +1,5 @@
+[console_scripts]
+i3-autoname-workspaces = i3wsgroups.autoname_workspaces:main
+i3-groups-polybar-module-updater = i3wsgroups.polybar_module_updater:main
+i3-workspace-groups = i3wsgroups.cli:main
+i3-workspace-groups-nc = i3wsgroups.py_client:main
