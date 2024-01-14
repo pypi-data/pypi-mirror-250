@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: django-ticket
+Version: 2.1.0
+Summary: A ticket application for django project
+Home-page: https://github.com/HosseinSayyedMousavi
+Author: Hossein Sayyedmousavi
+Author-email: Hossein.Sayyedmousavi@gmail.com
+Keywords: django,database,ticket
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Console
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Compression
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django
+
+# django-ticket
+Ticket application for django project
+
+### 1. install package
+```
+    pip install django-ticket
+```
+
+### 2. add this application in settings.INSTALLED_APPS :
+```
+INSTALLED_APPS = [
+    # ...
+    'ticket',
+    # ...
+]
+```
+### 3. create and migrate migrations in BASE_DIR: 
+    python manage.py migrate ticket
+
+### 4. in core application include application urls:
+```
+from django.urls import path , include
+
+urlpatterns += path("ticket/", include("ticket.urls"))
+```
+
+when you pass this missions you will see this in your admin panel:
+
+
+![Screenshot from 2024-01-14 10-07-30](https://github.com/HosseinSayyedMousavi/django-ticket/assets/104124540/15d7ba19-c157-4cb0-a4a5-330101641b19)
+
+
+## API Documentation:
+You can create a Ticket from admin panel for a user to  admin.
+Note that and you can do all this operations from admin to a user
+
+### .../create_ticket/
+Create a ticket from user to admin and add a new message:
+
+method: ```post```
+
+required keywords :  ```("title","section","priority","message")```
+
+### .../add_message/
+Add message to a ticket :
+
+method: ```post```
+
+required keywords : ```("ticket","message")```
+
+Note: ticket means ticket's id
+
+### .../close/
+Close ticket.
+
+method: ```patch```
+
+required keywords : ```("ticket",)```
+
+Note: ticket means ticket's id
+
+### .../seen/
+Change ticket to seen state from user
+
+method: ```patch```
+
+required keywords : ```("ticket",)```
+
+Note: ticket means ticket's id
+
+### .../get_my_tickets/
+Get all tickets of user as a list
+
+method: ```get```
+
+required keywords : ```just must to be authorized.```
+
+
+## A little more Professional
+You can filter and have not seen tickets in admin panel:
+### settings.py:
+
+### 1. Add 'ticket/templates' to DIRS of TEMPLATES:
+```
+TEMPLATES = [
+    {
+            # ...
+        'DIRS': ['ticket/templates'],
+            # ...
+    }
+]
+```
+
+### 2.Add 'ticket.context_processors.get_pending_tickets' to context_processors OPTIONS:
+```
+TEMPLATES = [
+    # ...
+            "OPTIONS": {
+            # ...
+            "context_processors": [
+                # ...
+            'ticket.context_processors.get_pending_tickets'
+                # ...
+            ]
+            # ...
+    }
+]
+    # ...
+```
+Finally your application is complete to use:
+
+
+![Screenshot from 2024-01-14 10-19-39](https://github.com/HosseinSayyedMousavi/django-ticket/assets/104124540/c68600d9-1e9f-4f5a-9a7a-8ba4644a8bec)
+
+
+Thanks for attention
