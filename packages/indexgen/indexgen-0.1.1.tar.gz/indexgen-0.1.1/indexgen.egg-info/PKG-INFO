@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: indexgen
+Version: 0.1.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: requests
+
+# CLI APP
+
+genindex -i 
