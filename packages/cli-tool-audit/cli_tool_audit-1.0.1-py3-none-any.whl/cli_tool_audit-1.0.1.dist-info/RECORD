@@ -1,0 +1,17 @@
+cli_tool_audit/__init__.py,sha256=YSh2EF2qmg5avLD9eWwZTR1G2DzJP9Tj2GcdPhxI6Mc,292
+cli_tool_audit/__main__.py,sha256=jAEn6LTs4NTLa8TYJNn6lId640Jr4sL49_SI4P0UFho,909
+cli_tool_audit/_version.py,sha256=pLSN8BemfqKa30H5Jx0FGbWYGibNQPUEanK2LuDGsYg,69
+cli_tool_audit/cli_availability.py,sha256=-efV1ym645jarCZDaqSJub_zwRmWqC0GRoWw8LbqzQk,3330
+cli_tool_audit/compatibility.py,sha256=g3bsahJI8pEFfddx-eQIfDDCEIInkAYaIFySauLD6Qo,3078
+cli_tool_audit/known_swtiches.py,sha256=BH9-Zl7FyNX0Kcqe4-cpqZkhwQh4eQS0n6p90LQLx-g,180
+cli_tool_audit/py.typed,sha256=B-DLSjYBi7pkKjwxCSdpVj2J02wgfJr-E7B1wOUyxYU,80
+cli_tool_audit/version_parsing.py,sha256=wGajoKHHd5W8AMDQKO0dc_7w8OdEpUJriDDxQ1USvnI,5205
+cli_tool_audit/view_npm_stress_test.py,sha256=R4dhsxhYSzdCKttApF3q_-9JnlTLlHOZAW2JE6ij2cA,2076
+cli_tool_audit/view_pipx_stress_test.py,sha256=0ILOnnON69DR3ZD16RA9dBUtVyWRljexMoYJBBhMllI,2484
+cli_tool_audit/view_venv_stress_test.py,sha256=Uxo1T3tvdoEuz6ubCPlt2GYBJBxXLyiNLL0fTYStaIQ,2243
+cli_tool_audit/views.py,sha256=Sy8Qx9U2wq6ndMViD5u8Ql7WA17NhmaVpL-q39GuMSs,3803
+cli_tool_audit-1.0.1.dist-info/LICENSE,sha256=jorgCGk-Vzqzuda58x7WxtiRSnL0_WaOSLcZIe3czgo,1071
+cli_tool_audit-1.0.1.dist-info/METADATA,sha256=mG7jJ9pksKqR0-PbCc-e3FvJO2Z3dH3maiWv3NK_3_o,4097
+cli_tool_audit-1.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cli_tool_audit-1.0.1.dist-info/entry_points.txt,sha256=HEhUZ_yqUI1XCkXuv-jt9vYaJf9HK2mepbSp1d6e0JU,103
+cli_tool_audit-1.0.1.dist-info/RECORD,,
