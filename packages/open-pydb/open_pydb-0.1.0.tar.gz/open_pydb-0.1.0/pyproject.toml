@@ -1,0 +1,21 @@
+[project]
+name = "open_pydb"
+version = "0.1.0"
+authors = [
+  { name="John Paul Paredes", email="johnpar2004@gmail.com" },
+]
+description = "Open_PyDb is a unique way to change open source unstructure dataabases, it makes use of Jsonl files to store big amounts of data"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/JohnPaul0403/open-db"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
