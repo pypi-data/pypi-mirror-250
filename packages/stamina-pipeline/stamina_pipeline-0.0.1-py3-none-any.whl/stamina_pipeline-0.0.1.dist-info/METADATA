@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: stamina-pipeline
+Version: 0.0.1
+Summary: A pipeline tool for VFX artists.
+Home-page: https://github.com/costagliola-quentin/stamina
+Author: QuentinCostagliola
+Author-email: 
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Stamina Documentation
+
+This section is still in development.
