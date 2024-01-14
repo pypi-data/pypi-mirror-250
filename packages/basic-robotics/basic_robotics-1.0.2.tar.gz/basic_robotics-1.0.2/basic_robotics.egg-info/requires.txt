@@ -1,0 +1,12 @@
+numpy
+pyserial
+scipy
+numba
+modern_robotics
+numpy-stl
+descartes
+alphashape
+trimesh
+rtree
+requests
+sqlalchemy
