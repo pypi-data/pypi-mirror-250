@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: linksys-smart-wifi-api
+Version: 0.1.0
+Summary: Python wrapper for interacting with Linksys Smart Wifi routers
+License: MIT
+Author: Samson Danziger
+Author-email: samson@danziger.uk
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dataclasses-json (>=0.6.3,<0.7.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Linksys Smart-Wifi API
+
+Python wrapper for the Linksys Smart-Wifi API.
+
+This library is based on https://github.com/jakekara/jnap.
+
