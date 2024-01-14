@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pystrtools
+Version: 0.1.1
+Summary: A library for doing many things - with strings, in Python.
+Home-page: https://github.com/objectiveSquid/pystrtools
+Author: Magnus Zahle
+Author-email: objectivesquid@outlook.com
+License: MIT
+Keywords: python,strings,string-analysis
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyStrTools
+A library for doing many things - with strings, in Python.<br>
