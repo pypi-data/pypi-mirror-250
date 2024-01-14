@@ -1,0 +1,12 @@
+hg_credentials-0.1.2-py3.11-nspkg.pth,sha256=61023dEBfHLmXe3l91YVWj85CZC98Pw5Gtw_lqBjXQk,549
+hgext3rd/credentials/__init__.py,sha256=iJjxyhkWj09PTdRFrqL_ruFKH7lfDp_wC5WNri3Ogxc,5734
+hgext3rd/credentials/helper.py,sha256=uXB37kqiWpPn5wQ2CyGCfvnJZKhQ6df1Iqj54de5vpc,1695
+hgext3rd/credentials/keychain.abi3.so,sha256=Ky3uZ27N46uBi89g1oJCZ_jWLBOhuDAMeJpC2QNcmeM,54704
+hgext3rd/credentials/keychain.py,sha256=Sa8YoNgMCyxanTA56DsQDMy43HCX7M9tXFw1RLp_THw,4264
+hgext3rd/credentials/secretstorage.py,sha256=3iPezolmUkhwtmgvYXzVMWUybplIzKdyfwHDBxWCFU0,2543
+hg_credentials-0.1.2.dist-info/COPYING,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+hg_credentials-0.1.2.dist-info/METADATA,sha256=G6uWQuqwD_-d-8eFX3qBWg7CXdzzh2fzIIdg7ymlBCo,2996
+hg_credentials-0.1.2.dist-info/WHEEL,sha256=JpRJ4y71VMBKCpJT0se0mDNjiD3wu45xX0wP31CFU2w,111
+hg_credentials-0.1.2.dist-info/namespace_packages.txt,sha256=QOsI6Pm4T7KhZd_Rm5fsAIgac0uPDyuZEE1JYVG7XNw,9
+hg_credentials-0.1.2.dist-info/top_level.txt,sha256=QOsI6Pm4T7KhZd_Rm5fsAIgac0uPDyuZEE1JYVG7XNw,9
+hg_credentials-0.1.2.dist-info/RECORD,,
