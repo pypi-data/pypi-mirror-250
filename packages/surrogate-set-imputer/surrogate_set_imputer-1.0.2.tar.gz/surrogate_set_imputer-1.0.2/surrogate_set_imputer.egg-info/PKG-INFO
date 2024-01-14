@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: surrogate-set-imputer
+Version: 1.0.2
+Summary: Surrogate Set Imputer is a method for imputing continuous feature values.
+Home-page: https://github.com/jamie-duell/surrogate_set_imputer
+Author: Jamie Duell
+Author-email: 853435@swansea.ac.uk
+
+Surrogate Set Imputer is an inherently interpretable feature value imputation method. The preprint for the article that this library is based off can be found at: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4640047.
