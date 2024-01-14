@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: grphpkg
+Version: 0.0.1
+Summary: Graph package
+Author: NeuralNine (Florian Dedov)
+Author-email: vudiep411@gmail.com
+Keywords: python,data structure,graph
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+Requires-Dist: matplotlib
