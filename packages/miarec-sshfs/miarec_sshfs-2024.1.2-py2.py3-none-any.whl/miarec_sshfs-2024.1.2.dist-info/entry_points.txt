@@ -1,0 +1,3 @@
+[fs.opener]
+msftp = miarec_sshfs.opener:SSHOpener
+mssh = miarec_sshfs.opener:SSHOpener
