@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: latio
+Version: 0.0.2
+Summary: Latio Application Security Tester - Uses OpenAPI to scan for security issues in code changes
+Home-page: https://github.com/latiotech/LAST
+Author: James Berthoty
+Author-email: james@latio.tech
+License: GPL-3.0 license
+License-File: LICENSE
+Requires-Dist: openai==1.3.7
+Requires-Dist: PyGithub==2.1.1
+Requires-Dist: Requests==2.31.0
