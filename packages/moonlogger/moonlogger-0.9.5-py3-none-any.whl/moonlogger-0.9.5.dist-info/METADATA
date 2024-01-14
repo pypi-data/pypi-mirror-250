@@ -1,0 +1,398 @@
+Metadata-Version: 2.1
+Name: moonlogger
+Version: 0.9.5
+Summary: moon-logger, a Python logging library
+Home-page: https://github.com/reslaid/moon
+Author: Artem Reslaid
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: avro
+Requires-Dist: prettytable
+Requires-Dist: protobuf
+
+Moon Logger
+
+The Moon Logger is a Python logging utility with customizable features for handling both stream and file logging.
+
+## Requirements
+- [Git](https://git-scm.com/download/win)
+- [Python ^3.7](https://python.org)
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Initializing Moon](#initializing-moon)
+  - [Log Levels](#log-levels)
+  - [Archiving Logs](#archiving-logs)
+  - [Custom Formatting](#custom-formatting)
+  - [Logger Methods](#logger-methods)
+- [Examples](#examples)
+
+## Installation
+
+**Install the Moon Logger using git**:
+
+```bash
+git clone https://github.com/reslaid/moon.git
+```
+
+**Installing the Moon Logger using PyPI**:
+
+- **NT**:
+  ```bash
+  pip install moonlogger
+  ```
+
+- **Posix**:
+  ```bash
+  pip3 install moonlogger
+  ```
+
+## Usage
+
+### Initializing Moon
+
+```python
+from moon.logger import Moon
+from moon.formats import Formats
+from moon._types import LogLevel
+
+# Create an instance of the Moon logger
+moon = Moon(
+    name=__name__,                  # Name of the logger (defaults to the name of the current module)
+    log_file='moon.json',           # Path to the log file (defaults to 'moon.json')
+    stream_handler=True,            # Whether to use a stream handler (defaults to True)
+    file_handler=True,              # Whether to use a file handler (defaults to True)
+    disabled=False,                 # Whether the logger is disabled (defaults to False)
+    stream_level=LogLevel.DEBUG,    # Log level for the stream handler (defaults to DEBUG)
+    file_level=LogLevel.DEBUG,      # Log level for the file handler (defaults to DEBUG)
+    stream_format=Formats.CLang(),  # Log format for the stream handler (default is Formats.CLang())
+    file_format=Formats.JsonIndented()  # Log format for the file handler (default is Formats.JsonIndented())
+)
+```
+
+### Log Levels
+
+**The Moon Logger supports the following log levels**:
+
+- `LogLevel.DEBUG`
+- `LogLevel.INFO`
+- `LogLevel.WARNING`
+- `LogLevel.ERROR`
+- `LogLevel.CRITICAL`
+
+### Archiving Logs:
+
+```python
+# Archive the log file into a ZIP file and remove the original log file
+moon.archive()
+```
+
+### Custom Formatting:
+
+```python
+# Set a custom log format for all handlers in the Moon logger
+moon.set_log_format("[{name}] - [{levelname}]: {message}")
+```
+
+**Formats built into moon logger**:
+- `CLang`
+- `Json`
+- `Csv`
+- `Table`
+- `Html`
+- `Xml`
+- `Markdown`
+- `Yaml`
+- `Syslog`
+- `JsonIndented`
+- `Logstash`
+- `ShortJson`
+- `ColoredConsole`
+- `DelimiterSeparatedJson`
+- `Traceback`
+- `TracebackV2`
+- `HexDump`
+- `Base64`
+- `Binary`
+- `Emoji`
+
+### Logger Methods:
+
+- `moon.set_formatter(formatter)`: Set a custom formatter for the logger.
+- `moon.add_formatter(formatter)`: Add a formatter to the logger.
+- `moon.del_formatters()`: Remove all formatters from the logger.
+- `moon.del_formatter(formatter)`: Remove a specific formatter from the logger.
+- `moon.edit_format(new_log_format)`: Edit the log format, ensuring required placeholders are present.
+- `moon.reset_format()`: Reset the log format to the default.
+- `moon.base_logger()`: Getting the base logger.
+
+## Examples
+
+- **Logging Message**:
+
+```python
+# Import the Moon logger and Formats module
+from moon.logger import Moon
+from moon.formats import Formats
+
+# Initialize the Moon logger
+logger = Moon(
+    name=__name__,
+    file_handler=False,  # Disable file handler
+    stream_format=Formats.CLang()  # Use CLang format for stream handler
+).base_logger()
+
+# Log a debug message
+logger.debug(
+    msg="message"
+)
+
+# Log an informational message
+logger.info(
+    msg="message"
+)
+
+# Log a warning message
+logger.warning(
+    msg="message"
+)
+
+# Log an error message
+logger.error(
+    msg="message"
+)
+
+# Log a critical message
+logger.critical(
+    msg="message"
+)
+
+# Log a fatal message
+logger.fatal(
+    msg="message"
+)
+```
+
+- **Custom log format**:
+```python
+from moon.logger import Moon, logging
+
+# Define a custom log format string
+custom_log_format = logging.Formatter(
+    "[{levelname}] [{asctime}] - {message}",
+    style="{"
+)
+
+# Initialize the Moon logger with the custom log format
+logger = Moon(
+    name=__name__,
+    file_handler=False,
+    stream_format=custom_log_format
+).base_logger()
+
+# Log a message using the custom format
+logger.info(
+    msg="Custom log message"
+)
+```
+
+- **Built-in log format**:
+
+```python
+from moon.logger import Moon
+from moon.formats import Formats 
+
+
+# Initialize the Moon logger with the built-in log format
+logger = Moon(
+    name=__name__,
+    file_handler=False,
+    stream_format=Formats.CLang() # You can choose any built-in log format
+).base_logger()
+
+# Log a message using the built-in log format
+logger.info(
+    msg="Custom log message"
+)
+```
+
+- **Archiving a file**:
+
+```python
+from moon.logger import Moon
+from moon.formats import Formats 
+
+# Initialize the Moon logger with a file handler and JsonIndented format
+moon = Moon(
+    name=__name__,
+    log_file="moon.json",
+    file_handler=True,
+    file_format=Formats.JsonIndented()
+)
+
+# Get the base logger from the Moon logger instance
+logger = moon.base_logger()
+
+# Log a custom message with an informational level
+logger.info(
+    msg="Custom log message"
+)
+
+# Archive log file
+moon.archive()
+```
+
+- **Changing Log Format Dynamically**:
+```python
+from moon.logger import Moon
+
+# Create an instance of Moon Logger with a file handler
+moon = Moon(name="dynamic_format_logger", file_handler=True)
+logger = moon.base_logger()
+
+# Log an error message
+logger.error(msg="An error occurred.")
+
+# Change the log format
+moon.edit_format("[{levelname}] {message} ({asctime})")
+
+# Log another message with the updated format
+logger.info(msg="Updated log format.")
+```
+
+- **Removing All Formatters**:
+```python
+from moon.logger import Moon
+
+# Create an instance of Moon Logger with a file handler
+moon = Moon(name="remove_all_formatters_logger", file_handler=True)
+logger = moon.base_logger()
+
+# Add two formatters
+moon.add_formatter(Moon.formats.CLang())
+moon.add_formatter(Moon.formats.JsonIndented())
+
+# Remove all formatters
+moon.del_formatters()
+
+# Log a message with DEBUG level
+logger.debug(msg="Logging after removing formatters.")
+```
+
+- **Removing a Specific Formatter**:
+```python
+from moon.logger import Moon
+from moon.formats import Formats
+
+# Create an instance of Moon Logger with a file handler
+moon = Moon(name="remove_formatter_logger", file_handler=True)
+logger = moon.base_logger()
+
+# Add two formatters
+formatter1 = Formats.Table()
+formatter2 = Formats.Json()
+
+moon.add_formatter(formatter1)
+moon.add_formatter(formatter2)
+
+# Remove one of the formatters
+moon.del_formatter(formatter1)
+
+# Log a message with INFO level
+logger.info(msg="Logging after removing one formatter.")
+```
+
+- **Conditional Logging Based on Environment**:
+```python
+from moon.logger import Moon
+from moon.formats import Formats
+import os
+
+# Create an instance of Moon Logger with conditional file handler
+enable_file_logging = os.environ.get("ENABLE_FILE_LOGGING", "False").lower() == "true"
+logger = Moon(
+    name="conditional_logger",
+    file_handler=enable_file_logging,
+    file_format=Formats.JsonIndented()
+).base_logger()
+
+# Log a message with INFO level
+logger.info(msg="Conditional log message.")
+```
+
+- **Adding a custom file handler**:
+```python
+import logging
+from moon.logger import Moon, LogLevel
+from moon.formats import Formats
+
+# Create an instance of the Moon logger
+moon = Moon(
+    file_handler=False,  # Set to True if you want to include a file handler
+    stream_handler=False  # Set to True if you want to include a stream (console) handler
+)
+
+# Create a FileHandler with specific configuration
+file_handler = logging.FileHandler(
+    'moon.json',
+    mode="a",
+    encoding="utf-8",
+    delay=False,
+    errors=None
+)
+
+# Set the formatter for the FileHandler (e.g., JSON format)
+file_handler.formatter = Formats.Json()
+
+# Set the logging level for the FileHandler (e.g., DEBUG)
+file_handler.setLevel(LogLevel.DEBUG)
+
+# Add the custom handler to the Moon logger
+moon.add_handler(handler=file_handler)
+
+# Get Logger Instance
+logger = moon.base_logger()
+
+# Log Messages
+logger.debug('Hello, Custom Handlers!')
+```
+
+- **Adding a custom stream handler**:
+```python
+import logging
+from moon.logger import Moon, LogLevel
+from moon.formats import Formats
+
+# Create a Moon logger instance without default handlers
+moon = Moon(file_handler=False, stream_handler=False)
+
+# Create a StreamHandler
+stream_handler = logging.StreamHandler()
+
+# Set the formatter for the StreamHandler (e.g., GNU Logs format)
+stream_handler.formatter = Formats.CLang()
+
+# Set the logging level for the StreamHandler (e.g., DEBUG)
+stream_handler.setLevel(LogLevel.DEBUG)
+
+# Add the stream handler to the Moon logger
+moon.add_handler(handler=stream_handler)
+
+# Log Messages to Stream Handler
+logger.debug('Hello, Custom Handlers!')
+```
+
+
