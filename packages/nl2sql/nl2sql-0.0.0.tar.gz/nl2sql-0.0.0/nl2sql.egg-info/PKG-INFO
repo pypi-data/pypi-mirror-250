@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nl2sql
+Version: 0.0.0
+Summary: Naural Langucage to Structured Query Language
+Author: Madhup Sukoon
+Author-email: vagrantism@outlook.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Coming Soon

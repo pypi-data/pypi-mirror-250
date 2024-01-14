@@ -1,0 +1,5 @@
+setup.py
+nl2sql.egg-info/PKG-INFO
+nl2sql.egg-info/SOURCES.txt
+nl2sql.egg-info/dependency_links.txt
+nl2sql.egg-info/top_level.txt
