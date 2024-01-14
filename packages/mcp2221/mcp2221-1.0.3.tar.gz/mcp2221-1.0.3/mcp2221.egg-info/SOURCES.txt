@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+MCP2221/MCP2221.py
+MCP2221/__init__.py
+mcp2221.egg-info/PKG-INFO
+mcp2221.egg-info/SOURCES.txt
+mcp2221.egg-info/dependency_links.txt
+mcp2221.egg-info/requires.txt
+mcp2221.egg-info/top_level.txt
