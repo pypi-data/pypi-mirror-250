@@ -1,0 +1,7 @@
+mamba_transformer/__init__.py,sha256=Yd-hM33pL5goWUembHIYSHYvumlstI6ryEbTQI9M6E0,308
+mamba_transformer/blocks.py,sha256=6ivHjghvdxRj8nP66IN4K8BdoJvxIJ3X9ejJc2r_TsU,1097
+mamba_transformer/model.py,sha256=qJ40D3GvS9YG9Lh4nyC-CWm4OETZ1p8URzA5HJQt750,9735
+mambatransformer-0.0.4.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+mambatransformer-0.0.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+mambatransformer-0.0.4.dist-info/METADATA,sha256=OLEFn9kJfE5KOVyfrQwzpDUMS5qjWqdW0j_x2SXdb28,3284
+mambatransformer-0.0.4.dist-info/RECORD,,
