@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: haruka_bot_red
+Version: 0.1.0
+Summary: HarukaBot-Red
+License: AGPL-3.0-or-later
+Author-email: boxie123 <platinumshard@outlook.com>
+Requires-Python: >=3.8, <4.0
+Requires-Dist: bilireq>=0.2.6
+Requires-Dist: click>=8.1.3
+Requires-Dist: dynamicadaptor>=0.4.7
+Requires-Dist: dynrender-skia>=0.1.6
+Requires-Dist: httpx>=0.24.1
+Requires-Dist: msvc-runtime>=14.34.31931; sys_platform == "win32"
+Requires-Dist: nonebot-adapter-red[auto_detect]>=0.8.0
+Requires-Dist: nonebot-plugin-apscheduler>=0.3.0
+Requires-Dist: nonebot-plugin-guild-patch>=0.2.3
+Requires-Dist: nonebot2[fastapi]>=2.0.0
+Requires-Dist: packaging>=23.1
+Requires-Dist: playwright>=1.35.0
+Requires-Dist: pydantic<=2.0,>=1.10.9
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: tortoise-orm[asyncpg]>=0.19.3
+Description-Content-Type: text/markdown
+
+# HarukaBot-Red
+ 基于[HarukaBot](https://github.com/SK-415/HarukaBot)，适配Red协议
+
+因[`go-cqhttp`停止维护](https://github.com/Mrs4s/go-cqhttp/issues/2471)，
+且替代方案`chronocat`不支持`onebot`协议，故修改得到此版本，方便原`hb`用户迁移。
+
+> README完善中，点个star为作者加速
