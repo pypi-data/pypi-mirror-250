@@ -1,0 +1,22 @@
+[project]
+name = "django-rtl-unfold"
+version = "0.3.0"
+authors = [
+  { name="Saeed Ramezani", email="saeedramezani75@gmail.com"},
+]
+description = "Modern Django admin theme for seamless interface development with RTL support"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/SaeedRz96/django-rtl-unfold"
+Issues = "https://github.com/SaeedRz96/django-rtl-unfold/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
