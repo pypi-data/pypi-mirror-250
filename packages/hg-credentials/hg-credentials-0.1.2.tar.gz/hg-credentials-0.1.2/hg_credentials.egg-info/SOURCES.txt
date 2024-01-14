@@ -1,0 +1,17 @@
+COPYING
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+hg_credentials.egg-info/PKG-INFO
+hg_credentials.egg-info/SOURCES.txt
+hg_credentials.egg-info/dependency_links.txt
+hg_credentials.egg-info/namespace_packages.txt
+hg_credentials.egg-info/not-zip-safe
+hg_credentials.egg-info/requires.txt
+hg_credentials.egg-info/top_level.txt
+hgext3rd/credentials/__init__.py
+hgext3rd/credentials/helper.py
+hgext3rd/credentials/keychain.m
+hgext3rd/credentials/keychain.py
+hgext3rd/credentials/secretstorage.py
