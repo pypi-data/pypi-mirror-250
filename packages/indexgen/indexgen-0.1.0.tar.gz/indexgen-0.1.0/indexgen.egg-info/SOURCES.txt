@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cli/__init__.py
+cli/main.py
+indexgen.egg-info/PKG-INFO
+indexgen.egg-info/SOURCES.txt
+indexgen.egg-info/dependency_links.txt
+indexgen.egg-info/entry_points.txt
+indexgen.egg-info/requires.txt
+indexgen.egg-info/top_level.txt
