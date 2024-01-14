@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: typst-web-app-client
+Version: 0.0.1
+Summary: 
+Author: Shunichiro Nomura
+Author-email: nomura@space.t.u-tokyo.ac.jp
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
