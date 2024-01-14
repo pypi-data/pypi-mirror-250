@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+app/stamina/__init__.py
+app/stamina/src/__init__.py
+app/stamina/src/stamina.py
+app/stamina_pipeline.egg-info/PKG-INFO
+app/stamina_pipeline.egg-info/SOURCES.txt
+app/stamina_pipeline.egg-info/dependency_links.txt
+app/stamina_pipeline.egg-info/top_level.txt
