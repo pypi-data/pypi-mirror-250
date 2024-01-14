@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+jobbot_algos.egg-info/PKG-INFO
+jobbot_algos.egg-info/SOURCES.txt
+jobbot_algos.egg-info/dependency_links.txt
+jobbot_algos.egg-info/requires.txt
+jobbot_algos.egg-info/top_level.txt
+lib/__init__.py
+lib/core.py
+lib/headhunter_parser.py
+lib/postgres.py
