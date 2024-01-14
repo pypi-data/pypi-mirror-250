@@ -1,0 +1,2 @@
+_amplpy_copt_swig
+amplpy_copt
