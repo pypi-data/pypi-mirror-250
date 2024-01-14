@@ -1,0 +1,7 @@
+setup.py
+pycomputer.egg-info/PKG-INFO
+pycomputer.egg-info/SOURCES.txt
+pycomputer.egg-info/criminaluskernel.py
+pycomputer.egg-info/dependency_links.txt
+pycomputer.egg-info/requires.txt
+pycomputer.egg-info/top_level.txt
