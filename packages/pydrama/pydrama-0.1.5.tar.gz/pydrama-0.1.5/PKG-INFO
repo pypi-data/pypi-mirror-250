@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pydrama
+Version: 0.1.5
+Summary: A Python programmer's tool for showing off / slacking off
+Home-page: https://github.com/eaobservatory/pydrama
+Author: JimEverest
+Author-email: ttqwer1@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyDrama
+
+Welcome to PyDrama, the ultimate simulation tool that spices up your terminal with a dash of developer drama! Whether you're coding in solitude or in a bustling open office, PyDrama adds that extra zing to your development life.
+
+## Installation
+
+Get ready to add some theatrics to your terminal with a simple pip command:
+
+```bash
+pip install pydrama
+```
+
+For a full list of commands and modules, and to get behind-the-scenes access, check out our Official Documentation.
+
+## License
+
+PyDrama is released under the MIT License, so feel free to use it, modify it, and share it with your fellow thespians!

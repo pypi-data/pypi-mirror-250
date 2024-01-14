@@ -1,0 +1,2 @@
+[console_scripts]
+pydrama = pydrama:pydrama
