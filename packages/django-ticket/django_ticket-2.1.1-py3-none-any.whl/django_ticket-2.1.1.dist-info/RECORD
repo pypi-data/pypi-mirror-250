@@ -1,0 +1,13 @@
+ticket/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ticket/admin.py,sha256=YWkdZwv57-xbfDWf3hOeOgl9d8XjmPdwwdjOQVHdY8I,2016
+ticket/apps.py,sha256=GPFlc9ItM483esI5EFagDa5JpeTcE4QTjM9GKjWfVOo,144
+ticket/context_processors.py,sha256=G0s1nTTKBhqJ99qUmqIdQuExWKV1bcxUHAS0a9mjw9g,229
+ticket/models.py,sha256=7IXDw9N6P7kuwwmh3JsKsOvbyh9p7WdzQFbg-q9cfho,2638
+ticket/serializers.py,sha256=ztK3hVqHML4ZK2hdn-UD_XnsThxYkrTabvVCHfwmyGc,2734
+ticket/urls.py,sha256=IMPdk0c9CrUV8-0yBsx6R3pBrC4qtM_7WgZaCceUFOg,384
+ticket/views.py,sha256=TETLWQRRat3zCqvBXr_hsjGUyuQHO3K3NCAxjCG-_zs,3146
+django_ticket-2.1.1.dist-info/LICENSE,sha256=D4B3LZFbzrjqWZoAXobWxayTvOXzMN-3CeaQO2tleMw,1097
+django_ticket-2.1.1.dist-info/METADATA,sha256=X63gVyTlDukl5Oh0lBuiKgG2hdCD_pWYiebYu1CvlR0,3656
+django_ticket-2.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_ticket-2.1.1.dist-info/top_level.txt,sha256=mgGksiFAGJwt5KMWsKEbatTQe5wK0tWJ6ods0zMoa4c,7
+django_ticket-2.1.1.dist-info/RECORD,,
