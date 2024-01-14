@@ -1,0 +1,32 @@
+导入模块
+```python
+>>> import numpy as np
+>>> import pandas as pd
+>>> with open("../stack.py", "rt", encoding="utf8") as fp: exec(fp.read())
+```
+
+测试stack参数
+```python
+>>> df_single_level_cols = pd.DataFrame([[0, 1], [2, 3]], index=['cat', 'dog'], columns=['weight', 'height'])
+>>> print(df_single_level_cols)
+>>> res = stack(df_single_level_cols)
+>>> print(res)
+```
+
+测试unstack参数
+```python
+>>> index = pd.MultiIndex.from_tuples([('one', 'a'), ('one', 'b'), ('two', 'a'), ('two', 'b')])
+>>> s = pd.Series(np.arange(1.0, 5.0), index=index)
+>>> print(s)
+>>> res = stack(s, isstack=0)
+>>> print(res)
+```
+
+测试unstack参数，指定level
+```python
+>>> index = pd.MultiIndex.from_tuples([('one', 'a'), ('one', 'b'), ('two', 'a'), ('two', 'b')])
+>>> s = pd.Series(np.arange(1.0, 5.0), index=index)
+>>> print(s)
+>>> res = stack(s, isstack=0, level=0)
+>>> print(res)
+```
