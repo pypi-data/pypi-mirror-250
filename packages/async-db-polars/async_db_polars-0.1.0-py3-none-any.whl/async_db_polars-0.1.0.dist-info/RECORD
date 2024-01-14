@@ -1,0 +1,5 @@
+interface/db.py,sha256=CfSowUWAXbnSwcgRg1PCB7tI-nB43PB21ojC5YqtRMA,7693
+pg/pgdb.py,sha256=WU02sMSHfc4-evzH7Z61DABBtJdoD5YcXoa7TX8W8c8,3435
+async_db_polars-0.1.0.dist-info/METADATA,sha256=Qa15Un2dULHQu6dM8lvBhH3Jp-akwhmHJRCf8KVenfg,541
+async_db_polars-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+async_db_polars-0.1.0.dist-info/RECORD,,
