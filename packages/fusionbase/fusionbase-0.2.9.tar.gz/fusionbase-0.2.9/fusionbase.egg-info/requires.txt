@@ -1,0 +1,7 @@
+requests-toolbelt
+tqdm
+rich
+pathos
+aiohttp
+aiofiles
+orjson
