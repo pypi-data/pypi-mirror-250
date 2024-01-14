@@ -1,0 +1,16 @@
+absl-py
+array-record
+cloudpickle
+numpy
+protobuf
+pyarrow>=14.0.0
+pyroaring
+tensorflow_datasets
+typing_extensions
+
+[dev]
+pandas
+pyarrow-stubs
+ray
+tensorflow
+types-protobuf
