@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: quantpack
+Version: 0.0.1
+Summary: A Python Package designed for use in the quantitative finance space
+Author: Rory Sullivan
+Author-email: <rorysullivan6@gmail.com>
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.md
+
+
+
+Quantpack is to be designed as a toolkit for quantitative analysis and construction of financial products.
+The tool is designed from practical realworld use-cases and focuses on readablity + flexibility for users to mold the project for their needs.
+
