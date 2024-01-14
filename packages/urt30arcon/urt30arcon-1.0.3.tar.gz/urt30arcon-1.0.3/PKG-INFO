@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: urt30arcon
+Version: 1.0.3
+Summary: Quake3 Async RCON Client
+Keywords: Quake3,RCON
+Author-email: Urt Thirtyplus <urt30plus@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Project-URL: Home, https://github.com/urt30plus/urt30arcon
+Project-URL: Source, https://github.com/urt30plus/urt30arcon
+
+# Quake3 Async RCON Client
+
+
+## Requirements
+
+- Game: [Urban Terror 4.3.4](https://www.urbanterror.info/)
+- Python: 3.11+
+
+## Usage
+
+```python
+import asyncio
+
+from urt30arcon import AsyncRconClient
+
+
+async def async_main() -> None:
+    client = await AsyncRconClient.create_client(host="127.0.0.1", port=27960, password="sekret")
+
+    await client.bigtext("hello world")
+    game = await client.game_info()
+    if game.players:
+        first_player = game.players[0]
+        await client.slap(slot=first_player.slot)
+
+
+if __name__ == '__main__':
+    asyncio.run(async_main())
+```
+
