@@ -1,0 +1,3 @@
+[console_scripts]
+hashstorm=hashstorm.__main__:main
+
