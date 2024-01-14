@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+pyxdcc/__init__.py
+pyxdcc/pyxdcc.py
+pyxdcc_cli.egg-info/PKG-INFO
+pyxdcc_cli.egg-info/SOURCES.txt
+pyxdcc_cli.egg-info/dependency_links.txt
+pyxdcc_cli.egg-info/entry_points.txt
+pyxdcc_cli.egg-info/requires.txt
+pyxdcc_cli.egg-info/top_level.txt
