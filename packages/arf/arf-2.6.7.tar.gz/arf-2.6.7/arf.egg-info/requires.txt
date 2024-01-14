@@ -1,0 +1,6 @@
+numpy<2
+h5py!=3.3.*,>=2.8
+packaging>=23.0
+
+[test]
+pytest>=7.0
