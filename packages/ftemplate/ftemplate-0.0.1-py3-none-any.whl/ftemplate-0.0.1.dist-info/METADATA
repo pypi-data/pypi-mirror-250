@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ftemplate
+Version: 0.0.1
+Summary: ftemplate
+Project-URL: Homepage, https://github.com/aaronccasanova/aacc
+Project-URL: Bug Tracker, https://github.com/aaronccasanova/aacc/issues
+Author-email: Aaron Casanova <aaronccasanova@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ftemplate
+
+## Installation
+
+```bash
+pip install ftemplate
+```
+
+## Usage
+
+```python
+from ftemplate import FTemplate
+
+template = FTemplate()
+
+template.format()
+```
