@@ -1,0 +1,11 @@
+modularbuildingpy/__init__.py,sha256=KUAOvP7oWn96y0NhpP9DN7HMuCmugzQ7rzeKFyiM98I,469452
+modularbuildingpy/data/SteelSections_W_HSS.xlsx,sha256=3YITO8za_0AXCrVLWaTn7V_4tOAIGwYgo4ydEX240rg,107902
+modularbuildingpy/data/aisc-shapes-database-v15.0.xlsx,sha256=jbrbEfcMVjHpYOKcJHvvRlPhumbd_qmGCUKzrna0yMQ,2407804
+modularbuildingpy/data/aisc-shapes-database-v16.0.xlsx,sha256=OaJQ_V6ZXqgCaYJx0DTbx1Do33rlMs84R_MbagRPHnc,2028546
+modularbuildingpy/utils/__init__.py,sha256=5YdTwwQoP6maFB-_aV12Jf5cZJMLoUeunz-pb1XWKV0,14
+modularbuildingpy/utils/helper.py,sha256=vyW6mVwSHhPsVmWAntQ5xBEfUb5pd1zbarPqgIx9nic,9908
+modularbuildingpy-0.2.5.dist-info/LICENSE,sha256=1BtJw8eopOZeayIj0vOdLkjZM13N5RZ-C_kTkfi51BA,1077
+modularbuildingpy-0.2.5.dist-info/METADATA,sha256=OMVzYc6hyDKPs_MPdfke2nvp3YAJQ8tSwycxgQn3Jnk,2859
+modularbuildingpy-0.2.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+modularbuildingpy-0.2.5.dist-info/top_level.txt,sha256=g3P366fwKXpN1sPjX113fCQOwhpKpHdNbyf_vn35nv0,18
+modularbuildingpy-0.2.5.dist-info/RECORD,,
