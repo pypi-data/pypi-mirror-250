@@ -1,0 +1,1 @@
+JSONType = str | int | float | bool | None | list['JSONType'] | dict[str, 'JSONType']

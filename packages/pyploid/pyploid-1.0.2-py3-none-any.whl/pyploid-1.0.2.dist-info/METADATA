@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyploid
+Version: 1.0.2
+Summary: Framework for building experiments or educational material regarding evolutionary algorithms and genetics.
+Home-page: https://gitlab.com/patrick.daniel.gress/pyvolution/-/wikis/home
+License: LGPL-3.0-or-later
+Keywords: evolutionary algorithms,genes,evolution,genetic programming
+Author: voidpointercast
+Author-email: voidpointercast@justmail.de
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: returns (>=0.22.0,<0.23.0)
+Requires-Dist: toolz (>=0.12.0,<0.13.0)
+Project-URL: Repository, https://gitlab.com/patrick.daniel.gress/pyvolution
+Description-Content-Type: text/markdown
+
+# Pyploid
+
+Pyploid is currently under development.
