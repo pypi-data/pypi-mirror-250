@@ -1,0 +1,13 @@
+bettyfixer/__init__.py,sha256=JzG29DtGzMbSrESIFrKmgQJhMkSKQ2jT8Dh_Vxg-i78,27
+bettyfixer/autoprototype.py,sha256=DLr2vdLVZTv5CgIrBSDPJoAlz8b8vdN08rOVEjSF7mo,3729
+bettyfixer/backup.py,sha256=DB6HlDRzyTikUOm5Ds5atYfAfm1p4njsTC_Wq9ICKqw,461
+bettyfixer/betty_fixer.py,sha256=4GR30fYps7hgjDFo0_PkN8PGzTMQ8APaxqM3OoaVBaw,13081
+bettyfixer/betty_handler.py,sha256=TjAxTusPX_Ndr5CelN3ucug7ADfnXqpqPFgUpMqBbgA,2214
+bettyfixer/errors_extractor.py,sha256=PLq5R7-fAPsd3-AS0WnFU5OoBi0hpqUUaylMxp7oRrE,1410
+bettyfixer/extract_line.py,sha256=tQWu45PGmil6MFB8va82k0z6anc8aTOI9Dq5wHux67E,38394
+bettyfixer-1.3.dist-info/AUTHORS,sha256=3FQ0plrnUTcm1TeyEcR2uOY8ss6XJl9gExMC3v04PSc,77
+bettyfixer-1.3.dist-info/METADATA,sha256=yrXdFAkvhw0FxxlMxuxXZ0gopVSIp5gl8acMPzZelxo,258
+bettyfixer-1.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bettyfixer-1.3.dist-info/entry_points.txt,sha256=fUXYB4lWWnmLX_VpwyK_8LopC5GbSS7EtahxMb92noI,59
+bettyfixer-1.3.dist-info/top_level.txt,sha256=KnXZh0R1hqiJNcILJnUajGGXnFtoOv2WNuZxvP86kqE,11
+bettyfixer-1.3.dist-info/RECORD,,
