@@ -1,0 +1,2 @@
+hypothesis[lark]>=6.93.0
+libcst>=1.0.1
