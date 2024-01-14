@@ -1,0 +1,11 @@
+mosparo_api_client/Client.py,sha256=kgu19LLyB8XKVwyhrOcXw4r3N8dqdShT1bMbqUZRkEo,7059
+mosparo_api_client/MosparoException.py,sha256=wsQrOHDbSGQXlZRUiTvgQaJBH-IBD01-3C-Ouxpmchw,43
+mosparo_api_client/RequestHelper.py,sha256=PJPJkeWMpDdZZJDicbpRj-SB_QQEsG791xI0PvK3KAc,4078
+mosparo_api_client/StatisticResult.py,sha256=B4tfwyTie-ZdPI7DHlUqzgY2qAHjNJyJhq9HuQKHPlQ,1651
+mosparo_api_client/VerificationResult.py,sha256=ht7f7VIoInvG4fnjgHdGdmRx5IdnVGOEJp1qjf9wPN4,2635
+mosparo_api_client/__init__.py,sha256=6zdQstrq7gUQE86UHFq0dpZxhTavCNKxJcan7buEe-g,205
+mosparo_api_client-1.1.0.dist-info/LICENSE,sha256=UrDM4YaTPugKsrl1A0Q498GGAs4TdfZV-2-oT_gMbMc,1108
+mosparo_api_client-1.1.0.dist-info/METADATA,sha256=n-JIEdZBXyigZxSdq27g7pPs3vX95iF-DLhbnRxHxAs,8656
+mosparo_api_client-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mosparo_api_client-1.1.0.dist-info/top_level.txt,sha256=VMhBsqjdSE4myvMp2YPJ5ksEFOZIicOIZwxjLMfOYLM,19
+mosparo_api_client-1.1.0.dist-info/RECORD,,
