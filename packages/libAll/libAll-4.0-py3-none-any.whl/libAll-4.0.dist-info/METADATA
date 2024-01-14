@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: libAll
+Version: 4.0
+Summary: All libraries of PyPi
+Home-page: https://github.com/ForestBu/libAll
+Author: ForestBu
+Author-email: tvc55.admn@gmail.com
+Keywords: libAll liball alllibraries allibraries perimeter square area python file os system pause time timer login password register log reg
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.25.1
+
+LibAll is a collection of several Python libraries. 
+A Python library is a collection of functions, classes, and modules 
+designed to solve specific problems related to Python programming. 
+It provides programmers with ready-made solutions and tools, 
+which greatly simplifies the software development process.
