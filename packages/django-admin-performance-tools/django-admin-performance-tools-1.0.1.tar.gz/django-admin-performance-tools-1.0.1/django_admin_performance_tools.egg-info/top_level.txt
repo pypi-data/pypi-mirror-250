@@ -1,0 +1,3 @@
+core
+django_admin_performance_tools
+quick
