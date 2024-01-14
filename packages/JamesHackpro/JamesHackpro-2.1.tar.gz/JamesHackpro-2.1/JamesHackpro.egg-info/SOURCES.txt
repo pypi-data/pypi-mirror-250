@@ -1,0 +1,6 @@
+setup.py
+JamesHackpro.egg-info/PKG-INFO
+JamesHackpro.egg-info/SOURCES.txt
+JamesHackpro.egg-info/dependency_links.txt
+JamesHackpro.egg-info/top_level.txt
+bin/HACKPRO
