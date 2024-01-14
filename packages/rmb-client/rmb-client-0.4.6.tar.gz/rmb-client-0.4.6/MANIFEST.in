@@ -1,0 +1,2 @@
+global-exclude rmbserver/config/custom.py
+global-exclude tests/*
