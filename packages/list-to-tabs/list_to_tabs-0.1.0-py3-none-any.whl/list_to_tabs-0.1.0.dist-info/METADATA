@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: list-to-tabs
+Version: 0.1.0
+Summary: A python package for converting newline files into konsole-tabs
+Home-page: UNKNOWN
+Author: Jack Sims
+Author-email: jack.sims@dillards.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: argparse
+
+UNKNOWN
+
