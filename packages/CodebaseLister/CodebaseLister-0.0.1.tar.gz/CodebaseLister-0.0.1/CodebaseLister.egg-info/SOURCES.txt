@@ -1,0 +1,9 @@
+README.md
+setup.py
+CodebaseLister.egg-info/PKG-INFO
+CodebaseLister.egg-info/SOURCES.txt
+CodebaseLister.egg-info/dependency_links.txt
+CodebaseLister.egg-info/requires.txt
+CodebaseLister.egg-info/top_level.txt
+codebaselister/__init__.py
+codebaselister/main.py
