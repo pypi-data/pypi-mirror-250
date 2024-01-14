@@ -1,0 +1,3 @@
+[console_scripts]
+log_memory_usage = plot_and_log_memory_usage.log_memory_usage:main
+plot_logged_memory_usage = plot_and_log_memory_usage.plot_logged_memory_usage:main
