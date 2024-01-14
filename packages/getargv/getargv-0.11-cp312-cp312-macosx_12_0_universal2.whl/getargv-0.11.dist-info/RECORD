@@ -1,0 +1,11 @@
+_getargv.cpython-312-darwin.so,sha256=uw_a1qi1ZcTERzDaSI2jLV1adImMHu3CzmxeYrpXJkw,133483
+getargv/__init__.py,sha256=Pb4USJlRA77N5UgswA2d_ErwElNJZAiAckHxjWbsTUk,2219
+getargv/__init__.pyi,sha256=q6M3Bxp8czpVunX9w7ZKfA8S3HhlQM2nR4GAfj2vnW4,6515
+getargv/_getargv.pyi,sha256=4x5Ev41BacQEDasMqvuDNGKtCcOgQf7E_OVevfmhQXg,114
+getargv/_getargvmodule.c,sha256=J5EGffPJpt1dUdF9bsgw0Y0X2t6xtaZiXbJroVrjaPA,4465
+getargv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getargv-0.11.dist-info/LICENSE.txt,sha256=gPGz7L9Y7sG7ym4nfNT5ejwCjiL9Ur2vc7REjauZO_Y,1546
+getargv-0.11.dist-info/METADATA,sha256=EyPwIA4RfEcnV4JVsOdyxE3poOW6rsFpZeOuKNC-XxE,4836
+getargv-0.11.dist-info/WHEEL,sha256=AKqhb3SyBi6n3DyossRXH4GHKESHSsSjoHXGc-jSio0,115
+getargv-0.11.dist-info/top_level.txt,sha256=3NN-PiRhBFbcJXkTpVnY48tKYf3iuNKjhYLxp4GY8u4,17
+getargv-0.11.dist-info/RECORD,,
