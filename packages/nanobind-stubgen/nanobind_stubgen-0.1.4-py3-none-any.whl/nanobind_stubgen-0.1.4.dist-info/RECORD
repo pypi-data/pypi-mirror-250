@@ -1,0 +1,10 @@
+nanobind_stubgen/NanobindStubsGenerator.py,sha256=LBm3v3ajaJJRKbhroy8Po_2OwG5WbpCCw8cryfitLMM,13145
+nanobind_stubgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nanobind_stubgen/__main__.py,sha256=vrHQazrUuTUGoJ74es2G0R_Dh5bLUIEsMCuithhOhvo,814
+nanobind_stubgen/utils.py,sha256=l6wVToIAVbTR7KikVX8CFjGu2CBEN5uS8LBwaE-uNuU,3078
+nanobind_stubgen-0.1.4.dist-info/LICENSE,sha256=YKwaroTMxLl6skIj4HeeWFDSX8x7hvPubxrpwq3R2j0,1075
+nanobind_stubgen-0.1.4.dist-info/METADATA,sha256=FQOAxhCj7s-3TUUr49CqAEfN9I7zvU0t3TI6XUZcO_s,2192
+nanobind_stubgen-0.1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+nanobind_stubgen-0.1.4.dist-info/entry_points.txt,sha256=i-bq2yBf-Mqo-bUEI2TLPfkecfuOytFxfVydSA_NKGw,69
+nanobind_stubgen-0.1.4.dist-info/top_level.txt,sha256=VwFizhHek0sTNbZvsM_sQYd9hrFansF0QBzJo-QWHgY,17
+nanobind_stubgen-0.1.4.dist-info/RECORD,,
