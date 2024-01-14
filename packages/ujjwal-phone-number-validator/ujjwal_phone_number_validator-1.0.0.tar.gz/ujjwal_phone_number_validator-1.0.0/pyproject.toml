@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ujjwal-phone-number-validator"
+version = "1.0.0"
+description = ""
+authors = ["ujjwal.kumar <ujjwal.kumar@crestdatasys.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+requests-mock = "^1.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
