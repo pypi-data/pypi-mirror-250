@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "RPi_GPIO_Helper"
+version = "2.3.0"
+authors = [
+  { name="Taogya", email="132679709+taogya@users.noreply.github.com" },
+]
+description = "RPi.GPIO Helper Library."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+]
+
+[tool.hatch.build]
+exclude = [
+    "build",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/taogya/RPi_GPIO_Helper"
+"Bug Tracker" = "https://github.com/taogya/RPi_GPIO_Helper/issues"

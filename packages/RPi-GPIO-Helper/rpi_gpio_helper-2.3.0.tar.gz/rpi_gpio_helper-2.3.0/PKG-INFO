@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: RPi_GPIO_Helper
+Version: 2.3.0
+Summary: RPi.GPIO Helper Library.
+Project-URL: Homepage, https://github.com/taogya/RPi_GPIO_Helper
+Project-URL: Bug Tracker, https://github.com/taogya/RPi_GPIO_Helper/issues
+Author-email: Taogya <132679709+taogya@users.noreply.github.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2023, Taogya
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# RPi_GPIO_Helper
+RPi.GPIO Helper Library.<br>
+https://pypi.org/project/RPi-GPIO-Helper/
+
+github<br>
+https://github.com/taogya/RPi_GPIO_Helper
+
+# Installation
+```
+# pip install RPi.GPIO
+pip install RPi-GPIO-Helper
+```
+
+# Usage
+```
+# GPIO is used in same way as RPi.GPIO.
+from RPi_GPIO_Helper import GPIO, Pin
+
+
+out_pin = Pin(23, GPIO.OUT, initial=GPIO.LOW)
+out_pin.output(True) # or out_pin.output(GPIO.HIGH)
+# out_pin.cleanup()
+
+in_pin = Pin(24, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+ret = in_pin.input()
+# in_pin.cleanup()
+```
