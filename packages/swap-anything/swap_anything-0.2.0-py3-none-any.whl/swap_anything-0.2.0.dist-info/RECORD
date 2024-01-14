@@ -1,0 +1,12 @@
+swapanything/__about__.py,sha256=w6OolX8zHkn_tmtcVh3Cn73WZQB2twDk4DuJFQtQIKs,79
+swapanything/__init__.py,sha256=ExS-7xKL8Zc5ogZQkfuRtd7eS83f2WdMApWh4Z9ssvQ,35
+swapanything/prep.py,sha256=kGMuw7GCY2yLgE0_cgBKEUVRlLHEuDon98Qj58O1FTo,3283
+swapanything/select.py,sha256=b1etmJ5Okw8G_EAKD9FWCSjBn7ybaB7qkPH0c7XwrR4,4155
+swapanything_backend/__init__.py,sha256=Z2-YNaFjk2Pe31-rLDoEJzn0TWoPTkoC-KR5SMeoInc,233
+swapanything_backend/_base.py,sha256=FyqG5YHC0D4tH4d4Sx_bfkOMUI-g0KpuL__HHM04GQQ,817
+swapanything_backend/airtable.py,sha256=B_f2VDzPquCoad7J-CwdVXifxnfrlW1cw4-giVAAgC8,3607
+swap_anything-0.2.0.dist-info/LICENSE,sha256=F2MJnDxuVc6ckp8z8kPMdjE379Imuklyo8D7Uf44zDM,1068
+swap_anything-0.2.0.dist-info/METADATA,sha256=6qRngXPChFuBTETYlkwwHEvsnjuq8KyTTLtyb04q_Bk,11005
+swap_anything-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+swap_anything-0.2.0.dist-info/top_level.txt,sha256=XdJoiGwUVI51Jig7caUvw7vzMiKw4YiyvH0T76RqDiU,34
+swap_anything-0.2.0.dist-info/RECORD,,
