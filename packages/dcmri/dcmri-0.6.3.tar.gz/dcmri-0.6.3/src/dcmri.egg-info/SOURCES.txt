@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+src/dcmri/__init__.py
+src/dcmri/lib.py
+src/dcmri/pk.py
+src/dcmri/tools.py
+src/dcmri.egg-info/PKG-INFO
+src/dcmri.egg-info/SOURCES.txt
+src/dcmri.egg-info/dependency_links.txt
+src/dcmri.egg-info/requires.txt
+src/dcmri.egg-info/top_level.txt
+tests/test_lib.py
+tests/test_pk.py
+tests/test_tools.py
