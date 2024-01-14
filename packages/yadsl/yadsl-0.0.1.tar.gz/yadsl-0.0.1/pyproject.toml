@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "yadsl"
+version = "0.0.1"
+description = "yadsl is a simple Python module to easily fetch data from https://adsl.yemen.net.ye official website."
+authors = ["Osama Mohammed Al-zabidi <omamkaz@gmail.com>"]
+license = "GPL-3.0"
+readme = ["README.md", "CHANGELOG.md"]
+keywords = [
+    "yemen",
+    "adsl",
+    "internet",
+    "balance",
+    "check",
+    "web",
+    "scrape",
+    "bs4",
+    "script"
+]
+repository = "https://github.com/omamkaz/yadsl"
+packages = [{ include = "yadsl" }]
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+requests = "==2.31.0"
+beautifulsoup4 = "==4.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
