@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: requirements_checker
+Version: 0.0.9
+Summary: check requirements (system) and raise if no match
+Home-page: https://github.com/centroid457/
+Author: Andrei Starichenko
+Author-email: centroid@mail.ru
+Project-URL: Source, https://github.com/centroid457/requirements_checker
+Keywords: check requirements,check system requirements,raise if no requirements
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# requirements_checker
+Designed to raise if no requirements met
+
+## Features
+1. check requirements (system), raise if no match 
+
+## License
+See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
+
+
+## Release history
+See the [HISTORY.md](HISTORY.md) file for release history.
+
+
+## Installation
+```commandline
+pip install requirements-checker
+```
+
+## Import
+```python
+from requirements_checker import *
+```
+
+## GUIDE
+### USAGE
+
+```python
+from requirements_checker import *
+
+
+class ReqCheckStr_Os_MY(ReqCheckStr_Os):
+    LINUX: bool = True
+    WINDOWS: bool = False
+
+
+ReqCheckStr_Os_MY()  # check requirement!  
+```
