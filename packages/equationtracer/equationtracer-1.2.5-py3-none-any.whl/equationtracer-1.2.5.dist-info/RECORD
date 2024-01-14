@@ -1,0 +1,11 @@
+equationtracer/__init__.py,sha256=jBmZf3HLbiQlWiolOsAA6J5-BbxXD2bqFqEqDH3lfqo,22
+equationtracer/__main__.py,sha256=yVwLha8v7fIYmWPgjrRTFWVaEQmScCJmWF0DMXgjCm4,140
+equationtracer/button.py,sha256=2ogVCIJ34eger8XNvJSLzg0jgUrn80z-kEdIPO_WfhE,3929
+equationtracer/keyboard.py,sha256=isnHMASt9Lb5tAfvac2I5wUxmqcPmv5dTRj102zWERk,486
+equationtracer/main.py,sha256=nOqUDhytcSra0sjBGCPJ1uqqtoX0DokIVvtO3aH3ATg,8047
+equationtracer/printers.py,sha256=kdTa5YbVbtxZYWb1GPsnez4QD3ms0dCOjVeCpnbZeUE,854
+equationtracer-1.2.5.dist-info/LICENSE,sha256=iIMRmg4TIhO7S4JxXqsa7uEe4TqIQQGMcy2OKLjMumE,1065
+equationtracer-1.2.5.dist-info/METADATA,sha256=q736HlKtdXLQCb7iL6pSDqqh63VMpzUpudUnub0w-Fc,2208
+equationtracer-1.2.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+equationtracer-1.2.5.dist-info/entry_points.txt,sha256=RIAGXwtdIGdCvM7oPylHlAukms_RqaeHd9DJief4FOc,59
+equationtracer-1.2.5.dist-info/RECORD,,
