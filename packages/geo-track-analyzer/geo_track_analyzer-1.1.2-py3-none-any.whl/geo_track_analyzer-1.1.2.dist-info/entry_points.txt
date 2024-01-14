@@ -1,0 +1,4 @@
+[console_scripts]
+enhance-elevation=geo_track_analyzer.cli.update_elevation:main
+extract-fit_track=geo_track_analyzer.cli.extract_track:main
+
