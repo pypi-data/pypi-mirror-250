@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+puretest/__init__.py
+puretest.egg-info/PKG-INFO
+puretest.egg-info/SOURCES.txt
+puretest.egg-info/dependency_links.txt
+puretest.egg-info/top_level.txt
