@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/vqrcoinrpc/__init__.py
+src/vqrcoinrpc/__version__.py
+src/vqrcoinrpc/_exceptions.py
+src/vqrcoinrpc/_types.py
+src/vqrcoinrpc/bitcoin_rpc.py
+src/vqrcoinrpc.egg-info/PKG-INFO
+src/vqrcoinrpc.egg-info/SOURCES.txt
+src/vqrcoinrpc.egg-info/dependency_links.txt
+src/vqrcoinrpc.egg-info/requires.txt
+src/vqrcoinrpc.egg-info/top_level.txt
+tests/test_client_config.py
+tests/test_connection.py
