@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nokoskia
+Version: 1.1
+Summary: simply fill the terminal with famous breaking bad dialogue
+Home-page: UNKNOWN
+Author: PranavSV
+Author-email: pranavsv2004@gmail.com
+License: UNKNOWN
+Keywords: python,breakingbad,movie,fun,funny tools,command line tool
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+funny command line tool
+

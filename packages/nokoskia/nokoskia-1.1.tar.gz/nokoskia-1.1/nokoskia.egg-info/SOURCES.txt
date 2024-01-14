@@ -1,0 +1,9 @@
+README.md
+setup.py
+nokosia/__init__.py
+nokosia/nokoskia.py
+nokoskia.egg-info/PKG-INFO
+nokoskia.egg-info/SOURCES.txt
+nokoskia.egg-info/dependency_links.txt
+nokoskia.egg-info/entry_points.txt
+nokoskia.egg-info/top_level.txt
