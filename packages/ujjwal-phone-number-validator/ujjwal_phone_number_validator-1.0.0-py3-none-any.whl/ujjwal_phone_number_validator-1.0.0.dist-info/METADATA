@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ujjwal-phone-number-validator
+Version: 1.0.0
+Summary: 
+Author: ujjwal.kumar
+Author-email: ujjwal.kumar@crestdatasys.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+
